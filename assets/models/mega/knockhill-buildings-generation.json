@@ -1,0 +1,102 @@
+{
+  "version": 1,
+  "package": "R07-M07-7",
+  "date": "2026-10-24",
+  "status": "accepted",
+  "source": {
+    "original_version": "1.1a",
+    "path": "data/knocfree.bfp",
+    "crc32": "7e00bade",
+    "member": 5,
+    "member_name": "OBJECTS.C3D",
+    "member_crc32": "24a4dac8"
+  },
+  "scope": {
+    "rows": 16,
+    "types": 16,
+    "raw_bindings": 26,
+    "own_materials": 29
+  },
+  "meshes": [
+    {"member":5,"mesh":0,"name":"KN01MAR_1","source_crc32":"20a5104a","type":"4cf44998","nodes":[[1,0],[3,0],[5,0],[7,0],[9,0],[11,0],[29,0]],"package":"M07-7"},
+    {"member":5,"mesh":1,"name":"KN05SBR_1","source_crc32":"929d34a1","type":"a45c6be2","nodes":[[13,0]],"package":"M07-7"},
+    {"member":5,"mesh":2,"name":"KN11LRH_1","source_crc32":"e6194d9a","type":"6bf0b4e5","nodes":[[15,0]],"package":"M07-7"},
+    {"member":5,"mesh":3,"name":"KN12COMT_1","source_crc32":"2b7087d6","type":"4592ad63","nodes":[[17,0]],"package":"M07-7"},
+    {"member":5,"mesh":4,"name":"KN18SLP_1","source_crc32":"05ff8dec","type":"569d6e1f","nodes":[[19,0]],"package":"M07-7"},
+    {"member":5,"mesh":5,"name":"KN19LGT_1","source_crc32":"935d5a29","type":"18a14bb2","nodes":[[21,0],[23,0]],"package":"M07-7"},
+    {"member":5,"mesh":6,"name":"KN17PRB_1","source_crc32":"4148bf07","type":"cc56f6ac","nodes":[[25,0],[415,0],[417,0]],"package":"M07-7"},
+    {"member":5,"mesh":7,"name":"SN04GST_1","source_crc32":"491d8eb6","type":"28aa2689","nodes":[[27,0]],"package":"M07-7"},
+    {"member":5,"mesh":17,"name":"DA01MARA_1","source_crc32":"5da0d165","type":"7033bbad","nodes":[[107,0]],"package":"M07-7"},
+    {"member":5,"mesh":18,"name":"DA10BBO2_1","source_crc32":"d54476ec","type":"ea4e5cef","nodes":[[109,0]],"package":"M07-7"},
+    {"member":5,"mesh":19,"name":"DA10BBO1_1","source_crc32":"e614fd95","type":"eef038b0","nodes":[[111,0]],"package":"M07-7"},
+    {"member":5,"mesh":20,"name":"DA10BBO3_1","source_crc32":"834a8f2d","type":"8c61f82a","nodes":[[113,0]],"package":"M07-7"},
+    {"member":5,"mesh":21,"name":"DA10BBO4_1","source_crc32":"f9b237a8","type":"aa89ffd7","nodes":[[115,0]],"package":"M07-7"},
+    {"member":5,"mesh":22,"name":"KN03GRST_1","source_crc32":"745e193e","type":"480875fb","nodes":[[117,0],[119,0]],"package":"M07-7"},
+    {"member":5,"mesh":24,"name":"KN15STP2_1","source_crc32":"1ad387dc","type":"8e70da3c","nodes":[[123,0]],"package":"M07-7"},
+    {"member":5,"mesh":31,"name":"KN14HANG_1","source_crc32":"2a702ffa","type":"3e63a57b","nodes":[[421,0]],"package":"M07-7"}
+  ],
+  "geometry": "Existing simple source building bodies, openings, UVs, material slots and placements retained. New detail remains in materials; no building subdivision or added fine geometry.",
+  "materials": [
+    {"name":"KN01MAR1","source_crc32":"1b0d4270","source_size":[64,64],"image":"textures/knockhill-buildings-kn01mar1.webp","crc32":"f45ec02c","bytes":5638,"size":[512,512],"webp_quality":70,"webp_method":6,"source_alpha_exact":true,"generated_source_crc32":"23b14a2b","generated_source_size":[1254,1254],"crop":[0,0,1254,1254]},
+    {"name":"KN01MAR2","source_crc32":"8075d499","source_size":[64,64],"image":"textures/knockhill-buildings-kn01mar2.webp","crc32":"f75ab266","bytes":16078,"size":[512,512],"webp_quality":70,"webp_method":6,"source_alpha_exact":true,"generated_source_crc32":"82f127b5","generated_source_size":[1254,1254],"crop":[0,0,1254,1254]},
+    {"name":"KN01MAR3","source_crc32":"edf34c51","source_size":[64,32],"image":"textures/knockhill-buildings-kn01mar3.webp","crc32":"ca20a764","bytes":3288,"size":[512,256],"webp_quality":70,"webp_method":6,"source_alpha_exact":true,"generated_source_crc32":"fa452e47","generated_source_size":[1774,887],"crop":[0,0,1774,887]},
+    {"name":"KN05SLB","source_crc32":"a2b46566","source_size":[128,32],"image":"textures/knockhill-buildings-kn05slb.webp","crc32":"25525999","bytes":4016,"size":[512,128],"webp_quality":70,"webp_method":6,"source_alpha_exact":true,"generated_source_crc32":"3ce8891f","generated_source_size":[2172,724],"crop":[0,144,2172,573]},
+    {"name":"KN05SLB1","source_crc32":"e3e2372b","source_size":[128,32],"image":"textures/knockhill-buildings-kn05slb1.webp","crc32":"2870ed86","bytes":5476,"size":[512,128],"webp_quality":70,"webp_method":6,"source_alpha_exact":true,"generated_source_crc32":"5c227d74","generated_source_size":[2172,724],"crop":[0,190,2172,534]},
+    {"name":"KN05SLB2","source_crc32":"59c2ae14","source_size":[32,32],"image":"textures/knockhill-buildings-kn05slb2.webp","crc32":"406306f2","bytes":20314,"size":[512,512],"webp_quality":70,"webp_method":6,"source_alpha_exact":true,"generated_source_crc32":"5188eba3","generated_source_size":[1254,1254],"crop":[0,0,1254,1254]},
+    {"name":"KN05SLB3","source_crc32":"1916a289","source_size":[64,32],"image":"textures/knockhill-buildings-kn05slb3.webp","crc32":"74e1860e","bytes":7818,"size":[512,256],"webp_quality":70,"webp_method":6,"source_alpha_exact":true,"generated_source_crc32":"4a15b455","generated_source_size":[1774,887],"crop":[0,0,1774,887]},
+    {"name":"KN05SLB4","source_crc32":"18abfa99","source_size":[64,32],"image":"textures/knockhill-buildings-kn05slb4.webp","crc32":"c6012c5f","bytes":9966,"size":[512,256],"webp_quality":70,"webp_method":6,"source_alpha_exact":true,"generated_source_crc32":"1980e8d0","generated_source_size":[1774,887],"crop":[0,0,1774,887]},
+    {"name":"KN11LRH","source_crc32":"ed5316a2","source_size":[64,64],"image":"textures/knockhill-buildings-kn11lrh.webp","crc32":"0522d1a5","bytes":37448,"size":[512,512],"webp_quality":70,"webp_method":6,"source_alpha_exact":true,"generated_source_crc32":"df469ef5","generated_source_size":[1254,1254],"crop":[0,0,1254,1254]},
+    {"name":"KN11LRH1","source_crc32":"81bf20b3","source_size":[64,64],"image":"textures/knockhill-buildings-kn11lrh1.webp","crc32":"6a6e31b0","bytes":28772,"size":[512,512],"webp_quality":70,"webp_method":6,"source_alpha_exact":true,"generated_source_crc32":"325acf5a","generated_source_size":[1254,1254],"crop":[0,0,1254,1254]},
+    {"name":"KN12COM1","source_crc32":"49683ab7","source_size":[64,64],"image":"textures/knockhill-buildings-kn12com1.webp","crc32":"69a5f693","bytes":44668,"size":[512,512],"webp_quality":70,"webp_method":6,"source_alpha_exact":true,"generated_source_crc32":"89a232d9","generated_source_size":[1254,1254],"crop":[0,0,1254,1254]},
+    {"name":"KN12COM2","source_crc32":"c9e78870","source_size":[64,32],"image":"textures/knockhill-buildings-kn12com2.webp","crc32":"63b3a052","bytes":10996,"size":[512,256],"webp_quality":70,"webp_method":6,"source_alpha_exact":true,"generated_source_crc32":"c8b029b2","generated_source_size":[1774,887],"crop":[0,0,1774,887]},
+    {"name":"KN12COM3","source_crc32":"2bbf017d","source_size":[64,64],"image":"textures/knockhill-buildings-kn12com3.webp","crc32":"b88397f2","bytes":28358,"size":[512,512],"webp_quality":70,"webp_method":6,"source_alpha_exact":true,"generated_source_crc32":"a322c647","generated_source_size":[1254,1254],"crop":[0,0,1254,1254]},
+    {"name":"KN17PRB1","source_crc32":"a2b13802","source_size":[64,32],"image":"textures/knockhill-buildings-kn17prb1.webp","crc32":"451f4de5","bytes":25034,"size":[512,256],"webp_quality":70,"webp_method":6,"source_alpha_exact":true,"generated_source_crc32":"2832e759","generated_source_size":[1774,887],"crop":[0,0,1774,887]},
+    {"name":"KN18SLP","source_crc32":"e5556e96","source_size":[32,128],"image":"textures/knockhill-buildings-kn18slp.webp","crc32":"5f8edae9","bytes":1222,"size":[128,512],"webp_quality":70,"webp_method":6,"source_alpha_exact":true,"generated_source_crc32":"d934c7bf","generated_source_size":[727,2164],"crop":[0,0,727,2164]},
+    {"name":"KN18SLP1","source_crc32":"4dbe890c","source_size":[64,64],"image":"textures/knockhill-buildings-kn18slp1.webp","crc32":"8f53519f","bytes":14716,"size":[512,512],"webp_quality":70,"webp_method":6,"source_alpha_exact":true,"generated_source_crc32":"65b36650","generated_source_size":[1254,1254],"crop":[0,0,1254,1254]},
+    {"name":"KN19LGT","source_crc32":"f41890f3","source_size":[8,128],"image":"textures/knockhill-buildings-kn19lgt.webp","crc32":"0d7b296a","bytes":1394,"size":[32,512],"webp_quality":70,"webp_method":6,"source_alpha_exact":true,"generated_source_crc32":"dd13009a","generated_source_size":[992,1586],"crop":[467,0,524,1586]},
+    {"name":"KN19LGT1","source_crc32":"6669d43f","source_size":[32,64],"image":"textures/knockhill-buildings-kn19lgt1.webp","crc32":"fc412740","bytes":9576,"size":[256,512],"webp_quality":70,"webp_method":6,"source_alpha_exact":true,"generated_source_crc32":"e66cdc4a","generated_source_size":[887,1774],"crop":[0,0,887,1774]},
+    {"name":"N04GSF1","source_crc32":"3ced7509","source_size":[64,64],"image":"textures/silverstone-controltower-n04gsf1.webp","crc32":"ec918490","bytes":47040,"size":[512,512],"source_alpha_exact":true,"reuse":{"source_image":"textures/silverstone-controltower-n04gsf1.webp","donor_source_crc32":"18273e0e","alpha_only_variant":false,"rgb_payload_unchanged":true}},
+    {"name":"DA15SHL5","source_crc32":"9c64c82f","source_size":[32,32],"image":"textures/knockhill-buildings-da15shl5.webp","crc32":"04c815c0","bytes":16214,"size":[512,512],"source_alpha_exact":true,"reuse":{"source_image":"textures/dgp-mt01-da15shl5.webp","donor_source_crc32":"a458a5d2","alpha_only_variant":true,"rgb_payload_unchanged":true}},
+    {"name":"BBSIDE","source_crc32":"59d41d6c","source_size":[32,64],"image":"textures/knockhill-buildings-bbside.webp","crc32":"693661c0","bytes":3132,"size":[256,512],"source_alpha_exact":true,"reuse":{"source_image":"textures/brands-building-bbside.webp","donor_source_crc32":"45cf8603","alpha_only_variant":true,"rgb_payload_unchanged":true}},
+    {"name":"BBFRONT","source_crc32":"557af945","source_size":[32,32],"image":"textures/brands-building-bbfront.webp","crc32":"2ae2abae","bytes":6322,"size":[512,512],"source_alpha_exact":true,"reuse":{"source_image":"textures/brands-building-bbfront.webp","donor_source_crc32":"95882117","alpha_only_variant":false,"rgb_payload_unchanged":true}},
+    {"name":"SNAPON","source_crc32":"46c996e9","source_size":[64,32],"image":"textures/dgp-mt03-snapon.webp","crc32":"cdba4c6c","bytes":5844,"size":[512,256],"source_alpha_exact":true,"reuse":{"source_image":"textures/dgp-mt03-snapon.webp","donor_source_crc32":"ac1deeea","alpha_only_variant":false,"rgb_payload_unchanged":true}},
+    {"name":"SIGNDES","source_crc32":"cdca5a89","source_size":[64,32],"image":"textures/dgp-mt03-signdes.webp","crc32":"497b87d9","bytes":8096,"size":[512,256],"source_alpha_exact":true,"reuse":{"source_image":"textures/dgp-mt03-signdes.webp","donor_source_crc32":"2b650dae","alpha_only_variant":false,"rgb_payload_unchanged":true}},
+    {"name":"LVOLVO4","source_crc32":"d27b6b01","source_size":[32,32],"image":"textures/static-vectra-croft-knockhill-lvolvo4.webp","crc32":"91a03259","bytes":840,"size":[512,512],"source_alpha_exact":true,"reuse":{"source_image":"textures/static-vectra-croft-knockhill-lvolvo4.webp","donor_source_crc32":"53d3be16","alpha_only_variant":false,"rgb_payload_unchanged":true}},
+    {"name":"TH07LB3","source_crc32":"fdaf6146","source_size":[128,32],"image":"textures/thruxton-building-th07lb3.webp","crc32":"f526a5c5","bytes":5312,"size":[512,128],"source_alpha_exact":true,"reuse":{"source_image":"textures/thruxton-building-th07lb3.webp","donor_source_crc32":"cd03feb3","alpha_only_variant":false,"rgb_payload_unchanged":true}},
+    {"name":"TH08PBL6","source_crc32":"4a6c9a5b","source_size":[32,32],"image":"textures/thruxton-building-th08pbl6.webp","crc32":"ba3821a3","bytes":49422,"size":[512,512],"source_alpha_exact":true,"reuse":{"source_image":"textures/thruxton-building-th08pbl6.webp","donor_source_crc32":"de70325f","alpha_only_variant":false,"rgb_payload_unchanged":true}},
+    {"name":"TH28LAB4","source_crc32":"2276042b","source_size":[128,32],"image":"textures/thruxton-building-th28lab4.webp","crc32":"7144d159","bytes":1546,"size":[512,128],"source_alpha_exact":true,"reuse":{"source_image":"textures/thruxton-building-th28lab4.webp","donor_source_crc32":"99a1755f","alpha_only_variant":false,"rgb_payload_unchanged":true}},
+    {"name":"TH28LAB5","source_crc32":"8fb8890a","source_size":[128,32],"image":"textures/thruxton-building-th28lab5.webp","crc32":"f321d509","bytes":3700,"size":[512,128],"source_alpha_exact":true,"reuse":{"source_image":"textures/thruxton-building-th28lab5.webp","donor_source_crc32":"4c4dbd44","alpha_only_variant":false,"rgb_payload_unchanged":true}}
+  ],
+  "material_policy": {
+    "new_artwork": "Built-in imagegen, separately painted from attached canonical texture references; crisp newly authored detail, same normalized source chart and repeat phase.",
+    "encoding": "Whole reviewed chart crop/Lanczos downsample, WebP70/method6/max512; original exact-black key enforced from source after RGB painting.",
+    "alpha_variants": "Two old frame images gain only an ALPH chunk from local source; original VP8 compressed RGB payload preserved without re-encoding.",
+    "lettering": "CHUN Racing checked against the larger related KN02GS2 original. Mobil1/RACING and SLIP ROAD IN USE read from related Knockhill charts. Tiny bridge slogan is contextual The worlds leading motor oil reconstruction; exact source wording unconfirmed after related bridge review.",
+    "reuse": "Same-motif sources reviewed with their prior authored outputs; DA15SHL5/BBSIDE require local source-alpha variants. Existing LVOLVO4 T0 image remains unchanged."
+  },
+  "related_material_packages": ["knockhill-nature-generation.json","knockhill-rest-generation.json"],
+  "acceptance": {
+    "checks": ["mega-assets","mega-geometry","scenery-inventory","flag-animation","scene-reference-mega-flags","scene-reference-mega-scenery","native-knockhill"],
+    "native_review": "Existing native probes reused at1920x1080 for source/artwork/Mega front/oblique/rear/driving views. Original single-sided backs retain empty source views. Original nodes, UVs, slots, source bodies and placements retained.",
+    "captures": [
+      {
+        "path": "build/knockhill-rest/review/KN12COMT_1-oblique-mega.webp",
+        "crc32": "5321c76c"
+      },
+      {
+        "path": "build/knockhill-rest/review/KN05SBR_1-oblique-mega.webp",
+        "crc32": "53638ab7"
+      }
+    ]
+  },
+  "track_reconciliation": {
+    "track": 7,
+    "scenery_rows": 168,
+    "types": 144,
+    "raw_bindings": 507,
+    "source_images": 115,
+    "mapped_images": 114,
+    "native_constant": "POST:a645301c",
+    "scope": "No changed source CRC is consumed by another track. Ground SCRUB and the existing T0 LVOLVO4 share their reviewed Knockhill source bytes; other-track completion remains separate."
+  }
+}

@@ -1,0 +1,29 @@
+Startup artwork
+
+The user approved committing these converted 1.1a startup screens on 2026-10-20.
+Canonical TOCA 1.1a BMP/PAL source identities are listed below; originals remain untracked.
+title.webp and cpyright.webp retain 640x480, bake all 256 original PAL RGB colors
+and are opaque; PAL flags are not alpha. No crop, resize or compositing.
+All four startup WebPs use quality70/method6 (Pillow 12.1.1/libwebp 1.5.0).
+The 2026-10-24 built-in imagegen reconstruction ../mega/cpyright.webp retains
+the complete 4:3 composition at 1448x1086, with newly drawn typography and logo.
+
+CRC32 IEEE/zlib:
+26cda511  title.webp
+2f6ad383  cpyright.webp
+c40a7422  ../mega/title-wide.webp
+d7e9a5e5  ../mega/cpyright.webp
+
+Sources:
+95909fd8  fe/images/title.bmp
+ef81377a  fe/images/title.pal
+8b0621ea  fe/images/cpyright.bmp
+1d5aa739  fe/images/cpyright.pal
+e83bc4c4  original RGB24 title-wide.bmp
+b0b80426  generated RGB24 copyright reconstruction.png
+
+The one-time conversion used the source identities and encoding parameters above.
+The build copies original/ and mega/ WebPs without conversion. Original
+title/copyright are the base images; the separate Mega title-wide variant
+preserves widescreen behavior. The higher-resolution copyright is selected for
+all detail profiles through the same-name override, with the original as fallback.

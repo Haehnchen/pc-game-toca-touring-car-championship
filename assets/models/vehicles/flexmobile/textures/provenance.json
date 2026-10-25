@@ -1,0 +1,15 @@
+{
+  "assets": [
+    {
+      "file": "work/FLEX.webp",
+      "crc32": "a9ffdb5b"
+    },
+    {
+      "file": "work/ENGFLO.webp",
+      "crc32": "1b89cd5d"
+    }
+  ],
+  "finalization": {
+    "quality": 80
+  }
+}

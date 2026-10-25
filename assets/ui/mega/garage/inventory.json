@@ -1,0 +1,309 @@
+{
+  "schema_version": 1,
+  "views": [
+    {
+      "key": "gar1-car0",
+      "archive_variant": 1,
+      "car_id": 0,
+      "member_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ]
+    },
+    {
+      "key": "gar1-car1",
+      "archive_variant": 1,
+      "car_id": 1,
+      "member_indices": [
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ]
+    },
+    {
+      "key": "gar1-car2",
+      "archive_variant": 1,
+      "car_id": 2,
+      "member_indices": [
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22
+      ]
+    },
+    {
+      "key": "gar1-car3",
+      "archive_variant": 1,
+      "car_id": 3,
+      "member_indices": [
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28
+      ]
+    },
+    {
+      "key": "gar1-car4",
+      "archive_variant": 1,
+      "car_id": 4,
+      "member_indices": [
+        27,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35
+      ]
+    },
+    {
+      "key": "gar1-car5",
+      "archive_variant": 1,
+      "car_id": 5,
+      "member_indices": [
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        39,
+        40,
+        41
+      ]
+    },
+    {
+      "key": "gar1-car6",
+      "archive_variant": 1,
+      "car_id": 6,
+      "member_indices": [
+        40,
+        41,
+        42,
+        43,
+        44,
+        45,
+        46,
+        47,
+        48
+      ]
+    },
+    {
+      "key": "gar1-car7",
+      "archive_variant": 1,
+      "car_id": 7,
+      "member_indices": [
+        46,
+        47,
+        48,
+        49,
+        50,
+        51,
+        52,
+        53,
+        54
+      ]
+    },
+    {
+      "key": "gar1-car8",
+      "archive_variant": 1,
+      "car_id": 8,
+      "member_indices": [
+        53,
+        54,
+        55,
+        56,
+        57,
+        58,
+        59,
+        60,
+        61
+      ]
+    },
+    {
+      "key": "gar1-car9",
+      "archive_variant": 1,
+      "car_id": 9,
+      "member_indices": [
+        59,
+        60,
+        61,
+        62,
+        63,
+        64,
+        65,
+        66,
+        67
+      ]
+    },
+    {
+      "key": "gar2-car7",
+      "archive_variant": 2,
+      "car_id": 7,
+      "member_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ]
+    },
+    {
+      "key": "gar2-car8",
+      "archive_variant": 2,
+      "car_id": 8,
+      "member_indices": [
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ]
+    },
+    {
+      "key": "gar2-car9",
+      "archive_variant": 2,
+      "car_id": 9,
+      "member_indices": [
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21
+      ]
+    },
+    {
+      "key": "gar3-car7",
+      "archive_variant": 3,
+      "car_id": 7,
+      "member_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ]
+    },
+    {
+      "key": "gar3-car8",
+      "archive_variant": 3,
+      "car_id": 8,
+      "member_indices": [
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ]
+    },
+    {
+      "key": "gar3-car9",
+      "archive_variant": 3,
+      "car_id": 9,
+      "member_indices": [
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21
+      ]
+    },
+    {
+      "key": "gar4-car7",
+      "archive_variant": 4,
+      "car_id": 7,
+      "member_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ]
+    },
+    {
+      "key": "gar4-car8",
+      "archive_variant": 4,
+      "car_id": 8,
+      "member_indices": [
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ]
+    },
+    {
+      "key": "gar4-car9",
+      "archive_variant": 4,
+      "car_id": 9,
+      "member_indices": [
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21
+      ]
+    }
+  ]
+}

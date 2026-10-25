@@ -1,0 +1,1166 @@
+{
+  "version": 1,
+  "package": "T14",
+  "policy": "Eight static Thruxton source-CRC-specific textures. Five variants reuse accepted HOR authored detail bases while preserving static palette/UV chart/opacity; three new motifs are fixed propeller, narrow fuselage skin and horizontal tailplane. No new name, registration, manufacturer, livery or extra hardware. Old HOR artwork unchanged.",
+  "source": {
+    "archive": "data/thrufree.bfp",
+    "archive_crc32": "473c8fe8",
+    "member": 5,
+    "member_crc32": "a17b2723",
+    "meshes": [
+      {
+        "name": "TH36APLN_1",
+        "mesh_index": 10,
+        "mesh_crc32": "0d4241c6",
+        "type": "9347a89e",
+        "vertices": 103,
+        "triangles": 68,
+        "nodes": [
+          21,
+          25,
+          29,
+          31,
+          33,
+          223,
+          227
+        ]
+      },
+      {
+        "name": "TH37APLN_1",
+        "mesh_index": 12,
+        "mesh_crc32": "8a456bd2",
+        "type": "b8ad1d9a",
+        "vertices": 112,
+        "triangles": 76,
+        "nodes": [
+          27,
+          45,
+          225
+        ]
+      }
+    ]
+  },
+  "shared_consumers": [
+    {
+      "track": 2,
+      "member": 5,
+      "mesh": 10,
+      "name": "TH36APLN_1",
+      "nodes": [
+        21,
+        25,
+        29,
+        31,
+        33,
+        223,
+        227
+      ]
+    },
+    {
+      "track": 2,
+      "member": 5,
+      "mesh": 12,
+      "name": "TH37APLN_1",
+      "nodes": [
+        27,
+        45,
+        225
+      ]
+    },
+    {
+      "track": 2,
+      "member": 5,
+      "mesh": 17,
+      "name": "TH12BOX_1",
+      "type": "2afb2f91",
+      "mesh_crc32": "c2cb7a63",
+      "nodes": [
+        47
+      ],
+      "material": "TH37AIR",
+      "source_bmp_crc32": "bc035bfb",
+      "slot": 33,
+      "faces": [
+        20,
+        21,
+        22
+      ],
+      "uv": [
+        0,
+        1
+      ],
+      "runtime_clamped_uv": [
+        0.02,
+        0.99
+      ],
+      "role": "constant original corner-color sample only; not an AIR7 wing/alpha consumer, no building artwork/geometry scope"
+    }
+  ],
+  "geometry_contract": "Improve confirmed main/tail wing thickness and flat landing gear in the same package. Retain existing fuselage/cockpit/fin and fixed propellers, original scale, source paint/UV anchors and all placements. Do not alter any other mesh or completed HOR model.",
+  "outputs": [
+    {
+      "name": "TH36AI1",
+      "source_bmp_crc32": "7cab9bb5",
+      "source_size": [
+        32,
+        64
+      ],
+      "image": "textures/thruxton-static-th36ai1.webp",
+      "crc32": "965e2a43",
+      "bytes": 13922,
+      "size": [
+        256,
+        512
+      ],
+      "role": "Landing gear / wheel and strut islands",
+      "source_consumers": [
+        {
+          "mesh": 10,
+          "name": "TH36APLN_1",
+          "image_uv_bounds": [
+            0.0,
+            1.52587890625e-05,
+            0.9354705810546875,
+            0.9524078369140625
+          ]
+        },
+        {
+          "mesh": 12,
+          "name": "TH37APLN_1",
+          "image_uv_bounds": [
+            0.0,
+            1.52587890625e-05,
+            0.9677276611328125,
+            0.9524078369140625
+          ]
+        }
+      ],
+      "provenance": {
+        "source_reference": {
+          "path": "build/thruxton-static-aircraft/artwork/TH36AI1-original.png",
+          "crc32": "c962efa2",
+          "size": [
+            32,
+            64
+          ]
+        },
+        "generator_file": "exec-de6c571e-6606-43ac-989a-d0808c6b3f92.png",
+        "generator_crc32": "6e7080d2",
+        "generator_size": [
+          887,
+          1774
+        ],
+        "encoding": {
+          "format": "WebP",
+          "quality": 80,
+          "method": 6,
+          "alpha_quality": 100,
+          "mode": "RGBA",
+          "resampling": "Lanczos",
+          "registration": {
+            "method": "Whole source-normalized canvas reduced to exact original aspect; no atlas repacking or UV changes.",
+            "fresh_rgb_continuation_pixels": 27495,
+            "fresh_rgb_continuation": "Nearest freshly generated opaque material RGB continued only into incorrectly removed source-opaque locations before restoring exact source cutout. No source RGB copied, no fresh parts drawn."
+          }
+        },
+        "alpha_processing": {
+          "native_rule": "Only exact canonical RGB000000 keys out; source nonblack tires/glass/paint remain opaque. Source opacity restored after freshly authored RGB registration, white remains opaque.",
+          "source_black_key_pixels": 489,
+          "encoded_transparent_pixels": 31296,
+          "encoded_alpha_extrema": [
+            0,
+            255
+          ],
+          "encoded_alpha_exactly_equals_nearest_scaled_source": true
+        },
+        "reuse_basis": {
+          "image": "textures/air-th36ai1.webp",
+          "crc32": "aec50833",
+          "bytes": 28770,
+          "size": [
+            256,
+            512
+          ],
+          "existing_generation_manifest": "assets/models/mega/aircraft-generation.json",
+          "existing_source_record": {
+            "id": "TH36AI1",
+            "file": "exec-6201bcec-6a0f-4e20-949d-141ac2603651.png",
+            "reference": {
+              "names": [
+                "TH36AI1"
+              ],
+              "size": [
+                32,
+                64
+              ],
+              "normalized_bmp_crc32": "da948386",
+              "packed_bmp_crc32": [
+                "a8f140f5"
+              ],
+              "uses": [
+                {
+                  "track": 1,
+                  "archive": "silvhor.bfp",
+                  "member": 0,
+                  "family": "moving"
+                },
+                {
+                  "track": 2,
+                  "archive": "thruhor.bfp",
+                  "member": 0,
+                  "family": "moving"
+                }
+              ]
+            },
+            "crc32": "81f63a43"
+          },
+          "normalized_HOR_source_bmp_crc32": "da948386",
+          "static_source_rgb_MAE": 11.81884765625,
+          "policy": "Existing authored detail basis reused through static source-specific variant; old air-* files unchanged."
+        }
+      }
+    },
+    {
+      "name": "TH36AIR",
+      "source_bmp_crc32": "e45210dd",
+      "source_size": [
+        64,
+        32
+      ],
+      "image": "textures/thruxton-static-th36air.webp",
+      "crc32": "d6cf40bd",
+      "bytes": 5778,
+      "size": [
+        512,
+        256
+      ],
+      "role": "Twin-engine side skin, navy/gold diagonal tail,6 windows",
+      "source_consumers": [
+        {
+          "mesh": 10,
+          "name": "TH36APLN_1",
+          "image_uv_bounds": [
+            0.0,
+            1.52587890625e-05,
+            1.0,
+            1.0000152587890625
+          ]
+        }
+      ],
+      "provenance": {
+        "source_reference": {
+          "path": "build/thruxton-static-aircraft/artwork/TH36AIR-original.png",
+          "crc32": "12592b44",
+          "size": [
+            64,
+            32
+          ]
+        },
+        "generator_file": "exec-cc136f49-5c93-42df-b901-f87f0627cedc.png",
+        "generator_crc32": "dd6d521f",
+        "generator_size": [
+          1774,
+          887
+        ],
+        "encoding": {
+          "format": "WebP",
+          "quality": 80,
+          "method": 6,
+          "alpha_quality": 100,
+          "mode": "RGB",
+          "resampling": "Lanczos",
+          "registration": {
+            "method": "Whole source-normalized canvas reduced to exact original aspect; no atlas repacking or UV changes."
+          }
+        },
+        "alpha_processing": {
+          "native_rule": "Only exact canonical RGB000000 keys out; source nonblack tires/glass/paint remain opaque. Source opacity restored after freshly authored RGB registration, white remains opaque.",
+          "source_black_key_pixels": 0,
+          "encoded_transparent_pixels": 0,
+          "encoded_alpha_extrema": [
+            255,
+            255
+          ],
+          "encoded_alpha_exactly_equals_nearest_scaled_source": true
+        },
+        "reuse_basis": {
+          "image": "textures/air-th36air.webp",
+          "crc32": "22dc33d9",
+          "bytes": 6602,
+          "size": [
+            512,
+            256
+          ],
+          "existing_generation_manifest": "assets/models/mega/aircraft-generation.json",
+          "existing_source_record": {
+            "id": "TH36AIR",
+            "file": "exec-23974622-7e89-4cf9-882e-607673ed22a1.png",
+            "reference": {
+              "names": [
+                "TH36AIR"
+              ],
+              "size": [
+                64,
+                32
+              ],
+              "normalized_bmp_crc32": "40bb6c05",
+              "packed_bmp_crc32": [
+                "6e7ebeca"
+              ],
+              "uses": [
+                {
+                  "track": 2,
+                  "archive": "thruhor.bfp",
+                  "member": 0,
+                  "family": "moving"
+                }
+              ]
+            },
+            "crc32": "9681172f"
+          },
+          "normalized_HOR_source_bmp_crc32": "40bb6c05",
+          "static_source_rgb_MAE": 2.7288411458333335,
+          "policy": "Existing authored detail basis reused through static source-specific variant; old air-* files unchanged."
+        }
+      }
+    },
+    {
+      "name": "TH36AIR3",
+      "source_bmp_crc32": "ba0fffeb",
+      "source_size": [
+        64,
+        64
+      ],
+      "image": "textures/thruxton-static-th36air3.webp",
+      "crc32": "2750ca16",
+      "bytes": 14958,
+      "size": [
+        512,
+        512
+      ],
+      "role": "Split cockpit/front nose UV chart",
+      "source_consumers": [
+        {
+          "mesh": 10,
+          "name": "TH36APLN_1",
+          "image_uv_bounds": [
+            0.015869140625,
+            1.52587890625e-05,
+            0.9682464599609375,
+            0.9682769775390625
+          ]
+        },
+        {
+          "mesh": 12,
+          "name": "TH37APLN_1",
+          "image_uv_bounds": [
+            0.1110992431640625,
+            0.015899658203125,
+            0.888885498046875,
+            0.285736083984375
+          ]
+        }
+      ],
+      "provenance": {
+        "source_reference": {
+          "path": "build/thruxton-static-aircraft/artwork/TH36AIR3-original.png",
+          "crc32": "94353f1a",
+          "size": [
+            64,
+            64
+          ]
+        },
+        "generator_file": "exec-fb827554-1347-49d2-b090-388da8a5626b.png",
+        "generator_crc32": "3c287781",
+        "generator_size": [
+          1254,
+          1254
+        ],
+        "encoding": {
+          "format": "WebP",
+          "quality": 80,
+          "method": 6,
+          "alpha_quality": 100,
+          "mode": "RGB",
+          "resampling": "Lanczos",
+          "registration": {
+            "method": "Whole source-normalized canvas reduced to exact original aspect; no atlas repacking or UV changes."
+          }
+        },
+        "alpha_processing": {
+          "native_rule": "Only exact canonical RGB000000 keys out; source nonblack tires/glass/paint remain opaque. Source opacity restored after freshly authored RGB registration, white remains opaque.",
+          "source_black_key_pixels": 0,
+          "encoded_transparent_pixels": 0,
+          "encoded_alpha_extrema": [
+            255,
+            255
+          ],
+          "encoded_alpha_exactly_equals_nearest_scaled_source": true
+        },
+        "reuse_basis": {
+          "image": "textures/air-th36air3.webp",
+          "crc32": "77599d1b",
+          "bytes": 19280,
+          "size": [
+            512,
+            512
+          ],
+          "existing_generation_manifest": "assets/models/mega/aircraft-generation.json",
+          "existing_source_record": {
+            "id": "TH36AIR3",
+            "file": "exec-66ab935c-77e9-4920-9693-9eccf33c0727.png",
+            "reference": {
+              "names": [
+                "TH36AIR3"
+              ],
+              "size": [
+                64,
+                64
+              ],
+              "normalized_bmp_crc32": "41222af6",
+              "packed_bmp_crc32": [
+                "ca6bef7b"
+              ],
+              "uses": [
+                {
+                  "track": 1,
+                  "archive": "silvhor.bfp",
+                  "member": 0,
+                  "family": "moving"
+                },
+                {
+                  "track": 2,
+                  "archive": "thruhor.bfp",
+                  "member": 0,
+                  "family": "moving"
+                }
+              ]
+            },
+            "crc32": "bc19f06f"
+          },
+          "normalized_HOR_source_bmp_crc32": "41222af6",
+          "static_source_rgb_MAE": 8.108723958333334,
+          "policy": "Existing authored detail basis reused through static source-specific variant; old air-* files unchanged."
+        }
+      }
+    },
+    {
+      "name": "TH36AIR4",
+      "source_bmp_crc32": "586d93f6",
+      "source_size": [
+        64,
+        64
+      ],
+      "image": "textures/thruxton-static-th36air4.webp",
+      "crc32": "2342b974",
+      "bytes": 4062,
+      "size": [
+        512,
+        512
+      ],
+      "role": "Fixed three-blade propeller quads, dark blades/yellow tips",
+      "source_consumers": [
+        {
+          "mesh": 10,
+          "name": "TH36APLN_1",
+          "image_uv_bounds": [
+            0.0,
+            1.52587890625e-05,
+            1.0,
+            0.9841461181640625
+          ]
+        },
+        {
+          "mesh": 12,
+          "name": "TH37APLN_1",
+          "image_uv_bounds": [
+            0.0,
+            1.52587890625e-05,
+            1.0,
+            0.9841461181640625
+          ]
+        }
+      ],
+      "provenance": {
+        "source_reference": {
+          "path": "build/thruxton-static-aircraft/artwork/TH36AIR4-original.png",
+          "crc32": "4972f33b",
+          "size": [
+            64,
+            64
+          ]
+        },
+        "generator_file": "exec-faccbc6b-405b-4ae6-99fb-248e15e586d2.png",
+        "generator_crc32": "d571dfc9",
+        "generator_size": [
+          1254,
+          1254
+        ],
+        "encoding": {
+          "format": "WebP",
+          "quality": 80,
+          "method": 6,
+          "alpha_quality": 100,
+          "mode": "RGBA",
+          "resampling": "Lanczos",
+          "registration": {
+            "method": "Whole source-normalized canvas reduced to exact original aspect; no atlas repacking or UV changes.",
+            "fresh_rgb_continuation_pixels": 14778,
+            "fresh_rgb_continuation": "Nearest freshly generated opaque material RGB continued only into incorrectly removed source-opaque locations before restoring exact source cutout. No source RGB copied, no fresh parts drawn."
+          }
+        },
+        "alpha_processing": {
+          "native_rule": "Only exact canonical RGB000000 keys out; source nonblack tires/glass/paint remain opaque. Source opacity restored after freshly authored RGB registration, white remains opaque.",
+          "source_black_key_pixels": 3354,
+          "encoded_transparent_pixels": 214656,
+          "encoded_alpha_extrema": [
+            0,
+            255
+          ],
+          "encoded_alpha_exactly_equals_nearest_scaled_source": true
+        }
+      }
+    },
+    {
+      "name": "TH36AIR5",
+      "source_bmp_crc32": "231098a6",
+      "source_size": [
+        16,
+        64
+      ],
+      "image": "textures/thruxton-static-th36air5.webp",
+      "crc32": "73ae783a",
+      "bytes": 1622,
+      "size": [
+        128,
+        512
+      ],
+      "role": "Long narrow white fuselage top/bottom/end skin, NOT propeller",
+      "source_consumers": [
+        {
+          "mesh": 10,
+          "name": "TH36APLN_1",
+          "image_uv_bounds": [
+            0.0,
+            1.52587890625e-05,
+            1.0,
+            1.0000152587890625
+          ]
+        },
+        {
+          "mesh": 12,
+          "name": "TH37APLN_1",
+          "image_uv_bounds": [
+            0.0,
+            1.52587890625e-05,
+            1.0,
+            1.0000152587890625
+          ]
+        }
+      ],
+      "provenance": {
+        "source_reference": {
+          "path": "build/thruxton-static-aircraft/artwork/TH36AIR5-original.png",
+          "crc32": "1d4cabdc",
+          "size": [
+            16,
+            64
+          ]
+        },
+        "generator_file": "exec-724a94ac-bb50-479b-a4db-102b0532440e.png",
+        "generator_crc32": "0312b668",
+        "generator_size": [
+          724,
+          2173
+        ],
+        "encoding": {
+          "format": "WebP",
+          "quality": 80,
+          "method": 6,
+          "alpha_quality": 100,
+          "mode": "RGBA",
+          "resampling": "Lanczos",
+          "registration": {
+            "presentation_crop": [
+              90,
+              0,
+              634,
+              2173
+            ],
+            "method": "Remove side presentation padding around exact1:4 vertical skin chart; no new parts or motif compositing.",
+            "fresh_rgb_continuation_pixels": 6029,
+            "fresh_rgb_continuation": "Nearest freshly generated opaque material RGB continued only into incorrectly removed source-opaque locations before restoring exact source cutout. No source RGB copied, no fresh parts drawn."
+          }
+        },
+        "alpha_processing": {
+          "native_rule": "Only exact canonical RGB000000 keys out; source nonblack tires/glass/paint remain opaque. Source opacity restored after freshly authored RGB registration, white remains opaque.",
+          "source_black_key_pixels": 163,
+          "encoded_transparent_pixels": 10432,
+          "encoded_alpha_extrema": [
+            0,
+            255
+          ],
+          "encoded_alpha_exactly_equals_nearest_scaled_source": true
+        }
+      }
+    },
+    {
+      "name": "TH36AIR7",
+      "source_bmp_crc32": "81306b2f",
+      "source_size": [
+        64,
+        32
+      ],
+      "image": "textures/thruxton-static-th36air7.webp",
+      "crc32": "0f24c623",
+      "bytes": 3904,
+      "size": [
+        512,
+        256
+      ],
+      "role": "Main wing surface, source alpha/slope and small amber tip",
+      "source_consumers": [
+        {
+          "mesh": 10,
+          "name": "TH36APLN_1",
+          "image_uv_bounds": [
+            0.0,
+            1.52587890625e-05,
+            1.0,
+            0.6129302978515625
+          ]
+        },
+        {
+          "mesh": 12,
+          "name": "TH37APLN_1",
+          "image_uv_bounds": [
+            0.0,
+            1.52587890625e-05,
+            1.0,
+            0.7419586181640625
+          ]
+        }
+      ],
+      "provenance": {
+        "source_reference": {
+          "path": "build/thruxton-static-aircraft/artwork/TH36AIR7-original.png",
+          "crc32": "01d3fe20",
+          "size": [
+            64,
+            32
+          ]
+        },
+        "generator_file": "exec-e3e92391-1ecc-41d7-aaf1-652158c0acc0.png",
+        "generator_crc32": "63e9e679",
+        "generator_size": [
+          1774,
+          887
+        ],
+        "encoding": {
+          "format": "WebP",
+          "quality": 80,
+          "method": 6,
+          "alpha_quality": 100,
+          "mode": "RGBA",
+          "resampling": "Lanczos",
+          "registration": {
+            "generated_material_bbox": [
+              14,
+              73,
+              1761,
+              870
+            ],
+            "canonical_occupied_bbox": [
+              1,
+              0,
+              64,
+              32
+            ],
+            "registered_output_bbox": [
+              8,
+              0,
+              512,
+              256
+            ],
+            "method": "Remove generated presentation padding and fit existing source material island frame; exact original native source opacity restored after fresh RGB registration.",
+            "fresh_rgb_continuation_pixels": 759,
+            "fresh_rgb_continuation": "Nearest freshly generated opaque material RGB continued only into incorrectly removed source-opaque locations before restoring exact source cutout. No source RGB copied, no fresh parts drawn."
+          }
+        },
+        "alpha_processing": {
+          "native_rule": "Only exact canonical RGB000000 keys out; source nonblack tires/glass/paint remain opaque. Source opacity restored after freshly authored RGB registration, white remains opaque.",
+          "source_black_key_pixels": 450,
+          "encoded_transparent_pixels": 28800,
+          "encoded_alpha_extrema": [
+            0,
+            255
+          ],
+          "encoded_alpha_exactly_equals_nearest_scaled_source": true
+        },
+        "reuse_basis": {
+          "image": "textures/air-th36air7.webp",
+          "crc32": "0afb1353",
+          "bytes": 12866,
+          "size": [
+            512,
+            256
+          ],
+          "existing_generation_manifest": "assets/models/mega/aircraft-generation.json",
+          "existing_source_record": {
+            "id": "TH36AIR7",
+            "file": "exec-d8fdf361-48cb-41fd-a104-a695331a38f6.png",
+            "reference": {
+              "names": [
+                "TH36AIR7"
+              ],
+              "size": [
+                64,
+                32
+              ],
+              "normalized_bmp_crc32": "9d2fd1e7",
+              "packed_bmp_crc32": [
+                "b3ea0328"
+              ],
+              "uses": [
+                {
+                  "track": 1,
+                  "archive": "silvhor.bfp",
+                  "member": 0,
+                  "family": "moving"
+                },
+                {
+                  "track": 2,
+                  "archive": "thruhor.bfp",
+                  "member": 0,
+                  "family": "moving"
+                }
+              ]
+            },
+            "crc32": "8e94695c"
+          },
+          "normalized_HOR_source_bmp_crc32": "9d2fd1e7",
+          "static_source_rgb_MAE": 4.829427083333333,
+          "policy": "Existing authored detail basis reused through static source-specific variant; old air-* files unchanged."
+        }
+      }
+    },
+    {
+      "name": "TH36AIR6",
+      "source_bmp_crc32": "81f830f6",
+      "source_size": [
+        64,
+        32
+      ],
+      "image": "textures/thruxton-static-th36air6.webp",
+      "crc32": "999094ed",
+      "bytes": 2266,
+      "size": [
+        512,
+        256
+      ],
+      "role": "Horizontal tailplane surfaces, cream/grey/amber tip",
+      "source_consumers": [
+        {
+          "mesh": 10,
+          "name": "TH36APLN_1",
+          "image_uv_bounds": [
+            0.0,
+            1.52587890625e-05,
+            0.9841156005859375,
+            0.9355010986328125
+          ]
+        },
+        {
+          "mesh": 12,
+          "name": "TH37APLN_1",
+          "image_uv_bounds": [
+            0.0,
+            1.52587890625e-05,
+            0.936492919921875,
+            0.6451873779296875
+          ]
+        }
+      ],
+      "provenance": {
+        "source_reference": {
+          "path": "build/thruxton-static-aircraft/artwork/TH36AIR6-original.png",
+          "crc32": "30154fe8",
+          "size": [
+            64,
+            32
+          ]
+        },
+        "generator_file": "exec-13e90b01-38b3-4e0c-9862-8d0ad91542f8.png",
+        "generator_crc32": "0cbd5fec",
+        "generator_size": [
+          1774,
+          887
+        ],
+        "encoding": {
+          "format": "WebP",
+          "quality": 80,
+          "method": 6,
+          "alpha_quality": 100,
+          "mode": "RGBA",
+          "resampling": "Lanczos",
+          "registration": {
+            "generated_material_bbox": [
+              15,
+              40,
+              1759,
+              865
+            ],
+            "canonical_occupied_bbox": [
+              1,
+              0,
+              64,
+              32
+            ],
+            "registered_output_bbox": [
+              8,
+              0,
+              512,
+              256
+            ],
+            "method": "Remove generated presentation padding and fit existing source material island frame; exact original native source opacity restored after fresh RGB registration.",
+            "fresh_rgb_continuation_pixels": 8872,
+            "fresh_rgb_continuation": "Nearest freshly generated opaque material RGB continued only into incorrectly removed source-opaque locations before restoring exact source cutout. No source RGB copied, no fresh parts drawn.",
+            "continuation_filter": "Only technical RGB continuation pixels outside generated material coverage receive16output-pixel Gaussian smoothing to avoid nearest-color vertical padding streaks; generated foreground details and exact canonical alpha unchanged."
+          }
+        },
+        "alpha_processing": {
+          "native_rule": "Only exact canonical RGB000000 keys out; source nonblack tires/glass/paint remain opaque. Source opacity restored after freshly authored RGB registration, white remains opaque.",
+          "source_black_key_pixels": 420,
+          "encoded_transparent_pixels": 26880,
+          "encoded_alpha_extrema": [
+            0,
+            255
+          ],
+          "encoded_alpha_exactly_equals_nearest_scaled_source": true
+        }
+      }
+    },
+    {
+      "name": "TH37AIR",
+      "source_bmp_crc32": "bc035bfb",
+      "source_size": [
+        128,
+        32
+      ],
+      "image": "textures/thruxton-static-th37air.webp",
+      "crc32": "112dd69e",
+      "bytes": 5042,
+      "size": [
+        512,
+        128
+      ],
+      "role": "Single-engine side skin, navy/gold curved tail, two cockpit panes",
+      "source_consumers": [
+        {
+          "mesh": 12,
+          "name": "TH37APLN_1",
+          "image_uv_bounds": [
+            0.0,
+            1.52587890625e-05,
+            1.0,
+            1.0000152587890625
+          ]
+        }
+      ],
+      "provenance": {
+        "source_reference": {
+          "path": "build/thruxton-static-aircraft/artwork/TH37AIR-original.png",
+          "crc32": "1913b0cb",
+          "size": [
+            128,
+            32
+          ]
+        },
+        "generator_file": "exec-a0e1beef-9a99-412a-9cd4-062bad6d2d66.png",
+        "generator_crc32": "f489bcbc",
+        "generator_size": [
+          2164,
+          727
+        ],
+        "encoding": {
+          "format": "WebP",
+          "quality": 80,
+          "method": 6,
+          "alpha_quality": 100,
+          "mode": "RGB",
+          "resampling": "Lanczos",
+          "registration": {
+            "presentation_crop": [
+              0,
+              91,
+              2164,
+              636
+            ],
+            "method": "Remove top/bottom presentation padding around actual4:1 full side atlas; preserve entire source chart.",
+            "constant_sampler_lock": {
+              "original_raw_uv": [
+                0,
+                0
+              ],
+              "native_image_uv": [
+                0,
+                1
+              ],
+              "runtime_clamped_uv": [
+                0.02,
+                0.99
+              ],
+              "runtime_rule": "src/formats/cm3d_bake.hpp:95 and src/scene/resources.cpp:183",
+              "output_rgb_guard": [
+                0,
+                112,
+                32,
+                128
+              ],
+              "canonical_rgb": [
+                231,
+                239,
+                231
+              ],
+              "reason": "TH12BOX_1 faces20–22 are a constant-corner TH37AIR sampler; preserve original diffuse corner palette, not a new building atlas.",
+              "decoded_bilinear_rgba": [
+                232.0,
+                240.0,
+                228.52,
+                255.0
+              ]
+            }
+          }
+        },
+        "alpha_processing": {
+          "native_rule": "Only exact canonical RGB000000 keys out; source nonblack tires/glass/paint remain opaque. Source opacity restored after freshly authored RGB registration, white remains opaque.",
+          "source_black_key_pixels": 0,
+          "encoded_transparent_pixels": 0,
+          "encoded_alpha_extrema": [
+            255,
+            255
+          ],
+          "encoded_alpha_exactly_equals_nearest_scaled_source": true
+        },
+        "reuse_basis": {
+          "image": "textures/air-th37air.webp",
+          "crc32": "522b4691",
+          "bytes": 5758,
+          "size": [
+            512,
+            128
+          ],
+          "existing_generation_manifest": "assets/models/mega/aircraft-generation.json",
+          "existing_source_record": {
+            "id": "TH37AIR",
+            "file": "exec-a8e27042-33df-4b21-96a2-9e6dfa88a21c.png",
+            "reference": {
+              "names": [
+                "TH37AIR"
+              ],
+              "size": [
+                128,
+                32
+              ],
+              "normalized_bmp_crc32": "3d61bea9",
+              "packed_bmp_crc32": [
+                "c3f2e463"
+              ],
+              "uses": [
+                {
+                  "track": 1,
+                  "archive": "silvhor.bfp",
+                  "member": 0,
+                  "family": "moving"
+                },
+                {
+                  "track": 2,
+                  "archive": "thruhor.bfp",
+                  "member": 0,
+                  "family": "moving"
+                }
+              ]
+            },
+            "crc32": "ebfdd825"
+          },
+          "normalized_HOR_source_bmp_crc32": "3d61bea9",
+          "static_source_rgb_MAE": 6.503336588541667,
+          "policy": "Existing authored detail basis reused through static source-specific variant; old air-* files unchanged."
+        }
+      }
+    }
+  ],
+  "source_shapes": [
+    {
+      "name": "TH36APLN_1",
+      "type": "9347a89e",
+      "mesh": 10,
+      "vertices": 103,
+      "triangles": 68,
+      "source_mesh_crc32": "0d4241c6",
+      "vertex_records_crc32": "613f3bf0",
+      "topology_crc32": "0ad2f061",
+      "nodes": [
+        21,
+        25,
+        29,
+        31,
+        33,
+        223,
+        227
+      ],
+      "roots": [
+        20,
+        24,
+        28,
+        30,
+        32,
+        222,
+        226
+      ],
+      "local_bounds": [
+        [
+          -5.628936767578125,
+          4.110992431640625
+        ],
+        [
+          -4.009521484375,
+          3.0
+        ],
+        [
+          -3.50164794921875,
+          0.0066680908203125
+        ]
+      ]
+    },
+    {
+      "name": "TH37APLN_1",
+      "type": "b8ad1d9a",
+      "mesh": 12,
+      "vertices": 112,
+      "triangles": 76,
+      "source_mesh_crc32": "8a456bd2",
+      "vertex_records_crc32": "7fd9cc93",
+      "topology_crc32": "f727925b",
+      "nodes": [
+        27,
+        45,
+        225
+      ],
+      "roots": [
+        26,
+        44,
+        224
+      ],
+      "local_bounds": [
+        [
+          -2.7634429931640625,
+          2.775665283203125
+        ],
+        [
+          -2.3646392822265625,
+          3.1558685302734375
+        ],
+        [
+          -2.51910400390625,
+          0.0
+        ]
+      ]
+    }
+  ],
+  "source_lods": [
+    {
+      "member": 5,
+      "crc32": "a17b2723",
+      "models": [
+        {
+          "name": "TH36APLN_1",
+          "mesh": 10,
+          "source_mesh_crc32": "0d4241c6",
+          "vertex_records_crc32": "613f3bf0",
+          "nodes": [
+            21,
+            25,
+            29,
+            31,
+            33,
+            223,
+            227
+          ],
+          "roots": [
+            20,
+            24,
+            28,
+            30,
+            32,
+            222,
+            226
+          ]
+        },
+        {
+          "name": "TH37APLN_1",
+          "mesh": 12,
+          "source_mesh_crc32": "8a456bd2",
+          "vertex_records_crc32": "7fd9cc93",
+          "nodes": [
+            27,
+            45,
+            225
+          ],
+          "roots": [
+            26,
+            44,
+            224
+          ]
+        }
+      ]
+    },
+    {
+      "member": 6,
+      "crc32": "b816e715",
+      "models": [
+        {
+          "name": "TH36APLN_1",
+          "mesh": 7,
+          "source_mesh_crc32": "e2b7ee33",
+          "vertex_records_crc32": "613f3bf0",
+          "nodes": [
+            15,
+            19,
+            23,
+            125
+          ],
+          "roots": [
+            14,
+            18,
+            22,
+            124
+          ]
+        },
+        {
+          "name": "TH37APLN_1",
+          "mesh": 9,
+          "source_mesh_crc32": "dbb5c6fb",
+          "vertex_records_crc32": "7fd9cc93",
+          "nodes": [
+            21,
+            31,
+            127
+          ],
+          "roots": [
+            20,
+            30,
+            126
+          ]
+        }
+      ]
+    },
+    {
+      "member": 7,
+      "crc32": "acce0cf6",
+      "models": []
+    }
+  ],
+  "source_lod_contract": "HIGH contains7 TH36 and3 TH37 placements; LOW4 TH36+3 TH37 with identical raw vertex arrays/materialBMPs and different mesh/slot/node indices; ZERO has neither type. Retain source detail0–3 behavior.",
+  "static_exception": "Parked FREE scenery aircraft have no selectable Car actor, steering, wheel/propeller animation or damage. Original root matrices, pivots, static registration, collision and lower-detail selection remain unchanged; touring-car wheel/body spacing rules do not apply."
+}

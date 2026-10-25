@@ -1,0 +1,519 @@
+{
+  "version": 1,
+  "package": "T11",
+  "source": {
+    "archive": "data/donlfree.bfp",
+    "archive_crc32": "46885a20",
+    "member": 5,
+    "member_crc32": "5f670bb9",
+    "mesh": "CRAN3_1",
+    "mesh_index": 55,
+    "mesh_crc32": "12779946",
+    "type": "2b9bfb4e",
+    "vertices": 136,
+    "triangles": 66
+  },
+  "shared_consumers": [
+    {
+      "track": 0,
+      "member": 5,
+      "mesh": 55,
+      "mesh_crc32": "12779946",
+      "slots": {
+        "115": {
+          "name": "CRANE4B",
+          "crc32": "6148ee1c",
+          "size": [
+            128,
+            32
+          ],
+          "bits": 8,
+          "bytes": 5176
+        },
+        "116": {
+          "name": "CRANF4B",
+          "crc32": "9ac42a3f",
+          "size": [
+            64,
+            32
+          ],
+          "bits": 8,
+          "bytes": 3128
+        }
+      },
+      "nodes": [
+        {
+          "index": 361,
+          "root": 360,
+          "parent": 360,
+          "variants": [
+            55
+          ],
+          "matrix": [
+            65536,
+            0,
+            0,
+            0,
+            0,
+            65536,
+            0,
+            0,
+            0,
+            0,
+            65536,
+            0,
+            0,
+            0,
+            0,
+            65536
+          ]
+        },
+        {
+          "index": 363,
+          "root": 362,
+          "parent": 362,
+          "variants": [
+            55
+          ],
+          "matrix": [
+            65536,
+            0,
+            0,
+            0,
+            0,
+            65536,
+            0,
+            0,
+            0,
+            0,
+            65536,
+            0,
+            0,
+            0,
+            0,
+            65536
+          ]
+        },
+        {
+          "index": 365,
+          "root": 364,
+          "parent": 364,
+          "variants": [
+            55
+          ],
+          "matrix": [
+            65536,
+            0,
+            0,
+            0,
+            0,
+            65536,
+            0,
+            0,
+            0,
+            0,
+            65536,
+            0,
+            0,
+            0,
+            0,
+            65536
+          ]
+        }
+      ]
+    },
+    {
+      "track": 0,
+      "member": 6,
+      "mesh": 46,
+      "mesh_crc32": "0b71622f",
+      "slots": {
+        "99": {
+          "name": "CRANE4B",
+          "crc32": "6148ee1c",
+          "size": [
+            128,
+            32
+          ],
+          "bits": 8,
+          "bytes": 5176
+        },
+        "100": {
+          "name": "CRANF4B",
+          "crc32": "9ac42a3f",
+          "size": [
+            64,
+            32
+          ],
+          "bits": 8,
+          "bytes": 3128
+        }
+      },
+      "nodes": [
+        {
+          "index": 247,
+          "root": 246,
+          "parent": 246,
+          "variants": [
+            46
+          ],
+          "matrix": [
+            65536,
+            0,
+            0,
+            0,
+            0,
+            65536,
+            0,
+            0,
+            0,
+            0,
+            65536,
+            0,
+            0,
+            0,
+            0,
+            65536
+          ]
+        },
+        {
+          "index": 249,
+          "root": 248,
+          "parent": 248,
+          "variants": [
+            46
+          ],
+          "matrix": [
+            65536,
+            0,
+            0,
+            0,
+            0,
+            65536,
+            0,
+            0,
+            0,
+            0,
+            65536,
+            0,
+            0,
+            0,
+            0,
+            65536
+          ]
+        },
+        {
+          "index": 251,
+          "root": 250,
+          "parent": 250,
+          "variants": [
+            46
+          ],
+          "matrix": [
+            65536,
+            0,
+            0,
+            0,
+            0,
+            65536,
+            0,
+            0,
+            0,
+            0,
+            65536,
+            0,
+            0,
+            0,
+            0,
+            65536
+          ]
+        }
+      ]
+    },
+    {
+      "track": 5,
+      "member": 5,
+      "mesh": 57,
+      "mesh_crc32": "6b8a78bc",
+      "slots": {
+        "119": {
+          "name": "CRANE4B",
+          "crc32": "6148ee1c",
+          "size": [
+            128,
+            32
+          ],
+          "bits": 8,
+          "bytes": 5176
+        },
+        "120": {
+          "name": "CRANF4B",
+          "crc32": "9ac42a3f",
+          "size": [
+            64,
+            32
+          ],
+          "bits": 8,
+          "bytes": 3128
+        }
+      },
+      "nodes": [
+        {
+          "index": 405,
+          "root": 404,
+          "parent": 404,
+          "variants": [
+            57
+          ],
+          "matrix": [
+            65536,
+            0,
+            0,
+            0,
+            0,
+            65536,
+            0,
+            0,
+            0,
+            0,
+            65536,
+            0,
+            0,
+            0,
+            0,
+            65536
+          ]
+        },
+        {
+          "index": 407,
+          "root": 406,
+          "parent": 406,
+          "variants": [
+            57
+          ],
+          "matrix": [
+            65536,
+            0,
+            0,
+            0,
+            0,
+            65536,
+            0,
+            0,
+            0,
+            0,
+            65536,
+            0,
+            0,
+            0,
+            0,
+            65536
+          ]
+        },
+        {
+          "index": 409,
+          "root": 408,
+          "parent": 408,
+          "variants": [
+            57
+          ],
+          "matrix": [
+            65536,
+            0,
+            0,
+            0,
+            0,
+            65536,
+            0,
+            0,
+            0,
+            0,
+            65536,
+            0,
+            0,
+            0,
+            0,
+            65536
+          ]
+        }
+      ]
+    },
+    {
+      "track": 5,
+      "member": 6,
+      "mesh": 42,
+      "mesh_crc32": "fdbf61fd",
+      "slots": {
+        "89": {
+          "name": "CRANE4B",
+          "crc32": "6148ee1c",
+          "size": [
+            128,
+            32
+          ],
+          "bits": 8,
+          "bytes": 5176
+        },
+        "90": {
+          "name": "CRANF4B",
+          "crc32": "9ac42a3f",
+          "size": [
+            64,
+            32
+          ],
+          "bits": 8,
+          "bytes": 3128
+        }
+      },
+      "nodes": [
+        {
+          "index": 207,
+          "root": 206,
+          "parent": 206,
+          "variants": [
+            42
+          ],
+          "matrix": [
+            65536,
+            0,
+            0,
+            0,
+            0,
+            65536,
+            0,
+            0,
+            0,
+            0,
+            65536,
+            0,
+            0,
+            0,
+            0,
+            65536
+          ]
+        },
+        {
+          "index": 209,
+          "root": 208,
+          "parent": 208,
+          "variants": [
+            42
+          ],
+          "matrix": [
+            65536,
+            0,
+            0,
+            0,
+            0,
+            65536,
+            0,
+            0,
+            0,
+            0,
+            65536,
+            0,
+            0,
+            0,
+            0,
+            65536
+          ]
+        },
+        {
+          "index": 211,
+          "root": 210,
+          "parent": 210,
+          "variants": [
+            42
+          ],
+          "matrix": [
+            65536,
+            0,
+            0,
+            0,
+            0,
+            65536,
+            0,
+            0,
+            0,
+            0,
+            65536,
+            0,
+            0,
+            0,
+            0,
+            65536
+          ]
+        }
+      ]
+    }
+  ],
+  "lod": "Same original geometry and source artwork in GP/Short FREE5 andFREE6; no CRAN3_1 inFREE7. Bind only Donington BMP identities6148ee1c/9ac42a3f; other tracks have different CRCs.",
+  "outputs": [
+    {
+      "name": "CRANF4B",
+      "source_bmp_crc32": "9ac42a3f",
+      "source_size": [
+        64,
+        32
+      ],
+      "image": "textures/donington-static-cranf4b.webp",
+      "crc32": "1664e9bd",
+      "bytes": 4174,
+      "size": [
+        512,
+        256
+      ],
+      "opaque": true,
+      "provenance": {
+        "source_reference": {
+          "path": "build/donington-t0-review/platform/CRANF4B-original.png",
+          "crc32": "cd3e2b03"
+        },
+        "generator_file": "exec-8a0987fe-a66a-4578-9139-1db4dd97ce23.png",
+        "generator_crc32": "eed5ea74",
+        "encoding": {
+          "format": "WebP",
+          "quality": 80,
+          "method": 6,
+          "mode": "RGB",
+          "crop_pixels": [
+            0,
+            0,
+            1774,
+            887
+          ],
+          "resampling": "Lanczos",
+          "processing": "Remove only generated presentation padding for side atlas, then resize to exact original aspect; no painted motifs, masks, recoloring, sharpening, compositing or pixel tracing."
+        }
+      }
+    }
+  ],
+  "scope": "Static Donington GP/Short SKY LIFT source identity and current front artwork; side alpha and shared geometry acceptance are in static-platform-generation.json.",
+  "source_shape": {
+    "vertices": 136,
+    "triangles": 66,
+    "type": "2b9bfb4e",
+    "contract": "Original136V/66T source shape identifies the shared platform. T15 improves wheel thickness and closes cabin/chassis undersides; retain original body/boom/basket motifs, UV anchors, local nodes/root transforms and static registrations. No actor, collision, route or original detail0-3 change.",
+    "static_exception": "Scenery placement rather than a selectable Car actor: no steering, wheel animation or damage variants. Original dimensions/presentation retained."
+  },
+  "geometry_upgrade": {
+    "package": "T15",
+    "qa": "assets/models/mega/static-platform-generation.json",
+    "tracks": [
+      0,
+      2,
+      4,
+      5
+    ]
+  },
+  "active_side_replacement": {
+    "image": "textures/donington-static-crane4b-alpha.webp",
+    "crc32": "7b439191",
+    "qa": "assets/models/mega/static-platform-generation.json",
+    "reason": "Restore348 source black-key pixels;200 lie inside used source UV triangles. Old authored image remains the detail basis."
+  },
+  "artwork_review": {
+    "side": "SKY LIFT, original blue end marks, source-oriented right-hand glazing, two wheel footprints, plain cool pale middle body and original lower dark bands retained. Narrow source body crops remain quiet for middle boom/basket consumers.",
+    "front": "Original glass footprint and pale band retained; correction2 lightens initial overly dark glazing and extends center grille below outer bumper ends. No added readable front lettering."
+  }
+}

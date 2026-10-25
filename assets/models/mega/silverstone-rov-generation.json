@@ -1,0 +1,430 @@
+{
+  "version": 1,
+  "package": "R01-Silverstone-race-position-tower",
+  "source": {
+    "path": "data/silvfree.bfp",
+    "crc32": "960a335c",
+    "member": 5,
+    "member_crc32": "a92b3b70"
+  },
+  "scope": {
+    "track": 1,
+    "tower": {
+      "mesh": 10,
+      "name": "SI13ROV_1",
+      "type": "2cefa8c7",
+      "source_crc32": "0ad6e0be",
+      "root": 28,
+      "node": 29,
+      "vertices": 43,
+      "triangles": 34
+    },
+    "new_unique_source_images": 3,
+    "changed_original_slots": [
+      7,
+      21,
+      23
+    ],
+    "reused_original_slot": 22,
+    "shared_wall_placements": 4,
+    "shared_bridge_placements": 1
+  },
+  "geometry": "Canonical stepped tower retained:6x6m lower and upper body with6.5x6.5m head, total12.7456818m height. Roof and head underside ring closed; only original ground-contact bottom open. Positions/normals/UVs/corner order/colour/slots and all512 hierarchy nodes unchanged. Shared FOS34V/22T and bridge149V/109T source bodies retained; no additional geometry or texture slots.",
+  "uv_contract": "Three exact source-name/size/BMP-CRC mappings, no aliases or cross-track exact-CRC consumers. ROVB retains two low dark slots and quiet pale rightedge for shared constant/trim samples. ROV1 retains one upper-left window at topedge. ROV3 is used broadly over roof,headrear/right,undersidering and sharedbridge; no new discernible motif, bright band, lettering or holes.",
+  "export": "Whole-canvas Lanczos to original aspect, longestedge512; WebP quality80 method6, allpixelsopaque. Source motifs repainted by Imagegen, no pixelblock tracing, procedural repaint, regional warp, added gameimage or UVremap. No crop or sourceRGBcopy.",
+  "materials": [
+    {
+      "name": "SI13ROVB",
+      "source": {
+        "slot": 7,
+        "crc32": "0ccbcf3a",
+        "size": [
+          64,
+          64
+        ],
+        "black_key_pixels": 0
+      },
+      "consumers": [
+        {
+          "mesh": 4,
+          "name": "SI12FOS_1",
+          "faces": [
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19,
+            20,
+            21
+          ],
+          "nodes": [
+            9,
+            11,
+            13,
+            15
+          ],
+          "uv_bounds": [
+            [
+              0.0,
+              1.0
+            ],
+            [
+              -0.9999847412109375,
+              1.52587890625e-05
+            ]
+          ]
+        },
+        {
+          "mesh": 10,
+          "name": "SI13ROV_1",
+          "faces": [
+            26,
+            27,
+            28,
+            29,
+            30,
+            31,
+            32,
+            33
+          ],
+          "nodes": [
+            29
+          ],
+          "uv_bounds": [
+            [
+              0.0,
+              1.0
+            ],
+            [
+              -0.9999847412109375,
+              1.52587890625e-05
+            ]
+          ]
+        }
+      ],
+      "generated": {
+        "path": "build/silverstone-rov/SI13ROVB-generated.png",
+        "crc32": "9d386422",
+        "bytes": 2431536,
+        "size": [
+          1254,
+          1254
+        ]
+      },
+      "output": {
+        "path": "assets/models/mega/textures/silverstone-rov-si13rovb.webp",
+        "crc32": "59da3b8f",
+        "bytes": 2924,
+        "size": [
+          512,
+          512
+        ]
+      },
+      "processing_crop": [
+        0,
+        0,
+        1254,
+        1254
+      ],
+      "alpha": "Fully opaque including dark windows and structural surface. No source RGB copied."
+    },
+    {
+      "name": "SI13ROV1",
+      "source": {
+        "slot": 21,
+        "crc32": "4f89e416",
+        "size": [
+          64,
+          64
+        ],
+        "black_key_pixels": 0
+      },
+      "consumers": [
+        {
+          "mesh": 10,
+          "name": "SI13ROV_1",
+          "faces": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "nodes": [
+            29
+          ],
+          "uv_bounds": [
+            [
+              0.0,
+              1.0
+            ],
+            [
+              -0.9999847412109375,
+              1.52587890625e-05
+            ]
+          ]
+        }
+      ],
+      "generated": {
+        "path": "build/silverstone-rov/SI13ROV1-generated.png",
+        "crc32": "6c8c8ca3",
+        "bytes": 2120951,
+        "size": [
+          1254,
+          1254
+        ]
+      },
+      "output": {
+        "path": "assets/models/mega/textures/silverstone-rov-si13rov1.webp",
+        "crc32": "9e7466c8",
+        "bytes": 3190,
+        "size": [
+          512,
+          512
+        ]
+      },
+      "processing_crop": [
+        0,
+        0,
+        1254,
+        1254
+      ],
+      "alpha": "Fully opaque including dark windows and structural surface. No source RGB copied."
+    },
+    {
+      "name": "SI13ROV3",
+      "source": {
+        "slot": 23,
+        "crc32": "1b1f40cc",
+        "size": [
+          128,
+          32
+        ],
+        "black_key_pixels": 0
+      },
+      "consumers": [
+        {
+          "mesh": 10,
+          "name": "SI13ROV_1",
+          "faces": [
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19,
+            20,
+            21,
+            22,
+            23,
+            24,
+            25
+          ],
+          "nodes": [
+            29
+          ],
+          "uv_bounds": [
+            [
+              0.0,
+              1.0
+            ],
+            [
+              -0.9999847412109375,
+              1.52587890625e-05
+            ]
+          ]
+        },
+        {
+          "mesh": 42,
+          "name": "SI11BRI_1",
+          "faces": [
+            86,
+            87,
+            88,
+            89,
+            90,
+            91,
+            92,
+            93,
+            94,
+            95,
+            96,
+            97,
+            98,
+            99,
+            100,
+            101,
+            102,
+            103,
+            104,
+            105,
+            106,
+            107,
+            108
+          ],
+          "nodes": [
+            367
+          ],
+          "uv_bounds": [
+            [
+              0.0,
+              1.0
+            ],
+            [
+              -0.9999847412109375,
+              -0.066650390625
+            ]
+          ]
+        }
+      ],
+      "generated": {
+        "path": "build/silverstone-rov/SI13ROV3-generated.png",
+        "crc32": "9573437d",
+        "bytes": 2173960,
+        "size": [
+          2170,
+          725
+        ]
+      },
+      "output": {
+        "path": "assets/models/mega/textures/silverstone-rov-si13rov3.webp",
+        "crc32": "73072670",
+        "bytes": 3546,
+        "size": [
+          512,
+          128
+        ]
+      },
+      "processing_crop": [
+        0,
+        0,
+        2170,
+        725
+      ],
+      "alpha": "Fully opaque including dark windows and structural surface. No source RGB copied."
+    }
+  ],
+  "reconstruction": "ROVB/ROV1 source pale coolgrey vertical metal panels and original opaque darkwindows are sufficient evidence; there is no new lettering. ROV3 exact physical substrate is unresolved: only nearblack/warmbrown lowcontrast vertical mottling is reconstructed, without asserting brick, planks, crowd or a new architectural feature.",
+  "reused_material": {
+    "name": "SI07SPR5",
+    "source": {
+      "slot": 22,
+      "crc32": "3755df40",
+      "size": [
+        128,
+        32
+      ],
+      "black_key_pixels": 0
+    },
+    "consumers": [
+      {
+        "mesh": 10,
+        "name": "SI13ROV_1",
+        "source_mesh_crc32": "0ad6e0be",
+        "vertices": 43,
+        "triangles": 34,
+        "faces": [
+          8,
+          9,
+          10,
+          11
+        ],
+        "nodes": [
+          29
+        ],
+        "uv_bounds": [
+          [
+            0.0,
+            0.9921112060546875
+          ],
+          [
+            -0.9999847412109375,
+            1.52587890625e-05
+          ]
+        ]
+      },
+      {
+        "mesh": 37,
+        "name": "CHERVL_1",
+        "source_mesh_crc32": "848926d6",
+        "vertices": 67,
+        "triangles": 34,
+        "faces": [
+          32,
+          33
+        ],
+        "nodes": [
+          287,
+          289,
+          291,
+          377
+        ],
+        "uv_bounds": [
+          [
+            0.3070831298828125,
+            0.4330596923828125
+          ],
+          [
+            -0.935455322265625,
+            -0.83868408203125
+          ]
+        ]
+      },
+      {
+        "mesh": 38,
+        "name": "CHERV_1",
+        "source_mesh_crc32": "d43f4d28",
+        "vertices": 67,
+        "triangles": 34,
+        "faces": [
+          32,
+          33
+        ],
+        "nodes": [
+          295,
+          297,
+          363,
+          365
+        ],
+        "uv_bounds": [
+          [
+            0.3070831298828125,
+            0.4330596923828125
+          ],
+          [
+            -0.935455322265625,
+            -0.83868408203125
+          ]
+        ]
+      }
+    ],
+    "output": {
+      "path": "assets/models/mega/textures/silverstone-arrow-si07spr5.webp",
+      "crc32": "15642004",
+      "bytes": 3992,
+      "size": [
+        512,
+        128
+      ]
+    },
+    "provenance": "assets/models/mega/silverstone-arrows-generation.json",
+    "contract": "Accepted full six-position scoreboard retained byte-identically15642004. Existing small LAPS/LAP NO legends and dim digits remain documented context reconstruction. Shared blank rear crop on8 chevronboards remains unchanged; existing full-display consumer acceptance reused."
+  },
+  "limits": "Pure trackobjects only. Shared images do not accept entire FOS/bridge types. Canonical reference media unchanged and uncommitted. No performance measurements."
+}

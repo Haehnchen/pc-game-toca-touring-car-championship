@@ -1,0 +1,136 @@
+{
+  "version": 1,
+  "package": "M07-0/M07-5 Donington startlight artwork",
+  "source_version": "TOCA 1.1a",
+  "source_member": "data/donlfree.bfp member5 OBJECTS.C3D, CRC5f670bb9; Short f60fd8a0",
+  "textures": [
+    {
+      "name": "DA03STL2",
+      "source_slot": 0,
+      "source_size": [
+        32,
+        64
+      ],
+      "source_bmp_crc32": "6f6ab58a",
+      "guide": "build/donington-stl/material-audit/DA03STL2-alpha-guide.png",
+      "generated_file": "build/donington-stl/artwork/DA03STL2-generated.png",
+      "generated_crc32": "82d25928",
+      "generated_size": [
+        887,
+        1774
+      ],
+      "crop": null,
+      "processing": "Lanczos resize; WebPquality80 method6, explicit alpha preserved with alphaquality100.",
+      "output": {
+        "path": "assets/models/mega/textures/donington-stl-da03stl2.webp",
+        "crc32": "c047d722",
+        "bytes": 14086,
+        "size": [
+          256,
+          512
+        ],
+        "alpha": "preserved"
+      }
+    },
+    {
+      "name": "DA03STL3",
+      "source_slot": 1,
+      "source_size": [
+        32,
+        64
+      ],
+      "source_bmp_crc32": "e8563107",
+      "guide": "build/donington-stl/material-audit/DA03STL3-alpha-guide.png",
+      "generated_file": "build/donington-stl/artwork/DA03STL3-final.png",
+      "generated_crc32": "5ab3fae7",
+      "generated_size": [
+        887,
+        1774
+      ],
+      "crop": null,
+      "processing": "Lanczos resize; WebPquality80 method6, explicit alpha preserved with alphaquality100.",
+      "output": {
+        "path": "assets/models/mega/textures/donington-stl-da03stl3.webp",
+        "crc32": "633293b9",
+        "bytes": 11802,
+        "size": [
+          256,
+          512
+        ],
+        "alpha": "preserved"
+      }
+    },
+    {
+      "name": "DA03STL4",
+      "source_slot": 2,
+      "source_size": [
+        128,
+        16
+      ],
+      "source_bmp_crc32": "94149390",
+      "guide": "build/donington-stl/material-audit/DA03STL4-layout.png",
+      "generated_file": "build/donington-stl/artwork/DA03STL4-generated.png",
+      "generated_crc32": "fce9410c",
+      "generated_size": [
+        2172,
+        724
+      ],
+      "crop": [
+        0,
+        223,
+        2172,
+        499
+      ],
+      "processing": "Crop reviewed white padding; Lanczos to original aspect; opaque WebPquality80 method6.",
+      "output": {
+        "path": "assets/models/mega/textures/donington-stl-da03stl4.webp",
+        "crc32": "e58aab67",
+        "bytes": 470,
+        "size": [
+          512,
+          64
+        ],
+        "alpha": "opaque"
+      }
+    },
+    {
+      "name": "DA03STL5",
+      "source_slot": 3,
+      "source_size": [
+        128,
+        32
+      ],
+      "source_bmp_crc32": "db8534ef",
+      "guide": "build/donington-stl/material-audit/DA03STL5-layout.png",
+      "generated_file": "build/donington-stl/artwork/DA03STL5-generated.png",
+      "generated_crc32": "5d99ccfd",
+      "generated_size": [
+        2172,
+        724
+      ],
+      "crop": [
+        0,
+        117,
+        2172,
+        612
+      ],
+      "processing": "Crop reviewed white padding; Lanczos to original aspect; opaque WebPquality80 method6.",
+      "output": {
+        "path": "assets/models/mega/textures/donington-stl-da03stl5.webp",
+        "crc32": "81994d57",
+        "bytes": 7196,
+        "size": [
+          512,
+          128
+        ],
+        "alpha": "opaque"
+      }
+    }
+  ],
+  "review": {
+    "lettering": "TOYO TIRES / ONLY THE BEST; two subdued red-orange lenses only. Related Thruxton startlight confirms function, not its different lamp layout.",
+    "layout": "Yellow/dark split and two lamp centers remain within approximately1.5 original pixels; no larger same-brand source was found.",
+    "alpha": "STL2/3 black-keyed source openings replaced by actual RGBA alpha; uniform source-mask interiors match after WebP. STL3 rejected drafts omitted/misplaced a rung; only the final six-rung guide-aligned image is used.",
+    "material": "Smooth continuous dark olive painted-metal grain, no newly painted pixel blocks or extra hardware."
+  }
+}

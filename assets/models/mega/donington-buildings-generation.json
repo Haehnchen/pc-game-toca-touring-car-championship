@@ -1,0 +1,986 @@
+{
+  "version": 1,
+  "package": "MT04 Donington GP buildings and viewing stands source artwork review",
+  "source_archive": "data/donlfree.bfp",
+  "source_archive_crc32": "46885a20",
+  "outputs": [
+    {
+      "names": [
+        "DA45HSE"
+      ],
+      "source_bmp_crc32": "2912edb4",
+      "source_size": [
+        64,
+        64
+      ],
+      "generated_source": "exec-5f8c6c2a-ff45-499e-b3f3-953c9b248bc7.png",
+      "generated_crc32": "ca8b0593",
+      "crop": [
+        0,
+        0,
+        1254,
+        1254
+      ],
+      "processing": "Crop only specified presentation padding; resize whole original-aspect tile with Lanczos; preserve source opacity/alpha; WebPquality80 method6. No original RGB copied.",
+      "image": "textures/dgp-buildings-da45hse.webp",
+      "crc32": "ad1d2e7e",
+      "bytes": 29572,
+      "size": [
+        512,
+        512
+      ]
+    },
+    {
+      "names": [
+        "DA45HSE1"
+      ],
+      "source_bmp_crc32": "fa784ee3",
+      "source_size": [
+        64,
+        32
+      ],
+      "generated_source": "exec-2178e777-018a-41f6-956a-1484914c02e4.png",
+      "generated_crc32": "3ecb095b",
+      "crop": [
+        0,
+        0,
+        1774,
+        887
+      ],
+      "processing": "Crop only specified presentation padding; resize whole original-aspect tile with Lanczos; preserve source opacity/alpha; WebPquality80 method6. No original RGB copied.",
+      "image": "textures/dgp-buildings-da45hse1.webp",
+      "crc32": "543f7794",
+      "bytes": 10030,
+      "size": [
+        512,
+        256
+      ]
+    },
+    {
+      "names": [
+        "DA45HSE2"
+      ],
+      "source_bmp_crc32": "ff74e526",
+      "source_size": [
+        32,
+        32
+      ],
+      "generated_source": "exec-a3693f3a-31f6-4c83-929f-7ee0d0a3eaa1.png",
+      "generated_crc32": "ab285a83",
+      "crop": [
+        0,
+        0,
+        1254,
+        1254
+      ],
+      "processing": "Crop only specified presentation padding; resize whole original-aspect tile with Lanczos; preserve source opacity/alpha; WebPquality80 method6. No original RGB copied.",
+      "image": "textures/dgp-buildings-da45hse2.webp",
+      "crc32": "8fa06669",
+      "bytes": 5424,
+      "size": [
+        512,
+        512
+      ]
+    },
+    {
+      "names": [
+        "DA31VST3"
+      ],
+      "source_bmp_crc32": "c945c236",
+      "source_size": [
+        64,
+        32
+      ],
+      "generated_source": "exec-135648a0-f6ba-470c-83ad-66dfa284270e.png",
+      "generated_crc32": "9881ace5",
+      "crop": [
+        0,
+        0,
+        1774,
+        887
+      ],
+      "processing": "Crop only specified presentation padding; resize whole original-aspect tile with Lanczos; preserve source opacity/alpha; WebPquality80 method6. No original RGB copied.",
+      "image": "textures/dgp-buildings-da31vst3.webp",
+      "crc32": "8e6e5cb9",
+      "bytes": 3098,
+      "size": [
+        512,
+        256
+      ],
+      "row_packing": {
+        "source_y": [
+          0,
+          110,
+          164,
+          489,
+          556,
+          887
+        ],
+        "target_y_normalized": [
+          0,
+          0.15625,
+          0.21875,
+          0.5625,
+          0.625,
+          1
+        ],
+        "reason": "Restore exact source roof/trim/glass/beam/glass band boundaries; UVs untouched."
+      }
+    },
+    {
+      "names": [
+        "DA31VST4"
+      ],
+      "source_bmp_crc32": "b5491589",
+      "source_size": [
+        64,
+        32
+      ],
+      "generated_source": "exec-ed0e36b7-5707-4229-8d57-5385522a3184.png",
+      "generated_crc32": "d89c444c",
+      "crop": [
+        0,
+        0,
+        1774,
+        887
+      ],
+      "processing": "Crop only specified presentation padding; resize whole original-aspect tile with Lanczos; preserve source opacity/alpha; WebPquality80 method6. No original RGB copied.",
+      "image": "textures/dgp-buildings-da31vst4.webp",
+      "crc32": "3f518c48",
+      "bytes": 5510,
+      "size": [
+        512,
+        256
+      ],
+      "row_packing": {
+        "source_y": [
+          0,
+          110,
+          197,
+          500,
+          565,
+          887
+        ],
+        "target_y_normalized": [
+          0,
+          0.15625,
+          0.21875,
+          0.5625,
+          0.625,
+          1
+        ],
+        "reason": "Restore exact source roof/trim/glass/beam/glass band boundaries; UVs untouched."
+      }
+    },
+    {
+      "names": [
+        "DA31VST6"
+      ],
+      "source_bmp_crc32": "d74d7416",
+      "source_size": [
+        128,
+        16
+      ],
+      "generated_source": "exec-88c993b8-411d-44a1-9984-ae531ce6384d.png",
+      "generated_crc32": "340846f8",
+      "crop": [
+        0,
+        251,
+        2172,
+        473
+      ],
+      "processing": "Crop only specified presentation padding; resize whole original-aspect tile with Lanczos; preserve source opacity/alpha; WebPquality80 method6. No original RGB copied.",
+      "image": "textures/dgp-buildings-da31vst6.webp",
+      "crc32": "5d10ce3a",
+      "bytes": 3716,
+      "size": [
+        512,
+        64
+      ]
+    },
+    {
+      "names": [
+        "DA31VST7"
+      ],
+      "source_bmp_crc32": "e5f6c34e",
+      "source_size": [
+        128,
+        16
+      ],
+      "generated_source": "exec-27831297-f9b7-4a5f-b533-e08dbc1808d8.png",
+      "generated_crc32": "9bcd816f",
+      "crop": [
+        0,
+        280,
+        2172,
+        446
+      ],
+      "processing": "Crop only specified presentation padding; resize whole original-aspect tile with Lanczos; preserve source opacity/alpha; WebPquality80 method6. No original RGB copied.",
+      "image": "textures/dgp-buildings-da31vst7.webp",
+      "crc32": "dd34f7eb",
+      "bytes": 6048,
+      "size": [
+        512,
+        64
+      ],
+      "lettering_reconstruction": "Exact JEWSON identity confirmed by actual original native-geometry1920closecapture; all three originalmarks retained.",
+      "repeat_packing": {
+        "period_source_pixels": 32,
+        "phase_source_pixels": 8,
+        "source_width": 128,
+        "repetitions": 3,
+        "policy": "One newly authored JEWSONperiod copied three times before WebPencoding; not three independent generated marks."
+      }
+    },
+    {
+      "names": [
+        "DA31VST2"
+      ],
+      "source_bmp_crc32": "fada6910",
+      "source_size": [
+        128,
+        16
+      ],
+      "generated_source": "exec-93b9957c-e455-4cf1-9aa1-b531dff3cf19.png",
+      "generated_crc32": "7bc8e162",
+      "crop": [
+        0,
+        228,
+        2159,
+        499
+      ],
+      "processing": "Crop only specified presentation padding; resize whole original-aspect tile with Lanczos; preserve source opacity/alpha; WebPquality80 method6. No original RGB copied.",
+      "image": "textures/dgp-buildings-da31vst2.webp",
+      "crc32": "afa5beb3",
+      "bytes": 3394,
+      "size": [
+        512,
+        64
+      ],
+      "lettering_reconstruction": "Gold lettering reconstructed as McLEANS after original/related texture examination and independent read; original capitalization/apostrophe uncertain, no sharper canonical variant."
+    },
+    {
+      "names": [
+        "DA31VST8"
+      ],
+      "source_bmp_crc32": "407a28ee",
+      "source_size": [
+        128,
+        16
+      ],
+      "generated_source": "exec-21666bbd-1034-42a9-b994-6e6878101d1f.png",
+      "generated_crc32": "11f9a08d",
+      "crop": [
+        0,
+        270,
+        2171,
+        442
+      ],
+      "processing": "Crop only specified presentation padding; resize whole original-aspect tile with Lanczos; preserve source opacity/alpha; WebPquality80 method6. No original RGB copied.",
+      "image": "textures/dgp-buildings-da31vst8.webp",
+      "crc32": "503cccd1",
+      "bytes": 4898,
+      "size": [
+        512,
+        64
+      ]
+    },
+    {
+      "names": [
+        "DA27STB8"
+      ],
+      "source_bmp_crc32": "2d1b7a10",
+      "source_size": [
+        128,
+        16
+      ],
+      "generated_source": "exec-ad239f73-a10b-4eb8-a845-24f0119b321f.png",
+      "generated_crc32": "df18cef0",
+      "crop": [
+        0,
+        246,
+        2172,
+        477
+      ],
+      "processing": "Crop only specified presentation padding; resize whole original-aspect tile with Lanczos; preserve source opacity/alpha; WebPquality80 method6. No original RGB copied.",
+      "image": "textures/dgp-buildings-da27stb8.webp",
+      "crc32": "facfcd1e",
+      "bytes": 494,
+      "size": [
+        512,
+        64
+      ]
+    },
+    {
+      "names": [
+        "DA29VST5"
+      ],
+      "source_bmp_crc32": "05003d03",
+      "source_size": [
+        64,
+        32
+      ],
+      "generated_source": "exec-dc826fa6-d068-432d-978b-f6e18c210561.png",
+      "generated_crc32": "d54a73c1",
+      "crop": [
+        0,
+        0,
+        1774,
+        887
+      ],
+      "processing": "Crop only specified presentation padding; resize whole original-aspect tile with Lanczos; preserve source opacity/alpha; WebPquality80 method6. No original RGB copied.",
+      "image": "textures/dgp-buildings-da29vst5.webp",
+      "crc32": "10f83ff4",
+      "bytes": 1268,
+      "size": [
+        512,
+        256
+      ]
+    },
+    {
+      "names": [
+        "DA29VST6"
+      ],
+      "source_bmp_crc32": "c6678aea",
+      "source_size": [
+        64,
+        64
+      ],
+      "generated_source": "exec-c230c953-cb7a-4506-9e60-aa634492ad4e.png",
+      "generated_crc32": "f64815b7",
+      "crop": [
+        0,
+        0,
+        1254,
+        1254
+      ],
+      "processing": "Crop only specified presentation padding; resize whole original-aspect tile with Lanczos; preserve source opacity/alpha; WebPquality80 method6. No original RGB copied.",
+      "image": "textures/dgp-buildings-da29vst6.webp",
+      "crc32": "9014b7c5",
+      "bytes": 3398,
+      "size": [
+        512,
+        512
+      ]
+    },
+    {
+      "names": [
+        "DA27STB1"
+      ],
+      "source_bmp_crc32": "420c4fd8",
+      "source_size": [
+        128,
+        32
+      ],
+      "generated_source": "exec-9b6b76f4-110f-4a39-b150-5cbc877bfb7b.png",
+      "generated_crc32": "340004ff",
+      "crop": [
+        0,
+        110,
+        2172,
+        615
+      ],
+      "processing": "Crop only specified presentation padding; resize whole original-aspect tile with Lanczos; preserve source opacity/alpha; WebPquality80 method6. No original RGB copied.",
+      "image": "textures/dgp-buildings-da27stb1.webp",
+      "crc32": "9e394731",
+      "bytes": 2702,
+      "size": [
+        512,
+        128
+      ]
+    },
+    {
+      "names": [
+        "DA27STB2"
+      ],
+      "source_bmp_crc32": "d0aa7e4f",
+      "source_size": [
+        128,
+        32
+      ],
+      "generated_source": "exec-1c908a2b-9f7d-440e-ad1c-b1c945dd0ac2.png",
+      "generated_crc32": "549c8a05",
+      "crop": [
+        0,
+        115,
+        2170,
+        605
+      ],
+      "processing": "Crop only specified presentation padding; resize whole original-aspect tile with Lanczos; preserve source opacity/alpha; WebPquality80 method6. No original RGB copied.",
+      "image": "textures/dgp-buildings-da27stb2.webp",
+      "crc32": "d267022b",
+      "bytes": 1834,
+      "size": [
+        512,
+        128
+      ]
+    },
+    {
+      "names": [
+        "DA27STB3"
+      ],
+      "source_bmp_crc32": "b83f29d1",
+      "source_size": [
+        128,
+        32
+      ],
+      "generated_source": "exec-33b418bd-b852-4ba9-9f50-23607a594a70.png",
+      "generated_crc32": "914e483f",
+      "crop": [
+        0,
+        112,
+        2172,
+        612
+      ],
+      "processing": "Crop only specified presentation padding; resize whole original-aspect tile with Lanczos; preserve source opacity/alpha; WebPquality80 method6. No original RGB copied.",
+      "image": "textures/dgp-buildings-da27stb3.webp",
+      "crc32": "33855536",
+      "bytes": 2222,
+      "size": [
+        512,
+        128
+      ]
+    },
+    {
+      "names": [
+        "DA27STB4"
+      ],
+      "source_bmp_crc32": "08463a57",
+      "source_size": [
+        128,
+        16
+      ],
+      "generated_source": "exec-ae5b40d8-bf0a-49aa-99ad-f3d340d5513f.png",
+      "generated_crc32": "3d6b2243",
+      "crop": [
+        0,
+        238,
+        2170,
+        486
+      ],
+      "processing": "Crop only specified presentation padding; resize whole original-aspect tile with Lanczos; preserve source opacity/alpha; WebPquality80 method6. No original RGB copied.",
+      "image": "textures/dgp-buildings-da27stb4.webp",
+      "crc32": "25d74d8c",
+      "bytes": 5040,
+      "size": [
+        512,
+        64
+      ],
+      "lettering_reconstruction": "Source low-resolution wording reconstructed as Donington International Exhibition Centre after related source names and layout review."
+    },
+    {
+      "names": [
+        "DA27STB5"
+      ],
+      "source_bmp_crc32": "2f6cac06",
+      "source_size": [
+        128,
+        32
+      ],
+      "generated_source": "exec-ad6968b4-77f9-4f07-8011-b5dd0db113e5.png",
+      "generated_crc32": "718b3cea",
+      "crop": [
+        0,
+        108,
+        2170,
+        613
+      ],
+      "processing": "Crop only specified presentation padding; resize whole original-aspect tile with Lanczos; preserve source opacity/alpha; WebPquality80 method6. No original RGB copied.",
+      "image": "textures/dgp-buildings-da27stb5.webp",
+      "crc32": "33523586",
+      "bytes": 2324,
+      "size": [
+        512,
+        128
+      ]
+    },
+    {
+      "names": [
+        "DA27STB9"
+      ],
+      "source_bmp_crc32": "a44138e8",
+      "source_size": [
+        128,
+        16
+      ],
+      "generated_source": "exec-0dd93273-60a1-49e0-b4d9-0d077e7edbc4.png",
+      "generated_crc32": "58eba6ff",
+      "crop": [
+        0,
+        248,
+        2170,
+        477
+      ],
+      "processing": "Crop only specified presentation padding; resize whole original-aspect tile with Lanczos; preserve source opacity/alpha; WebPquality80 method6. No original RGB copied.",
+      "image": "textures/dgp-buildings-da27stb9.webp",
+      "crc32": "b037b20f",
+      "bytes": 4796,
+      "size": [
+        512,
+        64
+      ],
+      "lettering_reconstruction": "Small source line read as THE HOME OF MOTOR SPORT; no higher-resolution canonical related variant found."
+    },
+    {
+      "names": [
+        "DA27STBA"
+      ],
+      "source_bmp_crc32": "ba5f4c95",
+      "source_size": [
+        128,
+        16
+      ],
+      "generated_source": "exec-cd2b32f2-312d-4742-b11b-4c344c96b9a2.png",
+      "generated_crc32": "79d456fd",
+      "crop": [
+        0,
+        246,
+        2170,
+        455
+      ],
+      "processing": "Crop only specified presentation padding; resize whole original-aspect tile with Lanczos; preserve source opacity/alpha; WebPquality80 method6. No original RGB copied.",
+      "image": "textures/dgp-buildings-da27stba.webp",
+      "crc32": "e3497a2a",
+      "bytes": 3192,
+      "size": [
+        512,
+        64
+      ],
+      "lettering_reconstruction": "Main source wording DONINGTON COLLECTION retained; unreadable tiny right group represented as existing abstract horizontal rules, no invented words."
+    },
+    {
+      "names": [
+        "DA27STBB"
+      ],
+      "source_bmp_crc32": "32fb1579",
+      "source_size": [
+        128,
+        16
+      ],
+      "generated_source": "exec-bdaa47f5-6313-4050-b0d8-df6889e4a4b1.png",
+      "generated_crc32": "fb2d4a57",
+      "crop": [
+        0,
+        235,
+        2170,
+        490
+      ],
+      "processing": "Crop only specified presentation padding; resize whole original-aspect tile with Lanczos; preserve source opacity/alpha; WebPquality80 method6. No original RGB copied.",
+      "image": "textures/dgp-buildings-da27stbb.webp",
+      "crc32": "6b07b807",
+      "bytes": 5402,
+      "size": [
+        512,
+        64
+      ]
+    },
+    {
+      "names": [
+        "LFOTENT2"
+      ],
+      "source_bmp_crc32": "43c943f3",
+      "source_size": [
+        128,
+        64
+      ],
+      "generated_source": "exec-f74bc7e1-df96-448f-9d46-8d257b43e98b.png",
+      "generated_crc32": "3b3830f5",
+      "crop": [
+        0,
+        0,
+        1774,
+        887
+      ],
+      "processing": "Crop only specified presentation padding; resize whole original-aspect tile with Lanczos; preserve source opacity/alpha; WebPquality80 method6. No original RGB copied.",
+      "image": "textures/dgp-buildings-lfotent2.webp",
+      "crc32": "1161e079",
+      "bytes": 32440,
+      "size": [
+        512,
+        256
+      ]
+    },
+    {
+      "names": [
+        "DA80FOS1"
+      ],
+      "source_bmp_crc32": "34cbbdb1",
+      "source_size": [
+        8,
+        64
+      ],
+      "generated_source": "exec-df8e7b3b-dbf0-4d73-adfd-2d9308e22716.png",
+      "generated_crc32": "9b3bcadc",
+      "crop": [
+        222,
+        0,
+        444,
+        1774
+      ],
+      "processing": "Crop only specified presentation padding; resize whole original-aspect tile with Lanczos; preserve source opacity/alpha; WebPquality80 method6. No original RGB copied.",
+      "image": "textures/dgp-buildings-da80fos1.webp",
+      "crc32": "30015a3b",
+      "bytes": 1578,
+      "size": [
+        64,
+        512
+      ],
+      "lettering_reconstruction": "RelatedcanonicalSI12FOS1(64square,BMPbac6bffd) proves kangaroo between goldstars, correcting apparentword in8pxstrip. No inventedwording; paleunresolvedrimmarks represented as clean source-shaped highlights, redangularsourceemblem preserved.",
+      "halfwrap_packing": {
+        "source_quarter": [
+          0.25,
+          0,
+          0.5,
+          1
+        ],
+        "angular_order": [
+          "DA80FOS6",
+          "DA80FOS1",
+          "DA80FOS2",
+          "DA80FOS3"
+        ],
+        "repetitions": 2,
+        "policy": "One authored halfwrap split into four existing1:8strips; exactoriginal8side order, no extra runtime image or UV change."
+      },
+      "related_source": {
+        "reference": "data/silvfree.bfp",
+        "archive_crc32": "960a335c",
+        "member": 5,
+        "member_crc32": "a92b3b70",
+        "material": "SI12FOS1",
+        "slot": 6,
+        "bmp_crc32": "bac6bffd",
+        "size": [
+          64,
+          64
+        ],
+        "export": "build/donington-gp-texture-review/mt01/SI12FOS1-related-original.png",
+        "finding": "White kangaroo between gold stars, no wordmark; related source clarifies motif only, Donington palette/layout retained."
+      }
+    },
+    {
+      "names": [
+        "DA80FOS2"
+      ],
+      "source_bmp_crc32": "681290f8",
+      "source_size": [
+        8,
+        64
+      ],
+      "generated_source": "exec-df8e7b3b-dbf0-4d73-adfd-2d9308e22716.png",
+      "generated_crc32": "9b3bcadc",
+      "crop": [
+        444,
+        0,
+        665,
+        1774
+      ],
+      "processing": "Crop only specified presentation padding; resize whole original-aspect tile with Lanczos; preserve source opacity/alpha; WebPquality80 method6. No original RGB copied.",
+      "image": "textures/dgp-buildings-da80fos2.webp",
+      "crc32": "ce717342",
+      "bytes": 830,
+      "size": [
+        64,
+        512
+      ],
+      "lettering_reconstruction": "RelatedcanonicalSI12FOS1(64square,BMPbac6bffd) proves kangaroo between goldstars, correcting apparentword in8pxstrip. No inventedwording; paleunresolvedrimmarks represented as clean source-shaped highlights, redangularsourceemblem preserved.",
+      "halfwrap_packing": {
+        "source_quarter": [
+          0.5,
+          0,
+          0.75,
+          1
+        ],
+        "angular_order": [
+          "DA80FOS6",
+          "DA80FOS1",
+          "DA80FOS2",
+          "DA80FOS3"
+        ],
+        "repetitions": 2,
+        "policy": "One authored halfwrap split into four existing1:8strips; exactoriginal8side order, no extra runtime image or UV change."
+      },
+      "related_source": {
+        "reference": "data/silvfree.bfp",
+        "archive_crc32": "960a335c",
+        "member": 5,
+        "member_crc32": "a92b3b70",
+        "material": "SI12FOS1",
+        "slot": 6,
+        "bmp_crc32": "bac6bffd",
+        "size": [
+          64,
+          64
+        ],
+        "export": "build/donington-gp-texture-review/mt01/SI12FOS1-related-original.png",
+        "finding": "White kangaroo between gold stars, no wordmark; related source clarifies motif only, Donington palette/layout retained."
+      }
+    },
+    {
+      "names": [
+        "DA80FOS3"
+      ],
+      "source_bmp_crc32": "53b843a5",
+      "source_size": [
+        8,
+        64
+      ],
+      "generated_source": "exec-df8e7b3b-dbf0-4d73-adfd-2d9308e22716.png",
+      "generated_crc32": "9b3bcadc",
+      "crop": [
+        665,
+        0,
+        887,
+        1774
+      ],
+      "processing": "Crop only specified presentation padding; resize whole original-aspect tile with Lanczos; preserve source opacity/alpha; WebPquality80 method6. No original RGB copied.",
+      "image": "textures/dgp-buildings-da80fos3.webp",
+      "crc32": "2c4c4307",
+      "bytes": 1434,
+      "size": [
+        64,
+        512
+      ],
+      "lettering_reconstruction": "RelatedcanonicalSI12FOS1(64square,BMPbac6bffd) proves kangaroo between goldstars, correcting apparentword in8pxstrip. No inventedwording; paleunresolvedrimmarks represented as clean source-shaped highlights, redangularsourceemblem preserved.",
+      "halfwrap_packing": {
+        "source_quarter": [
+          0.75,
+          0,
+          1,
+          1
+        ],
+        "angular_order": [
+          "DA80FOS6",
+          "DA80FOS1",
+          "DA80FOS2",
+          "DA80FOS3"
+        ],
+        "repetitions": 2,
+        "policy": "One authored halfwrap split into four existing1:8strips; exactoriginal8side order, no extra runtime image or UV change."
+      },
+      "related_source": {
+        "reference": "data/silvfree.bfp",
+        "archive_crc32": "960a335c",
+        "member": 5,
+        "member_crc32": "a92b3b70",
+        "material": "SI12FOS1",
+        "slot": 6,
+        "bmp_crc32": "bac6bffd",
+        "size": [
+          64,
+          64
+        ],
+        "export": "build/donington-gp-texture-review/mt01/SI12FOS1-related-original.png",
+        "finding": "White kangaroo between gold stars, no wordmark; related source clarifies motif only, Donington palette/layout retained."
+      }
+    },
+    {
+      "names": [
+        "DA80FOS4"
+      ],
+      "source_bmp_crc32": "4260ffcb",
+      "source_size": [
+        8,
+        32
+      ],
+      "generated_source": "exec-1d6e6445-6f68-4294-821a-a521ffc1f6cf.png",
+      "generated_crc32": "577a3c13",
+      "crop": [
+        153,
+        0,
+        574,
+        2170
+      ],
+      "processing": "Crop only specified presentation padding; resize whole original-aspect tile with Lanczos; preserve source opacity/alpha; WebPquality80 method6. No original RGB copied.",
+      "image": "textures/dgp-buildings-da80fos4.webp",
+      "crc32": "617a0599",
+      "bytes": 2148,
+      "size": [
+        128,
+        512
+      ],
+      "related_source": {
+        "reference": "data/silvfree.bfp",
+        "archive_crc32": "960a335c",
+        "member": 5,
+        "member_crc32": "a92b3b70",
+        "material": "SI12FOS1",
+        "slot": 6,
+        "bmp_crc32": "bac6bffd",
+        "size": [
+          64,
+          64
+        ],
+        "export": "build/donington-gp-texture-review/mt01/SI12FOS1-related-original.png",
+        "finding": "White kangaroo between gold stars, no wordmark; related source clarifies motif only, Donington palette/layout retained."
+      }
+    },
+    {
+      "names": [
+        "DA80FOS5"
+      ],
+      "source_bmp_crc32": "bff64f23",
+      "source_size": [
+        16,
+        16
+      ],
+      "generated_source": "exec-127c3db4-812a-4653-82d0-97f7458491a3.png",
+      "generated_crc32": "e1a084de",
+      "crop": [
+        0,
+        0,
+        1254,
+        1254
+      ],
+      "processing": "Crop only specified presentation padding; resize whole original-aspect tile with Lanczos; preserve source opacity/alpha; WebPquality80 method6. No original RGB copied.",
+      "image": "textures/dgp-buildings-da80fos5.webp",
+      "crc32": "caa46065",
+      "bytes": 12580,
+      "size": [
+        512,
+        512
+      ],
+      "related_source": {
+        "reference": "data/silvfree.bfp",
+        "archive_crc32": "960a335c",
+        "member": 5,
+        "member_crc32": "a92b3b70",
+        "material": "SI12FOS1",
+        "slot": 6,
+        "bmp_crc32": "bac6bffd",
+        "size": [
+          64,
+          64
+        ],
+        "export": "build/donington-gp-texture-review/mt01/SI12FOS1-related-original.png",
+        "finding": "White kangaroo between gold stars, no wordmark; related source clarifies motif only, Donington palette/layout retained."
+      }
+    },
+    {
+      "names": [
+        "DA80FOS6"
+      ],
+      "source_bmp_crc32": "fed16514",
+      "source_size": [
+        8,
+        64
+      ],
+      "generated_source": "exec-df8e7b3b-dbf0-4d73-adfd-2d9308e22716.png",
+      "generated_crc32": "9b3bcadc",
+      "crop": [
+        0,
+        0,
+        222,
+        1774
+      ],
+      "processing": "Crop only specified presentation padding; resize whole original-aspect tile with Lanczos; preserve source opacity/alpha; WebPquality80 method6. No original RGB copied.",
+      "image": "textures/dgp-buildings-da80fos6.webp",
+      "crc32": "e807859f",
+      "bytes": 1590,
+      "size": [
+        64,
+        512
+      ],
+      "lettering_reconstruction": "RelatedcanonicalSI12FOS1(64square,BMPbac6bffd) proves kangaroo between goldstars, correcting apparentword in8pxstrip. No inventedwording; paleunresolvedrimmarks represented as clean source-shaped highlights, redangularsourceemblem preserved.",
+      "halfwrap_packing": {
+        "source_quarter": [
+          0,
+          0,
+          0.25,
+          1
+        ],
+        "angular_order": [
+          "DA80FOS6",
+          "DA80FOS1",
+          "DA80FOS2",
+          "DA80FOS3"
+        ],
+        "repetitions": 2,
+        "policy": "One authored halfwrap split into four existing1:8strips; exactoriginal8side order, no extra runtime image or UV change."
+      },
+      "related_source": {
+        "reference": "data/silvfree.bfp",
+        "archive_crc32": "960a335c",
+        "member": 5,
+        "member_crc32": "a92b3b70",
+        "material": "SI12FOS1",
+        "slot": 6,
+        "bmp_crc32": "bac6bffd",
+        "size": [
+          64,
+          64
+        ],
+        "export": "build/donington-gp-texture-review/mt01/SI12FOS1-related-original.png",
+        "finding": "White kangaroo between gold stars, no wordmark; related source clarifies motif only, Donington palette/layout retained."
+      }
+    }
+  ],
+  "reused_images": [
+    {
+      "names": [
+        "DA27STB6"
+      ],
+      "source_bmp_crc32": "5cde4251",
+      "source_size": [
+        128,
+        32
+      ],
+      "image": "textures/donington-cbo1-da27stb6.webp",
+      "crc32": "2edadbae",
+      "bytes": 8746
+    },
+    {
+      "names": [
+        "DA03STL2"
+      ],
+      "source_bmp_crc32": "6f6ab58a",
+      "source_size": [
+        32,
+        64
+      ],
+      "image": "textures/donington-stl-da03stl2.webp",
+      "crc32": "c047d722",
+      "bytes": 14086
+    },
+    {
+      "names": [
+        "DA03STL3"
+      ],
+      "source_bmp_crc32": "e8563107",
+      "source_size": [
+        32,
+        64
+      ],
+      "image": "textures/donington-stl-da03stl3.webp",
+      "crc32": "633293b9",
+      "bytes": 11802
+    },
+    {
+      "names": [
+        "DA03STL4"
+      ],
+      "source_bmp_crc32": "94149390",
+      "source_size": [
+        128,
+        16
+      ],
+      "image": "textures/donington-stl-da03stl4.webp",
+      "crc32": "e58aab67",
+      "bytes": 470
+    },
+    {
+      "names": [
+        "DA03STL5"
+      ],
+      "source_bmp_crc32": "db8534ef",
+      "source_size": [
+        128,
+        32
+      ],
+      "image": "textures/donington-stl-da03stl5.webp",
+      "crc32": "81994d57",
+      "bytes": 7196
+    }
+  ],
+  "webp_quality": 80
+}

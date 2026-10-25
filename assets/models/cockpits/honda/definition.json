@@ -1,0 +1,38 @@
+{
+  "source": {
+    "archive": "data/honddasx.bfp",
+    "archive_crc32": "6c68f4a3",
+    "member": 2,
+    "member_name": "cabin\\dash.c3d",
+    "member_crc32": "68206187"
+  },
+  "mesh_names": ["DASH_1", "DASH_2", "DASH_3", "DASH_4"],
+  "source_mesh_crc32": ["4b45b9c7", "edd7cfa1", "b440520f", "ad8319ed"],
+  "materials": [
+    {
+      "slot": 0,
+      "name": "dashc",
+      "source_bmp_crc32": "266db3fb",
+      "source_size": [32, 32]
+    },
+    {
+      "slot": 1,
+      "name": "dash",
+      "source_bmp_crc32": "c375b26c",
+      "source_size": [128, 32]
+    },
+    {
+      "slot": 2,
+      "name": "dasha",
+      "source_bmp_crc32": "a5f53c34",
+      "source_size": [32, 32]
+    },
+    {
+      "slot": 3,
+      "name": "dashb",
+      "source_bmp_crc32": "f2315ce7",
+      "source_size": [32, 32]
+    }
+  ],
+  "backing_thickness_m": 0.008
+}

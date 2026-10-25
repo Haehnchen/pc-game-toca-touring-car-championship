@@ -1,0 +1,214 @@
+{
+  "version": 1,
+  "processing": "Built-in Imagegen source copied to ignored build/ground-texture-rollout/artwork; entire source Lanczos resized to target dimensions, RGB WebP quality80 method6. Nearest-enlarged originals are layout input only, never final artwork.",
+  "sources": [
+    {
+      "id": "RUMBLE2",
+      "file": "exec-db87c76d-616b-46c1-8080-6ea30b42d2a1.png",
+      "crc32": "43558af1",
+      "size": [
+        2172,
+        724
+      ],
+      "reference": {
+        "archive": "data/donlfree.bfp",
+        "archive_crc32": "46885a20",
+        "member": 1,
+        "member_name": "GROUND.C3D",
+        "member_crc32": "15e24c5f",
+        "material_slot": 1,
+        "material": "RUMBLE2",
+        "bmp_crc32": "48d708b7",
+        "size": [
+          128,
+          32
+        ]
+      }
+    },
+    {
+      "id": "PIT2",
+      "file": "exec-839c6777-23aa-4939-8c4b-bb90bd74b5dd.png",
+      "crc32": "7f6983b4",
+      "size": [
+        1254,
+        1254
+      ],
+      "reference": {
+        "archive": "data/donlfree.bfp",
+        "archive_crc32": "46885a20",
+        "member": 1,
+        "member_name": "GROUND.C3D",
+        "member_crc32": "15e24c5f",
+        "material_slot": 2,
+        "material": "PIT2",
+        "bmp_crc32": "4e035c14",
+        "size": [
+          64,
+          64
+        ]
+      }
+    },
+    {
+      "id": "SCRUBOLD",
+      "file": "exec-8302cb7b-e937-4862-bb97-7ddaa86fe96b.png",
+      "crc32": "f4f5448d",
+      "size": [
+        1254,
+        1254
+      ],
+      "reference": {
+        "archive": "data/donlfree.bfp",
+        "archive_crc32": "46885a20",
+        "member": 1,
+        "member_name": "GROUND.C3D",
+        "member_crc32": "15e24c5f",
+        "material_slot": 3,
+        "material": "SCRUBOLD",
+        "bmp_crc32": "035fe8da",
+        "size": [
+          64,
+          64
+        ]
+      }
+    },
+    {
+      "id": "CHEVRONS",
+      "file": "exec-2a2ef826-08d4-49c1-ad12-30416e628dd9.png",
+      "crc32": "b0c3ac76",
+      "size": [
+        1254,
+        1254
+      ],
+      "reference": {
+        "archive": "data/donlfree.bfp",
+        "archive_crc32": "46885a20",
+        "member": 1,
+        "member_name": "GROUND.C3D",
+        "member_crc32": "15e24c5f",
+        "material_slot": 12,
+        "material": "CHEVRONS",
+        "bmp_crc32": "3cda580e",
+        "size": [
+          128,
+          128
+        ]
+      }
+    },
+    {
+      "id": "PIT_STIP",
+      "file": "exec-0820668b-1efa-4ad5-9890-446556ab39a3.png",
+      "crc32": "937544b4",
+      "size": [
+        1254,
+        1254
+      ],
+      "reference": {
+        "archive": "data/donlfree.bfp",
+        "archive_crc32": "46885a20",
+        "member": 1,
+        "member_name": "GROUND.C3D",
+        "member_crc32": "15e24c5f",
+        "material_slot": 13,
+        "material": "PIT_STIP",
+        "bmp_crc32": "51d90520",
+        "size": [
+          128,
+          128
+        ]
+      }
+    }
+  ],
+  "outputs": [
+    {
+      "image": "textures/ground-donington-rumble2.webp",
+      "source": "RUMBLE2",
+      "size": [
+        256,
+        64
+      ],
+      "alpha": "opaque",
+      "webp_quality": 80,
+      "method": 6,
+      "crc32": "71273c65",
+      "bytes": 3314,
+      "mean_rgb": [
+        88.706,
+        106.948,
+        111.23
+      ]
+    },
+    {
+      "image": "textures/ground-donington-pit2.webp",
+      "source": "PIT2",
+      "size": [
+        128,
+        128
+      ],
+      "alpha": "opaque",
+      "webp_quality": 80,
+      "method": 6,
+      "crc32": "64601718",
+      "bytes": 2360,
+      "mean_rgb": [
+        107.078,
+        96.542,
+        77.239
+      ]
+    },
+    {
+      "image": "textures/ground-donington-scrubold.webp",
+      "source": "SCRUBOLD",
+      "size": [
+        128,
+        128
+      ],
+      "alpha": "opaque",
+      "webp_quality": 80,
+      "method": 6,
+      "crc32": "4b0c97a1",
+      "bytes": 4392,
+      "mean_rgb": [
+        48.923,
+        46.872,
+        45.322
+      ]
+    },
+    {
+      "image": "textures/ground-donington-chevrons.webp",
+      "source": "CHEVRONS",
+      "size": [
+        256,
+        256
+      ],
+      "alpha": "opaque",
+      "webp_quality": 80,
+      "method": 6,
+      "crc32": "3a6297bd",
+      "bytes": 12198,
+      "mean_rgb": [
+        70.887,
+        138.245,
+        191.763
+      ]
+    },
+    {
+      "image": "textures/ground-donington-pit-stip.webp",
+      "source": "PIT_STIP",
+      "size": [
+        256,
+        256
+      ],
+      "alpha": "opaque",
+      "webp_quality": 80,
+      "method": 6,
+      "crc32": "3b0d751c",
+      "bytes": 8776,
+      "mean_rgb": [
+        43.597,
+        122.044,
+        184.012
+      ]
+    }
+  ],
+  "webp_quality": 80
+}

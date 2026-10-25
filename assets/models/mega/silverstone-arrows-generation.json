@@ -1,0 +1,487 @@
+{
+  "version": 1,
+  "package": "R01-Silverstone-chevron-markers-and-shared-atlases",
+  "source_policy": "Only canonical unmodified TOCA 1.1a; originals are not committed.",
+  "source": {
+    "path": "data/silvfree.bfp",
+    "crc32": "960a335c",
+    "member": 5,
+    "member_crc32": "a92b3b70"
+  },
+  "scope": {
+    "track": 1,
+    "marker_meshes": 2,
+    "marker_placements": 8,
+    "source_materials": 3,
+    "new_images": 2,
+    "reused_images": 1,
+    "shared_consumers": [
+      "SI13ROV_1 #10/node29",
+      "SI23ARO_1 #19/node75"
+    ]
+  },
+  "geometry": "Original67V/34T per marker:2T front,30T frame/posts/base,2T reverse. Simple complete source bodies, UVs, material slots and all8 placements retained; no geometry added.",
+  "uv_contract": "Source imageV=storedV+1; static runtime clamps each vertex U/imageV to .02..99. CHERVL and CHERV retain opposite source U directions and four chevron periods including edge cuts. No image mirroring, new texture slot or phase shift.",
+  "markers": [
+    {
+      "mesh": 37,
+      "name": "CHERVL_1",
+      "type": "5f145972",
+      "source_mesh_crc32": "848926d6",
+      "nodes": [
+        287,
+        289,
+        291,
+        377
+      ]
+    },
+    {
+      "mesh": 38,
+      "name": "CHERV_1",
+      "type": "d1f79102",
+      "source_mesh_crc32": "d43f4d28",
+      "nodes": [
+        295,
+        297,
+        363,
+        365
+      ]
+    }
+  ],
+  "export": "Whole-canvas Lanczos resize to source aspect ratio, longest edge512; opaque RGB WebP quality80 method6. No crop or programmatic artwork edits.",
+  "materials": [
+    {
+      "name": "CHEV",
+      "source": {
+        "slot": 106,
+        "crc32": "0f188e5a",
+        "size": [
+          64,
+          64
+        ],
+        "black_key_pixels": 0
+      },
+      "consumers": [
+        {
+          "member": 5,
+          "mesh": 37,
+          "name": "CHERVL_1",
+          "slot": 106,
+          "faces": [
+            0,
+            1
+          ],
+          "nodes": [
+            287,
+            289,
+            291,
+            377
+          ],
+          "uv_bounds": [
+            [
+              0.0,
+              1.0
+            ],
+            [
+              -0.9999847412109375,
+              -0.0158538818359375
+            ]
+          ]
+        },
+        {
+          "member": 5,
+          "mesh": 38,
+          "name": "CHERV_1",
+          "slot": 106,
+          "faces": [
+            0,
+            1
+          ],
+          "nodes": [
+            295,
+            297,
+            363,
+            365
+          ],
+          "uv_bounds": [
+            [
+              0.0,
+              1.0
+            ],
+            [
+              -0.9999847412109375,
+              -0.0158538818359375
+            ]
+          ]
+        }
+      ],
+      "reuse": {
+        "path": "assets/models/mega/textures/dgp-mt03-chev.webp",
+        "crc32": "5e5c95df",
+        "bytes": 7200,
+        "size": [
+          512,
+          512
+        ]
+      },
+      "provenance": "assets/models/mega/donington-mt03-generation.json"
+    },
+    {
+      "name": "SI07SPR5",
+      "source": {
+        "slot": 22,
+        "crc32": "3755df40",
+        "size": [
+          128,
+          32
+        ],
+        "black_key_pixels": 0
+      },
+      "consumers": [
+        {
+          "member": 5,
+          "mesh": 10,
+          "name": "SI13ROV_1",
+          "slot": 22,
+          "faces": [
+            8,
+            9,
+            10,
+            11
+          ],
+          "nodes": [
+            29
+          ],
+          "uv_bounds": [
+            [
+              0.0,
+              0.9921112060546875
+            ],
+            [
+              -0.9999847412109375,
+              1.52587890625e-05
+            ]
+          ]
+        },
+        {
+          "member": 5,
+          "mesh": 37,
+          "name": "CHERVL_1",
+          "slot": 22,
+          "faces": [
+            32,
+            33
+          ],
+          "nodes": [
+            287,
+            289,
+            291,
+            377
+          ],
+          "uv_bounds": [
+            [
+              0.3070831298828125,
+              0.4330596923828125
+            ],
+            [
+              -0.935455322265625,
+              -0.83868408203125
+            ]
+          ]
+        },
+        {
+          "member": 5,
+          "mesh": 38,
+          "name": "CHERV_1",
+          "slot": 22,
+          "faces": [
+            32,
+            33
+          ],
+          "nodes": [
+            295,
+            297,
+            363,
+            365
+          ],
+          "uv_bounds": [
+            [
+              0.3070831298828125,
+              0.4330596923828125
+            ],
+            [
+              -0.935455322265625,
+              -0.83868408203125
+            ]
+          ]
+        }
+      ],
+      "protected_crop_source_pixels": {
+        "x": [
+          39.306640625,
+          55.431640625
+        ],
+        "y": [
+          2.0654296875,
+          5.162109375
+        ],
+        "role": "opaque dark rear panel; retain blank dark field, do not introduce letters or alpha"
+      },
+      "alignment_edit": {
+        "reference": {
+          "path": "build/silverstone-arrows/SI07SPR5-layout-reference.png",
+          "crc32": "f1e37e35",
+          "bytes": 1226679,
+          "size": [
+            2170,
+            725
+          ]
+        }
+      },
+      "generated": {
+        "path": "build/silverstone-arrows/SI07SPR5-generated.png",
+        "crc32": "d5372f3a",
+        "bytes": 1365757,
+        "size": [
+          2169,
+          725
+        ]
+      },
+      "output": {
+        "path": "assets/models/mega/textures/silverstone-arrow-si07spr5.webp",
+        "crc32": "15642004",
+        "bytes": 3992,
+        "size": [
+          512,
+          128
+        ]
+      }
+    },
+    {
+      "name": "SI23ARO1",
+      "source": {
+        "slot": 57,
+        "crc32": "62fb9ae7",
+        "size": [
+          64,
+          64
+        ],
+        "black_key_pixels": 0
+      },
+      "consumers": [
+        {
+          "member": 5,
+          "mesh": 19,
+          "name": "SI23ARO_1",
+          "slot": 57,
+          "faces": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "nodes": [
+            75
+          ],
+          "uv_bounds": [
+            [
+              0.0,
+              0.9841156005859375
+            ],
+            [
+              -0.9999847412109375,
+              -0.0317230224609375
+            ]
+          ]
+        },
+        {
+          "member": 5,
+          "mesh": 37,
+          "name": "CHERVL_1",
+          "slot": 57,
+          "faces": [
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19,
+            20,
+            21,
+            22,
+            23,
+            24,
+            25,
+            26,
+            27,
+            28,
+            29,
+            30,
+            31
+          ],
+          "nodes": [
+            287,
+            289,
+            291,
+            377
+          ],
+          "uv_bounds": [
+            [
+              0.047607421875,
+              0.5714263916015625
+            ],
+            [
+              -0.6825103759765625,
+              -0.6190185546875
+            ]
+          ]
+        },
+        {
+          "member": 5,
+          "mesh": 38,
+          "name": "CHERV_1",
+          "slot": 57,
+          "faces": [
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19,
+            20,
+            21,
+            22,
+            23,
+            24,
+            25,
+            26,
+            27,
+            28,
+            29,
+            30,
+            31
+          ],
+          "nodes": [
+            295,
+            297,
+            363,
+            365
+          ],
+          "uv_bounds": [
+            [
+              0.047607421875,
+              0.5714263916015625
+            ],
+            [
+              -0.6825103759765625,
+              -0.6190185546875
+            ]
+          ]
+        }
+      ],
+      "protected_crop_source_pixels": {
+        "x": [
+          3.046875,
+          36.5712890625
+        ],
+        "y": [
+          20.3193359375,
+          24.3828125
+        ],
+        "role": "opaque pale grey frame/backing surface; below window openings"
+      },
+      "generated": {
+        "path": "build/silverstone-arrows/SI23ARO1-generated.png",
+        "crc32": "08d2c61d",
+        "bytes": 2943579,
+        "size": [
+          1254,
+          1254
+        ]
+      },
+      "output": {
+        "path": "assets/models/mega/textures/silverstone-arrow-si23aro1.webp",
+        "crc32": "484ee32d",
+        "bytes": 18600,
+        "size": [
+          512,
+          512
+        ]
+      }
+    }
+  ],
+  "excluded": {
+    "mesh": 26,
+    "name": "CARROW_1",
+    "type": "fbf92d23",
+    "source_mesh_crc32": "48b9cbb6",
+    "nodes": [
+      135,
+      137,
+      139
+    ],
+    "owner": "T0",
+    "reason": "Source artwork confirms a parked-car row, not a direction marker.",
+    "materials": [
+      {
+        "name": "CARSDE1",
+        "slot": 89,
+        "crc32": "1014e1c2",
+        "size": [
+          32,
+          16
+        ],
+        "black_key_pixels": 253
+      },
+      {
+        "name": "CARSDE3",
+        "slot": 90,
+        "crc32": "836404fd",
+        "size": [
+          32,
+          16
+        ],
+        "black_key_pixels": 251
+      },
+      {
+        "name": "CARROW2",
+        "slot": 91,
+        "crc32": "1570bfb5",
+        "size": [
+          128,
+          16
+        ],
+        "black_key_pixels": 1208
+      }
+    ],
+    "preservation": "30V/28T and all3 placements unchanged. Embedded images89/90/91 remain byte-identical with CRC32 23761e55/2f81cf7a/ed9f41e5 and source black-key alpha0..255."
+  }
+}

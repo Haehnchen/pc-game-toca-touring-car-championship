@@ -1,0 +1,459 @@
+{
+  "crop": [
+    2,
+    0,
+    1148,
+    714
+  ],
+  "strip_width": 128,
+  "panorama_starts": [
+    0,
+    7,
+    14,
+    20,
+    27,
+    33,
+    40,
+    46,
+    53,
+    59
+  ],
+  "layout": {
+    "cars": {
+      "0": {
+        "eye_height": 1.0,
+        "rect": [
+          304,
+          312,
+          608,
+          386
+        ],
+        "yaw": 20
+      },
+      "1": {
+        "eye_height": 1.0,
+        "rect": [
+          220,
+          336,
+          594,
+          364
+        ],
+        "yaw": 20
+      },
+      "2": {
+        "eye_height": 1.0,
+        "rect": [
+          200,
+          326,
+          574,
+          374
+        ],
+        "yaw": 20
+      },
+      "3": {
+        "eye_height": 1.0,
+        "rect": [
+          280,
+          340,
+          608,
+          362
+        ],
+        "yaw": 20
+      },
+      "4": {
+        "eye_height": 1.0,
+        "rect": [
+          220,
+          336,
+          592,
+          352
+        ],
+        "yaw": 20
+      },
+      "5": {
+        "eye_height": 1.0,
+        "rect": [
+          300,
+          344,
+          598,
+          352
+        ],
+        "yaw": 20
+      },
+      "6": {
+        "eye_height": 1.0,
+        "rect": [
+          208,
+          344,
+          602,
+          356
+        ],
+        "yaw": 20
+      },
+      "7": {
+        "eye_height": 1.0,
+        "rect": [
+          244,
+          348,
+          582,
+          352
+        ],
+        "yaw": 20
+      },
+      "8": {
+        "eye_height": 1.0,
+        "rect": [
+          268,
+          94,
+          736,
+          616
+        ],
+        "yaw": 20
+      },
+      "9": {
+        "eye_height": 1.0,
+        "rect": [
+          374,
+          354,
+          704,
+          344
+        ],
+        "yaw": 20
+      }
+    },
+    "interiors": {
+      "audi": {
+        "darken": 0.3,
+        "eye_height": 1.0,
+        "rect": [
+          420,
+          286,
+          290,
+          170
+        ],
+        "yaw": 0
+      },
+      "renault": {
+        "darken": 0.35,
+        "eye_height": 1.0,
+        "rect": [
+          574,
+          310,
+          242,
+          170
+        ],
+        "yaw": 0
+      }
+    }
+  },
+  "renders": {
+    "car-0": {
+      "alpha_bbox_xyxy": [
+        303,
+        323,
+        912,
+        698
+      ]
+    },
+    "car-1": {
+      "alpha_bbox_xyxy": [
+        219,
+        349,
+        815,
+        700
+      ]
+    },
+    "car-2": {
+      "alpha_bbox_xyxy": [
+        199,
+        335,
+        775,
+        700
+      ]
+    },
+    "car-3": {
+      "alpha_bbox_xyxy": [
+        279,
+        355,
+        889,
+        702
+      ]
+    },
+    "car-4": {
+      "alpha_bbox_xyxy": [
+        232,
+        335,
+        802,
+        689
+      ]
+    },
+    "car-5": {
+      "alpha_bbox_xyxy": [
+        299,
+        342,
+        898,
+        697
+      ]
+    },
+    "car-6": {
+      "alpha_bbox_xyxy": [
+        207,
+        365,
+        811,
+        700
+      ]
+    },
+    "car-7": {
+      "alpha_bbox_xyxy": [
+        243,
+        348,
+        827,
+        701
+      ]
+    },
+    "car-8": {
+      "alpha_bbox_xyxy": [
+        267,
+        140,
+        1005,
+        711
+      ]
+    },
+    "car-9": {
+      "alpha_bbox_xyxy": [
+        373,
+        363,
+        1079,
+        698
+      ]
+    },
+    "interior-audi": {
+      "alpha_bbox_xyxy": [
+        456,
+        284,
+        673,
+        458
+      ]
+    },
+    "interior-renault": {
+      "alpha_bbox_xyxy": [
+        587,
+        308,
+        803,
+        482
+      ]
+    }
+  },
+  "entries": {
+    "gar1-car0": {
+      "vehicles": [
+        {
+          "car_id": 0,
+          "x_shift": 0
+        },
+        {
+          "car_id": 1,
+          "x_shift": 896
+        }
+      ]
+    },
+    "gar1-car1": {
+      "vehicles": [
+        {
+          "car_id": 0,
+          "x_shift": -896
+        },
+        {
+          "car_id": 1,
+          "x_shift": 0
+        },
+        {
+          "car_id": 2,
+          "x_shift": 896
+        }
+      ]
+    },
+    "gar1-car2": {
+      "vehicles": [
+        {
+          "car_id": 2,
+          "x_shift": 0
+        },
+        {
+          "car_id": 3,
+          "x_shift": 768
+        }
+      ]
+    },
+    "gar1-car3": {
+      "vehicles": [
+        {
+          "car_id": 2,
+          "x_shift": -768
+        },
+        {
+          "car_id": 3,
+          "x_shift": 0
+        },
+        {
+          "car_id": 4,
+          "x_shift": 896
+        }
+      ]
+    },
+    "gar1-car4": {
+      "vehicles": [
+        {
+          "car_id": 4,
+          "x_shift": 0
+        },
+        {
+          "car_id": 5,
+          "x_shift": 768
+        }
+      ]
+    },
+    "gar1-car5": {
+      "vehicles": [
+        {
+          "car_id": 4,
+          "x_shift": -768
+        },
+        {
+          "car_id": 5,
+          "x_shift": 0
+        },
+        {
+          "car_id": 6,
+          "x_shift": 896
+        }
+      ]
+    },
+    "gar1-car6": {
+      "vehicles": [
+        {
+          "car_id": 5,
+          "x_shift": -896
+        },
+        {
+          "car_id": 6,
+          "x_shift": 0
+        },
+        {
+          "car_id": 7,
+          "x_shift": 768
+        }
+      ]
+    },
+    "gar1-car7": {
+      "vehicles": [
+        {
+          "car_id": 6,
+          "x_shift": -768
+        },
+        {
+          "car_id": 7,
+          "x_shift": 0
+        }
+      ]
+    },
+    "gar1-car8": {
+      "vehicles": []
+    },
+    "gar1-car9": {
+      "vehicles": []
+    },
+    "gar2-car7": {
+      "vehicles": [
+        {
+          "car_id": 6,
+          "x_shift": -768
+        },
+        {
+          "car_id": 7,
+          "x_shift": 0
+        }
+      ]
+    },
+    "gar2-car8": {
+      "vehicles": [
+        {
+          "car_id": 8,
+          "x_shift": 0
+        }
+      ]
+    },
+    "gar2-car9": {
+      "vehicles": [
+        {
+          "car_id": 8,
+          "x_shift": -768
+        }
+      ]
+    },
+    "gar3-car7": {
+      "vehicles": [
+        {
+          "car_id": 6,
+          "x_shift": -768
+        },
+        {
+          "car_id": 7,
+          "x_shift": 0
+        }
+      ]
+    },
+    "gar3-car8": {
+      "vehicles": [
+        {
+          "car_id": 9,
+          "x_shift": 768
+        }
+      ]
+    },
+    "gar3-car9": {
+      "vehicles": [
+        {
+          "car_id": 9,
+          "x_shift": 0
+        }
+      ]
+    },
+    "gar4-car7": {
+      "vehicles": [
+        {
+          "car_id": 6,
+          "x_shift": -768
+        },
+        {
+          "car_id": 7,
+          "x_shift": 0
+        }
+      ]
+    },
+    "gar4-car8": {
+      "vehicles": [
+        {
+          "car_id": 8,
+          "x_shift": 0
+        },
+        {
+          "car_id": 9,
+          "x_shift": 768
+        }
+      ]
+    },
+    "gar4-car9": {
+      "vehicles": [
+        {
+          "car_id": 8,
+          "x_shift": -768
+        },
+        {
+          "car_id": 9,
+          "x_shift": 0
+        }
+      ]
+    }
+  }
+}

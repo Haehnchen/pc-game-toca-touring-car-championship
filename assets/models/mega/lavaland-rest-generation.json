@@ -1,0 +1,256 @@
+{
+  "version": 1,
+  "package": "R09-M03-M07-9",
+  "source": {
+    "original_version": "1.1a",
+    "path": "data/landfree.bfp",
+    "crc32": "dba52c51",
+    "members": [
+      {
+        "index": 3,
+        "name": "FENCE.C3D",
+        "crc32": "f1bc76aa"
+      },
+      {
+        "index": 5,
+        "name": "OBJECTS.C3D",
+        "crc32": "35ab6025"
+      }
+    ]
+  },
+  "scope": {
+    "mesh_rows": 101,
+    "types": 22,
+    "raw_bindings": 152,
+    "source_images": 23,
+    "mapped_images": 22,
+    "native_constants": [
+      "POST:22d32fc3"
+    ],
+    "new_images": 5,
+    "new_crc32_mappings": 17,
+    "empty_members": [
+      2,
+      9,
+      10
+    ]
+  },
+  "meshes": [
+    {
+      "member": 3,
+      "mesh": 0,
+      "name": "FENCE_1",
+      "source_crc32": "6aa617bd",
+      "type": "5848e96e",
+      "nodes": [
+        [
+          0,
+          0
+        ]
+      ],
+      "package": "M03"
+    },
+    {
+      "member": 3,
+      "mesh": 1,
+      "name": "FENCE_2",
+      "source_crc32": "5f60edaf",
+      "type": "7246d726",
+      "nodes": [
+        [
+          1,
+          0
+        ]
+      ],
+      "package": "M03"
+    },
+    {
+      "member": 3,
+      "mesh": 2,
+      "name": "FENCE_3",
+      "source_crc32": "aefbc530",
+      "type": "58d78d74",
+      "nodes": [
+        [
+          3,
+          0
+        ]
+      ],
+      "package": "M03"
+    },
+    {
+      "member": 5,
+      "mesh": 0,
+      "name": "TEMPLE_1",
+      "source_crc32": "a393ccdb",
+      "type": "a925dea1",
+      "nodes": [
+        [
+          1,
+          0
+        ],
+        [
+          3,
+          0
+        ]
+      ],
+      "package": "M07-9"
+    }
+  ],
+  "geometry": {
+    "policy": "Preserve existing spatial source bodies, silhouette, openings, UVs, slots, nodes and placements. No new detail geometry is justified.",
+    "fence_triangles": [
+      76,
+      108,
+      50
+    ],
+    "temple_triangles": 126,
+    "temple_instances": 2,
+    "gargoyle": "Existing accepted closed154-triangle relief and ground correction retained; lavaland-gargoyle-generation.json",
+    "flags": "Original complete hierarchy,24 controllers,96 mesh/material rows and three cloth phases retained; lavaland-flags-generation.json"
+  },
+  "artwork": {
+    "policy": "Five separately generated source-reference materials; no upscale or pixel tracing. Source normalized chamber/conduit layout, palette variants, flame-strip height and repeat phase retained.",
+    "alpha": "All five sources contain no exact-black color-key pixels; finished textures remain fully opaque.",
+    "export": "Whole image Lanczos downsample to512x512, WebP70/method6; no crop, UV change or added material.",
+    "related_sources": "ALIEN/ALIEN01 and alien/alien07/alien08 compared together; no lettering in these materials."
+  },
+  "outputs": [
+    {
+      "name": "ALIEN",
+      "member": 3,
+      "material_slot": 0,
+      "source_bmp_crc32": "51730f27",
+      "source_size": [
+        128,
+        128
+      ],
+      "source_black_key_texels": 0,
+      "image": "textures/lavaland-rest-fence-alien.webp",
+      "crc32": "24371d95",
+      "bytes": 46940,
+      "size": [
+        512,
+        512
+      ],
+      "mode": "RGB",
+      "webp_quality": 70,
+      "webp_method": 6,
+      "generated_source_crc32": "3825b036",
+      "generated_source_size": [
+        1254,
+        1254
+      ]
+    },
+    {
+      "name": "ALIEN01",
+      "member": 3,
+      "material_slot": 1,
+      "source_bmp_crc32": "f1000276",
+      "source_size": [
+        128,
+        128
+      ],
+      "source_black_key_texels": 0,
+      "image": "textures/lavaland-rest-alien01.webp",
+      "crc32": "cfa6904f",
+      "bytes": 57470,
+      "size": [
+        512,
+        512
+      ],
+      "mode": "RGB",
+      "webp_quality": 70,
+      "webp_method": 6,
+      "generated_source_crc32": "9ae5ee65",
+      "generated_source_size": [
+        1254,
+        1254
+      ]
+    },
+    {
+      "name": "alien08",
+      "member": 5,
+      "material_slot": 0,
+      "source_bmp_crc32": "92eacdb2",
+      "source_size": [
+        128,
+        128
+      ],
+      "source_black_key_texels": 0,
+      "image": "textures/lavaland-rest-alien08.webp",
+      "crc32": "001675ed",
+      "bytes": 50948,
+      "size": [
+        512,
+        512
+      ],
+      "mode": "RGB",
+      "webp_quality": 70,
+      "webp_method": 6,
+      "generated_source_crc32": "aa623218",
+      "generated_source_size": [
+        1254,
+        1254
+      ]
+    },
+    {
+      "name": "alien",
+      "member": 5,
+      "material_slot": 1,
+      "source_bmp_crc32": "af434335",
+      "source_size": [
+        128,
+        128
+      ],
+      "source_black_key_texels": 0,
+      "image": "textures/lavaland-rest-temple-alien.webp",
+      "crc32": "4a586791",
+      "bytes": 55572,
+      "size": [
+        512,
+        512
+      ],
+      "mode": "RGB",
+      "webp_quality": 70,
+      "webp_method": 6,
+      "generated_source_crc32": "596a7164",
+      "generated_source_size": [
+        1254,
+        1254
+      ]
+    },
+    {
+      "name": "alien07",
+      "member": 5,
+      "material_slot": 2,
+      "source_bmp_crc32": "58069e9a",
+      "source_size": [
+        128,
+        128
+      ],
+      "source_black_key_texels": 0,
+      "image": "textures/lavaland-rest-alien07.webp",
+      "crc32": "926f5e2c",
+      "bytes": 68848,
+      "size": [
+        512,
+        512
+      ],
+      "mode": "RGB",
+      "webp_quality": 70,
+      "webp_method": 6,
+      "generated_source_crc32": "feb790a3",
+      "generated_source_size": [
+        1254,
+        1254
+      ]
+    }
+  ],
+  "related_packages": [
+    "lavaland-flags-generation.json",
+    "lavaland-gargoyle-generation.json",
+    "ground-lavaland-road-generation.json",
+    "ground-lavaland-surfaces-generation.json"
+  ]
+}

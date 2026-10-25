@@ -1,0 +1,515 @@
+{
+  "version": 1,
+  "webp_quality": 80,
+  "scope": "B05 seven confirmed screen-blended lens sprites",
+  "sources": [
+    {
+      "id": "LENS1320",
+      "file": "exec-93aa4504-1b47-4a80-82cc-1dbe1bf8831a.png",
+      "crc32": "e1bed4c7",
+      "size": [
+        1254,
+        1254
+      ],
+      "reference": {
+        "material": "LENS1320",
+        "sources": [
+          {
+            "archive": "data/image640.bfp",
+            "archive_crc32": "1060ace3",
+            "member": 40,
+            "member_name": "IMAGES\\LENS1320."
+          },
+          {
+            "archive": "data/image320.bfp",
+            "archive_crc32": "05420a41",
+            "member": 40,
+            "member_name": "IMAGES\\LENS1320."
+          }
+        ],
+        "bmp_crc32": "6e9f1519",
+        "bmp_bytes": 1284,
+        "size": [
+          32,
+          32
+        ],
+        "bits": 8,
+        "palette": {
+          "entries": 51,
+          "bytes": 204,
+          "crc32": "399705cd"
+        },
+        "consumer": "projected-lens-screen-overlay",
+        "background_generation": true,
+        "package": "B05",
+        "selection": "resolved weather1; single player; TimeTrial disabled; original blend-capable device"
+      }
+    },
+    {
+      "id": "LENS2320",
+      "file": "exec-f3e26b1e-601d-44fc-b458-67f3e757faa7.png",
+      "crc32": "6bd9c308",
+      "size": [
+        1254,
+        1254
+      ],
+      "reference": {
+        "material": "LENS2320",
+        "sources": [
+          {
+            "archive": "data/image640.bfp",
+            "archive_crc32": "1060ace3",
+            "member": 41,
+            "member_name": "IMAGES\\LENS2320."
+          },
+          {
+            "archive": "data/image320.bfp",
+            "archive_crc32": "05420a41",
+            "member": 41,
+            "member_name": "IMAGES\\LENS2320."
+          }
+        ],
+        "bmp_crc32": "cc0fa5e2",
+        "bmp_bytes": 1284,
+        "size": [
+          32,
+          32
+        ],
+        "bits": 8,
+        "palette": {
+          "entries": 51,
+          "bytes": 204,
+          "crc32": "399705cd"
+        },
+        "consumer": "projected-lens-screen-overlay",
+        "background_generation": true,
+        "package": "B05",
+        "selection": "resolved weather1; single player; TimeTrial disabled; original blend-capable device"
+      }
+    },
+    {
+      "id": "LENS3320",
+      "file": "exec-cc9c61d4-440f-46b2-a144-e85172de578f.png",
+      "crc32": "e0572ed5",
+      "size": [
+        1254,
+        1254
+      ],
+      "reference": {
+        "material": "LENS3320",
+        "sources": [
+          {
+            "archive": "data/image640.bfp",
+            "archive_crc32": "1060ace3",
+            "member": 42,
+            "member_name": "IMAGES\\LENS3320."
+          },
+          {
+            "archive": "data/image320.bfp",
+            "archive_crc32": "05420a41",
+            "member": 42,
+            "member_name": "IMAGES\\LENS3320."
+          }
+        ],
+        "bmp_crc32": "dd59d764",
+        "bmp_bytes": 4360,
+        "size": [
+          64,
+          64
+        ],
+        "bits": 8,
+        "palette": {
+          "entries": 52,
+          "bytes": 208,
+          "crc32": "31147097"
+        },
+        "consumer": "projected-lens-screen-overlay",
+        "background_generation": true,
+        "package": "B05",
+        "selection": "resolved weather1; single player; TimeTrial disabled; original blend-capable device"
+      }
+    },
+    {
+      "id": "LENS4320",
+      "file": "exec-06616694-b33c-4898-adc5-b0ea08fe169b.png",
+      "crc32": "76d7e331",
+      "size": [
+        1254,
+        1254
+      ],
+      "reference": {
+        "material": "LENS4320",
+        "sources": [
+          {
+            "archive": "data/image640.bfp",
+            "archive_crc32": "1060ace3",
+            "member": 43,
+            "member_name": "IMAGES\\LENS4320."
+          },
+          {
+            "archive": "data/image320.bfp",
+            "archive_crc32": "05420a41",
+            "member": 43,
+            "member_name": "IMAGES\\LENS4320."
+          }
+        ],
+        "bmp_crc32": "332bbd6a",
+        "bmp_bytes": 516,
+        "size": [
+          16,
+          16
+        ],
+        "bits": 8,
+        "palette": {
+          "entries": 51,
+          "bytes": 204,
+          "crc32": "399705cd"
+        },
+        "consumer": "projected-lens-screen-overlay",
+        "background_generation": true,
+        "package": "B05",
+        "selection": "resolved weather1; single player; TimeTrial disabled; original blend-capable device"
+      }
+    },
+    {
+      "id": "LENS5320",
+      "file": "exec-e3bc40c2-2262-4438-ad1a-20e50d41e77c.png",
+      "crc32": "9b1c77df",
+      "size": [
+        1254,
+        1254
+      ],
+      "reference": {
+        "material": "LENS5320",
+        "sources": [
+          {
+            "archive": "data/image640.bfp",
+            "archive_crc32": "1060ace3",
+            "member": 44,
+            "member_name": "IMAGES\\LENS5320."
+          },
+          {
+            "archive": "data/image320.bfp",
+            "archive_crc32": "05420a41",
+            "member": 44,
+            "member_name": "IMAGES\\LENS5320."
+          }
+        ],
+        "bmp_crc32": "9ff65b16",
+        "bmp_bytes": 4360,
+        "size": [
+          64,
+          64
+        ],
+        "bits": 8,
+        "palette": {
+          "entries": 52,
+          "bytes": 208,
+          "crc32": "31147097"
+        },
+        "consumer": "projected-lens-screen-overlay",
+        "background_generation": true,
+        "package": "B05",
+        "selection": "resolved weather1; single player; TimeTrial disabled; original blend-capable device"
+      }
+    },
+    {
+      "id": "LENS6320",
+      "file": "exec-4425a0d6-6b11-4feb-ada1-1a5a46bdb6bc.png",
+      "crc32": "3af8ecd3",
+      "size": [
+        1254,
+        1254
+      ],
+      "reference": {
+        "material": "LENS6320",
+        "sources": [
+          {
+            "archive": "data/image640.bfp",
+            "archive_crc32": "1060ace3",
+            "member": 45,
+            "member_name": "IMAGES\\LENS6320."
+          },
+          {
+            "archive": "data/image320.bfp",
+            "archive_crc32": "05420a41",
+            "member": 45,
+            "member_name": "IMAGES\\LENS6320."
+          }
+        ],
+        "bmp_crc32": "2ed70168",
+        "bmp_bytes": 4360,
+        "size": [
+          64,
+          64
+        ],
+        "bits": 8,
+        "palette": {
+          "entries": 52,
+          "bytes": 208,
+          "crc32": "31147097"
+        },
+        "consumer": "projected-lens-screen-overlay",
+        "background_generation": true,
+        "package": "B05",
+        "selection": "resolved weather1; single player; TimeTrial disabled; original blend-capable device"
+      }
+    },
+    {
+      "id": "LENS7320",
+      "file": "exec-167cfd9e-dbd2-442d-8cd0-2b4e9a9cfffd.png",
+      "crc32": "de498b00",
+      "size": [
+        1254,
+        1254
+      ],
+      "reference": {
+        "material": "LENS7320",
+        "sources": [
+          {
+            "archive": "data/image640.bfp",
+            "archive_crc32": "1060ace3",
+            "member": 46,
+            "member_name": "IMAGES\\LENS7320."
+          },
+          {
+            "archive": "data/image320.bfp",
+            "archive_crc32": "05420a41",
+            "member": 46,
+            "member_name": "IMAGES\\LENS7320."
+          }
+        ],
+        "bmp_crc32": "04139227",
+        "bmp_bytes": 16648,
+        "size": [
+          128,
+          128
+        ],
+        "bits": 8,
+        "palette": {
+          "entries": 52,
+          "bytes": 208,
+          "crc32": "31147097"
+        },
+        "consumer": "projected-lens-screen-overlay",
+        "background_generation": true,
+        "package": "B05",
+        "selection": "resolved weather1; single player; TimeTrial disabled; original blend-capable device"
+      }
+    }
+  ],
+  "outputs": [
+    {
+      "image": "textures/background-lens1320.webp",
+      "source": "LENS1320",
+      "crop": [
+        1068,
+        1068,
+        90,
+        86
+      ],
+      "size": [
+        64,
+        64
+      ],
+      "alpha": "opaque",
+      "crop_reason": "Align newly generated circular optical extent to original normalized sprite support; retain original on-screen sprite dimensions.",
+      "crc32": "2fee56bd",
+      "bytes": 260
+    },
+    {
+      "image": "textures/background-lens2320.webp",
+      "source": "LENS2320",
+      "crop": [
+        722,
+        722,
+        264,
+        256
+      ],
+      "size": [
+        64,
+        64
+      ],
+      "alpha": "opaque",
+      "crop_reason": "Align newly generated circular optical extent to original normalized sprite support; retain original on-screen sprite dimensions.",
+      "crc32": "917a9bce",
+      "bytes": 282
+    },
+    {
+      "image": "textures/background-lens3320.webp",
+      "source": "LENS3320",
+      "crop": [
+        808,
+        808,
+        222,
+        208
+      ],
+      "size": [
+        128,
+        128
+      ],
+      "alpha": "opaque",
+      "crop_reason": "Align newly generated circular optical extent to original normalized sprite support; retain original on-screen sprite dimensions.",
+      "crc32": "c5b79065",
+      "bytes": 462
+    },
+    {
+      "image": "textures/background-lens4320.webp",
+      "source": "LENS4320",
+      "crop": [
+        558,
+        558,
+        348,
+        344
+      ],
+      "size": [
+        32,
+        32
+      ],
+      "alpha": "opaque",
+      "crop_reason": "Align newly generated circular optical extent to original normalized sprite support; retain original on-screen sprite dimensions.",
+      "crc32": "2e2d7068",
+      "bytes": 206
+    },
+    {
+      "image": "textures/background-lens5320.webp",
+      "source": "LENS5320",
+      "crop": [
+        1083,
+        1083,
+        81,
+        58
+      ],
+      "size": [
+        128,
+        128
+      ],
+      "alpha": "opaque",
+      "crop_reason": "Align newly generated circular optical extent to original normalized sprite support; retain original on-screen sprite dimensions.",
+      "crc32": "6c4fbb59",
+      "bytes": 436
+    },
+    {
+      "image": "textures/background-lens6320.webp",
+      "source": "LENS6320",
+      "crop": [
+        912,
+        912,
+        171,
+        156
+      ],
+      "size": [
+        128,
+        128
+      ],
+      "alpha": "opaque",
+      "crop_reason": "Align newly generated circular optical extent to original normalized sprite support; retain original on-screen sprite dimensions.",
+      "crc32": "1642a75e",
+      "bytes": 434
+    },
+    {
+      "image": "textures/background-lens7320.webp",
+      "source": "LENS7320",
+      "crop": [
+        917,
+        917,
+        167,
+        158
+      ],
+      "size": [
+        256,
+        256
+      ],
+      "alpha": "opaque",
+      "crop_reason": "Align newly generated circular optical extent to original normalized sprite support; retain original on-screen sprite dimensions.",
+      "crc32": "376b1883",
+      "bytes": 1194
+    }
+  ],
+  "images": [
+    {
+      "material": "LENS1320",
+      "source_bmp_crc32": "6e9f1519",
+      "source_id": "LENS1320",
+      "output": {
+        "path": "assets/models/mega/textures/background-lens1320.webp",
+        "width": 64,
+        "height": 64,
+        "crc32": "2fee56bd",
+        "bytes": 260
+      }
+    },
+    {
+      "material": "LENS2320",
+      "source_bmp_crc32": "cc0fa5e2",
+      "source_id": "LENS2320",
+      "output": {
+        "path": "assets/models/mega/textures/background-lens2320.webp",
+        "width": 64,
+        "height": 64,
+        "crc32": "917a9bce",
+        "bytes": 282
+      }
+    },
+    {
+      "material": "LENS3320",
+      "source_bmp_crc32": "dd59d764",
+      "source_id": "LENS3320",
+      "output": {
+        "path": "assets/models/mega/textures/background-lens3320.webp",
+        "width": 128,
+        "height": 128,
+        "crc32": "c5b79065",
+        "bytes": 462
+      }
+    },
+    {
+      "material": "LENS4320",
+      "source_bmp_crc32": "332bbd6a",
+      "source_id": "LENS4320",
+      "output": {
+        "path": "assets/models/mega/textures/background-lens4320.webp",
+        "width": 32,
+        "height": 32,
+        "crc32": "2e2d7068",
+        "bytes": 206
+      }
+    },
+    {
+      "material": "LENS5320",
+      "source_bmp_crc32": "9ff65b16",
+      "source_id": "LENS5320",
+      "output": {
+        "path": "assets/models/mega/textures/background-lens5320.webp",
+        "width": 128,
+        "height": 128,
+        "crc32": "6c4fbb59",
+        "bytes": 436
+      }
+    },
+    {
+      "material": "LENS6320",
+      "source_bmp_crc32": "2ed70168",
+      "source_id": "LENS6320",
+      "output": {
+        "path": "assets/models/mega/textures/background-lens6320.webp",
+        "width": 128,
+        "height": 128,
+        "crc32": "1642a75e",
+        "bytes": 434
+      }
+    },
+    {
+      "material": "LENS7320",
+      "source_bmp_crc32": "04139227",
+      "source_id": "LENS7320",
+      "output": {
+        "path": "assets/models/mega/textures/background-lens7320.webp",
+        "width": 256,
+        "height": 256,
+        "crc32": "376b1883",
+        "bytes": 1194
+      }
+    }
+  ]
+}

@@ -1,0 +1,3473 @@
+{
+  "version": 1,
+  "package": "R02-Thruxton-barriers-spectators-flags",
+  "source": {
+    "track": 2,
+    "path": "data/thrufree.bfp",
+    "crc32": "473c8fe8",
+    "bytes": 2575997,
+    "members": {
+      "2": "fc00e5ad",
+      "3": "383f46f3",
+      "5": "a17b2723",
+      "8": "e6be0b26",
+      "9": "cae2f0dc",
+      "10": "dfe0e48d",
+      "11": "ae5462d0"
+    }
+  },
+  "source_members": [
+    {
+      "index": 3,
+      "name": "FENCE.C3D",
+      "crc32": "383f46f3"
+    },
+    {
+      "index": 5,
+      "name": "OBJECTS.C3D",
+      "crc32": "a17b2723"
+    },
+    {
+      "index": 11,
+      "name": "FLAGS.C3D",
+      "crc32": "ae5462d0"
+    }
+  ],
+  "scope": {
+    "track": 2,
+    "mesh_rows": 97,
+    "exact_types": 74,
+    "raw_bindings": 280,
+    "fence_rows": 55,
+    "spectator_types": 2,
+    "spectator_bindings": 81,
+    "flag_rows": 40,
+    "flag_types": 17,
+    "flag_raw_bindings": 144,
+    "flag_controllers": 24,
+    "new_texture_outputs": 24,
+    "source_guided_RGB_plates": 23,
+    "types_and_bindings": [
+      {
+        "member": 3,
+        "mesh": 0,
+        "name": "FENCE_1",
+        "type": "5049a016",
+        "source_mesh_crc32": "6280a643",
+        "source_vertices": 129,
+        "source_triangles": 51,
+        "nodes": [
+          [
+            5,
+            0
+          ]
+        ]
+      },
+      {
+        "member": 3,
+        "mesh": 1,
+        "name": "FENCE_2",
+        "type": "75564846",
+        "source_mesh_crc32": "af6ac8e8",
+        "source_vertices": 126,
+        "source_triangles": 50,
+        "nodes": [
+          [
+            6,
+            0
+          ]
+        ]
+      },
+      {
+        "member": 3,
+        "mesh": 2,
+        "name": "FENCE_3",
+        "type": "1a1eb8f8",
+        "source_mesh_crc32": "d1202de9",
+        "source_vertices": 166,
+        "source_triangles": 66,
+        "nodes": [
+          [
+            7,
+            0
+          ]
+        ]
+      },
+      {
+        "member": 3,
+        "mesh": 3,
+        "name": "FENCE_4",
+        "type": "e5f0115f",
+        "source_mesh_crc32": "da0b487f",
+        "source_vertices": 189,
+        "source_triangles": 75,
+        "nodes": [
+          [
+            8,
+            0
+          ]
+        ]
+      },
+      {
+        "member": 3,
+        "mesh": 4,
+        "name": "FENCE_5",
+        "type": "1a47e444",
+        "source_mesh_crc32": "1dc90f66",
+        "source_vertices": 195,
+        "source_triangles": 77,
+        "nodes": [
+          [
+            9,
+            0
+          ]
+        ]
+      },
+      {
+        "member": 3,
+        "mesh": 5,
+        "name": "FENCE_6",
+        "type": "59c4f800",
+        "source_mesh_crc32": "cde97210",
+        "source_vertices": 24,
+        "source_triangles": 10,
+        "nodes": [
+          [
+            17,
+            0
+          ]
+        ]
+      },
+      {
+        "member": 3,
+        "mesh": 6,
+        "name": "FENCE_7",
+        "type": "03effe46",
+        "source_mesh_crc32": "3c27d71e",
+        "source_vertices": 6,
+        "source_triangles": 2,
+        "nodes": [
+          [
+            18,
+            0
+          ]
+        ]
+      },
+      {
+        "member": 3,
+        "mesh": 7,
+        "name": "FENCE_8",
+        "type": "c9aab31d",
+        "source_mesh_crc32": "90c375d2",
+        "source_vertices": 170,
+        "source_triangles": 68,
+        "nodes": [
+          [
+            26,
+            0
+          ]
+        ]
+      },
+      {
+        "member": 3,
+        "mesh": 8,
+        "name": "FENCE_9",
+        "type": "feddfc53",
+        "source_mesh_crc32": "9168603a",
+        "source_vertices": 3,
+        "source_triangles": 1,
+        "nodes": [
+          [
+            27,
+            0
+          ]
+        ]
+      },
+      {
+        "member": 3,
+        "mesh": 9,
+        "name": "FENCE_10",
+        "type": "eff8cab7",
+        "source_mesh_crc32": "c183fb5a",
+        "source_vertices": 124,
+        "source_triangles": 50,
+        "nodes": [
+          [
+            34,
+            0
+          ]
+        ]
+      },
+      {
+        "member": 3,
+        "mesh": 10,
+        "name": "FENCE_11",
+        "type": "8e962bb9",
+        "source_mesh_crc32": "755ea2fd",
+        "source_vertices": 34,
+        "source_triangles": 14,
+        "nodes": [
+          [
+            35,
+            0
+          ]
+        ]
+      },
+      {
+        "member": 3,
+        "mesh": 11,
+        "name": "FENCE_12",
+        "type": "60047a7d",
+        "source_mesh_crc32": "97312953",
+        "source_vertices": 60,
+        "source_triangles": 24,
+        "nodes": [
+          [
+            39,
+            0
+          ]
+        ]
+      },
+      {
+        "member": 3,
+        "mesh": 12,
+        "name": "FENCE_13",
+        "type": "33e5f54d",
+        "source_mesh_crc32": "e32b10c1",
+        "source_vertices": 70,
+        "source_triangles": 28,
+        "nodes": [
+          [
+            40,
+            0
+          ]
+        ]
+      },
+      {
+        "member": 3,
+        "mesh": 13,
+        "name": "FENCE_14",
+        "type": "68ab6aa7",
+        "source_mesh_crc32": "0ea766be",
+        "source_vertices": 136,
+        "source_triangles": 54,
+        "nodes": [
+          [
+            48,
+            0
+          ]
+        ]
+      },
+      {
+        "member": 3,
+        "mesh": 14,
+        "name": "FENCE_15",
+        "type": "dc840989",
+        "source_mesh_crc32": "a144a25f",
+        "source_vertices": 105,
+        "source_triangles": 42,
+        "nodes": [
+          [
+            69,
+            0
+          ]
+        ]
+      },
+      {
+        "member": 3,
+        "mesh": 15,
+        "name": "FENCE_16",
+        "type": "c4eb0399",
+        "source_mesh_crc32": "fe2fd217",
+        "source_vertices": 36,
+        "source_triangles": 14,
+        "nodes": [
+          [
+            70,
+            0
+          ]
+        ]
+      },
+      {
+        "member": 3,
+        "mesh": 16,
+        "name": "FENCE_17",
+        "type": "2eea9482",
+        "source_mesh_crc32": "2bf291eb",
+        "source_vertices": 146,
+        "source_triangles": 58,
+        "nodes": [
+          [
+            91,
+            0
+          ]
+        ]
+      },
+      {
+        "member": 3,
+        "mesh": 17,
+        "name": "FENCE_18",
+        "type": "b84998db",
+        "source_mesh_crc32": "e43ed48d",
+        "source_vertices": 24,
+        "source_triangles": 10,
+        "nodes": [
+          [
+            92,
+            0
+          ]
+        ]
+      },
+      {
+        "member": 3,
+        "mesh": 18,
+        "name": "FENCE_19",
+        "type": "7765d960",
+        "source_mesh_crc32": "aa5bb600",
+        "source_vertices": 264,
+        "source_triangles": 106,
+        "nodes": [
+          [
+            113,
+            0
+          ]
+        ]
+      },
+      {
+        "member": 3,
+        "mesh": 19,
+        "name": "FENCE_20",
+        "type": "7a9fe7f3",
+        "source_mesh_crc32": "772ed385",
+        "source_vertices": 30,
+        "source_triangles": 12,
+        "nodes": [
+          [
+            114,
+            0
+          ]
+        ]
+      },
+      {
+        "member": 3,
+        "mesh": 20,
+        "name": "FENCE_21",
+        "type": "406a59ed",
+        "source_mesh_crc32": "ef4b11f4",
+        "source_vertices": 116,
+        "source_triangles": 46,
+        "nodes": [
+          [
+            134,
+            0
+          ]
+        ]
+      },
+      {
+        "member": 3,
+        "mesh": 21,
+        "name": "FENCE_22",
+        "type": "84c38f2b",
+        "source_mesh_crc32": "31403adc",
+        "source_vertices": 200,
+        "source_triangles": 80,
+        "nodes": [
+          [
+            135,
+            0
+          ]
+        ]
+      },
+      {
+        "member": 3,
+        "mesh": 22,
+        "name": "FENCE_23",
+        "type": "aa94e28d",
+        "source_mesh_crc32": "6e86c11b",
+        "source_vertices": 176,
+        "source_triangles": 70,
+        "nodes": [
+          [
+            155,
+            0
+          ]
+        ]
+      },
+      {
+        "member": 3,
+        "mesh": 23,
+        "name": "FENCE_24",
+        "type": "71aa3c40",
+        "source_mesh_crc32": "bf39961d",
+        "source_vertices": 216,
+        "source_triangles": 86,
+        "nodes": [
+          [
+            156,
+            0
+          ]
+        ]
+      },
+      {
+        "member": 3,
+        "mesh": 24,
+        "name": "FENCE_25",
+        "type": "53f6eed3",
+        "source_mesh_crc32": "e441a51d",
+        "source_vertices": 5,
+        "source_triangles": 2,
+        "nodes": [
+          [
+            175,
+            0
+          ]
+        ]
+      },
+      {
+        "member": 3,
+        "mesh": 25,
+        "name": "FENCE_26",
+        "type": "ebd63df2",
+        "source_mesh_crc32": "7d220038",
+        "source_vertices": 290,
+        "source_triangles": 116,
+        "nodes": [
+          [
+            176,
+            0
+          ]
+        ]
+      },
+      {
+        "member": 3,
+        "mesh": 26,
+        "name": "FENCE_27",
+        "type": "2eef6081",
+        "source_mesh_crc32": "233ffc4e",
+        "source_vertices": 130,
+        "source_triangles": 52,
+        "nodes": [
+          [
+            177,
+            0
+          ]
+        ]
+      },
+      {
+        "member": 3,
+        "mesh": 27,
+        "name": "FENCE_28",
+        "type": "4c90a0ec",
+        "source_mesh_crc32": "a247bc7a",
+        "source_vertices": 100,
+        "source_triangles": 40,
+        "nodes": [
+          [
+            196,
+            0
+          ]
+        ]
+      },
+      {
+        "member": 3,
+        "mesh": 28,
+        "name": "FENCE_29",
+        "type": "63cd25cb",
+        "source_mesh_crc32": "730cdf85",
+        "source_vertices": 30,
+        "source_triangles": 12,
+        "nodes": [
+          [
+            197,
+            0
+          ]
+        ]
+      },
+      {
+        "member": 3,
+        "mesh": 29,
+        "name": "FENCE_30",
+        "type": "6f699c0b",
+        "source_mesh_crc32": "2820f877",
+        "source_vertices": 364,
+        "source_triangles": 146,
+        "nodes": [
+          [
+            198,
+            0
+          ]
+        ]
+      },
+      {
+        "member": 3,
+        "mesh": 30,
+        "name": "FENCE_31",
+        "type": "c7a92d1c",
+        "source_mesh_crc32": "38c5905d",
+        "source_vertices": 24,
+        "source_triangles": 10,
+        "nodes": [
+          [
+            218,
+            0
+          ]
+        ]
+      },
+      {
+        "member": 3,
+        "mesh": 31,
+        "name": "FENCE_32",
+        "type": "0a3b3792",
+        "source_mesh_crc32": "f4a99ffa",
+        "source_vertices": 220,
+        "source_triangles": 88,
+        "nodes": [
+          [
+            220,
+            0
+          ]
+        ]
+      },
+      {
+        "member": 3,
+        "mesh": 32,
+        "name": "FENCE_33",
+        "type": "319a5a1c",
+        "source_mesh_crc32": "2e345a70",
+        "source_vertices": 126,
+        "source_triangles": 50,
+        "nodes": [
+          [
+            242,
+            0
+          ]
+        ]
+      },
+      {
+        "member": 3,
+        "mesh": 33,
+        "name": "FENCE_34",
+        "type": "0b2be5b1",
+        "source_mesh_crc32": "3148c2b6",
+        "source_vertices": 90,
+        "source_triangles": 36,
+        "nodes": [
+          [
+            264,
+            0
+          ]
+        ]
+      },
+      {
+        "member": 3,
+        "mesh": 34,
+        "name": "FENCE_35",
+        "type": "54d80cf9",
+        "source_mesh_crc32": "7d931516",
+        "source_vertices": 30,
+        "source_triangles": 12,
+        "nodes": [
+          [
+            265,
+            0
+          ]
+        ]
+      },
+      {
+        "member": 3,
+        "mesh": 35,
+        "name": "FENCE_36",
+        "type": "66b77bb2",
+        "source_mesh_crc32": "96e2a411",
+        "source_vertices": 40,
+        "source_triangles": 16,
+        "nodes": [
+          [
+            274,
+            0
+          ]
+        ]
+      },
+      {
+        "member": 3,
+        "mesh": 36,
+        "name": "FENCE_37",
+        "type": "22e29e50",
+        "source_mesh_crc32": "d59bdddf",
+        "source_vertices": 136,
+        "source_triangles": 54,
+        "nodes": [
+          [
+            275,
+            0
+          ]
+        ]
+      },
+      {
+        "member": 3,
+        "mesh": 37,
+        "name": "FENCE_38",
+        "type": "ebd30e43",
+        "source_mesh_crc32": "43c42fac",
+        "source_vertices": 84,
+        "source_triangles": 34,
+        "nodes": [
+          [
+            276,
+            0
+          ]
+        ]
+      },
+      {
+        "member": 3,
+        "mesh": 38,
+        "name": "FENCE_39",
+        "type": "d1ba9cdb",
+        "source_mesh_crc32": "fa74d625",
+        "source_vertices": 160,
+        "source_triangles": 64,
+        "nodes": [
+          [
+            277,
+            0
+          ]
+        ]
+      },
+      {
+        "member": 3,
+        "mesh": 39,
+        "name": "FENCE_40",
+        "type": "b2e1a910",
+        "source_mesh_crc32": "f9f4d94a",
+        "source_vertices": 24,
+        "source_triangles": 10,
+        "nodes": [
+          [
+            278,
+            0
+          ]
+        ]
+      },
+      {
+        "member": 3,
+        "mesh": 40,
+        "name": "FENCE_41",
+        "type": "4eb7a993",
+        "source_mesh_crc32": "8f35a7cc",
+        "source_vertices": 160,
+        "source_triangles": 64,
+        "nodes": [
+          [
+            287,
+            0
+          ]
+        ]
+      },
+      {
+        "member": 3,
+        "mesh": 41,
+        "name": "FENCE_42",
+        "type": "d8be5f92",
+        "source_mesh_crc32": "00e821dd",
+        "source_vertices": 80,
+        "source_triangles": 31,
+        "nodes": [
+          [
+            294,
+            0
+          ]
+        ]
+      },
+      {
+        "member": 3,
+        "mesh": 42,
+        "name": "FENCE_43",
+        "type": "cb83903a",
+        "source_mesh_crc32": "b4c92eac",
+        "source_vertices": 145,
+        "source_triangles": 57,
+        "nodes": [
+          [
+            295,
+            0
+          ]
+        ]
+      },
+      {
+        "member": 3,
+        "mesh": 43,
+        "name": "FENCE_44",
+        "type": "e125add0",
+        "source_mesh_crc32": "a6b5cda4",
+        "source_vertices": 96,
+        "source_triangles": 38,
+        "nodes": [
+          [
+            296,
+            0
+          ]
+        ]
+      },
+      {
+        "member": 3,
+        "mesh": 44,
+        "name": "FENCE_45",
+        "type": "6cca9e8a",
+        "source_mesh_crc32": "77e1f65a",
+        "source_vertices": 34,
+        "source_triangles": 14,
+        "nodes": [
+          [
+            300,
+            0
+          ]
+        ]
+      },
+      {
+        "member": 3,
+        "mesh": 45,
+        "name": "FENCE_46",
+        "type": "522e8e14",
+        "source_mesh_crc32": "e0d85dd9",
+        "source_vertices": 20,
+        "source_triangles": 8,
+        "nodes": [
+          [
+            309,
+            0
+          ]
+        ]
+      },
+      {
+        "member": 3,
+        "mesh": 46,
+        "name": "FENCE_47",
+        "type": "4bb5d24b",
+        "source_mesh_crc32": "74e56168",
+        "source_vertices": 324,
+        "source_triangles": 130,
+        "nodes": [
+          [
+            310,
+            0
+          ]
+        ]
+      },
+      {
+        "member": 3,
+        "mesh": 47,
+        "name": "FENCE_48",
+        "type": "bc432a1e",
+        "source_mesh_crc32": "82ca1763",
+        "source_vertices": 26,
+        "source_triangles": 10,
+        "nodes": [
+          [
+            311,
+            0
+          ]
+        ]
+      },
+      {
+        "member": 3,
+        "mesh": 48,
+        "name": "FENCE_49",
+        "type": "29b9728f",
+        "source_mesh_crc32": "1b2bb620",
+        "source_vertices": 154,
+        "source_triangles": 62,
+        "nodes": [
+          [
+            316,
+            0
+          ]
+        ]
+      },
+      {
+        "member": 3,
+        "mesh": 49,
+        "name": "FENCE_50",
+        "type": "097754d5",
+        "source_mesh_crc32": "1a13f079",
+        "source_vertices": 102,
+        "source_triangles": 40,
+        "nodes": [
+          [
+            333,
+            0
+          ]
+        ]
+      },
+      {
+        "member": 3,
+        "mesh": 50,
+        "name": "FENCE_51",
+        "type": "19a93e98",
+        "source_mesh_crc32": "ddb82b99",
+        "source_vertices": 199,
+        "source_triangles": 79,
+        "nodes": [
+          [
+            334,
+            0
+          ]
+        ]
+      },
+      {
+        "member": 3,
+        "mesh": 51,
+        "name": "FENCE_52",
+        "type": "2d2d6174",
+        "source_mesh_crc32": "933b0b62",
+        "source_vertices": 77,
+        "source_triangles": 31,
+        "nodes": [
+          [
+            337,
+            0
+          ]
+        ]
+      },
+      {
+        "member": 3,
+        "mesh": 52,
+        "name": "FENCE_53",
+        "type": "14ae8028",
+        "source_mesh_crc32": "f682c410",
+        "source_vertices": 13,
+        "source_triangles": 5,
+        "nodes": [
+          [
+            338,
+            0
+          ]
+        ]
+      },
+      {
+        "member": 3,
+        "mesh": 53,
+        "name": "FENCE_54",
+        "type": "bff1e693",
+        "source_mesh_crc32": "40c8a61b",
+        "source_vertices": 43,
+        "source_triangles": 17,
+        "nodes": [
+          [
+            356,
+            0
+          ]
+        ]
+      },
+      {
+        "member": 3,
+        "mesh": 54,
+        "name": "FENCE_55",
+        "type": "29c8b08f",
+        "source_mesh_crc32": "d5aa8687",
+        "source_vertices": 110,
+        "source_triangles": 44,
+        "nodes": [
+          [
+            359,
+            0
+          ]
+        ]
+      },
+      {
+        "member": 5,
+        "mesh": 34,
+        "name": "PEOBACK_1",
+        "type": "5b6f30f1",
+        "source_mesh_crc32": "110687a3",
+        "source_vertices": 4,
+        "source_triangles": 2,
+        "nodes": [
+          [
+            187,
+            0
+          ],
+          [
+            189,
+            0
+          ],
+          [
+            191,
+            0
+          ],
+          [
+            193,
+            0
+          ],
+          [
+            195,
+            0
+          ],
+          [
+            197,
+            0
+          ],
+          [
+            199,
+            0
+          ],
+          [
+            201,
+            0
+          ],
+          [
+            203,
+            0
+          ],
+          [
+            205,
+            0
+          ],
+          [
+            207,
+            0
+          ],
+          [
+            209,
+            0
+          ],
+          [
+            211,
+            0
+          ],
+          [
+            213,
+            0
+          ],
+          [
+            215,
+            0
+          ],
+          [
+            217,
+            0
+          ],
+          [
+            219,
+            0
+          ],
+          [
+            221,
+            0
+          ],
+          [
+            297,
+            0
+          ],
+          [
+            299,
+            0
+          ],
+          [
+            301,
+            0
+          ],
+          [
+            303,
+            0
+          ],
+          [
+            305,
+            0
+          ],
+          [
+            333,
+            0
+          ],
+          [
+            335,
+            0
+          ],
+          [
+            337,
+            0
+          ],
+          [
+            339,
+            0
+          ],
+          [
+            341,
+            0
+          ],
+          [
+            361,
+            0
+          ],
+          [
+            363,
+            0
+          ],
+          [
+            365,
+            0
+          ],
+          [
+            367,
+            0
+          ],
+          [
+            369,
+            0
+          ],
+          [
+            371,
+            0
+          ],
+          [
+            387,
+            0
+          ],
+          [
+            389,
+            0
+          ],
+          [
+            391,
+            0
+          ]
+        ]
+      },
+      {
+        "member": 5,
+        "mesh": 35,
+        "name": "PEOMID_1",
+        "type": "c8aae320",
+        "source_mesh_crc32": "3194febf",
+        "source_vertices": 4,
+        "source_triangles": 2,
+        "nodes": [
+          [
+            229,
+            0
+          ],
+          [
+            231,
+            0
+          ],
+          [
+            233,
+            0
+          ],
+          [
+            235,
+            0
+          ],
+          [
+            237,
+            0
+          ],
+          [
+            239,
+            0
+          ],
+          [
+            241,
+            0
+          ],
+          [
+            243,
+            0
+          ],
+          [
+            245,
+            0
+          ],
+          [
+            285,
+            0
+          ],
+          [
+            287,
+            0
+          ],
+          [
+            289,
+            0
+          ],
+          [
+            291,
+            0
+          ],
+          [
+            293,
+            0
+          ],
+          [
+            295,
+            0
+          ],
+          [
+            307,
+            0
+          ],
+          [
+            309,
+            0
+          ],
+          [
+            311,
+            0
+          ],
+          [
+            313,
+            0
+          ],
+          [
+            315,
+            0
+          ],
+          [
+            317,
+            0
+          ],
+          [
+            319,
+            0
+          ],
+          [
+            321,
+            0
+          ],
+          [
+            323,
+            0
+          ],
+          [
+            325,
+            0
+          ],
+          [
+            327,
+            0
+          ],
+          [
+            329,
+            0
+          ],
+          [
+            331,
+            0
+          ],
+          [
+            343,
+            0
+          ],
+          [
+            345,
+            0
+          ],
+          [
+            347,
+            0
+          ],
+          [
+            349,
+            0
+          ],
+          [
+            351,
+            0
+          ],
+          [
+            353,
+            0
+          ],
+          [
+            355,
+            0
+          ],
+          [
+            357,
+            0
+          ],
+          [
+            359,
+            0
+          ],
+          [
+            373,
+            0
+          ],
+          [
+            375,
+            0
+          ],
+          [
+            377,
+            0
+          ],
+          [
+            379,
+            0
+          ],
+          [
+            381,
+            0
+          ],
+          [
+            383,
+            0
+          ],
+          [
+            385,
+            0
+          ]
+        ]
+      },
+      {
+        "member": 11,
+        "mesh": 0,
+        "name": "UK_FLG1_1",
+        "type": "72afc320",
+        "source_mesh_crc32": "eb4ba1c4",
+        "source_vertices": 6,
+        "source_triangles": 6,
+        "nodes": [
+          [
+            2,
+            0
+          ],
+          [
+            2,
+            1
+          ],
+          [
+            2,
+            2
+          ],
+          [
+            5,
+            0
+          ],
+          [
+            8,
+            0
+          ],
+          [
+            11,
+            0
+          ],
+          [
+            14,
+            0
+          ],
+          [
+            17,
+            0
+          ],
+          [
+            20,
+            0
+          ],
+          [
+            23,
+            0
+          ],
+          [
+            26,
+            0
+          ]
+        ]
+      },
+      {
+        "member": 11,
+        "mesh": 1,
+        "name": "UK_FLG1_2",
+        "type": "46e7d509",
+        "source_mesh_crc32": "cd82c382",
+        "source_vertices": 4,
+        "source_triangles": 4,
+        "nodes": [
+          [
+            1,
+            0
+          ],
+          [
+            4,
+            0
+          ],
+          [
+            7,
+            0
+          ],
+          [
+            10,
+            0
+          ],
+          [
+            13,
+            0
+          ],
+          [
+            16,
+            0
+          ],
+          [
+            19,
+            0
+          ],
+          [
+            22,
+            0
+          ],
+          [
+            25,
+            0
+          ]
+        ]
+      },
+      {
+        "member": 11,
+        "mesh": 2,
+        "name": "UK_FLG1_3",
+        "type": "372fe708",
+        "source_mesh_crc32": "f5015524",
+        "source_vertices": 4,
+        "source_triangles": 4,
+        "nodes": [
+          [
+            1,
+            1
+          ],
+          [
+            4,
+            1
+          ],
+          [
+            7,
+            1
+          ],
+          [
+            10,
+            1
+          ],
+          [
+            13,
+            1
+          ],
+          [
+            16,
+            1
+          ],
+          [
+            19,
+            1
+          ],
+          [
+            22,
+            1
+          ],
+          [
+            25,
+            1
+          ]
+        ]
+      },
+      {
+        "member": 11,
+        "mesh": 3,
+        "name": "UK_FLG1_4",
+        "type": "790fa13d",
+        "source_mesh_crc32": "1f6c84ac",
+        "source_vertices": 4,
+        "source_triangles": 4,
+        "nodes": [
+          [
+            1,
+            2
+          ],
+          [
+            4,
+            2
+          ],
+          [
+            5,
+            1
+          ],
+          [
+            5,
+            2
+          ],
+          [
+            7,
+            2
+          ],
+          [
+            8,
+            1
+          ],
+          [
+            8,
+            2
+          ],
+          [
+            10,
+            2
+          ],
+          [
+            11,
+            1
+          ],
+          [
+            11,
+            2
+          ],
+          [
+            13,
+            2
+          ],
+          [
+            14,
+            1
+          ],
+          [
+            14,
+            2
+          ],
+          [
+            16,
+            2
+          ],
+          [
+            17,
+            1
+          ],
+          [
+            17,
+            2
+          ],
+          [
+            19,
+            2
+          ],
+          [
+            20,
+            1
+          ],
+          [
+            20,
+            2
+          ],
+          [
+            22,
+            2
+          ],
+          [
+            23,
+            1
+          ],
+          [
+            23,
+            2
+          ],
+          [
+            25,
+            2
+          ],
+          [
+            26,
+            1
+          ],
+          [
+            26,
+            2
+          ],
+          [
+            29,
+            1
+          ],
+          [
+            29,
+            2
+          ]
+        ]
+      },
+      {
+        "member": 11,
+        "mesh": 4,
+        "name": "UK_FLG2_1",
+        "type": "5c79e6e1",
+        "source_mesh_crc32": "60c691ea",
+        "source_vertices": 6,
+        "source_triangles": 6,
+        "nodes": [
+          [
+            29,
+            0
+          ],
+          [
+            32,
+            0
+          ]
+        ]
+      },
+      {
+        "member": 11,
+        "mesh": 5,
+        "name": "UK_FLG2_2",
+        "type": "46e7d509",
+        "source_mesh_crc32": "07db725b",
+        "source_vertices": 4,
+        "source_triangles": 4,
+        "nodes": [
+          [
+            28,
+            0
+          ],
+          [
+            31,
+            0
+          ]
+        ]
+      },
+      {
+        "member": 11,
+        "mesh": 6,
+        "name": "UK_FLG2_3",
+        "type": "372fe708",
+        "source_mesh_crc32": "3f58e4fd",
+        "source_vertices": 4,
+        "source_triangles": 4,
+        "nodes": [
+          [
+            28,
+            1
+          ],
+          [
+            31,
+            1
+          ]
+        ]
+      },
+      {
+        "member": 11,
+        "mesh": 7,
+        "name": "UK_FLG2_4",
+        "type": "790fa13d",
+        "source_mesh_crc32": "d5353575",
+        "source_vertices": 4,
+        "source_triangles": 4,
+        "nodes": [
+          [
+            28,
+            2
+          ],
+          [
+            31,
+            2
+          ],
+          [
+            32,
+            1
+          ],
+          [
+            32,
+            2
+          ],
+          [
+            35,
+            1
+          ],
+          [
+            35,
+            2
+          ]
+        ]
+      },
+      {
+        "member": 11,
+        "mesh": 8,
+        "name": "ITL_FLG1_1",
+        "type": "72afc320",
+        "source_mesh_crc32": "0672e43c",
+        "source_vertices": 6,
+        "source_triangles": 6,
+        "nodes": [
+          [
+            35,
+            0
+          ],
+          [
+            38,
+            0
+          ]
+        ]
+      },
+      {
+        "member": 11,
+        "mesh": 9,
+        "name": "ITL_FLG1_2",
+        "type": "8c46873c",
+        "source_mesh_crc32": "bc6806b1",
+        "source_vertices": 4,
+        "source_triangles": 4,
+        "nodes": [
+          [
+            34,
+            0
+          ],
+          [
+            37,
+            0
+          ]
+        ]
+      },
+      {
+        "member": 11,
+        "mesh": 10,
+        "name": "ITL_FLG1_3",
+        "type": "467525d3",
+        "source_mesh_crc32": "f291d189",
+        "source_vertices": 4,
+        "source_triangles": 4,
+        "nodes": [
+          [
+            34,
+            1
+          ],
+          [
+            37,
+            1
+          ]
+        ]
+      },
+      {
+        "member": 11,
+        "mesh": 11,
+        "name": "ITL_FLG1_4",
+        "type": "8870ba2a",
+        "source_mesh_crc32": "49a943a0",
+        "source_vertices": 4,
+        "source_triangles": 4,
+        "nodes": [
+          [
+            34,
+            2
+          ],
+          [
+            37,
+            2
+          ],
+          [
+            38,
+            1
+          ],
+          [
+            38,
+            2
+          ],
+          [
+            41,
+            1
+          ],
+          [
+            41,
+            2
+          ]
+        ]
+      },
+      {
+        "member": 11,
+        "mesh": 12,
+        "name": "ITL_FLG2_1",
+        "type": "5c79e6e1",
+        "source_mesh_crc32": "9026949c",
+        "source_vertices": 6,
+        "source_triangles": 6,
+        "nodes": [
+          [
+            41,
+            0
+          ],
+          [
+            44,
+            0
+          ]
+        ]
+      },
+      {
+        "member": 11,
+        "mesh": 13,
+        "name": "ITL_FLG2_2",
+        "type": "8c46873c",
+        "source_mesh_crc32": "5f1b5540",
+        "source_vertices": 4,
+        "source_triangles": 4,
+        "nodes": [
+          [
+            40,
+            0
+          ],
+          [
+            43,
+            0
+          ]
+        ]
+      },
+      {
+        "member": 11,
+        "mesh": 14,
+        "name": "ITL_FLG2_3",
+        "type": "467525d3",
+        "source_mesh_crc32": "11e28278",
+        "source_vertices": 4,
+        "source_triangles": 4,
+        "nodes": [
+          [
+            40,
+            1
+          ],
+          [
+            43,
+            1
+          ]
+        ]
+      },
+      {
+        "member": 11,
+        "mesh": 15,
+        "name": "ITL_FLG2_4",
+        "type": "8870ba2a",
+        "source_mesh_crc32": "aada1051",
+        "source_vertices": 4,
+        "source_triangles": 4,
+        "nodes": [
+          [
+            40,
+            2
+          ],
+          [
+            43,
+            2
+          ],
+          [
+            44,
+            1
+          ],
+          [
+            44,
+            2
+          ],
+          [
+            47,
+            1
+          ],
+          [
+            47,
+            2
+          ]
+        ]
+      },
+      {
+        "member": 11,
+        "mesh": 16,
+        "name": "SWD_FLG2_1",
+        "type": "5c79e6e1",
+        "source_mesh_crc32": "0931370c",
+        "source_vertices": 6,
+        "source_triangles": 6,
+        "nodes": [
+          [
+            47,
+            0
+          ]
+        ]
+      },
+      {
+        "member": 11,
+        "mesh": 17,
+        "name": "SWD_FLG2_2",
+        "type": "0dc947c6",
+        "source_mesh_crc32": "27b6ee69",
+        "source_vertices": 4,
+        "source_triangles": 4,
+        "nodes": [
+          [
+            46,
+            0
+          ]
+        ]
+      },
+      {
+        "member": 11,
+        "mesh": 18,
+        "name": "SWD_FLG2_3",
+        "type": "70785d2f",
+        "source_mesh_crc32": "a8434bdb",
+        "source_vertices": 4,
+        "source_triangles": 4,
+        "nodes": [
+          [
+            46,
+            1
+          ]
+        ]
+      },
+      {
+        "member": 11,
+        "mesh": 19,
+        "name": "SWD_FLG2_4",
+        "type": "ef0bb9d4",
+        "source_mesh_crc32": "7bb21307",
+        "source_vertices": 4,
+        "source_triangles": 4,
+        "nodes": [
+          [
+            46,
+            2
+          ],
+          [
+            50,
+            1
+          ],
+          [
+            50,
+            2
+          ]
+        ]
+      },
+      {
+        "member": 11,
+        "mesh": 20,
+        "name": "SWD_FLG1_1",
+        "type": "72afc320",
+        "source_mesh_crc32": "9f6547ac",
+        "source_vertices": 6,
+        "source_triangles": 6,
+        "nodes": [
+          [
+            50,
+            0
+          ],
+          [
+            53,
+            0
+          ]
+        ]
+      },
+      {
+        "member": 11,
+        "mesh": 21,
+        "name": "SWD_FLG1_2",
+        "type": "0dc947c6",
+        "source_mesh_crc32": "c4c5bd98",
+        "source_vertices": 4,
+        "source_triangles": 4,
+        "nodes": [
+          [
+            49,
+            0
+          ],
+          [
+            52,
+            0
+          ]
+        ]
+      },
+      {
+        "member": 11,
+        "mesh": 22,
+        "name": "SWD_FLG1_3",
+        "type": "70785d2f",
+        "source_mesh_crc32": "4b30182a",
+        "source_vertices": 4,
+        "source_triangles": 4,
+        "nodes": [
+          [
+            49,
+            1
+          ],
+          [
+            52,
+            1
+          ]
+        ]
+      },
+      {
+        "member": 11,
+        "mesh": 23,
+        "name": "SWD_FLG1_4",
+        "type": "ef0bb9d4",
+        "source_mesh_crc32": "98c140f6",
+        "source_vertices": 4,
+        "source_triangles": 4,
+        "nodes": [
+          [
+            49,
+            2
+          ],
+          [
+            52,
+            2
+          ],
+          [
+            53,
+            1
+          ],
+          [
+            53,
+            2
+          ],
+          [
+            56,
+            1
+          ],
+          [
+            56,
+            2
+          ]
+        ]
+      },
+      {
+        "member": 11,
+        "mesh": 24,
+        "name": "DEN_FLG1_1",
+        "type": "72afc320",
+        "source_mesh_crc32": "be005ed6",
+        "source_vertices": 6,
+        "source_triangles": 6,
+        "nodes": [
+          [
+            56,
+            0
+          ],
+          [
+            59,
+            0
+          ]
+        ]
+      },
+      {
+        "member": 11,
+        "mesh": 25,
+        "name": "DEN_FLG1_2",
+        "type": "e4cd4cff",
+        "source_mesh_crc32": "4ac308c6",
+        "source_vertices": 4,
+        "source_triangles": 4,
+        "nodes": [
+          [
+            55,
+            0
+          ],
+          [
+            58,
+            0
+          ]
+        ]
+      },
+      {
+        "member": 11,
+        "mesh": 26,
+        "name": "DEN_FLG1_3",
+        "type": "360f8ef6",
+        "source_mesh_crc32": "043adffe",
+        "source_vertices": 4,
+        "source_triangles": 4,
+        "nodes": [
+          [
+            55,
+            1
+          ],
+          [
+            58,
+            1
+          ]
+        ]
+      },
+      {
+        "member": 11,
+        "mesh": 27,
+        "name": "DEN_FLG1_4",
+        "type": "dfbfab4f",
+        "source_mesh_crc32": "6e91d83d",
+        "source_vertices": 4,
+        "source_triangles": 4,
+        "nodes": [
+          [
+            55,
+            2
+          ],
+          [
+            58,
+            2
+          ],
+          [
+            59,
+            1
+          ],
+          [
+            59,
+            2
+          ],
+          [
+            62,
+            1
+          ],
+          [
+            62,
+            2
+          ]
+        ]
+      },
+      {
+        "member": 11,
+        "mesh": 28,
+        "name": "FIN_FLG1_1",
+        "type": "72afc320",
+        "source_mesh_crc32": "27a7207d",
+        "source_vertices": 6,
+        "source_triangles": 6,
+        "nodes": [
+          [
+            62,
+            0
+          ],
+          [
+            65,
+            0
+          ]
+        ]
+      },
+      {
+        "member": 11,
+        "mesh": 29,
+        "name": "FIN_FLG1_2",
+        "type": "06f926d0",
+        "source_mesh_crc32": "a99a981b",
+        "source_vertices": 4,
+        "source_triangles": 4,
+        "nodes": [
+          [
+            61,
+            0
+          ],
+          [
+            64,
+            0
+          ]
+        ]
+      },
+      {
+        "member": 11,
+        "mesh": 30,
+        "name": "FIN_FLG1_3",
+        "type": "b0870a70",
+        "source_mesh_crc32": "8faa85d6",
+        "source_vertices": 4,
+        "source_triangles": 4,
+        "nodes": [
+          [
+            61,
+            1
+          ],
+          [
+            64,
+            1
+          ]
+        ]
+      },
+      {
+        "member": 11,
+        "mesh": 31,
+        "name": "FIN_FLG1_4",
+        "type": "d761d3ac",
+        "source_mesh_crc32": "5c5bdd0a",
+        "source_vertices": 4,
+        "source_triangles": 4,
+        "nodes": [
+          [
+            61,
+            2
+          ],
+          [
+            64,
+            2
+          ],
+          [
+            65,
+            1
+          ],
+          [
+            65,
+            2
+          ],
+          [
+            68,
+            1
+          ],
+          [
+            68,
+            2
+          ]
+        ]
+      },
+      {
+        "member": 11,
+        "mesh": 32,
+        "name": "DEN_FLG2_1",
+        "type": "5c79e6e1",
+        "source_mesh_crc32": "28542e76",
+        "source_vertices": 6,
+        "source_triangles": 6,
+        "nodes": [
+          [
+            68,
+            0
+          ]
+        ]
+      },
+      {
+        "member": 11,
+        "mesh": 33,
+        "name": "DEN_FLG2_2",
+        "type": "e4cd4cff",
+        "source_mesh_crc32": "a9b05b37",
+        "source_vertices": 4,
+        "source_triangles": 4,
+        "nodes": [
+          [
+            67,
+            0
+          ]
+        ]
+      },
+      {
+        "member": 11,
+        "mesh": 34,
+        "name": "DEN_FLG2_3",
+        "type": "360f8ef6",
+        "source_mesh_crc32": "e7498c0f",
+        "source_vertices": 4,
+        "source_triangles": 4,
+        "nodes": [
+          [
+            67,
+            1
+          ]
+        ]
+      },
+      {
+        "member": 11,
+        "mesh": 35,
+        "name": "DEN_FLG2_4",
+        "type": "dfbfab4f",
+        "source_mesh_crc32": "8de28bcc",
+        "source_vertices": 4,
+        "source_triangles": 4,
+        "nodes": [
+          [
+            67,
+            2
+          ],
+          [
+            71,
+            1
+          ],
+          [
+            71,
+            2
+          ]
+        ]
+      },
+      {
+        "member": 11,
+        "mesh": 36,
+        "name": "FIN_FLG2_1",
+        "type": "5c79e6e1",
+        "source_mesh_crc32": "b1f350dd",
+        "source_vertices": 6,
+        "source_triangles": 6,
+        "nodes": [
+          [
+            71,
+            0
+          ]
+        ]
+      },
+      {
+        "member": 11,
+        "mesh": 37,
+        "name": "FIN_FLG2_2",
+        "type": "06f926d0",
+        "source_mesh_crc32": "4ae9cbea",
+        "source_vertices": 4,
+        "source_triangles": 4,
+        "nodes": [
+          [
+            70,
+            0
+          ]
+        ]
+      },
+      {
+        "member": 11,
+        "mesh": 38,
+        "name": "FIN_FLG2_3",
+        "type": "b0870a70",
+        "source_mesh_crc32": "6cd9d627",
+        "source_vertices": 4,
+        "source_triangles": 4,
+        "nodes": [
+          [
+            70,
+            1
+          ]
+        ]
+      },
+      {
+        "member": 11,
+        "mesh": 39,
+        "name": "FIN_FLG2_4",
+        "type": "d761d3ac",
+        "source_mesh_crc32": "bf288efb",
+        "source_vertices": 4,
+        "source_triangles": 4,
+        "nodes": [
+          [
+            70,
+            2
+          ]
+        ]
+      }
+    ]
+  },
+  "geometry": "All geometry, UVs, normals, material slots, transforms and nodes unchanged.55 fence meshes retain their existing bounded tyre/rail bodies and every canonical source surface; the two crowd cards and40 flag mesh rows retain canonical geometry. No new fine geometry, poses, texture layers or placements.",
+  "materials": [
+    {
+      "name": "CB-LO",
+      "source_crc32": "b9861875",
+      "source_size": [
+        128,
+        64
+      ],
+      "source_palette_crc32": "cb877547",
+      "action": "new-direct-artwork",
+      "output": {
+        "path": "assets/models/mega/textures/thruxton-rest-cb-lo.webp",
+        "crc32": "dfb03cc7",
+        "bytes": 6564
+      },
+      "generated": {
+        "path": "build/thruxton-rest/CB-LO-generated.png",
+        "crc32": "b7306fb0",
+        "size": [
+          1774,
+          887
+        ]
+      },
+      "crop": [
+        0,
+        0,
+        1774,
+        887
+      ],
+      "export": {
+        "path": "assets/models/mega/textures/thruxton-rest-cb-lo.webp",
+        "crc32": "dfb03cc7",
+        "bytes": 6564,
+        "size": [
+          512,
+          256
+        ],
+        "webp_quality": 70,
+        "webp_method": 6
+      },
+      "alpha": {
+        "exact_source_black_key": true,
+        "crc32": "b183ff26",
+        "black_key_source_pixels": 777
+      }
+    },
+    {
+      "name": "CB-TOP",
+      "source_crc32": "3267312d",
+      "source_size": [
+        128,
+        32
+      ],
+      "source_palette_crc32": "cb877547",
+      "action": "new-direct-artwork",
+      "output": {
+        "path": "assets/models/mega/textures/thruxton-rest-cb-top.webp",
+        "crc32": "9fe4780c",
+        "bytes": 1300
+      },
+      "generated": {
+        "path": "build/thruxton-rest/CB-TOP-generated.png",
+        "crc32": "b680e4a1",
+        "size": [
+          2170,
+          725
+        ]
+      },
+      "crop": [
+        0,
+        119,
+        2170,
+        577
+      ],
+      "export": {
+        "path": "assets/models/mega/textures/thruxton-rest-cb-top.webp",
+        "crc32": "9fe4780c",
+        "bytes": 1300,
+        "size": [
+          512,
+          128
+        ],
+        "webp_quality": 70,
+        "webp_method": 6
+      },
+      "alpha": {
+        "exact_source_black_key": true,
+        "crc32": "deab7e4e",
+        "black_key_source_pixels": 0
+      }
+    },
+    {
+      "name": "DA05CMB1",
+      "source_crc32": "803062f4",
+      "source_size": [
+        128,
+        32
+      ],
+      "source_palette_crc32": "cb877547",
+      "action": "new-direct-artwork",
+      "output": {
+        "path": "assets/models/mega/textures/thruxton-rest-da05cmb1.webp",
+        "crc32": "3d226b37",
+        "bytes": 1100
+      },
+      "generated": {
+        "path": "build/thruxton-rest/DA05CMB1-generated.png",
+        "crc32": "758f9b91",
+        "size": [
+          2170,
+          725
+        ]
+      },
+      "crop": [
+        0,
+        91,
+        2170,
+        634
+      ],
+      "export": {
+        "path": "assets/models/mega/textures/thruxton-rest-da05cmb1.webp",
+        "crc32": "3d226b37",
+        "bytes": 1100,
+        "size": [
+          512,
+          128
+        ],
+        "webp_quality": 70,
+        "webp_method": 6
+      },
+      "alpha": {
+        "exact_source_black_key": true,
+        "crc32": "9ddaa77b",
+        "black_key_source_pixels": 3510
+      }
+    },
+    {
+      "name": "HEDGEBOT",
+      "source_crc32": "cbd6442c",
+      "source_size": [
+        64,
+        32
+      ],
+      "source_palette_crc32": "cb877547",
+      "action": "new-direct-artwork",
+      "output": {
+        "path": "assets/models/mega/textures/thruxton-rest-hedgebot.webp",
+        "crc32": "2142de0c",
+        "bytes": 29730
+      },
+      "generated": {
+        "path": "build/thruxton-rest/HEDGEBOT-generated.png",
+        "crc32": "66b81d23",
+        "size": [
+          1774,
+          887
+        ]
+      },
+      "crop": [
+        0,
+        0,
+        1774,
+        887
+      ],
+      "export": {
+        "path": "assets/models/mega/textures/thruxton-rest-hedgebot.webp",
+        "crc32": "2142de0c",
+        "bytes": 29730,
+        "size": [
+          512,
+          256
+        ],
+        "webp_quality": 70,
+        "webp_method": 6
+      },
+      "alpha": {
+        "exact_source_black_key": true,
+        "crc32": "154803cc",
+        "black_key_source_pixels": 0
+      }
+    },
+    {
+      "name": "HEDGETOP",
+      "source_crc32": "4b17c1f7",
+      "source_size": [
+        64,
+        32
+      ],
+      "source_palette_crc32": "cb877547",
+      "action": "new-direct-artwork",
+      "output": {
+        "path": "assets/models/mega/textures/thruxton-rest-hedgetop.webp",
+        "crc32": "b494b3a5",
+        "bytes": 23102
+      },
+      "generated": {
+        "path": "build/thruxton-rest/HEDGETOP-generated.png",
+        "crc32": "0a4a865d",
+        "size": [
+          1774,
+          887
+        ]
+      },
+      "crop": [
+        0,
+        0,
+        1774,
+        887
+      ],
+      "export": {
+        "path": "assets/models/mega/textures/thruxton-rest-hedgetop.webp",
+        "crc32": "b494b3a5",
+        "bytes": 23102,
+        "size": [
+          512,
+          256
+        ],
+        "webp_quality": 70,
+        "webp_method": 6
+      },
+      "alpha": {
+        "exact_source_black_key": true,
+        "crc32": "06d9b8eb",
+        "black_key_source_pixels": 376
+      }
+    },
+    {
+      "name": "LIFLAGA1",
+      "source_crc32": "38e7c836",
+      "source_size": [
+        32,
+        32
+      ],
+      "source_palette_crc32": "1a8f9cf1",
+      "action": "new-direct-artwork",
+      "output": {
+        "path": "assets/models/mega/textures/thruxton-rest-liflaga1.webp",
+        "crc32": "5b2b47e0",
+        "bytes": 16740
+      },
+      "generated": {
+        "path": "build/thruxton-rest/LIFLAGA1-generated.png",
+        "crc32": "a67198df",
+        "size": [
+          1254,
+          1254
+        ]
+      },
+      "crop": [
+        0,
+        0,
+        1254,
+        1254
+      ],
+      "export": {
+        "path": "assets/models/mega/textures/thruxton-rest-liflaga1.webp",
+        "crc32": "5b2b47e0",
+        "bytes": 16740,
+        "size": [
+          512,
+          512
+        ],
+        "webp_quality": 70,
+        "webp_method": 6
+      },
+      "alpha": {
+        "exact_source_black_key": true,
+        "crc32": "b6316a44",
+        "black_key_source_pixels": 298
+      }
+    },
+    {
+      "name": "LIFLAGA2",
+      "source_crc32": "e0c481ca",
+      "source_size": [
+        32,
+        32
+      ],
+      "source_palette_crc32": "1a8f9cf1",
+      "action": "new-direct-artwork",
+      "output": {
+        "path": "assets/models/mega/textures/thruxton-rest-liflaga2.webp",
+        "crc32": "944a88dc",
+        "bytes": 16580
+      },
+      "generated": {
+        "path": "build/thruxton-rest/LIFLAGA2-generated.png",
+        "crc32": "f7b7e8d9",
+        "size": [
+          1254,
+          1254
+        ]
+      },
+      "crop": [
+        0,
+        0,
+        1254,
+        1254
+      ],
+      "export": {
+        "path": "assets/models/mega/textures/thruxton-rest-liflaga2.webp",
+        "crc32": "944a88dc",
+        "bytes": 16580,
+        "size": [
+          512,
+          512
+        ],
+        "webp_quality": 70,
+        "webp_method": 6
+      },
+      "alpha": {
+        "exact_source_black_key": true,
+        "crc32": "f8dfef70",
+        "black_key_source_pixels": 282
+      }
+    },
+    {
+      "name": "LIFLAGA3",
+      "source_crc32": "47feb733",
+      "source_size": [
+        32,
+        32
+      ],
+      "source_palette_crc32": "1a8f9cf1",
+      "action": "new-direct-artwork",
+      "output": {
+        "path": "assets/models/mega/textures/thruxton-rest-liflaga3.webp",
+        "crc32": "680d12e3",
+        "bytes": 17228
+      },
+      "generated": {
+        "path": "build/thruxton-rest/LIFLAGA3-generated.png",
+        "crc32": "a670e0dc",
+        "size": [
+          1254,
+          1254
+        ]
+      },
+      "crop": [
+        0,
+        0,
+        1254,
+        1254
+      ],
+      "export": {
+        "path": "assets/models/mega/textures/thruxton-rest-liflaga3.webp",
+        "crc32": "680d12e3",
+        "bytes": 17228,
+        "size": [
+          512,
+          512
+        ],
+        "webp_quality": 70,
+        "webp_method": 6
+      },
+      "alpha": {
+        "exact_source_black_key": true,
+        "crc32": "6846946b",
+        "black_key_source_pixels": 303
+      }
+    },
+    {
+      "name": "LIFLAGF1",
+      "source_crc32": "b58d74d3",
+      "source_size": [
+        32,
+        32
+      ],
+      "source_palette_crc32": "1a8f9cf1",
+      "action": "new-direct-artwork",
+      "output": {
+        "path": "assets/models/mega/textures/thruxton-rest-liflagf1.webp",
+        "crc32": "66c39497",
+        "bytes": 6368
+      },
+      "generated": {
+        "path": "build/thruxton-rest/LIFLAGF1-generated.png",
+        "crc32": "9a181def",
+        "size": [
+          1254,
+          1254
+        ]
+      },
+      "crop": [
+        0,
+        0,
+        1254,
+        1254
+      ],
+      "export": {
+        "path": "assets/models/mega/textures/thruxton-rest-liflagf1.webp",
+        "crc32": "66c39497",
+        "bytes": 6368,
+        "size": [
+          512,
+          512
+        ],
+        "webp_quality": 70,
+        "webp_method": 6
+      },
+      "alpha": {
+        "exact_source_black_key": true,
+        "crc32": "203c9237",
+        "black_key_source_pixels": 383
+      }
+    },
+    {
+      "name": "LIFLAGF2",
+      "source_crc32": "f9cf7d63",
+      "source_size": [
+        32,
+        32
+      ],
+      "source_palette_crc32": "1a8f9cf1",
+      "action": "new-direct-artwork",
+      "output": {
+        "path": "assets/models/mega/textures/thruxton-rest-liflagf2.webp",
+        "crc32": "5aaa9a41",
+        "bytes": 6202
+      },
+      "generated": {
+        "path": "build/thruxton-rest/LIFLAGF2-generated.png",
+        "crc32": "be1f4332",
+        "size": [
+          1254,
+          1254
+        ]
+      },
+      "crop": [
+        0,
+        0,
+        1254,
+        1254
+      ],
+      "export": {
+        "path": "assets/models/mega/textures/thruxton-rest-liflagf2.webp",
+        "crc32": "5aaa9a41",
+        "bytes": 6202,
+        "size": [
+          512,
+          512
+        ],
+        "webp_quality": 70,
+        "webp_method": 6
+      },
+      "alpha": {
+        "exact_source_black_key": true,
+        "crc32": "870e24f2",
+        "black_key_source_pixels": 397
+      }
+    },
+    {
+      "name": "LIFLAGF3",
+      "source_crc32": "3e2f99e5",
+      "source_size": [
+        32,
+        32
+      ],
+      "source_palette_crc32": "1a8f9cf1",
+      "action": "new-direct-artwork",
+      "output": {
+        "path": "assets/models/mega/textures/thruxton-rest-liflagf3.webp",
+        "crc32": "1ff62a46",
+        "bytes": 8624
+      },
+      "generated": {
+        "path": "build/thruxton-rest/LIFLAGF3-generated.png",
+        "crc32": "95a0309f",
+        "size": [
+          1254,
+          1254
+        ]
+      },
+      "crop": [
+        0,
+        0,
+        1254,
+        1254
+      ],
+      "export": {
+        "path": "assets/models/mega/textures/thruxton-rest-liflagf3.webp",
+        "crc32": "1ff62a46",
+        "bytes": 8624,
+        "size": [
+          512,
+          512
+        ],
+        "webp_quality": 70,
+        "webp_method": 6
+      },
+      "alpha": {
+        "exact_source_black_key": true,
+        "crc32": "3a356e12",
+        "black_key_source_pixels": 389
+      }
+    },
+    {
+      "name": "LIFLAGK1",
+      "source_crc32": "dbd9345c",
+      "source_size": [
+        32,
+        32
+      ],
+      "source_palette_crc32": "1a8f9cf1",
+      "action": "new-direct-artwork",
+      "output": {
+        "path": "assets/models/mega/textures/thruxton-rest-liflagk1.webp",
+        "crc32": "98fd036c",
+        "bytes": 8944
+      },
+      "generated": {
+        "path": "build/thruxton-rest/LIFLAGK1-generated.png",
+        "crc32": "24692e5a",
+        "size": [
+          1254,
+          1254
+        ]
+      },
+      "crop": [
+        0,
+        0,
+        1254,
+        1254
+      ],
+      "export": {
+        "path": "assets/models/mega/textures/thruxton-rest-liflagk1.webp",
+        "crc32": "98fd036c",
+        "bytes": 8944,
+        "size": [
+          512,
+          512
+        ],
+        "webp_quality": 70,
+        "webp_method": 6
+      },
+      "alpha": {
+        "exact_source_black_key": true,
+        "crc32": "91aa83fd",
+        "black_key_source_pixels": 389
+      }
+    },
+    {
+      "name": "LIFLAGK2",
+      "source_crc32": "ad1fafbc",
+      "source_size": [
+        32,
+        32
+      ],
+      "source_palette_crc32": "1a8f9cf1",
+      "action": "new-direct-artwork",
+      "output": {
+        "path": "assets/models/mega/textures/thruxton-rest-liflagk2.webp",
+        "crc32": "03c055b6",
+        "bytes": 8694
+      },
+      "generated": {
+        "path": "build/thruxton-rest/LIFLAGK2-generated.png",
+        "crc32": "6060ee57",
+        "size": [
+          1254,
+          1254
+        ]
+      },
+      "crop": [
+        0,
+        0,
+        1254,
+        1254
+      ],
+      "export": {
+        "path": "assets/models/mega/textures/thruxton-rest-liflagk2.webp",
+        "crc32": "03c055b6",
+        "bytes": 8694,
+        "size": [
+          512,
+          512
+        ],
+        "webp_quality": 70,
+        "webp_method": 6
+      },
+      "alpha": {
+        "exact_source_black_key": true,
+        "crc32": "10d07bbe",
+        "black_key_source_pixels": 395
+      }
+    },
+    {
+      "name": "LIFLAGK3",
+      "source_crc32": "ac1c8f22",
+      "source_size": [
+        32,
+        32
+      ],
+      "source_palette_crc32": "1a8f9cf1",
+      "action": "new-direct-artwork",
+      "output": {
+        "path": "assets/models/mega/textures/thruxton-rest-liflagk3.webp",
+        "crc32": "7ef504c3",
+        "bytes": 8950
+      },
+      "generated": {
+        "path": "build/thruxton-rest/LIFLAGK3-generated.png",
+        "crc32": "7c223ba3",
+        "size": [
+          1254,
+          1254
+        ]
+      },
+      "crop": [
+        0,
+        0,
+        1254,
+        1254
+      ],
+      "export": {
+        "path": "assets/models/mega/textures/thruxton-rest-liflagk3.webp",
+        "crc32": "7ef504c3",
+        "bytes": 8950,
+        "size": [
+          512,
+          512
+        ],
+        "webp_quality": 70,
+        "webp_method": 6
+      },
+      "alpha": {
+        "exact_source_black_key": true,
+        "crc32": "db795747",
+        "black_key_source_pixels": 376
+      }
+    },
+    {
+      "name": "LIFLAGL1",
+      "source_crc32": "eb8452dc",
+      "source_size": [
+        32,
+        32
+      ],
+      "source_palette_crc32": "1a8f9cf1",
+      "action": "new-direct-artwork",
+      "output": {
+        "path": "assets/models/mega/textures/thruxton-rest-liflagl1.webp",
+        "crc32": "29c2b0c1",
+        "bytes": 8236
+      },
+      "generated": {
+        "path": "build/thruxton-rest/LIFLAGL1-generated.png",
+        "crc32": "9e34036b",
+        "size": [
+          1254,
+          1254
+        ]
+      },
+      "crop": [
+        0,
+        0,
+        1254,
+        1254
+      ],
+      "export": {
+        "path": "assets/models/mega/textures/thruxton-rest-liflagl1.webp",
+        "crc32": "29c2b0c1",
+        "bytes": 8236,
+        "size": [
+          512,
+          512
+        ],
+        "webp_quality": 70,
+        "webp_method": 6
+      },
+      "alpha": {
+        "exact_source_black_key": true,
+        "crc32": "383630ae",
+        "black_key_source_pixels": 380
+      }
+    },
+    {
+      "name": "LIFLAGL2",
+      "source_crc32": "0a9957dd",
+      "source_size": [
+        32,
+        32
+      ],
+      "source_palette_crc32": "1a8f9cf1",
+      "action": "new-direct-artwork",
+      "output": {
+        "path": "assets/models/mega/textures/thruxton-rest-liflagl2.webp",
+        "crc32": "022857c7",
+        "bytes": 7986
+      },
+      "generated": {
+        "path": "build/thruxton-rest/LIFLAGL2-generated.png",
+        "crc32": "1f0f5734",
+        "size": [
+          1254,
+          1254
+        ]
+      },
+      "crop": [
+        0,
+        0,
+        1254,
+        1254
+      ],
+      "export": {
+        "path": "assets/models/mega/textures/thruxton-rest-liflagl2.webp",
+        "crc32": "022857c7",
+        "bytes": 7986,
+        "size": [
+          512,
+          512
+        ],
+        "webp_quality": 70,
+        "webp_method": 6
+      },
+      "alpha": {
+        "exact_source_black_key": true,
+        "crc32": "4c0e9f6c",
+        "black_key_source_pixels": 397
+      }
+    },
+    {
+      "name": "LIFLAGL3",
+      "source_crc32": "5ffa2dda",
+      "source_size": [
+        32,
+        32
+      ],
+      "source_palette_crc32": "1a8f9cf1",
+      "action": "new-direct-artwork",
+      "output": {
+        "path": "assets/models/mega/textures/thruxton-rest-liflagl3.webp",
+        "crc32": "ff284f66",
+        "bytes": 8820
+      },
+      "generated": {
+        "path": "build/thruxton-rest/LIFLAGL3-generated.png",
+        "crc32": "f6d932b5",
+        "size": [
+          1254,
+          1254
+        ]
+      },
+      "crop": [
+        0,
+        0,
+        1254,
+        1254
+      ],
+      "export": {
+        "path": "assets/models/mega/textures/thruxton-rest-liflagl3.webp",
+        "crc32": "ff284f66",
+        "bytes": 8820,
+        "size": [
+          512,
+          512
+        ],
+        "webp_quality": 70,
+        "webp_method": 6
+      },
+      "alpha": {
+        "exact_source_black_key": true,
+        "crc32": "17979821",
+        "black_key_source_pixels": 383
+      }
+    },
+    {
+      "name": "LIFLAGM1",
+      "source_crc32": "ed1c0f03",
+      "source_size": [
+        32,
+        32
+      ],
+      "source_palette_crc32": "1a8f9cf1",
+      "action": "new-direct-artwork",
+      "output": {
+        "path": "assets/models/mega/textures/thruxton-rest-liflagm1.webp",
+        "crc32": "10110dac",
+        "bytes": 7966
+      },
+      "generated": {
+        "path": "build/thruxton-rest/LIFLAGM1-generated.png",
+        "crc32": "e0eed782",
+        "size": [
+          1254,
+          1254
+        ]
+      },
+      "crop": [
+        0,
+        0,
+        1254,
+        1254
+      ],
+      "export": {
+        "path": "assets/models/mega/textures/thruxton-rest-liflagm1.webp",
+        "crc32": "10110dac",
+        "bytes": 7966,
+        "size": [
+          512,
+          512
+        ],
+        "webp_quality": 70,
+        "webp_method": 6
+      },
+      "alpha": {
+        "exact_source_black_key": true,
+        "crc32": "e17ffb22",
+        "black_key_source_pixels": 389
+      }
+    },
+    {
+      "name": "LIFLAGM2",
+      "source_crc32": "fb584b65",
+      "source_size": [
+        32,
+        32
+      ],
+      "source_palette_crc32": "1a8f9cf1",
+      "action": "new-direct-artwork",
+      "output": {
+        "path": "assets/models/mega/textures/thruxton-rest-liflagm2.webp",
+        "crc32": "dc9b0c0b",
+        "bytes": 7900
+      },
+      "generated": {
+        "path": "build/thruxton-rest/LIFLAGM2-generated.png",
+        "crc32": "81d94ffa",
+        "size": [
+          1254,
+          1254
+        ]
+      },
+      "crop": [
+        0,
+        0,
+        1254,
+        1254
+      ],
+      "export": {
+        "path": "assets/models/mega/textures/thruxton-rest-liflagm2.webp",
+        "crc32": "dc9b0c0b",
+        "bytes": 7900,
+        "size": [
+          512,
+          512
+        ],
+        "webp_quality": 70,
+        "webp_method": 6
+      },
+      "alpha": {
+        "exact_source_black_key": true,
+        "crc32": "f539afc0",
+        "black_key_source_pixels": 373
+      }
+    },
+    {
+      "name": "LIFLAGM3",
+      "source_crc32": "8d616308",
+      "source_size": [
+        32,
+        32
+      ],
+      "source_palette_crc32": "1a8f9cf1",
+      "action": "new-direct-artwork",
+      "output": {
+        "path": "assets/models/mega/textures/thruxton-rest-liflagm3.webp",
+        "crc32": "f835c8e6",
+        "bytes": 8848
+      },
+      "generated": {
+        "path": "build/thruxton-rest/LIFLAGM3-generated.png",
+        "crc32": "364db6e5",
+        "size": [
+          1254,
+          1254
+        ]
+      },
+      "crop": [
+        0,
+        0,
+        1254,
+        1254
+      ],
+      "export": {
+        "path": "assets/models/mega/textures/thruxton-rest-liflagm3.webp",
+        "crc32": "f835c8e6",
+        "bytes": 8848,
+        "size": [
+          512,
+          512
+        ],
+        "webp_quality": 70,
+        "webp_method": 6
+      },
+      "alpha": {
+        "exact_source_black_key": true,
+        "crc32": "83288a31",
+        "black_key_source_pixels": 363
+      }
+    },
+    {
+      "name": "LTYRTOP",
+      "source_crc32": "26bd643d",
+      "source_size": [
+        128,
+        32
+      ],
+      "source_palette_crc32": "cb877547",
+      "action": "corrected-repeat-and-phase",
+      "output": {
+        "path": "assets/models/mega/textures/thruxton-rest-ltyrtop.webp",
+        "crc32": "af48ff39",
+        "bytes": 5430
+      },
+      "generated": {
+        "path": "build/thruxton-rest/LTYRTOP-generated.png",
+        "crc32": "442c9c69",
+        "size": [
+          2169,
+          725
+        ]
+      },
+      "crop": [
+        0,
+        93,
+        2169,
+        632
+      ],
+      "export": {
+        "path": "assets/models/mega/textures/thruxton-rest-ltyrtop.webp",
+        "crc32": "af48ff39",
+        "bytes": 5430,
+        "size": [
+          512,
+          128
+        ],
+        "webp_quality": 70,
+        "webp_method": 6
+      },
+      "alpha": {
+        "exact_source_black_key": true,
+        "crc32": "deab7e4e",
+        "black_key_source_pixels": 0
+      }
+    },
+    {
+      "name": "PEO-BACK",
+      "source_crc32": "794489f2",
+      "source_size": [
+        128,
+        32
+      ],
+      "source_palette_crc32": "1a8f9cf1",
+      "action": "shared-RGB-with-own-source-mask",
+      "output": {
+        "path": "assets/models/mega/textures/thruxton-rest-peo-back.webp",
+        "crc32": "9fcc4b4d",
+        "bytes": 11622
+      },
+      "generated": {
+        "path": "build/thruxton-rest/PEO-BACK-generated.png",
+        "crc32": "b8a20ed5",
+        "size": [
+          2170,
+          725
+        ]
+      },
+      "crop": [
+        0,
+        97,
+        2170,
+        622
+      ],
+      "export": {
+        "path": "assets/models/mega/textures/thruxton-rest-peo-back.webp",
+        "crc32": "9fcc4b4d",
+        "bytes": 11622,
+        "size": [
+          512,
+          128
+        ],
+        "webp_quality": 70,
+        "webp_method": 6
+      },
+      "alpha": {
+        "exact_source_black_key": true,
+        "crc32": "7e6f8821",
+        "black_key_source_pixels": 1885
+      },
+      "shared_rgb_from": "PEO-MID"
+    },
+    {
+      "name": "PEO-MID",
+      "source_crc32": "3d138648",
+      "source_size": [
+        128,
+        32
+      ],
+      "source_palette_crc32": "1a8f9cf1",
+      "action": "new-direct-artwork",
+      "output": {
+        "path": "assets/models/mega/textures/thruxton-rest-peo-mid.webp",
+        "crc32": "39aa4e84",
+        "bytes": 11658
+      },
+      "generated": {
+        "path": "build/thruxton-rest/PEO-MID-generated.png",
+        "crc32": "b8a20ed5",
+        "size": [
+          2170,
+          725
+        ]
+      },
+      "crop": [
+        0,
+        97,
+        2170,
+        622
+      ],
+      "export": {
+        "path": "assets/models/mega/textures/thruxton-rest-peo-mid.webp",
+        "crc32": "39aa4e84",
+        "bytes": 11658,
+        "size": [
+          512,
+          128
+        ],
+        "webp_quality": 70,
+        "webp_method": 6
+      },
+      "alpha": {
+        "exact_source_black_key": true,
+        "crc32": "40d0e2ea",
+        "black_key_source_pixels": 1880
+      }
+    },
+    {
+      "name": "TYRES",
+      "source_crc32": "7db4ebe9",
+      "source_size": [
+        128,
+        32
+      ],
+      "source_palette_crc32": "cb877547",
+      "action": "corrected-repeat-and-phase",
+      "output": {
+        "path": "assets/models/mega/textures/thruxton-rest-tyres.webp",
+        "crc32": "c13f7d32",
+        "bytes": 6488
+      },
+      "generated": {
+        "path": "build/thruxton-rest/TYRES-generated.png",
+        "crc32": "2821d7c5",
+        "size": [
+          2170,
+          725
+        ]
+      },
+      "crop": [
+        0,
+        122,
+        2170,
+        649
+      ],
+      "export": {
+        "path": "assets/models/mega/textures/thruxton-rest-tyres.webp",
+        "crc32": "c13f7d32",
+        "bytes": 6488,
+        "size": [
+          512,
+          128
+        ],
+        "webp_quality": 70,
+        "webp_method": 6
+      },
+      "alpha": {
+        "exact_source_black_key": true,
+        "crc32": "deab7e4e",
+        "black_key_source_pixels": 0
+      },
+      "final_edits": [
+        {
+          "name": "TYRES",
+          "references": [
+            "build/thruxton-rest/TYRES-source8x.png",
+            "exec-a948bd92-3ef5-492f-a40c-5e89e4a426a3.png"
+          ],
+          "generated_source": "exec-1d1c22bc-8c1b-4785-a884-3da50c4302ab.png"
+        }
+      ]
+    }
+  ],
+  "constants_retained": [
+    {
+      "name": "POST",
+      "source_crc32": "c1d11720",
+      "size": [
+        8,
+        16
+      ],
+      "rgb": [
+        181,
+        206,
+        222
+      ]
+    },
+    {
+      "name": "BLAK",
+      "source_crc32": "ca05f0e4",
+      "size": [
+        8,
+        8
+      ],
+      "rgb": [
+        33,
+        33,
+        33
+      ]
+    }
+  ],
+  "export": "23 fresh source-guided RGB plates for24 exact BMP replacements. PEO-MID andPEO-BACK share one plate; masks differ by onlyfive original head/hair texels and are exported separately. Recorded presentation crop, Lanczos resize to original aspect/max512px, exact nearest-source black-key alpha; WebP quality70/method6. Existing authored WebPs retain their original bytes and encodings. No source RGB upscaling or source-pixel tracing.",
+  "uv_alpha_contract": {
+    "source_identity": "Every replacement scoped by exact original name, dimensions andCRC32; preserve source UVs, slots, silhouette holes, repeat phase and field divisions.",
+    "tyres": "Corrected old six-period generic top/side maps. LTYRTOP has8periods in2rows with ring centres on U=0/1 andpartial edge rings. TYRES has8columns in2rows; rejected draft seven-column artwork and invented central shelf removed. Quiet dark brown-grey worn rubber remains.",
+    "rails": "Original rail band heights, paired fastener-strip positions andblack support gaps retained; DA05CMB1 keeps four periodic upright bays andupper horizontal member.",
+    "hedges": "Original hedge top/bottom roles, subdued olive/yellow-green foliage, cutouts andphase retained; no new trunks or ground.",
+    "spectators": "Same two silhouette islands, head/limb positions, source clothing colour fields, lowerbody chart crop and overlapping poses. Exact person count is ambiguous in source overlaps; no new count is claimed.",
+    "flags": "All15country/phase charts retain source-specific silhouette, fold positions and cross/stripe placement. UKblue/red/white; Italygreen/white/red; Swedenblue/yellow; Denmarkred/white; Finlandwhite/blue-cyan. Source darkbrown fold regions rendered as shaded source flag cloth, not new motifs."
+  },
+  "flag_contract": {
+    "nodes": 72,
+    "controllers": 24,
+    "cloth_phase_nodes": 24,
+    "pole_children": 24,
+    "source_mesh_rows": 40,
+    "exact_types": 17,
+    "raw_bindings": 144,
+    "phase_ticks": [
+      0,
+      4,
+      8
+    ],
+    "phase_rule": "Existing controller advances ID1 cloth everyfour source ticks through original3variants. ID5pole stays atvariant0; unusual unused pole rawvariants remain unchanged. No actor inferred from rawbindingcount.",
+    "source_hierarchy": {
+      "proof": {
+        "path": "build/thruxton-rest/audit-source.json",
+        "crc32": "724fd83a",
+        "bytes": 4080049
+      },
+      "unchanged": true,
+      "roots": [
+        0,
+        3,
+        6,
+        9,
+        12,
+        15,
+        18,
+        21,
+        24,
+        27,
+        30,
+        33,
+        36,
+        39,
+        42,
+        45,
+        48,
+        51,
+        54,
+        57,
+        60,
+        63,
+        66,
+        69
+      ],
+      "cloth_nodes": [
+        1,
+        4,
+        7,
+        10,
+        13,
+        16,
+        19,
+        22,
+        25,
+        28,
+        31,
+        34,
+        37,
+        40,
+        43,
+        46,
+        49,
+        52,
+        55,
+        58,
+        61,
+        64,
+        67,
+        70
+      ],
+      "pole_nodes": [
+        2,
+        5,
+        8,
+        11,
+        14,
+        17,
+        20,
+        23,
+        26,
+        29,
+        32,
+        35,
+        38,
+        41,
+        44,
+        47,
+        50,
+        53,
+        56,
+        59,
+        62,
+        65,
+        68,
+        71
+      ]
+    }
+  },
+  "limits": "Closes all R02puretrack-prop rows and local material review. Vehicles/cockpits, ground andsky have separate owners andtheir accepted evidence is reused. Canonical reference unchanged; original media stays under ignored build. No performance measurements or full track/weather matrix."
+}

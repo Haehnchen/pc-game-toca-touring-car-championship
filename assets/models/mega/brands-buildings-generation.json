@@ -1,0 +1,2369 @@
+{
+  "version": 1,
+  "package": "M07-3",
+  "source": {
+    "track": 3,
+    "path": "data/branfree.bfp",
+    "crc32": "ecc577c7",
+    "bytes": 2645477,
+    "member": 5,
+    "member_name": "OBJECTS.C3D",
+    "member_crc32": "90ddbd12"
+  },
+  "scope": {
+    "mesh_rows": 26,
+    "types": 26,
+    "bindings": 40,
+    "source_images": 108,
+    "new_images": 107,
+    "unchanged_reused_images": 1
+  },
+  "export": {
+    "generator": "imagegen",
+    "format": "WebP",
+    "quality": 70,
+    "method": 6,
+    "max_edge": 512,
+    "source_aspect": true,
+    "alpha": "Original exact-black key, nearest mask at output size"
+  },
+  "models": [
+    {
+      "mesh": 0,
+      "name": "BH05PGTB_1",
+      "source_crc32": "ddca8aa0",
+      "type": "aa91e928",
+      "nodes": [
+        [
+          1,
+          0
+        ]
+      ]
+    },
+    {
+      "mesh": 1,
+      "name": "BH05PGTC_1",
+      "source_crc32": "fd0763c3",
+      "type": "21cd23e1",
+      "nodes": [
+        [
+          3,
+          0
+        ]
+      ]
+    },
+    {
+      "mesh": 2,
+      "name": "BH05PGTD_1",
+      "source_crc32": "108a66af",
+      "type": "1a80e2b9",
+      "nodes": [
+        [
+          5,
+          0
+        ],
+        [
+          7,
+          0
+        ],
+        [
+          9,
+          0
+        ],
+        [
+          11,
+          0
+        ]
+      ]
+    },
+    {
+      "mesh": 3,
+      "name": "BH05PGTE_1",
+      "source_crc32": "656ab543",
+      "type": "d9184474",
+      "nodes": [
+        [
+          13,
+          0
+        ]
+      ]
+    },
+    {
+      "mesh": 4,
+      "name": "BH18HGR_1",
+      "source_crc32": "5a28b25a",
+      "type": "bfc5eae1",
+      "nodes": [
+        [
+          15,
+          0
+        ]
+      ]
+    },
+    {
+      "mesh": 5,
+      "name": "BH19BLDG_1",
+      "source_crc32": "21a2ee48",
+      "type": "3eab394e",
+      "nodes": [
+        [
+          17,
+          0
+        ]
+      ]
+    },
+    {
+      "mesh": 6,
+      "name": "BH23SHA_1",
+      "source_crc32": "3692859c",
+      "type": "657ccf35",
+      "nodes": [
+        [
+          19,
+          0
+        ],
+        [
+          21,
+          0
+        ],
+        [
+          23,
+          0
+        ],
+        [
+          25,
+          0
+        ],
+        [
+          27,
+          0
+        ]
+      ]
+    },
+    {
+      "mesh": 9,
+      "name": "BH25CBLG_1",
+      "source_crc32": "77e3211b",
+      "type": "6918b5af",
+      "nodes": [
+        [
+          33,
+          0
+        ]
+      ]
+    },
+    {
+      "mesh": 10,
+      "name": "BH27SH2_1",
+      "source_crc32": "4a8ad918",
+      "type": "94152a46",
+      "nodes": [
+        [
+          35,
+          0
+        ]
+      ]
+    },
+    {
+      "mesh": 11,
+      "name": "BH28SMH_1",
+      "source_crc32": "04398dae",
+      "type": "ea41d565",
+      "nodes": [
+        [
+          37,
+          0
+        ]
+      ]
+    },
+    {
+      "mesh": 12,
+      "name": "BH31LGHT_1",
+      "source_crc32": "603b85eb",
+      "type": "1014b81e",
+      "nodes": [
+        [
+          39,
+          0
+        ]
+      ]
+    },
+    {
+      "mesh": 13,
+      "name": "BH33LTB_1",
+      "source_crc32": "20e1db3b",
+      "type": "f3967408",
+      "nodes": [
+        [
+          41,
+          0
+        ]
+      ]
+    },
+    {
+      "mesh": 14,
+      "name": "BH34MHSE_1",
+      "source_crc32": "4faddaaf",
+      "type": "4f5b3017",
+      "nodes": [
+        [
+          43,
+          0
+        ]
+      ]
+    },
+    {
+      "mesh": 15,
+      "name": "BH39FIN_1",
+      "source_crc32": "e2e7c5eb",
+      "type": "857ae998",
+      "nodes": [
+        [
+          45,
+          0
+        ]
+      ]
+    },
+    {
+      "mesh": 16,
+      "name": "BH38PBOX_1",
+      "source_crc32": "f684f6ac",
+      "type": "7941bade",
+      "nodes": [
+        [
+          47,
+          0
+        ]
+      ]
+    },
+    {
+      "mesh": 17,
+      "name": "BH39MBX_1",
+      "source_crc32": "c5a1dc3d",
+      "type": "6d1b943b",
+      "nodes": [
+        [
+          49,
+          0
+        ],
+        [
+          51,
+          0
+        ]
+      ]
+    },
+    {
+      "mesh": 18,
+      "name": "BH11VS1B_1",
+      "source_crc32": "cd21a84f",
+      "type": "c56d7d75",
+      "nodes": [
+        [
+          53,
+          0
+        ]
+      ]
+    },
+    {
+      "mesh": 19,
+      "name": "BH11VS1A_1",
+      "source_crc32": "472e19e9",
+      "type": "c0c68a69",
+      "nodes": [
+        [
+          55,
+          0
+        ]
+      ]
+    },
+    {
+      "mesh": 20,
+      "name": "BH08OGST_1",
+      "source_crc32": "0856500a",
+      "type": "d75d2032",
+      "nodes": [
+        [
+          57,
+          0
+        ]
+      ]
+    },
+    {
+      "mesh": 21,
+      "name": "BH14LBW2_1",
+      "source_crc32": "4fb8a157",
+      "type": "3aef58d4",
+      "nodes": [
+        [
+          59,
+          0
+        ]
+      ]
+    },
+    {
+      "mesh": 22,
+      "name": "BH07A_1",
+      "source_crc32": "b0037c1b",
+      "type": "7047cba0",
+      "nodes": [
+        [
+          61,
+          0
+        ]
+      ]
+    },
+    {
+      "mesh": 23,
+      "name": "BH07B_1",
+      "source_crc32": "cd6da31f",
+      "type": "7e23f9a4",
+      "nodes": [
+        [
+          63,
+          0
+        ]
+      ]
+    },
+    {
+      "mesh": 24,
+      "name": "BH07C_1",
+      "source_crc32": "8ed7868d",
+      "type": "59fa2839",
+      "nodes": [
+        [
+          65,
+          0
+        ]
+      ]
+    },
+    {
+      "mesh": 33,
+      "name": "BH20BRDG_1",
+      "source_crc32": "d96b514b",
+      "type": "302ed6c8",
+      "nodes": [
+        [
+          109,
+          0
+        ]
+      ]
+    },
+    {
+      "mesh": 50,
+      "name": "LPBOX_1",
+      "source_crc32": "ae5f9f74",
+      "type": "0880caac",
+      "nodes": [
+        [
+          413,
+          0
+        ],
+        [
+          415,
+          0
+        ],
+        [
+          417,
+          0
+        ],
+        [
+          419,
+          0
+        ],
+        [
+          421,
+          0
+        ]
+      ]
+    },
+    {
+      "mesh": 52,
+      "name": "DA10BBO3_1",
+      "source_crc32": "358d36ae",
+      "type": "fd3bb8a0",
+      "nodes": [
+        [
+          489,
+          0
+        ],
+        [
+          491,
+          0
+        ],
+        [
+          493,
+          0
+        ]
+      ]
+    }
+  ],
+  "bridge_binding": {
+    "mesh": 33,
+    "name": "BH20BRDG_1",
+    "source_slot": 127,
+    "source_name": "D15SHL7",
+    "source_crc32": "1c07ca8e",
+    "appended_slot": 169,
+    "appended_name": "MegaBridgeX",
+    "remapped_faces": 12,
+    "retained_native_webp_crc32": "fc08fd13",
+    "native_consumer": "BH17HEL_1 mesh34 face69"
+  },
+  "lettering_notes": {
+    "BH5PGTT2": "Small Speed wordmark is a contextual reconstruction; exact source glyphs remain uncertain.",
+    "BH11LB1/PBOX": "Unresolved tiny marks retain source-coloured graphic fields without invented brand text."
+  },
+  "textures": [
+    {
+      "name": "BH5PGTT2",
+      "member": 5,
+      "slot": 0,
+      "source_crc32": "ad3a7a95",
+      "source_size": [
+        64,
+        64
+      ],
+      "image": "textures/brands-building-bh5pgtt2.webp",
+      "crc32": "43542ff5",
+      "bytes": 6500,
+      "size": [
+        512,
+        512
+      ],
+      "webp_quality": 70
+    },
+    {
+      "name": "BH5PGTT8",
+      "member": 5,
+      "slot": 1,
+      "source_crc32": "9a8fd916",
+      "source_size": [
+        16,
+        64
+      ],
+      "image": "textures/brands-building-bh5pgtt8.webp",
+      "crc32": "606f842d",
+      "bytes": 1408,
+      "size": [
+        128,
+        512
+      ],
+      "webp_quality": 70
+    },
+    {
+      "name": "BH5PGTC1",
+      "member": 5,
+      "slot": 2,
+      "source_crc32": "0e2f3735",
+      "source_size": [
+        64,
+        64
+      ],
+      "image": "textures/brands-building-bh5pgtc1.webp",
+      "crc32": "56171892",
+      "bytes": 8540,
+      "size": [
+        512,
+        512
+      ],
+      "webp_quality": 70
+    },
+    {
+      "name": "BH5PGTC5",
+      "member": 5,
+      "slot": 3,
+      "source_crc32": "4d2c2791",
+      "source_size": [
+        32,
+        64
+      ],
+      "image": "textures/brands-building-bh5pgtc5.webp",
+      "crc32": "135ac52f",
+      "bytes": 3714,
+      "size": [
+        256,
+        512
+      ],
+      "webp_quality": 70
+    },
+    {
+      "name": "BH5PGTC6",
+      "member": 5,
+      "slot": 4,
+      "source_crc32": "5c533d91",
+      "source_size": [
+        32,
+        64
+      ],
+      "image": "textures/brands-building-bh5pgtc6.webp",
+      "crc32": "a2c46386",
+      "bytes": 2130,
+      "size": [
+        256,
+        512
+      ],
+      "webp_quality": 70
+    },
+    {
+      "name": "BH5PGTC7",
+      "member": 5,
+      "slot": 5,
+      "source_crc32": "cd4d3fee",
+      "source_size": [
+        16,
+        64
+      ],
+      "image": "textures/brands-building-bh5pgtc7.webp",
+      "crc32": "69315bc4",
+      "bytes": 3488,
+      "size": [
+        128,
+        512
+      ],
+      "webp_quality": 70
+    },
+    {
+      "name": "BH5PGTC8",
+      "member": 5,
+      "slot": 6,
+      "source_crc32": "396d259e",
+      "source_size": [
+        16,
+        64
+      ],
+      "image": "textures/brands-building-bh5pgtc8.webp",
+      "crc32": "feb55eea",
+      "bytes": 852,
+      "size": [
+        128,
+        512
+      ],
+      "webp_quality": 70
+    },
+    {
+      "name": "BH5PGTC3",
+      "member": 5,
+      "slot": 7,
+      "source_crc32": "22d7f0bd",
+      "source_size": [
+        64,
+        64
+      ],
+      "image": "textures/brands-building-bh5pgtc3.webp",
+      "crc32": "c4f5e3e3",
+      "bytes": 12344,
+      "size": [
+        512,
+        512
+      ],
+      "webp_quality": 70
+    },
+    {
+      "name": "BH5PGTC4",
+      "member": 5,
+      "slot": 8,
+      "source_crc32": "16e0f7de",
+      "source_size": [
+        64,
+        64
+      ],
+      "image": "textures/brands-building-bh5pgtc4.webp",
+      "crc32": "65d963c9",
+      "bytes": 8356,
+      "size": [
+        512,
+        512
+      ],
+      "webp_quality": 70
+    },
+    {
+      "name": "BH5PGTC9",
+      "member": 5,
+      "slot": 9,
+      "source_crc32": "3f2a020b",
+      "source_size": [
+        64,
+        64
+      ],
+      "image": "textures/brands-building-bh5pgtc9.webp",
+      "crc32": "a01179f4",
+      "bytes": 3828,
+      "size": [
+        512,
+        512
+      ],
+      "webp_quality": 70
+    },
+    {
+      "name": "BH5PGTC0",
+      "member": 5,
+      "slot": 10,
+      "source_crc32": "9c04cbd9",
+      "source_size": [
+        64,
+        64
+      ],
+      "image": "textures/brands-building-bh5pgtc0.webp",
+      "crc32": "2dec71ff",
+      "bytes": 1980,
+      "size": [
+        512,
+        512
+      ],
+      "webp_quality": 70
+    },
+    {
+      "name": "BHPGTT5",
+      "member": 5,
+      "slot": 11,
+      "source_crc32": "9d48edcb",
+      "source_size": [
+        128,
+        32
+      ],
+      "image": "textures/brands-building-bhpgtt5.webp",
+      "crc32": "102a103a",
+      "bytes": 6686,
+      "size": [
+        512,
+        128
+      ],
+      "webp_quality": 70
+    },
+    {
+      "name": "BHPGTT9",
+      "member": 5,
+      "slot": 12,
+      "source_crc32": "1b9acef5",
+      "source_size": [
+        16,
+        32
+      ],
+      "image": "textures/brands-building-bhpgtt9.webp",
+      "crc32": "e2771e83",
+      "bytes": 1638,
+      "size": [
+        256,
+        512
+      ],
+      "webp_quality": 70
+    },
+    {
+      "name": "BHPGTT14",
+      "member": 5,
+      "slot": 13,
+      "source_crc32": "e2666dc9",
+      "source_size": [
+        64,
+        64
+      ],
+      "image": "textures/brands-building-bhpgtt14.webp",
+      "crc32": "2241b085",
+      "bytes": 17444,
+      "size": [
+        512,
+        512
+      ],
+      "webp_quality": 70
+    },
+    {
+      "name": "BH5PGTA1",
+      "member": 5,
+      "slot": 14,
+      "source_crc32": "3d2c6580",
+      "source_size": [
+        64,
+        64
+      ],
+      "image": "textures/brands-building-bh5pgta1.webp",
+      "crc32": "88702665",
+      "bytes": 17870,
+      "size": [
+        512,
+        512
+      ],
+      "webp_quality": 70
+    },
+    {
+      "name": "BHPGTT6",
+      "member": 5,
+      "slot": 15,
+      "source_crc32": "b0aa7fe0",
+      "source_size": [
+        128,
+        32
+      ],
+      "image": "textures/brands-building-bhpgtt6.webp",
+      "crc32": "ae2d44bf",
+      "bytes": 2464,
+      "size": [
+        512,
+        128
+      ],
+      "webp_quality": 70
+    },
+    {
+      "name": "BHPGTT4",
+      "member": 5,
+      "slot": 16,
+      "source_crc32": "21fa1678",
+      "source_size": [
+        64,
+        8
+      ],
+      "image": "textures/brands-building-bhpgtt4.webp",
+      "crc32": "e7ac59ee",
+      "bytes": 1310,
+      "size": [
+        512,
+        64
+      ],
+      "webp_quality": 70
+    },
+    {
+      "name": "BH5PGTC2",
+      "member": 5,
+      "slot": 17,
+      "source_crc32": "563b8b5b",
+      "source_size": [
+        64,
+        64
+      ],
+      "image": "textures/brands-building-bh5pgtc2.webp",
+      "crc32": "ceeab6d5",
+      "bytes": 4576,
+      "size": [
+        512,
+        512
+      ],
+      "webp_quality": 70
+    },
+    {
+      "name": "BHPGTT7",
+      "member": 5,
+      "slot": 18,
+      "source_crc32": "eb864e72",
+      "source_size": [
+        64,
+        64
+      ],
+      "image": "textures/brands-building-bhpgtt7.webp",
+      "crc32": "b54b106d",
+      "bytes": 13282,
+      "size": [
+        512,
+        512
+      ],
+      "webp_quality": 70
+    },
+    {
+      "name": "BH5PGTD1",
+      "member": 5,
+      "slot": 19,
+      "source_crc32": "57b53287",
+      "source_size": [
+        64,
+        64
+      ],
+      "image": "textures/brands-building-bh5pgtd1.webp",
+      "crc32": "70f9f649",
+      "bytes": 2514,
+      "size": [
+        512,
+        512
+      ],
+      "webp_quality": 70
+    },
+    {
+      "name": "BH5PGTQ1",
+      "member": 5,
+      "slot": 20,
+      "source_crc32": "0b0fb471",
+      "source_size": [
+        64,
+        64
+      ],
+      "image": "textures/brands-building-bh5pgtq1.webp",
+      "crc32": "c29b9918",
+      "bytes": 9824,
+      "size": [
+        512,
+        512
+      ],
+      "webp_quality": 70
+    },
+    {
+      "name": "BH5PGTD2",
+      "member": 5,
+      "slot": 21,
+      "source_crc32": "92c3781f",
+      "source_size": [
+        32,
+        128
+      ],
+      "image": "textures/brands-building-bh5pgtd2.webp",
+      "crc32": "8da1f2ce",
+      "bytes": 1168,
+      "size": [
+        128,
+        512
+      ],
+      "webp_quality": 70
+    },
+    {
+      "name": "BH5PGT1",
+      "member": 5,
+      "slot": 22,
+      "source_crc32": "1ecf3285",
+      "source_size": [
+        64,
+        64
+      ],
+      "image": "textures/brands-building-bh5pgt1.webp",
+      "crc32": "65820ae1",
+      "bytes": 12652,
+      "size": [
+        512,
+        512
+      ],
+      "webp_quality": 70
+    },
+    {
+      "name": "BH5PGTB1",
+      "member": 5,
+      "slot": 23,
+      "source_crc32": "5bc24800",
+      "source_size": [
+        64,
+        64
+      ],
+      "image": "textures/brands-building-bh5pgtb1.webp",
+      "crc32": "360581a8",
+      "bytes": 6216,
+      "size": [
+        512,
+        512
+      ],
+      "webp_quality": 70
+    },
+    {
+      "name": "BH5PGTB9",
+      "member": 5,
+      "slot": 24,
+      "source_crc32": "3a25044a",
+      "source_size": [
+        64,
+        64
+      ],
+      "image": "textures/brands-building-bh5pgtb9.webp",
+      "crc32": "c7faaa84",
+      "bytes": 4558,
+      "size": [
+        512,
+        512
+      ],
+      "webp_quality": 70
+    },
+    {
+      "name": "BH5PGF1",
+      "member": 5,
+      "slot": 25,
+      "source_crc32": "4b78d86b",
+      "source_size": [
+        64,
+        64
+      ],
+      "image": "textures/brands-building-bh5pgf1.webp",
+      "crc32": "63fe88e5",
+      "bytes": 8628,
+      "size": [
+        512,
+        512
+      ],
+      "webp_quality": 70
+    },
+    {
+      "name": "BH5PGTE3",
+      "member": 5,
+      "slot": 26,
+      "source_crc32": "ca6c74ad",
+      "source_size": [
+        64,
+        64
+      ],
+      "image": "textures/brands-building-bh5pgte3.webp",
+      "crc32": "9f1df32f",
+      "bytes": 7848,
+      "size": [
+        512,
+        512
+      ],
+      "webp_quality": 70
+    },
+    {
+      "name": "BH5PGTE4",
+      "member": 5,
+      "slot": 27,
+      "source_crc32": "6ef45c5f",
+      "source_size": [
+        64,
+        64
+      ],
+      "image": "textures/brands-building-bh5pgte4.webp",
+      "crc32": "e79deb5e",
+      "bytes": 6916,
+      "size": [
+        512,
+        512
+      ],
+      "webp_quality": 70
+    },
+    {
+      "name": "BH5PGTE1",
+      "member": 5,
+      "slot": 28,
+      "source_crc32": "7d22d065",
+      "source_size": [
+        64,
+        64
+      ],
+      "image": "textures/brands-building-bh5pgte1.webp",
+      "crc32": "3244686c",
+      "bytes": 11246,
+      "size": [
+        512,
+        512
+      ],
+      "webp_quality": 70
+    },
+    {
+      "name": "BH5PGTE2",
+      "member": 5,
+      "slot": 29,
+      "source_crc32": "c4b3a181",
+      "source_size": [
+        64,
+        64
+      ],
+      "image": "textures/brands-building-bh5pgte2.webp",
+      "crc32": "6645da2b",
+      "bytes": 10630,
+      "size": [
+        512,
+        512
+      ],
+      "webp_quality": 70
+    },
+    {
+      "name": "BH18FRT",
+      "member": 5,
+      "slot": 30,
+      "source_crc32": "e940f592",
+      "source_size": [
+        32,
+        32
+      ],
+      "image": "textures/brands-building-bh18frt.webp",
+      "crc32": "7171c314",
+      "bytes": 10302,
+      "size": [
+        512,
+        512
+      ],
+      "webp_quality": 70
+    },
+    {
+      "name": "BH18SDE",
+      "member": 5,
+      "slot": 31,
+      "source_crc32": "be6e1607",
+      "source_size": [
+        64,
+        32
+      ],
+      "image": "textures/brands-building-bh18sde.webp",
+      "crc32": "44b54c8f",
+      "bytes": 5000,
+      "size": [
+        512,
+        256
+      ],
+      "webp_quality": 70
+    },
+    {
+      "name": "BH39ROF",
+      "member": 5,
+      "slot": 32,
+      "source_crc32": "8d7feb0e",
+      "source_size": [
+        64,
+        64
+      ],
+      "image": "textures/brands-building-bh39rof.webp",
+      "crc32": "72043364",
+      "bytes": 2828,
+      "size": [
+        512,
+        512
+      ],
+      "webp_quality": 70
+    },
+    {
+      "name": "BH19SDE1",
+      "member": 5,
+      "slot": 33,
+      "source_crc32": "1ced0021",
+      "source_size": [
+        64,
+        16
+      ],
+      "image": "textures/brands-building-bh19sde1.webp",
+      "crc32": "2f2e3fb3",
+      "bytes": 5998,
+      "size": [
+        512,
+        128
+      ],
+      "webp_quality": 70
+    },
+    {
+      "name": "BH19SDE2",
+      "member": 5,
+      "slot": 34,
+      "source_crc32": "d3e943a5",
+      "source_size": [
+        64,
+        16
+      ],
+      "image": "textures/brands-building-bh19sde2.webp",
+      "crc32": "fd29cda0",
+      "bytes": 2990,
+      "size": [
+        512,
+        128
+      ],
+      "webp_quality": 70
+    },
+    {
+      "name": "BH19ROF",
+      "member": 5,
+      "slot": 35,
+      "source_crc32": "69a3c9fc",
+      "source_size": [
+        16,
+        32
+      ],
+      "image": "textures/brands-building-bh19rof.webp",
+      "crc32": "326b3e44",
+      "bytes": 2746,
+      "size": [
+        256,
+        512
+      ],
+      "webp_quality": 70
+    },
+    {
+      "name": "BH23SHA1",
+      "member": 5,
+      "slot": 36,
+      "source_crc32": "2ed50f3d",
+      "source_size": [
+        32,
+        16
+      ],
+      "image": "textures/brands-building-bh23sha1.webp",
+      "crc32": "0208f67b",
+      "bytes": 1350,
+      "size": [
+        512,
+        256
+      ],
+      "webp_quality": 70
+    },
+    {
+      "name": "BH23SHA2",
+      "member": 5,
+      "slot": 37,
+      "source_crc32": "544658e0",
+      "source_size": [
+        16,
+        16
+      ],
+      "image": "textures/brands-building-bh23sha2.webp",
+      "crc32": "19937908",
+      "bytes": 1816,
+      "size": [
+        512,
+        512
+      ],
+      "webp_quality": 70
+    },
+    {
+      "name": "BH23SHA3",
+      "member": 5,
+      "slot": 38,
+      "source_crc32": "25735c98",
+      "source_size": [
+        32,
+        16
+      ],
+      "image": "textures/brands-building-bh23sha3.webp",
+      "crc32": "fa59e01a",
+      "bytes": 858,
+      "size": [
+        512,
+        256
+      ],
+      "webp_quality": 70
+    },
+    {
+      "name": "BH25FRT",
+      "member": 5,
+      "slot": 49,
+      "source_crc32": "8b14c58b",
+      "source_size": [
+        64,
+        32
+      ],
+      "image": "textures/brands-building-bh25frt.webp",
+      "crc32": "0843aa4b",
+      "bytes": 4558,
+      "size": [
+        512,
+        256
+      ],
+      "webp_quality": 70
+    },
+    {
+      "name": "BH25SDE",
+      "member": 5,
+      "slot": 50,
+      "source_crc32": "c4382249",
+      "source_size": [
+        128,
+        16
+      ],
+      "image": "textures/brands-building-bh25sde.webp",
+      "crc32": "d11e196e",
+      "bytes": 1742,
+      "size": [
+        512,
+        64
+      ],
+      "webp_quality": 70
+    },
+    {
+      "name": "BH25TOP",
+      "member": 5,
+      "slot": 51,
+      "source_crc32": "45136834",
+      "source_size": [
+        128,
+        32
+      ],
+      "image": "textures/brands-building-bh25top.webp",
+      "crc32": "0443243e",
+      "bytes": 3722,
+      "size": [
+        512,
+        128
+      ],
+      "webp_quality": 70
+    },
+    {
+      "name": "BH27FRT",
+      "member": 5,
+      "slot": 52,
+      "source_crc32": "b23828ef",
+      "source_size": [
+        32,
+        32
+      ],
+      "image": "textures/brands-building-bh27frt.webp",
+      "crc32": "b21eecd2",
+      "bytes": 9536,
+      "size": [
+        512,
+        512
+      ],
+      "webp_quality": 70
+    },
+    {
+      "name": "BH27ROF",
+      "member": 5,
+      "slot": 53,
+      "source_crc32": "972c07ac",
+      "source_size": [
+        64,
+        16
+      ],
+      "image": "textures/brands-building-bh27rof.webp",
+      "crc32": "c6600d5b",
+      "bytes": 4082,
+      "size": [
+        512,
+        128
+      ],
+      "webp_quality": 70
+    },
+    {
+      "name": "BH27SDE",
+      "member": 5,
+      "slot": 54,
+      "source_crc32": "bd750241",
+      "source_size": [
+        64,
+        32
+      ],
+      "image": "textures/brands-building-bh27sde.webp",
+      "crc32": "58a52873",
+      "bytes": 7090,
+      "size": [
+        512,
+        256
+      ],
+      "webp_quality": 70
+    },
+    {
+      "name": "BH28FRT",
+      "member": 5,
+      "slot": 55,
+      "source_crc32": "608a99be",
+      "source_size": [
+        32,
+        32
+      ],
+      "image": "textures/brands-building-bh28frt.webp",
+      "crc32": "1f9f475f",
+      "bytes": 7468,
+      "size": [
+        512,
+        512
+      ],
+      "webp_quality": 70
+    },
+    {
+      "name": "BH28SDE",
+      "member": 5,
+      "slot": 56,
+      "source_crc32": "0735fa67",
+      "source_size": [
+        64,
+        32
+      ],
+      "image": "textures/brands-building-bh28sde.webp",
+      "crc32": "65d84492",
+      "bytes": 6988,
+      "size": [
+        512,
+        256
+      ],
+      "webp_quality": 70
+    },
+    {
+      "name": "BH31BCK",
+      "member": 5,
+      "slot": 57,
+      "source_crc32": "cde99c21",
+      "source_size": [
+        64,
+        32
+      ],
+      "image": "textures/brands-building-bh31bck.webp",
+      "crc32": "9729480c",
+      "bytes": 3072,
+      "size": [
+        512,
+        256
+      ],
+      "webp_quality": 70
+    },
+    {
+      "name": "BH31FRT",
+      "member": 5,
+      "slot": 58,
+      "source_crc32": "45bae431",
+      "source_size": [
+        64,
+        32
+      ],
+      "image": "textures/brands-building-bh31frt.webp",
+      "crc32": "b9112c5a",
+      "bytes": 5696,
+      "size": [
+        512,
+        256
+      ],
+      "webp_quality": 70
+    },
+    {
+      "name": "BH31SDE",
+      "member": 5,
+      "slot": 59,
+      "source_crc32": "eba0f76c",
+      "source_size": [
+        8,
+        64
+      ],
+      "image": "textures/brands-building-bh31sde.webp",
+      "crc32": "11a20521",
+      "bytes": 1528,
+      "size": [
+        64,
+        512
+      ],
+      "webp_quality": 70
+    },
+    {
+      "name": "BH31BCK2",
+      "member": 5,
+      "slot": 60,
+      "source_crc32": "84d6ae9f",
+      "source_size": [
+        32,
+        32
+      ],
+      "image": "textures/brands-building-bh31bck2.webp",
+      "crc32": "08590d1a",
+      "bytes": 2810,
+      "size": [
+        512,
+        512
+      ],
+      "webp_quality": 70
+    },
+    {
+      "name": "BH31FRT2",
+      "member": 5,
+      "slot": 61,
+      "source_crc32": "7cba36c8",
+      "source_size": [
+        32,
+        32
+      ],
+      "image": "textures/brands-building-bh31frt2.webp",
+      "crc32": "4ec1e3fa",
+      "bytes": 4278,
+      "size": [
+        512,
+        512
+      ],
+      "webp_quality": 70
+    },
+    {
+      "name": "BH31BTM",
+      "member": 5,
+      "slot": 62,
+      "source_crc32": "b339af8b",
+      "source_size": [
+        8,
+        64
+      ],
+      "image": "textures/brands-building-bh31btm.webp",
+      "crc32": "0504f322",
+      "bytes": 1292,
+      "size": [
+        64,
+        512
+      ],
+      "webp_quality": 70
+    },
+    {
+      "name": "BH31SDE2",
+      "member": 5,
+      "slot": 63,
+      "source_crc32": "84edfbcc",
+      "source_size": [
+        8,
+        32
+      ],
+      "image": "textures/brands-building-bh31sde2.webp",
+      "crc32": "6302477b",
+      "bytes": 1392,
+      "size": [
+        128,
+        512
+      ],
+      "webp_quality": 70
+    },
+    {
+      "name": "BH33FRT",
+      "member": 5,
+      "slot": 64,
+      "source_crc32": "2686f3e6",
+      "source_size": [
+        64,
+        32
+      ],
+      "image": "textures/brands-building-bh33frt.webp",
+      "crc32": "1e2abec5",
+      "bytes": 7056,
+      "size": [
+        512,
+        256
+      ],
+      "webp_quality": 70
+    },
+    {
+      "name": "BH33ROF2",
+      "member": 5,
+      "slot": 65,
+      "source_crc32": "d63159f2",
+      "source_size": [
+        64,
+        32
+      ],
+      "image": "textures/brands-building-bh33rof2.webp",
+      "crc32": "ededd239",
+      "bytes": 8470,
+      "size": [
+        512,
+        256
+      ],
+      "webp_quality": 70
+    },
+    {
+      "name": "BH33SDE2",
+      "member": 5,
+      "slot": 66,
+      "source_crc32": "d37b4ddf",
+      "source_size": [
+        128,
+        32
+      ],
+      "image": "textures/brands-building-bh33sde2.webp",
+      "crc32": "835efde4",
+      "bytes": 2914,
+      "size": [
+        512,
+        128
+      ],
+      "webp_quality": 70
+    },
+    {
+      "name": "BH33SDE1",
+      "member": 5,
+      "slot": 67,
+      "source_crc32": "178f8cd4",
+      "source_size": [
+        128,
+        32
+      ],
+      "image": "textures/brands-building-bh33sde1.webp",
+      "crc32": "634dafed",
+      "bytes": 3106,
+      "size": [
+        512,
+        128
+      ],
+      "webp_quality": 70
+    },
+    {
+      "name": "BH34SDE",
+      "member": 5,
+      "slot": 68,
+      "source_crc32": "9498d05e",
+      "source_size": [
+        64,
+        32
+      ],
+      "image": "textures/brands-building-bh34sde.webp",
+      "crc32": "a44a31c6",
+      "bytes": 3008,
+      "size": [
+        512,
+        256
+      ],
+      "webp_quality": 70
+    },
+    {
+      "name": "BH34ROF",
+      "member": 5,
+      "slot": 69,
+      "source_crc32": "dec2ea6d",
+      "source_size": [
+        64,
+        32
+      ],
+      "image": "textures/brands-building-bh34rof.webp",
+      "crc32": "52ca82a6",
+      "bytes": 2230,
+      "size": [
+        512,
+        256
+      ],
+      "webp_quality": 70
+    },
+    {
+      "name": "BH34FRT",
+      "member": 5,
+      "slot": 70,
+      "source_crc32": "86320ad1",
+      "source_size": [
+        32,
+        32
+      ],
+      "image": "textures/brands-building-bh34frt.webp",
+      "crc32": "f8babf2a",
+      "bytes": 5806,
+      "size": [
+        512,
+        512
+      ],
+      "webp_quality": 70
+    },
+    {
+      "name": "BR39FIN",
+      "member": 5,
+      "slot": 71,
+      "source_crc32": "d9bb9c7d",
+      "source_size": [
+        64,
+        64
+      ],
+      "image": "textures/brands-building-br39fin.webp",
+      "crc32": "0749a8df",
+      "bytes": 11686,
+      "size": [
+        512,
+        512
+      ],
+      "webp_quality": 70
+    },
+    {
+      "name": "BR38BOX",
+      "member": 5,
+      "slot": 72,
+      "source_crc32": "111bc340",
+      "source_size": [
+        64,
+        64
+      ],
+      "image": "textures/brands-building-br38box.webp",
+      "crc32": "2a84e748",
+      "bytes": 1692,
+      "size": [
+        512,
+        512
+      ],
+      "webp_quality": 70
+    },
+    {
+      "name": "BR38BOX1",
+      "member": 5,
+      "slot": 73,
+      "source_crc32": "8cadf048",
+      "source_size": [
+        64,
+        32
+      ],
+      "image": "textures/brands-building-br38box1.webp",
+      "crc32": "607b9630",
+      "bytes": 1296,
+      "size": [
+        512,
+        256
+      ],
+      "webp_quality": 70
+    },
+    {
+      "name": "BR38BOX2",
+      "member": 5,
+      "slot": 74,
+      "source_crc32": "affe30f7",
+      "source_size": [
+        64,
+        32
+      ],
+      "image": "textures/brands-building-br38box2.webp",
+      "crc32": "787c255e",
+      "bytes": 1368,
+      "size": [
+        512,
+        256
+      ],
+      "webp_quality": 70
+    },
+    {
+      "name": "BR38BOX3",
+      "member": 5,
+      "slot": 75,
+      "source_crc32": "f2b67f0c",
+      "source_size": [
+        64,
+        64
+      ],
+      "image": "textures/brands-building-br38box3.webp",
+      "crc32": "ff696a3f",
+      "bytes": 2630,
+      "size": [
+        512,
+        512
+      ],
+      "webp_quality": 70
+    },
+    {
+      "name": "BH39BCK",
+      "member": 5,
+      "slot": 76,
+      "source_crc32": "ecfbace7",
+      "source_size": [
+        64,
+        64
+      ],
+      "image": "textures/brands-building-bh39bck.webp",
+      "crc32": "4c93c589",
+      "bytes": 24412,
+      "size": [
+        512,
+        512
+      ],
+      "webp_quality": 70
+    },
+    {
+      "name": "BH39FRT",
+      "member": 5,
+      "slot": 77,
+      "source_crc32": "da51f088",
+      "source_size": [
+        64,
+        64
+      ],
+      "image": "textures/brands-building-bh39frt.webp",
+      "crc32": "24e03e5f",
+      "bytes": 19480,
+      "size": [
+        512,
+        512
+      ],
+      "webp_quality": 70
+    },
+    {
+      "name": "BH39SDE",
+      "member": 5,
+      "slot": 78,
+      "source_crc32": "f7f511ee",
+      "source_size": [
+        32,
+        64
+      ],
+      "image": "textures/brands-building-bh39sde.webp",
+      "crc32": "d76fbd20",
+      "bytes": 11516,
+      "size": [
+        256,
+        512
+      ],
+      "webp_quality": 70
+    },
+    {
+      "name": "BH11LB1",
+      "member": 5,
+      "slot": 79,
+      "source_crc32": "567e13e2",
+      "source_size": [
+        256,
+        64
+      ],
+      "image": "textures/brands-building-bh11lb1.webp",
+      "crc32": "f5bd0353",
+      "bytes": 10692,
+      "size": [
+        512,
+        128
+      ],
+      "webp_quality": 70
+    },
+    {
+      "name": "BH11LB2",
+      "member": 5,
+      "slot": 80,
+      "source_crc32": "1450a3fc",
+      "source_size": [
+        64,
+        16
+      ],
+      "image": "textures/brands-building-bh11lb2.webp",
+      "crc32": "bbf158ed",
+      "bytes": 1226,
+      "size": [
+        512,
+        128
+      ],
+      "webp_quality": 70
+    },
+    {
+      "name": "BH11LB3",
+      "member": 5,
+      "slot": 81,
+      "source_crc32": "1a1b192b",
+      "source_size": [
+        64,
+        64
+      ],
+      "image": "textures/brands-building-bh11lb3.webp",
+      "crc32": "4165a4c9",
+      "bytes": 20776,
+      "size": [
+        512,
+        512
+      ],
+      "webp_quality": 70
+    },
+    {
+      "name": "BH11LB4",
+      "member": 5,
+      "slot": 82,
+      "source_crc32": "2162f402",
+      "source_size": [
+        64,
+        64
+      ],
+      "image": "textures/brands-building-bh11lb4.webp",
+      "crc32": "f5ae5453",
+      "bytes": 20744,
+      "size": [
+        512,
+        512
+      ],
+      "webp_quality": 70
+    },
+    {
+      "name": "BH11LB6",
+      "member": 5,
+      "slot": 83,
+      "source_crc32": "6401713c",
+      "source_size": [
+        32,
+        32
+      ],
+      "image": "textures/brands-building-bh11lb6.webp",
+      "crc32": "74f7016c",
+      "bytes": 3288,
+      "size": [
+        512,
+        512
+      ],
+      "webp_quality": 70
+    },
+    {
+      "name": "BH11LB5",
+      "member": 5,
+      "slot": 84,
+      "source_crc32": "44047b26",
+      "source_size": [
+        64,
+        32
+      ],
+      "image": "textures/brands-building-bh11lb5.webp",
+      "crc32": "a1440279",
+      "bytes": 2756,
+      "size": [
+        512,
+        256
+      ],
+      "webp_quality": 70
+    },
+    {
+      "name": "Bh8frt1",
+      "member": 5,
+      "slot": 85,
+      "source_crc32": "31fd8120",
+      "source_size": [
+        64,
+        64
+      ],
+      "image": "textures/brands-building-bh8frt1.webp",
+      "crc32": "ac4562d2",
+      "bytes": 66824,
+      "size": [
+        512,
+        512
+      ],
+      "webp_quality": 70
+    },
+    {
+      "name": "Bh8frt2",
+      "member": 5,
+      "slot": 86,
+      "source_crc32": "e080a966",
+      "source_size": [
+        64,
+        64
+      ],
+      "image": "textures/brands-building-bh8frt2.webp",
+      "crc32": "a1d14118",
+      "bytes": 38168,
+      "size": [
+        512,
+        512
+      ],
+      "webp_quality": 70
+    },
+    {
+      "name": "Bh8frt3",
+      "member": 5,
+      "slot": 87,
+      "source_crc32": "eda31e6a",
+      "source_size": [
+        64,
+        64
+      ],
+      "image": "textures/brands-building-bh8frt3.webp",
+      "crc32": "5feaef16",
+      "bytes": 45660,
+      "size": [
+        512,
+        512
+      ],
+      "webp_quality": 70
+    },
+    {
+      "name": "Bh8frt4",
+      "member": 5,
+      "slot": 88,
+      "source_crc32": "c05e8eb8",
+      "source_size": [
+        64,
+        16
+      ],
+      "image": "textures/brands-building-bh8frt4.webp",
+      "crc32": "89070be7",
+      "bytes": 2120,
+      "size": [
+        512,
+        128
+      ],
+      "webp_quality": 70
+    },
+    {
+      "name": "Bh8frt5",
+      "member": 5,
+      "slot": 89,
+      "source_crc32": "0c1134c9",
+      "source_size": [
+        64,
+        16
+      ],
+      "image": "textures/brands-building-bh8frt5.webp",
+      "crc32": "5e0c97fb",
+      "bytes": 6266,
+      "size": [
+        512,
+        128
+      ],
+      "webp_quality": 70
+    },
+    {
+      "name": "Bh8sde",
+      "member": 5,
+      "slot": 90,
+      "source_crc32": "f713c8ea",
+      "source_size": [
+        64,
+        64
+      ],
+      "image": "textures/brands-building-bh8sde.webp",
+      "crc32": "198d8c03",
+      "bytes": 7444,
+      "size": [
+        512,
+        512
+      ],
+      "webp_quality": 70
+    },
+    {
+      "name": "BH141BW2",
+      "member": 5,
+      "slot": 91,
+      "source_crc32": "b47241e5",
+      "source_size": [
+        128,
+        32
+      ],
+      "image": "textures/brands-building-bh141bw2.webp",
+      "crc32": "809e4edb",
+      "bytes": 3956,
+      "size": [
+        512,
+        128
+      ],
+      "webp_quality": 70
+    },
+    {
+      "name": "BH141BW3",
+      "member": 5,
+      "slot": 92,
+      "source_crc32": "5d5adadb",
+      "source_size": [
+        32,
+        128
+      ],
+      "image": "textures/brands-building-bh141bw3.webp",
+      "crc32": "b22c702c",
+      "bytes": 5938,
+      "size": [
+        128,
+        512
+      ],
+      "webp_quality": 70
+    },
+    {
+      "name": "BH141BW4",
+      "member": 5,
+      "slot": 93,
+      "source_crc32": "a96e28e4",
+      "source_size": [
+        64,
+        64
+      ],
+      "image": "textures/brands-building-bh141bw4.webp",
+      "crc32": "312b70bf",
+      "bytes": 11102,
+      "size": [
+        512,
+        512
+      ],
+      "webp_quality": 70
+    },
+    {
+      "name": "BH141BW5",
+      "member": 5,
+      "slot": 94,
+      "source_crc32": "8ab06e6f",
+      "source_size": [
+        32,
+        128
+      ],
+      "image": "textures/brands-building-bh141bw5.webp",
+      "crc32": "54fad738",
+      "bytes": 5556,
+      "size": [
+        128,
+        512
+      ],
+      "webp_quality": 70
+    },
+    {
+      "name": "Bh7-sde3",
+      "member": 5,
+      "slot": 95,
+      "source_crc32": "25b6ff91",
+      "source_size": [
+        32,
+        64
+      ],
+      "image": "textures/brands-building-bh7-sde3.webp",
+      "crc32": "105fefa4",
+      "bytes": 11610,
+      "size": [
+        256,
+        512
+      ],
+      "webp_quality": 70
+    },
+    {
+      "name": "Bh7-sde2",
+      "member": 5,
+      "slot": 96,
+      "source_crc32": "772e9027",
+      "source_size": [
+        32,
+        64
+      ],
+      "image": "textures/brands-building-bh7-sde2.webp",
+      "crc32": "be0f9ed9",
+      "bytes": 3654,
+      "size": [
+        256,
+        512
+      ],
+      "webp_quality": 70
+    },
+    {
+      "name": "Bh7-roof",
+      "member": 5,
+      "slot": 97,
+      "source_crc32": "bfac1f33",
+      "source_size": [
+        128,
+        32
+      ],
+      "image": "textures/brands-building-bh7-roof.webp",
+      "crc32": "fcf6b331",
+      "bytes": 4488,
+      "size": [
+        512,
+        128
+      ],
+      "webp_quality": 70
+    },
+    {
+      "name": "Bh7a-frt",
+      "member": 5,
+      "slot": 98,
+      "source_crc32": "8e5cfd70",
+      "source_size": [
+        128,
+        16
+      ],
+      "image": "textures/brands-building-bh7a-frt.webp",
+      "crc32": "77b66912",
+      "bytes": 5022,
+      "size": [
+        512,
+        64
+      ],
+      "webp_quality": 70
+    },
+    {
+      "name": "Bh7a-bk",
+      "member": 5,
+      "slot": 99,
+      "source_crc32": "c6b85ee6",
+      "source_size": [
+        128,
+        16
+      ],
+      "image": "textures/brands-building-bh7a-bk.webp",
+      "crc32": "bfeb19e0",
+      "bytes": 1222,
+      "size": [
+        512,
+        64
+      ],
+      "webp_quality": 70
+    },
+    {
+      "name": "Bh7-sde1",
+      "member": 5,
+      "slot": 100,
+      "source_crc32": "841a9252",
+      "source_size": [
+        32,
+        64
+      ],
+      "image": "textures/brands-building-bh7-sde1.webp",
+      "crc32": "d0d36755",
+      "bytes": 2768,
+      "size": [
+        256,
+        512
+      ],
+      "webp_quality": 70
+    },
+    {
+      "name": "Bh7-rof2",
+      "member": 5,
+      "slot": 101,
+      "source_crc32": "f14a90c4",
+      "source_size": [
+        128,
+        32
+      ],
+      "image": "textures/brands-building-bh7-rof2.webp",
+      "crc32": "8db13576",
+      "bytes": 5988,
+      "size": [
+        512,
+        128
+      ],
+      "webp_quality": 70
+    },
+    {
+      "name": "Bh7a-cw2",
+      "member": 5,
+      "slot": 102,
+      "source_crc32": "e85648eb",
+      "source_size": [
+        128,
+        32
+      ],
+      "image": "textures/brands-building-bh7a-cw2.webp",
+      "crc32": "d0f17a0f",
+      "bytes": 21676,
+      "size": [
+        512,
+        128
+      ],
+      "webp_quality": 70
+    },
+    {
+      "name": "Bh7a-cwd",
+      "member": 5,
+      "slot": 103,
+      "source_crc32": "bfeff73b",
+      "source_size": [
+        128,
+        32
+      ],
+      "image": "textures/brands-building-bh7a-cwd.webp",
+      "crc32": "29cb1b15",
+      "bytes": 19718,
+      "size": [
+        512,
+        128
+      ],
+      "webp_quality": 70
+    },
+    {
+      "name": "Bh7b-frt",
+      "member": 5,
+      "slot": 104,
+      "source_crc32": "796b4256",
+      "source_size": [
+        128,
+        16
+      ],
+      "image": "textures/brands-building-bh7b-frt.webp",
+      "crc32": "a9830e18",
+      "bytes": 4058,
+      "size": [
+        512,
+        64
+      ],
+      "webp_quality": 70
+    },
+    {
+      "name": "Bh7b-bk",
+      "member": 5,
+      "slot": 105,
+      "source_crc32": "c339e69d",
+      "source_size": [
+        128,
+        16
+      ],
+      "image": "textures/brands-building-bh7b-bk.webp",
+      "crc32": "15ddca12",
+      "bytes": 1158,
+      "size": [
+        512,
+        64
+      ],
+      "webp_quality": 70
+    },
+    {
+      "name": "Bh7c-frt",
+      "member": 5,
+      "slot": 106,
+      "source_crc32": "818c2f21",
+      "source_size": [
+        128,
+        16
+      ],
+      "image": "textures/brands-building-bh7c-frt.webp",
+      "crc32": "0662062c",
+      "bytes": 5062,
+      "size": [
+        512,
+        64
+      ],
+      "webp_quality": 70
+    },
+    {
+      "name": "BH20BRI1",
+      "member": 5,
+      "slot": 123,
+      "source_crc32": "b9554e09",
+      "source_size": [
+        128,
+        32
+      ],
+      "image": "textures/brands-building-bh20bri1.webp",
+      "crc32": "907eae4d",
+      "bytes": 3550,
+      "size": [
+        512,
+        128
+      ],
+      "webp_quality": 70
+    },
+    {
+      "name": "BH20BRI2",
+      "member": 5,
+      "slot": 124,
+      "source_crc32": "9d6413c1",
+      "source_size": [
+        128,
+        32
+      ],
+      "image": "textures/brands-building-bh20bri2.webp",
+      "crc32": "e1f3eb86",
+      "bytes": 3440,
+      "size": [
+        512,
+        128
+      ],
+      "webp_quality": 70
+    },
+    {
+      "name": "BH20BRI3",
+      "member": 5,
+      "slot": 125,
+      "source_crc32": "417ae82b",
+      "source_size": [
+        64,
+        64
+      ],
+      "image": "textures/brands-building-bh20bri3.webp",
+      "crc32": "f2fa4761",
+      "bytes": 10194,
+      "size": [
+        512,
+        512
+      ],
+      "webp_quality": 70
+    },
+    {
+      "name": "BH20BRI4",
+      "member": 5,
+      "slot": 126,
+      "source_crc32": "79a4f35c",
+      "source_size": [
+        64,
+        64
+      ],
+      "image": "textures/brands-building-bh20bri4.webp",
+      "crc32": "b6f2fe5e",
+      "bytes": 1678,
+      "size": [
+        512,
+        512
+      ],
+      "webp_quality": 70
+    },
+    {
+      "name": "D15SHL7",
+      "member": 5,
+      "slot": 127,
+      "source_crc32": "1c07ca8e",
+      "source_size": [
+        32,
+        16
+      ],
+      "image": "textures/brands-building-d15shl7.webp",
+      "crc32": "1e83d810",
+      "bytes": 3500,
+      "size": [
+        512,
+        256
+      ],
+      "webp_quality": 70,
+      "binding": "bridge-local"
+    },
+    {
+      "name": "PBOX",
+      "member": 5,
+      "slot": 150,
+      "source_crc32": "be2f5092",
+      "source_size": [
+        64,
+        64
+      ],
+      "image": "textures/brands-building-pbox.webp",
+      "crc32": "e9a56d60",
+      "bytes": 2700,
+      "size": [
+        512,
+        512
+      ],
+      "webp_quality": 70
+    },
+    {
+      "name": "PBOX1",
+      "member": 5,
+      "slot": 151,
+      "source_crc32": "672fff5a",
+      "source_size": [
+        64,
+        32
+      ],
+      "image": "textures/brands-building-pbox1.webp",
+      "crc32": "fb43cbfb",
+      "bytes": 3034,
+      "size": [
+        512,
+        256
+      ],
+      "webp_quality": 70
+    },
+    {
+      "name": "PBOX2",
+      "member": 5,
+      "slot": 152,
+      "source_crc32": "7349297f",
+      "source_size": [
+        32,
+        32
+      ],
+      "image": "textures/brands-building-pbox2.webp",
+      "crc32": "2bd8e8b2",
+      "bytes": 1340,
+      "size": [
+        512,
+        512
+      ],
+      "webp_quality": 70
+    },
+    {
+      "name": "BBSIDE",
+      "member": 5,
+      "slot": 155,
+      "source_crc32": "45cf8603",
+      "source_size": [
+        32,
+        64
+      ],
+      "image": "textures/brands-building-bbside.webp",
+      "crc32": "1f185311",
+      "bytes": 3124,
+      "size": [
+        256,
+        512
+      ],
+      "webp_quality": 70
+    },
+    {
+      "name": "BBFRONT",
+      "member": 5,
+      "slot": 156,
+      "source_crc32": "95882117",
+      "source_size": [
+        32,
+        32
+      ],
+      "image": "textures/brands-building-bbfront.webp",
+      "crc32": "2ae2abae",
+      "bytes": 6322,
+      "size": [
+        512,
+        512
+      ],
+      "webp_quality": 70
+    },
+    {
+      "name": "2SNAPON",
+      "member": 5,
+      "slot": 157,
+      "source_crc32": "b3f7551c",
+      "source_size": [
+        64,
+        32
+      ],
+      "image": "textures/dgp-mt03-snapon.webp",
+      "crc32": "cdba4c6c",
+      "bytes": 5844,
+      "size": [
+        512,
+        256
+      ],
+      "webp_quality": 80,
+      "reuse": "donington-mt03-generation.json",
+      "shared_names": [
+        "2SNAPON",
+        "SNAPON"
+      ],
+      "shared_track": 6
+    }
+  ]
+}

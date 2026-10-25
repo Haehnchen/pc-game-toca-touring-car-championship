@@ -1,0 +1,4983 @@
+{
+  "version": 1,
+  "package": "R06-M02-M06-M08",
+  "source": {
+    "original_version": "1.1a",
+    "archive": "data/croffree.bfp",
+    "archive_crc32": "e4399113",
+    "members": {
+      "2": "ae8126bd",
+      "3": "11fb93e3",
+      "5": "93406c70",
+      "8": "b15f9cf4",
+      "9": "55f0a25d",
+      "10": "2f088304",
+      "11": "fcd25e6c"
+    }
+  },
+  "models": [
+    {
+      "member": 2,
+      "mesh": 0,
+      "name": "TREES_1",
+      "source_crc32": "e93e30f1",
+      "type": "89f86b16",
+      "nodes": [
+        [
+          10,
+          0
+        ]
+      ]
+    },
+    {
+      "member": 2,
+      "mesh": 1,
+      "name": "TREES_2",
+      "source_crc32": "2fa480c7",
+      "type": "db01d1a7",
+      "nodes": [
+        [
+          11,
+          0
+        ]
+      ]
+    },
+    {
+      "member": 2,
+      "mesh": 2,
+      "name": "TREES_3",
+      "source_crc32": "66753d39",
+      "type": "8b946080",
+      "nodes": [
+        [
+          13,
+          0
+        ]
+      ]
+    },
+    {
+      "member": 2,
+      "mesh": 3,
+      "name": "TREES_4",
+      "source_crc32": "8c5a7295",
+      "type": "c9cdd9f4",
+      "nodes": [
+        [
+          21,
+          0
+        ]
+      ]
+    },
+    {
+      "member": 2,
+      "mesh": 4,
+      "name": "TREES_5",
+      "source_crc32": "b9669461",
+      "type": "66a6ac3e",
+      "nodes": [
+        [
+          22,
+          0
+        ]
+      ]
+    },
+    {
+      "member": 2,
+      "mesh": 5,
+      "name": "TREES_6",
+      "source_crc32": "d881e937",
+      "type": "6a399f7b",
+      "nodes": [
+        [
+          23,
+          0
+        ]
+      ]
+    },
+    {
+      "member": 2,
+      "mesh": 6,
+      "name": "TREES_7",
+      "source_crc32": "25778e74",
+      "type": "4d7be529",
+      "nodes": [
+        [
+          24,
+          0
+        ]
+      ]
+    },
+    {
+      "member": 2,
+      "mesh": 7,
+      "name": "TREES_8",
+      "source_crc32": "2a5ca72a",
+      "type": "610f22d7",
+      "nodes": [
+        [
+          25,
+          0
+        ]
+      ]
+    },
+    {
+      "member": 2,
+      "mesh": 8,
+      "name": "TREES_9",
+      "source_crc32": "467905ce",
+      "type": "0aafd7c6",
+      "nodes": [
+        [
+          29,
+          0
+        ]
+      ]
+    },
+    {
+      "member": 2,
+      "mesh": 9,
+      "name": "TREES_10",
+      "source_crc32": "a172cb05",
+      "type": "a350d365",
+      "nodes": [
+        [
+          33,
+          0
+        ]
+      ]
+    },
+    {
+      "member": 2,
+      "mesh": 10,
+      "name": "TREES_11",
+      "source_crc32": "c58add83",
+      "type": "5e4d0812",
+      "nodes": [
+        [
+          34,
+          0
+        ]
+      ]
+    },
+    {
+      "member": 2,
+      "mesh": 11,
+      "name": "TREES_12",
+      "source_crc32": "0da26515",
+      "type": "e0328861",
+      "nodes": [
+        [
+          35,
+          0
+        ]
+      ]
+    },
+    {
+      "member": 2,
+      "mesh": 12,
+      "name": "TREES_13",
+      "source_crc32": "d2412599",
+      "type": "0201697c",
+      "nodes": [
+        [
+          36,
+          0
+        ]
+      ]
+    },
+    {
+      "member": 2,
+      "mesh": 13,
+      "name": "TREES_14",
+      "source_crc32": "e7170ade",
+      "type": "bb98f553",
+      "nodes": [
+        [
+          45,
+          0
+        ]
+      ]
+    },
+    {
+      "member": 2,
+      "mesh": 14,
+      "name": "TREES_15",
+      "source_crc32": "a6d49e55",
+      "type": "22313281",
+      "nodes": [
+        [
+          46,
+          0
+        ]
+      ]
+    },
+    {
+      "member": 2,
+      "mesh": 15,
+      "name": "TREES_16",
+      "source_crc32": "5b28c29a",
+      "type": "35fe04a4",
+      "nodes": [
+        [
+          47,
+          0
+        ]
+      ]
+    },
+    {
+      "member": 2,
+      "mesh": 16,
+      "name": "TREES_17",
+      "source_crc32": "337cf0fa",
+      "type": "bb68d71e",
+      "nodes": [
+        [
+          48,
+          0
+        ]
+      ]
+    },
+    {
+      "member": 2,
+      "mesh": 17,
+      "name": "TREES_18",
+      "source_crc32": "23709dc5",
+      "type": "f2a62fa7",
+      "nodes": [
+        [
+          60,
+          0
+        ]
+      ]
+    },
+    {
+      "member": 2,
+      "mesh": 18,
+      "name": "TREES_19",
+      "source_crc32": "50ed337a",
+      "type": "51f0e09d",
+      "nodes": [
+        [
+          75,
+          0
+        ]
+      ]
+    },
+    {
+      "member": 2,
+      "mesh": 19,
+      "name": "TREES_20",
+      "source_crc32": "d270c2f9",
+      "type": "94caa5fb",
+      "nodes": [
+        [
+          90,
+          0
+        ]
+      ]
+    },
+    {
+      "member": 2,
+      "mesh": 20,
+      "name": "TREES_21",
+      "source_crc32": "54c15857",
+      "type": "1713b548",
+      "nodes": [
+        [
+          105,
+          0
+        ]
+      ]
+    },
+    {
+      "member": 2,
+      "mesh": 21,
+      "name": "TREES_22",
+      "source_crc32": "606cce72",
+      "type": "7dad5cff",
+      "nodes": [
+        [
+          120,
+          0
+        ]
+      ]
+    },
+    {
+      "member": 2,
+      "mesh": 22,
+      "name": "TREES_23",
+      "source_crc32": "729bdf96",
+      "type": "9b69c08f",
+      "nodes": [
+        [
+          121,
+          0
+        ]
+      ]
+    },
+    {
+      "member": 2,
+      "mesh": 25,
+      "name": "TREES_26",
+      "source_crc32": "21cd8160",
+      "type": "71610e96",
+      "nodes": [
+        [
+          136,
+          0
+        ]
+      ]
+    },
+    {
+      "member": 2,
+      "mesh": 26,
+      "name": "TREES_27",
+      "source_crc32": "2fc92670",
+      "type": "22392d2b",
+      "nodes": [
+        [
+          137,
+          0
+        ]
+      ]
+    },
+    {
+      "member": 2,
+      "mesh": 27,
+      "name": "TREES_28",
+      "source_crc32": "e660650a",
+      "type": "f8116cf2",
+      "nodes": [
+        [
+          141,
+          0
+        ]
+      ]
+    },
+    {
+      "member": 2,
+      "mesh": 28,
+      "name": "TREES_29",
+      "source_crc32": "1904805d",
+      "type": "5015725f",
+      "nodes": [
+        [
+          142,
+          0
+        ]
+      ]
+    },
+    {
+      "member": 2,
+      "mesh": 29,
+      "name": "TREES_30",
+      "source_crc32": "4098a93a",
+      "type": "dd59428e",
+      "nodes": [
+        [
+          143,
+          0
+        ]
+      ]
+    },
+    {
+      "member": 2,
+      "mesh": 30,
+      "name": "TREES_31",
+      "source_crc32": "a40bb718",
+      "type": "d8e0dafb",
+      "nodes": [
+        [
+          152,
+          0
+        ]
+      ]
+    },
+    {
+      "member": 2,
+      "mesh": 31,
+      "name": "TREES_32",
+      "source_crc32": "552a868b",
+      "type": "0caff6c5",
+      "nodes": [
+        [
+          153,
+          0
+        ]
+      ]
+    },
+    {
+      "member": 2,
+      "mesh": 32,
+      "name": "TREES_33",
+      "source_crc32": "052bbe2a",
+      "type": "0e5afeb0",
+      "nodes": [
+        [
+          154,
+          0
+        ]
+      ]
+    },
+    {
+      "member": 2,
+      "mesh": 33,
+      "name": "TREES_34",
+      "source_crc32": "8d618478",
+      "type": "162d1061",
+      "nodes": [
+        [
+          156,
+          0
+        ]
+      ]
+    },
+    {
+      "member": 2,
+      "mesh": 34,
+      "name": "TREES_35",
+      "source_crc32": "e20bed2f",
+      "type": "de9f3678",
+      "nodes": [
+        [
+          157,
+          0
+        ]
+      ]
+    },
+    {
+      "member": 2,
+      "mesh": 35,
+      "name": "TREES_36",
+      "source_crc32": "14c4f022",
+      "type": "c52f1a9f",
+      "nodes": [
+        [
+          163,
+          0
+        ]
+      ]
+    },
+    {
+      "member": 2,
+      "mesh": 36,
+      "name": "TREES_37",
+      "source_crc32": "1d2f1530",
+      "type": "cdc3f7f2",
+      "nodes": [
+        [
+          170,
+          0
+        ]
+      ]
+    },
+    {
+      "member": 2,
+      "mesh": 37,
+      "name": "TREES_38",
+      "source_crc32": "85bc4b93",
+      "type": "feb94a3a",
+      "nodes": [
+        [
+          171,
+          0
+        ]
+      ]
+    },
+    {
+      "member": 2,
+      "mesh": 38,
+      "name": "TREES_39",
+      "source_crc32": "fc0a93b0",
+      "type": "b1ac11a1",
+      "nodes": [
+        [
+          172,
+          0
+        ]
+      ]
+    },
+    {
+      "member": 2,
+      "mesh": 39,
+      "name": "TREES_40",
+      "source_crc32": "902d9557",
+      "type": "3680347f",
+      "nodes": [
+        [
+          178,
+          0
+        ]
+      ]
+    },
+    {
+      "member": 2,
+      "mesh": 40,
+      "name": "TREES_41",
+      "source_crc32": "2a30d317",
+      "type": "860a8310",
+      "nodes": [
+        [
+          187,
+          0
+        ]
+      ]
+    },
+    {
+      "member": 2,
+      "mesh": 41,
+      "name": "TREES_42",
+      "source_crc32": "f585c1ab",
+      "type": "c556f5ea",
+      "nodes": [
+        [
+          188,
+          0
+        ]
+      ]
+    },
+    {
+      "member": 2,
+      "mesh": 42,
+      "name": "TREES_43",
+      "source_crc32": "8b93c0df",
+      "type": "1127dc81",
+      "nodes": [
+        [
+          192,
+          0
+        ]
+      ]
+    },
+    {
+      "member": 2,
+      "mesh": 43,
+      "name": "TREES_44",
+      "source_crc32": "52d54d30",
+      "type": "597e632f",
+      "nodes": [
+        [
+          193,
+          0
+        ]
+      ]
+    },
+    {
+      "member": 2,
+      "mesh": 44,
+      "name": "TREES_45",
+      "source_crc32": "cbef2931",
+      "type": "514b1f4c",
+      "nodes": [
+        [
+          203,
+          0
+        ]
+      ]
+    },
+    {
+      "member": 2,
+      "mesh": 45,
+      "name": "TREES_46",
+      "source_crc32": "ac70a865",
+      "type": "0c3285e1",
+      "nodes": [
+        [
+          204,
+          0
+        ]
+      ]
+    },
+    {
+      "member": 2,
+      "mesh": 46,
+      "name": "TREES_47",
+      "source_crc32": "a8d3ebea",
+      "type": "9dfd7b06",
+      "nodes": [
+        [
+          205,
+          0
+        ]
+      ]
+    },
+    {
+      "member": 2,
+      "mesh": 47,
+      "name": "TREES_48",
+      "source_crc32": "0d2b3430",
+      "type": "4167f50a",
+      "nodes": [
+        [
+          207,
+          0
+        ]
+      ]
+    },
+    {
+      "member": 2,
+      "mesh": 48,
+      "name": "TREES_49",
+      "source_crc32": "e4024259",
+      "type": "6639191d",
+      "nodes": [
+        [
+          220,
+          0
+        ]
+      ]
+    },
+    {
+      "member": 2,
+      "mesh": 49,
+      "name": "TREES_50",
+      "source_crc32": "6e06d158",
+      "type": "6090c9c9",
+      "nodes": [
+        [
+          221,
+          0
+        ]
+      ]
+    },
+    {
+      "member": 2,
+      "mesh": 50,
+      "name": "TREES_51",
+      "source_crc32": "0fa0f1d7",
+      "type": "b12fa4c9",
+      "nodes": [
+        [
+          222,
+          0
+        ]
+      ]
+    },
+    {
+      "member": 3,
+      "mesh": 0,
+      "name": "FENCE_1",
+      "source_crc32": "dc5d8d29",
+      "type": "c261e5de",
+      "nodes": [
+        [
+          11,
+          0
+        ]
+      ]
+    },
+    {
+      "member": 3,
+      "mesh": 1,
+      "name": "FENCE_2",
+      "source_crc32": "02faf872",
+      "type": "cec6974c",
+      "nodes": [
+        [
+          12,
+          0
+        ]
+      ]
+    },
+    {
+      "member": 3,
+      "mesh": 2,
+      "name": "FENCE_3",
+      "source_crc32": "c4208dbe",
+      "type": "2f023913",
+      "nodes": [
+        [
+          13,
+          0
+        ]
+      ]
+    },
+    {
+      "member": 3,
+      "mesh": 3,
+      "name": "FENCE_4",
+      "source_crc32": "73ebc9a4",
+      "type": "0aebd5f3",
+      "nodes": [
+        [
+          24,
+          0
+        ]
+      ]
+    },
+    {
+      "member": 3,
+      "mesh": 4,
+      "name": "FENCE_5",
+      "source_crc32": "43870241",
+      "type": "0becd157",
+      "nodes": [
+        [
+          27,
+          0
+        ]
+      ]
+    },
+    {
+      "member": 3,
+      "mesh": 5,
+      "name": "FENCE_6",
+      "source_crc32": "998ae5ed",
+      "type": "396288eb",
+      "nodes": [
+        [
+          38,
+          0
+        ]
+      ]
+    },
+    {
+      "member": 3,
+      "mesh": 6,
+      "name": "FENCE_7",
+      "source_crc32": "10902b13",
+      "type": "aa915788",
+      "nodes": [
+        [
+          40,
+          0
+        ]
+      ]
+    },
+    {
+      "member": 3,
+      "mesh": 7,
+      "name": "FENCE_8",
+      "source_crc32": "a108cf92",
+      "type": "563e14c1",
+      "nodes": [
+        [
+          41,
+          0
+        ]
+      ]
+    },
+    {
+      "member": 3,
+      "mesh": 8,
+      "name": "FENCE_9",
+      "source_crc32": "74cf6116",
+      "type": "da8c0038",
+      "nodes": [
+        [
+          42,
+          0
+        ]
+      ]
+    },
+    {
+      "member": 3,
+      "mesh": 9,
+      "name": "FENCE_10",
+      "source_crc32": "3ef61a0c",
+      "type": "17374040",
+      "nodes": [
+        [
+          43,
+          0
+        ]
+      ]
+    },
+    {
+      "member": 3,
+      "mesh": 10,
+      "name": "FENCE_11",
+      "source_crc32": "9d53249e",
+      "type": "c95e31cb",
+      "nodes": [
+        [
+          51,
+          0
+        ]
+      ]
+    },
+    {
+      "member": 3,
+      "mesh": 11,
+      "name": "FENCE_12",
+      "source_crc32": "360e8104",
+      "type": "f6d2c1a7",
+      "nodes": [
+        [
+          52,
+          0
+        ]
+      ]
+    },
+    {
+      "member": 3,
+      "mesh": 12,
+      "name": "FENCE_13",
+      "source_crc32": "fe5a4ff7",
+      "type": "38879eed",
+      "nodes": [
+        [
+          54,
+          0
+        ]
+      ]
+    },
+    {
+      "member": 3,
+      "mesh": 13,
+      "name": "FENCE_14",
+      "source_crc32": "491c2bbe",
+      "type": "d7bc08bb",
+      "nodes": [
+        [
+          56,
+          0
+        ]
+      ]
+    },
+    {
+      "member": 3,
+      "mesh": 14,
+      "name": "FENCE_15",
+      "source_crc32": "ca6a5669",
+      "type": "a75034d6",
+      "nodes": [
+        [
+          65,
+          0
+        ]
+      ]
+    },
+    {
+      "member": 3,
+      "mesh": 15,
+      "name": "FENCE_16",
+      "source_crc32": "2ed77128",
+      "type": "5a5c3d4b",
+      "nodes": [
+        [
+          67,
+          0
+        ]
+      ]
+    },
+    {
+      "member": 3,
+      "mesh": 16,
+      "name": "FENCE_17",
+      "source_crc32": "11b5f36e",
+      "type": "e8ed0916",
+      "nodes": [
+        [
+          68,
+          0
+        ]
+      ]
+    },
+    {
+      "member": 3,
+      "mesh": 17,
+      "name": "FENCE_18",
+      "source_crc32": "86a51f3c",
+      "type": "12031a25",
+      "nodes": [
+        [
+          70,
+          0
+        ]
+      ]
+    },
+    {
+      "member": 3,
+      "mesh": 18,
+      "name": "FENCE_19",
+      "source_crc32": "35f09edc",
+      "type": "47df33bb",
+      "nodes": [
+        [
+          79,
+          0
+        ]
+      ]
+    },
+    {
+      "member": 3,
+      "mesh": 19,
+      "name": "FENCE_20",
+      "source_crc32": "76fe07dc",
+      "type": "4f893d82",
+      "nodes": [
+        [
+          81,
+          0
+        ]
+      ]
+    },
+    {
+      "member": 3,
+      "mesh": 20,
+      "name": "FENCE_21",
+      "source_crc32": "adc1be71",
+      "type": "335cff80",
+      "nodes": [
+        [
+          84,
+          0
+        ]
+      ]
+    },
+    {
+      "member": 3,
+      "mesh": 21,
+      "name": "FENCE_22",
+      "source_crc32": "a8b54643",
+      "type": "ef23bf46",
+      "nodes": [
+        [
+          88,
+          0
+        ]
+      ]
+    },
+    {
+      "member": 3,
+      "mesh": 22,
+      "name": "FENCE_23",
+      "source_crc32": "31a74933",
+      "type": "cc3ae21c",
+      "nodes": [
+        [
+          92,
+          0
+        ]
+      ]
+    },
+    {
+      "member": 3,
+      "mesh": 23,
+      "name": "FENCE_24",
+      "source_crc32": "898bbb46",
+      "type": "06f9d79c",
+      "nodes": [
+        [
+          93,
+          0
+        ]
+      ]
+    },
+    {
+      "member": 3,
+      "mesh": 24,
+      "name": "FENCE_25",
+      "source_crc32": "3a1ff8c5",
+      "type": "ec0fcecb",
+      "nodes": [
+        [
+          95,
+          0
+        ]
+      ]
+    },
+    {
+      "member": 3,
+      "mesh": 25,
+      "name": "FENCE_26",
+      "source_crc32": "e354cda5",
+      "type": "338d541f",
+      "nodes": [
+        [
+          98,
+          0
+        ]
+      ]
+    },
+    {
+      "member": 3,
+      "mesh": 26,
+      "name": "FENCE_27",
+      "source_crc32": "4c8009d8",
+      "type": "b4684b5f",
+      "nodes": [
+        [
+          99,
+          0
+        ]
+      ]
+    },
+    {
+      "member": 3,
+      "mesh": 27,
+      "name": "FENCE_28",
+      "source_crc32": "1a1d88ee",
+      "type": "24d08abc",
+      "nodes": [
+        [
+          102,
+          0
+        ]
+      ]
+    },
+    {
+      "member": 3,
+      "mesh": 28,
+      "name": "FENCE_29",
+      "source_crc32": "f0d14268",
+      "type": "0fc5c0ba",
+      "nodes": [
+        [
+          103,
+          0
+        ]
+      ]
+    },
+    {
+      "member": 3,
+      "mesh": 29,
+      "name": "FENCE_30",
+      "source_crc32": "5140fc4b",
+      "type": "ff048296",
+      "nodes": [
+        [
+          104,
+          0
+        ]
+      ]
+    },
+    {
+      "member": 3,
+      "mesh": 30,
+      "name": "FENCE_31",
+      "source_crc32": "2fae2d1d",
+      "type": "d612f6c6",
+      "nodes": [
+        [
+          105,
+          0
+        ]
+      ]
+    },
+    {
+      "member": 3,
+      "mesh": 31,
+      "name": "FENCE_32",
+      "source_crc32": "c1d77a88",
+      "type": "3f1c3e69",
+      "nodes": [
+        [
+          106,
+          0
+        ]
+      ]
+    },
+    {
+      "member": 3,
+      "mesh": 32,
+      "name": "FENCE_33",
+      "source_crc32": "73a8ac64",
+      "type": "abf66992",
+      "nodes": [
+        [
+          109,
+          0
+        ]
+      ]
+    },
+    {
+      "member": 3,
+      "mesh": 33,
+      "name": "FENCE_34",
+      "source_crc32": "ab3ed8d0",
+      "type": "26624b78",
+      "nodes": [
+        [
+          113,
+          0
+        ]
+      ]
+    },
+    {
+      "member": 3,
+      "mesh": 34,
+      "name": "FENCE_35",
+      "source_crc32": "b8c00355",
+      "type": "da050d87",
+      "nodes": [
+        [
+          117,
+          0
+        ]
+      ]
+    },
+    {
+      "member": 3,
+      "mesh": 35,
+      "name": "FENCE_36",
+      "source_crc32": "139e8025",
+      "type": "533f5a01",
+      "nodes": [
+        [
+          118,
+          0
+        ]
+      ]
+    },
+    {
+      "member": 3,
+      "mesh": 36,
+      "name": "FENCE_37",
+      "source_crc32": "8eb8eb4b",
+      "type": "3310e89f",
+      "nodes": [
+        [
+          120,
+          0
+        ]
+      ]
+    },
+    {
+      "member": 3,
+      "mesh": 37,
+      "name": "FENCE_38",
+      "source_crc32": "85a900a6",
+      "type": "2f25a967",
+      "nodes": [
+        [
+          121,
+          0
+        ]
+      ]
+    },
+    {
+      "member": 3,
+      "mesh": 38,
+      "name": "FENCE_39",
+      "source_crc32": "c9555d20",
+      "type": "ca837521",
+      "nodes": [
+        [
+          122,
+          0
+        ]
+      ]
+    },
+    {
+      "member": 3,
+      "mesh": 39,
+      "name": "FENCE_40",
+      "source_crc32": "2abd0b25",
+      "type": "ebcc0ccf",
+      "nodes": [
+        [
+          123,
+          0
+        ]
+      ]
+    },
+    {
+      "member": 3,
+      "mesh": 40,
+      "name": "FENCE_41",
+      "source_crc32": "75df3b7c",
+      "type": "5fcf3a9c",
+      "nodes": [
+        [
+          128,
+          0
+        ]
+      ]
+    },
+    {
+      "member": 3,
+      "mesh": 41,
+      "name": "FENCE_42",
+      "source_crc32": "17dacf5f",
+      "type": "fd06e957",
+      "nodes": [
+        [
+          129,
+          0
+        ]
+      ]
+    },
+    {
+      "member": 3,
+      "mesh": 42,
+      "name": "FENCE_43",
+      "source_crc32": "3d79a843",
+      "type": "251904fc",
+      "nodes": [
+        [
+          130,
+          0
+        ]
+      ]
+    },
+    {
+      "member": 3,
+      "mesh": 43,
+      "name": "FENCE_44",
+      "source_crc32": "ed4bd15e",
+      "type": "1a17d3cd",
+      "nodes": [
+        [
+          131,
+          0
+        ]
+      ]
+    },
+    {
+      "member": 3,
+      "mesh": 44,
+      "name": "FENCE_45",
+      "source_crc32": "f554d7f2",
+      "type": "883bc33d",
+      "nodes": [
+        [
+          132,
+          0
+        ]
+      ]
+    },
+    {
+      "member": 3,
+      "mesh": 45,
+      "name": "FENCE_46",
+      "source_crc32": "d689dde5",
+      "type": "657cc655",
+      "nodes": [
+        [
+          133,
+          0
+        ]
+      ]
+    },
+    {
+      "member": 3,
+      "mesh": 46,
+      "name": "FENCE_47",
+      "source_crc32": "61e392fb",
+      "type": "59f6beb1",
+      "nodes": [
+        [
+          134,
+          0
+        ]
+      ]
+    },
+    {
+      "member": 3,
+      "mesh": 47,
+      "name": "FENCE_48",
+      "source_crc32": "1db28cf4",
+      "type": "065ece9a",
+      "nodes": [
+        [
+          135,
+          0
+        ]
+      ]
+    },
+    {
+      "member": 3,
+      "mesh": 48,
+      "name": "FENCE_49",
+      "source_crc32": "5965b25d",
+      "type": "2e219651",
+      "nodes": [
+        [
+          136,
+          0
+        ]
+      ]
+    },
+    {
+      "member": 3,
+      "mesh": 49,
+      "name": "FENCE_50",
+      "source_crc32": "149e7cfb",
+      "type": "5e2c8490",
+      "nodes": [
+        [
+          137,
+          0
+        ]
+      ]
+    },
+    {
+      "member": 3,
+      "mesh": 50,
+      "name": "FENCE_51",
+      "source_crc32": "3dfe3d93",
+      "type": "a962867a",
+      "nodes": [
+        [
+          146,
+          0
+        ]
+      ]
+    },
+    {
+      "member": 3,
+      "mesh": 51,
+      "name": "FENCE_52",
+      "source_crc32": "bbef5afe",
+      "type": "dfadb37d",
+      "nodes": [
+        [
+          147,
+          0
+        ]
+      ]
+    },
+    {
+      "member": 3,
+      "mesh": 52,
+      "name": "FENCE_53",
+      "source_crc32": "3617e493",
+      "type": "83e86e63",
+      "nodes": [
+        [
+          148,
+          0
+        ]
+      ]
+    },
+    {
+      "member": 3,
+      "mesh": 53,
+      "name": "FENCE_54",
+      "source_crc32": "de2a082e",
+      "type": "a075d1fa",
+      "nodes": [
+        [
+          150,
+          0
+        ]
+      ]
+    },
+    {
+      "member": 3,
+      "mesh": 54,
+      "name": "FENCE_55",
+      "source_crc32": "1aa0b36f",
+      "type": "1e7acd78",
+      "nodes": [
+        [
+          161,
+          0
+        ]
+      ]
+    },
+    {
+      "member": 3,
+      "mesh": 55,
+      "name": "FENCE_56",
+      "source_crc32": "b78571d9",
+      "type": "1ed184e6",
+      "nodes": [
+        [
+          162,
+          0
+        ]
+      ]
+    },
+    {
+      "member": 3,
+      "mesh": 56,
+      "name": "FENCE_57",
+      "source_crc32": "b9f218f7",
+      "type": "4afb3819",
+      "nodes": [
+        [
+          163,
+          0
+        ]
+      ]
+    },
+    {
+      "member": 3,
+      "mesh": 57,
+      "name": "FENCE_58",
+      "source_crc32": "2ac13e9a",
+      "type": "c9a5b084",
+      "nodes": [
+        [
+          164,
+          0
+        ]
+      ]
+    },
+    {
+      "member": 3,
+      "mesh": 58,
+      "name": "FENCE_59",
+      "source_crc32": "570cb046",
+      "type": "74985753",
+      "nodes": [
+        [
+          177,
+          0
+        ]
+      ]
+    },
+    {
+      "member": 3,
+      "mesh": 59,
+      "name": "FENCE_60",
+      "source_crc32": "a8a7a9ee",
+      "type": "02d7d282",
+      "nodes": [
+        [
+          178,
+          0
+        ]
+      ]
+    },
+    {
+      "member": 5,
+      "mesh": 0,
+      "name": "NITENT_1",
+      "source_crc32": "2644ed9b",
+      "type": "3c3679c5",
+      "nodes": [
+        [
+          1,
+          0
+        ],
+        [
+          3,
+          0
+        ]
+      ]
+    },
+    {
+      "member": 5,
+      "mesh": 5,
+      "name": "CR15TENT_1",
+      "source_crc32": "1d9a6121",
+      "type": "f85e9d06",
+      "nodes": [
+        [
+          15,
+          0
+        ],
+        [
+          17,
+          0
+        ],
+        [
+          589,
+          0
+        ]
+      ]
+    },
+    {
+      "member": 5,
+      "mesh": 6,
+      "name": "CR16TABL_1",
+      "source_crc32": "8415150b",
+      "type": "bc68646e",
+      "nodes": [
+        [
+          19,
+          0
+        ],
+        [
+          21,
+          0
+        ],
+        [
+          23,
+          0
+        ],
+        [
+          25,
+          0
+        ],
+        [
+          27,
+          0
+        ],
+        [
+          29,
+          0
+        ],
+        [
+          31,
+          0
+        ],
+        [
+          33,
+          0
+        ],
+        [
+          35,
+          0
+        ],
+        [
+          37,
+          0
+        ],
+        [
+          39,
+          0
+        ],
+        [
+          41,
+          0
+        ],
+        [
+          43,
+          0
+        ]
+      ]
+    },
+    {
+      "member": 5,
+      "mesh": 8,
+      "name": "LBIN_1",
+      "source_crc32": "9cc3bda7",
+      "type": "169a484c",
+      "nodes": [
+        [
+          47,
+          0
+        ],
+        [
+          49,
+          0
+        ],
+        [
+          51,
+          0
+        ]
+      ]
+    },
+    {
+      "member": 5,
+      "mesh": 10,
+      "name": "SMLCRWD1_1",
+      "source_crc32": "faa890c1",
+      "type": "28a18d57",
+      "nodes": [
+        [
+          55,
+          0
+        ],
+        [
+          57,
+          0
+        ],
+        [
+          59,
+          0
+        ],
+        [
+          61,
+          0
+        ],
+        [
+          63,
+          0
+        ],
+        [
+          593,
+          0
+        ],
+        [
+          595,
+          0
+        ]
+      ]
+    },
+    {
+      "member": 5,
+      "mesh": 11,
+      "name": "SMLCRWD2_1",
+      "source_crc32": "4fa70e96",
+      "type": "8db02eaa",
+      "nodes": [
+        [
+          65,
+          0
+        ],
+        [
+          67,
+          0
+        ],
+        [
+          69,
+          0
+        ],
+        [
+          71,
+          0
+        ],
+        [
+          73,
+          0
+        ]
+      ]
+    },
+    {
+      "member": 5,
+      "mesh": 12,
+      "name": "LCROWDS_1",
+      "source_crc32": "68ff8fb9",
+      "type": "70873a9b",
+      "nodes": [
+        [
+          75,
+          0
+        ],
+        [
+          77,
+          0
+        ],
+        [
+          79,
+          0
+        ],
+        [
+          81,
+          0
+        ]
+      ]
+    },
+    {
+      "member": 5,
+      "mesh": 13,
+      "name": "LPEOP1_1",
+      "source_crc32": "687bdcb9",
+      "type": "1d83de8c",
+      "nodes": [
+        [
+          83,
+          0
+        ],
+        [
+          85,
+          0
+        ],
+        [
+          87,
+          0
+        ],
+        [
+          89,
+          0
+        ],
+        [
+          91,
+          0
+        ],
+        [
+          93,
+          0
+        ],
+        [
+          95,
+          0
+        ],
+        [
+          97,
+          0
+        ],
+        [
+          99,
+          0
+        ]
+      ]
+    },
+    {
+      "member": 5,
+      "mesh": 14,
+      "name": "DA09AD7_1",
+      "source_crc32": "a8cab945",
+      "type": "79152dc1",
+      "nodes": [
+        [
+          101,
+          0
+        ],
+        [
+          103,
+          0
+        ],
+        [
+          105,
+          0
+        ],
+        [
+          111,
+          0
+        ],
+        [
+          113,
+          0
+        ],
+        [
+          121,
+          0
+        ],
+        [
+          127,
+          0
+        ],
+        [
+          129,
+          0
+        ]
+      ]
+    },
+    {
+      "member": 5,
+      "mesh": 15,
+      "name": "DA09AD1_1",
+      "source_crc32": "330a1a15",
+      "type": "27c93463",
+      "nodes": [
+        [
+          107,
+          0
+        ],
+        [
+          115,
+          0
+        ],
+        [
+          117,
+          0
+        ],
+        [
+          123,
+          0
+        ],
+        [
+          125,
+          0
+        ]
+      ]
+    },
+    {
+      "member": 5,
+      "mesh": 16,
+      "name": "DA09AD2_1",
+      "source_crc32": "37491e99",
+      "type": "02f0a7a5",
+      "nodes": [
+        [
+          109,
+          0
+        ]
+      ]
+    },
+    {
+      "member": 5,
+      "mesh": 20,
+      "name": "PCREWS_1",
+      "source_crc32": "176fea88",
+      "type": "62c28985",
+      "nodes": [
+        [
+          149,
+          0
+        ],
+        [
+          151,
+          0
+        ],
+        [
+          153,
+          0
+        ],
+        [
+          155,
+          0
+        ]
+      ]
+    },
+    {
+      "member": 5,
+      "mesh": 21,
+      "name": "LCROWDS2_1",
+      "source_crc32": "3a75a884",
+      "type": "70900c0d",
+      "nodes": [
+        [
+          157,
+          0
+        ],
+        [
+          159,
+          0
+        ],
+        [
+          161,
+          0
+        ],
+        [
+          163,
+          0
+        ],
+        [
+          165,
+          0
+        ],
+        [
+          167,
+          0
+        ],
+        [
+          169,
+          0
+        ],
+        [
+          171,
+          0
+        ],
+        [
+          173,
+          0
+        ],
+        [
+          175,
+          0
+        ],
+        [
+          177,
+          0
+        ],
+        [
+          179,
+          0
+        ],
+        [
+          181,
+          0
+        ],
+        [
+          183,
+          0
+        ],
+        [
+          185,
+          0
+        ],
+        [
+          187,
+          0
+        ],
+        [
+          189,
+          0
+        ],
+        [
+          191,
+          0
+        ],
+        [
+          193,
+          0
+        ],
+        [
+          195,
+          0
+        ],
+        [
+          197,
+          0
+        ],
+        [
+          199,
+          0
+        ],
+        [
+          201,
+          0
+        ],
+        [
+          203,
+          0
+        ],
+        [
+          205,
+          0
+        ],
+        [
+          207,
+          0
+        ],
+        [
+          209,
+          0
+        ],
+        [
+          211,
+          0
+        ],
+        [
+          213,
+          0
+        ],
+        [
+          215,
+          0
+        ],
+        [
+          217,
+          0
+        ],
+        [
+          219,
+          0
+        ],
+        [
+          221,
+          0
+        ],
+        [
+          223,
+          0
+        ],
+        [
+          225,
+          0
+        ],
+        [
+          227,
+          0
+        ],
+        [
+          229,
+          0
+        ],
+        [
+          231,
+          0
+        ],
+        [
+          233,
+          0
+        ],
+        [
+          235,
+          0
+        ],
+        [
+          237,
+          0
+        ],
+        [
+          239,
+          0
+        ],
+        [
+          241,
+          0
+        ],
+        [
+          243,
+          0
+        ],
+        [
+          245,
+          0
+        ],
+        [
+          247,
+          0
+        ],
+        [
+          249,
+          0
+        ],
+        [
+          251,
+          0
+        ],
+        [
+          253,
+          0
+        ],
+        [
+          255,
+          0
+        ],
+        [
+          257,
+          0
+        ],
+        [
+          259,
+          0
+        ],
+        [
+          261,
+          0
+        ],
+        [
+          263,
+          0
+        ],
+        [
+          265,
+          0
+        ],
+        [
+          267,
+          0
+        ],
+        [
+          269,
+          0
+        ],
+        [
+          271,
+          0
+        ],
+        [
+          273,
+          0
+        ],
+        [
+          275,
+          0
+        ],
+        [
+          277,
+          0
+        ],
+        [
+          279,
+          0
+        ],
+        [
+          281,
+          0
+        ],
+        [
+          283,
+          0
+        ],
+        [
+          285,
+          0
+        ],
+        [
+          287,
+          0
+        ],
+        [
+          289,
+          0
+        ],
+        [
+          291,
+          0
+        ],
+        [
+          293,
+          0
+        ],
+        [
+          295,
+          0
+        ],
+        [
+          297,
+          0
+        ],
+        [
+          299,
+          0
+        ],
+        [
+          301,
+          0
+        ],
+        [
+          303,
+          0
+        ],
+        [
+          305,
+          0
+        ],
+        [
+          307,
+          0
+        ],
+        [
+          309,
+          0
+        ],
+        [
+          311,
+          0
+        ],
+        [
+          313,
+          0
+        ],
+        [
+          315,
+          0
+        ],
+        [
+          317,
+          0
+        ],
+        [
+          319,
+          0
+        ],
+        [
+          321,
+          0
+        ],
+        [
+          323,
+          0
+        ],
+        [
+          325,
+          0
+        ],
+        [
+          327,
+          0
+        ],
+        [
+          329,
+          0
+        ],
+        [
+          331,
+          0
+        ],
+        [
+          333,
+          0
+        ],
+        [
+          335,
+          0
+        ],
+        [
+          337,
+          0
+        ],
+        [
+          339,
+          0
+        ],
+        [
+          341,
+          0
+        ],
+        [
+          343,
+          0
+        ],
+        [
+          345,
+          0
+        ],
+        [
+          347,
+          0
+        ],
+        [
+          349,
+          0
+        ],
+        [
+          351,
+          0
+        ],
+        [
+          353,
+          0
+        ],
+        [
+          355,
+          0
+        ],
+        [
+          357,
+          0
+        ],
+        [
+          359,
+          0
+        ],
+        [
+          361,
+          0
+        ],
+        [
+          363,
+          0
+        ],
+        [
+          365,
+          0
+        ],
+        [
+          367,
+          0
+        ],
+        [
+          369,
+          0
+        ],
+        [
+          371,
+          0
+        ],
+        [
+          373,
+          0
+        ],
+        [
+          375,
+          0
+        ],
+        [
+          377,
+          0
+        ],
+        [
+          379,
+          0
+        ],
+        [
+          381,
+          0
+        ],
+        [
+          383,
+          0
+        ],
+        [
+          385,
+          0
+        ],
+        [
+          387,
+          0
+        ],
+        [
+          389,
+          0
+        ],
+        [
+          391,
+          0
+        ],
+        [
+          393,
+          0
+        ],
+        [
+          395,
+          0
+        ],
+        [
+          397,
+          0
+        ],
+        [
+          399,
+          0
+        ],
+        [
+          401,
+          0
+        ],
+        [
+          403,
+          0
+        ],
+        [
+          405,
+          0
+        ],
+        [
+          407,
+          0
+        ],
+        [
+          409,
+          0
+        ],
+        [
+          411,
+          0
+        ],
+        [
+          413,
+          0
+        ],
+        [
+          415,
+          0
+        ],
+        [
+          417,
+          0
+        ],
+        [
+          419,
+          0
+        ],
+        [
+          421,
+          0
+        ],
+        [
+          423,
+          0
+        ],
+        [
+          425,
+          0
+        ],
+        [
+          427,
+          0
+        ],
+        [
+          429,
+          0
+        ],
+        [
+          431,
+          0
+        ],
+        [
+          433,
+          0
+        ],
+        [
+          435,
+          0
+        ],
+        [
+          437,
+          0
+        ],
+        [
+          439,
+          0
+        ],
+        [
+          441,
+          0
+        ],
+        [
+          451,
+          0
+        ],
+        [
+          591,
+          0
+        ]
+      ]
+    },
+    {
+      "member": 5,
+      "mesh": 26,
+      "name": "CHERVL_1",
+      "source_crc32": "de734863",
+      "type": "8172ca0d",
+      "nodes": [
+        [
+          551,
+          0
+        ],
+        [
+          553,
+          0
+        ],
+        [
+          555,
+          0
+        ]
+      ]
+    },
+    {
+      "member": 8,
+      "mesh": 0,
+      "name": "LRED_1",
+      "source_crc32": "c7f79a55",
+      "type": "3f6eb71a",
+      "nodes": [
+        [
+          1,
+          0
+        ],
+        [
+          3,
+          0
+        ],
+        [
+          5,
+          0
+        ],
+        [
+          7,
+          0
+        ],
+        [
+          9,
+          0
+        ],
+        [
+          11,
+          0
+        ],
+        [
+          13,
+          0
+        ],
+        [
+          15,
+          0
+        ],
+        [
+          17,
+          0
+        ],
+        [
+          19,
+          0
+        ],
+        [
+          21,
+          0
+        ],
+        [
+          23,
+          0
+        ],
+        [
+          25,
+          0
+        ],
+        [
+          27,
+          0
+        ],
+        [
+          29,
+          0
+        ],
+        [
+          31,
+          0
+        ],
+        [
+          33,
+          0
+        ],
+        [
+          35,
+          0
+        ],
+        [
+          37,
+          0
+        ],
+        [
+          39,
+          0
+        ],
+        [
+          41,
+          0
+        ],
+        [
+          43,
+          0
+        ],
+        [
+          45,
+          0
+        ],
+        [
+          47,
+          0
+        ]
+      ]
+    },
+    {
+      "member": 9,
+      "mesh": 0,
+      "name": "LTALLCON_1",
+      "source_crc32": "e5576d2b",
+      "type": "b2017022",
+      "nodes": [
+        [
+          1,
+          0
+        ],
+        [
+          3,
+          0
+        ],
+        [
+          5,
+          0
+        ],
+        [
+          7,
+          0
+        ],
+        [
+          9,
+          0
+        ],
+        [
+          11,
+          0
+        ],
+        [
+          13,
+          0
+        ]
+      ]
+    },
+    {
+      "member": 10,
+      "mesh": 0,
+      "name": "L200_1",
+      "source_crc32": "de297544",
+      "type": "e1879e4d",
+      "nodes": [
+        [
+          1,
+          0
+        ],
+        [
+          3,
+          0
+        ],
+        [
+          5,
+          0
+        ],
+        [
+          7,
+          0
+        ],
+        [
+          9,
+          0
+        ],
+        [
+          57,
+          0
+        ]
+      ]
+    },
+    {
+      "member": 10,
+      "mesh": 1,
+      "name": "L100_1",
+      "source_crc32": "889d7d72",
+      "type": "7c15896c",
+      "nodes": [
+        [
+          11,
+          0
+        ],
+        [
+          13,
+          0
+        ],
+        [
+          15,
+          0
+        ],
+        [
+          17,
+          0
+        ],
+        [
+          19,
+          0
+        ],
+        [
+          21,
+          0
+        ],
+        [
+          23,
+          0
+        ]
+      ]
+    },
+    {
+      "member": 10,
+      "mesh": 2,
+      "name": "L50_1",
+      "source_crc32": "cdc007a7",
+      "type": "b2c2338f",
+      "nodes": [
+        [
+          25,
+          0
+        ],
+        [
+          27,
+          0
+        ],
+        [
+          29,
+          0
+        ],
+        [
+          31,
+          0
+        ],
+        [
+          33,
+          0
+        ],
+        [
+          35,
+          0
+        ],
+        [
+          37,
+          0
+        ],
+        [
+          39,
+          0
+        ],
+        [
+          41,
+          0
+        ],
+        [
+          53,
+          0
+        ]
+      ]
+    },
+    {
+      "member": 10,
+      "mesh": 3,
+      "name": "LPIT_1",
+      "source_crc32": "73c2368d",
+      "type": "9287271b",
+      "nodes": [
+        [
+          43,
+          0
+        ]
+      ]
+    },
+    {
+      "member": 10,
+      "mesh": 4,
+      "name": "LARROW1_1",
+      "source_crc32": "a3c57dfa",
+      "type": "8acdf94b",
+      "nodes": [
+        [
+          45,
+          0
+        ]
+      ]
+    },
+    {
+      "member": 10,
+      "mesh": 5,
+      "name": "LARROW2_1",
+      "source_crc32": "a44ec74b",
+      "type": "a431efc6",
+      "nodes": [
+        [
+          47,
+          0
+        ]
+      ]
+    },
+    {
+      "member": 10,
+      "mesh": 6,
+      "name": "LARROW4_1",
+      "source_crc32": "a4ace608",
+      "type": "d4ecfcb8",
+      "nodes": [
+        [
+          49,
+          0
+        ],
+        [
+          51,
+          0
+        ],
+        [
+          55,
+          0
+        ],
+        [
+          59,
+          0
+        ],
+        [
+          61,
+          0
+        ],
+        [
+          63,
+          0
+        ]
+      ]
+    },
+    {
+      "member": 10,
+      "mesh": 7,
+      "name": "LARROW5_1",
+      "source_crc32": "207f6fe4",
+      "type": "0a23f5ef",
+      "nodes": [
+        [
+          65,
+          0
+        ]
+      ]
+    },
+    {
+      "member": 10,
+      "mesh": 8,
+      "name": "LARROW6_1",
+      "source_crc32": "cb884ff8",
+      "type": "7afee691",
+      "nodes": [
+        [
+          67,
+          0
+        ]
+      ]
+    },
+    {
+      "member": 11,
+      "mesh": 0,
+      "name": "UK_FLG1_1",
+      "source_crc32": "eb4ba1c4",
+      "type": "528d2ca0",
+      "nodes": [
+        [
+          2,
+          0
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          2,
+          2
+        ],
+        [
+          5,
+          0
+        ],
+        [
+          8,
+          0
+        ],
+        [
+          53,
+          0
+        ],
+        [
+          56,
+          0
+        ],
+        [
+          59,
+          0
+        ],
+        [
+          62,
+          0
+        ],
+        [
+          65,
+          0
+        ],
+        [
+          68,
+          0
+        ],
+        [
+          71,
+          0
+        ]
+      ]
+    },
+    {
+      "member": 11,
+      "mesh": 1,
+      "name": "UK_FLG1_2",
+      "source_crc32": "cd82c382",
+      "type": "5095d617",
+      "nodes": [
+        [
+          1,
+          0
+        ],
+        [
+          4,
+          0
+        ],
+        [
+          7,
+          0
+        ],
+        [
+          52,
+          0
+        ],
+        [
+          55,
+          0
+        ],
+        [
+          58,
+          0
+        ],
+        [
+          61,
+          0
+        ],
+        [
+          64,
+          0
+        ],
+        [
+          67,
+          0
+        ],
+        [
+          70,
+          0
+        ]
+      ]
+    },
+    {
+      "member": 11,
+      "mesh": 2,
+      "name": "UK_FLG1_3",
+      "source_crc32": "f5015524",
+      "type": "392170f8",
+      "nodes": [
+        [
+          1,
+          1
+        ],
+        [
+          4,
+          1
+        ],
+        [
+          7,
+          1
+        ],
+        [
+          52,
+          1
+        ],
+        [
+          55,
+          1
+        ],
+        [
+          58,
+          1
+        ],
+        [
+          61,
+          1
+        ],
+        [
+          64,
+          1
+        ],
+        [
+          67,
+          1
+        ],
+        [
+          70,
+          1
+        ]
+      ]
+    },
+    {
+      "member": 11,
+      "mesh": 3,
+      "name": "UK_FLG1_4",
+      "source_crc32": "1f6c84ac",
+      "type": "35c5ca5b",
+      "nodes": [
+        [
+          1,
+          2
+        ],
+        [
+          4,
+          2
+        ],
+        [
+          5,
+          1
+        ],
+        [
+          5,
+          2
+        ],
+        [
+          7,
+          2
+        ],
+        [
+          8,
+          1
+        ],
+        [
+          8,
+          2
+        ],
+        [
+          11,
+          1
+        ],
+        [
+          11,
+          2
+        ],
+        [
+          52,
+          2
+        ],
+        [
+          55,
+          2
+        ],
+        [
+          56,
+          1
+        ],
+        [
+          56,
+          2
+        ],
+        [
+          58,
+          2
+        ],
+        [
+          59,
+          1
+        ],
+        [
+          59,
+          2
+        ],
+        [
+          61,
+          2
+        ],
+        [
+          62,
+          1
+        ],
+        [
+          62,
+          2
+        ],
+        [
+          64,
+          2
+        ],
+        [
+          65,
+          1
+        ],
+        [
+          65,
+          2
+        ],
+        [
+          67,
+          2
+        ],
+        [
+          68,
+          1
+        ],
+        [
+          68,
+          2
+        ],
+        [
+          70,
+          2
+        ],
+        [
+          71,
+          1
+        ],
+        [
+          71,
+          2
+        ]
+      ]
+    },
+    {
+      "member": 11,
+      "mesh": 4,
+      "name": "UK_FLG2_1",
+      "source_crc32": "60c691ea",
+      "type": "7c5b0961",
+      "nodes": [
+        [
+          11,
+          0
+        ],
+        [
+          14,
+          0
+        ],
+        [
+          17,
+          0
+        ],
+        [
+          20,
+          0
+        ],
+        [
+          23,
+          0
+        ],
+        [
+          26,
+          0
+        ],
+        [
+          29,
+          0
+        ]
+      ]
+    },
+    {
+      "member": 11,
+      "mesh": 5,
+      "name": "UK_FLG2_2",
+      "source_crc32": "07db725b",
+      "type": "5095d617",
+      "nodes": [
+        [
+          10,
+          0
+        ],
+        [
+          13,
+          0
+        ],
+        [
+          16,
+          0
+        ],
+        [
+          19,
+          0
+        ],
+        [
+          22,
+          0
+        ],
+        [
+          25,
+          0
+        ],
+        [
+          28,
+          0
+        ]
+      ]
+    },
+    {
+      "member": 11,
+      "mesh": 6,
+      "name": "UK_FLG2_3",
+      "source_crc32": "3f58e4fd",
+      "type": "392170f8",
+      "nodes": [
+        [
+          10,
+          1
+        ],
+        [
+          13,
+          1
+        ],
+        [
+          16,
+          1
+        ],
+        [
+          19,
+          1
+        ],
+        [
+          22,
+          1
+        ],
+        [
+          25,
+          1
+        ],
+        [
+          28,
+          1
+        ]
+      ]
+    },
+    {
+      "member": 11,
+      "mesh": 7,
+      "name": "UK_FLG2_4",
+      "source_crc32": "d5353575",
+      "type": "35c5ca5b",
+      "nodes": [
+        [
+          10,
+          2
+        ],
+        [
+          13,
+          2
+        ],
+        [
+          14,
+          1
+        ],
+        [
+          14,
+          2
+        ],
+        [
+          16,
+          2
+        ],
+        [
+          17,
+          1
+        ],
+        [
+          17,
+          2
+        ],
+        [
+          19,
+          2
+        ],
+        [
+          20,
+          1
+        ],
+        [
+          20,
+          2
+        ],
+        [
+          22,
+          2
+        ],
+        [
+          23,
+          1
+        ],
+        [
+          23,
+          2
+        ],
+        [
+          25,
+          2
+        ],
+        [
+          26,
+          1
+        ],
+        [
+          26,
+          2
+        ],
+        [
+          28,
+          2
+        ],
+        [
+          29,
+          1
+        ],
+        [
+          29,
+          2
+        ],
+        [
+          32,
+          1
+        ],
+        [
+          32,
+          2
+        ]
+      ]
+    },
+    {
+      "member": 11,
+      "mesh": 8,
+      "name": "ITL_FLG2_1",
+      "source_crc32": "d5a13001",
+      "type": "ff8a1cdf",
+      "nodes": [
+        [
+          32,
+          0
+        ],
+        [
+          35,
+          0
+        ],
+        [
+          38,
+          0
+        ],
+        [
+          41,
+          0
+        ]
+      ]
+    },
+    {
+      "member": 11,
+      "mesh": 9,
+      "name": "ITL_FLG2_2",
+      "source_crc32": "48546942",
+      "type": "615079ea",
+      "nodes": [
+        [
+          31,
+          0
+        ],
+        [
+          34,
+          0
+        ],
+        [
+          37,
+          0
+        ],
+        [
+          40,
+          0
+        ]
+      ]
+    },
+    {
+      "member": 11,
+      "mesh": 10,
+      "name": "ITL_FLG2_3",
+      "source_crc32": "6d4e3e18",
+      "type": "afa633bd",
+      "nodes": [
+        [
+          31,
+          1
+        ],
+        [
+          34,
+          1
+        ],
+        [
+          37,
+          1
+        ],
+        [
+          40,
+          1
+        ]
+      ]
+    },
+    {
+      "member": 11,
+      "mesh": 11,
+      "name": "ITL_FLG2_4",
+      "source_crc32": "d676ac31",
+      "type": "de66528f",
+      "nodes": [
+        [
+          31,
+          2
+        ],
+        [
+          34,
+          2
+        ],
+        [
+          35,
+          1
+        ],
+        [
+          35,
+          2
+        ],
+        [
+          37,
+          2
+        ],
+        [
+          38,
+          1
+        ],
+        [
+          38,
+          2
+        ],
+        [
+          40,
+          2
+        ],
+        [
+          41,
+          1
+        ],
+        [
+          41,
+          2
+        ],
+        [
+          44,
+          1
+        ],
+        [
+          44,
+          2
+        ]
+      ]
+    },
+    {
+      "member": 11,
+      "mesh": 12,
+      "name": "ROM_FLG2_1",
+      "source_crc32": "820c4ee1",
+      "type": "7c5b0961",
+      "nodes": [
+        [
+          44,
+          0
+        ],
+        [
+          47,
+          0
+        ],
+        [
+          50,
+          0
+        ]
+      ]
+    },
+    {
+      "member": 11,
+      "mesh": 13,
+      "name": "ROM_FLG2_2",
+      "source_crc32": "b75cb908",
+      "type": "59210fbd",
+      "nodes": [
+        [
+          43,
+          0
+        ],
+        [
+          46,
+          0
+        ],
+        [
+          49,
+          0
+        ]
+      ]
+    },
+    {
+      "member": 11,
+      "mesh": 14,
+      "name": "ROM_FLG2_3",
+      "source_crc32": "38a91cba",
+      "type": "df2f2a8f",
+      "nodes": [
+        [
+          43,
+          1
+        ],
+        [
+          46,
+          1
+        ],
+        [
+          49,
+          1
+        ]
+      ]
+    },
+    {
+      "member": 11,
+      "mesh": 15,
+      "name": "ROM_FLG2_4",
+      "source_crc32": "eb584466",
+      "type": "17164499",
+      "nodes": [
+        [
+          43,
+          2
+        ],
+        [
+          46,
+          2
+        ],
+        [
+          47,
+          1
+        ],
+        [
+          47,
+          2
+        ],
+        [
+          49,
+          2
+        ],
+        [
+          50,
+          1
+        ],
+        [
+          50,
+          2
+        ],
+        [
+          53,
+          1
+        ],
+        [
+          53,
+          2
+        ]
+      ]
+    }
+  ],
+  "textures": [
+    {
+      "name": "LLRTS1",
+      "source_crc32": "7d89443a",
+      "source_size": [
+        128,
+        32
+      ],
+      "bindings": [
+        {
+          "member": 2,
+          "slot": 0
+        }
+      ],
+      "image": "textures/croft-rest-llrts1.webp",
+      "crc32": "5bcb17d8",
+      "bytes": 17306,
+      "size": [
+        512,
+        128
+      ],
+      "alpha_crc32": "33e2574c",
+      "generated_image_crc32": "57e0ed6a",
+      "crop": [
+        0,
+        95,
+        2170,
+        633
+      ],
+      "webp_quality": 70,
+      "webp_method": 6
+    },
+    {
+      "name": "YTYREF",
+      "source_crc32": "887db49f",
+      "source_size": [
+        128,
+        32
+      ],
+      "bindings": [
+        {
+          "member": 3,
+          "slot": 0
+        }
+      ],
+      "image": "textures/croft-rest-ytyref.webp",
+      "crc32": "baa4875b",
+      "bytes": 17142,
+      "size": [
+        512,
+        128
+      ],
+      "alpha_crc32": "deab7e4e",
+      "generated_image_crc32": "476ca83f",
+      "crop": [
+        0,
+        93,
+        2170,
+        630
+      ],
+      "webp_quality": 70,
+      "webp_method": 6
+    },
+    {
+      "name": "GTYRET",
+      "source_crc32": "dea84600",
+      "source_size": [
+        128,
+        32
+      ],
+      "bindings": [
+        {
+          "member": 3,
+          "slot": 2
+        }
+      ],
+      "image": "textures/croft-rest-gtyret.webp",
+      "crc32": "1968c6b0",
+      "bytes": 5814,
+      "size": [
+        512,
+        128
+      ],
+      "alpha_crc32": "deab7e4e",
+      "generated_image_crc32": "ba287699",
+      "crop": [
+        0,
+        90,
+        2170,
+        620
+      ],
+      "webp_quality": 70,
+      "webp_method": 6
+    },
+    {
+      "name": "YTYRET",
+      "source_crc32": "36dcff8d",
+      "source_size": [
+        128,
+        32
+      ],
+      "bindings": [
+        {
+          "member": 3,
+          "slot": 3
+        }
+      ],
+      "image": "textures/croft-rest-ytyret.webp",
+      "crc32": "492618ed",
+      "bytes": 12134,
+      "size": [
+        512,
+        128
+      ],
+      "alpha_crc32": "deab7e4e",
+      "generated_image_crc32": "67bb8b86",
+      "crop": [
+        0,
+        89,
+        2170,
+        626
+      ],
+      "webp_quality": 70,
+      "webp_method": 6
+    },
+    {
+      "name": "GTYREF",
+      "source_crc32": "3d388294",
+      "source_size": [
+        128,
+        32
+      ],
+      "bindings": [
+        {
+          "member": 3,
+          "slot": 4
+        }
+      ],
+      "image": "textures/croft-rest-gtyref.webp",
+      "crc32": "b67c9f42",
+      "bytes": 8804,
+      "size": [
+        512,
+        128
+      ],
+      "alpha_crc32": "deab7e4e",
+      "generated_image_crc32": "a4516c06",
+      "crop": [
+        0,
+        114,
+        2170,
+        611
+      ],
+      "webp_quality": 70,
+      "webp_method": 6
+    },
+    {
+      "name": "CB-TOPY",
+      "source_crc32": "5f78b85a",
+      "source_size": [
+        64,
+        32
+      ],
+      "bindings": [
+        {
+          "member": 3,
+          "slot": 5
+        }
+      ],
+      "image": "textures/croft-rest-cb-topy.webp",
+      "crc32": "354f63f2",
+      "bytes": 4404,
+      "size": [
+        512,
+        256
+      ],
+      "alpha_crc32": "520c1b2d",
+      "generated_image_crc32": "0bb28725",
+      "crop": [
+        0,
+        0,
+        1774,
+        887
+      ],
+      "webp_quality": 70,
+      "webp_method": 6
+    },
+    {
+      "name": "CB-TOPG",
+      "source_crc32": "f39c34a4",
+      "source_size": [
+        64,
+        32
+      ],
+      "bindings": [
+        {
+          "member": 3,
+          "slot": 6
+        }
+      ],
+      "image": "textures/croft-rest-cb-topg.webp",
+      "crc32": "38f7c466",
+      "bytes": 6746,
+      "size": [
+        512,
+        256
+      ],
+      "alpha_crc32": "c0c4903d",
+      "generated_image_crc32": "34072343",
+      "crop": [
+        0,
+        0,
+        1774,
+        887
+      ],
+      "webp_quality": 70,
+      "webp_method": 6
+    },
+    {
+      "name": "CB-LO1",
+      "source_crc32": "904f0f1e",
+      "source_size": [
+        64,
+        32
+      ],
+      "bindings": [
+        {
+          "member": 3,
+          "slot": 7
+        }
+      ],
+      "image": "textures/croft-rest-cb-lo1.webp",
+      "crc32": "75ced6db",
+      "bytes": 3676,
+      "size": [
+        512,
+        256
+      ],
+      "alpha_crc32": "239f2d6f",
+      "generated_image_crc32": "ce247248",
+      "crop": [
+        0,
+        0,
+        1774,
+        887
+      ],
+      "webp_quality": 70,
+      "webp_method": 6
+    },
+    {
+      "name": "CB-LO2",
+      "source_crc32": "8abf672f",
+      "source_size": [
+        64,
+        32
+      ],
+      "bindings": [
+        {
+          "member": 3,
+          "slot": 8
+        }
+      ],
+      "image": "textures/croft-rest-cb-lo2.webp",
+      "crc32": "002797c7",
+      "bytes": 5152,
+      "size": [
+        512,
+        256
+      ],
+      "alpha_crc32": "d50c3313",
+      "generated_image_crc32": "d6f11a7b",
+      "crop": [
+        0,
+        0,
+        1774,
+        887
+      ],
+      "webp_quality": 70,
+      "webp_method": 6
+    },
+    {
+      "name": "PITBARR",
+      "source_crc32": "2d74eabb",
+      "source_size": [
+        128,
+        64
+      ],
+      "bindings": [
+        {
+          "member": 3,
+          "slot": 9
+        }
+      ],
+      "image": "textures/croft-rest-pitbarr.webp",
+      "crc32": "e0862492",
+      "bytes": 7202,
+      "size": [
+        512,
+        256
+      ],
+      "alpha_crc32": "2d30ceb1",
+      "generated_image_crc32": "c81b3d83",
+      "crop": [
+        0,
+        0,
+        1774,
+        887
+      ],
+      "webp_quality": 70,
+      "webp_method": 6
+    },
+    {
+      "name": "PITBARR2",
+      "source_crc32": "cc858d2e",
+      "source_size": [
+        128,
+        64
+      ],
+      "bindings": [
+        {
+          "member": 3,
+          "slot": 10
+        }
+      ],
+      "image": "textures/croft-rest-pitbarr2.webp",
+      "crc32": "6edfcd6d",
+      "bytes": 6054,
+      "size": [
+        512,
+        256
+      ],
+      "alpha_crc32": "7163c5a6",
+      "generated_image_crc32": "21acb20a",
+      "crop": [
+        0,
+        0,
+        1774,
+        887
+      ],
+      "webp_quality": 70,
+      "webp_method": 6
+    },
+    {
+      "name": "PITWALL",
+      "source_crc32": "0b38f6b3",
+      "source_size": [
+        64,
+        32
+      ],
+      "bindings": [
+        {
+          "member": 3,
+          "slot": 11
+        }
+      ],
+      "image": "textures/croft-rest-pitwall.webp",
+      "crc32": "6935a787",
+      "bytes": 14878,
+      "size": [
+        512,
+        256
+      ],
+      "alpha_crc32": "154803cc",
+      "generated_image_crc32": "c0f05585",
+      "crop": [
+        0,
+        0,
+        1774,
+        887
+      ],
+      "webp_quality": 70,
+      "webp_method": 6
+    },
+    {
+      "name": "MOBILTOP",
+      "source_crc32": "8592d7b8",
+      "source_size": [
+        128,
+        32
+      ],
+      "bindings": [
+        {
+          "member": 3,
+          "slot": 12
+        }
+      ],
+      "image": "textures/thruxton-structure-mobiltop.webp",
+      "crc32": "e148ce0e",
+      "bytes": 2048,
+      "size": [
+        512,
+        128
+      ],
+      "alpha_crc32": "deab7e4e",
+      "reuse": {
+        "mode": "accepted-rgba-unchanged",
+        "image": "textures/thruxton-structure-mobiltop.webp",
+        "crc32": "e148ce0e",
+        "source_crc32": "3f7b2754"
+      }
+    },
+    {
+      "name": "DA05CMB1",
+      "source_crc32": "cc6d1b62",
+      "source_size": [
+        128,
+        32
+      ],
+      "bindings": [
+        {
+          "member": 3,
+          "slot": 13
+        }
+      ],
+      "image": "textures/thruxton-rest-da05cmb1.webp",
+      "crc32": "3d226b37",
+      "bytes": 1100,
+      "size": [
+        512,
+        128
+      ],
+      "alpha_crc32": "9ddaa77b",
+      "reuse": {
+        "mode": "accepted-rgba-unchanged",
+        "image": "textures/thruxton-rest-da05cmb1.webp",
+        "crc32": "3d226b37",
+        "source_crc32": "803062f4"
+      }
+    },
+    {
+      "name": "LNITENT1",
+      "source_crc32": "00391268",
+      "source_size": [
+        128,
+        128
+      ],
+      "bindings": [
+        {
+          "member": 5,
+          "slot": 0
+        }
+      ],
+      "image": "textures/croft-rest-lnitent1.webp",
+      "crc32": "e80ac4c0",
+      "bytes": 18534,
+      "size": [
+        512,
+        512
+      ],
+      "alpha_crc32": "9c56ef77",
+      "reuse": {
+        "mode": "accepted-vp8-rgb-croft-alpha",
+        "image": "textures/snetterton-nature-rest-lnitent1.webp",
+        "crc32": "e80ac4c0",
+        "source_crc32": "854aba37"
+      }
+    },
+    {
+      "name": "LNITENT2",
+      "source_crc32": "97dbead3",
+      "source_size": [
+        64,
+        32
+      ],
+      "bindings": [
+        {
+          "member": 5,
+          "slot": 1
+        }
+      ],
+      "image": "textures/croft-rest-lnitent2.webp",
+      "crc32": "44a93869",
+      "bytes": 140804,
+      "size": [
+        512,
+        256
+      ],
+      "alpha_crc32": "154803cc",
+      "reuse": {
+        "mode": "accepted-vp8-rgb-croft-alpha",
+        "image": "textures/snetterton-nature-rest-lnitent2.webp",
+        "crc32": "afab9851",
+        "source_crc32": "b6c12152"
+      }
+    },
+    {
+      "name": "LNITENT3",
+      "source_crc32": "11a1ba98",
+      "source_size": [
+        64,
+        32
+      ],
+      "bindings": [
+        {
+          "member": 5,
+          "slot": 2
+        }
+      ],
+      "image": "textures/croft-rest-lnitent3.webp",
+      "crc32": "817e2966",
+      "bytes": 1268,
+      "size": [
+        512,
+        256
+      ],
+      "alpha_crc32": "675c6ae2",
+      "reuse": {
+        "mode": "accepted-vp8-rgb-croft-alpha",
+        "image": "textures/snetterton-nature-rest-lnitent3.webp",
+        "crc32": "817e2966",
+        "source_crc32": "759478e8"
+      }
+    },
+    {
+      "name": "CR15TNTS",
+      "source_crc32": "13abfad8",
+      "source_size": [
+        128,
+        32
+      ],
+      "bindings": [
+        {
+          "member": 5,
+          "slot": 23
+        }
+      ],
+      "image": "textures/croft-rest-cr15tnts.webp",
+      "crc32": "eda73bf2",
+      "bytes": 12548,
+      "size": [
+        512,
+        128
+      ],
+      "alpha_crc32": "f1140903",
+      "reuse": {
+        "mode": "accepted-vp8-rgb-croft-alpha",
+        "image": "textures/snetterton-nature-rest-cr15tnts.webp",
+        "crc32": "446e6e85",
+        "source_crc32": "abd82adf"
+      }
+    },
+    {
+      "name": "CR15TNTT",
+      "source_crc32": "efd2b213",
+      "source_size": [
+        64,
+        32
+      ],
+      "bindings": [
+        {
+          "member": 5,
+          "slot": 24
+        }
+      ],
+      "image": "textures/croft-rest-cr15tntt.webp",
+      "crc32": "46460152",
+      "bytes": 138274,
+      "size": [
+        512,
+        256
+      ],
+      "alpha_crc32": "154803cc",
+      "reuse": {
+        "mode": "accepted-vp8-rgb-croft-alpha",
+        "image": "textures/snetterton-nature-rest-cr15tntt.webp",
+        "crc32": "0aea1ba2",
+        "source_crc32": "7bc6167d"
+      }
+    },
+    {
+      "name": "CR16TAB4",
+      "source_crc32": "134b7e68",
+      "source_size": [
+        64,
+        32
+      ],
+      "bindings": [
+        {
+          "member": 5,
+          "slot": 25
+        }
+      ],
+      "image": "textures/croft-rest-cr16tab4.webp",
+      "crc32": "2ef28437",
+      "bytes": 134414,
+      "size": [
+        512,
+        256
+      ],
+      "alpha_crc32": "154803cc",
+      "reuse": {
+        "mode": "accepted-vp8-rgb-croft-alpha",
+        "image": "textures/snetterton-nature-rest-cr16tab4.webp",
+        "crc32": "1758d14f",
+        "source_crc32": "49482852"
+      }
+    },
+    {
+      "name": "CR16TAB5",
+      "source_crc32": "143c48a4",
+      "source_size": [
+        64,
+        32
+      ],
+      "bindings": [
+        {
+          "member": 5,
+          "slot": 26
+        }
+      ],
+      "image": "textures/croft-rest-cr16tab5.webp",
+      "crc32": "08d5707d",
+      "bytes": 138062,
+      "size": [
+        512,
+        256
+      ],
+      "alpha_crc32": "154803cc",
+      "reuse": {
+        "mode": "accepted-vp8-rgb-croft-alpha",
+        "image": "textures/snetterton-nature-rest-cr16tab5.webp",
+        "crc32": "e35c99db",
+        "source_crc32": "9c7cb640"
+      }
+    },
+    {
+      "name": "CR16TAB3",
+      "source_crc32": "c928b303",
+      "source_size": [
+        64,
+        64
+      ],
+      "bindings": [
+        {
+          "member": 5,
+          "slot": 27
+        }
+      ],
+      "image": "textures/croft-rest-cr16tab3.webp",
+      "crc32": "78be1c6e",
+      "bytes": 24742,
+      "size": [
+        512,
+        512
+      ],
+      "alpha_crc32": "80422809",
+      "reuse": {
+        "mode": "accepted-vp8-rgb-croft-alpha",
+        "image": "textures/snetterton-nature-rest-cr16tab3.webp",
+        "crc32": "53b2562a",
+        "source_crc32": "6f6901c7"
+      }
+    },
+    {
+      "name": "CR16TAB1",
+      "source_crc32": "ca437b2f",
+      "source_size": [
+        64,
+        64
+      ],
+      "bindings": [
+        {
+          "member": 5,
+          "slot": 28
+        }
+      ],
+      "image": "textures/croft-rest-cr16tab1.webp",
+      "crc32": "a350961e",
+      "bytes": 22208,
+      "size": [
+        512,
+        512
+      ],
+      "alpha_crc32": "0c2ffa2c",
+      "reuse": {
+        "mode": "accepted-vp8-rgb-croft-alpha",
+        "image": "textures/snetterton-nature-rest-cr16tab1.webp",
+        "crc32": "1ed1d38c",
+        "source_crc32": "f3fd37d3"
+      }
+    },
+    {
+      "name": "CR16TAB2",
+      "source_crc32": "1091dba4",
+      "source_size": [
+        64,
+        64
+      ],
+      "bindings": [
+        {
+          "member": 5,
+          "slot": 29
+        }
+      ],
+      "image": "textures/croft-rest-cr16tab2.webp",
+      "crc32": "56c68bbb",
+      "bytes": 24610,
+      "size": [
+        512,
+        512
+      ],
+      "alpha_crc32": "b4472824",
+      "reuse": {
+        "mode": "accepted-vp8-rgb-croft-alpha",
+        "image": "textures/snetterton-nature-rest-cr16tab2.webp",
+        "crc32": "1b5bd3dc",
+        "source_crc32": "ff90d45b"
+      }
+    },
+    {
+      "name": "LBIN",
+      "source_crc32": "39884817",
+      "source_size": [
+        64,
+        32
+      ],
+      "bindings": [
+        {
+          "member": 5,
+          "slot": 35
+        }
+      ],
+      "image": "textures/croft-rest-lbin.webp",
+      "crc32": "186e0de0",
+      "bytes": 4490,
+      "size": [
+        512,
+        256
+      ],
+      "alpha_crc32": "67761423",
+      "generated_image_crc32": "7ba441dc",
+      "crop": [
+        0,
+        0,
+        1774,
+        887
+      ],
+      "webp_quality": 70,
+      "webp_method": 6,
+      "lettering_reconstruction": "CLEAN / AWAY follows the related accepted LBINB context; Croft original lettering is unresolved. Double-loop emblem and two-line positions are source-bound."
+    },
+    {
+      "name": "CROWD3",
+      "source_crc32": "0ca81054",
+      "source_size": [
+        128,
+        32
+      ],
+      "bindings": [
+        {
+          "member": 5,
+          "slot": 40
+        }
+      ],
+      "image": "textures/croft-rest-crowd3.webp",
+      "crc32": "63f356c7",
+      "bytes": 9930,
+      "size": [
+        512,
+        128
+      ],
+      "alpha_crc32": "7522c170",
+      "reuse": {
+        "mode": "accepted-vp8-rgb-croft-alpha",
+        "image": "textures/brands-rest-peo-back.webp",
+        "crc32": "c6f3e272",
+        "source_crc32": "46907a75"
+      }
+    },
+    {
+      "name": "CROWD5",
+      "source_crc32": "17f8193b",
+      "source_size": [
+        64,
+        32
+      ],
+      "bindings": [
+        {
+          "member": 5,
+          "slot": 41
+        }
+      ],
+      "image": "textures/croft-rest-crowd5.webp",
+      "crc32": "8312f109",
+      "bytes": 22204,
+      "size": [
+        512,
+        256
+      ],
+      "alpha_crc32": "eaccb81a",
+      "generated_image_crc32": "e468dd76",
+      "crop": [
+        0,
+        0,
+        1774,
+        887
+      ],
+      "webp_quality": 70,
+      "webp_method": 6
+    },
+    {
+      "name": "CROWD8",
+      "source_crc32": "210ea1e2",
+      "source_size": [
+        64,
+        32
+      ],
+      "bindings": [
+        {
+          "member": 5,
+          "slot": 42
+        }
+      ],
+      "image": "textures/croft-rest-crowd8.webp",
+      "crc32": "d659e0f7",
+      "bytes": 22644,
+      "size": [
+        512,
+        256
+      ],
+      "alpha_crc32": "cedf63a0",
+      "generated_image_crc32": "e468dd76",
+      "crop": [
+        0,
+        0,
+        1774,
+        887
+      ],
+      "webp_quality": 70,
+      "webp_method": 6,
+      "related_master": {
+        "source_name": "CROWD5",
+        "source_crc32": "17f8193b",
+        "method": "Same source photograph layout and pose; final RGB master shared, distinct exact Croft mask."
+      }
+    },
+    {
+      "name": "CROWD9",
+      "source_crc32": "46ddc775",
+      "source_size": [
+        64,
+        32
+      ],
+      "bindings": [
+        {
+          "member": 5,
+          "slot": 43
+        }
+      ],
+      "image": "textures/croft-rest-crowd9.webp",
+      "crc32": "32b2fe52",
+      "bytes": 16310,
+      "size": [
+        512,
+        256
+      ],
+      "alpha_crc32": "e3c4d218",
+      "generated_image_crc32": "4b129c46",
+      "crop": [
+        0,
+        0,
+        1774,
+        887
+      ],
+      "webp_quality": 70,
+      "webp_method": 6
+    },
+    {
+      "name": "CROWD7",
+      "source_crc32": "e24fb524",
+      "source_size": [
+        128,
+        32
+      ],
+      "bindings": [
+        {
+          "member": 5,
+          "slot": 44
+        }
+      ],
+      "image": "textures/croft-rest-crowd7.webp",
+      "crc32": "902a4373",
+      "bytes": 15100,
+      "size": [
+        512,
+        128
+      ],
+      "alpha_crc32": "59602dd0",
+      "generated_image_crc32": "a8dc0207",
+      "crop": [
+        0,
+        91,
+        2170,
+        633
+      ],
+      "webp_quality": 70,
+      "webp_method": 6
+    },
+    {
+      "name": "CROWD1",
+      "source_crc32": "739b114f",
+      "source_size": [
+        128,
+        32
+      ],
+      "bindings": [
+        {
+          "member": 5,
+          "slot": 45
+        }
+      ],
+      "image": "textures/croft-rest-crowd1.webp",
+      "crc32": "39c65949",
+      "bytes": 20604,
+      "size": [
+        512,
+        128
+      ],
+      "alpha_crc32": "b133a3c9",
+      "generated_image_crc32": "c7e78652",
+      "crop": [
+        0,
+        91,
+        2169,
+        633
+      ],
+      "webp_quality": 70,
+      "webp_method": 6
+    },
+    {
+      "name": "LPEOPLE1",
+      "source_crc32": "4cb564b4",
+      "source_size": [
+        128,
+        64
+      ],
+      "bindings": [
+        {
+          "member": 5,
+          "slot": 46
+        }
+      ],
+      "image": "textures/croft-rest-lpeople1.webp",
+      "crc32": "fd37b376",
+      "bytes": 21040,
+      "size": [
+        512,
+        256
+      ],
+      "alpha_crc32": "5450686a",
+      "generated_image_crc32": "fadcf543",
+      "crop": [
+        0,
+        0,
+        1774,
+        887
+      ],
+      "webp_quality": 70,
+      "webp_method": 6
+    },
+    {
+      "name": "PCREW1",
+      "source_crc32": "f6072c57",
+      "source_size": [
+        64,
+        64
+      ],
+      "bindings": [
+        {
+          "member": 5,
+          "slot": 65
+        }
+      ],
+      "image": "textures/croft-rest-pcrew1.webp",
+      "crc32": "3a499374",
+      "bytes": 20498,
+      "size": [
+        512,
+        512
+      ],
+      "alpha_crc32": "4411ba7b",
+      "reuse": {
+        "mode": "accepted-vp8-rgb-croft-alpha",
+        "image": "textures/knockhill-rest-pcrew1.webp",
+        "crc32": "a9dd716a",
+        "source_crc32": "83189fa8"
+      }
+    },
+    {
+      "name": "PCREW2",
+      "source_crc32": "a6784b10",
+      "source_size": [
+        64,
+        64
+      ],
+      "bindings": [
+        {
+          "member": 5,
+          "slot": 66
+        }
+      ],
+      "image": "textures/knockhill-rest-pcrew2.webp",
+      "crc32": "0c2d00ba",
+      "bytes": 23378,
+      "size": [
+        512,
+        512
+      ],
+      "alpha_crc32": "823830f6",
+      "reuse": {
+        "mode": "accepted-rgba-unchanged",
+        "image": "textures/knockhill-rest-pcrew2.webp",
+        "crc32": "0c2d00ba",
+        "source_crc32": "9a3029bc"
+      }
+    },
+    {
+      "name": "BH31BCK",
+      "source_crc32": "f50b2d29",
+      "source_size": [
+        64,
+        32
+      ],
+      "bindings": [
+        {
+          "member": 5,
+          "slot": 74
+        }
+      ],
+      "image": "textures/croft-rest-bh31bck.webp",
+      "crc32": "33445d2e",
+      "bytes": 3064,
+      "size": [
+        512,
+        256
+      ],
+      "alpha_crc32": "818adca7",
+      "reuse": {
+        "mode": "accepted-vp8-rgb-croft-alpha",
+        "image": "textures/brands-building-bh31bck.webp",
+        "crc32": "9729480c",
+        "source_crc32": "cde99c21"
+      }
+    },
+    {
+      "name": "L200",
+      "source_crc32": "393ce780",
+      "source_size": [
+        32,
+        16
+      ],
+      "bindings": [
+        {
+          "member": 10,
+          "slot": 1
+        }
+      ],
+      "image": "textures/croft-rest-l200.webp",
+      "crc32": "4693ddfd",
+      "bytes": 4726,
+      "size": [
+        512,
+        256
+      ],
+      "alpha_crc32": "154803cc",
+      "generated_image_crc32": "0faf709b",
+      "crop": [
+        0,
+        0,
+        1774,
+        887
+      ],
+      "webp_quality": 70,
+      "webp_method": 6
+    },
+    {
+      "name": "LARROW5",
+      "source_crc32": "5fff552f",
+      "source_size": [
+        32,
+        32
+      ],
+      "bindings": [
+        {
+          "member": 10,
+          "slot": 7
+        }
+      ],
+      "image": "textures/croft-rest-larrow5.webp",
+      "crc32": "efcbffd4",
+      "bytes": 3280,
+      "size": [
+        512,
+        512
+      ],
+      "alpha_crc32": "b7094978",
+      "generated_image_crc32": "0c08e4c1",
+      "crop": [
+        0,
+        0,
+        1254,
+        1254
+      ],
+      "webp_quality": 70,
+      "webp_method": 6
+    },
+    {
+      "name": "LIFLAGA1",
+      "source_crc32": "94a39c4f",
+      "source_size": [
+        32,
+        32
+      ],
+      "bindings": [
+        {
+          "member": 11,
+          "slot": 0
+        }
+      ],
+      "image": "textures/croft-rest-liflaga1.webp",
+      "crc32": "90d28830",
+      "bytes": 18990,
+      "size": [
+        512,
+        512
+      ],
+      "alpha_crc32": "369fbd9a",
+      "generated_image_crc32": "cbf7afa2",
+      "crop": [
+        0,
+        0,
+        1254,
+        1254
+      ],
+      "webp_quality": 70,
+      "webp_method": 6,
+      "related_master": {
+        "method": "accepted Oulton RGB master reused unchanged; exact Croft alpha applied only at export",
+        "crc32": "cbf7afa2"
+      }
+    },
+    {
+      "name": "POST",
+      "source_crc32": "e5f30441",
+      "source_size": [
+        8,
+        16
+      ],
+      "bindings": [
+        {
+          "member": 11,
+          "slot": 1
+        }
+      ],
+      "native_constant_rgb": [
+        198,
+        206,
+        231
+      ]
+    },
+    {
+      "name": "LIFLAGA2",
+      "source_crc32": "619805d6",
+      "source_size": [
+        32,
+        32
+      ],
+      "bindings": [
+        {
+          "member": 11,
+          "slot": 2
+        }
+      ],
+      "image": "textures/croft-rest-liflaga2.webp",
+      "crc32": "eeb3513f",
+      "bytes": 18640,
+      "size": [
+        512,
+        512
+      ],
+      "alpha_crc32": "58702bfd",
+      "generated_image_crc32": "fdbd33ff",
+      "crop": [
+        0,
+        0,
+        1254,
+        1254
+      ],
+      "webp_quality": 70,
+      "webp_method": 6,
+      "related_master": {
+        "method": "accepted Oulton RGB master reused unchanged; exact Croft alpha applied only at export",
+        "crc32": "fdbd33ff"
+      }
+    },
+    {
+      "name": "LIFLAGA3",
+      "source_crc32": "e8fc6d39",
+      "source_size": [
+        32,
+        32
+      ],
+      "bindings": [
+        {
+          "member": 11,
+          "slot": 3
+        }
+      ],
+      "image": "textures/croft-rest-liflaga3.webp",
+      "crc32": "6c03b829",
+      "bytes": 16884,
+      "size": [
+        512,
+        512
+      ],
+      "alpha_crc32": "3b896da9",
+      "generated_image_crc32": "7cac1563",
+      "crop": [
+        0,
+        0,
+        1254,
+        1254
+      ],
+      "webp_quality": 70,
+      "webp_method": 6,
+      "related_master": {
+        "method": "accepted Oulton RGB master reused unchanged; exact Croft alpha applied only at export",
+        "crc32": "7cac1563"
+      }
+    },
+    {
+      "name": "LIFLAGF1",
+      "source_crc32": "87ed24f3",
+      "source_size": [
+        32,
+        32
+      ],
+      "bindings": [
+        {
+          "member": 11,
+          "slot": 4
+        }
+      ],
+      "image": "textures/croft-rest-liflagf1.webp",
+      "crc32": "e7e517d4",
+      "bytes": 6460,
+      "size": [
+        512,
+        512
+      ],
+      "alpha_crc32": "92a0fb70",
+      "generated_image_crc32": "91b557c6",
+      "crop": [
+        0,
+        0,
+        1254,
+        1254
+      ],
+      "webp_quality": 70,
+      "webp_method": 6,
+      "related_master": {
+        "method": "builtin Imagegen full opaque RGB coverage correction of accepted Thruxton phase",
+        "crc32": "91b557c6"
+      }
+    },
+    {
+      "name": "LIFLAGF2",
+      "source_crc32": "c73abd15",
+      "source_size": [
+        32,
+        32
+      ],
+      "bindings": [
+        {
+          "member": 11,
+          "slot": 5
+        }
+      ],
+      "image": "textures/croft-rest-liflagf2.webp",
+      "crc32": "25906d1c",
+      "bytes": 6656,
+      "size": [
+        512,
+        512
+      ],
+      "alpha_crc32": "82b56346",
+      "generated_image_crc32": "c959e32c",
+      "crop": [
+        0,
+        0,
+        1254,
+        1254
+      ],
+      "webp_quality": 70,
+      "webp_method": 6,
+      "related_master": {
+        "method": "builtin Imagegen full opaque RGB coverage correction of accepted Thruxton phase",
+        "crc32": "c959e32c"
+      }
+    },
+    {
+      "name": "LIFLAGF3",
+      "source_crc32": "5dc50d49",
+      "source_size": [
+        32,
+        32
+      ],
+      "bindings": [
+        {
+          "member": 11,
+          "slot": 6
+        }
+      ],
+      "image": "textures/croft-rest-liflagf3.webp",
+      "crc32": "8c942aab",
+      "bytes": 7314,
+      "size": [
+        512,
+        512
+      ],
+      "alpha_crc32": "b3927196",
+      "generated_image_crc32": "341ae716",
+      "crop": [
+        0,
+        0,
+        1254,
+        1254
+      ],
+      "webp_quality": 70,
+      "webp_method": 6,
+      "related_master": {
+        "method": "builtin Imagegen full opaque RGB coverage correction of accepted Thruxton phase",
+        "crc32": "341ae716"
+      }
+    },
+    {
+      "name": "LIFLAGI1",
+      "source_crc32": "eab176fe",
+      "source_size": [
+        32,
+        32
+      ],
+      "bindings": [
+        {
+          "member": 11,
+          "slot": 7
+        }
+      ],
+      "image": "textures/croft-rest-liflagi1.webp",
+      "crc32": "3b41aee6",
+      "bytes": 6514,
+      "size": [
+        512,
+        512
+      ],
+      "alpha_crc32": "cf2b14f8",
+      "generated_image_crc32": "38fa1318",
+      "crop": [
+        0,
+        0,
+        1254,
+        1254
+      ],
+      "webp_quality": 70,
+      "webp_method": 6,
+      "related_master": {
+        "method": "builtin Imagegen source-guided new Romanian flag phase",
+        "crc32": "38fa1318"
+      }
+    },
+    {
+      "name": "LIFLAGI2",
+      "source_crc32": "92181e6a",
+      "source_size": [
+        32,
+        32
+      ],
+      "bindings": [
+        {
+          "member": 11,
+          "slot": 8
+        }
+      ],
+      "image": "textures/croft-rest-liflagi2.webp",
+      "crc32": "a8697931",
+      "bytes": 6356,
+      "size": [
+        512,
+        512
+      ],
+      "alpha_crc32": "b7491990",
+      "generated_image_crc32": "e4165db0",
+      "crop": [
+        0,
+        0,
+        1254,
+        1254
+      ],
+      "webp_quality": 70,
+      "webp_method": 6,
+      "related_master": {
+        "method": "builtin Imagegen source-guided new Romanian flag phase",
+        "crc32": "e4165db0"
+      }
+    },
+    {
+      "name": "LIFLAGI3",
+      "source_crc32": "d30d685d",
+      "source_size": [
+        32,
+        32
+      ],
+      "bindings": [
+        {
+          "member": 11,
+          "slot": 9
+        }
+      ],
+      "image": "textures/croft-rest-liflagi3.webp",
+      "crc32": "a8b75a6f",
+      "bytes": 6692,
+      "size": [
+        512,
+        512
+      ],
+      "alpha_crc32": "6dfb6eaf",
+      "generated_image_crc32": "c02a9c14",
+      "crop": [
+        0,
+        0,
+        1254,
+        1254
+      ],
+      "webp_quality": 70,
+      "webp_method": 6,
+      "related_master": {
+        "method": "builtin Imagegen source-guided new Romanian flag phase",
+        "crc32": "c02a9c14"
+      }
+    }
+  ],
+  "export": {
+    "new_artwork": {
+      "format": "WebP",
+      "quality": 70,
+      "method": 6,
+      "max_edge": 512,
+      "source_aspect": true
+    },
+    "alpha": "Exact source index0/RGB-black key nearest-size masks; all83 canonical charts agree. Accepted VP8 reuse variants change only ALPH/VP8X.",
+    "geometry": "Installed simple bodies, UVs, slots and nodes retained; source-bound Croft FREE8/9/10 restore original bodies and UVs through SOURCE_PROP_SHAPES.",
+    "source_prop_shapes": {
+      "8": "b15f9cf4",
+      "9": "55f0a25d",
+      "10": "2f088304"
+    }
+  },
+  "uv_fields": [
+    {
+      "material": "CROWD3",
+      "member": 5,
+      "mesh": 22,
+      "faces": [
+        17,
+        18,
+        19,
+        20
+      ],
+      "uv": [
+        0.02,
+        0.99
+      ],
+      "rgba": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "material": "BH31BCK",
+      "member": 5,
+      "u": [
+        0.30157470703125,
+        0.9682464599609375
+      ],
+      "v": [
+        0.5484161376953125,
+        0.7742156982421875
+      ],
+      "role": "CHERV lower quiet grey rectangle"
+    }
+  ]
+}

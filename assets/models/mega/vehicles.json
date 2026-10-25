@@ -1,0 +1,181 @@
+{
+  "version": 1,
+  "vehicles": [
+    {
+      "key": "renault",
+      "render_id": 7,
+      "physical_id": 7,
+      "mode": "mega",
+      "source": {
+        "archive": "data/allcars.bfp",
+        "archive_crc32": "92273ec9",
+        "member": 25,
+        "member_name": "cars\\ren\\highpc\\",
+        "member_crc32": "e0fffe5d"
+      },
+      "definition": "assets/models/vehicles/renault/definition.json",
+      "texture_directory": "assets/models/vehicles/renault/textures",
+      "output": "assets/models/mega/car-7.glb"
+    },
+    {
+      "key": "honda",
+      "render_id": 0,
+      "physical_id": 0,
+      "mode": "mega",
+      "source": {
+        "archive": "data/allcars.bfp",
+        "archive_crc32": "92273ec9",
+        "member": 1,
+        "member_name": "cars\\honda\\highp",
+        "member_crc32": "3562e854"
+      },
+      "definition": "assets/models/vehicles/honda/definition.json",
+      "texture_directory": "assets/models/vehicles/honda/textures",
+      "output": "assets/models/mega/car-0.glb"
+    },
+    {
+      "key": "audi",
+      "render_id": 1,
+      "physical_id": 1,
+      "mode": "mega",
+      "source": {
+        "archive": "data/allcars.bfp",
+        "archive_crc32": "92273ec9",
+        "member": 4,
+        "member_name": "cars\\audi\\highpc",
+        "member_crc32": "1fd3403d"
+      },
+      "definition": "assets/models/vehicles/audi/definition.json",
+      "texture_directory": "assets/models/vehicles/audi/textures",
+      "output": "assets/models/mega/car-1.glb"
+    },
+    {
+      "key": "vectra",
+      "render_id": 2,
+      "physical_id": 2,
+      "mode": "mega",
+      "source": {
+        "archive": "data/allcars.bfp",
+        "archive_crc32": "92273ec9",
+        "member": 7,
+        "member_name": "cars\\vectra\\high",
+        "member_crc32": "943e9422"
+      },
+      "definition": "assets/models/vehicles/vectra/definition.json",
+      "texture_directory": "assets/models/vehicles/vectra/textures",
+      "output": "assets/models/mega/car-2.glb"
+    },
+    {
+      "key": "vectra2",
+      "render_id": 10,
+      "physical_id": 2,
+      "mode": "mega",
+      "source": {
+        "archive": "data/allcars.bfp",
+        "archive_crc32": "92273ec9",
+        "member": 10,
+        "member_name": "cars\\vectra2\\hig",
+        "member_crc32": "e0ce56fe"
+      },
+      "definition": "assets/models/vehicles/vectra2/definition.json",
+      "texture_directory": "assets/models/vehicles/vectra2/textures",
+      "output": "assets/models/mega/car-10.glb"
+    },
+    {
+      "key": "volvo",
+      "render_id": 3,
+      "physical_id": 3,
+      "mode": "mega",
+      "source": {
+        "archive": "data/allcars.bfp",
+        "archive_crc32": "92273ec9",
+        "member": 13,
+        "member_name": "cars\\volvo\\highp",
+        "member_crc32": "c577ebac"
+      },
+      "definition": "assets/models/vehicles/volvo/definition.json",
+      "texture_directory": "assets/models/vehicles/volvo/textures",
+      "output": "assets/models/mega/car-3.glb"
+    },
+    {
+      "key": "ford",
+      "render_id": 4,
+      "physical_id": 4,
+      "mode": "mega",
+      "source": {
+        "archive": "data/allcars.bfp",
+        "archive_crc32": "92273ec9",
+        "member": 16,
+        "member_name": "cars\\ford\\highpc",
+        "member_crc32": "eda6480d"
+      },
+      "definition": "assets/models/vehicles/ford/definition.json",
+      "texture_directory": "assets/models/vehicles/ford/textures",
+      "output": "assets/models/mega/car-4.glb"
+    },
+    {
+      "key": "nissan",
+      "render_id": 5,
+      "physical_id": 5,
+      "mode": "mega",
+      "source": {
+        "archive": "data/allcars.bfp",
+        "archive_crc32": "92273ec9",
+        "member": 19,
+        "member_name": "cars\\nissan\\high",
+        "member_crc32": "73b8aae9"
+      },
+      "definition": "assets/models/vehicles/nissan/definition.json",
+      "texture_directory": "assets/models/vehicles/nissan/textures",
+      "output": "assets/models/mega/car-5.glb"
+    },
+    {
+      "key": "peugeot",
+      "render_id": 6,
+      "physical_id": 6,
+      "mode": "mega",
+      "source": {
+        "archive": "data/allcars.bfp",
+        "archive_crc32": "92273ec9",
+        "member": 22,
+        "member_name": "cars\\p406\\highpc",
+        "member_crc32": "c6af623c"
+      },
+      "definition": "assets/models/vehicles/peugeot/definition.json",
+      "texture_directory": "assets/models/vehicles/peugeot/textures",
+      "output": "assets/models/mega/car-6.glb"
+    },
+    {
+      "key": "tank",
+      "render_id": 8,
+      "physical_id": 8,
+      "mode": "mega",
+      "source": {
+        "archive": "data/allcars.bfp",
+        "archive_crc32": "92273ec9",
+        "member": 28,
+        "member_name": "cars\\tank\\high\\t",
+        "member_crc32": "3d3ea7c9"
+      },
+      "definition": "assets/models/vehicles/tank/definition.json",
+      "texture_directory": "assets/models/vehicles/tank/textures",
+      "output": "assets/models/mega/car-8.glb"
+    },
+    {
+      "key": "flexmobile",
+      "render_id": 9,
+      "physical_id": 9,
+      "mode": "mega",
+      "source": {
+        "archive": "data/allcars.bfp",
+        "archive_crc32": "92273ec9",
+        "member": 31,
+        "member_name": "cars\\flex\\high\\f",
+        "member_crc32": "3234277d"
+      },
+      "definition": "assets/models/vehicles/flexmobile/definition.json",
+      "texture_directory": "assets/models/vehicles/flexmobile/textures",
+      "output": "assets/models/mega/car-9.glb"
+    }
+  ]
+}

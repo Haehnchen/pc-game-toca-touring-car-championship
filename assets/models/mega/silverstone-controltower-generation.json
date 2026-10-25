@@ -1,0 +1,833 @@
+{
+  "version": 1,
+  "package": "R01-Silverstone-controltower",
+  "source": {
+    "path": "data/silvfree.bfp",
+    "crc32": "960a335c",
+    "member": 5,
+    "member_crc32": "a92b3b70"
+  },
+  "scope": {
+    "track": 1,
+    "building": {
+      "mesh": 20,
+      "name": "SI01CON_1",
+      "type": "28915f1e",
+      "source_crc32": "892dc79f",
+      "root": 82,
+      "node": 83,
+      "vertices": 119,
+      "triangles": 76
+    },
+    "new_unique_source_images": 8,
+    "changed_original_slots": 9,
+    "shared_crowd_grandstand_placements": 22,
+    "shared_corner_placements": 8
+  },
+  "geometry": "Original simple tower body, roofs, supports and return planes retained. All positions/normals/UVs/corners/colors/materialbindings, definitions and512 hierarchy nodes unchanged. Shared grandstand bodies remain canonical; no added geometry or slots.",
+  "reused_material": {
+    "name": "IL01CO1",
+    "image": {
+      "path": "assets/models/mega/textures/silverstone-brdc-il01co1.webp",
+      "crc32": "56dfe12c",
+      "bytes": 17754,
+      "size": [
+        512,
+        256
+      ]
+    },
+    "provenance": "assets/models/mega/silverstone-brdc-generation.json",
+    "contract": "Unchanged accepted shared facade and BRDC roof crop."
+  },
+  "uv_contract": "Eight exact source-name/size/BMP-CRC mappings. N04GSF1/N04gsf1 source aliases share one new image atslots67/76. Original window/return crops, crowd orientation/mirroring and repeatphase retained; CO3/CO7 exact masks remain. IL01CON constant-UV faces retain the dark bottom-left sample.",
+  "export": "Whole-artwork Lanczos resize to original aspect, longest edge512, WebP quality80 method6. Crop only recorded AI presentation padding on CO2. Two cutout charts use opaque auxiliary Imagegen colorplates beneath immutable source alpha. No source RGB copy, added game texture or UV remap.",
+  "materials": [
+    {
+      "name": "IL01CO2",
+      "aliases": [
+        "IL01CO2"
+      ],
+      "source": {
+        "source_slots": [
+          62
+        ],
+        "crc32": "c0b1196e",
+        "size": [
+          128,
+          32
+        ],
+        "black_key_pixels": 0
+      },
+      "consumers": [
+        {
+          "mesh": 20,
+          "name": "SI01CON_1",
+          "slot": 62,
+          "nodes": [
+            83
+          ],
+          "faces": 2,
+          "uv_bounds": [
+            [
+              0.0,
+              1.0
+            ],
+            [
+              -0.9999847412109375,
+              -0.0322418212890625
+            ]
+          ]
+        }
+      ],
+      "references": [
+        {
+          "path": "build/silverstone-controltower/IL01CO2-source6x.png",
+          "crc32": "aa5f8e52",
+          "bytes": 7911,
+          "size": [
+            768,
+            192
+          ]
+        },
+        {
+          "path": "assets/models/mega/textures/silverstone-brdc-il01co1.webp",
+          "crc32": "56dfe12c",
+          "bytes": 17754,
+          "size": [
+            512,
+            256
+          ]
+        }
+      ],
+      "generated": {
+        "path": "build/silverstone-controltower/IL01CO2-generated.png",
+        "crc32": "47ff4cef",
+        "bytes": 1764493,
+        "size": [
+          2170,
+          725
+        ]
+      },
+      "output": {
+        "path": "assets/models/mega/textures/silverstone-controltower-il01co2.webp",
+        "crc32": "d8ceb456",
+        "bytes": 7352,
+        "size": [
+          512,
+          128
+        ]
+      },
+      "processing_crop": [
+        0,
+        100,
+        2170,
+        674
+      ],
+      "alpha": "Fully opaque, including dark windows/crowd gaps.",
+      "reconstruction": "Three red italic Autosport motifs confirmed by related original IL01CO1 and CO2; clean glyphs/small grey marks are source-guided reconstruction, with no extra wording. Accepted CO1 provides finish only."
+    },
+    {
+      "name": "IL01CO3",
+      "aliases": [
+        "IL01CO3"
+      ],
+      "source": {
+        "source_slots": [
+          63
+        ],
+        "crc32": "da2e4b1d",
+        "size": [
+          128,
+          64
+        ],
+        "black_key_pixels": 5832
+      },
+      "consumers": [
+        {
+          "mesh": 20,
+          "name": "SI01CON_1",
+          "slot": 63,
+          "nodes": [
+            83
+          ],
+          "faces": 8,
+          "uv_bounds": [
+            [
+              0.0,
+              1.0
+            ],
+            [
+              -0.9999847412109375,
+              -0.0317230224609375
+            ]
+          ]
+        }
+      ],
+      "generated": {
+        "path": "build/silverstone-controltower/IL01CO3-generated.png",
+        "crc32": "4b0f1f32",
+        "bytes": 2643534,
+        "size": [
+          1774,
+          887
+        ]
+      },
+      "output": {
+        "path": "assets/models/mega/textures/silverstone-controltower-il01co3.webp",
+        "crc32": "ce8bde19",
+        "bytes": 3050,
+        "size": [
+          512,
+          256
+        ]
+      },
+      "processing_crop": [
+        0,
+        0,
+        1774,
+        887
+      ],
+      "alpha": "Exact source RGB(0,0,0) black-key mask, nearest-scaled to output; new opaque Imagegen RGB underpainting beneath it, no original RGB copied."
+    },
+    {
+      "name": "IL01CO4",
+      "aliases": [
+        "IL01CO4"
+      ],
+      "source": {
+        "source_slots": [
+          64
+        ],
+        "crc32": "c540863b",
+        "size": [
+          64,
+          128
+        ],
+        "black_key_pixels": 0
+      },
+      "consumers": [
+        {
+          "mesh": 20,
+          "name": "SI01CON_1",
+          "slot": 64,
+          "nodes": [
+            83
+          ],
+          "faces": 4,
+          "uv_bounds": [
+            [
+              0.0,
+              1.0
+            ],
+            [
+              -0.9999847412109375,
+              -0.0158538818359375
+            ]
+          ]
+        }
+      ],
+      "generated": {
+        "path": "build/silverstone-controltower/IL01CO4-generated.png",
+        "crc32": "1c2d81a5",
+        "bytes": 2954417,
+        "size": [
+          887,
+          1774
+        ]
+      },
+      "output": {
+        "path": "assets/models/mega/textures/silverstone-controltower-il01co4.webp",
+        "crc32": "01c2c859",
+        "bytes": 4042,
+        "size": [
+          256,
+          512
+        ]
+      },
+      "processing_crop": [
+        0,
+        0,
+        887,
+        1774
+      ],
+      "alpha": "Fully opaque, including dark windows/crowd gaps."
+    },
+    {
+      "name": "IL01CO5",
+      "aliases": [
+        "IL01CO5"
+      ],
+      "source": {
+        "source_slots": [
+          65
+        ],
+        "crc32": "92c1ae42",
+        "size": [
+          64,
+          128
+        ],
+        "black_key_pixels": 0
+      },
+      "consumers": [
+        {
+          "mesh": 20,
+          "name": "SI01CON_1",
+          "slot": 65,
+          "nodes": [
+            83
+          ],
+          "faces": 4,
+          "uv_bounds": [
+            [
+              0.0,
+              1.0
+            ],
+            [
+              -0.9999847412109375,
+              -0.0158538818359375
+            ]
+          ]
+        }
+      ],
+      "generated": {
+        "path": "build/silverstone-controltower/IL01CO5-generated.png",
+        "crc32": "302de470",
+        "bytes": 2697379,
+        "size": [
+          887,
+          1774
+        ]
+      },
+      "output": {
+        "path": "assets/models/mega/textures/silverstone-controltower-il01co5.webp",
+        "crc32": "0f1a8505",
+        "bytes": 3890,
+        "size": [
+          256,
+          512
+        ]
+      },
+      "processing_crop": [
+        0,
+        0,
+        887,
+        1774
+      ],
+      "alpha": "Fully opaque, including dark windows/crowd gaps."
+    },
+    {
+      "name": "IL01CO7",
+      "aliases": [
+        "IL01CO7"
+      ],
+      "source": {
+        "source_slots": [
+          66
+        ],
+        "crc32": "8650d7a3",
+        "size": [
+          64,
+          64
+        ],
+        "black_key_pixels": 2030
+      },
+      "consumers": [
+        {
+          "mesh": 20,
+          "name": "SI01CON_1",
+          "slot": 66,
+          "nodes": [
+            83
+          ],
+          "faces": 16,
+          "uv_bounds": [
+            [
+              0.0,
+              1.0
+            ],
+            [
+              -0.9999847412109375,
+              1.52587890625e-05
+            ]
+          ]
+        }
+      ],
+      "generated": {
+        "path": "build/silverstone-controltower/IL01CO7-generated.png",
+        "crc32": "a84e1eb2",
+        "bytes": 2973562,
+        "size": [
+          1254,
+          1254
+        ]
+      },
+      "output": {
+        "path": "assets/models/mega/textures/silverstone-controltower-il01co7.webp",
+        "crc32": "0187c7d6",
+        "bytes": 10230,
+        "size": [
+          512,
+          512
+        ]
+      },
+      "processing_crop": [
+        0,
+        0,
+        1254,
+        1254
+      ],
+      "alpha": "Exact source RGB(0,0,0) black-key mask, nearest-scaled to output; new opaque Imagegen RGB underpainting beneath it, no original RGB copied."
+    },
+    {
+      "name": "N04GSF1",
+      "aliases": [
+        "N04GSF1",
+        "N04gsf1"
+      ],
+      "source": {
+        "source_slots": [
+          67,
+          76
+        ],
+        "crc32": "18273e0e",
+        "size": [
+          64,
+          64
+        ],
+        "black_key_pixels": 0
+      },
+      "consumers": [
+        {
+          "mesh": 20,
+          "name": "SI01CON_1",
+          "slot": 67,
+          "nodes": [
+            83
+          ],
+          "faces": 4,
+          "uv_bounds": [
+            [
+              0.30157470703125,
+              0.9841156005859375
+            ],
+            [
+              -0.9999847412109375,
+              -0.0158538818359375
+            ]
+          ]
+        },
+        {
+          "mesh": 23,
+          "name": "SI20GS3B_1",
+          "slot": 67,
+          "nodes": [
+            89,
+            107,
+            111,
+            117,
+            119
+          ],
+          "faces": 4,
+          "uv_bounds": [
+            [
+              0.0,
+              0.9841156005859375
+            ],
+            [
+              -0.9999847412109375,
+              -0.0475921630859375
+            ]
+          ]
+        },
+        {
+          "mesh": 31,
+          "name": "SI20GSBW_1",
+          "slot": 67,
+          "nodes": [
+            167,
+            169,
+            171,
+            173
+          ],
+          "faces": 4,
+          "uv_bounds": [
+            [
+              0.0,
+              0.9841156005859375
+            ],
+            [
+              -0.9999847412109375,
+              -0.111083984375
+            ]
+          ]
+        },
+        {
+          "mesh": 21,
+          "name": "SI20GSD2_1",
+          "slot": 76,
+          "nodes": [
+            85,
+            99,
+            101,
+            103,
+            121,
+            123,
+            131,
+            133
+          ],
+          "faces": 4,
+          "uv_bounds": [
+            [
+              0.0,
+              1.0
+            ],
+            [
+              -0.9999847412109375,
+              1.52587890625e-05
+            ]
+          ]
+        },
+        {
+          "mesh": 24,
+          "name": "SI20GSRW_1",
+          "slot": 76,
+          "nodes": [
+            91,
+            93,
+            95,
+            97,
+            125
+          ],
+          "faces": 4,
+          "uv_bounds": [
+            [
+              0.0,
+              1.0
+            ],
+            [
+              -0.9999847412109375,
+              1.52587890625e-05
+            ]
+          ]
+        }
+      ],
+      "references": [
+        {
+          "path": "build/silverstone-controltower/N04GSF1-source6x.png",
+          "crc32": "ba9ec78c",
+          "bytes": 9007,
+          "size": [
+            384,
+            384
+          ]
+        },
+        {
+          "path": "assets/models/mega/textures/donington-spectators-lpeople5.webp",
+          "crc32": "c54249dd",
+          "bytes": 38236,
+          "size": [
+            512,
+            256
+          ]
+        }
+      ],
+      "generated": {
+        "path": "build/silverstone-controltower/N04GSF1-generated.png",
+        "crc32": "c89c86ac",
+        "bytes": 2261044,
+        "size": [
+          1254,
+          1254
+        ]
+      },
+      "output": {
+        "path": "assets/models/mega/textures/silverstone-controltower-n04gsf1.webp",
+        "crc32": "ec918490",
+        "bytes": 47040,
+        "size": [
+          512,
+          512
+        ]
+      },
+      "processing_crop": [
+        0,
+        0,
+        1254,
+        1254
+      ],
+      "alpha": "Fully opaque, including dark windows/crowd gaps.",
+      "reconstruction": "Continuous natural spectator forms replace coarse source clusters; dark stair lane, source color distribution and full opaque background retained. Existing Donington spectators supply material finish only, not layout or alpha. No new spectator geometry."
+    },
+    {
+      "name": "IL01CO8",
+      "aliases": [
+        "IL01CO8"
+      ],
+      "source": {
+        "source_slots": [
+          68
+        ],
+        "crc32": "4da64103",
+        "size": [
+          64,
+          64
+        ],
+        "black_key_pixels": 0
+      },
+      "consumers": [
+        {
+          "mesh": 20,
+          "name": "SI01CON_1",
+          "slot": 68,
+          "nodes": [
+            83
+          ],
+          "faces": 25,
+          "uv_bounds": [
+            [
+              0.0,
+              1.0
+            ],
+            [
+              -0.9999847412109375,
+              -0.0158538818359375
+            ]
+          ]
+        }
+      ],
+      "generated": {
+        "path": "build/silverstone-controltower/IL01CO8-generated.png",
+        "crc32": "ecb3d1b8",
+        "bytes": 2566784,
+        "size": [
+          1254,
+          1254
+        ]
+      },
+      "output": {
+        "path": "assets/models/mega/textures/silverstone-controltower-il01co8.webp",
+        "crc32": "6d4630fc",
+        "bytes": 5166,
+        "size": [
+          512,
+          512
+        ]
+      },
+      "processing_crop": [
+        0,
+        0,
+        1254,
+        1254
+      ],
+      "alpha": "Fully opaque, including dark windows/crowd gaps."
+    },
+    {
+      "name": "IL01CON",
+      "aliases": [
+        "IL01CON"
+      ],
+      "source": {
+        "source_slots": [
+          69
+        ],
+        "crc32": "0c2f395c",
+        "size": [
+          128,
+          64
+        ],
+        "black_key_pixels": 0
+      },
+      "consumers": [
+        {
+          "mesh": 20,
+          "name": "SI01CON_1",
+          "slot": 69,
+          "nodes": [
+            83
+          ],
+          "faces": 4,
+          "uv_bounds": [
+            [
+              0.0,
+              0.9921112060546875
+            ],
+            [
+              -0.9999847412109375,
+              1.52587890625e-05
+            ]
+          ]
+        },
+        {
+          "mesh": 21,
+          "name": "SI20GSD2_1",
+          "slot": 69,
+          "nodes": [
+            85,
+            99,
+            101,
+            103,
+            121,
+            123,
+            131,
+            133
+          ],
+          "faces": 2,
+          "uv_bounds": [
+            [
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0
+            ]
+          ]
+        }
+      ],
+      "generated": {
+        "path": "build/silverstone-controltower/IL01CON-generated.png",
+        "crc32": "40351065",
+        "bytes": 2433976,
+        "size": [
+          1774,
+          887
+        ]
+      },
+      "output": {
+        "path": "assets/models/mega/textures/silverstone-controltower-il01con.webp",
+        "crc32": "7417fea3",
+        "bytes": 4198,
+        "size": [
+          512,
+          256
+        ]
+      },
+      "processing_crop": [
+        0,
+        0,
+        1774,
+        887
+      ],
+      "alpha": "Fully opaque, including dark windows/crowd gaps.",
+      "reconstruction": "No resolvable header wording in this source or related original wall charts; quiet pale tonal structure retained without added text. Bottom-left source dark grey-olive sample retained for constant-UV grandstand faces."
+    }
+  ],
+  "shared_consumers": [
+    {
+      "mesh": 23,
+      "name": "SI20GS3B_1",
+      "slot": 67,
+      "nodes": [
+        89,
+        107,
+        111,
+        117,
+        119
+      ],
+      "uv_bounds": [
+        [
+          0.0,
+          0.9841156005859375
+        ],
+        [
+          -0.9999847412109375,
+          -0.0475921630859375
+        ]
+      ]
+    },
+    {
+      "mesh": 31,
+      "name": "SI20GSBW_1",
+      "slot": 67,
+      "nodes": [
+        167,
+        169,
+        171,
+        173
+      ],
+      "uv_bounds": [
+        [
+          0.0,
+          0.9841156005859375
+        ],
+        [
+          -0.9999847412109375,
+          -0.111083984375
+        ]
+      ]
+    },
+    {
+      "mesh": 21,
+      "name": "SI20GSD2_1",
+      "slot": 76,
+      "nodes": [
+        85,
+        99,
+        101,
+        103,
+        121,
+        123,
+        131,
+        133
+      ],
+      "uv_bounds": [
+        [
+          0.0,
+          1.0
+        ],
+        [
+          -0.9999847412109375,
+          1.52587890625e-05
+        ]
+      ]
+    },
+    {
+      "mesh": 24,
+      "name": "SI20GSRW_1",
+      "slot": 76,
+      "nodes": [
+        91,
+        93,
+        95,
+        97,
+        125
+      ],
+      "uv_bounds": [
+        [
+          0.0,
+          1.0
+        ],
+        [
+          -0.9999847412109375,
+          1.52587890625e-05
+        ]
+      ]
+    },
+    {
+      "mesh": 21,
+      "name": "SI20GSD2_1",
+      "slot": 69,
+      "nodes": [
+        85,
+        99,
+        101,
+        103,
+        121,
+        123,
+        131,
+        133
+      ],
+      "uv_bounds": [
+        [
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0
+        ]
+      ]
+    }
+  ],
+  "limits": "Other Silverstone types and shared-stand materials remain open. Canonical reference media unchanged/uncommitted. No performance measurements."
+}

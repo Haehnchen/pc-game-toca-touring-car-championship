@@ -1,0 +1,1048 @@
+{
+  "version": 1,
+  "package": "R03-Brands-Hatch-vegetation",
+  "source": {
+    "track": 3,
+    "path": "data/branfree.bfp",
+    "crc32": "ecc577c7",
+    "bytes": 2645477,
+    "members": {
+      "2": "55003579",
+      "3": "de9680a4",
+      "5": "90ddbd12",
+      "8": "87440301",
+      "9": "46178c94",
+      "10": "de435d9a",
+      "11": "1cccb3ce"
+    }
+  },
+  "source_members": [
+    {
+      "index": 2,
+      "name": "TREES.C3D",
+      "crc32": "55003579"
+    },
+    {
+      "index": 5,
+      "name": "OBJECTS.C3D",
+      "crc32": "90ddbd12"
+    }
+  ],
+  "scope": {
+    "track": 3,
+    "types": 68,
+    "bindings": 197,
+    "woodland_types": 61,
+    "near_tree_types": 7,
+    "newly_accepted_woodland_types": 61,
+    "already_accepted_near_tree_types": 7,
+    "source_images": 8,
+    "types_and_bindings": [
+      {
+        "member": 2,
+        "mesh": 0,
+        "name": "TREES_1",
+        "type": "5549b122",
+        "source_mesh_crc32": "6aed300f",
+        "bindings": 1
+      },
+      {
+        "member": 2,
+        "mesh": 1,
+        "name": "TREES_2",
+        "type": "0570ff0a",
+        "source_mesh_crc32": "d9458741",
+        "bindings": 1
+      },
+      {
+        "member": 2,
+        "mesh": 2,
+        "name": "TREES_3",
+        "type": "b31e5fea",
+        "source_mesh_crc32": "5c0c50da",
+        "bindings": 1
+      },
+      {
+        "member": 2,
+        "mesh": 3,
+        "name": "TREES_4",
+        "type": "7819878c",
+        "source_mesh_crc32": "ba1953fc",
+        "bindings": 1
+      },
+      {
+        "member": 2,
+        "mesh": 4,
+        "name": "TREES_5",
+        "type": "90874b1d",
+        "source_mesh_crc32": "94f365ba",
+        "bindings": 1
+      },
+      {
+        "member": 2,
+        "mesh": 5,
+        "name": "TREES_6",
+        "type": "756454d4",
+        "source_mesh_crc32": "636b2945",
+        "bindings": 1
+      },
+      {
+        "member": 2,
+        "mesh": 6,
+        "name": "TREES_7",
+        "type": "c94310ba",
+        "source_mesh_crc32": "8b01edd2",
+        "bindings": 1
+      },
+      {
+        "member": 2,
+        "mesh": 7,
+        "name": "TREES_8",
+        "type": "2d5a3f35",
+        "source_mesh_crc32": "788337a0",
+        "bindings": 1
+      },
+      {
+        "member": 2,
+        "mesh": 8,
+        "name": "TREES_9",
+        "type": "0c158e4c",
+        "source_mesh_crc32": "943f5269",
+        "bindings": 1
+      },
+      {
+        "member": 2,
+        "mesh": 9,
+        "name": "TREES_10",
+        "type": "528f0708",
+        "source_mesh_crc32": "01c412ed",
+        "bindings": 1
+      },
+      {
+        "member": 2,
+        "mesh": 10,
+        "name": "TREES_11",
+        "type": "489c10a2",
+        "source_mesh_crc32": "3fcac6b6",
+        "bindings": 1
+      },
+      {
+        "member": 2,
+        "mesh": 11,
+        "name": "TREES_12",
+        "type": "768ca765",
+        "source_mesh_crc32": "24f2fd99",
+        "bindings": 1
+      },
+      {
+        "member": 2,
+        "mesh": 12,
+        "name": "TREES_13",
+        "type": "aa8d26d3",
+        "source_mesh_crc32": "1c2fa3f3",
+        "bindings": 1
+      },
+      {
+        "member": 2,
+        "mesh": 13,
+        "name": "TREES_14",
+        "type": "a2746657",
+        "source_mesh_crc32": "631a88c7",
+        "bindings": 1
+      },
+      {
+        "member": 2,
+        "mesh": 14,
+        "name": "TREES_15",
+        "type": "510b2141",
+        "source_mesh_crc32": "6e00b6a3",
+        "bindings": 1
+      },
+      {
+        "member": 2,
+        "mesh": 15,
+        "name": "TREES_16",
+        "type": "b46f0d64",
+        "source_mesh_crc32": "ea711da8",
+        "bindings": 1
+      },
+      {
+        "member": 2,
+        "mesh": 16,
+        "name": "TREES_17",
+        "type": "b4235d42",
+        "source_mesh_crc32": "b2f2225d",
+        "bindings": 1
+      },
+      {
+        "member": 2,
+        "mesh": 17,
+        "name": "TREES_18",
+        "type": "41cbd8b1",
+        "source_mesh_crc32": "1194de1a",
+        "bindings": 1
+      },
+      {
+        "member": 2,
+        "mesh": 18,
+        "name": "TREES_19",
+        "type": "12280a75",
+        "source_mesh_crc32": "c2a852d0",
+        "bindings": 1
+      },
+      {
+        "member": 2,
+        "mesh": 19,
+        "name": "TREES_20",
+        "type": "de91a237",
+        "source_mesh_crc32": "a12b2b8b",
+        "bindings": 1
+      },
+      {
+        "member": 2,
+        "mesh": 20,
+        "name": "TREES_21",
+        "type": "90605541",
+        "source_mesh_crc32": "841f3599",
+        "bindings": 1
+      },
+      {
+        "member": 2,
+        "mesh": 21,
+        "name": "TREES_22",
+        "type": "d245a449",
+        "source_mesh_crc32": "d289fd45",
+        "bindings": 1
+      },
+      {
+        "member": 2,
+        "mesh": 22,
+        "name": "TREES_23",
+        "type": "d9729762",
+        "source_mesh_crc32": "0182650d",
+        "bindings": 1
+      },
+      {
+        "member": 2,
+        "mesh": 23,
+        "name": "TREES_24",
+        "type": "eba7220e",
+        "source_mesh_crc32": "a32f9e28",
+        "bindings": 1
+      },
+      {
+        "member": 2,
+        "mesh": 24,
+        "name": "TREES_25",
+        "type": "af7b8b54",
+        "source_mesh_crc32": "e52d0dd4",
+        "bindings": 1
+      },
+      {
+        "member": 2,
+        "mesh": 25,
+        "name": "TREES_26",
+        "type": "7f4d15e0",
+        "source_mesh_crc32": "797a926c",
+        "bindings": 1
+      },
+      {
+        "member": 2,
+        "mesh": 26,
+        "name": "TREES_27",
+        "type": "b4bbe0ad",
+        "source_mesh_crc32": "a108a772",
+        "bindings": 1
+      },
+      {
+        "member": 2,
+        "mesh": 27,
+        "name": "TREES_28",
+        "type": "77395e8c",
+        "source_mesh_crc32": "f04d2a6a",
+        "bindings": 1
+      },
+      {
+        "member": 2,
+        "mesh": 28,
+        "name": "TREES_29",
+        "type": "b0b93903",
+        "source_mesh_crc32": "7119397a",
+        "bindings": 1
+      },
+      {
+        "member": 2,
+        "mesh": 29,
+        "name": "TREES_30",
+        "type": "9c5a18af",
+        "source_mesh_crc32": "23423e38",
+        "bindings": 1
+      },
+      {
+        "member": 2,
+        "mesh": 30,
+        "name": "TREES_31",
+        "type": "3966da68",
+        "source_mesh_crc32": "31cddbc9",
+        "bindings": 1
+      },
+      {
+        "member": 2,
+        "mesh": 31,
+        "name": "TREES_32",
+        "type": "d52d4c15",
+        "source_mesh_crc32": "25d623da",
+        "bindings": 1
+      },
+      {
+        "member": 2,
+        "mesh": 32,
+        "name": "TREES_33",
+        "type": "98afa29e",
+        "source_mesh_crc32": "d4c4ee9f",
+        "bindings": 1
+      },
+      {
+        "member": 2,
+        "mesh": 33,
+        "name": "TREES_34",
+        "type": "6cb1c558",
+        "source_mesh_crc32": "51a57545",
+        "bindings": 1
+      },
+      {
+        "member": 2,
+        "mesh": 34,
+        "name": "TREES_35",
+        "type": "0319e3b6",
+        "source_mesh_crc32": "367efc91",
+        "bindings": 1
+      },
+      {
+        "member": 2,
+        "mesh": 35,
+        "name": "TREES_36",
+        "type": "41e97542",
+        "source_mesh_crc32": "b0f7de48",
+        "bindings": 1
+      },
+      {
+        "member": 2,
+        "mesh": 36,
+        "name": "TREES_37",
+        "type": "a4c26825",
+        "source_mesh_crc32": "5abdcbdc",
+        "bindings": 1
+      },
+      {
+        "member": 2,
+        "mesh": 37,
+        "name": "TREES_38",
+        "type": "c843cbd5",
+        "source_mesh_crc32": "4a22fdd4",
+        "bindings": 1
+      },
+      {
+        "member": 2,
+        "mesh": 38,
+        "name": "TREES_39",
+        "type": "48c4a869",
+        "source_mesh_crc32": "a0f669af",
+        "bindings": 1
+      },
+      {
+        "member": 2,
+        "mesh": 39,
+        "name": "TREES_40",
+        "type": "bbb35c1c",
+        "source_mesh_crc32": "7b23ffdf",
+        "bindings": 1
+      },
+      {
+        "member": 2,
+        "mesh": 40,
+        "name": "TREES_41",
+        "type": "259440e2",
+        "source_mesh_crc32": "d6363746",
+        "bindings": 1
+      },
+      {
+        "member": 2,
+        "mesh": 41,
+        "name": "TREES_42",
+        "type": "6406b961",
+        "source_mesh_crc32": "dfbdf860",
+        "bindings": 1
+      },
+      {
+        "member": 2,
+        "mesh": 42,
+        "name": "TREES_43",
+        "type": "84f1c8b8",
+        "source_mesh_crc32": "2ee3290e",
+        "bindings": 1
+      },
+      {
+        "member": 2,
+        "mesh": 43,
+        "name": "TREES_44",
+        "type": "5c2fb6df",
+        "source_mesh_crc32": "4c03f5df",
+        "bindings": 1
+      },
+      {
+        "member": 2,
+        "mesh": 44,
+        "name": "TREES_45",
+        "type": "1eba5813",
+        "source_mesh_crc32": "8f4b4da2",
+        "bindings": 1
+      },
+      {
+        "member": 2,
+        "mesh": 45,
+        "name": "TREES_46",
+        "type": "a859e52d",
+        "source_mesh_crc32": "a94ed057",
+        "bindings": 1
+      },
+      {
+        "member": 2,
+        "mesh": 46,
+        "name": "TREES_47",
+        "type": "ee0af9bb",
+        "source_mesh_crc32": "e010a0a1",
+        "bindings": 1
+      },
+      {
+        "member": 2,
+        "mesh": 47,
+        "name": "TREES_48",
+        "type": "2617075d",
+        "source_mesh_crc32": "fdb2b46a",
+        "bindings": 1
+      },
+      {
+        "member": 2,
+        "mesh": 48,
+        "name": "TREES_49",
+        "type": "b53672eb",
+        "source_mesh_crc32": "3cf792be",
+        "bindings": 1
+      },
+      {
+        "member": 2,
+        "mesh": 49,
+        "name": "TREES_50",
+        "type": "42e3162c",
+        "source_mesh_crc32": "0e04a7ad",
+        "bindings": 1
+      },
+      {
+        "member": 2,
+        "mesh": 50,
+        "name": "TREES_51",
+        "type": "be4f431c",
+        "source_mesh_crc32": "23d182ac",
+        "bindings": 1
+      },
+      {
+        "member": 2,
+        "mesh": 51,
+        "name": "TREES_52",
+        "type": "0fbcca63",
+        "source_mesh_crc32": "e97e74c0",
+        "bindings": 1
+      },
+      {
+        "member": 2,
+        "mesh": 52,
+        "name": "TREES_53",
+        "type": "3678adbb",
+        "source_mesh_crc32": "24dd4678",
+        "bindings": 1
+      },
+      {
+        "member": 2,
+        "mesh": 53,
+        "name": "TREES_54",
+        "type": "526dbdeb",
+        "source_mesh_crc32": "66dd8d6c",
+        "bindings": 1
+      },
+      {
+        "member": 2,
+        "mesh": 54,
+        "name": "TREES_55",
+        "type": "f93961af",
+        "source_mesh_crc32": "681bc857",
+        "bindings": 1
+      },
+      {
+        "member": 2,
+        "mesh": 55,
+        "name": "TREES_56",
+        "type": "09331081",
+        "source_mesh_crc32": "1abeafc0",
+        "bindings": 1
+      },
+      {
+        "member": 2,
+        "mesh": 56,
+        "name": "TREES_57",
+        "type": "fd7b3502",
+        "source_mesh_crc32": "f6e8a2dc",
+        "bindings": 1
+      },
+      {
+        "member": 2,
+        "mesh": 57,
+        "name": "TREES_58",
+        "type": "ae85da81",
+        "source_mesh_crc32": "41274ce9",
+        "bindings": 1
+      },
+      {
+        "member": 2,
+        "mesh": 58,
+        "name": "TREES_59",
+        "type": "3adf563f",
+        "source_mesh_crc32": "7e9ba2bb",
+        "bindings": 1
+      },
+      {
+        "member": 2,
+        "mesh": 59,
+        "name": "TREES_60",
+        "type": "3557198c",
+        "source_mesh_crc32": "0f79aec6",
+        "bindings": 1
+      },
+      {
+        "member": 2,
+        "mesh": 60,
+        "name": "TREES_61",
+        "type": "d87691c0",
+        "source_mesh_crc32": "08492d1e",
+        "bindings": 1
+      },
+      {
+        "member": 5,
+        "mesh": 36,
+        "name": "TRIS04_1",
+        "type": "4d495cab",
+        "source_mesh_crc32": "c0c6c7ae",
+        "bindings": 40
+      },
+      {
+        "member": 5,
+        "mesh": 37,
+        "name": "TRIS07_1",
+        "type": "1399179f",
+        "source_mesh_crc32": "7cd936e1",
+        "bindings": 6
+      },
+      {
+        "member": 5,
+        "mesh": 38,
+        "name": "TRGS22_1",
+        "type": "f6e83713",
+        "source_mesh_crc32": "9aa00e17",
+        "bindings": 29
+      },
+      {
+        "member": 5,
+        "mesh": 39,
+        "name": "TRIS04B_1",
+        "type": "478d5593",
+        "source_mesh_crc32": "fbcee867",
+        "bindings": 25
+      },
+      {
+        "member": 5,
+        "mesh": 40,
+        "name": "TRGS20_1",
+        "type": "bbca0ae4",
+        "source_mesh_crc32": "13e0d1fa",
+        "bindings": 24
+      },
+      {
+        "member": 5,
+        "mesh": 41,
+        "name": "TRGS18_1",
+        "type": "119e173f",
+        "source_mesh_crc32": "5bd1ebb3",
+        "bindings": 7
+      },
+      {
+        "member": 5,
+        "mesh": 42,
+        "name": "TRGE17_1",
+        "type": "775a3fdc",
+        "source_mesh_crc32": "d17ae90b",
+        "bindings": 5
+      }
+    ]
+  },
+  "geometry": "All 77 model bundles retain geometry, UVs, normals, nodes, slots and placements. Brands woodland retains 61 canonical simple meshes. Seven accepted near-tree bodies remain unchanged; no new crown or leaf geometry.",
+  "materials": [
+    {
+      "name": "LLRTS1",
+      "source_crc32": "c2bf9d3b",
+      "source_size": [
+        128,
+        32
+      ],
+      "source_palette_crc32": "4f1deb08",
+      "action": "replace-direct-artwork-with-source-layout-and-mask",
+      "output": {
+        "path": "assets/models/mega/textures/brands-vegetation-llrts1.webp",
+        "crc32": "99eae42a",
+        "bytes": 10782
+      },
+      "generated": {
+        "path": "build/brands-vegetation/LLRTS1-generated.png",
+        "crc32": "d6238968",
+        "size": [
+          2170,
+          725
+        ]
+      },
+      "crop": [
+        0,
+        89,
+        2170,
+        634
+      ],
+      "export": {
+        "path": "assets/models/mega/textures/brands-vegetation-llrts1.webp",
+        "crc32": "99eae42a",
+        "bytes": 10782,
+        "size": [
+          512,
+          128
+        ],
+        "webp_quality": 70,
+        "webp_method": 6
+      },
+      "alpha": {
+        "exact_source_black_key": true,
+        "crc32": "74bc40b8",
+        "black_key_source_pixels": 613
+      }
+    },
+    {
+      "name": "LLRTS2",
+      "source_crc32": "bec80580",
+      "source_size": [
+        128,
+        32
+      ],
+      "source_palette_crc32": "4f1deb08",
+      "action": "replace-direct-artwork-with-source-layout-and-mask",
+      "output": {
+        "path": "assets/models/mega/textures/brands-vegetation-llrts2.webp",
+        "crc32": "e7af3819",
+        "bytes": 11142
+      },
+      "generated": {
+        "path": "build/brands-vegetation/LLRTS2-generated.png",
+        "crc32": "151314fc",
+        "size": [
+          2170,
+          725
+        ]
+      },
+      "crop": [
+        0,
+        80,
+        2170,
+        644
+      ],
+      "export": {
+        "path": "assets/models/mega/textures/brands-vegetation-llrts2.webp",
+        "crc32": "e7af3819",
+        "bytes": 11142,
+        "size": [
+          512,
+          128
+        ],
+        "webp_quality": 70,
+        "webp_method": 6
+      },
+      "alpha": {
+        "exact_source_black_key": true,
+        "crc32": "330c009f",
+        "black_key_source_pixels": 690
+      }
+    },
+    {
+      "name": "LHRTS4",
+      "source_crc32": "9382b6a6",
+      "source_size": [
+        64,
+        64
+      ],
+      "source_palette_crc32": "c2ef88fe",
+      "action": "replace-direct-artwork-with-source-layout-and-mask",
+      "output": {
+        "path": "assets/models/mega/textures/brands-vegetation-lhrts4.webp",
+        "crc32": "dc47ee68",
+        "bytes": 25344
+      },
+      "generated": {
+        "path": "build/brands-vegetation/LHRTS4-generated.png",
+        "crc32": "04cdcab6",
+        "size": [
+          1254,
+          1254
+        ]
+      },
+      "crop": [
+        0,
+        0,
+        1254,
+        1254
+      ],
+      "export": {
+        "path": "assets/models/mega/textures/brands-vegetation-lhrts4.webp",
+        "crc32": "dc47ee68",
+        "bytes": 25344,
+        "size": [
+          512,
+          512
+        ],
+        "webp_quality": 70,
+        "webp_method": 6
+      },
+      "alpha": {
+        "exact_source_black_key": true,
+        "crc32": "0214b513",
+        "black_key_source_pixels": 1939
+      }
+    },
+    {
+      "name": "LHRTS7",
+      "source_crc32": "a7ffa46d",
+      "source_size": [
+        64,
+        64
+      ],
+      "source_palette_crc32": "c2ef88fe",
+      "action": "replace-direct-artwork-with-source-layout-and-mask",
+      "output": {
+        "path": "assets/models/mega/textures/brands-vegetation-lhrts7.webp",
+        "crc32": "6a1bc3bc",
+        "bytes": 8544
+      },
+      "generated": {
+        "path": "build/brands-vegetation/LHRTS7-generated.png",
+        "crc32": "01234827",
+        "size": [
+          1254,
+          1254
+        ]
+      },
+      "crop": [
+        0,
+        0,
+        1254,
+        1254
+      ],
+      "export": {
+        "path": "assets/models/mega/textures/brands-vegetation-lhrts7.webp",
+        "crc32": "6a1bc3bc",
+        "bytes": 8544,
+        "size": [
+          512,
+          512
+        ],
+        "webp_quality": 70,
+        "webp_method": 6
+      },
+      "alpha": {
+        "exact_source_black_key": true,
+        "crc32": "2d92b34f",
+        "black_key_source_pixels": 3410
+      }
+    },
+    {
+      "name": "LMRTS4",
+      "source_crc32": "fdd0802f",
+      "source_size": [
+        64,
+        32
+      ],
+      "source_palette_crc32": "c2ef88fe",
+      "action": "replace-direct-artwork-with-source-layout-and-mask",
+      "output": {
+        "path": "assets/models/mega/textures/brands-vegetation-lmrts4.webp",
+        "crc32": "0f1dfb62",
+        "bytes": 12966
+      },
+      "generated": {
+        "path": "build/brands-vegetation/LMRTS4-generated.png",
+        "crc32": "1cf69532",
+        "size": [
+          1774,
+          887
+        ]
+      },
+      "crop": [
+        0,
+        0,
+        1774,
+        887
+      ],
+      "export": {
+        "path": "assets/models/mega/textures/brands-vegetation-lmrts4.webp",
+        "crc32": "0f1dfb62",
+        "bytes": 12966,
+        "size": [
+          512,
+          256
+        ],
+        "webp_quality": 70,
+        "webp_method": 6
+      },
+      "alpha": {
+        "exact_source_black_key": true,
+        "crc32": "8cfc85d7",
+        "black_key_source_pixels": 617
+      }
+    },
+    {
+      "name": "LMRTS2",
+      "source_crc32": "2bb5e0c1",
+      "source_size": [
+        64,
+        32
+      ],
+      "source_palette_crc32": "c2ef88fe",
+      "action": "replace-direct-artwork-with-source-layout-and-mask",
+      "output": {
+        "path": "assets/models/mega/textures/brands-vegetation-lmrts2.webp",
+        "crc32": "aee52803",
+        "bytes": 17826
+      },
+      "generated": {
+        "path": "build/brands-vegetation/LMRTS2-generated.png",
+        "crc32": "e54ae950",
+        "size": [
+          1774,
+          887
+        ]
+      },
+      "crop": [
+        0,
+        0,
+        1774,
+        887
+      ],
+      "export": {
+        "path": "assets/models/mega/textures/brands-vegetation-lmrts2.webp",
+        "crc32": "aee52803",
+        "bytes": 17826,
+        "size": [
+          512,
+          256
+        ],
+        "webp_quality": 70,
+        "webp_method": 6
+      },
+      "alpha": {
+        "exact_source_black_key": true,
+        "crc32": "132c5298",
+        "black_key_source_pixels": 789
+      }
+    },
+    {
+      "name": "LHRTWS4",
+      "source_crc32": "cd66b801",
+      "source_size": [
+        128,
+        64
+      ],
+      "source_palette_crc32": "c2ef88fe",
+      "action": "replace-direct-artwork-with-source-layout-and-mask",
+      "output": {
+        "path": "assets/models/mega/textures/brands-vegetation-lhrtws4.webp",
+        "crc32": "494a5cd2",
+        "bytes": 23184
+      },
+      "generated": {
+        "path": "build/brands-vegetation/LHRTWS4-generated.png",
+        "crc32": "bb64e7d7",
+        "size": [
+          1774,
+          887
+        ]
+      },
+      "crop": [
+        0,
+        0,
+        1774,
+        887
+      ],
+      "export": {
+        "path": "assets/models/mega/textures/brands-vegetation-lhrtws4.webp",
+        "crc32": "494a5cd2",
+        "bytes": 23184,
+        "size": [
+          512,
+          256
+        ],
+        "webp_quality": 70,
+        "webp_method": 6
+      },
+      "alpha": {
+        "exact_source_black_key": true,
+        "crc32": "bddd91df",
+        "black_key_source_pixels": 1230
+      }
+    },
+    {
+      "name": "LHRTWS3",
+      "source_crc32": "6d9bbf4f",
+      "source_size": [
+        128,
+        64
+      ],
+      "source_palette_crc32": "c2ef88fe",
+      "action": "replace-direct-artwork-with-source-layout-and-mask",
+      "output": {
+        "path": "assets/models/mega/textures/brands-vegetation-lhrtws3.webp",
+        "crc32": "29b4dfaa",
+        "bytes": 20938
+      },
+      "generated": {
+        "path": "build/brands-vegetation/LHRTWS3-generated.png",
+        "crc32": "8af0a171",
+        "size": [
+          1774,
+          887
+        ]
+      },
+      "crop": [
+        0,
+        0,
+        1774,
+        887
+      ],
+      "export": {
+        "path": "assets/models/mega/textures/brands-vegetation-lhrtws3.webp",
+        "crc32": "29b4dfaa",
+        "bytes": 20938,
+        "size": [
+          512,
+          256
+        ],
+        "webp_quality": 70,
+        "webp_method": 6
+      },
+      "alpha": {
+        "exact_source_black_key": true,
+        "crc32": "475475ef",
+        "black_key_source_pixels": 1594
+      }
+    }
+  ],
+  "reused_append_materials": [
+    {
+      "image": "textures/vegetation-leaf7-brands-hatch.webp",
+      "crc32": "e22eb81a",
+      "bytes": 67848,
+      "binding": {
+        "append_material": "MegaTreeLf7",
+        "source_crc32": [
+          "a7ffa46d"
+        ],
+        "uv": "whole transparent foliage cluster"
+      },
+      "unchanged": true
+    },
+    {
+      "image": "textures/vegetation-grove-leaf-brands-hatch.webp",
+      "crc32": "045195cd",
+      "bytes": 67654,
+      "binding": {
+        "append_material": "MegaGroveLf",
+        "source_crc32": [
+          "6d9bbf4f"
+        ],
+        "uv": "whole transparent foliage cluster"
+      },
+      "unchanged": true
+    },
+    {
+      "image": "textures/vegetation-grove-lm4-brands-hatch.webp",
+      "crc32": "56307e0d",
+      "bytes": 84042,
+      "binding": {
+        "append_material": "MegaGrovLm4",
+        "source_crc32": [
+          "fdd0802f"
+        ],
+        "uv": "whole transparent foliage cluster"
+      },
+      "unchanged": true
+    },
+    {
+      "image": "textures/vegetation-grove-lm2-brands-hatch.webp",
+      "crc32": "af9a661f",
+      "bytes": 86090,
+      "binding": {
+        "append_material": "MegaGrovLm2",
+        "source_crc32": [
+          "2bb5e0c1"
+        ],
+        "uv": "whole transparent foliage cluster"
+      },
+      "unchanged": true
+    },
+    {
+      "image": "textures/vegetation-grove-leaf4-brands-hatch.webp",
+      "crc32": "f22450a4",
+      "bytes": 82266,
+      "binding": {
+        "append_material": "MegaGrovLf4",
+        "source_crc32": [
+          "cd66b801"
+        ],
+        "uv": "whole transparent foliage cluster"
+      },
+      "unchanged": true
+    },
+    {
+      "image": "textures/vegetation-leaf-brands-hatch.webp",
+      "crc32": "381fdddd",
+      "bytes": 69844,
+      "binding": {
+        "append_material": "MegaTreeLeaf",
+        "source_crc32": [
+          "9382b6a6"
+        ],
+        "uv": "whole transparent foliage cluster"
+      },
+      "unchanged": true
+    },
+    {
+      "image": "textures/vegetation-bark.webp",
+      "crc32": "82dbe84d",
+      "bytes": 19328,
+      "binding": {
+        "append_material": "MegaTreeBark",
+        "uv": "entire opaque image"
+      },
+      "unchanged": true
+    }
+  ],
+  "export": "Eight fresh source-guided RGB foliage plates; no source RGB enlargement or pixel tracing. Recorded presentation crop, Lanczos resize to original chart aspect/max512px, exact canonical pure-black alpha restored with nearest sampling. WebP70/method6. Existing authored WebP80 files unchanged.",
+  "material_contract": {
+    "direct_atlases": "Eight exact name/size/CRC32 replacements retain full-chart UVs, masks, canopy sequence, lower stem gaps, repeat counts and phase. LLRTS1/2 remain bottom-filled forest walls. Near groups retain original warm/cool colour distribution and crown positions.",
+    "actual_high_consumers": "All 61 woodland meshes sample the new LLRTS1/2. TRGE17,TRGS18,TRGS22,TRGS20 sample LHRTWS3,LHRTWS4,LMRTS4,LMRTS2 on retained source faces alongside existing leaf/bark. TRIS04,TRIS04B and TRIS07 HIGH bodies sample only accepted appended leaf/bark, so new direct LHRTS4/7 are not claimed as visible HIGH body changes. LHRTS4 and LMRTS4 retain related LOW/ZERO consumers.",
+    "append_materials": "Six source-specific supplemental leaf clusters and one shared bark image use their own accepted whole-sprite UVs; direct whole-tree source masks do not apply to those extra material slots. Their bytes and geometry remain unchanged.",
+    "sharing": "All eight exact source BMP identities are Brands-only. LLRTS1/2 target CRCs are split from shared same-name mapping rows; all other track variants keep their mappings and image bytes."
+  },
+  "limits": "Accepts only the listed68 vegetation types/197 bindings. Buildings, barriers, figures, flags and remaining props stay open:88 rows/85 types/417 raw bindings. Vehicles/cockpits excluded. Canonical source unchanged; no performance measurements."
+}

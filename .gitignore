@@ -1,0 +1,11 @@
+# Proprietary game files and local analysis
+/references/
+
+# Generated build output
+/build/
+/dist/
+/.codex/
+/.junie/
+
+# Python tool imports
+__pycache__/

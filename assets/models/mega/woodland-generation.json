@@ -1,0 +1,235 @@
+{
+  "version": 1,
+  "webp_quality": 80,
+  "scope": "M02a missing woodland; B04 joint horizon acceptance",
+  "sources": [
+    {
+      "id": "crof-sap1",
+      "file": "crof-sap1-generated.png",
+      "crc32": "3472d911",
+      "size": [
+        2172,
+        724
+      ],
+      "reference": {
+        "track": "crof",
+        "archive": "data/croffree.bfp",
+        "archive_crc32": "e4399113",
+        "member": 2,
+        "member_crc32": "ae8126bd",
+        "material_slot": 1,
+        "material": "SAP1",
+        "bmp_crc32": "0afaaa84",
+        "size": [
+          128,
+          32
+        ]
+      }
+    },
+    {
+      "id": "knoc-trge31",
+      "file": "knoc-trge31-generated.png",
+      "crc32": "213d7597",
+      "size": [
+        2164,
+        727
+      ],
+      "reference": {
+        "track": "knoc",
+        "archive": "data/knocfree.bfp",
+        "archive_crc32": "7e00bade",
+        "member": 2,
+        "member_crc32": "92f1098b",
+        "material_slot": 0,
+        "material": "trge31",
+        "bmp_crc32": "31ed58f5",
+        "size": [
+          128,
+          32
+        ]
+      }
+    },
+    {
+      "id": "snet-llrts2",
+      "file": "snet-llrts2-generated.png",
+      "crc32": "7b93bcb7",
+      "size": [
+        2164,
+        727
+      ],
+      "reference": {
+        "track": "snet",
+        "archive": "data/snetfree.bfp",
+        "archive_crc32": "4111866a",
+        "member": 2,
+        "member_crc32": "362bcf3f",
+        "material_slot": 1,
+        "material": "LLRTS2",
+        "bmp_crc32": "df4e2739",
+        "size": [
+          128,
+          16
+        ]
+      }
+    },
+    {
+      "id": "snet-llrtsx",
+      "file": "snet-llrtsx-generated.png",
+      "crc32": "39efc442",
+      "size": [
+        2164,
+        727
+      ],
+      "reference": {
+        "track": "snet",
+        "archive": "data/snetfree.bfp",
+        "archive_crc32": "4111866a",
+        "member": 2,
+        "member_crc32": "362bcf3f",
+        "material_slot": 2,
+        "material": "LLRTSX",
+        "bmp_crc32": "52fa060c",
+        "size": [
+          128,
+          32
+        ]
+      }
+    }
+  ],
+  "outputs": [
+    {
+      "source": "crof-sap1",
+      "image": "textures/woodland-crof-sap1.webp",
+      "crop": [
+        2172,
+        594,
+        0,
+        100
+      ],
+      "size": [
+        512,
+        128
+      ],
+      "alpha": "preserve",
+      "crc32": "a3457d54",
+      "bytes": 38708
+    },
+    {
+      "source": "knoc-trge31",
+      "image": "textures/woodland-knoc-trge31.webp",
+      "crop": [
+        2164,
+        600,
+        0,
+        93
+      ],
+      "size": [
+        512,
+        128
+      ],
+      "alpha": "preserve",
+      "crc32": "af4ef828",
+      "bytes": 35340
+    },
+    {
+      "source": "snet-llrts2",
+      "image": "textures/woodland-snet-llrts2.webp",
+      "crop": [
+        2164,
+        187,
+        0,
+        276
+      ],
+      "size": [
+        512,
+        64
+      ],
+      "alpha": "preserve",
+      "crc32": "a7eca032",
+      "bytes": 12366
+    },
+    {
+      "source": "snet-llrtsx",
+      "image": "textures/woodland-snet-llrtsx.webp",
+      "crop": [
+        2164,
+        552,
+        0,
+        80
+      ],
+      "size": [
+        512,
+        128
+      ],
+      "alpha": "preserve",
+      "crc32": "6ad9bec4",
+      "bytes": 31774
+    }
+  ],
+  "images": [
+    {
+      "material": "SAP1",
+      "source_bmp_crc32": "0afaaa84",
+      "source_size": [
+        128,
+        32
+      ],
+      "source_id": "crof-sap1",
+      "output": {
+        "path": "assets/models/mega/textures/woodland-crof-sap1.webp",
+        "width": 512,
+        "height": 128,
+        "crc32": "a3457d54",
+        "bytes": 38708
+      }
+    },
+    {
+      "material": "trge31",
+      "source_bmp_crc32": "31ed58f5",
+      "source_size": [
+        128,
+        32
+      ],
+      "source_id": "knoc-trge31",
+      "output": {
+        "path": "assets/models/mega/textures/woodland-knoc-trge31.webp",
+        "width": 512,
+        "height": 128,
+        "crc32": "af4ef828",
+        "bytes": 35340
+      }
+    },
+    {
+      "material": "LLRTS2",
+      "source_bmp_crc32": "df4e2739",
+      "source_size": [
+        128,
+        16
+      ],
+      "source_id": "snet-llrts2",
+      "output": {
+        "path": "assets/models/mega/textures/woodland-snet-llrts2.webp",
+        "width": 512,
+        "height": 64,
+        "crc32": "a7eca032",
+        "bytes": 12366
+      }
+    },
+    {
+      "material": "LLRTSX",
+      "source_bmp_crc32": "52fa060c",
+      "source_size": [
+        128,
+        32
+      ],
+      "source_id": "snet-llrtsx",
+      "output": {
+        "path": "assets/models/mega/textures/woodland-snet-llrtsx.webp",
+        "width": 512,
+        "height": 128,
+        "crc32": "6ad9bec4",
+        "bytes": 31774
+      }
+    }
+  ]
+}

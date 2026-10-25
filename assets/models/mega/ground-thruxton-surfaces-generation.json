@@ -1,0 +1,309 @@
+{
+  "version": 1,
+  "processing": "Each material generated separately with built-in Imagegen using its enlarged original layout. Full generated canvas resized with Lanczos and encoded as opaque RGB WebP quality80 method6. No programmatic painting, masking or material composition. PITCHEVR correction alone uses a nearest-resized3:1 original-layout input to compensate the built-in3:1 output before the final4:1 resize, preserving original stripe angles.",
+  "sources": [
+    {
+      "id": "NUGRASS",
+      "file": "exec-526f9539-37f6-421f-97fd-7c35eb634ea6.png",
+      "crc32": "0f433992",
+      "size": [
+        1254,
+        1254
+      ],
+      "reference": {
+        "archive": "data/thrufree.bfp",
+        "archive_crc32": "473c8fe8",
+        "member": 1,
+        "member_name": "GROUND.C3D",
+        "member_crc32": "b4905f2f",
+        "material_slot": 0,
+        "material": "NUGRASS",
+        "bmp_crc32": "068940dc",
+        "size": [
+          128,
+          128
+        ]
+      }
+    },
+    {
+      "id": "THWLINE",
+      "file": "exec-6f380b79-19b3-417c-8382-983479ef02b6.png",
+      "crc32": "e837cfba",
+      "size": [
+        1774,
+        887
+      ],
+      "reference": {
+        "archive": "data/thrufree.bfp",
+        "archive_crc32": "473c8fe8",
+        "member": 1,
+        "member_name": "GROUND.C3D",
+        "member_crc32": "b4905f2f",
+        "material_slot": 2,
+        "material": "THWLINE",
+        "bmp_crc32": "922ae7ee",
+        "size": [
+          64,
+          32
+        ]
+      }
+    },
+    {
+      "id": "RUMBLE",
+      "file": "exec-c00e0534-77ac-4c59-8a6e-9f5de09d3dfe.png",
+      "crc32": "1b82f90c",
+      "size": [
+        2172,
+        724
+      ],
+      "reference": {
+        "archive": "data/thrufree.bfp",
+        "archive_crc32": "473c8fe8",
+        "member": 1,
+        "member_name": "GROUND.C3D",
+        "member_crc32": "b4905f2f",
+        "material_slot": 4,
+        "material": "RUMBLE",
+        "bmp_crc32": "ed072933",
+        "size": [
+          128,
+          32
+        ]
+      }
+    },
+    {
+      "id": "GRAVEL",
+      "file": "exec-c407b074-6b53-4cc1-9ce9-c6aa8a142c6d.png",
+      "crc32": "707ffb3b",
+      "size": [
+        1254,
+        1254
+      ],
+      "reference": {
+        "archive": "data/thrufree.bfp",
+        "archive_crc32": "473c8fe8",
+        "member": 1,
+        "member_name": "GROUND.C3D",
+        "member_crc32": "b4905f2f",
+        "material_slot": 6,
+        "material": "GRAVEL",
+        "bmp_crc32": "8a5ca97f",
+        "size": [
+          64,
+          64
+        ]
+      }
+    },
+    {
+      "id": "DARKGRS",
+      "file": "exec-8ca9b428-87da-4f04-a714-b0bc524d23b5.png",
+      "crc32": "c2edabef",
+      "size": [
+        1254,
+        1254
+      ],
+      "reference": {
+        "archive": "data/thrufree.bfp",
+        "archive_crc32": "473c8fe8",
+        "member": 1,
+        "member_name": "GROUND.C3D",
+        "member_crc32": "b4905f2f",
+        "material_slot": 7,
+        "material": "DARKGRS",
+        "bmp_crc32": "9fe85b3b",
+        "size": [
+          64,
+          64
+        ]
+      }
+    },
+    {
+      "id": "SCRUB",
+      "file": "exec-4103d3f3-2883-4f76-ac34-62a244e73cbb.png",
+      "crc32": "f5f60723",
+      "size": [
+        1254,
+        1254
+      ],
+      "reference": {
+        "archive": "data/thrufree.bfp",
+        "archive_crc32": "473c8fe8",
+        "member": 1,
+        "member_name": "GROUND.C3D",
+        "member_crc32": "b4905f2f",
+        "material_slot": 8,
+        "material": "SCRUB",
+        "bmp_crc32": "5c56ff86",
+        "size": [
+          64,
+          64
+        ]
+      }
+    },
+    {
+      "id": "PITCHEVR",
+      "file": "exec-19ad9b84-b59b-4933-8b6c-130c1d327a8d.png",
+      "crc32": "ce1f3109",
+      "size": [
+        2170,
+        725
+      ],
+      "reference": {
+        "archive": "data/thrufree.bfp",
+        "archive_crc32": "473c8fe8",
+        "member": 1,
+        "member_name": "GROUND.C3D",
+        "member_crc32": "b4905f2f",
+        "material_slot": 12,
+        "material": "PITCHEVR",
+        "bmp_crc32": "bfdcb654",
+        "size": [
+          128,
+          32
+        ],
+        "layout_preparation": {
+          "source_path": "build/ground-texture-rollout/reference/02-thruxton/12-pitchevr-bfdcb654-layout.png",
+          "source_crc32": "81f08caf",
+          "source_size": [
+            512,
+            128
+          ],
+          "prepared_size": [
+            1536,
+            512
+          ],
+          "operation": "Whole-image nearest-neighbor resize; horizontal scale is0.75 of vertical scale. Input only, never final artwork."
+        }
+      }
+    }
+  ],
+  "outputs": [
+    {
+      "image": "textures/ground-thruxton-nugrass.webp",
+      "source": "NUGRASS",
+      "size": [
+        256,
+        256
+      ],
+      "alpha": "opaque",
+      "webp_quality": 80,
+      "method": 6,
+      "crc32": "21a3a5a6",
+      "bytes": 17902,
+      "mean_rgb": [
+        66.73,
+        83.144,
+        4.625
+      ]
+    },
+    {
+      "image": "textures/ground-thruxton-thwline.webp",
+      "source": "THWLINE",
+      "size": [
+        128,
+        64
+      ],
+      "alpha": "opaque",
+      "webp_quality": 80,
+      "method": 6,
+      "crc32": "d5e09328",
+      "bytes": 850,
+      "mean_rgb": [
+        145.025,
+        149.4,
+        140.668
+      ]
+    },
+    {
+      "image": "textures/ground-thruxton-rumble.webp",
+      "source": "RUMBLE",
+      "size": [
+        256,
+        64
+      ],
+      "alpha": "opaque",
+      "webp_quality": 80,
+      "method": 6,
+      "crc32": "1ab22965",
+      "bytes": 3014,
+      "mean_rgb": [
+        76.898,
+        55.236,
+        70.693
+      ]
+    },
+    {
+      "image": "textures/ground-thruxton-gravel.webp",
+      "source": "GRAVEL",
+      "size": [
+        128,
+        128
+      ],
+      "alpha": "opaque",
+      "webp_quality": 80,
+      "method": 6,
+      "crc32": "a4596064",
+      "bytes": 6558,
+      "mean_rgb": [
+        117.385,
+        89.865,
+        62.916
+      ]
+    },
+    {
+      "image": "textures/ground-thruxton-darkgrs.webp",
+      "source": "DARKGRS",
+      "size": [
+        128,
+        128
+      ],
+      "alpha": "opaque",
+      "webp_quality": 80,
+      "method": 6,
+      "crc32": "231ddbc7",
+      "bytes": 5382,
+      "mean_rgb": [
+        31.1,
+        45.351,
+        5.162
+      ]
+    },
+    {
+      "image": "textures/ground-thruxton-scrub.webp",
+      "source": "SCRUB",
+      "size": [
+        128,
+        128
+      ],
+      "alpha": "opaque",
+      "webp_quality": 80,
+      "method": 6,
+      "crc32": "1480f311",
+      "bytes": 160,
+      "mean_rgb": [
+        87.927,
+        84.574,
+        65.504
+      ]
+    },
+    {
+      "image": "textures/ground-thruxton-pitchevr.webp",
+      "source": "PITCHEVR",
+      "size": [
+        256,
+        64
+      ],
+      "alpha": "opaque",
+      "webp_quality": 80,
+      "method": 6,
+      "crc32": "8887e101",
+      "bytes": 2000,
+      "mean_rgb": [
+        149.436,
+        150.924,
+        152.198
+      ]
+    }
+  ],
+  "webp_quality": 80
+}

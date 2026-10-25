@@ -1,0 +1,586 @@
+{
+  "version": 1,
+  "package": "M07-6",
+  "source": {
+    "original_version": "1.1a",
+    "path": "data/croffree.bfp",
+    "crc32": "e4399113",
+    "member": 5,
+    "member_name": "OBJECTS.C3D",
+    "member_crc32": "93406c70"
+  },
+  "models": [
+    {
+      "mesh": 2,
+      "name": "CR14PLB2_1",
+      "source_crc32": "6870132f",
+      "type": "0a2321f1",
+      "nodes": [
+        [
+          9,
+          0
+        ]
+      ]
+    },
+    {
+      "mesh": 3,
+      "name": "CR14PLB1_1",
+      "source_crc32": "bb602721",
+      "type": "005ee894",
+      "nodes": [
+        [
+          11,
+          0
+        ]
+      ]
+    },
+    {
+      "mesh": 4,
+      "name": "CR14PLB3_1",
+      "source_crc32": "98945bd5",
+      "type": "3f53b80d",
+      "nodes": [
+        [
+          13,
+          0
+        ]
+      ]
+    },
+    {
+      "mesh": 22,
+      "name": "TV_1",
+      "source_crc32": "4daec06f",
+      "type": "63629b40",
+      "nodes": [
+        [
+          443,
+          0
+        ],
+        [
+          445,
+          0
+        ],
+        [
+          447,
+          0
+        ],
+        [
+          449,
+          0
+        ]
+      ]
+    }
+  ],
+  "export": {
+    "generator": "imagegen",
+    "format": "WebP",
+    "quality": 70,
+    "method": 6,
+    "max_edge": 512,
+    "source_aspect": true,
+    "presentation_padding": "removed before export",
+    "alpha": "Exact original RGB-black key, nearest source mask at output size"
+  },
+  "textures": [
+    {
+      "name": "CR14DOR1",
+      "source_crc32": "88d03639",
+      "source_size": [
+        64,
+        64
+      ],
+      "bindings": [
+        {
+          "member": 5,
+          "slot": 8
+        }
+      ],
+      "image": "textures/croft-building-cr14dor1.webp",
+      "crc32": "62a867e5",
+      "bytes": 18996,
+      "size": [
+        512,
+        512
+      ]
+    },
+    {
+      "name": "CR14DOR2",
+      "source_crc32": "5ab33f58",
+      "source_size": [
+        64,
+        64
+      ],
+      "bindings": [
+        {
+          "member": 5,
+          "slot": 9
+        }
+      ],
+      "image": "textures/croft-building-cr14dor2.webp",
+      "crc32": "1243d124",
+      "bytes": 20946,
+      "size": [
+        512,
+        512
+      ]
+    },
+    {
+      "name": "CR14DOR5",
+      "source_crc32": "b6edecfd",
+      "source_size": [
+        64,
+        64
+      ],
+      "bindings": [
+        {
+          "member": 5,
+          "slot": 10
+        }
+      ],
+      "image": "textures/croft-building-cr14dor5.webp",
+      "crc32": "7ba07a30",
+      "bytes": 28402,
+      "size": [
+        512,
+        512
+      ]
+    },
+    {
+      "name": "CR14END",
+      "source_crc32": "5cee9bb1",
+      "source_size": [
+        64,
+        64
+      ],
+      "bindings": [
+        {
+          "member": 5,
+          "slot": 11
+        }
+      ],
+      "image": "textures/croft-building-cr14end.webp",
+      "crc32": "de847afe",
+      "bytes": 55202,
+      "size": [
+        512,
+        512
+      ]
+    },
+    {
+      "name": "CR14END2",
+      "source_crc32": "93378f52",
+      "source_size": [
+        64,
+        32
+      ],
+      "bindings": [
+        {
+          "member": 5,
+          "slot": 12
+        }
+      ],
+      "image": "textures/croft-building-cr14end2.webp",
+      "crc32": "0145da47",
+      "bytes": 4998,
+      "size": [
+        512,
+        256
+      ]
+    },
+    {
+      "name": "CR14GARO",
+      "source_crc32": "125ae47e",
+      "source_size": [
+        32,
+        32
+      ],
+      "bindings": [
+        {
+          "member": 5,
+          "slot": 13
+        }
+      ],
+      "image": "textures/croft-building-cr14garo.webp",
+      "crc32": "ee0cdc68",
+      "bytes": 20412,
+      "size": [
+        512,
+        512
+      ]
+    },
+    {
+      "name": "CR14BCK1",
+      "source_crc32": "6f8f4a6a",
+      "source_size": [
+        16,
+        128
+      ],
+      "bindings": [
+        {
+          "member": 5,
+          "slot": 14
+        }
+      ],
+      "image": "textures/croft-building-cr14bck1.webp",
+      "crc32": "3549df3e",
+      "bytes": 3650,
+      "size": [
+        64,
+        512
+      ]
+    },
+    {
+      "name": "CR14BCK2",
+      "source_crc32": "2d5deb0b",
+      "source_size": [
+        64,
+        64
+      ],
+      "bindings": [
+        {
+          "member": 5,
+          "slot": 15
+        }
+      ],
+      "image": "textures/croft-building-cr14bck2.webp",
+      "crc32": "32a48ec0",
+      "bytes": 38286,
+      "size": [
+        512,
+        512
+      ]
+    },
+    {
+      "name": "CR14BCK3",
+      "source_crc32": "cfae2a6a",
+      "source_size": [
+        64,
+        64
+      ],
+      "bindings": [
+        {
+          "member": 5,
+          "slot": 16
+        }
+      ],
+      "image": "textures/croft-building-cr14bck3.webp",
+      "crc32": "bc99ce7f",
+      "bytes": 43630,
+      "size": [
+        512,
+        512
+      ]
+    },
+    {
+      "name": "CR14BCK4",
+      "source_crc32": "d062f145",
+      "source_size": [
+        64,
+        64
+      ],
+      "bindings": [
+        {
+          "member": 5,
+          "slot": 17
+        }
+      ],
+      "image": "textures/croft-building-cr14bck4.webp",
+      "crc32": "d352c292",
+      "bytes": 40664,
+      "size": [
+        512,
+        512
+      ]
+    },
+    {
+      "name": "CR14BCK5",
+      "source_crc32": "919ad0fd",
+      "source_size": [
+        64,
+        8
+      ],
+      "bindings": [
+        {
+          "member": 5,
+          "slot": 18
+        }
+      ],
+      "image": "textures/croft-building-cr14bck5.webp",
+      "crc32": "82547620",
+      "bytes": 3486,
+      "size": [
+        512,
+        64
+      ]
+    },
+    {
+      "name": "CR14FRT1",
+      "source_crc32": "340fb796",
+      "source_size": [
+        64,
+        64
+      ],
+      "bindings": [
+        {
+          "member": 5,
+          "slot": 19
+        }
+      ],
+      "image": "textures/croft-building-cr14frt1.webp",
+      "crc32": "8bbf6370",
+      "bytes": 36328,
+      "size": [
+        512,
+        512
+      ]
+    },
+    {
+      "name": "CR14PITS",
+      "source_crc32": "b77cec00",
+      "source_size": [
+        128,
+        32
+      ],
+      "bindings": [
+        {
+          "member": 5,
+          "slot": 20
+        }
+      ],
+      "image": "textures/croft-building-cr14pits.webp",
+      "crc32": "b8558938",
+      "bytes": 8338,
+      "size": [
+        512,
+        128
+      ]
+    },
+    {
+      "name": "CR14ROF2",
+      "source_crc32": "3b21534f",
+      "source_size": [
+        128,
+        32
+      ],
+      "bindings": [
+        {
+          "member": 5,
+          "slot": 21
+        }
+      ],
+      "image": "textures/croft-building-cr14rof2.webp",
+      "crc32": "bac4ec73",
+      "bytes": 11018,
+      "size": [
+        512,
+        128
+      ]
+    },
+    {
+      "name": "CR14PIT2",
+      "source_crc32": "4c26d505",
+      "source_size": [
+        64,
+        64
+      ],
+      "bindings": [
+        {
+          "member": 5,
+          "slot": 22
+        }
+      ],
+      "image": "textures/croft-building-cr14pit2.webp",
+      "crc32": "3b06a6b1",
+      "bytes": 60552,
+      "size": [
+        512,
+        512
+      ]
+    },
+    {
+      "name": "CROWD3",
+      "source_crc32": "0ca81054",
+      "source_size": [
+        128,
+        32
+      ],
+      "bindings": [
+        {
+          "member": 5,
+          "slot": 40
+        }
+      ],
+      "native_sampler": {
+        "faces": [
+          17,
+          18,
+          19,
+          20
+        ],
+        "uv": [
+          0.02,
+          0.99
+        ],
+        "rgba": [
+          0,
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "name": "LVECTR2",
+      "source_crc32": "999dbe94",
+      "source_size": [
+        128,
+        32
+      ],
+      "bindings": [
+        {
+          "member": 5,
+          "slot": 57
+        }
+      ],
+      "image": "textures/static-vectra-croft-lvectr2.webp",
+      "crc32": "98d33cc2",
+      "reuse": true
+    },
+    {
+      "name": "TV1",
+      "source_crc32": "547d996a",
+      "source_size": [
+        16,
+        128
+      ],
+      "bindings": [
+        {
+          "member": 5,
+          "slot": 67
+        }
+      ],
+      "image": "textures/croft-building-tv1.webp",
+      "crc32": "fd7ce606",
+      "bytes": 470,
+      "size": [
+        64,
+        512
+      ],
+      "related_master": {
+        "provenance": "assets/models/mega/silverstone-structures-generation.json",
+        "crc32": "f7f86dcd",
+        "crop": [
+          227,
+          0,
+          498,
+          2170
+        ]
+      }
+    },
+    {
+      "name": "TV2",
+      "source_crc32": "2084ac34",
+      "source_size": [
+        128,
+        32
+      ],
+      "bindings": [
+        {
+          "member": 5,
+          "slot": 68
+        }
+      ],
+      "image": "textures/croft-building-tv2.webp",
+      "crc32": "9a77f671",
+      "bytes": 7482,
+      "size": [
+        512,
+        128
+      ],
+      "related_master": {
+        "provenance": "assets/models/mega/silverstone-stands-generation.json",
+        "crc32": "d7d5cfb4",
+        "crop": [
+          0,
+          74,
+          2169,
+          617
+        ]
+      },
+      "lettering_reconstruction": "VECTRA/badge follows original source. BBC TOURING CAR is the accepted source-guided reconstruction from related Silverstone/Thruxton/Croft/Snetterton charts; trailing source glyphs remain unresolved and are not expanded."
+    },
+    {
+      "name": "TV3",
+      "source_crc32": "eee2c0fb",
+      "source_size": [
+        128,
+        8
+      ],
+      "bindings": [
+        {
+          "member": 5,
+          "slot": 69
+        }
+      ],
+      "image": "textures/croft-building-tv3.webp",
+      "crc32": "6b35ee66",
+      "bytes": 276,
+      "size": [
+        512,
+        32
+      ],
+      "related_master": {
+        "provenance": "assets/models/mega/silverstone-structures-generation.json",
+        "crc32": "de51775e",
+        "crop": [
+          0,
+          0,
+          2170,
+          725
+        ]
+      }
+    }
+  ],
+  "uv_fields": [
+    {
+      "material": "CR14GARO",
+      "faces": [
+        96,
+        97
+      ],
+      "uv": [
+        0.02,
+        0.99
+      ],
+      "source_rgb": [
+        24,
+        16,
+        8
+      ],
+      "alpha": 255
+    },
+    {
+      "material": "CR14END2",
+      "faces": [
+        92,
+        93,
+        94,
+        95
+      ],
+      "u": [
+        0.7301483154296875,
+        0.7460174560546875
+      ],
+      "v": [
+        0.451629638671875,
+        0.6774444580078125
+      ],
+      "source_rgb": [
+        140,
+        148,
+        140
+      ],
+      "alpha": 255
+    }
+  ]
+}

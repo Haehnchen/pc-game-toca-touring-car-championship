@@ -1,0 +1,558 @@
+{
+  "version": 1,
+  "package": "T13",
+  "policy": "Four static source-CRC-specific authored variants: three use accepted HOR artwork as detail basis while matching static palette/crops/opacity; one new fixed rotor-blade map. Original HOR files unchanged; no manufacturer, text, added livery or new parts.",
+  "source": {
+    "archive": "data/silvfree.bfp",
+    "archive_crc32": "960a335c",
+    "member": 5,
+    "member_crc32": "a92b3b70",
+    "mesh": "BH17HEL_1",
+    "mesh_index": 18,
+    "mesh_crc32": "b55ae02f",
+    "type": "da357b54",
+    "vertices": 86,
+    "triangles": 70
+  },
+  "shared_consumers": [
+    {
+      "track": 1,
+      "member": 5,
+      "mesh": 18,
+      "nodes": [
+        71,
+        73,
+        77,
+        79
+      ]
+    }
+  ],
+  "outputs": [
+    {
+      "name": "BH17HEL",
+      "source_bmp_crc32": "e01eebd3",
+      "source_size": [
+        128,
+        32
+      ],
+      "image": "textures/silverstone-static-bh17hel.webp",
+      "crc32": "f3670e57",
+      "bytes": 4794,
+      "size": [
+        512,
+        128
+      ],
+      "provenance": {
+        "source_reference": {
+          "path": "build/silverstone-static-helicopter/artwork/BH17HEL-original.png",
+          "crc32": "3a03e03a",
+          "size": [
+            128,
+            32
+          ]
+        },
+        "generator_file": "exec-855e9e26-46c3-4766-b2d2-588ee8d6b33b.png",
+        "generator_crc32": "191c2c35",
+        "generator_size": [
+          2170,
+          725
+        ],
+        "encoding": {
+          "format": "WebP",
+          "quality": 80,
+          "method": 6,
+          "alpha_quality": 100,
+          "mode": "RGB",
+          "registration": {
+            "presentation_crop": [
+              0,
+              91,
+              2170,
+              634
+            ],
+            "method": "Crop central75percent 4:1 atlas presentation, then resize to exact source aspect; no creative repainting."
+          }
+        },
+        "alpha_processing": {
+          "source_exact_black_key_pixels": 0,
+          "encoded_alpha_extrema": [
+            255,
+            255
+          ],
+          "encoded_transparent_pixels": 0,
+          "rule": "Kufen/rotor use exact source RGB000000 opacity after nearest source-mask scaling; newly painted RGB only. Body/front remain fully opaque. Source white is opaque; dark object RGB can be opaque.",
+          "expected_transparent_pixels": 0
+        },
+        "reuse_basis": {
+          "image": "textures/air-bh17hel.webp",
+          "crc32": "551ac0e3",
+          "bytes": 5100,
+          "size": [
+            512,
+            128
+          ],
+          "existing_generation_manifest": "assets/models/mega/aircraft-generation.json",
+          "existing_source_record": {
+            "id": "BH17HEL",
+            "file": "exec-53ba782a-960a-4807-99a9-e963830a9663.png",
+            "reference": {
+              "names": [
+                "BH17HEL"
+              ],
+              "size": [
+                128,
+                32
+              ],
+              "normalized_bmp_crc32": "93af18c9",
+              "packed_bmp_crc32": [
+                "6d3c4203"
+              ],
+              "uses": [
+                {
+                  "track": 1,
+                  "archive": "silvhor.bfp",
+                  "member": 1,
+                  "family": "rotorcraft"
+                },
+                {
+                  "track": 3,
+                  "archive": "branhor.bfp",
+                  "member": 1,
+                  "family": "rotorcraft"
+                },
+                {
+                  "track": 4,
+                  "archive": "oulthor.bfp",
+                  "member": 1,
+                  "family": "rotorcraft"
+                },
+                {
+                  "track": 7,
+                  "archive": "knochor.bfp",
+                  "member": 1,
+                  "family": "rotorcraft"
+                },
+                {
+                  "track": 8,
+                  "archive": "snethor.bfp",
+                  "member": 1,
+                  "family": "rotorcraft"
+                }
+              ]
+            },
+            "crc32": "eefee362"
+          },
+          "normalized_HOR_source_bmp_crc32": "93af18c9",
+          "static_RGB_mean_absolute_channel_difference": 11.333252,
+          "policy": "Existing authored detail basis reused only through an independently generated static source-palette variant; original air-* artwork unchanged."
+        }
+      }
+    },
+    {
+      "name": "BH17HEL1",
+      "source_bmp_crc32": "3a8241ca",
+      "source_size": [
+        128,
+        32
+      ],
+      "image": "textures/silverstone-static-bh17hel1.webp",
+      "crc32": "b5a0c579",
+      "bytes": 2936,
+      "size": [
+        512,
+        128
+      ],
+      "provenance": {
+        "source_reference": {
+          "path": "build/silverstone-static-helicopter/artwork/BH17HEL1-original.png",
+          "crc32": "20c52f82",
+          "size": [
+            128,
+            32
+          ]
+        },
+        "generator_file": "exec-4411fb8d-f951-470f-b3b6-a3c103e74c56.png",
+        "generator_crc32": "92141593",
+        "generator_size": [
+          2170,
+          725
+        ],
+        "encoding": {
+          "format": "WebP",
+          "quality": 80,
+          "method": 6,
+          "alpha_quality": 100,
+          "mode": "RGBA",
+          "registration": {
+            "generated_artwork_bbox": [
+              140,
+              128,
+              2101,
+              595
+            ],
+            "source_occupied_bbox": [
+              10,
+              1,
+              119,
+              32
+            ],
+            "registered_output_bbox": [
+              40,
+              4,
+              476,
+              128
+            ],
+            "method": "Register newly generated skid photograph to exact canonical occupied frame; native source exact-black opacity mask restored after RGB resampling. No source RGB copied."
+          }
+        },
+        "alpha_processing": {
+          "source_exact_black_key_pixels": 3245,
+          "encoded_alpha_extrema": [
+            0,
+            255
+          ],
+          "encoded_transparent_pixels": 51920,
+          "rule": "Kufen/rotor use exact source RGB000000 opacity after nearest source-mask scaling; newly painted RGB only. Body/front remain fully opaque. Source white is opaque; dark object RGB can be opaque.",
+          "expected_transparent_pixels": 51920
+        },
+        "reuse_basis": {
+          "image": "textures/air-bh17hel1.webp",
+          "crc32": "f61c95e4",
+          "bytes": 7074,
+          "size": [
+            512,
+            128
+          ],
+          "existing_generation_manifest": "assets/models/mega/aircraft-generation.json",
+          "existing_source_record": {
+            "id": "BH17HEL1",
+            "file": "exec-439b1bd2-adc8-464c-adad-48ad1d0e5c1c.png",
+            "reference": {
+              "names": [
+                "BH17HEL1"
+              ],
+              "size": [
+                128,
+                32
+              ],
+              "normalized_bmp_crc32": "a3760444",
+              "packed_bmp_crc32": [
+                "5de55e8e"
+              ],
+              "uses": [
+                {
+                  "track": 1,
+                  "archive": "silvhor.bfp",
+                  "member": 1,
+                  "family": "rotorcraft"
+                },
+                {
+                  "track": 3,
+                  "archive": "branhor.bfp",
+                  "member": 1,
+                  "family": "rotorcraft"
+                },
+                {
+                  "track": 4,
+                  "archive": "oulthor.bfp",
+                  "member": 1,
+                  "family": "rotorcraft"
+                },
+                {
+                  "track": 7,
+                  "archive": "knochor.bfp",
+                  "member": 1,
+                  "family": "rotorcraft"
+                },
+                {
+                  "track": 8,
+                  "archive": "snethor.bfp",
+                  "member": 1,
+                  "family": "rotorcraft"
+                }
+              ]
+            },
+            "crc32": "0334ec0d"
+          },
+          "normalized_HOR_source_bmp_crc32": "a3760444",
+          "static_RGB_mean_absolute_channel_difference": 1.973958,
+          "policy": "Existing authored detail basis reused only through an independently generated static source-palette variant; original air-* artwork unchanged."
+        }
+      }
+    },
+    {
+      "name": "BH17HEL2",
+      "source_bmp_crc32": "c5dcedae",
+      "source_size": [
+        8,
+        64
+      ],
+      "image": "textures/silverstone-static-bh17hel2.webp",
+      "crc32": "4230bcf2",
+      "bytes": 1080,
+      "size": [
+        64,
+        512
+      ],
+      "provenance": {
+        "source_reference": {
+          "path": "build/silverstone-static-helicopter/artwork/BH17HEL2-original.png",
+          "crc32": "a99371c4",
+          "size": [
+            8,
+            64
+          ]
+        },
+        "generator_file": "exec-843f023d-05bf-410d-877f-ff22825c0663.png",
+        "generator_crc32": "fc372559",
+        "generator_size": [
+          725,
+          2170
+        ],
+        "encoding": {
+          "format": "WebP",
+          "quality": 80,
+          "method": 6,
+          "alpha_quality": 100,
+          "mode": "RGBA",
+          "registration": {
+            "generated_vertical_blade_crop": [
+              321,
+              0,
+              399,
+              2170
+            ],
+            "registered_main_blade_output": [
+              16,
+              0,
+              48,
+              512
+            ],
+            "method": "Fit freshly painted single blade into original source center columns2..5 and preserve full source vertical framing; restore native exact-black opacity mask after RGB resampling. No source RGB copied."
+          }
+        },
+        "alpha_processing": {
+          "source_exact_black_key_pixels": 251,
+          "encoded_alpha_extrema": [
+            0,
+            255
+          ],
+          "encoded_transparent_pixels": 16064,
+          "rule": "Kufen/rotor use exact source RGB000000 opacity after nearest source-mask scaling; newly painted RGB only. Body/front remain fully opaque. Source white is opaque; dark object RGB can be opaque.",
+          "expected_transparent_pixels": 16064
+        }
+      }
+    },
+    {
+      "name": "BH17HEL3",
+      "source_bmp_crc32": "6810a8b3",
+      "source_size": [
+        64,
+        64
+      ],
+      "image": "textures/silverstone-static-bh17hel3.webp",
+      "crc32": "3b285261",
+      "bytes": 24512,
+      "size": [
+        512,
+        512
+      ],
+      "provenance": {
+        "source_reference": {
+          "path": "build/silverstone-static-helicopter/artwork/BH17HEL3-original.png",
+          "crc32": "55c10a5b",
+          "size": [
+            64,
+            64
+          ]
+        },
+        "generator_file": "exec-12e990f4-7661-4ed7-8173-fdc86f513f2f.png",
+        "generator_crc32": "74d2eb5f",
+        "generator_size": [
+          1254,
+          1254
+        ],
+        "encoding": {
+          "format": "WebP",
+          "quality": 80,
+          "method": 6,
+          "alpha_quality": 100,
+          "mode": "RGB",
+          "registration": {
+            "source_row_anchors": [
+              0,
+              1015,
+              1079,
+              1254
+            ],
+            "target_row_anchors": [
+              0,
+              1058,
+              1156,
+              1254
+            ],
+            "source_yellow_band": [
+              0.84375,
+              0.921875
+            ],
+            "method": "Piecewise vertical atlas registration of freshly generated RGB at source yellow-band boundaries. Preserve full square canvas and existing painted parts; no compositing or invented motifs."
+          }
+        },
+        "alpha_processing": {
+          "source_exact_black_key_pixels": 0,
+          "encoded_alpha_extrema": [
+            255,
+            255
+          ],
+          "encoded_transparent_pixels": 0,
+          "rule": "Kufen/rotor use exact source RGB000000 opacity after nearest source-mask scaling; newly painted RGB only. Body/front remain fully opaque. Source white is opaque; dark object RGB can be opaque.",
+          "expected_transparent_pixels": 0
+        },
+        "reuse_basis": {
+          "image": "textures/air-bh17hel3.webp",
+          "crc32": "85bbd510",
+          "bytes": 34384,
+          "size": [
+            512,
+            512
+          ],
+          "existing_generation_manifest": "assets/models/mega/aircraft-generation.json",
+          "existing_source_record": {
+            "id": "BH17HEL3",
+            "file": "exec-f80c92da-2785-4d4b-b671-8840fc44b498.png",
+            "reference": {
+              "names": [
+                "BH17HEL3"
+              ],
+              "size": [
+                64,
+                64
+              ],
+              "normalized_bmp_crc32": "143b170c",
+              "packed_bmp_crc32": [
+                "9f72d281"
+              ],
+              "uses": [
+                {
+                  "track": 1,
+                  "archive": "silvhor.bfp",
+                  "member": 1,
+                  "family": "rotorcraft"
+                },
+                {
+                  "track": 3,
+                  "archive": "branhor.bfp",
+                  "member": 1,
+                  "family": "rotorcraft"
+                },
+                {
+                  "track": 4,
+                  "archive": "oulthor.bfp",
+                  "member": 1,
+                  "family": "rotorcraft"
+                },
+                {
+                  "track": 7,
+                  "archive": "knochor.bfp",
+                  "member": 1,
+                  "family": "rotorcraft"
+                },
+                {
+                  "track": 8,
+                  "archive": "snethor.bfp",
+                  "member": 1,
+                  "family": "rotorcraft"
+                }
+              ]
+            },
+            "crc32": "1beadec7"
+          },
+          "normalized_HOR_source_bmp_crc32": "143b170c",
+          "static_RGB_mean_absolute_channel_difference": 19.07666,
+          "policy": "Existing authored detail basis reused only through an independently generated static source-palette variant; original air-* artwork unchanged."
+        }
+      }
+    }
+  ],
+  "source_shape": {
+    "type": "da357b54",
+    "vertices": 86,
+    "triangles": 70,
+    "source_mesh_crc32": "b55ae02f",
+    "vertex_records_crc32": "274b7b77",
+    "nodes": [
+      71,
+      73,
+      77,
+      79
+    ],
+    "roots": [
+      70,
+      72,
+      76,
+      78
+    ],
+    "contract": "Retain ordered source positions/normals/UVs/face slots, hierarchy and all four original HIGH root transforms. Fixed rotor, landing skids and simple original body remain static.",
+    "static_exception": "FREE scenery helicopter has no selectable Car actor, wheel pivots, steering, damage or rotor animation; touring-car wheel/body dimensions do not apply."
+  },
+  "source_lods": [
+    {
+      "member": 5,
+      "crc32": "a92b3b70",
+      "mesh": 18,
+      "nodes": [
+        71,
+        73,
+        77,
+        79
+      ],
+      "roots": [
+        70,
+        72,
+        76,
+        78
+      ]
+    },
+    {
+      "member": 6,
+      "crc32": "9291d1ba",
+      "mesh": 15,
+      "nodes": [
+        45
+      ],
+      "roots": [
+        44
+      ]
+    },
+    {
+      "member": 7,
+      "crc32": "97e03476",
+      "mesh": 4,
+      "nodes": [
+        13
+      ],
+      "roots": [
+        12
+      ]
+    }
+  ],
+  "source_lod_contract": "All three source detail levels have identical helicopter geometry, UVs and four BMP identities. FREE6/7 contain only the first HIGH placement; preserve this original instance selection.",
+  "constant_sampler": {
+    "name": "SI19MBX1",
+    "source_bmp_crc32": "034593e6",
+    "source_size": [
+      64,
+      64
+    ],
+    "slot": 52,
+    "faces": [
+      69
+    ],
+    "uv": [
+      0,
+      1
+    ],
+    "action": "Preserve original constant-corner sample. The triangle has identical UV on all three corners; this is not a detailed helicopter atlas and the shared M07 material remains outside this package."
+  },
+  "reuse_contract": "The moving HOR helicopter has a distinct hierarchy, 75-vertex/63-triangle body and animated rotor phases. Three accepted HOR pictures supply detail references for new source-specific static palette/alpha/layout variants, not aliases; their existing images remain unchanged. BH17HEL2 is the original fixed-rotor strip. The distinct Brands static type is not accepted by this Silverstone package."
+}

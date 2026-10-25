@@ -1,0 +1,965 @@
+{
+  "version": 1,
+  "package": "R02-Thruxton-adverts-arrows-cones-posts-signs",
+  "source": {
+    "track": 2,
+    "path": "data/thrufree.bfp",
+    "crc32": "473c8fe8",
+    "bytes": 2575997,
+    "members": {
+      "2": "fc00e5ad",
+      "3": "383f46f3",
+      "5": "a17b2723",
+      "8": "e6be0b26",
+      "9": "cae2f0dc",
+      "10": "dfe0e48d",
+      "11": "ae5462d0"
+    }
+  },
+  "scope": {
+    "track": 2,
+    "accepted_types": 14,
+    "accepted_bindings": 72,
+    "source_images": 15,
+    "new_images": 3,
+    "reused_images": 12,
+    "exact_new_cutout_masks": 1,
+    "advert_types": 4,
+    "advert_bindings": 27,
+    "chevron_bindings": 4,
+    "cone_bindings": 14,
+    "post_bindings": 10,
+    "sign_bindings": 17,
+    "types": [
+      {
+        "member": 5,
+        "mesh": 38,
+        "name": "DA09ADB_1",
+        "type": "ad17dad3",
+        "source_mesh_crc32": "8e9c9683",
+        "vertices": 6,
+        "triangles": 4,
+        "nodes": [
+          [
+            251,
+            0
+          ],
+          [
+            255,
+            0
+          ],
+          [
+            401,
+            0
+          ]
+        ]
+      },
+      {
+        "member": 5,
+        "mesh": 39,
+        "name": "DA09AD7_1",
+        "type": "041c398f",
+        "source_mesh_crc32": "6e4a1fc5",
+        "vertices": 6,
+        "triangles": 4,
+        "nodes": [
+          [
+            253,
+            0
+          ],
+          [
+            257,
+            0
+          ],
+          [
+            259,
+            0
+          ],
+          [
+            261,
+            0
+          ],
+          [
+            397,
+            0
+          ],
+          [
+            413,
+            0
+          ],
+          [
+            415,
+            0
+          ],
+          [
+            417,
+            0
+          ],
+          [
+            421,
+            0
+          ],
+          [
+            431,
+            0
+          ],
+          [
+            451,
+            0
+          ]
+        ]
+      },
+      {
+        "member": 5,
+        "mesh": 46,
+        "name": "DA09ADC_1",
+        "type": "4520380f",
+        "source_mesh_crc32": "ebcae8b0",
+        "vertices": 6,
+        "triangles": 4,
+        "nodes": [
+          [
+            393,
+            0
+          ],
+          [
+            423,
+            0
+          ],
+          [
+            425,
+            0
+          ]
+        ]
+      },
+      {
+        "member": 5,
+        "mesh": 47,
+        "name": "DA09AD0_1",
+        "type": "cc7072f8",
+        "source_mesh_crc32": "04ed44e5",
+        "vertices": 6,
+        "triangles": 4,
+        "nodes": [
+          [
+            395,
+            0
+          ],
+          [
+            399,
+            0
+          ],
+          [
+            419,
+            0
+          ],
+          [
+            427,
+            0
+          ],
+          [
+            429,
+            0
+          ],
+          [
+            441,
+            0
+          ],
+          [
+            443,
+            0
+          ],
+          [
+            445,
+            0
+          ],
+          [
+            447,
+            0
+          ],
+          [
+            449,
+            0
+          ]
+        ]
+      },
+      {
+        "member": 5,
+        "mesh": 48,
+        "name": "CHERV_1",
+        "type": "7ae85221",
+        "source_mesh_crc32": "b8cff9d9",
+        "vertices": 58,
+        "triangles": 34,
+        "nodes": [
+          [
+            403,
+            0
+          ],
+          [
+            405,
+            0
+          ],
+          [
+            407,
+            0
+          ],
+          [
+            439,
+            0
+          ]
+        ]
+      },
+      {
+        "member": 8,
+        "mesh": 0,
+        "name": "LRED_1",
+        "type": "4f5e4634",
+        "source_mesh_crc32": "c7f79a55",
+        "vertices": 22,
+        "triangles": 14,
+        "nodes": [
+          [
+            1,
+            0
+          ],
+          [
+            3,
+            0
+          ],
+          [
+            5,
+            0
+          ],
+          [
+            7,
+            0
+          ],
+          [
+            9,
+            0
+          ],
+          [
+            11,
+            0
+          ],
+          [
+            13,
+            0
+          ],
+          [
+            15,
+            0
+          ],
+          [
+            17,
+            0
+          ],
+          [
+            19,
+            0
+          ],
+          [
+            21,
+            0
+          ],
+          [
+            23,
+            0
+          ],
+          [
+            25,
+            0
+          ],
+          [
+            27,
+            0
+          ]
+        ]
+      },
+      {
+        "member": 9,
+        "mesh": 0,
+        "name": "LTALLCON_1",
+        "type": "3ed344f4",
+        "source_mesh_crc32": "e5576d2b",
+        "vertices": 20,
+        "triangles": 10,
+        "nodes": [
+          [
+            1,
+            0
+          ],
+          [
+            3,
+            0
+          ],
+          [
+            5,
+            0
+          ],
+          [
+            7,
+            0
+          ],
+          [
+            9,
+            0
+          ],
+          [
+            11,
+            0
+          ],
+          [
+            13,
+            0
+          ],
+          [
+            15,
+            0
+          ],
+          [
+            17,
+            0
+          ],
+          [
+            19,
+            0
+          ]
+        ]
+      },
+      {
+        "member": 10,
+        "mesh": 0,
+        "name": "L200_1",
+        "type": "45a61b81",
+        "source_mesh_crc32": "de297544",
+        "vertices": 42,
+        "triangles": 32,
+        "nodes": [
+          [
+            1,
+            0
+          ],
+          [
+            19,
+            0
+          ],
+          [
+            23,
+            0
+          ]
+        ]
+      },
+      {
+        "member": 10,
+        "mesh": 1,
+        "name": "L100_1",
+        "type": "c84e49c4",
+        "source_mesh_crc32": "889d7d72",
+        "vertices": 42,
+        "triangles": 32,
+        "nodes": [
+          [
+            3,
+            0
+          ],
+          [
+            5,
+            0
+          ],
+          [
+            7,
+            0
+          ]
+        ]
+      },
+      {
+        "member": 10,
+        "mesh": 2,
+        "name": "L50_1",
+        "type": "8f871bae",
+        "source_mesh_crc32": "cdc007a7",
+        "vertices": 42,
+        "triangles": 32,
+        "nodes": [
+          [
+            9,
+            0
+          ],
+          [
+            11,
+            0
+          ],
+          [
+            13,
+            0
+          ],
+          [
+            15,
+            0
+          ],
+          [
+            31,
+            0
+          ]
+        ]
+      },
+      {
+        "member": 10,
+        "mesh": 3,
+        "name": "LARROW5_1",
+        "type": "f23f5e6b",
+        "source_mesh_crc32": "230b6b9e",
+        "vertices": 42,
+        "triangles": 32,
+        "nodes": [
+          [
+            17,
+            0
+          ]
+        ]
+      },
+      {
+        "member": 10,
+        "mesh": 4,
+        "name": "LARROW4_1",
+        "type": "25d66cad",
+        "source_mesh_crc32": "a7d8e272",
+        "vertices": 42,
+        "triangles": 32,
+        "nodes": [
+          [
+            21,
+            0
+          ],
+          [
+            25,
+            0
+          ],
+          [
+            27,
+            0
+          ]
+        ]
+      },
+      {
+        "member": 10,
+        "mesh": 5,
+        "name": "LARROW2_1",
+        "type": "550b7fd3",
+        "source_mesh_crc32": "a73ac331",
+        "vertices": 42,
+        "triangles": 32,
+        "nodes": [
+          [
+            29,
+            0
+          ]
+        ]
+      },
+      {
+        "member": 10,
+        "mesh": 6,
+        "name": "LPIT_1",
+        "type": "46a65677",
+        "source_mesh_crc32": "719a3121",
+        "vertices": 42,
+        "triangles": 32,
+        "nodes": [
+          [
+            33,
+            0
+          ]
+        ]
+      }
+    ]
+  },
+  "geometry": "Four advert fronts retain their simple backing and thickness; CHERV retains its source58V/34T body. FREE8/9/10 use the original22V/14T cone,20V/10T post and seven42V/32T signs, including their UVs and material slots. Exact member CRC gates apply only to track2. Nodes, transforms, sectors, controllers and contact data remain unchanged.",
+  "uv_contract": {
+    "replacement": "Replace each original BMP through its exact name, size and CRC32. No UV remap, additional slot or game texture. Reused images retain their bytes.",
+    "signs": "Preserve complete number/PIT glyphs and original arrow paths. LARROW4 and LARROW2 share artwork with distinct source UV directions. The LDHL support/rear crop U45/63..61/63,V0..7/15 (rectangles) or8/15 (arrows) remains white.",
+    "chevron": "Four repeat periods; middle-row white strokes at x5..9,21..25,37..41,53..57 of64. Preserve clipped top/bottom phase. SNAPON support faces sample the plain lower margin at V.77422..90324.",
+    "TH12BOX2": "Preserve the square plaster/panel/recess atlas and852 exact source black-key pixels. Upper plaster ends at U.125; dark panel ends at U.609375. CHERV samples the dark panel at U.15872..42856,V.12701..23811. The same image serves TH12BOX_1 and two TV01_1 bindings; their other materials remain open.",
+    "cone": "Source band boundaries at V.34375/.65625/.8125; square foot, taper and corner UVs retained."
+  },
+  "export": "Three new images generated from original references. Wide-chart crops remove excess vertical margins to retain source glyph proportions; the whole chart is resized with Lanczos to source aspect, maximum512px. WebP quality70/method6. Restore exact nearest-scaled source black-key alpha. TH12BOX2 has852 transparent source pixels; the other14 images are opaque. Twelve reused images retain their existing encoding and provenance.",
+  "materials": [
+    {
+      "name": "AUTOTRAD",
+      "source_crc32": "50e82d51",
+      "source_size": [
+        128,
+        32
+      ],
+      "source_slots": [
+        {
+          "track": 2,
+          "member": 5,
+          "slot": 87
+        }
+      ],
+      "source_black_key_pixels": 0,
+      "output": {
+        "path": "assets/models/mega/textures/silverstone-advert-autotrad.webp",
+        "crc32": "ba9585c3",
+        "bytes": 3730
+      },
+      "action": "accepted-image-reused",
+      "source_global_scope": "Only track2 FREE5/8/9/10 consumes this BMP; other FREE, Ground and HOR families checked."
+    },
+    {
+      "name": "CHEV",
+      "source_crc32": "12664576",
+      "source_size": [
+        64,
+        64
+      ],
+      "source_slots": [
+        {
+          "track": 2,
+          "member": 5,
+          "slot": 103
+        }
+      ],
+      "source_black_key_pixels": 0,
+      "output": {
+        "path": "assets/models/mega/textures/dgp-mt03-chev.webp",
+        "crc32": "5e5c95df",
+        "bytes": 7200
+      },
+      "action": "accepted-image-reused",
+      "source_global_scope": "Only track2 FREE5/8/9/10 consumes this BMP; other FREE, Ground and HOR families checked."
+    },
+    {
+      "name": "L100",
+      "source_crc32": "633d64a1",
+      "source_size": [
+        32,
+        16
+      ],
+      "source_slots": [
+        {
+          "track": 2,
+          "member": 10,
+          "slot": 2
+        }
+      ],
+      "source_black_key_pixels": 0,
+      "output": {
+        "path": "assets/models/mega/textures/silverstone-prop-l100.webp",
+        "crc32": "122c39ff",
+        "bytes": 2976
+      },
+      "action": "accepted-image-reused",
+      "source_global_scope": "Only track2 FREE5/8/9/10 consumes this BMP; other FREE, Ground and HOR families checked."
+    },
+    {
+      "name": "L200",
+      "source_crc32": "105c965d",
+      "source_size": [
+        32,
+        16
+      ],
+      "source_slots": [
+        {
+          "track": 2,
+          "member": 10,
+          "slot": 1
+        }
+      ],
+      "source_black_key_pixels": 0,
+      "output": {
+        "path": "assets/models/mega/textures/silverstone-prop-l200.webp",
+        "crc32": "ea7ce4d5",
+        "bytes": 3614
+      },
+      "action": "accepted-image-reused",
+      "source_global_scope": "Only track2 FREE5/8/9/10 consumes this BMP; other FREE, Ground and HOR families checked."
+    },
+    {
+      "name": "L50",
+      "source_crc32": "fc88b0c1",
+      "source_size": [
+        32,
+        16
+      ],
+      "source_slots": [
+        {
+          "track": 2,
+          "member": 10,
+          "slot": 3
+        }
+      ],
+      "source_black_key_pixels": 0,
+      "output": {
+        "path": "assets/models/mega/textures/silverstone-prop-l50.webp",
+        "crc32": "4c61d386",
+        "bytes": 2206
+      },
+      "action": "accepted-image-reused",
+      "source_global_scope": "Only track2 FREE5/8/9/10 consumes this BMP; other FREE, Ground and HOR families checked."
+    },
+    {
+      "name": "LARROW2",
+      "source_crc32": "05993c48",
+      "source_size": [
+        32,
+        32
+      ],
+      "source_slots": [
+        {
+          "track": 2,
+          "member": 10,
+          "slot": 5
+        }
+      ],
+      "source_black_key_pixels": 0,
+      "output": {
+        "path": "assets/models/mega/textures/silverstone-prop-larrow2.webp",
+        "crc32": "3a2569ea",
+        "bytes": 2574
+      },
+      "action": "accepted-image-reused",
+      "source_global_scope": "Only track2 FREE5/8/9/10 consumes this BMP; other FREE, Ground and HOR families checked."
+    },
+    {
+      "name": "LARROW5",
+      "source_crc32": "f5d304cd",
+      "source_size": [
+        32,
+        32
+      ],
+      "source_slots": [
+        {
+          "track": 2,
+          "member": 10,
+          "slot": 4
+        }
+      ],
+      "source_black_key_pixels": 0,
+      "output": {
+        "path": "assets/models/mega/textures/silverstone-prop-larrow5.webp",
+        "crc32": "dc336942",
+        "bytes": 3296
+      },
+      "action": "accepted-image-reused",
+      "source_global_scope": "Only track2 FREE5/8/9/10 consumes this BMP; other FREE, Ground and HOR families checked."
+    },
+    {
+      "name": "LDHL",
+      "source_crc32": "a124096d",
+      "source_size": [
+        64,
+        16
+      ],
+      "source_slots": [
+        {
+          "track": 2,
+          "member": 10,
+          "slot": 0
+        }
+      ],
+      "source_black_key_pixels": 0,
+      "output": {
+        "path": "assets/models/mega/textures/silverstone-prop-ldhl.webp",
+        "crc32": "b70927c5",
+        "bytes": 3904
+      },
+      "action": "accepted-image-reused",
+      "source_global_scope": "Only track2 FREE5/8/9/10 consumes this BMP; other FREE, Ground and HOR families checked."
+    },
+    {
+      "name": "LPIT",
+      "source_crc32": "711ee8f3",
+      "source_size": [
+        32,
+        16
+      ],
+      "source_slots": [
+        {
+          "track": 2,
+          "member": 10,
+          "slot": 6
+        }
+      ],
+      "source_black_key_pixels": 0,
+      "output": {
+        "path": "assets/models/mega/textures/silverstone-prop-lpit.webp",
+        "crc32": "8b6c7cab",
+        "bytes": 1456
+      },
+      "action": "accepted-image-reused",
+      "source_global_scope": "Only track2 FREE5/8/9/10 consumes this BMP; other FREE, Ground and HOR families checked."
+    },
+    {
+      "name": "LREDCON",
+      "source_crc32": "76be61e6",
+      "source_size": [
+        64,
+        64
+      ],
+      "source_slots": [
+        {
+          "track": 2,
+          "member": 8,
+          "slot": 0
+        },
+        {
+          "track": 2,
+          "member": 9,
+          "slot": 0
+        }
+      ],
+      "source_black_key_pixels": 0,
+      "output": {
+        "path": "assets/models/mega/textures/cone-bands.webp",
+        "crc32": "45a2fec7",
+        "bytes": 61872
+      },
+      "action": "accepted-image-reused",
+      "source_global_scope": "Only track2 FREE5/8/9/10 consumes this BMP; other FREE, Ground and HOR families checked."
+    },
+    {
+      "name": "OLDSPICE",
+      "source_crc32": "9d7de130",
+      "source_size": [
+        128,
+        32
+      ],
+      "source_slots": [
+        {
+          "track": 2,
+          "member": 5,
+          "slot": 86
+        }
+      ],
+      "source_black_key_pixels": 0,
+      "output": {
+        "path": "assets/models/mega/textures/thruxton-prop-oldspice.webp",
+        "crc32": "96c42d10",
+        "bytes": 7944
+      },
+      "action": "new-direct-artwork",
+      "source_global_scope": "Only track2 FREE5/8/9/10 consumes this BMP; other FREE, Ground and HOR families checked.",
+      "reference": "build/thruxton-props/OLDSPICE-source6x.png",
+      "generated": {
+        "path": "build/thruxton-props/OLDSPICE-generated.png",
+        "crc32": "f69b899e",
+        "size": [
+          2170,
+          725
+        ]
+      },
+      "crop": [
+        0,
+        71,
+        2170,
+        640
+      ],
+      "alpha": {
+        "source_black_key_pixels": 0,
+        "decoded_mask_crc32": "deab7e4e",
+        "exact_source_mask": true
+      },
+      "export": {
+        "path": "assets/models/mega/textures/thruxton-prop-oldspice.webp",
+        "crc32": "96c42d10",
+        "bytes": 7944,
+        "size": [
+          512,
+          128
+        ],
+        "webp_quality": 70,
+        "webp_method": 6
+      }
+    },
+    {
+      "name": "ORDSURV",
+      "source_crc32": "57a56f17",
+      "source_size": [
+        128,
+        32
+      ],
+      "source_slots": [
+        {
+          "track": 2,
+          "member": 5,
+          "slot": 102
+        }
+      ],
+      "source_black_key_pixels": 0,
+      "output": {
+        "path": "assets/models/mega/textures/silverstone-advert-ordsurv.webp",
+        "crc32": "f1da043b",
+        "bytes": 5640
+      },
+      "action": "accepted-image-reused",
+      "source_global_scope": "Only track2 FREE5/8/9/10 consumes this BMP; other FREE, Ground and HOR families checked."
+    },
+    {
+      "name": "PIRELLI",
+      "source_crc32": "43e77e3c",
+      "source_size": [
+        128,
+        32
+      ],
+      "source_slots": [
+        {
+          "track": 2,
+          "member": 5,
+          "slot": 101
+        }
+      ],
+      "source_black_key_pixels": 0,
+      "output": {
+        "path": "assets/models/mega/textures/thruxton-prop-pirelli.webp",
+        "crc32": "cea25ebb",
+        "bytes": 1998
+      },
+      "action": "new-direct-artwork",
+      "source_global_scope": "Only track2 FREE5/8/9/10 consumes this BMP; other FREE, Ground and HOR families checked.",
+      "reference": "build/thruxton-props/PIRELLI-source6x.png",
+      "generated": {
+        "path": "build/thruxton-props/PIRELLI-generated.png",
+        "crc32": "16b0b37b",
+        "size": [
+          2170,
+          725
+        ]
+      },
+      "crop": [
+        0,
+        68,
+        2170,
+        617
+      ],
+      "alpha": {
+        "source_black_key_pixels": 0,
+        "decoded_mask_crc32": "deab7e4e",
+        "exact_source_mask": true
+      },
+      "export": {
+        "path": "assets/models/mega/textures/thruxton-prop-pirelli.webp",
+        "crc32": "cea25ebb",
+        "bytes": 1998,
+        "size": [
+          512,
+          128
+        ],
+        "webp_quality": 70,
+        "webp_method": 6
+      },
+      "edits": [
+        {
+          "name": "PIRELLI",
+          "references": [
+            "exec-5acfdf51-a23d-4743-9f90-ed32f6da2bf3.png",
+            "build/thruxton-props/PIRELLI-source6x.png"
+          ],
+          "generated_source": "exec-b68902ca-3465-4905-b0fa-e407dfeedb14.png"
+        }
+      ]
+    },
+    {
+      "name": "SNAPON",
+      "source_crc32": "caaf240f",
+      "source_size": [
+        64,
+        32
+      ],
+      "source_slots": [
+        {
+          "track": 2,
+          "member": 5,
+          "slot": 104
+        }
+      ],
+      "source_black_key_pixels": 0,
+      "output": {
+        "path": "assets/models/mega/textures/dgp-mt03-snapon.webp",
+        "crc32": "cdba4c6c",
+        "bytes": 5844
+      },
+      "action": "accepted-image-reused",
+      "source_global_scope": "Only track2 FREE5/8/9/10 consumes this BMP; other FREE, Ground and HOR families checked."
+    },
+    {
+      "name": "TH12BOX2",
+      "source_crc32": "a298c9c1",
+      "source_size": [
+        64,
+        64
+      ],
+      "source_slots": [
+        {
+          "track": 2,
+          "member": 5,
+          "slot": 54
+        }
+      ],
+      "source_black_key_pixels": 852,
+      "output": {
+        "path": "assets/models/mega/textures/thruxton-prop-th12box2.webp",
+        "crc32": "c85388f9",
+        "bytes": 3806
+      },
+      "action": "new-direct-artwork",
+      "source_global_scope": "Only track2 FREE5/8/9/10 consumes this BMP; other FREE, Ground and HOR families checked.",
+      "reference": "build/thruxton-props/TH12BOX2-source6x.png",
+      "generated": {
+        "path": "build/thruxton-props/TH12BOX2-generated.png",
+        "crc32": "3a25a16c",
+        "size": [
+          1254,
+          1254
+        ]
+      },
+      "crop": [
+        0,
+        0,
+        1254,
+        1254
+      ],
+      "alpha": {
+        "source_black_key_pixels": 852,
+        "decoded_mask_crc32": "8486ff4f",
+        "exact_source_mask": true
+      },
+      "export": {
+        "path": "assets/models/mega/textures/thruxton-prop-th12box2.webp",
+        "crc32": "c85388f9",
+        "bytes": 3806,
+        "size": [
+          512,
+          512
+        ],
+        "webp_quality": 70,
+        "webp_method": 6
+      }
+    }
+  ],
+  "reused_provenance": [
+    {
+      "path": "assets/models/mega/silverstone-adverts-generation.json",
+      "crc32": "858e7415",
+      "bytes": 18693
+    },
+    {
+      "path": "assets/models/mega/silverstone-small-props-generation.json",
+      "crc32": "9e5a0b39",
+      "bytes": 29119
+    },
+    {
+      "path": "assets/models/mega/donington-mt03-generation.json",
+      "crc32": "08d7e3ad",
+      "bytes": 140475
+    },
+    {
+      "path": "assets/models/mega/texture-generation.json",
+      "crc32": "a1efedc7",
+      "bytes": 50934
+    }
+  ],
+  "limits": "Only the listed14 M08 types/72 bindings are accepted. Other Thruxton vegetation, buildings, barriers, people and flags remain open. Shared atlas changes do not accept complete TH12BOX/TV buildings. Vehicles/cockpits retain their separate acceptance. No original game media committed or canonical reference changes. No performance measurements."
+}

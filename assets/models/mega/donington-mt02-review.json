@@ -1,0 +1,195 @@
+{
+  "version": 1,
+  "outputs": [
+    {
+      "names": [
+        "LHRTS2"
+      ],
+      "source_bmp_crc32": "fdd155e8",
+      "source_size": [
+        32,
+        64
+      ],
+      "image": "textures/dgp-mt02-lhrts2.webp",
+      "size": [
+        256,
+        512
+      ],
+      "crc32": "a64bc807",
+      "bytes": 62910,
+      "generated_path": "exec-9f77e42e-b214-4309-a22f-4a1274562e06.png",
+      "generated_crc32": "f7c3257b",
+      "processing": "Resize complete original-aspect RGBA canvas with Lanczos; WebP80method6; no UV/slot/source geometry changes.",
+      "finding": "Wider source-registered crown replaces narrowed centered tree; original edge cuts and dark olive character retained."
+    },
+    {
+      "names": [
+        "LHRTWS3"
+      ],
+      "source_bmp_crc32": "c2bce436",
+      "source_size": [
+        128,
+        64
+      ],
+      "image": "textures/dgp-mt02-lhrtws3.webp",
+      "size": [
+        512,
+        256
+      ],
+      "crc32": "43f5ef30",
+      "bytes": 56566,
+      "generated_path": "exec-e166897b-e62d-4ecc-b2f6-712992c1bce9.png",
+      "generated_crc32": "87693391",
+      "processing": "Resize complete original-aspect RGBA canvas with Lanczos; WebP80method6; no UV/slot/source geometry changes.",
+      "finding": "Brownolive and subdued bluegrey/green layers restored; original connected dense grove composition retained."
+    }
+  ],
+  "reused_images": [
+    {
+      "names": [
+        "LLRTS2"
+      ],
+      "source_bmp_crc32": "d546b0c4",
+      "source_size": [
+        128,
+        32
+      ],
+      "image": "textures/hedge-b.webp",
+      "crc32": "d16909b2",
+      "size": [
+        512,
+        128
+      ],
+      "finding": "Source continuous dense forest, top peaks/dips, horizontal phase and opaque dark lower mass preserved."
+    },
+    {
+      "names": [
+        "LHRTS7"
+      ],
+      "source_bmp_crc32": "b5c67d09",
+      "source_size": [
+        64,
+        64
+      ],
+      "image": "textures/vegetation-lhrts7-donington.webp",
+      "crc32": "662b3a0e",
+      "size": [
+        512,
+        512
+      ],
+      "finding": "Original slender tapered ochre/olive crown, transparent top margin and narrow footprint retained."
+    },
+    {
+      "names": [
+        "LHRTS4"
+      ],
+      "source_bmp_crc32": "4cff410e",
+      "source_size": [
+        64,
+        64
+      ],
+      "image": "textures/vegetation-lhrts4-donington.webp",
+      "crc32": "50c24a99",
+      "size": [
+        512,
+        512
+      ],
+      "finding": "Original dense broad deciduous crown footprint and subdued green/olive palette retained."
+    }
+  ],
+  "appended_reused_images": [
+    {
+      "image": "textures/vegetation-leaf-donington.webp",
+      "material": "MegaTreeLeaf",
+      "source_crc32": [
+        "4cff410e"
+      ],
+      "uv": "whole transparent foliage cluster",
+      "size": [
+        512,
+        512
+      ],
+      "crc32": "c70a864f",
+      "bytes": 81192,
+      "alpha_bbox": [
+        26,
+        89,
+        486,
+        422
+      ],
+      "finding": "Existing newly drawn connected leaf/twig cluster, source-related muted palette, clear outer alpha and small internal openings. Full existing appended UV tile retained; no material or geometry changes."
+    },
+    {
+      "image": "textures/vegetation-leaf7-donington.webp",
+      "material": "MegaTreeLf7",
+      "source_crc32": [
+        "b5c67d09"
+      ],
+      "uv": "whole transparent foliage cluster",
+      "size": [
+        512,
+        512
+      ],
+      "crc32": "3851754e",
+      "bytes": 63458,
+      "alpha_bbox": [
+        93,
+        26,
+        419,
+        486
+      ],
+      "finding": "Existing newly drawn connected leaf/twig cluster, source-related muted palette, clear outer alpha and small internal openings. Full existing appended UV tile retained; no material or geometry changes."
+    },
+    {
+      "image": "textures/vegetation-grove-leaf-donington.webp",
+      "material": "MegaGroveLf",
+      "source_crc32": [
+        "c2bce436"
+      ],
+      "uv": "whole transparent foliage cluster",
+      "size": [
+        512,
+        512
+      ],
+      "crc32": "50eee837",
+      "bytes": 65244,
+      "alpha_bbox": [
+        26,
+        84,
+        486,
+        427
+      ],
+      "finding": "Existing newly drawn connected leaf/twig cluster, source-related muted palette, clear outer alpha and small internal openings. Full existing appended UV tile retained; no material or geometry changes."
+    },
+    {
+      "image": "textures/vegetation-leaf2-donington.webp",
+      "material": "MegaTreeLf2",
+      "source_crc32": [
+        "fdd155e8"
+      ],
+      "uv": "whole transparent foliage cluster",
+      "size": [
+        512,
+        512
+      ],
+      "crc32": "54125320",
+      "bytes": 64392,
+      "alpha_bbox": [
+        93,
+        26,
+        419,
+        486
+      ],
+      "finding": "Existing newly drawn connected leaf/twig cluster, source-related muted palette, clear outer alpha and small internal openings. Full existing appended UV tile retained; no material or geometry changes."
+    }
+  ],
+  "scope": {
+    "source_materials": 5,
+    "appended_existing_images": 4,
+    "new_images": 2,
+    "reused_images": 7,
+    "source": "data/donlfree.bfp",
+    "source_archive_crc32": "46885a20",
+    "policy": "Textures only: original and already accepted Mega geometry, UVs, slots, alpha behavior and placement retained."
+  }
+}

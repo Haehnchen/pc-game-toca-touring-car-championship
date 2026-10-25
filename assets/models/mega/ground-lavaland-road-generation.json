@@ -1,0 +1,209 @@
+{
+  "version": 1,
+  "policy": "New original-reference-based Lavaland road artwork. Mega only, opaque WebP quality80. Whole-image Lanczos resize; no procedural painting or mask composition.",
+  "sources": [
+    {
+      "id": "LAVA03",
+      "file": "exec-4f6d84d9-3a17-470b-9a6e-d90f7a5cb8ce.png",
+      "size": [
+        1254,
+        1254
+      ],
+      "crc32": "2dd29dfc",
+      "reference": {
+        "archive": "data/landfree.bfp",
+        "archive_crc32": "dba52c51",
+        "member": 1,
+        "member_name": "GROUND.C3D",
+        "member_crc32": "2c324d11",
+        "material_slot": 0,
+        "material": "LAVA03",
+        "bmp_crc32": "a2ff4660",
+        "size": [
+          128,
+          128
+        ]
+      }
+    },
+    {
+      "id": "WALL04B",
+      "file": "exec-538e7501-92c8-40f5-9ff9-f944dfe201f8.png",
+      "size": [
+        1254,
+        1254
+      ],
+      "crc32": "fd4c22b8",
+      "reference": {
+        "archive": "data/landfree.bfp",
+        "archive_crc32": "dba52c51",
+        "member": 1,
+        "member_name": "GROUND.C3D",
+        "member_crc32": "2c324d11",
+        "material_slot": 1,
+        "material": "WALL04B",
+        "bmp_crc32": "2dff12c4",
+        "size": [
+          128,
+          128
+        ]
+      }
+    },
+    {
+      "id": "WALL04A",
+      "file": "exec-27a719c9-5cc9-4104-9f2b-72334f814548.png",
+      "size": [
+        1254,
+        1254
+      ],
+      "crc32": "d60e8615",
+      "reference": {
+        "archive": "data/landfree.bfp",
+        "archive_crc32": "dba52c51",
+        "member": 1,
+        "member_name": "GROUND.C3D",
+        "member_crc32": "2c324d11",
+        "material_slot": 2,
+        "material": "WALL04A",
+        "bmp_crc32": "b3723018",
+        "size": [
+          128,
+          128
+        ]
+      }
+    },
+    {
+      "id": "TRACK05",
+      "file": "exec-73efcf43-6e1d-46ad-9cc6-ba699ca3150c.png",
+      "size": [
+        1254,
+        1254
+      ],
+      "crc32": "0060250c",
+      "reference": {
+        "archive": "data/landfree.bfp",
+        "archive_crc32": "dba52c51",
+        "member": 1,
+        "member_name": "GROUND.C3D",
+        "member_crc32": "2c324d11",
+        "material_slot": 3,
+        "material": "TRACK05",
+        "bmp_crc32": "e0014325",
+        "size": [
+          128,
+          128
+        ]
+      }
+    },
+    {
+      "id": "WALL04",
+      "file": "exec-a18b6b50-1dea-46ec-92a0-56aa7b351ed6.png",
+      "size": [
+        1254,
+        1254
+      ],
+      "crc32": "a12f77aa",
+      "reference": {
+        "archive": "data/landfree.bfp",
+        "archive_crc32": "dba52c51",
+        "member": 1,
+        "member_name": "GROUND.C3D",
+        "member_crc32": "2c324d11",
+        "material_slot": 4,
+        "material": "WALL04",
+        "bmp_crc32": "e2e1e3b9",
+        "size": [
+          128,
+          128
+        ]
+      }
+    }
+  ],
+  "outputs": [
+    {
+      "image": "textures/ground-lavaland-lava03.webp",
+      "source": "LAVA03",
+      "crop": [
+        1254,
+        1254,
+        0,
+        0
+      ],
+      "size": [
+        256,
+        256
+      ],
+      "alpha": "opaque",
+      "crc32": "034be19b",
+      "bytes": 10034
+    },
+    {
+      "image": "textures/ground-lavaland-wall04b.webp",
+      "source": "WALL04B",
+      "crop": [
+        1254,
+        1254,
+        0,
+        0
+      ],
+      "size": [
+        256,
+        256
+      ],
+      "alpha": "opaque",
+      "crc32": "566145df",
+      "bytes": 6196
+    },
+    {
+      "image": "textures/ground-lavaland-wall04a.webp",
+      "source": "WALL04A",
+      "crop": [
+        1254,
+        1254,
+        0,
+        0
+      ],
+      "size": [
+        256,
+        256
+      ],
+      "alpha": "opaque",
+      "crc32": "04d99705",
+      "bytes": 14364
+    },
+    {
+      "image": "textures/ground-lavaland-track05.webp",
+      "source": "TRACK05",
+      "crop": [
+        1254,
+        1254,
+        0,
+        0
+      ],
+      "size": [
+        256,
+        256
+      ],
+      "alpha": "opaque",
+      "crc32": "e0101686",
+      "bytes": 17192
+    },
+    {
+      "image": "textures/ground-lavaland-wall04.webp",
+      "source": "WALL04",
+      "crop": [
+        1254,
+        1254,
+        0,
+        0
+      ],
+      "size": [
+        256,
+        256
+      ],
+      "alpha": "opaque",
+      "crc32": "f883273e",
+      "bytes": 15324
+    }
+  ],
+  "webp_quality": 80
+}

@@ -1,0 +1,266 @@
+{
+  "version": 1,
+  "policy": "Original-reference-based Thruxton road artwork with visible ground transition polish. Mega only, opaque WebP quality80. Whole-image Lanczos resize; no procedural painting or mask composition.",
+  "sources": [
+    {
+      "id": "PIT",
+      "file": "exec-78e378b7-2a86-4009-9765-128085831d29.png",
+      "size": [
+        1254,
+        1254
+      ],
+      "crc32": "6ce65404",
+      "reference": {
+        "archive": "data/thrufree.bfp",
+        "archive_crc32": "473c8fe8",
+        "member": 1,
+        "member_name": "GROUND.C3D",
+        "member_crc32": "b4905f2f",
+        "material_slot": 1,
+        "material": "PIT",
+        "bmp_crc32": "0c6b8d5c",
+        "size": [
+          64,
+          64
+        ]
+      }
+    },
+    {
+      "id": "NUTRAK",
+      "file": "exec-f58af586-2567-4cb6-ad64-06c5309b6bf8.png",
+      "size": [
+        1774,
+        887
+      ],
+      "crc32": "c414abfa",
+      "reference": {
+        "archive": "data/thrufree.bfp",
+        "archive_crc32": "473c8fe8",
+        "member": 1,
+        "member_name": "GROUND.C3D",
+        "member_crc32": "b4905f2f",
+        "material_slot": 3,
+        "material": "NUTRAK",
+        "bmp_crc32": "d398c4bb",
+        "size": [
+          128,
+          64
+        ]
+      }
+    },
+    {
+      "id": "NUTRAK2",
+      "file": "exec-3c6a15f6-16a8-4b31-a3b0-3ac474d33098.png",
+      "size": [
+        1774,
+        887
+      ],
+      "crc32": "cabcc165",
+      "reference": {
+        "archive": "data/thrufree.bfp",
+        "archive_crc32": "473c8fe8",
+        "member": 1,
+        "member_name": "GROUND.C3D",
+        "member_crc32": "b4905f2f",
+        "material_slot": 5,
+        "material": "NUTRAK2",
+        "bmp_crc32": "3bb12dda",
+        "size": [
+          128,
+          64
+        ]
+      }
+    },
+    {
+      "id": "START_X",
+      "file": "exec-63dd9754-03b1-432c-b12f-c1e74ad38d69.png",
+      "size": [
+        887,
+        1774
+      ],
+      "crc32": "87c67d8d",
+      "reference": {
+        "archive": "data/thrufree.bfp",
+        "archive_crc32": "473c8fe8",
+        "member": 1,
+        "member_name": "GROUND.C3D",
+        "member_crc32": "b4905f2f",
+        "material_slot": 9,
+        "material": "START_X",
+        "bmp_crc32": "10970696",
+        "size": [
+          32,
+          64
+        ],
+        "edit_target_derivation": {
+          "source_image": "assets/models/mega/textures/ground-thruxton-nutrak.webp",
+          "source_image_crc32": "3e332375",
+          "source_material": "NUTRAK",
+          "source_bmp_crc32": "d398c4bb",
+          "operation": "Whole-image Lanczos resize from256x128 to887x1774; no painting, masking or color change"
+        }
+      },
+      "bytes": 1914363
+    },
+    {
+      "id": "TRAK_X",
+      "file": "exec-7b8b2140-085c-41f0-adfd-da827d66a95c.png",
+      "size": [
+        887,
+        1774
+      ],
+      "crc32": "96f93603",
+      "reference": {
+        "archive": "data/thrufree.bfp",
+        "archive_crc32": "473c8fe8",
+        "member": 1,
+        "member_name": "GROUND.C3D",
+        "member_crc32": "b4905f2f",
+        "material_slot": 10,
+        "material": "TRAK_X",
+        "bmp_crc32": "f4a98373",
+        "size": [
+          32,
+          64
+        ]
+      },
+      "bytes": 3583569
+    },
+    {
+      "id": "GRID_X",
+      "file": "exec-bba5d1a5-a95e-454b-a022-c2cc2a082097.png",
+      "size": [
+        887,
+        1774
+      ],
+      "crc32": "2ed2d761",
+      "reference": {
+        "archive": "data/thrufree.bfp",
+        "archive_crc32": "473c8fe8",
+        "member": 1,
+        "member_name": "GROUND.C3D",
+        "member_crc32": "b4905f2f",
+        "material_slot": 11,
+        "material": "GRID_X",
+        "bmp_crc32": "cadd6276",
+        "size": [
+          32,
+          64
+        ],
+        "edit_target_derivation": {
+          "source_image": "assets/models/mega/textures/ground-thruxton-nutrak.webp",
+          "source_image_crc32": "3e332375",
+          "source_material": "NUTRAK",
+          "source_bmp_crc32": "d398c4bb",
+          "operation": "Whole-image Lanczos resize from256x128 to887x1774; no painting, masking or color change"
+        }
+      },
+      "bytes": 2776720
+    }
+  ],
+  "outputs": [
+    {
+      "image": "textures/ground-thruxton-pit.webp",
+      "source": "PIT",
+      "crop": [
+        1254,
+        1254,
+        0,
+        0
+      ],
+      "size": [
+        128,
+        128
+      ],
+      "alpha": "opaque",
+      "crc32": "ff48f54e",
+      "bytes": 748
+    },
+    {
+      "image": "textures/ground-thruxton-nutrak.webp",
+      "source": "NUTRAK",
+      "crop": [
+        1774,
+        887,
+        0,
+        0
+      ],
+      "size": [
+        256,
+        128
+      ],
+      "alpha": "opaque",
+      "crc32": "3e332375",
+      "bytes": 5334
+    },
+    {
+      "image": "textures/ground-thruxton-nutrak2.webp",
+      "source": "NUTRAK2",
+      "crop": [
+        1774,
+        887,
+        0,
+        0
+      ],
+      "size": [
+        256,
+        128
+      ],
+      "alpha": "opaque",
+      "crc32": "264ded2c",
+      "bytes": 5270
+    },
+    {
+      "image": "textures/ground-thruxton-start-x.webp",
+      "source": "START_X",
+      "crop": [
+        887,
+        1774,
+        0,
+        0
+      ],
+      "size": [
+        64,
+        128
+      ],
+      "alpha": "opaque",
+      "crc32": "b9e0c41d",
+      "bytes": 800
+    },
+    {
+      "image": "textures/ground-thruxton-trak-x.webp",
+      "source": "TRAK_X",
+      "crop": [
+        887,
+        1774,
+        0,
+        0
+      ],
+      "size": [
+        64,
+        128
+      ],
+      "alpha": "opaque",
+      "crc32": "9af1caad",
+      "bytes": 1008
+    },
+    {
+      "image": "textures/ground-thruxton-grid-x.webp",
+      "source": "GRID_X",
+      "crop": [
+        887,
+        1774,
+        0,
+        0
+      ],
+      "size": [
+        64,
+        128
+      ],
+      "alpha": "opaque",
+      "crc32": "a8b0bca9",
+      "bytes": 1370
+    }
+  ],
+  "webp_quality": 80
+}

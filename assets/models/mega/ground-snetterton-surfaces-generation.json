@@ -1,0 +1,296 @@
+{
+  "version": 1,
+  "processing": "Each material generated separately with built-in Imagegen using its enlarged original layout. RUMSTRIP and RUMDOTS strips whole-image compressed to 3:1 for generation, then full generated canvas resized with Lanczos to target aspect. Encoded opaque RGB WebP quality80 method6. No programmatic painting, masking or material composition.",
+  "sources": [
+    {
+      "id": "GRASS3",
+      "file": "exec-6fb201f8-bfad-4ecb-9e9e-ff4513cc3117.png",
+      "crc32": "43ecc0af",
+      "size": [
+        1254,
+        1254
+      ],
+      "reference": {
+        "archive": "data/snetfree.bfp",
+        "archive_crc32": "4111866a",
+        "member": 1,
+        "member_name": "GROUND.C3D",
+        "member_crc32": "5181cae9",
+        "material_slot": 0,
+        "material": "GRASS3",
+        "bmp_crc32": "6846b068",
+        "size": [
+          128,
+          128
+        ]
+      }
+    },
+    {
+      "id": "W_LINE",
+      "file": "exec-a1e2405b-76d4-4f46-a4b0-920441a4b6b3.png",
+      "crc32": "960167da",
+      "size": [
+        1774,
+        887
+      ],
+      "reference": {
+        "archive": "data/snetfree.bfp",
+        "archive_crc32": "4111866a",
+        "member": 1,
+        "member_name": "GROUND.C3D",
+        "member_crc32": "5181cae9",
+        "material_slot": 2,
+        "material": "W_LINE",
+        "bmp_crc32": "b43637cc",
+        "size": [
+          64,
+          32
+        ]
+      }
+    },
+    {
+      "id": "RUMSTRIP",
+      "file": "exec-094de6af-e721-411a-ba02-293d85a97362.png",
+      "crc32": "93588b4e",
+      "size": [
+        2170,
+        725
+      ],
+      "reference": {
+        "archive": "data/snetfree.bfp",
+        "archive_crc32": "4111866a",
+        "member": 1,
+        "member_name": "GROUND.C3D",
+        "member_crc32": "5181cae9",
+        "material_slot": 3,
+        "material": "RUMSTRIP",
+        "bmp_crc32": "3ad8e30b",
+        "size": [
+          128,
+          32
+        ]
+      }
+    },
+    {
+      "id": "RUMDOTS",
+      "file": "exec-0aab272c-bde4-452e-9d25-d316dea8ed44.png",
+      "crc32": "27c062fc",
+      "size": [
+        2170,
+        725
+      ],
+      "reference": {
+        "archive": "data/snetfree.bfp",
+        "archive_crc32": "4111866a",
+        "member": 1,
+        "member_name": "GROUND.C3D",
+        "member_crc32": "5181cae9",
+        "material_slot": 5,
+        "material": "RUMDOTS",
+        "bmp_crc32": "5acb6a4f",
+        "size": [
+          128,
+          32
+        ]
+      }
+    },
+    {
+      "id": "GRAVEL",
+      "file": "exec-da8aa807-df0c-485b-9cb8-56f9662ef58a.png",
+      "crc32": "e2ade2a9",
+      "size": [
+        1254,
+        1254
+      ],
+      "reference": {
+        "archive": "data/snetfree.bfp",
+        "archive_crc32": "4111866a",
+        "member": 1,
+        "member_name": "GROUND.C3D",
+        "member_crc32": "5181cae9",
+        "material_slot": 6,
+        "material": "GRAVEL",
+        "bmp_crc32": "36c27e29",
+        "size": [
+          64,
+          64
+        ]
+      }
+    },
+    {
+      "id": "G&G2",
+      "file": "exec-89167be1-7c7b-4ffd-b636-c31b7363cc2c.png",
+      "crc32": "b8134ecf",
+      "size": [
+        887,
+        1774
+      ],
+      "reference": {
+        "archive": "data/snetfree.bfp",
+        "archive_crc32": "4111866a",
+        "member": 1,
+        "member_name": "GROUND.C3D",
+        "member_crc32": "5181cae9",
+        "material_slot": 7,
+        "material": "G&G2",
+        "bmp_crc32": "fcea437a",
+        "size": [
+          32,
+          64
+        ]
+      }
+    },
+    {
+      "id": "DLINE",
+      "file": "exec-a11b546d-bf93-4e9f-ae36-967f773cfde7.png",
+      "crc32": "43b973d2",
+      "size": [
+        1774,
+        887
+      ],
+      "reference": {
+        "archive": "data/snetfree.bfp",
+        "archive_crc32": "4111866a",
+        "member": 1,
+        "member_name": "GROUND.C3D",
+        "member_crc32": "5181cae9",
+        "material_slot": 13,
+        "material": "DLINE",
+        "bmp_crc32": "f5ed3050",
+        "size": [
+          64,
+          32
+        ]
+      }
+    }
+  ],
+  "outputs": [
+    {
+      "image": "textures/ground-snetterton-grass3.webp",
+      "source": "GRASS3",
+      "size": [
+        256,
+        256
+      ],
+      "alpha": "opaque",
+      "webp_quality": 80,
+      "method": 6,
+      "crc32": "7644b702",
+      "bytes": 12200,
+      "mean_rgb": [
+        90.306,
+        76.86,
+        5.135
+      ]
+    },
+    {
+      "image": "textures/ground-snetterton-w-line.webp",
+      "source": "W_LINE",
+      "size": [
+        128,
+        64
+      ],
+      "alpha": "opaque",
+      "webp_quality": 80,
+      "method": 6,
+      "crc32": "1b9bf80c",
+      "bytes": 1254,
+      "mean_rgb": [
+        159.193,
+        157.839,
+        159.499
+      ]
+    },
+    {
+      "image": "textures/ground-snetterton-rumstrip.webp",
+      "source": "RUMSTRIP",
+      "size": [
+        256,
+        64
+      ],
+      "alpha": "opaque",
+      "webp_quality": 80,
+      "method": 6,
+      "crc32": "4ccb42b9",
+      "bytes": 2408,
+      "mean_rgb": [
+        79.219,
+        98.124,
+        84.361
+      ]
+    },
+    {
+      "image": "textures/ground-snetterton-rumdots.webp",
+      "source": "RUMDOTS",
+      "size": [
+        256,
+        64
+      ],
+      "alpha": "opaque",
+      "webp_quality": 80,
+      "method": 6,
+      "crc32": "25ad6faa",
+      "bytes": 4108,
+      "mean_rgb": [
+        39.202,
+        73.196,
+        58.11
+      ]
+    },
+    {
+      "image": "textures/ground-snetterton-gravel.webp",
+      "source": "GRAVEL",
+      "size": [
+        128,
+        128
+      ],
+      "alpha": "opaque",
+      "webp_quality": 80,
+      "method": 6,
+      "crc32": "fab05037",
+      "bytes": 5656,
+      "mean_rgb": [
+        154.339,
+        122.884,
+        57.461
+      ]
+    },
+    {
+      "image": "textures/ground-snetterton-gg2.webp",
+      "source": "G&G2",
+      "size": [
+        64,
+        128
+      ],
+      "alpha": "opaque",
+      "webp_quality": 80,
+      "method": 6,
+      "crc32": "f270e94d",
+      "bytes": 2274,
+      "mean_rgb": [
+        127.661,
+        100.78,
+        33.018
+      ]
+    },
+    {
+      "image": "textures/ground-snetterton-dline.webp",
+      "source": "DLINE",
+      "size": [
+        128,
+        64
+      ],
+      "alpha": "opaque",
+      "webp_quality": 80,
+      "method": 6,
+      "crc32": "fc28eea5",
+      "bytes": 1158,
+      "mean_rgb": [
+        117.286,
+        117.356,
+        117.011
+      ]
+    }
+  ],
+  "webp_quality": 80
+}

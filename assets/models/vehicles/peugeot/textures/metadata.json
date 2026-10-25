@@ -1,0 +1,68 @@
+{
+  "final_dimensions": {
+    "P406": [1024, 1024],
+    "WSCRN": [512, 512],
+    "SIDEG": [512, 512],
+    "ListA": [512, 512],
+    "ListB": [512, 512],
+    "Num12": [256, 256],
+    "Num14": [256, 256]
+  },
+  "name_source_uv_range": [0.75, 0.875],
+  "body_rotations": [
+    {
+      "label": "lower-side PEUGEOT FINANCE footer",
+      "master_rectangle": [730, 1056, 148, 49],
+      "source_rectangle": [150, 215, 178, 224],
+      "source_orientation_degrees": 180
+    }
+  ],
+  "side_phase_source": 256.05859375,
+  "edge_paint_registrations": [
+    {
+      "label": "rear negative side to gold bumper",
+      "path_source": [
+        [1.90234375, 230.79296875],
+        [0, 234.453125],
+        [4.68359375, 250.9375]
+      ],
+      "full_width_source": 1,
+      "fade_width_source": 2
+    },
+    {
+      "label": "front positive main to gold side",
+      "path_source": [
+        [82.48046875, 159.6640625],
+        [84.93359375, 182.41015625]
+      ],
+      "full_width_source": 1,
+      "fade_width_source": 2
+    },
+    {
+      "label": "front negative main to gold side",
+      "path_source": [
+        [2.42578125, 159.6640625],
+        [0, 182.41015625]
+      ],
+      "full_width_source": 1,
+      "fade_width_source": 2
+    }
+  ],
+  "michelin_ink_rotations": [
+    {
+      "label": "positive-Z rear MICHELIN word",
+      "kind": "word",
+      "master_rectangle": [50, 70, 86, 18]
+    },
+    {
+      "label": "positive-Z rear Michelin mascot",
+      "kind": "mascot",
+      "master_rectangle": [16, 60, 29, 37]
+    },
+    {
+      "label": "positive-Z front MICHELIN word",
+      "kind": "word",
+      "master_rectangle": [1157, 82, 85, 17]
+    }
+  ]
+}

@@ -1,0 +1,541 @@
+{
+  "version": 1,
+  "webp_quality": 80,
+  "sources": [
+    {
+      "id": "honda-atlas",
+      "generated_file": "build/cockpit-hands/honda/generated.png",
+      "crc32": "f5061c93"
+    },
+    {
+      "id": "audi-atlas",
+      "generated_file": "build/cockpit-hands/audi/generated.png",
+      "crc32": "f28237c4"
+    },
+    {
+      "id": "vectra-atlas",
+      "generated_file": "build/cockpit-hands/vectra/generated.png",
+      "crc32": "8800c6d7"
+    },
+    {
+      "id": "volvo-atlas",
+      "generated_file": "build/cockpit-hands/volvo/generated.png",
+      "crc32": "483d8a70"
+    },
+    {
+      "id": "ford-atlas",
+      "generated_file": "build/cockpit-hands/ford/generated.png",
+      "crc32": "442bfb4a"
+    },
+    {
+      "id": "nissan-atlas",
+      "generated_file": "build/cockpit-hands/nissan/generated.png",
+      "crc32": "cdcb23f9"
+    },
+    {
+      "id": "peugeot-atlas",
+      "generated_file": "build/cockpit-hands/peugeot/generated.png",
+      "crc32": "a1427613"
+    },
+    {
+      "id": "renault-atlas",
+      "generated_file": "build/cockpit-hands/renault/generated.png",
+      "crc32": "2343382b"
+    },
+    {
+      "id": "flex-atlas",
+      "generated_file": "build/cockpit-hands/flex/generated.png",
+      "crc32": "f4a69e5d"
+    }
+  ],
+  "cars": [
+    {
+      "car_id": 0,
+      "archive": "data/honddasx.bfp",
+      "archive_crc32": "6c68f4a3",
+      "key": "honda",
+      "members": [
+        {
+          "member": 0,
+          "member_name": "gloves\\left.c3d",
+          "member_crc32": "f267e581",
+          "texture_section_crc32": "259784d8"
+        },
+        {
+          "member": 1,
+          "member_name": "gloves\\right.c3d",
+          "member_crc32": "ddb3ab8f",
+          "texture_section_crc32": "259784d8"
+        }
+      ],
+      "outputs": [
+        {
+          "slot": "ARM",
+          "image": "honda/textures/ARM.webp",
+          "original_crc32": "c7cdc326",
+          "source": "honda-atlas",
+          "crop": [312, 624, 0, 0],
+          "size": [256, 512]
+        },
+        {
+          "slot": "GLOVE03",
+          "image": "honda/textures/GLOVE03.webp",
+          "original_crc32": "18b2bc01",
+          "source": "honda-atlas",
+          "crop": [312, 312, 0, 627],
+          "size": [256, 256]
+        },
+        {
+          "slot": "GLOVE01",
+          "image": "honda/textures/GLOVE01.webp",
+          "original_crc32": "b4b8e08d",
+          "source": "honda-atlas",
+          "crop": [312, 1248, 314, 0],
+          "size": [128, 512]
+        },
+        {
+          "slot": "GLOVE02",
+          "image": "honda/textures/GLOVE02.webp",
+          "original_crc32": "7d3fea33",
+          "source": "honda-atlas",
+          "crop": [312, 1248, 627, 0],
+          "size": [128, 512]
+        }
+      ]
+    },
+    {
+      "car_id": 1,
+      "archive": "data/audidasx.bfp",
+      "archive_crc32": "f3f7ab71",
+      "key": "audi",
+      "members": [
+        {
+          "member": 0,
+          "member_name": "gloves\\left.c3d",
+          "member_crc32": "da028a07",
+          "texture_section_crc32": "2054933e"
+        },
+        {
+          "member": 1,
+          "member_name": "gloves\\right.c3d",
+          "member_crc32": "0ca23a12",
+          "texture_section_crc32": "2054933e"
+        }
+      ],
+      "outputs": [
+        {
+          "slot": "ARM",
+          "image": "audi/textures/ARM.webp",
+          "original_crc32": "a0aa4054",
+          "source": "audi-atlas",
+          "crop": [312, 624, 0, 0],
+          "size": [256, 512]
+        },
+        {
+          "slot": "GLOVE03",
+          "image": "audi/textures/GLOVE03.webp",
+          "original_crc32": "72343a21",
+          "source": "audi-atlas",
+          "crop": [312, 312, 0, 627],
+          "size": [256, 256]
+        },
+        {
+          "slot": "GLOVE01",
+          "image": "audi/textures/GLOVE01.webp",
+          "original_crc32": "87c5ca6e",
+          "source": "audi-atlas",
+          "crop": [312, 1248, 314, 0],
+          "size": [128, 512]
+        },
+        {
+          "slot": "GLOVE02",
+          "image": "audi/textures/GLOVE02.webp",
+          "original_crc32": "7f7c03d3",
+          "source": "audi-atlas",
+          "crop": [312, 1248, 627, 0],
+          "size": [128, 512]
+        }
+      ]
+    },
+    {
+      "car_id": 2,
+      "archive": "data/vectdasx.bfp",
+      "archive_crc32": "2949934a",
+      "key": "vectra",
+      "members": [
+        {
+          "member": 0,
+          "member_name": "gloves\\left.c3d",
+          "member_crc32": "acf2a8ff",
+          "texture_section_crc32": "7b02c9a6"
+        },
+        {
+          "member": 1,
+          "member_name": "gloves\\right.c3d",
+          "member_crc32": "8326e6f1",
+          "texture_section_crc32": "7b02c9a6"
+        }
+      ],
+      "outputs": [
+        {
+          "slot": "ARM",
+          "image": "vectra/textures/ARM.webp",
+          "original_crc32": "875d52cb",
+          "source": "vectra-atlas",
+          "crop": [312, 624, 0, 0],
+          "size": [256, 512]
+        },
+        {
+          "slot": "GLOVE03",
+          "image": "vectra/textures/GLOVE03.webp",
+          "original_crc32": "ab6b49d0",
+          "source": "vectra-atlas",
+          "crop": [312, 312, 0, 627],
+          "size": [256, 256]
+        },
+        {
+          "slot": "GLOVE01",
+          "image": "vectra/textures/GLOVE01.webp",
+          "original_crc32": "5bc32cd8",
+          "source": "vectra-atlas",
+          "crop": [312, 1248, 314, 0],
+          "size": [128, 512]
+        },
+        {
+          "slot": "GLOVE02",
+          "image": "vectra/textures/GLOVE02.webp",
+          "original_crc32": "c3663c45",
+          "source": "vectra-atlas",
+          "crop": [312, 1248, 627, 0],
+          "size": [128, 512]
+        }
+      ]
+    },
+    {
+      "car_id": 3,
+      "archive": "data/volvdasx.bfp",
+      "archive_crc32": "30f85a03",
+      "key": "volvo",
+      "members": [
+        {
+          "member": 0,
+          "member_name": "gloves\\left.c3d",
+          "member_crc32": "5b49a2c4",
+          "texture_section_crc32": "8cb9c39d"
+        },
+        {
+          "member": 1,
+          "member_name": "gloves\\right.c3d",
+          "member_crc32": "749decca",
+          "texture_section_crc32": "8cb9c39d"
+        }
+      ],
+      "outputs": [
+        {
+          "slot": "ARM",
+          "image": "volvo/textures/ARM.webp",
+          "original_crc32": "cc6460f8",
+          "source": "volvo-atlas",
+          "crop": [312, 624, 0, 0],
+          "size": [256, 512]
+        },
+        {
+          "slot": "GLOVE03",
+          "image": "volvo/textures/GLOVE03.webp",
+          "original_crc32": "7aedb5ea",
+          "source": "volvo-atlas",
+          "crop": [312, 312, 0, 627],
+          "size": [256, 256]
+        },
+        {
+          "slot": "GLOVE01",
+          "image": "volvo/textures/GLOVE01.webp",
+          "original_crc32": "06b04260",
+          "source": "volvo-atlas",
+          "crop": [312, 1248, 314, 0],
+          "size": [128, 512]
+        },
+        {
+          "slot": "GLOVE02",
+          "image": "volvo/textures/GLOVE02.webp",
+          "original_crc32": "c1d9b4d0",
+          "source": "volvo-atlas",
+          "crop": [312, 1248, 627, 0],
+          "size": [128, 512]
+        }
+      ]
+    },
+    {
+      "car_id": 4,
+      "archive": "data/forddasx.bfp",
+      "archive_crc32": "505d1bfb",
+      "key": "ford",
+      "members": [
+        {
+          "member": 0,
+          "member_name": "gloves\\left.c3d",
+          "member_crc32": "c4873609",
+          "texture_section_crc32": "13775750"
+        },
+        {
+          "member": 1,
+          "member_name": "gloves\\right.c3d",
+          "member_crc32": "eb537807",
+          "texture_section_crc32": "13775750"
+        }
+      ],
+      "outputs": [
+        {
+          "slot": "ARM",
+          "image": "ford/textures/ARM.webp",
+          "original_crc32": "5bf0a68e",
+          "source": "ford-atlas",
+          "crop": [312, 624, 0, 0],
+          "size": [256, 512]
+        },
+        {
+          "slot": "GLOVE03",
+          "image": "ford/textures/GLOVE03.webp",
+          "original_crc32": "7c580bca",
+          "source": "ford-atlas",
+          "crop": [312, 312, 0, 627],
+          "size": [256, 256]
+        },
+        {
+          "slot": "GLOVE01",
+          "image": "ford/textures/GLOVE01.webp",
+          "original_crc32": "5f5ef39a",
+          "source": "ford-atlas",
+          "crop": [312, 1248, 314, 0],
+          "size": [128, 512]
+        },
+        {
+          "slot": "GLOVE02",
+          "image": "ford/textures/GLOVE02.webp",
+          "original_crc32": "ca539d87",
+          "source": "ford-atlas",
+          "crop": [312, 1248, 627, 0],
+          "size": [128, 512]
+        }
+      ]
+    },
+    {
+      "car_id": 5,
+      "archive": "data/nissdasx.bfp",
+      "archive_crc32": "08de1330",
+      "key": "nissan",
+      "members": [
+        {
+          "member": 0,
+          "member_name": "gloves\\left.c3d",
+          "member_crc32": "15aa1f60",
+          "texture_section_crc32": "c25a7e39"
+        },
+        {
+          "member": 1,
+          "member_name": "gloves\\right.c3d",
+          "member_crc32": "3a7e516e",
+          "texture_section_crc32": "c25a7e39"
+        }
+      ],
+      "outputs": [
+        {
+          "slot": "ARM",
+          "image": "nissan/textures/ARM.webp",
+          "original_crc32": "3110ad9b",
+          "source": "nissan-atlas",
+          "crop": [312, 624, 0, 0],
+          "size": [256, 512]
+        },
+        {
+          "slot": "GLOVE03",
+          "image": "nissan/textures/GLOVE03.webp",
+          "original_crc32": "28d4cd3f",
+          "source": "nissan-atlas",
+          "crop": [312, 312, 0, 627],
+          "size": [256, 256]
+        },
+        {
+          "slot": "GLOVE01",
+          "image": "nissan/textures/GLOVE01.webp",
+          "original_crc32": "3c6a0884",
+          "source": "nissan-atlas",
+          "crop": [312, 1248, 314, 0],
+          "size": [128, 512]
+        },
+        {
+          "slot": "GLOVE02",
+          "image": "nissan/textures/GLOVE02.webp",
+          "original_crc32": "394fe765",
+          "source": "nissan-atlas",
+          "crop": [312, 1248, 627, 0],
+          "size": [128, 512]
+        }
+      ]
+    },
+    {
+      "car_id": 6,
+      "archive": "data/p406dasx.bfp",
+      "archive_crc32": "9a0f77d6",
+      "key": "peugeot",
+      "members": [
+        {
+          "member": 0,
+          "member_name": "gloves\\left.c3d",
+          "member_crc32": "8e90e043",
+          "texture_section_crc32": "5960811a"
+        },
+        {
+          "member": 1,
+          "member_name": "gloves\\right.c3d",
+          "member_crc32": "a144ae4d",
+          "texture_section_crc32": "5960811a"
+        }
+      ],
+      "outputs": [
+        {
+          "slot": "ARM",
+          "image": "peugeot/textures/ARM.webp",
+          "original_crc32": "3163276d",
+          "source": "peugeot-atlas",
+          "crop": [312, 624, 0, 0],
+          "size": [256, 512]
+        },
+        {
+          "slot": "GLOVE03",
+          "image": "peugeot/textures/GLOVE03.webp",
+          "original_crc32": "da2f6e34",
+          "source": "peugeot-atlas",
+          "crop": [312, 312, 0, 627],
+          "size": [256, 256]
+        },
+        {
+          "slot": "GLOVE01",
+          "image": "peugeot/textures/GLOVE01.webp",
+          "original_crc32": "6bc3f48a",
+          "source": "peugeot-atlas",
+          "crop": [312, 1248, 314, 0],
+          "size": [128, 512]
+        },
+        {
+          "slot": "GLOVE02",
+          "image": "peugeot/textures/GLOVE02.webp",
+          "original_crc32": "53aa7a7c",
+          "source": "peugeot-atlas",
+          "crop": [312, 1248, 627, 0],
+          "size": [128, 512]
+        }
+      ]
+    },
+    {
+      "car_id": 7,
+      "archive": "data/rendasx.bfp",
+      "archive_crc32": "fd3542e3",
+      "key": "renault",
+      "members": [
+        {
+          "member": 0,
+          "member_name": "gloves\\left.c3d",
+          "member_crc32": "88c39c04",
+          "texture_section_crc32": "5f33fd5d"
+        },
+        {
+          "member": 1,
+          "member_name": "gloves\\right.c3d",
+          "member_crc32": "a717d20a",
+          "texture_section_crc32": "5f33fd5d"
+        }
+      ],
+      "outputs": [
+        {
+          "slot": "ARM",
+          "image": "renault/textures/ARM.webp",
+          "original_crc32": "3dbb1eb3",
+          "source": "renault-atlas",
+          "crop": [312, 624, 0, 0],
+          "size": [256, 512]
+        },
+        {
+          "slot": "GLOVE03",
+          "image": "renault/textures/GLOVE03.webp",
+          "original_crc32": "7f04f979",
+          "source": "renault-atlas",
+          "crop": [312, 312, 0, 627],
+          "size": [256, 256]
+        },
+        {
+          "slot": "GLOVE01",
+          "image": "renault/textures/GLOVE01.webp",
+          "original_crc32": "17dd7117",
+          "source": "renault-atlas",
+          "crop": [312, 1248, 314, 0],
+          "size": [128, 512]
+        },
+        {
+          "slot": "GLOVE02",
+          "image": "renault/textures/GLOVE02.webp",
+          "original_crc32": "dc2c463b",
+          "source": "renault-atlas",
+          "crop": [312, 1248, 627, 0],
+          "size": [128, 512]
+        }
+      ]
+    },
+    {
+      "car_id": 9,
+      "archive": "data/flexdasx.bfp",
+      "archive_crc32": "038cfaae",
+      "key": "flexmobile",
+      "members": [
+        {
+          "member": 0,
+          "member_name": "gloves\\left.c3d",
+          "member_crc32": "7ac2a416",
+          "texture_section_crc32": "aa031cd8"
+        },
+        {
+          "member": 1,
+          "member_name": "gloves\\right.c3d",
+          "member_crc32": "6bdeb556",
+          "texture_section_crc32": "aa031cd8"
+        }
+      ],
+      "outputs": [
+        {
+          "slot": "ARM",
+          "image": "flexmobile/textures/ARM.webp",
+          "original_crc32": "76a73d6a",
+          "source": "flex-atlas",
+          "crop": [312, 624, 0, 0],
+          "size": [256, 512]
+        },
+        {
+          "slot": "GLOVE03",
+          "image": "flexmobile/textures/GLOVE03.webp",
+          "original_crc32": "fd39e212",
+          "source": "flex-atlas",
+          "crop": [312, 312, 0, 627],
+          "size": [128, 128]
+        },
+        {
+          "slot": "GLOVE01",
+          "image": "flexmobile/textures/GLOVE01.webp",
+          "original_crc32": "571f788c",
+          "source": "flex-atlas",
+          "crop": [312, 1248, 314, 0],
+          "size": [128, 512],
+          "alpha": "canonical exact-black colorkey, nearest UV sampling; generated RGB retained"
+        },
+        {
+          "slot": "GLOVE02",
+          "image": "flexmobile/textures/GLOVE02.webp",
+          "original_crc32": "fd39e212",
+          "source": "flex-atlas",
+          "crop": [312, 312, 0, 627],
+          "size": [128, 128],
+          "shared_original_slot": "GLOVE03"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,3555 @@
+{
+  "version": 1,
+  "package": "R02-Thruxton-control-airport-podium-stands-pitwalls-TV",
+  "source": {
+    "track": 2,
+    "path": "data/thrufree.bfp",
+    "crc32": "473c8fe8",
+    "bytes": 2575997,
+    "members": {
+      "2": "fc00e5ad",
+      "3": "383f46f3",
+      "5": "a17b2723",
+      "8": "e6be0b26",
+      "9": "cae2f0dc",
+      "10": "dfe0e48d",
+      "11": "ae5462d0"
+    }
+  },
+  "scope": {
+    "track": 2,
+    "member": 5,
+    "member_crc32": "a17b2723",
+    "accepted_types": 18,
+    "accepted_bindings": 36,
+    "source_images": 59,
+    "new_images": 54,
+    "new_generation_plates": 53,
+    "related_art_variants": 1,
+    "unchanged_accepted_images": 5,
+    "new_exact_cutout_masks": 23,
+    "types": [
+      {
+        "member": 5,
+        "mesh": 13,
+        "name": "TH04SMH_1",
+        "type": "24b5cf5e",
+        "source_mesh_crc32": "4b6d4b7e",
+        "vertices": 16,
+        "triangles": 8,
+        "nodes": [
+          [
+            35,
+            0
+          ],
+          [
+            37,
+            0
+          ]
+        ]
+      },
+      {
+        "member": 5,
+        "mesh": 14,
+        "name": "TH05CTR_1",
+        "type": "ee5fa55c",
+        "source_mesh_crc32": "2ca879a4",
+        "vertices": 48,
+        "triangles": 28,
+        "nodes": [
+          [
+            39,
+            0
+          ]
+        ]
+      },
+      {
+        "member": 5,
+        "mesh": 15,
+        "name": "TH06BRG2_1",
+        "type": "9b451058",
+        "source_mesh_crc32": "c2924b71",
+        "vertices": 156,
+        "triangles": 82,
+        "nodes": [
+          [
+            41,
+            0
+          ]
+        ]
+      },
+      {
+        "member": 5,
+        "mesh": 16,
+        "name": "TH03AIRP_1",
+        "type": "2e54e3ea",
+        "source_mesh_crc32": "e2e36882",
+        "vertices": 117,
+        "triangles": 70,
+        "nodes": [
+          [
+            43,
+            0
+          ]
+        ]
+      },
+      {
+        "member": 5,
+        "mesh": 18,
+        "name": "TH11PODM_1",
+        "type": "6f4bd9f8",
+        "source_mesh_crc32": "8806228f",
+        "vertices": 70,
+        "triangles": 40,
+        "nodes": [
+          [
+            49,
+            0
+          ]
+        ]
+      },
+      {
+        "member": 5,
+        "mesh": 19,
+        "name": "TH10PFB_1",
+        "type": "7b7f2f13",
+        "source_mesh_crc32": "db7f4a9b",
+        "vertices": 44,
+        "triangles": 28,
+        "nodes": [
+          [
+            51,
+            0
+          ],
+          [
+            53,
+            0
+          ],
+          [
+            55,
+            0
+          ]
+        ]
+      },
+      {
+        "member": 5,
+        "mesh": 20,
+        "name": "TH15TSTE_1",
+        "type": "2e1a915d",
+        "source_mesh_crc32": "4a6f1642",
+        "vertices": 64,
+        "triangles": 36,
+        "nodes": [
+          [
+            57,
+            0
+          ]
+        ]
+      },
+      {
+        "member": 5,
+        "mesh": 22,
+        "name": "TH01MBOX_1",
+        "type": "80580d96",
+        "source_mesh_crc32": "6e2140c5",
+        "vertices": 38,
+        "triangles": 24,
+        "nodes": [
+          [
+            61,
+            0
+          ],
+          [
+            65,
+            0
+          ],
+          [
+            67,
+            0
+          ],
+          [
+            71,
+            0
+          ],
+          [
+            75,
+            0
+          ],
+          [
+            81,
+            0
+          ],
+          [
+            101,
+            0
+          ],
+          [
+            103,
+            0
+          ]
+        ]
+      },
+      {
+        "member": 5,
+        "mesh": 24,
+        "name": "TH20STWR_1",
+        "type": "ae3b6e79",
+        "source_mesh_crc32": "c7b23bc7",
+        "vertices": 38,
+        "triangles": 26,
+        "nodes": [
+          [
+            69,
+            0
+          ]
+        ]
+      },
+      {
+        "member": 5,
+        "mesh": 25,
+        "name": "TH01MBO1_1",
+        "type": "651304c5",
+        "source_mesh_crc32": "f111bfcd",
+        "vertices": 70,
+        "triangles": 44,
+        "nodes": [
+          [
+            73,
+            0
+          ],
+          [
+            77,
+            0
+          ],
+          [
+            79,
+            0
+          ],
+          [
+            83,
+            0
+          ],
+          [
+            85,
+            0
+          ],
+          [
+            87,
+            0
+          ],
+          [
+            89,
+            0
+          ]
+        ]
+      },
+      {
+        "member": 5,
+        "mesh": 30,
+        "name": "TH19SB_1",
+        "type": "873027a2",
+        "source_mesh_crc32": "5bd3d151",
+        "vertices": 28,
+        "triangles": 14,
+        "nodes": [
+          [
+            99,
+            0
+          ]
+        ]
+      },
+      {
+        "member": 5,
+        "mesh": 36,
+        "name": "TH13SLTS_1",
+        "type": "bb8600ad",
+        "source_mesh_crc32": "f9396d8a",
+        "vertices": 54,
+        "triangles": 36,
+        "nodes": [
+          [
+            247,
+            0
+          ]
+        ]
+      },
+      {
+        "member": 5,
+        "mesh": 37,
+        "name": "TH30EB_1",
+        "type": "acb97d90",
+        "source_mesh_crc32": "4f68b9f4",
+        "vertices": 18,
+        "triangles": 6,
+        "nodes": [
+          [
+            249,
+            0
+          ]
+        ]
+      },
+      {
+        "member": 5,
+        "mesh": 42,
+        "name": "TH02GSTD_1",
+        "type": "74a9d03f",
+        "source_mesh_crc32": "8f90ec97",
+        "vertices": 131,
+        "triangles": 66,
+        "nodes": [
+          [
+            267,
+            0
+          ],
+          [
+            269,
+            0
+          ]
+        ]
+      },
+      {
+        "member": 5,
+        "mesh": 43,
+        "name": "THP01_1",
+        "type": "7d08f6c5",
+        "source_mesh_crc32": "1dc9affd",
+        "vertices": 76,
+        "triangles": 56,
+        "nodes": [
+          [
+            275,
+            0
+          ]
+        ]
+      },
+      {
+        "member": 5,
+        "mesh": 44,
+        "name": "THP02_1",
+        "type": "3e1bd207",
+        "source_mesh_crc32": "b9905e36",
+        "vertices": 128,
+        "triangles": 96,
+        "nodes": [
+          [
+            277,
+            0
+          ]
+        ]
+      },
+      {
+        "member": 5,
+        "mesh": 45,
+        "name": "THP03_1",
+        "type": "e33ab6d0",
+        "source_mesh_crc32": "7c474ff4",
+        "vertices": 206,
+        "triangles": 152,
+        "nodes": [
+          [
+            279,
+            0
+          ]
+        ]
+      },
+      {
+        "member": 5,
+        "mesh": 49,
+        "name": "TV01_1",
+        "type": "26487575",
+        "source_mesh_crc32": "413f4a4b",
+        "vertices": 41,
+        "triangles": 21,
+        "nodes": [
+          [
+            409,
+            0
+          ],
+          [
+            411,
+            0
+          ]
+        ]
+      }
+    ]
+  },
+  "geometry": "Original simple FREE5 shells and support planes retained,6–152 triangles per type. No concrete shape defect found. Canonical vertices, indices, normals, UVs, resolved material slots and36 node bindings are unchanged; no added geometry or texture layers.",
+  "export": "53 fresh reference-based artwork plates plus one compatible accepted TV2 RGB plate; no RGB upscales, source-pixel tracing or reencoding of accepted WebPs. Recorded crops remove generated presentation padding. Each whole chart is resized with Lanczos to the original aspect ratio, maximum512px; WebP quality70/method6. Exact-black source alpha restored with nearest sampling. All other authored images keep their existing bytes and encoding.",
+  "materials": [
+    {
+      "name": "CRANF4B",
+      "source_crc32": "7e81100f",
+      "source_size": [
+        64,
+        32
+      ],
+      "source_black_key_pixels": 0,
+      "slots": [
+        91
+      ],
+      "action": "accepted-image-reused-byte-identical",
+      "output": {
+        "path": "assets/models/mega/textures/thruxton-static-cranf4b.webp",
+        "crc32": "6fc4f985",
+        "bytes": 4324
+      }
+    },
+    {
+      "name": "DA02GSD2",
+      "source_crc32": "19b24630",
+      "source_size": [
+        64,
+        32
+      ],
+      "source_black_key_pixels": 0,
+      "slots": [
+        97
+      ],
+      "action": "new-direct-artwork",
+      "output": {
+        "path": "assets/models/mega/textures/thruxton-structure-da02gsd2.webp",
+        "crc32": "69e7a473",
+        "bytes": 51276
+      },
+      "reference_file": {
+        "path": "build/thruxton-structures/DA02GSD2-source6x.png",
+        "crc32": "6a449fd2",
+        "bytes": 7240
+      },
+      "generated": {
+        "path": "build/thruxton-structures/DA02GSD2-generated.png",
+        "crc32": "39461ccb",
+        "size": [
+          1774,
+          887
+        ]
+      },
+      "crop": [
+        0,
+        0,
+        1774,
+        887
+      ],
+      "export": {
+        "path": "assets/models/mega/textures/thruxton-structure-da02gsd2.webp",
+        "crc32": "69e7a473",
+        "bytes": 51276,
+        "size": [
+          512,
+          256
+        ],
+        "webp_quality": 70,
+        "webp_method": 6
+      },
+      "alpha": {
+        "source_black_key_pixels": 0,
+        "decoded_mask_crc32": "154803cc",
+        "exact_source_mask": true
+      }
+    },
+    {
+      "name": "DA02GSD6",
+      "source_crc32": "9704b850",
+      "source_size": [
+        128,
+        32
+      ],
+      "source_black_key_pixels": 0,
+      "slots": [
+        41
+      ],
+      "action": "new-direct-artwork",
+      "output": {
+        "path": "assets/models/mega/textures/thruxton-structure-da02gsd6.webp",
+        "crc32": "5f074849",
+        "bytes": 4564
+      },
+      "reference_file": {
+        "path": "build/thruxton-structures/DA02GSD6-source6x.png",
+        "crc32": "1a65b416",
+        "bytes": 4238
+      },
+      "generated": {
+        "path": "build/thruxton-structures/DA02GSD6-generated.png",
+        "crc32": "18ca20fb",
+        "size": [
+          2170,
+          725
+        ]
+      },
+      "crop": [
+        0,
+        93,
+        2170,
+        624
+      ],
+      "export": {
+        "path": "assets/models/mega/textures/thruxton-structure-da02gsd6.webp",
+        "crc32": "5f074849",
+        "bytes": 4564,
+        "size": [
+          512,
+          128
+        ],
+        "webp_quality": 70,
+        "webp_method": 6
+      },
+      "alpha": {
+        "source_black_key_pixels": 0,
+        "decoded_mask_crc32": "deab7e4e",
+        "exact_source_mask": true
+      }
+    },
+    {
+      "name": "DA15SHL7",
+      "source_crc32": "a62d5b9f",
+      "source_size": [
+        32,
+        16
+      ],
+      "source_black_key_pixels": 322,
+      "slots": [
+        46
+      ],
+      "action": "new-direct-artwork",
+      "output": {
+        "path": "assets/models/mega/textures/thruxton-structure-da15shl7.webp",
+        "crc32": "ad915f67",
+        "bytes": 5196
+      },
+      "reference_file": {
+        "path": "build/thruxton-structures/DA15SHL7-source6x.png",
+        "crc32": "c9b5efb1",
+        "bytes": 807
+      },
+      "generated": {
+        "path": "build/thruxton-structures/DA15SHL7-generated.png",
+        "crc32": "9fb4972b",
+        "size": [
+          1774,
+          887
+        ]
+      },
+      "crop": [
+        0,
+        0,
+        1774,
+        887
+      ],
+      "export": {
+        "path": "assets/models/mega/textures/thruxton-structure-da15shl7.webp",
+        "crc32": "ad915f67",
+        "bytes": 5196,
+        "size": [
+          512,
+          256
+        ],
+        "webp_quality": 70,
+        "webp_method": 6
+      },
+      "alpha": {
+        "source_black_key_pixels": 322,
+        "decoded_mask_crc32": "4e779a00",
+        "exact_source_mask": true
+      }
+    },
+    {
+      "name": "LTYRBLK",
+      "source_crc32": "20e2859d",
+      "source_size": [
+        128,
+        32
+      ],
+      "source_black_key_pixels": 0,
+      "slots": [
+        72
+      ],
+      "action": "new-direct-artwork",
+      "output": {
+        "path": "assets/models/mega/textures/thruxton-structure-ltyrblk.webp",
+        "crc32": "9877d01b",
+        "bytes": 3150
+      },
+      "reference_file": {
+        "path": "build/thruxton-structures/LTYRBLK-source6x.png",
+        "crc32": "f05412f2",
+        "bytes": 2406
+      },
+      "generated": {
+        "path": "build/thruxton-structures/LTYRBLK-generated.png",
+        "crc32": "9c1e5492",
+        "size": [
+          2170,
+          725
+        ]
+      },
+      "crop": [
+        0,
+        94,
+        2170,
+        631
+      ],
+      "export": {
+        "path": "assets/models/mega/textures/thruxton-structure-ltyrblk.webp",
+        "crc32": "9877d01b",
+        "bytes": 3150,
+        "size": [
+          512,
+          128
+        ],
+        "webp_quality": 70,
+        "webp_method": 6
+      },
+      "alpha": {
+        "source_black_key_pixels": 0,
+        "decoded_mask_crc32": "deab7e4e",
+        "exact_source_mask": true
+      }
+    },
+    {
+      "name": "LTYRTOP",
+      "source_crc32": "2b61469a",
+      "source_size": [
+        128,
+        32
+      ],
+      "source_black_key_pixels": 0,
+      "slots": [
+        73
+      ],
+      "action": "accepted-image-reused-byte-identical",
+      "output": {
+        "path": "assets/models/mega/textures/tyres-top.webp",
+        "crc32": "6afe0836",
+        "bytes": 7922
+      }
+    },
+    {
+      "name": "MOBILBK",
+      "source_crc32": "d77947b7",
+      "source_size": [
+        32,
+        128
+      ],
+      "source_black_key_pixels": 0,
+      "slots": [
+        99
+      ],
+      "action": "new-direct-artwork",
+      "output": {
+        "path": "assets/models/mega/textures/thruxton-structure-mobilbk.webp",
+        "crc32": "06a19ea5",
+        "bytes": 9714
+      },
+      "reference_file": {
+        "path": "build/thruxton-structures/MOBILBK-source6x.png",
+        "crc32": "b2fc5147",
+        "bytes": 6649
+      },
+      "generated": {
+        "path": "build/thruxton-structures/MOBILBK-generated.png",
+        "crc32": "ba7d7ca8",
+        "size": [
+          725,
+          2170
+        ]
+      },
+      "crop": [
+        93,
+        0,
+        627,
+        2170
+      ],
+      "export": {
+        "path": "assets/models/mega/textures/thruxton-structure-mobilbk.webp",
+        "crc32": "06a19ea5",
+        "bytes": 9714,
+        "size": [
+          128,
+          512
+        ],
+        "webp_quality": 70,
+        "webp_method": 6
+      },
+      "alpha": {
+        "source_black_key_pixels": 0,
+        "decoded_mask_crc32": "deab7e4e",
+        "exact_source_mask": true
+      },
+      "edits": [
+        {
+          "name": "MOBILBK",
+          "references": [
+            "exec-ac07f838-7445-477f-a2d7-b89ba93cca78.png"
+          ],
+          "image": "assets/models/mega/textures/thruxton-structure-mobilbk.webp",
+          "generated_source": "exec-e032a6b1-331b-42b0-9e09-1205ec9abd88.png",
+          "reference_files": [
+            {
+              "path": "exec-ac07f838-7445-477f-a2d7-b89ba93cca78.png",
+              "crc32": "34a5215b",
+              "bytes": 1922298
+            }
+          ]
+        },
+        {
+          "name": "MOBILBK",
+          "image": "assets/models/mega/textures/thruxton-structure-mobilbk.webp",
+          "references": [
+            "build/thruxton-structures/MOBILBK-source6x.png",
+            "build/thruxton-structures/native/thruxton-structures-8s4nd21s/work/18-pitwall-fascias/material-track2-THP03_1-node279-near-original.png"
+          ],
+          "generated_source": "exec-fd2c6e57-8853-4840-9ed2-da135d4fbaf7.png",
+          "reference_files": [
+            {
+              "path": "build/thruxton-structures/MOBILBK-source6x.png",
+              "crc32": "b2fc5147",
+              "bytes": 6649
+            },
+            {
+              "path": "build/thruxton-structures/native/thruxton-structures-8s4nd21s/work/18-pitwall-fascias/material-track2-THP03_1-node279-near-original.png",
+              "crc32": "245953b0",
+              "bytes": 35752
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "MOBILTOP",
+      "source_crc32": "3f7b2754",
+      "source_size": [
+        128,
+        32
+      ],
+      "source_black_key_pixels": 0,
+      "slots": [
+        100
+      ],
+      "action": "corrected-existing-mapping-and-new-artwork",
+      "output": {
+        "path": "assets/models/mega/textures/thruxton-structure-mobiltop.webp",
+        "crc32": "e148ce0e",
+        "bytes": 2048
+      },
+      "reference_file": {
+        "path": "build/thruxton-structures/MOBILTOP-source6x.png",
+        "crc32": "c2710e47",
+        "bytes": 1811
+      },
+      "generated": {
+        "path": "build/thruxton-structures/MOBILTOP-generated.png",
+        "crc32": "b3d6c117",
+        "size": [
+          2169,
+          725
+        ]
+      },
+      "crop": [
+        0,
+        91,
+        2169,
+        634
+      ],
+      "export": {
+        "path": "assets/models/mega/textures/thruxton-structure-mobiltop.webp",
+        "crc32": "e148ce0e",
+        "bytes": 2048,
+        "size": [
+          512,
+          128
+        ],
+        "webp_quality": 70,
+        "webp_method": 6
+      },
+      "alpha": {
+        "source_black_key_pixels": 0,
+        "decoded_mask_crc32": "deab7e4e",
+        "exact_source_mask": true
+      }
+    },
+    {
+      "name": "TH01MBO1",
+      "source_crc32": "e9d58454",
+      "source_size": [
+        64,
+        64
+      ],
+      "source_black_key_pixels": 1584,
+      "slots": [
+        66
+      ],
+      "action": "new-direct-artwork",
+      "output": {
+        "path": "assets/models/mega/textures/thruxton-structure-th01mbo1.webp",
+        "crc32": "402079d7",
+        "bytes": 11518
+      },
+      "reference_file": {
+        "path": "build/thruxton-structures/TH01MBO1-source6x.png",
+        "crc32": "e9c5b0d7",
+        "bytes": 5366
+      },
+      "generated": {
+        "path": "build/thruxton-structures/TH01MBO1-generated.png",
+        "crc32": "e6bcdcb8",
+        "size": [
+          1254,
+          1254
+        ]
+      },
+      "crop": [
+        0,
+        0,
+        1254,
+        1254
+      ],
+      "export": {
+        "path": "assets/models/mega/textures/thruxton-structure-th01mbo1.webp",
+        "crc32": "402079d7",
+        "bytes": 11518,
+        "size": [
+          512,
+          512
+        ],
+        "webp_quality": 70,
+        "webp_method": 6
+      },
+      "alpha": {
+        "source_black_key_pixels": 1584,
+        "decoded_mask_crc32": "a731c493",
+        "exact_source_mask": true
+      }
+    },
+    {
+      "name": "TH01MBO2",
+      "source_crc32": "f481e4e5",
+      "source_size": [
+        64,
+        64
+      ],
+      "source_black_key_pixels": 0,
+      "slots": [
+        67
+      ],
+      "action": "new-direct-artwork",
+      "output": {
+        "path": "assets/models/mega/textures/thruxton-structure-th01mbo2.webp",
+        "crc32": "cd9e2994",
+        "bytes": 15332
+      },
+      "reference_file": {
+        "path": "build/thruxton-structures/TH01MBO2-source6x.png",
+        "crc32": "53aa3abc",
+        "bytes": 5919
+      },
+      "generated": {
+        "path": "build/thruxton-structures/TH01MBO2-generated.png",
+        "crc32": "37381088",
+        "size": [
+          1254,
+          1254
+        ]
+      },
+      "crop": [
+        0,
+        0,
+        1254,
+        1254
+      ],
+      "export": {
+        "path": "assets/models/mega/textures/thruxton-structure-th01mbo2.webp",
+        "crc32": "cd9e2994",
+        "bytes": 15332,
+        "size": [
+          512,
+          512
+        ],
+        "webp_quality": 70,
+        "webp_method": 6
+      },
+      "alpha": {
+        "source_black_key_pixels": 0,
+        "decoded_mask_crc32": "b7094978",
+        "exact_source_mask": true
+      }
+    },
+    {
+      "name": "TH01MBOX",
+      "source_crc32": "bfff6831",
+      "source_size": [
+        64,
+        16
+      ],
+      "source_black_key_pixels": 272,
+      "slots": [
+        68
+      ],
+      "action": "new-direct-artwork",
+      "output": {
+        "path": "assets/models/mega/textures/thruxton-structure-th01mbox.webp",
+        "crc32": "95bf2c23",
+        "bytes": 1228
+      },
+      "reference_file": {
+        "path": "build/thruxton-structures/TH01MBOX-source6x.png",
+        "crc32": "1b7374ff",
+        "bytes": 1148
+      },
+      "generated": {
+        "path": "build/thruxton-structures/TH01MBOX-generated.png",
+        "crc32": "c314e3d1",
+        "size": [
+          2172,
+          724
+        ]
+      },
+      "crop": [
+        0,
+        91,
+        2172,
+        632
+      ],
+      "export": {
+        "path": "assets/models/mega/textures/thruxton-structure-th01mbox.webp",
+        "crc32": "95bf2c23",
+        "bytes": 1228,
+        "size": [
+          512,
+          128
+        ],
+        "webp_quality": 70,
+        "webp_method": 6
+      },
+      "alpha": {
+        "source_black_key_pixels": 272,
+        "decoded_mask_crc32": "20c1e7b1",
+        "exact_source_mask": true
+      }
+    },
+    {
+      "name": "TH02GSD",
+      "source_crc32": "642f1ead",
+      "source_size": [
+        128,
+        16
+      ],
+      "source_black_key_pixels": 160,
+      "slots": [
+        92
+      ],
+      "action": "new-direct-artwork",
+      "output": {
+        "path": "assets/models/mega/textures/thruxton-structure-th02gsd.webp",
+        "crc32": "ad9878f0",
+        "bytes": 6682
+      },
+      "reference_file": {
+        "path": "build/thruxton-structures/TH02GSD-source6x.png",
+        "crc32": "118a2960",
+        "bytes": 4316
+      },
+      "generated": {
+        "path": "build/thruxton-structures/TH02GSD-generated.png",
+        "crc32": "889a9da7",
+        "size": [
+          2170,
+          725
+        ]
+      },
+      "crop": [
+        0,
+        224,
+        2170,
+        500
+      ],
+      "export": {
+        "path": "assets/models/mega/textures/thruxton-structure-th02gsd.webp",
+        "crc32": "ad9878f0",
+        "bytes": 6682,
+        "size": [
+          512,
+          64
+        ],
+        "webp_quality": 70,
+        "webp_method": 6
+      },
+      "alpha": {
+        "source_black_key_pixels": 160,
+        "decoded_mask_crc32": "0913761f",
+        "exact_source_mask": true
+      }
+    },
+    {
+      "name": "TH02GSDA",
+      "source_crc32": "5a2c08f4",
+      "source_size": [
+        64,
+        64
+      ],
+      "source_black_key_pixels": 2099,
+      "slots": [
+        93
+      ],
+      "action": "new-direct-artwork",
+      "output": {
+        "path": "assets/models/mega/textures/thruxton-structure-th02gsda.webp",
+        "crc32": "0d81a08c",
+        "bytes": 10620
+      },
+      "reference_file": {
+        "path": "build/thruxton-structures/TH02GSDA-source6x.png",
+        "crc32": "8b15ad94",
+        "bytes": 4792
+      },
+      "generated": {
+        "path": "build/thruxton-structures/TH02GSDA-generated.png",
+        "crc32": "cd081de7",
+        "size": [
+          1254,
+          1254
+        ]
+      },
+      "crop": [
+        0,
+        0,
+        1254,
+        1254
+      ],
+      "export": {
+        "path": "assets/models/mega/textures/thruxton-structure-th02gsda.webp",
+        "crc32": "0d81a08c",
+        "bytes": 10620,
+        "size": [
+          512,
+          512
+        ],
+        "webp_quality": 70,
+        "webp_method": 6
+      },
+      "alpha": {
+        "source_black_key_pixels": 2099,
+        "decoded_mask_crc32": "52aef904",
+        "exact_source_mask": true
+      }
+    },
+    {
+      "name": "TH02GSDB",
+      "source_crc32": "81cca076",
+      "source_size": [
+        128,
+        16
+      ],
+      "source_black_key_pixels": 0,
+      "slots": [
+        94
+      ],
+      "action": "new-direct-artwork",
+      "output": {
+        "path": "assets/models/mega/textures/thruxton-structure-th02gsdb.webp",
+        "crc32": "9cf6c590",
+        "bytes": 5882
+      },
+      "reference_file": {
+        "path": "build/thruxton-structures/TH02GSDB-source6x.png",
+        "crc32": "80d75603",
+        "bytes": 3937
+      },
+      "generated": {
+        "path": "build/thruxton-structures/TH02GSDB-generated.png",
+        "crc32": "342a51a4",
+        "size": [
+          2169,
+          725
+        ]
+      },
+      "crop": [
+        0,
+        232,
+        2169,
+        494
+      ],
+      "export": {
+        "path": "assets/models/mega/textures/thruxton-structure-th02gsdb.webp",
+        "crc32": "9cf6c590",
+        "bytes": 5882,
+        "size": [
+          512,
+          64
+        ],
+        "webp_quality": 70,
+        "webp_method": 6
+      },
+      "alpha": {
+        "source_black_key_pixels": 0,
+        "decoded_mask_crc32": "1b43eabd",
+        "exact_source_mask": true
+      },
+      "edits": [
+        {
+          "name": "TH02GSDB",
+          "references": [
+            "exec-60ea7cff-0031-4231-be52-092329894b83.png"
+          ],
+          "image": "assets/models/mega/textures/thruxton-structure-th02gsdb.webp",
+          "generated_source": "exec-84245418-01ed-4fef-8bf9-7d3a237eb37c.png",
+          "reference_files": [
+            {
+              "path": "exec-60ea7cff-0031-4231-be52-092329894b83.png",
+              "crc32": "09572919",
+              "bytes": 1333218
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "TH02GSDC",
+      "source_crc32": "fe440194",
+      "source_size": [
+        128,
+        32
+      ],
+      "source_black_key_pixels": 3332,
+      "slots": [
+        95
+      ],
+      "action": "new-direct-artwork",
+      "output": {
+        "path": "assets/models/mega/textures/thruxton-structure-th02gsdc.webp",
+        "crc32": "2aa385af",
+        "bytes": 1928
+      },
+      "reference_file": {
+        "path": "build/thruxton-structures/TH02GSDC-source6x.png",
+        "crc32": "2d688258",
+        "bytes": 1251
+      },
+      "generated": {
+        "path": "build/thruxton-structures/TH02GSDC-generated.png",
+        "crc32": "1334cbff",
+        "size": [
+          2170,
+          725
+        ]
+      },
+      "crop": [
+        0,
+        93,
+        2170,
+        632
+      ],
+      "export": {
+        "path": "assets/models/mega/textures/thruxton-structure-th02gsdc.webp",
+        "crc32": "2aa385af",
+        "bytes": 1928,
+        "size": [
+          512,
+          128
+        ],
+        "webp_quality": 70,
+        "webp_method": 6
+      },
+      "alpha": {
+        "source_black_key_pixels": 3332,
+        "decoded_mask_crc32": "2ab4916a",
+        "exact_source_mask": true
+      }
+    },
+    {
+      "name": "TH02GSDD",
+      "source_crc32": "d78c671c",
+      "source_size": [
+        32,
+        32
+      ],
+      "source_black_key_pixels": 0,
+      "slots": [
+        96
+      ],
+      "action": "new-direct-artwork",
+      "output": {
+        "path": "assets/models/mega/textures/thruxton-structure-th02gsdd.webp",
+        "crc32": "88dbf0df",
+        "bytes": 3106
+      },
+      "reference_file": {
+        "path": "build/thruxton-structures/TH02GSDD-source6x.png",
+        "crc32": "1da77bac",
+        "bytes": 974
+      },
+      "generated": {
+        "path": "build/thruxton-structures/TH02GSDD-generated.png",
+        "crc32": "7b3310c0",
+        "size": [
+          1254,
+          1254
+        ]
+      },
+      "crop": [
+        0,
+        0,
+        1254,
+        1254
+      ],
+      "export": {
+        "path": "assets/models/mega/textures/thruxton-structure-th02gsdd.webp",
+        "crc32": "88dbf0df",
+        "bytes": 3106,
+        "size": [
+          512,
+          512
+        ],
+        "webp_quality": 70,
+        "webp_method": 6
+      },
+      "alpha": {
+        "source_black_key_pixels": 0,
+        "decoded_mask_crc32": "b7094978",
+        "exact_source_mask": true
+      }
+    },
+    {
+      "name": "TH03AI1",
+      "source_crc32": "2109d84d",
+      "source_size": [
+        64,
+        64
+      ],
+      "source_black_key_pixels": 0,
+      "slots": [
+        47
+      ],
+      "action": "new-direct-artwork",
+      "output": {
+        "path": "assets/models/mega/textures/thruxton-structure-th03ai1.webp",
+        "crc32": "d2f81624",
+        "bytes": 4726
+      },
+      "reference_file": {
+        "path": "build/thruxton-structures/TH03AI1-source6x.png",
+        "crc32": "5cc0ce03",
+        "bytes": 7980
+      },
+      "generated": {
+        "path": "build/thruxton-structures/TH03AI1-generated.png",
+        "crc32": "d0f897a6",
+        "size": [
+          1254,
+          1254
+        ]
+      },
+      "crop": [
+        0,
+        0,
+        1254,
+        1254
+      ],
+      "export": {
+        "path": "assets/models/mega/textures/thruxton-structure-th03ai1.webp",
+        "crc32": "d2f81624",
+        "bytes": 4726,
+        "size": [
+          512,
+          512
+        ],
+        "webp_quality": 70,
+        "webp_method": 6
+      },
+      "alpha": {
+        "source_black_key_pixels": 0,
+        "decoded_mask_crc32": "b7094978",
+        "exact_source_mask": true
+      }
+    },
+    {
+      "name": "TH03AI2",
+      "source_crc32": "b26a7e0e",
+      "source_size": [
+        64,
+        64
+      ],
+      "source_black_key_pixels": 0,
+      "slots": [
+        48
+      ],
+      "action": "new-direct-artwork",
+      "output": {
+        "path": "assets/models/mega/textures/thruxton-structure-th03ai2.webp",
+        "crc32": "76e11375",
+        "bytes": 6730
+      },
+      "reference_file": {
+        "path": "build/thruxton-structures/TH03AI2-source6x.png",
+        "crc32": "b91fbe06",
+        "bytes": 7334
+      },
+      "generated": {
+        "path": "build/thruxton-structures/TH03AI2-generated.png",
+        "crc32": "8decf5b8",
+        "size": [
+          1254,
+          1254
+        ]
+      },
+      "crop": [
+        0,
+        0,
+        1254,
+        1254
+      ],
+      "export": {
+        "path": "assets/models/mega/textures/thruxton-structure-th03ai2.webp",
+        "crc32": "76e11375",
+        "bytes": 6730,
+        "size": [
+          512,
+          512
+        ],
+        "webp_quality": 70,
+        "webp_method": 6
+      },
+      "alpha": {
+        "source_black_key_pixels": 0,
+        "decoded_mask_crc32": "b7094978",
+        "exact_source_mask": true
+      },
+      "edits": [
+        {
+          "name": "TH03AI2",
+          "references": [
+            "exec-f98ca549-b49b-44d1-9f7f-1f5a3aafc5c1.png"
+          ],
+          "image": "assets/models/mega/textures/thruxton-structure-th03ai2.webp",
+          "generated_source": "exec-ee4ab6d4-51cc-4e68-b6db-ff665fc762a4.png",
+          "reference_files": [
+            {
+              "path": "exec-f98ca549-b49b-44d1-9f7f-1f5a3aafc5c1.png",
+              "crc32": "6873d79e",
+              "bytes": 2419582
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "TH03AI3",
+      "source_crc32": "17ac41fe",
+      "source_size": [
+        32,
+        64
+      ],
+      "source_black_key_pixels": 936,
+      "slots": [
+        49
+      ],
+      "action": "new-direct-artwork",
+      "output": {
+        "path": "assets/models/mega/textures/thruxton-structure-th03ai3.webp",
+        "crc32": "62e3a27f",
+        "bytes": 4852
+      },
+      "reference_file": {
+        "path": "build/thruxton-structures/TH03AI3-source6x.png",
+        "crc32": "1710f0fb",
+        "bytes": 2732
+      },
+      "generated": {
+        "path": "build/thruxton-structures/TH03AI3-generated.png",
+        "crc32": "c73d6721",
+        "size": [
+          887,
+          1774
+        ]
+      },
+      "crop": [
+        0,
+        0,
+        887,
+        1774
+      ],
+      "export": {
+        "path": "assets/models/mega/textures/thruxton-structure-th03ai3.webp",
+        "crc32": "62e3a27f",
+        "bytes": 4852,
+        "size": [
+          256,
+          512
+        ],
+        "webp_quality": 70,
+        "webp_method": 6
+      },
+      "alpha": {
+        "source_black_key_pixels": 936,
+        "decoded_mask_crc32": "6e16f40d",
+        "exact_source_mask": true
+      }
+    },
+    {
+      "name": "TH03AI4",
+      "source_crc32": "28b8f3f6",
+      "source_size": [
+        64,
+        32
+      ],
+      "source_black_key_pixels": 225,
+      "slots": [
+        50
+      ],
+      "action": "new-direct-artwork",
+      "output": {
+        "path": "assets/models/mega/textures/thruxton-structure-th03ai4.webp",
+        "crc32": "d9ffc8e3",
+        "bytes": 12052
+      },
+      "reference_file": {
+        "path": "build/thruxton-structures/TH03AI4-source6x.png",
+        "crc32": "9c6b3871",
+        "bytes": 3456
+      },
+      "generated": {
+        "path": "build/thruxton-structures/TH03AI4-generated.png",
+        "crc32": "57605771",
+        "size": [
+          1774,
+          887
+        ]
+      },
+      "crop": [
+        0,
+        0,
+        1774,
+        887
+      ],
+      "export": {
+        "path": "assets/models/mega/textures/thruxton-structure-th03ai4.webp",
+        "crc32": "d9ffc8e3",
+        "bytes": 12052,
+        "size": [
+          512,
+          256
+        ],
+        "webp_quality": 70,
+        "webp_method": 6
+      },
+      "alpha": {
+        "source_black_key_pixels": 225,
+        "decoded_mask_crc32": "0992c6b4",
+        "exact_source_mask": true
+      }
+    },
+    {
+      "name": "TH03AI5",
+      "source_crc32": "83057f15",
+      "source_size": [
+        64,
+        64
+      ],
+      "source_black_key_pixels": 0,
+      "slots": [
+        51
+      ],
+      "action": "new-direct-artwork",
+      "output": {
+        "path": "assets/models/mega/textures/thruxton-structure-th03ai5.webp",
+        "crc32": "769e9e80",
+        "bytes": 13346
+      },
+      "reference_file": {
+        "path": "build/thruxton-structures/TH03AI5-source6x.png",
+        "crc32": "a60b8b9f",
+        "bytes": 6901
+      },
+      "generated": {
+        "path": "build/thruxton-structures/TH03AI5-generated.png",
+        "crc32": "dfd948bd",
+        "size": [
+          1254,
+          1254
+        ]
+      },
+      "crop": [
+        0,
+        0,
+        1254,
+        1254
+      ],
+      "export": {
+        "path": "assets/models/mega/textures/thruxton-structure-th03ai5.webp",
+        "crc32": "769e9e80",
+        "bytes": 13346,
+        "size": [
+          512,
+          512
+        ],
+        "webp_quality": 70,
+        "webp_method": 6
+      },
+      "alpha": {
+        "source_black_key_pixels": 0,
+        "decoded_mask_crc32": "b7094978",
+        "exact_source_mask": true
+      }
+    },
+    {
+      "name": "TH03AI6",
+      "source_crc32": "5f9f1222",
+      "source_size": [
+        32,
+        32
+      ],
+      "source_black_key_pixels": 0,
+      "slots": [
+        36
+      ],
+      "action": "new-direct-artwork",
+      "output": {
+        "path": "assets/models/mega/textures/thruxton-structure-th03ai6.webp",
+        "crc32": "70145420",
+        "bytes": 4974
+      },
+      "reference_file": {
+        "path": "build/thruxton-structures/TH03AI6-source6x.png",
+        "crc32": "9fc9a73a",
+        "bytes": 1188
+      },
+      "generated": {
+        "path": "build/thruxton-structures/TH03AI6-generated.png",
+        "crc32": "a23bc590",
+        "size": [
+          1254,
+          1254
+        ]
+      },
+      "crop": [
+        0,
+        0,
+        1254,
+        1254
+      ],
+      "export": {
+        "path": "assets/models/mega/textures/thruxton-structure-th03ai6.webp",
+        "crc32": "70145420",
+        "bytes": 4974,
+        "size": [
+          512,
+          512
+        ],
+        "webp_quality": 70,
+        "webp_method": 6
+      },
+      "alpha": {
+        "source_black_key_pixels": 0,
+        "decoded_mask_crc32": "b7094978",
+        "exact_source_mask": true
+      }
+    },
+    {
+      "name": "TH03AIR",
+      "source_crc32": "561c011f",
+      "source_size": [
+        32,
+        32
+      ],
+      "source_black_key_pixels": 162,
+      "slots": [
+        52
+      ],
+      "action": "new-direct-artwork",
+      "output": {
+        "path": "assets/models/mega/textures/thruxton-structure-th03air.webp",
+        "crc32": "1439f71f",
+        "bytes": 10296
+      },
+      "reference_file": {
+        "path": "build/thruxton-structures/TH03AIR-source6x.png",
+        "crc32": "52ed4d99",
+        "bytes": 1524
+      },
+      "generated": {
+        "path": "build/thruxton-structures/TH03AIR-generated.png",
+        "crc32": "723da891",
+        "size": [
+          1254,
+          1254
+        ]
+      },
+      "crop": [
+        0,
+        0,
+        1254,
+        1254
+      ],
+      "export": {
+        "path": "assets/models/mega/textures/thruxton-structure-th03air.webp",
+        "crc32": "1439f71f",
+        "bytes": 10296,
+        "size": [
+          512,
+          512
+        ],
+        "webp_quality": 70,
+        "webp_method": 6
+      },
+      "alpha": {
+        "source_black_key_pixels": 162,
+        "decoded_mask_crc32": "0173dc2c",
+        "exact_source_mask": true
+      },
+      "edits": [
+        {
+          "name": "TH03AIR",
+          "references": [
+            "exec-8226652a-e94c-404c-ac0d-bcf5deaa8dad.png"
+          ],
+          "image": "assets/models/mega/textures/thruxton-structure-th03air.webp",
+          "generated_source": "exec-facf1e1a-01bb-45eb-affe-25081f66e0ee.png",
+          "reference_files": [
+            {
+              "path": "exec-8226652a-e94c-404c-ac0d-bcf5deaa8dad.png",
+              "crc32": "cef2feab",
+              "bytes": 1088025
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "TH04SH1",
+      "source_crc32": "41d9b5ed",
+      "source_size": [
+        32,
+        32
+      ],
+      "source_black_key_pixels": 0,
+      "slots": [
+        34
+      ],
+      "action": "new-direct-artwork",
+      "output": {
+        "path": "assets/models/mega/textures/thruxton-structure-th04sh1.webp",
+        "crc32": "00f5f15d",
+        "bytes": 9078
+      },
+      "reference_file": {
+        "path": "build/thruxton-structures/TH04SH1-source6x.png",
+        "crc32": "c9c11de2",
+        "bytes": 1790
+      },
+      "generated": {
+        "path": "build/thruxton-structures/TH04SH1-generated.png",
+        "crc32": "663f6ad7",
+        "size": [
+          1254,
+          1254
+        ]
+      },
+      "crop": [
+        0,
+        0,
+        1254,
+        1254
+      ],
+      "export": {
+        "path": "assets/models/mega/textures/thruxton-structure-th04sh1.webp",
+        "crc32": "00f5f15d",
+        "bytes": 9078,
+        "size": [
+          512,
+          512
+        ],
+        "webp_quality": 70,
+        "webp_method": 6
+      },
+      "alpha": {
+        "source_black_key_pixels": 0,
+        "decoded_mask_crc32": "b7094978",
+        "exact_source_mask": true
+      }
+    },
+    {
+      "name": "TH04SHD",
+      "source_crc32": "0fa48aee",
+      "source_size": [
+        32,
+        32
+      ],
+      "source_black_key_pixels": 0,
+      "slots": [
+        35
+      ],
+      "action": "new-direct-artwork",
+      "output": {
+        "path": "assets/models/mega/textures/thruxton-structure-th04shd.webp",
+        "crc32": "26390021",
+        "bytes": 8596
+      },
+      "reference_file": {
+        "path": "build/thruxton-structures/TH04SHD-source6x.png",
+        "crc32": "22b2054b",
+        "bytes": 1659
+      },
+      "generated": {
+        "path": "build/thruxton-structures/TH04SHD-generated.png",
+        "crc32": "3296ce7f",
+        "size": [
+          1254,
+          1254
+        ]
+      },
+      "crop": [
+        0,
+        0,
+        1254,
+        1254
+      ],
+      "export": {
+        "path": "assets/models/mega/textures/thruxton-structure-th04shd.webp",
+        "crc32": "26390021",
+        "bytes": 8596,
+        "size": [
+          512,
+          512
+        ],
+        "webp_quality": 70,
+        "webp_method": 6
+      },
+      "alpha": {
+        "source_black_key_pixels": 0,
+        "decoded_mask_crc32": "b7094978",
+        "exact_source_mask": true
+      }
+    },
+    {
+      "name": "TH05TW1",
+      "source_crc32": "12cb38c2",
+      "source_size": [
+        32,
+        64
+      ],
+      "source_black_key_pixels": 1509,
+      "slots": [
+        37
+      ],
+      "action": "new-direct-artwork",
+      "output": {
+        "path": "assets/models/mega/textures/thruxton-structure-th05tw1.webp",
+        "crc32": "7f4d2e1c",
+        "bytes": 3550
+      },
+      "reference_file": {
+        "path": "build/thruxton-structures/TH05TW1-source6x.png",
+        "crc32": "336eac77",
+        "bytes": 2225
+      },
+      "generated": {
+        "path": "build/thruxton-structures/TH05TW1-generated.png",
+        "crc32": "74826b4e",
+        "size": [
+          887,
+          1774
+        ]
+      },
+      "crop": [
+        0,
+        0,
+        887,
+        1774
+      ],
+      "export": {
+        "path": "assets/models/mega/textures/thruxton-structure-th05tw1.webp",
+        "crc32": "7f4d2e1c",
+        "bytes": 3550,
+        "size": [
+          256,
+          512
+        ],
+        "webp_quality": 70,
+        "webp_method": 6
+      },
+      "alpha": {
+        "source_black_key_pixels": 1509,
+        "decoded_mask_crc32": "cf941507",
+        "exact_source_mask": true
+      }
+    },
+    {
+      "name": "TH05TW2",
+      "source_crc32": "cc317d11",
+      "source_size": [
+        64,
+        8
+      ],
+      "source_black_key_pixels": 210,
+      "slots": [
+        38
+      ],
+      "action": "new-direct-artwork",
+      "output": {
+        "path": "assets/models/mega/textures/thruxton-structure-th05tw2.webp",
+        "crc32": "8e5ea470",
+        "bytes": 986
+      },
+      "reference_file": {
+        "path": "build/thruxton-structures/TH05TW2-source6x.png",
+        "crc32": "4eae9325",
+        "bytes": 644
+      },
+      "generated": {
+        "path": "build/thruxton-structures/TH05TW2-generated.png",
+        "crc32": "93661628",
+        "size": [
+          2172,
+          724
+        ]
+      },
+      "crop": [
+        0,
+        259,
+        2172,
+        464
+      ],
+      "export": {
+        "path": "assets/models/mega/textures/thruxton-structure-th05tw2.webp",
+        "crc32": "8e5ea470",
+        "bytes": 986,
+        "size": [
+          512,
+          64
+        ],
+        "webp_quality": 70,
+        "webp_method": 6
+      },
+      "alpha": {
+        "source_black_key_pixels": 210,
+        "decoded_mask_crc32": "f5f07df0",
+        "exact_source_mask": true
+      }
+    },
+    {
+      "name": "TH05TW3",
+      "source_crc32": "dd68775c",
+      "source_size": [
+        64,
+        64
+      ],
+      "source_black_key_pixels": 0,
+      "slots": [
+        39
+      ],
+      "action": "new-direct-artwork",
+      "output": {
+        "path": "assets/models/mega/textures/thruxton-structure-th05tw3.webp",
+        "crc32": "322623c0",
+        "bytes": 7346
+      },
+      "reference_file": {
+        "path": "build/thruxton-structures/TH05TW3-source6x.png",
+        "crc32": "61e904d5",
+        "bytes": 4816
+      },
+      "generated": {
+        "path": "build/thruxton-structures/TH05TW3-generated.png",
+        "crc32": "bbd80637",
+        "size": [
+          1254,
+          1254
+        ]
+      },
+      "crop": [
+        0,
+        0,
+        1254,
+        1254
+      ],
+      "export": {
+        "path": "assets/models/mega/textures/thruxton-structure-th05tw3.webp",
+        "crc32": "322623c0",
+        "bytes": 7346,
+        "size": [
+          512,
+          512
+        ],
+        "webp_quality": 70,
+        "webp_method": 6
+      },
+      "alpha": {
+        "source_black_key_pixels": 0,
+        "decoded_mask_crc32": "b7094978",
+        "exact_source_mask": true
+      }
+    },
+    {
+      "name": "TH05TWR",
+      "source_crc32": "bb611a0d",
+      "source_size": [
+        64,
+        64
+      ],
+      "source_black_key_pixels": 0,
+      "slots": [
+        40
+      ],
+      "action": "new-direct-artwork",
+      "output": {
+        "path": "assets/models/mega/textures/thruxton-structure-th05twr.webp",
+        "crc32": "24997750",
+        "bytes": 11334
+      },
+      "reference_file": {
+        "path": "build/thruxton-structures/TH05TWR-source6x.png",
+        "crc32": "f61dcc35",
+        "bytes": 4814
+      },
+      "generated": {
+        "path": "build/thruxton-structures/TH05TWR-generated.png",
+        "crc32": "793fdcdc",
+        "size": [
+          1254,
+          1254
+        ]
+      },
+      "crop": [
+        0,
+        0,
+        1254,
+        1254
+      ],
+      "export": {
+        "path": "assets/models/mega/textures/thruxton-structure-th05twr.webp",
+        "crc32": "24997750",
+        "bytes": 11334,
+        "size": [
+          512,
+          512
+        ],
+        "webp_quality": 70,
+        "webp_method": 6
+      },
+      "alpha": {
+        "source_black_key_pixels": 0,
+        "decoded_mask_crc32": "b7094978",
+        "exact_source_mask": true
+      }
+    },
+    {
+      "name": "TH06BRG1",
+      "source_crc32": "b9a6d0ab",
+      "source_size": [
+        64,
+        32
+      ],
+      "source_black_key_pixels": 598,
+      "slots": [
+        45
+      ],
+      "action": "new-direct-artwork",
+      "output": {
+        "path": "assets/models/mega/textures/thruxton-structure-th06brg1.webp",
+        "crc32": "7f6e3c4f",
+        "bytes": 5954
+      },
+      "reference_file": {
+        "path": "build/thruxton-structures/TH06BRG1-source6x.png",
+        "crc32": "dd594d1c",
+        "bytes": 3439
+      },
+      "generated": {
+        "path": "build/thruxton-structures/TH06BRG1-generated.png",
+        "crc32": "c6a526f0",
+        "size": [
+          1774,
+          887
+        ]
+      },
+      "crop": [
+        0,
+        0,
+        1774,
+        887
+      ],
+      "export": {
+        "path": "assets/models/mega/textures/thruxton-structure-th06brg1.webp",
+        "crc32": "7f6e3c4f",
+        "bytes": 5954,
+        "size": [
+          512,
+          256
+        ],
+        "webp_quality": 70,
+        "webp_method": 6
+      },
+      "alpha": {
+        "source_black_key_pixels": 598,
+        "decoded_mask_crc32": "4453f344",
+        "exact_source_mask": true
+      }
+    },
+    {
+      "name": "TH06BRGA",
+      "source_crc32": "0a9ee724",
+      "source_size": [
+        64,
+        32
+      ],
+      "source_black_key_pixels": 0,
+      "slots": [
+        42
+      ],
+      "action": "new-direct-artwork",
+      "output": {
+        "path": "assets/models/mega/textures/thruxton-structure-th06brga.webp",
+        "crc32": "a8f5e4d1",
+        "bytes": 9724
+      },
+      "reference_file": {
+        "path": "build/thruxton-structures/TH06BRGA-source6x.png",
+        "crc32": "c9b38ab1",
+        "bytes": 4897
+      },
+      "generated": {
+        "path": "build/thruxton-structures/TH06BRGA-generated.png",
+        "crc32": "2f6b07e2",
+        "size": [
+          1774,
+          887
+        ]
+      },
+      "crop": [
+        0,
+        0,
+        1774,
+        887
+      ],
+      "export": {
+        "path": "assets/models/mega/textures/thruxton-structure-th06brga.webp",
+        "crc32": "a8f5e4d1",
+        "bytes": 9724,
+        "size": [
+          512,
+          256
+        ],
+        "webp_quality": 70,
+        "webp_method": 6
+      },
+      "alpha": {
+        "source_black_key_pixels": 0,
+        "decoded_mask_crc32": "154803cc",
+        "exact_source_mask": true
+      }
+    },
+    {
+      "name": "TH06BRGB",
+      "source_crc32": "7711bd78",
+      "source_size": [
+        64,
+        32
+      ],
+      "source_black_key_pixels": 0,
+      "slots": [
+        43
+      ],
+      "action": "new-direct-artwork",
+      "output": {
+        "path": "assets/models/mega/textures/thruxton-structure-th06brgb.webp",
+        "crc32": "fb3a6774",
+        "bytes": 4720
+      },
+      "reference_file": {
+        "path": "build/thruxton-structures/TH06BRGB-source6x.png",
+        "crc32": "25a16cd9",
+        "bytes": 4934
+      },
+      "generated": {
+        "path": "build/thruxton-structures/TH06BRGB-generated.png",
+        "crc32": "c753a08a",
+        "size": [
+          1774,
+          887
+        ]
+      },
+      "crop": [
+        0,
+        0,
+        1774,
+        887
+      ],
+      "export": {
+        "path": "assets/models/mega/textures/thruxton-structure-th06brgb.webp",
+        "crc32": "fb3a6774",
+        "bytes": 4720,
+        "size": [
+          512,
+          256
+        ],
+        "webp_quality": 70,
+        "webp_method": 6
+      },
+      "alpha": {
+        "source_black_key_pixels": 0,
+        "decoded_mask_crc32": "154803cc",
+        "exact_source_mask": true
+      },
+      "edits": [
+        {
+          "name": "TH06BRGB",
+          "references": [
+            "exec-7a18f7b0-3328-403b-a573-a97c808daa5c.png",
+            "build/thruxton-structures/TH06BRGB-source6x.png"
+          ],
+          "image": "assets/models/mega/textures/thruxton-structure-th06brgb.webp",
+          "generated_source": "exec-4b0d2722-a37d-40c1-9563-d318bb1ff093.png",
+          "reference_files": [
+            {
+              "path": "exec-7a18f7b0-3328-403b-a573-a97c808daa5c.png",
+              "crc32": "007de74d",
+              "bytes": 980131
+            },
+            {
+              "path": "build/thruxton-structures/TH06BRGB-source6x.png",
+              "crc32": "25a16cd9",
+              "bytes": 4934
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "TH06BRGC",
+      "source_crc32": "8b912e77",
+      "source_size": [
+        64,
+        64
+      ],
+      "source_black_key_pixels": 0,
+      "slots": [
+        44
+      ],
+      "action": "new-direct-artwork",
+      "output": {
+        "path": "assets/models/mega/textures/thruxton-structure-th06brgc.webp",
+        "crc32": "74a1efa8",
+        "bytes": 1376
+      },
+      "reference_file": {
+        "path": "build/thruxton-structures/TH06BRGC-source6x.png",
+        "crc32": "4daf355c",
+        "bytes": 3819
+      },
+      "generated": {
+        "path": "build/thruxton-structures/TH06BRGC-generated.png",
+        "crc32": "057b7ade",
+        "size": [
+          1254,
+          1254
+        ]
+      },
+      "crop": [
+        0,
+        0,
+        1254,
+        1254
+      ],
+      "export": {
+        "path": "assets/models/mega/textures/thruxton-structure-th06brgc.webp",
+        "crc32": "74a1efa8",
+        "bytes": 1376,
+        "size": [
+          512,
+          512
+        ],
+        "webp_quality": 70,
+        "webp_method": 6
+      },
+      "alpha": {
+        "source_black_key_pixels": 0,
+        "decoded_mask_crc32": "b7094978",
+        "exact_source_mask": true
+      }
+    },
+    {
+      "name": "TH09PWL1",
+      "source_crc32": "a8b0c6f8",
+      "source_size": [
+        128,
+        32
+      ],
+      "source_black_key_pixels": 0,
+      "slots": [
+        98
+      ],
+      "action": "new-direct-artwork",
+      "output": {
+        "path": "assets/models/mega/textures/thruxton-structure-th09pwl1.webp",
+        "crc32": "5c541794",
+        "bytes": 4446
+      },
+      "reference_file": {
+        "path": "build/thruxton-structures/TH09PWL1-source6x.png",
+        "crc32": "2fd78b3e",
+        "bytes": 5979
+      },
+      "generated": {
+        "path": "build/thruxton-structures/TH09PWL1-generated.png",
+        "crc32": "0c74c37f",
+        "size": [
+          2172,
+          724
+        ]
+      },
+      "crop": [
+        0,
+        121,
+        2172,
+        538
+      ],
+      "export": {
+        "path": "assets/models/mega/textures/thruxton-structure-th09pwl1.webp",
+        "crc32": "5c541794",
+        "bytes": 4446,
+        "size": [
+          512,
+          128
+        ],
+        "webp_quality": 70,
+        "webp_method": 6
+      },
+      "alpha": {
+        "source_black_key_pixels": 0,
+        "decoded_mask_crc32": "deab7e4e",
+        "exact_source_mask": true
+      }
+    },
+    {
+      "name": "TH10PFB1",
+      "source_crc32": "bc08258a",
+      "source_size": [
+        32,
+        32
+      ],
+      "source_black_key_pixels": 0,
+      "slots": [
+        61
+      ],
+      "action": "new-direct-artwork",
+      "output": {
+        "path": "assets/models/mega/textures/thruxton-structure-th10pfb1.webp",
+        "crc32": "c2353e1f",
+        "bytes": 20740
+      },
+      "reference_file": {
+        "path": "build/thruxton-structures/TH10PFB1-source6x.png",
+        "crc32": "66209e2d",
+        "bytes": 1671
+      },
+      "generated": {
+        "path": "build/thruxton-structures/TH10PFB1-generated.png",
+        "crc32": "dda0f217",
+        "size": [
+          1254,
+          1254
+        ]
+      },
+      "crop": [
+        0,
+        0,
+        1254,
+        1254
+      ],
+      "export": {
+        "path": "assets/models/mega/textures/thruxton-structure-th10pfb1.webp",
+        "crc32": "c2353e1f",
+        "bytes": 20740,
+        "size": [
+          512,
+          512
+        ],
+        "webp_quality": 70,
+        "webp_method": 6
+      },
+      "alpha": {
+        "source_black_key_pixels": 0,
+        "decoded_mask_crc32": "b7094978",
+        "exact_source_mask": true
+      }
+    },
+    {
+      "name": "TH10PFB2",
+      "source_crc32": "7e8792b3",
+      "source_size": [
+        64,
+        32
+      ],
+      "source_black_key_pixels": 0,
+      "slots": [
+        62
+      ],
+      "action": "new-direct-artwork",
+      "output": {
+        "path": "assets/models/mega/textures/thruxton-structure-th10pfb2.webp",
+        "crc32": "bf86ffee",
+        "bytes": 3438
+      },
+      "reference_file": {
+        "path": "build/thruxton-structures/TH10PFB2-source6x.png",
+        "crc32": "58b19de1",
+        "bytes": 2327
+      },
+      "generated": {
+        "path": "build/thruxton-structures/TH10PFB2-generated.png",
+        "crc32": "cee11fae",
+        "size": [
+          1774,
+          887
+        ]
+      },
+      "crop": [
+        0,
+        0,
+        1774,
+        887
+      ],
+      "export": {
+        "path": "assets/models/mega/textures/thruxton-structure-th10pfb2.webp",
+        "crc32": "bf86ffee",
+        "bytes": 3438,
+        "size": [
+          512,
+          256
+        ],
+        "webp_quality": 70,
+        "webp_method": 6
+      },
+      "alpha": {
+        "source_black_key_pixels": 0,
+        "decoded_mask_crc32": "154803cc",
+        "exact_source_mask": true
+      }
+    },
+    {
+      "name": "TH10PFBA",
+      "source_crc32": "f5a1613a",
+      "source_size": [
+        128,
+        32
+      ],
+      "source_black_key_pixels": 0,
+      "slots": [
+        60
+      ],
+      "action": "new-direct-artwork",
+      "output": {
+        "path": "assets/models/mega/textures/thruxton-structure-th10pfba.webp",
+        "crc32": "6d946a6d",
+        "bytes": 3164
+      },
+      "reference_file": {
+        "path": "build/thruxton-structures/TH10PFBA-source6x.png",
+        "crc32": "6423ac20",
+        "bytes": 5333
+      },
+      "generated": {
+        "path": "build/thruxton-structures/TH10PFBA-generated.png",
+        "crc32": "b17bf565",
+        "size": [
+          2170,
+          725
+        ]
+      },
+      "crop": [
+        0,
+        142,
+        2170,
+        584
+      ],
+      "export": {
+        "path": "assets/models/mega/textures/thruxton-structure-th10pfba.webp",
+        "crc32": "6d946a6d",
+        "bytes": 3164,
+        "size": [
+          512,
+          128
+        ],
+        "webp_quality": 70,
+        "webp_method": 6
+      },
+      "alpha": {
+        "source_black_key_pixels": 0,
+        "decoded_mask_crc32": "deab7e4e",
+        "exact_source_mask": true
+      }
+    },
+    {
+      "name": "TH11PO1B",
+      "source_crc32": "ea695a11",
+      "source_size": [
+        64,
+        32
+      ],
+      "source_black_key_pixels": 0,
+      "slots": [
+        56
+      ],
+      "action": "new-direct-artwork",
+      "output": {
+        "path": "assets/models/mega/textures/thruxton-structure-th11po1b.webp",
+        "crc32": "72f11b7e",
+        "bytes": 5226
+      },
+      "reference_file": {
+        "path": "build/thruxton-structures/TH11PO1B-source6x.png",
+        "crc32": "1c4b0998",
+        "bytes": 4758
+      },
+      "generated": {
+        "path": "build/thruxton-structures/TH11PO1B-generated.png",
+        "crc32": "b56193e9",
+        "size": [
+          1774,
+          887
+        ]
+      },
+      "crop": [
+        0,
+        0,
+        1774,
+        887
+      ],
+      "export": {
+        "path": "assets/models/mega/textures/thruxton-structure-th11po1b.webp",
+        "crc32": "72f11b7e",
+        "bytes": 5226,
+        "size": [
+          512,
+          256
+        ],
+        "webp_quality": 70,
+        "webp_method": 6
+      },
+      "alpha": {
+        "source_black_key_pixels": 0,
+        "decoded_mask_crc32": "154803cc",
+        "exact_source_mask": true
+      }
+    },
+    {
+      "name": "TH11PO1C",
+      "source_crc32": "4a0e3719",
+      "source_size": [
+        64,
+        32
+      ],
+      "source_black_key_pixels": 0,
+      "slots": [
+        57
+      ],
+      "action": "new-direct-artwork",
+      "output": {
+        "path": "assets/models/mega/textures/thruxton-structure-th11po1c.webp",
+        "crc32": "8a951917",
+        "bytes": 9734
+      },
+      "reference_file": {
+        "path": "build/thruxton-structures/TH11PO1C-source6x.png",
+        "crc32": "141d0325",
+        "bytes": 4842
+      },
+      "generated": {
+        "path": "build/thruxton-structures/TH11PO1C-generated.png",
+        "crc32": "4c5b3859",
+        "size": [
+          1774,
+          887
+        ]
+      },
+      "crop": [
+        0,
+        0,
+        1774,
+        887
+      ],
+      "export": {
+        "path": "assets/models/mega/textures/thruxton-structure-th11po1c.webp",
+        "crc32": "8a951917",
+        "bytes": 9734,
+        "size": [
+          512,
+          256
+        ],
+        "webp_quality": 70,
+        "webp_method": 6
+      },
+      "alpha": {
+        "source_black_key_pixels": 0,
+        "decoded_mask_crc32": "154803cc",
+        "exact_source_mask": true
+      }
+    },
+    {
+      "name": "TH11POLA",
+      "source_crc32": "ad9ea5d2",
+      "source_size": [
+        64,
+        64
+      ],
+      "source_black_key_pixels": 1823,
+      "slots": [
+        59
+      ],
+      "action": "new-direct-artwork",
+      "output": {
+        "path": "assets/models/mega/textures/thruxton-structure-th11pola.webp",
+        "crc32": "1df78492",
+        "bytes": 6538
+      },
+      "reference_file": {
+        "path": "build/thruxton-structures/TH11POLA-source6x.png",
+        "crc32": "844a55ca",
+        "bytes": 7195
+      },
+      "generated": {
+        "path": "build/thruxton-structures/TH11POLA-generated.png",
+        "crc32": "a90ccef7",
+        "size": [
+          1254,
+          1254
+        ]
+      },
+      "crop": [
+        0,
+        0,
+        1254,
+        1254
+      ],
+      "export": {
+        "path": "assets/models/mega/textures/thruxton-structure-th11pola.webp",
+        "crc32": "1df78492",
+        "bytes": 6538,
+        "size": [
+          512,
+          512
+        ],
+        "webp_quality": 70,
+        "webp_method": 6
+      },
+      "alpha": {
+        "source_black_key_pixels": 1823,
+        "decoded_mask_crc32": "892395b9",
+        "exact_source_mask": true
+      }
+    },
+    {
+      "name": "TH11POLD",
+      "source_crc32": "5d90b5db",
+      "source_size": [
+        64,
+        64
+      ],
+      "source_black_key_pixels": 2941,
+      "slots": [
+        58
+      ],
+      "action": "new-direct-artwork",
+      "output": {
+        "path": "assets/models/mega/textures/thruxton-structure-th11pold.webp",
+        "crc32": "3404c4ae",
+        "bytes": 5960
+      },
+      "reference_file": {
+        "path": "build/thruxton-structures/TH11POLD-source6x.png",
+        "crc32": "07ea3941",
+        "bytes": 3275
+      },
+      "generated": {
+        "path": "build/thruxton-structures/TH11POLD-generated.png",
+        "crc32": "12367f1e",
+        "size": [
+          1254,
+          1254
+        ]
+      },
+      "crop": [
+        0,
+        0,
+        1254,
+        1254
+      ],
+      "export": {
+        "path": "assets/models/mega/textures/thruxton-structure-th11pold.webp",
+        "crc32": "3404c4ae",
+        "bytes": 5960,
+        "size": [
+          512,
+          512
+        ],
+        "webp_quality": 70,
+        "webp_method": 6
+      },
+      "alpha": {
+        "source_black_key_pixels": 2941,
+        "decoded_mask_crc32": "9426672e",
+        "exact_source_mask": true
+      }
+    },
+    {
+      "name": "TH11POLE",
+      "source_crc32": "710873ac",
+      "source_size": [
+        64,
+        64
+      ],
+      "source_black_key_pixels": 2820,
+      "slots": [
+        55
+      ],
+      "action": "new-direct-artwork",
+      "output": {
+        "path": "assets/models/mega/textures/thruxton-structure-th11pole.webp",
+        "crc32": "2de4ee98",
+        "bytes": 10256
+      },
+      "reference_file": {
+        "path": "build/thruxton-structures/TH11POLE-source6x.png",
+        "crc32": "17410a7a",
+        "bytes": 3295
+      },
+      "generated": {
+        "path": "build/thruxton-structures/TH11POLE-generated.png",
+        "crc32": "52c9c057",
+        "size": [
+          1254,
+          1254
+        ]
+      },
+      "crop": [
+        0,
+        0,
+        1254,
+        1254
+      ],
+      "export": {
+        "path": "assets/models/mega/textures/thruxton-structure-th11pole.webp",
+        "crc32": "2de4ee98",
+        "bytes": 10256,
+        "size": [
+          512,
+          512
+        ],
+        "webp_quality": 70,
+        "webp_method": 6
+      },
+      "alpha": {
+        "source_black_key_pixels": 2820,
+        "decoded_mask_crc32": "b42591dd",
+        "exact_source_mask": true
+      }
+    },
+    {
+      "name": "TH12BOX2",
+      "source_crc32": "a298c9c1",
+      "source_size": [
+        64,
+        64
+      ],
+      "source_black_key_pixels": 852,
+      "slots": [
+        54
+      ],
+      "action": "accepted-image-reused-byte-identical",
+      "output": {
+        "path": "assets/models/mega/textures/thruxton-prop-th12box2.webp",
+        "crc32": "c85388f9",
+        "bytes": 3806
+      }
+    },
+    {
+      "name": "TH13STLA",
+      "source_crc32": "f16db3ee",
+      "source_size": [
+        128,
+        32
+      ],
+      "source_black_key_pixels": 0,
+      "slots": [
+        83
+      ],
+      "action": "new-direct-artwork",
+      "output": {
+        "path": "assets/models/mega/textures/thruxton-structure-th13stla.webp",
+        "crc32": "bb1c8d25",
+        "bytes": 5880
+      },
+      "reference_file": {
+        "path": "build/thruxton-structures/TH13STLA-source6x.png",
+        "crc32": "4acf2853",
+        "bytes": 5075
+      },
+      "generated": {
+        "path": "build/thruxton-structures/TH13STLA-generated.png",
+        "crc32": "56e4069d",
+        "size": [
+          2172,
+          724
+        ]
+      },
+      "crop": [
+        0,
+        115,
+        2172,
+        608
+      ],
+      "export": {
+        "path": "assets/models/mega/textures/thruxton-structure-th13stla.webp",
+        "crc32": "bb1c8d25",
+        "bytes": 5880,
+        "size": [
+          512,
+          128
+        ],
+        "webp_quality": 70,
+        "webp_method": 6
+      },
+      "alpha": {
+        "source_black_key_pixels": 0,
+        "decoded_mask_crc32": "deab7e4e",
+        "exact_source_mask": true
+      }
+    },
+    {
+      "name": "TH13STLB",
+      "source_crc32": "cdda6338",
+      "source_size": [
+        32,
+        64
+      ],
+      "source_black_key_pixels": 1319,
+      "slots": [
+        84
+      ],
+      "action": "new-direct-artwork",
+      "output": {
+        "path": "assets/models/mega/textures/thruxton-structure-th13stlb.webp",
+        "crc32": "109634a3",
+        "bytes": 5864
+      },
+      "reference_file": {
+        "path": "build/thruxton-structures/TH13STLB-source6x.png",
+        "crc32": "4de75e9e",
+        "bytes": 3486
+      },
+      "generated": {
+        "path": "build/thruxton-structures/TH13STLB-generated.png",
+        "crc32": "e4542b7b",
+        "size": [
+          887,
+          1774
+        ]
+      },
+      "crop": [
+        0,
+        0,
+        887,
+        1774
+      ],
+      "export": {
+        "path": "assets/models/mega/textures/thruxton-structure-th13stlb.webp",
+        "crc32": "109634a3",
+        "bytes": 5864,
+        "size": [
+          256,
+          512
+        ],
+        "webp_quality": 70,
+        "webp_method": 6
+      },
+      "alpha": {
+        "source_black_key_pixels": 1319,
+        "decoded_mask_crc32": "03a8469f",
+        "exact_source_mask": true
+      }
+    },
+    {
+      "name": "TH15F1",
+      "source_crc32": "1a90c6f9",
+      "source_size": [
+        128,
+        32
+      ],
+      "source_black_key_pixels": 0,
+      "slots": [
+        63
+      ],
+      "action": "new-direct-artwork",
+      "output": {
+        "path": "assets/models/mega/textures/thruxton-structure-th15f1.webp",
+        "crc32": "3100e1eb",
+        "bytes": 7348
+      },
+      "reference_file": {
+        "path": "build/thruxton-structures/TH15F1-source6x.png",
+        "crc32": "013c1b6e",
+        "bytes": 5051
+      },
+      "generated": {
+        "path": "build/thruxton-structures/TH15F1-generated.png",
+        "crc32": "77be14ec",
+        "size": [
+          2170,
+          725
+        ]
+      },
+      "crop": [
+        0,
+        96,
+        2170,
+        629
+      ],
+      "export": {
+        "path": "assets/models/mega/textures/thruxton-structure-th15f1.webp",
+        "crc32": "3100e1eb",
+        "bytes": 7348,
+        "size": [
+          512,
+          128
+        ],
+        "webp_quality": 70,
+        "webp_method": 6
+      },
+      "alpha": {
+        "source_black_key_pixels": 0,
+        "decoded_mask_crc32": "deab7e4e",
+        "exact_source_mask": true
+      }
+    },
+    {
+      "name": "TH15F2",
+      "source_crc32": "80a7c2c2",
+      "source_size": [
+        128,
+        32
+      ],
+      "source_black_key_pixels": 0,
+      "slots": [
+        64
+      ],
+      "action": "new-direct-artwork",
+      "output": {
+        "path": "assets/models/mega/textures/thruxton-structure-th15f2.webp",
+        "crc32": "da834aea",
+        "bytes": 5472
+      },
+      "reference_file": {
+        "path": "build/thruxton-structures/TH15F2-source6x.png",
+        "crc32": "5a4d664d",
+        "bytes": 3839
+      },
+      "generated": {
+        "path": "build/thruxton-structures/TH15F2-generated.png",
+        "crc32": "74587f61",
+        "size": [
+          2170,
+          725
+        ]
+      },
+      "crop": [
+        0,
+        91,
+        2170,
+        628
+      ],
+      "export": {
+        "path": "assets/models/mega/textures/thruxton-structure-th15f2.webp",
+        "crc32": "da834aea",
+        "bytes": 5472,
+        "size": [
+          512,
+          128
+        ],
+        "webp_quality": 70,
+        "webp_method": 6
+      },
+      "alpha": {
+        "source_black_key_pixels": 0,
+        "decoded_mask_crc32": "deab7e4e",
+        "exact_source_mask": true
+      }
+    },
+    {
+      "name": "TH15L1",
+      "source_crc32": "917d2efc",
+      "source_size": [
+        128,
+        32
+      ],
+      "source_black_key_pixels": 0,
+      "slots": [
+        65
+      ],
+      "action": "new-direct-artwork",
+      "output": {
+        "path": "assets/models/mega/textures/thruxton-structure-th15l1.webp",
+        "crc32": "055b51be",
+        "bytes": 4624
+      },
+      "reference_file": {
+        "path": "build/thruxton-structures/TH15L1-source6x.png",
+        "crc32": "3b9b73e3",
+        "bytes": 3766
+      },
+      "generated": {
+        "path": "build/thruxton-structures/TH15L1-generated.png",
+        "crc32": "0a0f4c0a",
+        "size": [
+          2170,
+          725
+        ]
+      },
+      "crop": [
+        0,
+        112,
+        2170,
+        609
+      ],
+      "export": {
+        "path": "assets/models/mega/textures/thruxton-structure-th15l1.webp",
+        "crc32": "055b51be",
+        "bytes": 4624,
+        "size": [
+          512,
+          128
+        ],
+        "webp_quality": 70,
+        "webp_method": 6
+      },
+      "alpha": {
+        "source_black_key_pixels": 0,
+        "decoded_mask_crc32": "deab7e4e",
+        "exact_source_mask": true
+      }
+    },
+    {
+      "name": "TH19SB1",
+      "source_crc32": "cc095f19",
+      "source_size": [
+        64,
+        32
+      ],
+      "source_black_key_pixels": 5,
+      "slots": [
+        75
+      ],
+      "action": "new-direct-artwork",
+      "output": {
+        "path": "assets/models/mega/textures/thruxton-structure-th19sb1.webp",
+        "crc32": "6b29b382",
+        "bytes": 12746
+      },
+      "reference_file": {
+        "path": "build/thruxton-structures/TH19SB1-source6x.png",
+        "crc32": "0858a8d9",
+        "bytes": 3276
+      },
+      "generated": {
+        "path": "build/thruxton-structures/TH19SB1-generated.png",
+        "crc32": "e674405c",
+        "size": [
+          1774,
+          887
+        ]
+      },
+      "crop": [
+        0,
+        0,
+        1774,
+        887
+      ],
+      "export": {
+        "path": "assets/models/mega/textures/thruxton-structure-th19sb1.webp",
+        "crc32": "6b29b382",
+        "bytes": 12746,
+        "size": [
+          512,
+          256
+        ],
+        "webp_quality": 70,
+        "webp_method": 6
+      },
+      "alpha": {
+        "source_black_key_pixels": 5,
+        "decoded_mask_crc32": "22d6eb2a",
+        "exact_source_mask": true
+      }
+    },
+    {
+      "name": "TH19SB2",
+      "source_crc32": "afaf2d4d",
+      "source_size": [
+        64,
+        32
+      ],
+      "source_black_key_pixels": 194,
+      "slots": [
+        76
+      ],
+      "action": "new-direct-artwork",
+      "output": {
+        "path": "assets/models/mega/textures/thruxton-structure-th19sb2.webp",
+        "crc32": "070fad5f",
+        "bytes": 8600
+      },
+      "reference_file": {
+        "path": "build/thruxton-structures/TH19SB2-source6x.png",
+        "crc32": "253732dc",
+        "bytes": 3017
+      },
+      "generated": {
+        "path": "build/thruxton-structures/TH19SB2-generated.png",
+        "crc32": "bf872047",
+        "size": [
+          1774,
+          887
+        ]
+      },
+      "crop": [
+        0,
+        0,
+        1774,
+        887
+      ],
+      "export": {
+        "path": "assets/models/mega/textures/thruxton-structure-th19sb2.webp",
+        "crc32": "070fad5f",
+        "bytes": 8600,
+        "size": [
+          512,
+          256
+        ],
+        "webp_quality": 70,
+        "webp_method": 6
+      },
+      "alpha": {
+        "source_black_key_pixels": 194,
+        "decoded_mask_crc32": "f2ddc1bf",
+        "exact_source_mask": true
+      }
+    },
+    {
+      "name": "TH19SB3",
+      "source_crc32": "9cbe94b2",
+      "source_size": [
+        64,
+        32
+      ],
+      "source_black_key_pixels": 0,
+      "slots": [
+        77
+      ],
+      "action": "accepted-image-reused-byte-identical",
+      "output": {
+        "path": "assets/models/mega/textures/fence-green.webp",
+        "crc32": "19947af5",
+        "bytes": 31552
+      }
+    },
+    {
+      "name": "TH20STW1",
+      "source_crc32": "2dc4ebb0",
+      "source_size": [
+        64,
+        64
+      ],
+      "source_black_key_pixels": 2189,
+      "slots": [
+        69
+      ],
+      "action": "new-direct-artwork",
+      "output": {
+        "path": "assets/models/mega/textures/thruxton-structure-th20stw1.webp",
+        "crc32": "b396e76e",
+        "bytes": 13472
+      },
+      "reference_file": {
+        "path": "build/thruxton-structures/TH20STW1-source6x.png",
+        "crc32": "418cd395",
+        "bytes": 5305
+      },
+      "generated": {
+        "path": "build/thruxton-structures/TH20STW1-generated.png",
+        "crc32": "b566601e",
+        "size": [
+          1254,
+          1254
+        ]
+      },
+      "crop": [
+        0,
+        0,
+        1254,
+        1254
+      ],
+      "export": {
+        "path": "assets/models/mega/textures/thruxton-structure-th20stw1.webp",
+        "crc32": "b396e76e",
+        "bytes": 13472,
+        "size": [
+          512,
+          512
+        ],
+        "webp_quality": 70,
+        "webp_method": 6
+      },
+      "alpha": {
+        "source_black_key_pixels": 2189,
+        "decoded_mask_crc32": "deeda098",
+        "exact_source_mask": true
+      }
+    },
+    {
+      "name": "TH20STW2",
+      "source_crc32": "3096e960",
+      "source_size": [
+        64,
+        64
+      ],
+      "source_black_key_pixels": 1632,
+      "slots": [
+        70
+      ],
+      "action": "new-direct-artwork",
+      "output": {
+        "path": "assets/models/mega/textures/thruxton-structure-th20stw2.webp",
+        "crc32": "b2fac246",
+        "bytes": 16426
+      },
+      "reference_file": {
+        "path": "build/thruxton-structures/TH20STW2-source6x.png",
+        "crc32": "f74ed761",
+        "bytes": 5915
+      },
+      "generated": {
+        "path": "build/thruxton-structures/TH20STW2-generated.png",
+        "crc32": "a7608c50",
+        "size": [
+          1254,
+          1254
+        ]
+      },
+      "crop": [
+        0,
+        0,
+        1254,
+        1254
+      ],
+      "export": {
+        "path": "assets/models/mega/textures/thruxton-structure-th20stw2.webp",
+        "crc32": "b2fac246",
+        "bytes": 16426,
+        "size": [
+          512,
+          512
+        ],
+        "webp_quality": 70,
+        "webp_method": 6
+      },
+      "alpha": {
+        "source_black_key_pixels": 1632,
+        "decoded_mask_crc32": "b8ab8c18",
+        "exact_source_mask": true
+      }
+    },
+    {
+      "name": "TH20STW3",
+      "source_crc32": "660e8f1a",
+      "source_size": [
+        32,
+        32
+      ],
+      "source_black_key_pixels": 0,
+      "slots": [
+        71
+      ],
+      "action": "new-direct-artwork",
+      "output": {
+        "path": "assets/models/mega/textures/thruxton-structure-th20stw3.webp",
+        "crc32": "38bbc2fa",
+        "bytes": 3286
+      },
+      "reference_file": {
+        "path": "build/thruxton-structures/TH20STW3-source6x.png",
+        "crc32": "a2c7d9f3",
+        "bytes": 1090
+      },
+      "generated": {
+        "path": "build/thruxton-structures/TH20STW3-generated.png",
+        "crc32": "689477cd",
+        "size": [
+          1254,
+          1254
+        ]
+      },
+      "crop": [
+        0,
+        0,
+        1254,
+        1254
+      ],
+      "export": {
+        "path": "assets/models/mega/textures/thruxton-structure-th20stw3.webp",
+        "crc32": "38bbc2fa",
+        "bytes": 3286,
+        "size": [
+          512,
+          512
+        ],
+        "webp_quality": 70,
+        "webp_method": 6
+      },
+      "alpha": {
+        "source_black_key_pixels": 0,
+        "decoded_mask_crc32": "b7094978",
+        "exact_source_mask": true
+      }
+    },
+    {
+      "name": "TH28LAB5",
+      "source_crc32": "4c4dbd44",
+      "source_size": [
+        128,
+        32
+      ],
+      "source_black_key_pixels": 0,
+      "slots": [
+        14
+      ],
+      "action": "accepted-image-reused-byte-identical",
+      "output": {
+        "path": "assets/models/mega/textures/thruxton-building-th28lab5.webp",
+        "crc32": "f321d509",
+        "bytes": 3700
+      }
+    },
+    {
+      "name": "TH30EB1",
+      "source_crc32": "7b2dad01",
+      "source_size": [
+        128,
+        16
+      ],
+      "source_black_key_pixels": 0,
+      "slots": [
+        85
+      ],
+      "action": "new-direct-artwork",
+      "output": {
+        "path": "assets/models/mega/textures/thruxton-structure-th30eb1.webp",
+        "crc32": "11cca036",
+        "bytes": 6206
+      },
+      "reference_file": {
+        "path": "build/thruxton-structures/TH30EB1-source6x.png",
+        "crc32": "6662b044",
+        "bytes": 4241
+      },
+      "generated": {
+        "path": "build/thruxton-structures/TH30EB1-generated.png",
+        "crc32": "c4206dbe",
+        "size": [
+          2170,
+          725
+        ]
+      },
+      "crop": [
+        0,
+        225,
+        2170,
+        499
+      ],
+      "export": {
+        "path": "assets/models/mega/textures/thruxton-structure-th30eb1.webp",
+        "crc32": "11cca036",
+        "bytes": 6206,
+        "size": [
+          512,
+          64
+        ],
+        "webp_quality": 70,
+        "webp_method": 6
+      },
+      "alpha": {
+        "source_black_key_pixels": 0,
+        "decoded_mask_crc32": "1b43eabd",
+        "exact_source_mask": true
+      }
+    },
+    {
+      "name": "TV1",
+      "source_crc32": "ace1ac01",
+      "source_size": [
+        16,
+        128
+      ],
+      "source_black_key_pixels": 32,
+      "slots": [
+        105
+      ],
+      "action": "new-direct-artwork",
+      "output": {
+        "path": "assets/models/mega/textures/thruxton-structure-tv1.webp",
+        "crc32": "a1b4a751",
+        "bytes": 1168
+      },
+      "reference_file": {
+        "path": "build/thruxton-structures/TV1-source6x.png",
+        "crc32": "b0b951be",
+        "bytes": 2526
+      },
+      "generated": {
+        "path": "build/thruxton-structures/TV1-generated.png",
+        "crc32": "28e4e1cf",
+        "size": [
+          725,
+          2170
+        ]
+      },
+      "crop": [
+        228,
+        0,
+        499,
+        2170
+      ],
+      "export": {
+        "path": "assets/models/mega/textures/thruxton-structure-tv1.webp",
+        "crc32": "a1b4a751",
+        "bytes": 1168,
+        "size": [
+          64,
+          512
+        ],
+        "webp_quality": 70,
+        "webp_method": 6
+      },
+      "alpha": {
+        "source_black_key_pixels": 32,
+        "decoded_mask_crc32": "edb2ec7e",
+        "exact_source_mask": true
+      }
+    },
+    {
+      "name": "TV2",
+      "source_crc32": "cca5ddfc",
+      "source_size": [
+        128,
+        32
+      ],
+      "source_black_key_pixels": 445,
+      "slots": [
+        106
+      ],
+      "action": "new-related-art-variant-with-target-alpha",
+      "output": {
+        "path": "assets/models/mega/textures/thruxton-structure-tv2.webp",
+        "crc32": "b8c66d12",
+        "bytes": 7238
+      },
+      "reference_file": {
+        "path": "build/thruxton-structures/TV2-source6x.png",
+        "crc32": "b9620170",
+        "bytes": 4624
+      },
+      "generated": {
+        "path": "build/thruxton-structures/TV2-generated.png",
+        "crc32": "d7d5cfb4",
+        "size": [
+          2169,
+          725
+        ]
+      },
+      "crop": [
+        0,
+        74,
+        2169,
+        617
+      ],
+      "export": {
+        "path": "assets/models/mega/textures/thruxton-structure-tv2.webp",
+        "crc32": "b8c66d12",
+        "bytes": 7238,
+        "size": [
+          512,
+          128
+        ],
+        "webp_quality": 70,
+        "webp_method": 6
+      },
+      "alpha": {
+        "source_black_key_pixels": 445,
+        "decoded_mask_crc32": "70ab9894",
+        "exact_source_mask": true
+      },
+      "generation_mode": "accepted-related-RGB-plate-with-target-alpha",
+      "related_art": {
+        "provenance": "assets/models/mega/silverstone-stands-generation.json",
+        "source_crc32": "33410612",
+        "generated": {
+          "path": "build/silverstone-stands/TV2-generated.png",
+          "crc32": "d7d5cfb4",
+          "bytes": 1620631,
+          "size": [
+            2169,
+            725
+          ]
+        },
+        "references": [
+          {
+            "path": "build/silverstone-stands/TV2-source6x.png",
+            "crc32": "083e32e9",
+            "bytes": 4484,
+            "size": [
+              768,
+              192
+            ]
+          }
+        ],
+        "edits": [
+          {
+            "references": [
+              {
+                "path": "exec-815282d6-1f72-414f-ad20-e821f306ba95.png",
+                "crc32": "b3c6e416",
+                "bytes": 1638273,
+                "size": [
+                  2170,
+                  725
+                ]
+              }
+            ],
+            "generated": {
+              "path": "exec-f508fd85-6016-4479-963a-436ae47d2349.png",
+              "crc32": "d7d5cfb4",
+              "bytes": 1620631,
+              "size": [
+                2169,
+                725
+              ]
+            }
+          }
+        ],
+        "reason": "Canonical field layout matches; target exact-black alpha differs at nine source pixels. Export uses original RGB plate and Thruxton alpha, without reencoding accepted WebP.",
+        "new_generation_failures": {
+          "attempts": 2,
+          "stage": "output",
+          "code": "moderation_blocked"
+        }
+      }
+    },
+    {
+      "name": "TV3",
+      "source_crc32": "6cede824",
+      "source_size": [
+        128,
+        8
+      ],
+      "source_black_key_pixels": 928,
+      "slots": [
+        107
+      ],
+      "action": "new-direct-artwork",
+      "output": {
+        "path": "assets/models/mega/textures/thruxton-structure-tv3.webp",
+        "crc32": "8af7bb8a",
+        "bytes": 312
+      },
+      "reference_file": {
+        "path": "build/thruxton-structures/TV3-source6x.png",
+        "crc32": "19094478",
+        "bytes": 413
+      },
+      "generated": {
+        "path": "build/thruxton-structures/TV3-generated.png",
+        "crc32": "3ed7990e",
+        "size": [
+          2170,
+          725
+        ]
+      },
+      "crop": [
+        0,
+        298,
+        2170,
+        425
+      ],
+      "export": {
+        "path": "assets/models/mega/textures/thruxton-structure-tv3.webp",
+        "crc32": "8af7bb8a",
+        "bytes": 312,
+        "size": [
+          512,
+          32
+        ],
+        "webp_quality": 70,
+        "webp_method": 6
+      },
+      "alpha": {
+        "source_black_key_pixels": 928,
+        "decoded_mask_crc32": "df229d7f",
+        "exact_source_mask": true
+      }
+    }
+  ],
+  "lettering": {
+    "TV2": {
+      "related_header_mask_comparison": [
+        {
+          "track": 1,
+          "crc32": "33410612",
+          "red_header_mask_crc32": "8ba44521",
+          "red_header_pixels": 247
+        },
+        {
+          "track": 2,
+          "crc32": "cca5ddfc",
+          "red_header_mask_crc32": "90f1895f",
+          "red_header_pixels": 401
+        },
+        {
+          "track": 6,
+          "crc32": "2084ac34",
+          "red_header_mask_crc32": "91ba8c20",
+          "red_header_pixels": 382
+        },
+        {
+          "track": 8,
+          "crc32": "72d52d0b",
+          "red_header_mask_crc32": "b23406dd",
+          "red_header_pixels": 396
+        }
+      ],
+      "reading": "BBC TOURING CAR",
+      "reconstruction": "Upper readable phrase consistent with accepted Silverstone source-guided interpretation; trailing unresolved glyph cluster not expanded",
+      "lower": "VECTRA, Vauxhall badge"
+    },
+    "TH01MBO1": {
+      "reading": "GEMINI OIL",
+      "layout": "single white header above aperture, one yellow/orange roundel each side"
+    },
+    "TH01MBO2": {
+      "reading": "GEMINI / OIL",
+      "layout": "unmirrored two-line lettering; one yellow/orange roundel centered above"
+    },
+    "badges": "TH01 yellow/orange roundels do not establish Shell; preserve abstract source ellipse",
+    "TH13STLA": "Daily Mirror",
+    "TH06BRGB": "Track Record"
+  },
+  "uv_contract": {
+    "replacement": "One direct replacement per original name/size/CRC32 identity. Original alpha, repeat counts, clipped repeats, field divisions and UV phase retained. No additional signs or texture layers.",
+    "windows": "Original opening counts and uneven subdivisions retained, including five square pit-facade windows, two double-door groups and a cropped end door; airport3/2 upper panes; original test-building window rows.",
+    "logos": "GEMINI OIL single-line front and two-line rear, abstract yellow/orange roundels, Mobil1 numerals, Track Record, Daily Mirror and VECTRA retained. TV2 upper BBC TOURING CAR follows related-source reading; unresolved suffix is not expanded.",
+    "point_and_line_samples": "Original point/line UVs remain unchanged. Quiet border materials, timber and keyed support footprints checked with actual consumers; no added marks in sampled margins.",
+    "MOBILBK": "Portrait32:128 source chart is rotated90degrees by native UVs. Brick long axes run vertically in the stored chart, staggered mortar courses retain their phase, and the dark left strip becomes the wall top cap. Preserve masonry rather than replacing it with a plain field."
+  },
+  "limits": "Accepts the listed18 types/36 bindings and closes M07-2 with the prior19 types/19 bindings. Vegetation, barriers, spectators and flags remain open. Vehicles and cockpits are outside scope. Canonical reference unchanged; no original game images committed or performance measurements.",
+  "alpha_contract": {
+    "new_outputs": "All54 outputs have byte-exact nearest-source black-key alpha;23 contain cutouts.",
+    "unchanged_reuses": "Four unchanged accepted images have exact raw alpha. Legacy TH19SB3 keeps its accepted133..252 alpha bytes; the actual material uses MASK cutoff0.5 with alpha factor1. Its filtered lower bound133/255 exceeds0.5, preserving canonical full opacity. No BLEND path or reencoding."
+  }
+}

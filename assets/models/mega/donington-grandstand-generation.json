@@ -1,0 +1,525 @@
+{
+  "version": 1,
+  "processing": "Whole opaque RGB images resized with Lanczos to source aspect ratio, longest edge512; WebPquality80 method6. No original media committed.",
+  "source": {
+    "archive": "data/donlfree.bfp",
+    "archive_crc32": "46885a20",
+    "member": 5,
+    "member_name": "OBJECTS.C3D",
+    "member_crc32": "5f670bb9"
+  },
+  "images": [
+    {
+      "id": "DA02GSD5",
+      "transparent_background": false,
+      "generated_file": "exec-c5f64aa6-25b2-4625-a8b4-f62cd713ce9f.png",
+      "generated_crc32": "9f9ebe73",
+      "generated_size": [
+        1774,
+        887
+      ],
+      "reference": {
+        "name": "Da02gsd5",
+        "slot": 26,
+        "bmp_crc32": "0dc1420c",
+        "size": [
+          64,
+          32
+        ]
+      },
+      "output": "assets/models/mega/textures/donington-grandstand-da02gsd5.webp",
+      "output_crc32": "6f92aeb0",
+      "output_size": [
+        512,
+        256
+      ],
+      "output_bytes": 24724
+    },
+    {
+      "id": "DA02GSD2",
+      "transparent_background": false,
+      "generated_file": "exec-c32f6cfc-f6be-4a3c-b75d-5133f3011f0b.png",
+      "generated_crc32": "0e32cc67",
+      "generated_size": [
+        1774,
+        887
+      ],
+      "reference": {
+        "name": "DA02GSD2",
+        "slot": 27,
+        "bmp_crc32": "94482874",
+        "size": [
+          64,
+          32
+        ]
+      },
+      "output": "assets/models/mega/textures/donington-grandstand-da02gsd2.webp",
+      "output_crc32": "fffe843c",
+      "output_size": [
+        512,
+        256
+      ],
+      "output_bytes": 56414
+    },
+    {
+      "id": "DA02GSD6",
+      "transparent_background": false,
+      "generated_file": "exec-c4e26af3-0679-4155-a4cf-78af10388750.png",
+      "generated_crc32": "fd4af37f",
+      "generated_size": [
+        1254,
+        1254
+      ],
+      "reference": {
+        "name": "DA02GSD6",
+        "slot": 28,
+        "bmp_crc32": "93311813",
+        "size": [
+          64,
+          64
+        ]
+      },
+      "output": "assets/models/mega/textures/donington-grandstand-da02gsd6.webp",
+      "output_crc32": "2b2c232e",
+      "output_size": [
+        512,
+        512
+      ],
+      "output_bytes": 54904
+    },
+    {
+      "id": "DA02GSD9",
+      "transparent_background": false,
+      "generated_file": "exec-81c687df-e503-4bf5-ba7a-3dcb0680c4e8.png",
+      "generated_crc32": "0d4259dd",
+      "generated_size": [
+        1254,
+        1254
+      ],
+      "reference": {
+        "name": "DA02GSD9",
+        "slot": 29,
+        "bmp_crc32": "9152b7db",
+        "size": [
+          64,
+          64
+        ]
+      },
+      "output": "assets/models/mega/textures/donington-grandstand-da02gsd9.webp",
+      "output_crc32": "cb2cc8d8",
+      "output_size": [
+        512,
+        512
+      ],
+      "output_bytes": 57958
+    },
+    {
+      "id": "DA02GSD4",
+      "transparent_background": false,
+      "generated_file": "exec-5b48af37-6e63-4fcd-b350-20fb247ae46d.png",
+      "generated_crc32": "e1999e73",
+      "generated_size": [
+        1254,
+        1254
+      ],
+      "reference": {
+        "name": "DA02GSD4",
+        "slot": 30,
+        "bmp_crc32": "34ed41c3",
+        "size": [
+          64,
+          64
+        ]
+      },
+      "output": "assets/models/mega/textures/donington-grandstand-da02gsd4.webp",
+      "output_crc32": "637fba8c",
+      "output_size": [
+        512,
+        512
+      ],
+      "output_bytes": 44174
+    },
+    {
+      "id": "DA28COM9",
+      "transparent_background": false,
+      "generated_file": "exec-196cd611-b1b2-45fc-90d9-95bd616cee02.png",
+      "generated_crc32": "71a7469b",
+      "generated_size": [
+        2170,
+        725
+      ],
+      "reference": {
+        "name": "DA28COM9",
+        "slot": 31,
+        "bmp_crc32": "2f737a83",
+        "size": [
+          128,
+          32
+        ]
+      },
+      "output": "assets/models/mega/textures/donington-grandstand-da28com9.webp",
+      "output_crc32": "c4999088",
+      "output_size": [
+        512,
+        128
+      ],
+      "output_bytes": 5518
+    }
+  ],
+  "shared_materials": [
+    {
+      "name": "DA28COM9",
+      "source_crc32": "2f737a83",
+      "types": [
+        "088b8051",
+        "433a382b",
+        "48f9bf63",
+        "59825093",
+        "6db384fa",
+        "7c0884d1",
+        "850f28e8",
+        "8f3603f0",
+        "a5821b86",
+        "ab2c007e",
+        "aeeb3fa9",
+        "d31dc50d",
+        "d9e75072",
+        "dcb96e70",
+        "e4792759",
+        "e7c4f869",
+        "f09dbb75",
+        "f83faf69",
+        "fc32b70b",
+        "fe5b5598"
+      ],
+      "mesh_slots": [
+        [
+          0,
+          8,
+          "DA02GST_1"
+        ],
+        [
+          0,
+          10,
+          "DA28CBO4_1"
+        ],
+        [
+          0,
+          11,
+          "DA28CBO5_1"
+        ],
+        [
+          0,
+          12,
+          "DA28CBO6_1"
+        ],
+        [
+          0,
+          14,
+          "DA31VS1_1"
+        ],
+        [
+          0,
+          15,
+          "DA31VS2_1"
+        ],
+        [
+          0,
+          16,
+          "DA31VS3_1"
+        ],
+        [
+          0,
+          17,
+          "DA31VS4_1"
+        ],
+        [
+          0,
+          18,
+          "DA31VS5_1"
+        ],
+        [
+          0,
+          19,
+          "DA31VS6_1"
+        ],
+        [
+          0,
+          20,
+          "DA31VS7_1"
+        ],
+        [
+          0,
+          21,
+          "DA31VS8_1"
+        ],
+        [
+          0,
+          24,
+          "DA29VST1_1"
+        ],
+        [
+          0,
+          25,
+          "DA29VST2_1"
+        ],
+        [
+          0,
+          26,
+          "DA29VST3_1"
+        ],
+        [
+          0,
+          27,
+          "DA29VST4_1"
+        ],
+        [
+          0,
+          29,
+          "DA27STPS_1"
+        ],
+        [
+          0,
+          48,
+          "DA28CBO1_1"
+        ],
+        [
+          0,
+          51,
+          "DA28CBO3_1"
+        ],
+        [
+          0,
+          52,
+          "DA28CBO2_1"
+        ],
+        [
+          5,
+          9,
+          "DA28CBO4_1"
+        ],
+        [
+          5,
+          10,
+          "DA28CBO5_1"
+        ],
+        [
+          5,
+          11,
+          "DA28CBO6_1"
+        ],
+        [
+          5,
+          13,
+          "DA31VS1_1"
+        ],
+        [
+          5,
+          14,
+          "DA31VS2_1"
+        ],
+        [
+          5,
+          15,
+          "DA31VS3_1"
+        ],
+        [
+          5,
+          16,
+          "DA31VS4_1"
+        ],
+        [
+          5,
+          17,
+          "DA31VS5_1"
+        ],
+        [
+          5,
+          18,
+          "DA31VS6_1"
+        ],
+        [
+          5,
+          19,
+          "DA31VS7_1"
+        ],
+        [
+          5,
+          20,
+          "DA31VS8_1"
+        ],
+        [
+          5,
+          24,
+          "DA29VST1_1"
+        ],
+        [
+          5,
+          25,
+          "DA29VST2_1"
+        ],
+        [
+          5,
+          26,
+          "DA29VST3_1"
+        ],
+        [
+          5,
+          27,
+          "DA29VST4_1"
+        ],
+        [
+          5,
+          29,
+          "DA27STPS_1"
+        ],
+        [
+          5,
+          37,
+          "DA02GST_1"
+        ],
+        [
+          5,
+          50,
+          "DA28CBO1_1"
+        ],
+        [
+          5,
+          53,
+          "DA28CBO3_1"
+        ],
+        [
+          5,
+          54,
+          "DA28CBO2_1"
+        ]
+      ]
+    },
+    {
+      "name": "DA02GSD4",
+      "source_crc32": "34ed41c3",
+      "types": [
+        "850f28e8",
+        "aeeb3fa9",
+        "fe5b5598"
+      ],
+      "mesh_slots": [
+        [
+          0,
+          8,
+          "DA02GST_1"
+        ],
+        [
+          0,
+          19,
+          "DA31VS6_1"
+        ],
+        [
+          0,
+          20,
+          "DA31VS7_1"
+        ],
+        [
+          5,
+          18,
+          "DA31VS6_1"
+        ],
+        [
+          5,
+          19,
+          "DA31VS7_1"
+        ],
+        [
+          5,
+          37,
+          "DA02GST_1"
+        ]
+      ]
+    },
+    {
+      "name": "DA02GSD9",
+      "source_crc32": "9152b7db",
+      "types": [
+        "433a382b",
+        "48f9bf63",
+        "7c0884d1",
+        "aeeb3fa9",
+        "d31dc50d",
+        "dcb96e70",
+        "e4792759"
+      ],
+      "mesh_slots": [
+        [
+          0,
+          8,
+          "DA02GST_1"
+        ],
+        [
+          0,
+          10,
+          "DA28CBO4_1"
+        ],
+        [
+          0,
+          11,
+          "DA28CBO5_1"
+        ],
+        [
+          0,
+          12,
+          "DA28CBO6_1"
+        ],
+        [
+          0,
+          48,
+          "DA28CBO1_1"
+        ],
+        [
+          0,
+          51,
+          "DA28CBO3_1"
+        ],
+        [
+          0,
+          52,
+          "DA28CBO2_1"
+        ],
+        [
+          5,
+          9,
+          "DA28CBO4_1"
+        ],
+        [
+          5,
+          10,
+          "DA28CBO5_1"
+        ],
+        [
+          5,
+          11,
+          "DA28CBO6_1"
+        ],
+        [
+          5,
+          37,
+          "DA02GST_1"
+        ],
+        [
+          5,
+          50,
+          "DA28CBO1_1"
+        ],
+        [
+          5,
+          53,
+          "DA28CBO3_1"
+        ],
+        [
+          5,
+          54,
+          "DA28CBO2_1"
+        ]
+      ]
+    }
+  ]
+}

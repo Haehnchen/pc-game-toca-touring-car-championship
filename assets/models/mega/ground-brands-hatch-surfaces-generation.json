@@ -1,0 +1,296 @@
+{
+  "version": 1,
+  "processing": "Each material generated separately with built-in Imagegen using its enlarged original layout. Full generated canvas resized with Lanczos and encoded as opaque RGB WebP quality80 method6. No programmatic painting, masking or material composition.",
+  "sources": [
+    {
+      "id": "GRASS2",
+      "file": "exec-2565d9d5-01e3-4532-aede-46b4b742c3bb.png",
+      "crc32": "4ce21c69",
+      "size": [
+        1254,
+        1254
+      ],
+      "reference": {
+        "archive": "data/branfree.bfp",
+        "archive_crc32": "ecc577c7",
+        "member": 1,
+        "member_name": "GROUND.C3D",
+        "member_crc32": "4152e50d",
+        "material_slot": 0,
+        "material": "GRASS2",
+        "bmp_crc32": "64d79b84",
+        "size": [
+          128,
+          128
+        ]
+      }
+    },
+    {
+      "id": "NLSAND",
+      "file": "exec-54a86517-e6ec-4e6b-a73b-6239a0e5a54d.png",
+      "crc32": "c6cb899a",
+      "size": [
+        1254,
+        1254
+      ],
+      "reference": {
+        "archive": "data/branfree.bfp",
+        "archive_crc32": "ecc577c7",
+        "member": 1,
+        "member_name": "GROUND.C3D",
+        "member_crc32": "4152e50d",
+        "material_slot": 7,
+        "material": "NLSAND",
+        "bmp_crc32": "cb894113",
+        "size": [
+          64,
+          64
+        ]
+      }
+    },
+    {
+      "id": "NGG",
+      "file": "exec-a687156b-e1fa-42e1-a40f-86767a796fb4.png",
+      "crc32": "05231e63",
+      "size": [
+        2172,
+        724
+      ],
+      "reference": {
+        "archive": "data/branfree.bfp",
+        "archive_crc32": "ecc577c7",
+        "member": 1,
+        "member_name": "GROUND.C3D",
+        "member_crc32": "4152e50d",
+        "material_slot": 8,
+        "material": "NGG",
+        "bmp_crc32": "ff25f7d0",
+        "size": [
+          64,
+          16
+        ]
+      }
+    },
+    {
+      "id": "RUM2",
+      "file": "exec-161b748f-1a2b-49c9-9a25-2263daff8c83.png",
+      "crc32": "38525aa2",
+      "size": [
+        2170,
+        725
+      ],
+      "reference": {
+        "archive": "data/branfree.bfp",
+        "archive_crc32": "ecc577c7",
+        "member": 1,
+        "member_name": "GROUND.C3D",
+        "member_crc32": "4152e50d",
+        "material_slot": 3,
+        "material": "RUM2",
+        "bmp_crc32": "54925653",
+        "size": [
+          128,
+          32
+        ]
+      }
+    },
+    {
+      "id": "WHITEL",
+      "file": "exec-036ca82c-a8ac-4cf3-8b7c-cbaaf5faa487.png",
+      "crc32": "3755a427",
+      "size": [
+        2169,
+        725
+      ],
+      "reference": {
+        "archive": "data/branfree.bfp",
+        "archive_crc32": "ecc577c7",
+        "member": 1,
+        "member_name": "GROUND.C3D",
+        "member_crc32": "4152e50d",
+        "material_slot": 4,
+        "material": "WHITEL",
+        "bmp_crc32": "c41a31c1",
+        "size": [
+          64,
+          16
+        ]
+      }
+    },
+    {
+      "id": "RUM1",
+      "file": "exec-d6f45658-5cab-4302-9ec2-ad6fdf0f0bd4.png",
+      "crc32": "d3e37546",
+      "size": [
+        1774,
+        887
+      ],
+      "reference": {
+        "archive": "data/branfree.bfp",
+        "archive_crc32": "ecc577c7",
+        "member": 1,
+        "member_name": "GROUND.C3D",
+        "member_crc32": "4152e50d",
+        "material_slot": 11,
+        "material": "RUM1",
+        "bmp_crc32": "8a8cb182",
+        "size": [
+          64,
+          32
+        ]
+      }
+    },
+    {
+      "id": "DLINE",
+      "file": "exec-79655fae-d664-4d44-8901-06485c55ee0c.png",
+      "crc32": "3f982a9a",
+      "size": [
+        2172,
+        724
+      ],
+      "reference": {
+        "archive": "data/branfree.bfp",
+        "archive_crc32": "ecc577c7",
+        "member": 1,
+        "member_name": "GROUND.C3D",
+        "member_crc32": "4152e50d",
+        "material_slot": 12,
+        "material": "DLINE",
+        "bmp_crc32": "d8699caa",
+        "size": [
+          64,
+          16
+        ]
+      }
+    }
+  ],
+  "outputs": [
+    {
+      "image": "textures/ground-brands-hatch-grass2.webp",
+      "source": "GRASS2",
+      "size": [
+        256,
+        256
+      ],
+      "alpha": "opaque",
+      "webp_quality": 80,
+      "method": 6,
+      "crc32": "289c8f20",
+      "bytes": 20118,
+      "mean_rgb": [
+        98.41,
+        95.528,
+        9.932
+      ]
+    },
+    {
+      "image": "textures/ground-brands-hatch-nlsand.webp",
+      "source": "NLSAND",
+      "size": [
+        128,
+        128
+      ],
+      "alpha": "opaque",
+      "webp_quality": 80,
+      "method": 6,
+      "crc32": "3d791ca0",
+      "bytes": 3332,
+      "mean_rgb": [
+        188.188,
+        151.071,
+        98.427
+      ]
+    },
+    {
+      "image": "textures/ground-brands-hatch-ngg.webp",
+      "source": "NGG",
+      "size": [
+        128,
+        32
+      ],
+      "alpha": "opaque",
+      "webp_quality": 80,
+      "method": 6,
+      "crc32": "2290b60e",
+      "bytes": 950,
+      "mean_rgb": [
+        162.833,
+        136.309,
+        63.379
+      ]
+    },
+    {
+      "image": "textures/ground-brands-hatch-rum2.webp",
+      "source": "RUM2",
+      "size": [
+        256,
+        64
+      ],
+      "alpha": "opaque",
+      "webp_quality": 80,
+      "method": 6,
+      "crc32": "f0ce90e2",
+      "bytes": 3230,
+      "mean_rgb": [
+        90.474,
+        113.313,
+        99.204
+      ]
+    },
+    {
+      "image": "textures/ground-brands-hatch-whitel.webp",
+      "source": "WHITEL",
+      "size": [
+        128,
+        32
+      ],
+      "alpha": "opaque",
+      "webp_quality": 80,
+      "method": 6,
+      "crc32": "e476303b",
+      "bytes": 272,
+      "mean_rgb": [
+        181.603,
+        185.669,
+        180.561
+      ]
+    },
+    {
+      "image": "textures/ground-brands-hatch-rum1.webp",
+      "source": "RUM1",
+      "size": [
+        128,
+        64
+      ],
+      "alpha": "opaque",
+      "webp_quality": 80,
+      "method": 6,
+      "crc32": "116be633",
+      "bytes": 1760,
+      "mean_rgb": [
+        88.988,
+        107.003,
+        93.746
+      ]
+    },
+    {
+      "image": "textures/ground-brands-hatch-dline.webp",
+      "source": "DLINE",
+      "size": [
+        128,
+        32
+      ],
+      "alpha": "opaque",
+      "webp_quality": 80,
+      "method": 6,
+      "crc32": "0364edbd",
+      "bytes": 446,
+      "mean_rgb": [
+        98.51,
+        98.618,
+        101.148
+      ]
+    }
+  ],
+  "webp_quality": 80
+}

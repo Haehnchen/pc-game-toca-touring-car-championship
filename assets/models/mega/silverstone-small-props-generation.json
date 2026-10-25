@@ -1,0 +1,597 @@
+{
+  "version": 1,
+  "package": "R01-Silverstone-cones-posts-small-signs",
+  "source_policy": "Only canonical unmodified TOCA 1.1a; original media is not committed.",
+  "source": {
+    "path": "data/silvfree.bfp",
+    "crc32": "960a335c"
+  },
+  "scope": {
+    "track": 1,
+    "types": 10,
+    "placements": 51,
+    "cones": 15,
+    "posts": 10,
+    "signs": 26,
+    "source_materials": 9,
+    "new_images": 8,
+    "reused_images": 1
+  },
+  "geometry": "Three exact track/member/CRC32 gates retain the simple original bodies: cone22V/14T,post20V/10T,each of8 signs42V/32T with thickness and rear. Removed generic extra rims, bevels and LDHL blank-paint remap; original geometry/UVs/slots, pivots, hierarchy and all51 placements remain exact.",
+  "uv_contract": "Direct1:1 texture replacement on original UVs/material slots; no new atlas, signs, text or per-direction image. Original mirrored LARROW2 users retain their opposite source directions. All9 source images and outputs are fully opaque.",
+  "export": "Whole-canvas Lanczos resize to original aspect ratio, longest edge512; RGB WebP quality80 method6. No source-pixel artwork, crop, compositing or programmatic motif edits.",
+  "families": [
+    {
+      "member": 8,
+      "family": "cones",
+      "source_crc32": "923cec08",
+      "meshes": [
+        {
+          "mesh": 0,
+          "name": "LRED_1",
+          "source_crc32": "c7f79a55",
+          "vertices": 22,
+          "triangles": 14,
+          "nodes": [
+            1,
+            3,
+            5,
+            7,
+            9,
+            11,
+            13,
+            15,
+            17,
+            19,
+            21,
+            23,
+            25,
+            27,
+            29
+          ],
+          "materials": [
+            "LREDCON"
+          ]
+        }
+      ],
+      "before": {
+        "path": "build/silverstone-small-props/asset-source/build/before/scene/track-1/cones.glb",
+        "crc32": "8a7a5fa6",
+        "bytes": 135984
+      },
+      "same_geometry_previous_art": {
+        "path": "build/silverstone-small-props/asset-source/build/review-before/scene/track-1/cones.glb",
+        "crc32": "986f5b8b",
+        "bytes": 71460
+      },
+      "after": {
+        "path": "build/silverstone-small-props/asset-source/build/after/scene/track-1/cones.glb",
+        "crc32": "a3988181",
+        "bytes": 20932
+      }
+    },
+    {
+      "member": 9,
+      "family": "posts",
+      "source_crc32": "7c127e1a",
+      "meshes": [
+        {
+          "mesh": 0,
+          "name": "LTALLCON_1",
+          "source_crc32": "e5576d2b",
+          "vertices": 20,
+          "triangles": 10,
+          "nodes": [
+            1,
+            3,
+            5,
+            7,
+            9,
+            11,
+            13,
+            15,
+            17,
+            19
+          ],
+          "materials": [
+            "LREDCON"
+          ]
+        }
+      ],
+      "before": {
+        "path": "build/silverstone-small-props/asset-source/build/before/scene/track-1/posts.glb",
+        "crc32": "f85ff8a5",
+        "bytes": 130776
+      },
+      "same_geometry_previous_art": {
+        "path": "build/silverstone-small-props/asset-source/build/review-before/scene/track-1/posts.glb",
+        "crc32": "7b634ae9",
+        "bytes": 68192
+      },
+      "after": {
+        "path": "build/silverstone-small-props/asset-source/build/after/scene/track-1/posts.glb",
+        "crc32": "e6502f42",
+        "bytes": 17664
+      }
+    },
+    {
+      "member": 10,
+      "family": "signs",
+      "source_crc32": "9f9d3951",
+      "meshes": [
+        {
+          "mesh": 0,
+          "name": "L200_1",
+          "source_crc32": "de297544",
+          "vertices": 42,
+          "triangles": 32,
+          "nodes": [
+            1,
+            3,
+            5,
+            51
+          ],
+          "materials": [
+            "LDHL",
+            "L200"
+          ]
+        },
+        {
+          "mesh": 1,
+          "name": "L100_1",
+          "source_crc32": "889d7d72",
+          "vertices": 42,
+          "triangles": 32,
+          "nodes": [
+            7,
+            9,
+            11,
+            13,
+            15,
+            17,
+            45
+          ],
+          "materials": [
+            "LDHL",
+            "L100"
+          ]
+        },
+        {
+          "mesh": 2,
+          "name": "L50_1",
+          "source_crc32": "cdc007a7",
+          "vertices": 42,
+          "triangles": 32,
+          "nodes": [
+            19,
+            21,
+            23,
+            25,
+            27,
+            29,
+            31
+          ],
+          "materials": [
+            "LDHL",
+            "L50"
+          ]
+        },
+        {
+          "mesh": 3,
+          "name": "LARROW5_1",
+          "source_crc32": "a85a68fa",
+          "vertices": 42,
+          "triangles": 32,
+          "nodes": [
+            33
+          ],
+          "materials": [
+            "LDHL",
+            "LARROW5"
+          ]
+        },
+        {
+          "mesh": 4,
+          "name": "LPIT_1",
+          "source_crc32": "72ee355b",
+          "vertices": 42,
+          "triangles": 32,
+          "nodes": [
+            35
+          ],
+          "materials": [
+            "LDHL",
+            "LPIT"
+          ]
+        },
+        {
+          "mesh": 5,
+          "name": "LARROW3_1",
+          "source_crc32": "aae04e15",
+          "vertices": 42,
+          "triangles": 32,
+          "nodes": [
+            37
+          ],
+          "materials": [
+            "LDHL",
+            "LARROW1"
+          ]
+        },
+        {
+          "mesh": 6,
+          "name": "LARROW4_1",
+          "source_crc32": "2ed1e6ba",
+          "vertices": 42,
+          "triangles": 32,
+          "nodes": [
+            39,
+            47,
+            49
+          ],
+          "materials": [
+            "LDHL",
+            "LARROW2"
+          ]
+        },
+        {
+          "mesh": 7,
+          "name": "LARROW21",
+          "source_crc32": "3484170a",
+          "vertices": 42,
+          "triangles": 32,
+          "nodes": [
+            41,
+            43
+          ],
+          "materials": [
+            "LDHL",
+            "LARROW2"
+          ]
+        }
+      ],
+      "before": {
+        "path": "build/silverstone-small-props/asset-source/build/before/scene/track-1/signs.glb",
+        "crc32": "5790cb54",
+        "bytes": 131196
+      },
+      "same_geometry_previous_art": {
+        "path": "build/silverstone-small-props/asset-source/build/review-before/scene/track-1/signs.glb",
+        "crc32": "ce3449bf",
+        "bytes": 61092
+      },
+      "after": {
+        "path": "build/silverstone-small-props/asset-source/build/after/scene/track-1/signs.glb",
+        "crc32": "f8d911b4",
+        "bytes": 51212
+      }
+    }
+  ],
+  "materials": [
+    {
+      "name": "L200",
+      "source": {
+        "crc32": "5334341a",
+        "size": [
+          32,
+          16
+        ],
+        "black_key_pixels": 0
+      },
+      "generated": {
+        "path": "build/silverstone-small-props/L200-generated.png",
+        "crc32": "0032d73f",
+        "bytes": 1153124,
+        "size": [
+          1774,
+          887
+        ]
+      },
+      "output": {
+        "path": "assets/models/mega/textures/silverstone-prop-l200.webp",
+        "crc32": "ea7ce4d5",
+        "bytes": 3614,
+        "size": [
+          512,
+          256
+        ]
+      }
+    },
+    {
+      "name": "L100",
+      "source": {
+        "crc32": "45aded94",
+        "size": [
+          32,
+          16
+        ],
+        "black_key_pixels": 0
+      },
+      "generated": {
+        "path": "build/silverstone-small-props/L100-generated.png",
+        "crc32": "853e54b7",
+        "bytes": 1101460,
+        "size": [
+          1774,
+          887
+        ]
+      },
+      "output": {
+        "path": "assets/models/mega/textures/silverstone-prop-l100.webp",
+        "crc32": "122c39ff",
+        "bytes": 2976,
+        "size": [
+          512,
+          256
+        ]
+      }
+    },
+    {
+      "name": "L50",
+      "source": {
+        "crc32": "25ba564b",
+        "size": [
+          32,
+          16
+        ],
+        "black_key_pixels": 0
+      },
+      "generated": {
+        "path": "build/silverstone-small-props/L50-generated.png",
+        "crc32": "db1a41fe",
+        "bytes": 1108324,
+        "size": [
+          1774,
+          887
+        ]
+      },
+      "output": {
+        "path": "assets/models/mega/textures/silverstone-prop-l50.webp",
+        "crc32": "4c61d386",
+        "bytes": 2206,
+        "size": [
+          512,
+          256
+        ]
+      }
+    },
+    {
+      "name": "LPIT",
+      "source": {
+        "crc32": "6d5fbb7b",
+        "size": [
+          32,
+          16
+        ],
+        "black_key_pixels": 0
+      },
+      "generated": {
+        "path": "build/silverstone-small-props/LPIT-generated.png",
+        "crc32": "83bd42c1",
+        "bytes": 1111287,
+        "size": [
+          1774,
+          887
+        ]
+      },
+      "output": {
+        "path": "assets/models/mega/textures/silverstone-prop-lpit.webp",
+        "crc32": "8b6c7cab",
+        "bytes": 1456,
+        "size": [
+          512,
+          256
+        ]
+      }
+    },
+    {
+      "name": "LARROW1",
+      "source": {
+        "crc32": "54987d6d",
+        "size": [
+          32,
+          32
+        ],
+        "black_key_pixels": 0
+      },
+      "generated": {
+        "path": "build/silverstone-small-props/LARROW1-generated.png",
+        "crc32": "38e12419",
+        "bytes": 1120664,
+        "size": [
+          1254,
+          1254
+        ]
+      },
+      "output": {
+        "path": "assets/models/mega/textures/silverstone-prop-larrow1.webp",
+        "crc32": "21cf73a2",
+        "bytes": 3624,
+        "size": [
+          512,
+          512
+        ]
+      }
+    },
+    {
+      "name": "LARROW2",
+      "source": {
+        "crc32": "f32995e2",
+        "size": [
+          32,
+          32
+        ],
+        "black_key_pixels": 0
+      },
+      "generated": {
+        "path": "build/silverstone-small-props/LARROW2-generated.png",
+        "crc32": "7490f2a6",
+        "bytes": 1099126,
+        "size": [
+          1254,
+          1254
+        ]
+      },
+      "output": {
+        "path": "assets/models/mega/textures/silverstone-prop-larrow2.webp",
+        "crc32": "3a2569ea",
+        "bytes": 2574,
+        "size": [
+          512,
+          512
+        ]
+      }
+    },
+    {
+      "name": "LARROW5",
+      "source": {
+        "crc32": "c670cf1d",
+        "size": [
+          32,
+          32
+        ],
+        "black_key_pixels": 0
+      },
+      "generated": {
+        "path": "build/silverstone-small-props/LARROW5-generated.png",
+        "crc32": "9f2184de",
+        "bytes": 1097293,
+        "size": [
+          1254,
+          1254
+        ]
+      },
+      "output": {
+        "path": "assets/models/mega/textures/silverstone-prop-larrow5.webp",
+        "crc32": "dc336942",
+        "bytes": 3296,
+        "size": [
+          512,
+          512
+        ]
+      }
+    },
+    {
+      "name": "LDHL",
+      "source": {
+        "crc32": "28f66f86",
+        "size": [
+          64,
+          16
+        ],
+        "black_key_pixels": 0
+      },
+      "generated": {
+        "path": "build/silverstone-small-props/LDHL-generated.png",
+        "crc32": "6eedaddd",
+        "bytes": 985575,
+        "size": [
+          1983,
+          793
+        ]
+      },
+      "output": {
+        "path": "assets/models/mega/textures/silverstone-prop-ldhl.webp",
+        "crc32": "b70927c5",
+        "bytes": 3904,
+        "size": [
+          512,
+          128
+        ]
+      },
+      "alignment_edits": [
+        {
+          "reference": {
+            "path": "build/silverstone-small-props/LDHL-layout-reference.png",
+            "crc32": "549dabe8",
+            "bytes": 943648,
+            "size": [
+              1983,
+              793
+            ]
+          }
+        },
+        {
+          "reference": {
+            "path": "build/silverstone-small-props/LDHL-registration-reference.png",
+            "crc32": "47de252d",
+            "bytes": 994098,
+            "size": [
+              1983,
+              793
+            ]
+          }
+        }
+      ],
+      "protected_blank_crop": {
+        "u": [
+          0.714,
+          0.984
+        ],
+        "image_v": [
+          0,
+          0.533
+        ],
+        "role": "White opaque paint for original frame/rear UVs; no red mark or UV remap."
+      }
+    },
+    {
+      "name": "LREDCON",
+      "source": {
+        "crc32": "29a565d2",
+        "size": [
+          64,
+          64
+        ],
+        "black_key_pixels": 0
+      },
+      "reuse": {
+        "path": "assets/models/mega/textures/donington-cone-bands.webp",
+        "crc32": "e5fa1889",
+        "bytes": 11342,
+        "size": [
+          512,
+          512
+        ]
+      },
+      "provenance": "assets/models/mega/donington-dynamic-props-generation.json"
+    }
+  ],
+  "shared_oulton_signs": {
+    "source": {
+      "original_version": "1.1a",
+      "path": "data/oultfree.bfp",
+      "crc32": "e6e258cb",
+      "member": 10,
+      "member_name": "SIGNS.C3D",
+      "member_crc32": "067cf3ed",
+      "ldhl_crc32": "7f08be18"
+    },
+    "image": "textures/silverstone-prop-ldhl.webp",
+    "image_crc32": "b70927c5",
+    "source_review": "Same white structural field, slanted DHL wordmark and two low speed-stripe groups as Silverstone source28f66f86; source palette/raster quantization differs. Original U45/63..61/63,imageV0..8/15 structural paint plus filter margin remains opaque white.",
+    "fix": "Replace the generic wide DHL layout that put a red fragment in the lower-left arrow surround; restore all six canonical 42V/32T solid sign bodies and original UVs, retaining material slots, hierarchy and placement.",
+    "checks": {
+      "mega-assets": "PASS, including all six structural paint fields and canonical source-shape retention",
+      "scenery-inventory": "PASS"
+    },
+    "native": {
+      "probe": "build/oulton-sign-fix/material-probe",
+      "crc32": "d5ac7a8d",
+      "signs_glb_crc32": "91548f88",
+      "cases": [
+        "LARROW4_1/node25",
+        "LARROW5_1/node33"
+      ],
+      "views": [
+        "front",
+        "near",
+        "slant",
+        "back",
+        "driving"
+      ],
+      "result": "PASS: original/previous/new materials on identical canonical shapes; previous red lower-left logo fragment reproduced, final arrow surrounds and rear paint clean. Final ordered positions/normals/UVs, material prefix, hierarchy and placement checked against original1.1a.",
+      "isolation": "Private Xvfb, SDL x11, dummy audio, inherited Wayland unset; game-window captures only."
+    }
+  }
+}

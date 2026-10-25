@@ -1,0 +1,1358 @@
+{
+  "version": 1,
+  "package": "R03-Brands-Hatch-adverts-arrows-cones-posts-signs",
+  "source": {
+    "track": 3,
+    "path": "data/branfree.bfp",
+    "crc32": "ecc577c7",
+    "bytes": 2645477,
+    "members": {
+      "2": "55003579",
+      "3": "de9680a4",
+      "5": "90ddbd12",
+      "8": "87440301",
+      "9": "46178c94",
+      "10": "de435d9a",
+      "11": "1cccb3ce"
+    }
+  },
+  "source_members": [
+    {
+      "index": 5,
+      "name": "OBJECTS.C3D",
+      "crc32": "90ddbd12"
+    },
+    {
+      "index": 8,
+      "name": "CONES.C3D",
+      "crc32": "87440301"
+    },
+    {
+      "index": 9,
+      "name": "POSTS.C3D",
+      "crc32": "46178c94"
+    },
+    {
+      "index": 10,
+      "name": "SIGNS.C3D",
+      "crc32": "de435d9a"
+    }
+  ],
+  "scope": {
+    "track": 3,
+    "accepted_types": 16,
+    "accepted_bindings": 70,
+    "source_images": 17,
+    "new_direct_images": 17,
+    "imagegen_plates": 16,
+    "source_vector_exports": 1,
+    "corrected_mapped_identities": 14,
+    "previously_unmapped_identities": 3,
+    "advert_types": 6,
+    "advert_bindings": 27,
+    "chevron_bindings": 2,
+    "cone_bindings": 20,
+    "post_bindings": 5,
+    "sign_bindings": 16,
+    "types_and_bindings": [
+      {
+        "member": 5,
+        "mesh": 25,
+        "name": "DA09ADA_1",
+        "type": "16015907",
+        "source_mesh_crc32": "6d0e3fbd",
+        "source_vertices": 6,
+        "source_triangles": 4,
+        "nodes": [
+          [
+            67,
+            0
+          ],
+          [
+            77,
+            0
+          ],
+          [
+            99,
+            0
+          ],
+          [
+            103,
+            0
+          ]
+        ]
+      },
+      {
+        "member": 5,
+        "mesh": 26,
+        "name": "DA09ADB_1",
+        "type": "6abc12e8",
+        "source_mesh_crc32": "2ec24c1d",
+        "source_vertices": 6,
+        "source_triangles": 4,
+        "nodes": [
+          [
+            69,
+            0
+          ],
+          [
+            79,
+            0
+          ],
+          [
+            93,
+            0
+          ],
+          [
+            621,
+            0
+          ]
+        ]
+      },
+      {
+        "member": 5,
+        "mesh": 27,
+        "name": "DA09ADC_1",
+        "type": "dc31374f",
+        "source_mesh_crc32": "11dd8cac",
+        "source_vertices": 6,
+        "source_triangles": 4,
+        "nodes": [
+          [
+            71,
+            0
+          ],
+          [
+            81,
+            0
+          ],
+          [
+            95,
+            0
+          ],
+          [
+            101,
+            0
+          ],
+          [
+            105,
+            0
+          ],
+          [
+            107,
+            0
+          ],
+          [
+            117,
+            0
+          ],
+          [
+            125,
+            0
+          ]
+        ]
+      },
+      {
+        "member": 5,
+        "mesh": 28,
+        "name": "DA09AD2_1",
+        "type": "4cfd8fe5",
+        "source_mesh_crc32": "6db08deb",
+        "source_vertices": 8,
+        "source_triangles": 4,
+        "nodes": [
+          [
+            73,
+            0
+          ],
+          [
+            75,
+            0
+          ]
+        ]
+      },
+      {
+        "member": 5,
+        "mesh": 29,
+        "name": "DA09AD1_1",
+        "type": "69c41c23",
+        "source_mesh_crc32": "69f38967",
+        "source_vertices": 8,
+        "source_triangles": 4,
+        "nodes": [
+          [
+            83,
+            0
+          ],
+          [
+            85,
+            0
+          ],
+          [
+            97,
+            0
+          ]
+        ]
+      },
+      {
+        "member": 5,
+        "mesh": 35,
+        "name": "DA09ADD_1",
+        "type": "77596f0f",
+        "source_mesh_crc32": "83b9a64f",
+        "source_vertices": 6,
+        "source_triangles": 4,
+        "nodes": [
+          [
+            119,
+            0
+          ],
+          [
+            121,
+            0
+          ],
+          [
+            123,
+            0
+          ],
+          [
+            127,
+            0
+          ],
+          [
+            129,
+            0
+          ],
+          [
+            523,
+            0
+          ]
+        ]
+      },
+      {
+        "member": 5,
+        "mesh": 53,
+        "name": "CHERV_1",
+        "type": "03dc0cfd",
+        "source_mesh_crc32": "fe7c85c1",
+        "source_vertices": 67,
+        "source_triangles": 34,
+        "nodes": [
+          [
+            495,
+            0
+          ],
+          [
+            497,
+            0
+          ]
+        ]
+      },
+      {
+        "member": 8,
+        "mesh": 0,
+        "name": "LRED_1",
+        "type": "439dc5db",
+        "source_mesh_crc32": "92a8cb5e",
+        "source_vertices": 22,
+        "source_triangles": 14,
+        "nodes": [
+          [
+            1,
+            0
+          ],
+          [
+            3,
+            0
+          ],
+          [
+            5,
+            0
+          ],
+          [
+            7,
+            0
+          ],
+          [
+            9,
+            0
+          ],
+          [
+            11,
+            0
+          ],
+          [
+            13,
+            0
+          ],
+          [
+            15,
+            0
+          ],
+          [
+            17,
+            0
+          ],
+          [
+            19,
+            0
+          ],
+          [
+            21,
+            0
+          ],
+          [
+            23,
+            0
+          ],
+          [
+            25,
+            0
+          ],
+          [
+            27,
+            0
+          ],
+          [
+            29,
+            0
+          ],
+          [
+            31,
+            0
+          ],
+          [
+            33,
+            0
+          ],
+          [
+            35,
+            0
+          ],
+          [
+            37,
+            0
+          ],
+          [
+            39,
+            0
+          ]
+        ]
+      },
+      {
+        "member": 9,
+        "mesh": 0,
+        "name": "LTALLCON_1",
+        "type": "c063aaa7",
+        "source_mesh_crc32": "0f2cc3fb",
+        "source_vertices": 20,
+        "source_triangles": 10,
+        "nodes": [
+          [
+            1,
+            0
+          ],
+          [
+            3,
+            0
+          ],
+          [
+            5,
+            0
+          ],
+          [
+            7,
+            0
+          ],
+          [
+            9,
+            0
+          ]
+        ]
+      },
+      {
+        "member": 10,
+        "mesh": 0,
+        "name": "L100_1",
+        "type": "840459a6",
+        "source_mesh_crc32": "caecddde",
+        "source_vertices": 42,
+        "source_triangles": 32,
+        "nodes": [
+          [
+            1,
+            0
+          ],
+          [
+            3,
+            0
+          ],
+          [
+            7,
+            0
+          ],
+          [
+            9,
+            0
+          ]
+        ]
+      },
+      {
+        "member": 10,
+        "mesh": 1,
+        "name": "L200_1",
+        "type": "54dd64f7",
+        "source_mesh_crc32": "50af1f6f",
+        "source_vertices": 42,
+        "source_triangles": 32,
+        "nodes": [
+          [
+            5,
+            0
+          ],
+          [
+            23,
+            0
+          ],
+          [
+            31,
+            0
+          ]
+        ]
+      },
+      {
+        "member": 10,
+        "mesh": 2,
+        "name": "L50_1",
+        "type": "9743affb",
+        "source_mesh_crc32": "403269f6",
+        "source_vertices": 42,
+        "source_triangles": 32,
+        "nodes": [
+          [
+            11,
+            0
+          ],
+          [
+            13,
+            0
+          ],
+          [
+            15,
+            0
+          ],
+          [
+            17,
+            0
+          ]
+        ]
+      },
+      {
+        "member": 10,
+        "mesh": 3,
+        "name": "LARROW2_1",
+        "type": "70123d26",
+        "source_mesh_crc32": "bf07bccf",
+        "source_vertices": 42,
+        "source_triangles": 32,
+        "nodes": [
+          [
+            19,
+            0
+          ]
+        ]
+      },
+      {
+        "member": 10,
+        "mesh": 4,
+        "name": "LARROW4_1",
+        "type": "00cf2e58",
+        "source_mesh_crc32": "bfe59d8c",
+        "source_vertices": 42,
+        "source_triangles": 32,
+        "nodes": [
+          [
+            21,
+            0
+          ]
+        ]
+      },
+      {
+        "member": 10,
+        "mesh": 5,
+        "name": "LARROW3_1",
+        "type": "9458d22b",
+        "source_mesh_crc32": "3bd43523",
+        "source_vertices": 42,
+        "source_triangles": 32,
+        "nodes": [
+          [
+            25,
+            0
+          ],
+          [
+            29,
+            0
+          ]
+        ]
+      },
+      {
+        "member": 10,
+        "mesh": 6,
+        "name": "LPIT_1",
+        "type": "b706bb6f",
+        "source_mesh_crc32": "fc685f70",
+        "source_vertices": 42,
+        "source_triangles": 32,
+        "nodes": [
+          [
+            27,
+            0
+          ]
+        ]
+      }
+    ]
+  },
+  "geometry": {
+    "source_prop_guards": {
+      "8": "87440301",
+      "9": "46178c94",
+      "10": "de435d9a"
+    },
+    "restoration": "Brands FREE8/9/10 retain canonical source meshes, ordered vertices/faces, normals, UVs and original material slots. Simple cone14T, post10T, seven sign carriers32T each; unnecessary procedural collars/bevels/rims and relocated paint UVs removed. Original post open bottom retained.",
+    "retained": "Six4cm advert backings and34T CHERV carrier remain unchanged, preserving original front surfaces and positions. All other tracks retain their existing geometry; Croft shared image consumers do not receive model acceptance."
+  },
+  "materials": [
+    {
+      "name": "CASTROL",
+      "source_crc32": "66e722b2",
+      "source_size": [
+        128,
+        32
+      ],
+      "source_palette_crc32": "c2ef88fe",
+      "action": "corrected-exact-source-artwork",
+      "output": {
+        "path": "assets/models/mega/textures/brands-prop-castrol.webp",
+        "crc32": "18ba98b4",
+        "bytes": 7056
+      },
+      "generated": {
+        "path": "build/brands-props/CASTROL-generated.png",
+        "crc32": "128cd720",
+        "size": [
+          2169,
+          725
+        ]
+      },
+      "crop": [
+        0,
+        137,
+        2169,
+        588
+      ],
+      "export": {
+        "path": "assets/models/mega/textures/brands-prop-castrol.webp",
+        "crc32": "18ba98b4",
+        "bytes": 7056,
+        "size": [
+          512,
+          128
+        ],
+        "webp_quality": 70,
+        "webp_method": 6
+      },
+      "alpha": {
+        "exact_source_black_key": true,
+        "crc32": "deab7e4e",
+        "black_key_source_pixels": 0
+      }
+    },
+    {
+      "name": "AUTOTRAD",
+      "source_crc32": "b8312165",
+      "source_size": [
+        128,
+        32
+      ],
+      "source_palette_crc32": "c2ef88fe",
+      "action": "corrected-exact-source-artwork",
+      "output": {
+        "path": "assets/models/mega/textures/brands-prop-autotrad.webp",
+        "crc32": "26868381",
+        "bytes": 3866
+      },
+      "generated": {
+        "path": "build/brands-props/AUTOTRAD-generated.png",
+        "crc32": "f1074490",
+        "size": [
+          2170,
+          725
+        ]
+      },
+      "crop": [
+        0,
+        136,
+        2170,
+        589
+      ],
+      "export": {
+        "path": "assets/models/mega/textures/brands-prop-autotrad.webp",
+        "crc32": "26868381",
+        "bytes": 3866,
+        "size": [
+          512,
+          128
+        ],
+        "webp_quality": 70,
+        "webp_method": 6
+      },
+      "alpha": {
+        "exact_source_black_key": true,
+        "crc32": "deab7e4e",
+        "black_key_source_pixels": 0
+      }
+    },
+    {
+      "name": "PIRELLI",
+      "source_crc32": "bc6b2af7",
+      "source_size": [
+        128,
+        32
+      ],
+      "source_palette_crc32": "c2ef88fe",
+      "action": "corrected-exact-source-artwork",
+      "output": {
+        "path": "assets/models/mega/textures/brands-prop-pirelli.webp",
+        "crc32": "3df2b07b",
+        "bytes": 2192
+      },
+      "generated": {
+        "path": "build/brands-props/PIRELLI-generated.png",
+        "crc32": "66107975",
+        "size": [
+          2170,
+          725
+        ]
+      },
+      "crop": [
+        0,
+        94,
+        2170,
+        632
+      ],
+      "export": {
+        "path": "assets/models/mega/textures/brands-prop-pirelli.webp",
+        "crc32": "3df2b07b",
+        "bytes": 2192,
+        "size": [
+          512,
+          128
+        ],
+        "webp_quality": 70,
+        "webp_method": 6
+      },
+      "alpha": {
+        "exact_source_black_key": true,
+        "crc32": "deab7e4e",
+        "black_key_source_pixels": 0
+      }
+    },
+    {
+      "name": "LDV",
+      "source_crc32": "4f44412d",
+      "source_size": [
+        64,
+        32
+      ],
+      "source_palette_crc32": "c2ef88fe",
+      "action": "corrected-exact-source-artwork",
+      "output": {
+        "path": "assets/models/mega/textures/brands-prop-ldv.webp",
+        "crc32": "5d32d619",
+        "bytes": 3110
+      },
+      "generated": {
+        "path": "build/brands-props/LDV-generated.png",
+        "crc32": "ae436fb4",
+        "size": [
+          1774,
+          887
+        ]
+      },
+      "crop": [
+        0,
+        0,
+        1774,
+        887
+      ],
+      "export": {
+        "path": "assets/models/mega/textures/brands-prop-ldv.webp",
+        "crc32": "5d32d619",
+        "bytes": 3110,
+        "size": [
+          512,
+          256
+        ],
+        "webp_quality": 70,
+        "webp_method": 6
+      },
+      "alpha": {
+        "exact_source_black_key": true,
+        "crc32": "154803cc",
+        "black_key_source_pixels": 0
+      }
+    },
+    {
+      "name": "MCN",
+      "source_crc32": "fd6f4229",
+      "source_size": [
+        64,
+        32
+      ],
+      "source_palette_crc32": "c2ef88fe",
+      "action": "corrected-exact-source-artwork",
+      "output": {
+        "path": "assets/models/mega/textures/brands-prop-mcn.webp",
+        "crc32": "f3f5b61c",
+        "bytes": 8134
+      },
+      "generated": {
+        "path": "build/brands-props/MCN-generated.png",
+        "crc32": "d54bceaa",
+        "size": [
+          1774,
+          887
+        ]
+      },
+      "crop": [
+        0,
+        0,
+        1774,
+        887
+      ],
+      "export": {
+        "path": "assets/models/mega/textures/brands-prop-mcn.webp",
+        "crc32": "f3f5b61c",
+        "bytes": 8134,
+        "size": [
+          512,
+          256
+        ],
+        "webp_quality": 70,
+        "webp_method": 6
+      },
+      "alpha": {
+        "exact_source_black_key": true,
+        "crc32": "154803cc",
+        "black_key_source_pixels": 0
+      }
+    },
+    {
+      "name": "ORDSURV",
+      "source_crc32": "9ff9ef5b",
+      "source_size": [
+        128,
+        32
+      ],
+      "source_palette_crc32": "c2ef88fe",
+      "action": "corrected-exact-source-artwork",
+      "output": {
+        "path": "assets/models/mega/textures/brands-prop-ordsurv.webp",
+        "crc32": "99706757",
+        "bytes": 5400
+      },
+      "generated": {
+        "path": "build/brands-props/ORDSURV-generated.png",
+        "crc32": "24d08f82",
+        "size": [
+          2169,
+          725
+        ]
+      },
+      "crop": [
+        0,
+        95,
+        2169,
+        622
+      ],
+      "export": {
+        "path": "assets/models/mega/textures/brands-prop-ordsurv.webp",
+        "crc32": "99706757",
+        "bytes": 5400,
+        "size": [
+          512,
+          128
+        ],
+        "webp_quality": 70,
+        "webp_method": 6
+      },
+      "alpha": {
+        "exact_source_black_key": true,
+        "crc32": "deab7e4e",
+        "black_key_source_pixels": 0
+      }
+    },
+    {
+      "name": "CHEV",
+      "source_crc32": "9f9965a4",
+      "source_size": [
+        64,
+        64
+      ],
+      "source_palette_crc32": "c2ef88fe",
+      "action": "new-direct-artwork",
+      "output": {
+        "path": "assets/models/mega/textures/brands-prop-chev.webp",
+        "crc32": "337360b4",
+        "bytes": 6648
+      },
+      "generated": {
+        "path": "build/brands-props/CHEV-generated.png",
+        "crc32": "10110c75",
+        "size": [
+          1254,
+          1254
+        ]
+      },
+      "crop": [
+        0,
+        0,
+        1254,
+        1254
+      ],
+      "export": {
+        "path": "assets/models/mega/textures/brands-prop-chev.webp",
+        "crc32": "337360b4",
+        "bytes": 6648,
+        "size": [
+          512,
+          512
+        ],
+        "webp_quality": 70,
+        "webp_method": 6
+      },
+      "alpha": {
+        "exact_source_black_key": true,
+        "crc32": "b7094978",
+        "black_key_source_pixels": 0
+      },
+      "generation_mode": "source-derived-vector-export",
+      "vector_recipe": {
+        "mode": "source-derived-vector-export",
+        "source": "Canonical CHEV four-period geometric repeat and source two-colour palette; smooth continuous polygon boundaries, no RGB pixel tracing.",
+        "source_coordinates": {
+          "canvas": [
+            64,
+            64
+          ],
+          "period": 16,
+          "top_bottom_white_centres": [
+            0,
+            16,
+            32,
+            48,
+            64
+          ],
+          "middle_white_centres": [
+            7.5,
+            23.5,
+            39.5,
+            55.5
+          ],
+          "white_horizontal_width": 6
+        },
+        "svg": {
+          "path": "build/brands-props/CHEV-native.svg",
+          "crc32": "2353e136",
+          "content": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"1254\" height=\"1254\" viewBox=\"0 0 64 64\"><rect width=\"64\" height=\"64\" fill=\"#080808\"/><g fill=\"#efeff7\"><polygon points=\"-3,0 3,0 10.5,32 3,64 -3,64 4.5,32\"/><polygon points=\"13,0 19,0 26.5,32 19,64 13,64 20.5,32\"/><polygon points=\"29,0 35,0 42.5,32 35,64 29,64 36.5,32\"/><polygon points=\"45,0 51,0 58.5,32 51,64 45,64 52.5,32\"/><polygon points=\"61,0 67,0 74.5,32 67,64 61,64 68.5,32\"/></g></svg>\n"
+        },
+        "export_command": [
+          "magick",
+          "-background",
+          "#080808",
+          "build/brands-props/CHEV-native.svg",
+          "-alpha",
+          "off",
+          "build/brands-props/CHEV-native.png"
+        ],
+        "generated_source": "build/brands-props/CHEV-native.png"
+      }
+    },
+    {
+      "name": "BH30BRG7",
+      "source_crc32": "35836962",
+      "source_size": [
+        64,
+        64
+      ],
+      "source_palette_crc32": "c2ef88fe",
+      "action": "new-direct-artwork",
+      "output": {
+        "path": "assets/models/mega/textures/brands-prop-bh30brg7.webp",
+        "crc32": "0c72de01",
+        "bytes": 17960
+      },
+      "generated": {
+        "path": "build/brands-props/BH30BRG7-generated.png",
+        "crc32": "5d83a592",
+        "size": [
+          1254,
+          1254
+        ]
+      },
+      "crop": [
+        0,
+        0,
+        1254,
+        1254
+      ],
+      "export": {
+        "path": "assets/models/mega/textures/brands-prop-bh30brg7.webp",
+        "crc32": "0c72de01",
+        "bytes": 17960,
+        "size": [
+          512,
+          512
+        ],
+        "webp_quality": 70,
+        "webp_method": 6
+      },
+      "alpha": {
+        "exact_source_black_key": true,
+        "crc32": "b7094978",
+        "black_key_source_pixels": 0
+      }
+    },
+    {
+      "name": "BH22DWH3",
+      "source_crc32": "427c7886",
+      "source_size": [
+        64,
+        32
+      ],
+      "source_palette_crc32": "c2ef88fe",
+      "action": "new-direct-artwork",
+      "output": {
+        "path": "assets/models/mega/textures/brands-prop-bh22dwh3.webp",
+        "crc32": "bf5cdcd5",
+        "bytes": 4794
+      },
+      "generated": {
+        "path": "build/brands-props/BH22DWH3-generated.png",
+        "crc32": "e1d1d0e8",
+        "size": [
+          1774,
+          887
+        ]
+      },
+      "crop": [
+        0,
+        0,
+        1774,
+        887
+      ],
+      "export": {
+        "path": "assets/models/mega/textures/brands-prop-bh22dwh3.webp",
+        "crc32": "bf5cdcd5",
+        "bytes": 4794,
+        "size": [
+          512,
+          256
+        ],
+        "webp_quality": 70,
+        "webp_method": 6
+      },
+      "alpha": {
+        "exact_source_black_key": true,
+        "crc32": "154803cc",
+        "black_key_source_pixels": 0
+      }
+    },
+    {
+      "name": "LREDCON",
+      "source_crc32": "0fcea2bc",
+      "source_size": [
+        64,
+        64
+      ],
+      "source_palette_crc32": "c2ef88fe",
+      "action": "corrected-exact-source-artwork",
+      "output": {
+        "path": "assets/models/mega/textures/brands-prop-lredcon.webp",
+        "crc32": "8ee1db31",
+        "bytes": 17382
+      },
+      "generated": {
+        "path": "build/brands-props/LREDCON-generated.png",
+        "crc32": "fa463a1c",
+        "size": [
+          1254,
+          1254
+        ]
+      },
+      "crop": [
+        0,
+        0,
+        1254,
+        1254
+      ],
+      "export": {
+        "path": "assets/models/mega/textures/brands-prop-lredcon.webp",
+        "crc32": "8ee1db31",
+        "bytes": 17382,
+        "size": [
+          512,
+          512
+        ],
+        "webp_quality": 70,
+        "webp_method": 6
+      },
+      "alpha": {
+        "exact_source_black_key": true,
+        "crc32": "b7094978",
+        "black_key_source_pixels": 0
+      }
+    },
+    {
+      "name": "LDHL",
+      "source_crc32": "e24d7d7e",
+      "source_size": [
+        64,
+        16
+      ],
+      "source_palette_crc32": "c2ef88fe",
+      "action": "corrected-exact-source-artwork",
+      "output": {
+        "path": "assets/models/mega/textures/brands-prop-ldhl.webp",
+        "crc32": "d8b3b19c",
+        "bytes": 3472
+      },
+      "generated": {
+        "path": "build/brands-props/LDHL-generated.png",
+        "crc32": "441fcca3",
+        "size": [
+          2170,
+          725
+        ]
+      },
+      "crop": [
+        0,
+        82,
+        2170,
+        633
+      ],
+      "export": {
+        "path": "assets/models/mega/textures/brands-prop-ldhl.webp",
+        "crc32": "d8b3b19c",
+        "bytes": 3472,
+        "size": [
+          512,
+          128
+        ],
+        "webp_quality": 70,
+        "webp_method": 6
+      },
+      "alpha": {
+        "exact_source_black_key": true,
+        "crc32": "deab7e4e",
+        "black_key_source_pixels": 0
+      }
+    },
+    {
+      "name": "L100",
+      "source_crc32": "34afc68a",
+      "source_size": [
+        32,
+        16
+      ],
+      "source_palette_crc32": "c2ef88fe",
+      "action": "corrected-exact-source-artwork",
+      "output": {
+        "path": "assets/models/mega/textures/brands-prop-l100.webp",
+        "crc32": "e875dcd4",
+        "bytes": 3562
+      },
+      "generated": {
+        "path": "build/brands-props/L100-generated.png",
+        "crc32": "f3147e7b",
+        "size": [
+          1774,
+          887
+        ]
+      },
+      "crop": [
+        0,
+        0,
+        1774,
+        887
+      ],
+      "export": {
+        "path": "assets/models/mega/textures/brands-prop-l100.webp",
+        "crc32": "e875dcd4",
+        "bytes": 3562,
+        "size": [
+          512,
+          256
+        ],
+        "webp_quality": 70,
+        "webp_method": 6
+      },
+      "alpha": {
+        "exact_source_black_key": true,
+        "crc32": "154803cc",
+        "black_key_source_pixels": 0
+      }
+    },
+    {
+      "name": "L200",
+      "source_crc32": "36a2f89d",
+      "source_size": [
+        32,
+        16
+      ],
+      "source_palette_crc32": "c2ef88fe",
+      "action": "corrected-exact-source-artwork",
+      "output": {
+        "path": "assets/models/mega/textures/brands-prop-l200.webp",
+        "crc32": "ddce3141",
+        "bytes": 4396
+      },
+      "generated": {
+        "path": "build/brands-props/L200-generated.png",
+        "crc32": "f1763192",
+        "size": [
+          1774,
+          887
+        ]
+      },
+      "crop": [
+        0,
+        0,
+        1774,
+        887
+      ],
+      "export": {
+        "path": "assets/models/mega/textures/brands-prop-l200.webp",
+        "crc32": "ddce3141",
+        "bytes": 4396,
+        "size": [
+          512,
+          256
+        ],
+        "webp_quality": 70,
+        "webp_method": 6
+      },
+      "alpha": {
+        "exact_source_black_key": true,
+        "crc32": "57960858",
+        "black_key_source_pixels": 1
+      }
+    },
+    {
+      "name": "L50",
+      "source_crc32": "90ee7cb9",
+      "source_size": [
+        32,
+        16
+      ],
+      "source_palette_crc32": "c2ef88fe",
+      "action": "corrected-exact-source-artwork",
+      "output": {
+        "path": "assets/models/mega/textures/brands-prop-l50.webp",
+        "crc32": "2e6d09e9",
+        "bytes": 2442
+      },
+      "generated": {
+        "path": "build/brands-props/L50-generated.png",
+        "crc32": "60359c38",
+        "size": [
+          1774,
+          887
+        ]
+      },
+      "crop": [
+        0,
+        0,
+        1774,
+        887
+      ],
+      "export": {
+        "path": "assets/models/mega/textures/brands-prop-l50.webp",
+        "crc32": "2e6d09e9",
+        "bytes": 2442,
+        "size": [
+          512,
+          256
+        ],
+        "webp_quality": 70,
+        "webp_method": 6
+      },
+      "alpha": {
+        "exact_source_black_key": true,
+        "crc32": "154803cc",
+        "black_key_source_pixels": 0
+      }
+    },
+    {
+      "name": "LARROW2",
+      "source_crc32": "a64f9a3c",
+      "source_size": [
+        32,
+        32
+      ],
+      "source_palette_crc32": "c2ef88fe",
+      "action": "corrected-exact-source-artwork",
+      "output": {
+        "path": "assets/models/mega/textures/brands-prop-larrow2.webp",
+        "crc32": "91f04c7a",
+        "bytes": 2774
+      },
+      "generated": {
+        "path": "build/brands-props/LARROW2-generated.png",
+        "crc32": "0b949fb7",
+        "size": [
+          1254,
+          1254
+        ]
+      },
+      "crop": [
+        0,
+        0,
+        1254,
+        1254
+      ],
+      "export": {
+        "path": "assets/models/mega/textures/brands-prop-larrow2.webp",
+        "crc32": "91f04c7a",
+        "bytes": 2774,
+        "size": [
+          512,
+          512
+        ],
+        "webp_quality": 70,
+        "webp_method": 6
+      },
+      "alpha": {
+        "exact_source_black_key": true,
+        "crc32": "b7094978",
+        "black_key_source_pixels": 0
+      }
+    },
+    {
+      "name": "LARROW1",
+      "source_crc32": "7cb524be",
+      "source_size": [
+        32,
+        32
+      ],
+      "source_palette_crc32": "c2ef88fe",
+      "action": "corrected-exact-source-artwork",
+      "output": {
+        "path": "assets/models/mega/textures/brands-prop-larrow1.webp",
+        "crc32": "c198069c",
+        "bytes": 3392
+      },
+      "generated": {
+        "path": "build/brands-props/LARROW1-generated.png",
+        "crc32": "06ed95ce",
+        "size": [
+          1254,
+          1254
+        ]
+      },
+      "crop": [
+        0,
+        0,
+        1254,
+        1254
+      ],
+      "export": {
+        "path": "assets/models/mega/textures/brands-prop-larrow1.webp",
+        "crc32": "c198069c",
+        "bytes": 3392,
+        "size": [
+          512,
+          512
+        ],
+        "webp_quality": 70,
+        "webp_method": 6
+      },
+      "alpha": {
+        "exact_source_black_key": true,
+        "crc32": "b7094978",
+        "black_key_source_pixels": 0
+      }
+    },
+    {
+      "name": "LPIT",
+      "source_crc32": "9e51b80c",
+      "source_size": [
+        32,
+        16
+      ],
+      "source_palette_crc32": "c2ef88fe",
+      "action": "corrected-exact-source-artwork",
+      "output": {
+        "path": "assets/models/mega/textures/brands-prop-lpit.webp",
+        "crc32": "4e6492a0",
+        "bytes": 1346
+      },
+      "generated": {
+        "path": "build/brands-props/LPIT-generated.png",
+        "crc32": "a768ef5b",
+        "size": [
+          1774,
+          887
+        ]
+      },
+      "crop": [
+        0,
+        0,
+        1774,
+        887
+      ],
+      "export": {
+        "path": "assets/models/mega/textures/brands-prop-lpit.webp",
+        "crc32": "4e6492a0",
+        "bytes": 1346,
+        "size": [
+          512,
+          256
+        ],
+        "webp_quality": 70,
+        "webp_method": 6
+      },
+      "alpha": {
+        "exact_source_black_key": true,
+        "crc32": "154803cc",
+        "black_key_source_pixels": 0
+      },
+      "final_edits": [
+        {
+          "name": "LPIT",
+          "references": [
+            "build/brands-props/LPIT-source8x.png",
+            "exec-7101c378-410c-42bc-8fb0-70daf5f54b58.png"
+          ],
+          "generated_source": "exec-0e1896b7-fb8d-49a4-890b-1d0cadd813cd.png"
+        }
+      ]
+    }
+  ],
+  "export": "16 fresh Imagegen colour plates and one source-derived smooth geometric CHEV SVG. Imagegen trials could not preserve the exact periodic phase, so the two-colour chart uses code-native polygon geometry in the final export; no RGB source upscaling or pixel-block tracing. Recorded presentation crop, Lanczos resize to source aspect/max512px; WebP quality70/method6. Only L200 has source black-key alpha (one original texel), restored with nearest sampling. Existing authored WebPs and legacy native BMP import80 recipe remain byte-identical.",
+  "source_reading": {
+    "sponsors": "Castrol uses original black emblem field/red word field; Auto Trader black word on pale field with red/blue icon; Pirelli yellow/red; LDV warm dark letters/red emblem; MCN white on brick red with olive footer; Ordnance Survey emblem and two-line navy word on pale field.",
+    "MCN": "Small footer glyphs remain unresolved by related64x32 originals. MOTORCYCLE NEWS is the documented racing-context reading already used in the related Silverstone source review, kept inside the existing olive/ochre footer.",
+    "BH22DWH3": "Only canonical BH22DWH3 exists; no DWH1/2 or BH22 model evidence found. Preserve dark navy field, irregular subdued lower mottling and pale cream strip. The actual CHERV rear samples only the upper-right dark region; no invented wire mesh, masonry or new features.",
+    "BH30BRG7": "Quiet grey/purple fine concrete-like support field. Original line-UV samplers remain in quiet source-aligned greys."
+  },
+  "uv_alpha_contract": {
+    "adverts": "DA09ADA/B/C/D use one continuous full-width chart. LDV/MCN carriers repeat the complete chart once on each5m half; preserve both layouts.",
+    "chevron": "Four quarter-width white right-chevron periods on black, including clipped matching seam halves; source top/middle/bottom phase retained.",
+    "signs": "Original number/PIT glyph footprints and arrow direction/cropping retained. LARROW2_1 and LARROW4_1 share a source image with opposite U orientation; LARROW3_1 retains mirrored LARROW1 UVs.",
+    "paint": "LDHL upper-right blank field U.7143...9682,V0...4667 and filtering margin remain pale source239/239/247;14 point/line UV faces sample plain structural paint. Crop includes whole pale chart, not just red logo bounds.",
+    "alpha": "All17 decoded masks match canonical black-key source masks exactly;16 opaque charts and the single L200 keyed texel."
+  },
+  "limits": "Accepts only listed16 Brands M08 types/70 bindings, not the whole track or Croft model types. Vehicles/cockpits excluded; canonical references unchanged and original media kept under ignored build. No performance measurements or full track/weather matrix."
+}

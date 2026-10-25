@@ -1,0 +1,99 @@
+{
+  "version": 1,
+  "scope": "Donington GP/Short spectator batch:3 source motifs,85 placements; no vehicles/cockpits.",
+  "source": {
+    "source_version": "TOCA 1.1a",
+    "archives": [
+      {
+        "track": 0,
+        "name": "donlfree.bfp",
+        "crc32": "46885a20",
+        "member": 5,
+        "member_crc32": "5f670bb9"
+      },
+      {
+        "track": 5,
+        "name": "donsfree.bfp",
+        "crc32": "f07db8b7",
+        "member": 5,
+        "member_crc32": "f60fd8a0"
+      }
+    ],
+    "types": [
+      "caebd6f3",
+      "b16c9903",
+      "0b64f65a"
+    ]
+  },
+  "textures": [
+    {
+      "name": "LPEOPLE5",
+      "source_bmp_crc32": "ea97fb62",
+      "source_size": [
+        128,
+        64
+      ],
+      "generated_file": "build/donington-props-batch/artwork/LPEOPLE5-bag.png",
+      "generated_crc32": "522fb049",
+      "processing": "Full-canvas Lanczos resize; WebPquality80 method6, explicit alpha with alphaquality100.",
+      "output": {
+        "path": "assets/models/mega/textures/donington-spectators-lpeople5.webp",
+        "crc32": "c54249dd",
+        "bytes": 38236,
+        "size": [
+          512,
+          256
+        ]
+      }
+    },
+    {
+      "name": "LPEOPLE2",
+      "source_bmp_crc32": "e315df05",
+      "source_size": [
+        32,
+        64
+      ],
+      "generated_file": "build/donington-props-batch/artwork/LPEOPLE2-registered.png",
+      "generated_crc32": "539f1db8",
+      "processing": "Full-canvas Lanczos resize; WebPquality80 method6, explicit alpha with alphaquality100.",
+      "output": {
+        "path": "assets/models/mega/textures/donington-spectators-lpeople2.webp",
+        "crc32": "e60c6411",
+        "bytes": 25792,
+        "size": [
+          256,
+          512
+        ]
+      }
+    },
+    {
+      "name": "LPEOPLE3",
+      "source_bmp_crc32": "18bcdf80",
+      "source_size": [
+        32,
+        64
+      ],
+      "generated_file": "build/donington-props-batch/artwork/LPEOPLE3-registered.png",
+      "generated_crc32": "cd0d04bc",
+      "processing": "Full-canvas Lanczos resize; WebPquality80 method6, explicit alpha with alphaquality100.",
+      "output": {
+        "path": "assets/models/mega/textures/donington-spectators-lpeople3.webp",
+        "crc32": "45d5bdb2",
+        "bytes": 27834,
+        "size": [
+          256,
+          512
+        ]
+      }
+    }
+  ],
+  "geometry": {
+    "crc32": "4ed39c2a",
+    "depth_m": 0.14,
+    "fronts_uvs_slots_placements": "unchanged",
+    "shape": "Four coarse overlapping crowd-pair volumes and one source-outline volume per narrow card. Original alpha cuts all gaps. No separate anatomy, clothing relief or added material slots.",
+    "registration": "Inverse projection of renderer-clamped source UV anchors; caps/sides split at original crowd U seam.",
+    "rear": "Same source motif on the shallow reverse; this is a cutout volume, not new anatomical character geometry."
+  },
+  "review": "Eight spectators and source clothing/poses retained. Narrow motifs reconstructed as camera operators within source masks; exact face/equipment separation is unclear in the original. Earlier generic people/microphone/operator layouts were rejected. Original orange/yellow bag-like motif at third-pair feet restored in the final crowd image."
+}

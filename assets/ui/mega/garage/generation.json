@@ -1,0 +1,167 @@
+{
+  "schema_version": 1,
+  "canvas": [
+    1146,
+    714
+  ],
+  "local_render": {
+    "index": "cars/rendering.json"
+  },
+  "entries": [
+    {
+      "key": "gar1-car0",
+      "variant": 1,
+      "car_id": 0,
+      "background": "backgrounds/honda.webp",
+      "foreground": "cars/gar1-car0.webp",
+      "foreground_empty": false
+    },
+    {
+      "key": "gar1-car1",
+      "variant": 1,
+      "car_id": 1,
+      "background": "backgrounds/audi.webp",
+      "foreground": "cars/gar1-car1.webp",
+      "foreground_empty": false
+    },
+    {
+      "key": "gar1-car2",
+      "variant": 1,
+      "car_id": 2,
+      "background": "backgrounds/vauxhall.webp",
+      "foreground": "cars/gar1-car2.webp",
+      "foreground_empty": false
+    },
+    {
+      "key": "gar1-car3",
+      "variant": 1,
+      "car_id": 3,
+      "background": "backgrounds/volvo.webp",
+      "foreground": "cars/gar1-car3.webp",
+      "foreground_empty": false
+    },
+    {
+      "key": "gar1-car4",
+      "variant": 1,
+      "car_id": 4,
+      "background": "backgrounds/ford.webp",
+      "foreground": "cars/gar1-car4.webp",
+      "foreground_empty": false
+    },
+    {
+      "key": "gar1-car5",
+      "variant": 1,
+      "car_id": 5,
+      "background": "backgrounds/nissan.webp",
+      "foreground": "cars/gar1-car5.webp",
+      "foreground_empty": false
+    },
+    {
+      "key": "gar1-car6",
+      "variant": 1,
+      "car_id": 6,
+      "background": "backgrounds/peugeot.webp",
+      "foreground": "cars/gar1-car6.webp",
+      "foreground_empty": false
+    },
+    {
+      "key": "gar1-car7",
+      "variant": 1,
+      "car_id": 7,
+      "background": "backgrounds/renault.webp",
+      "foreground": "cars/gar1-car7.webp",
+      "foreground_empty": false
+    },
+    {
+      "key": "gar1-car8",
+      "variant": 1,
+      "car_id": 8,
+      "background": "backgrounds/tank-locked.webp",
+      "foreground": "cars/gar1-car8.webp",
+      "foreground_empty": true
+    },
+    {
+      "key": "gar1-car9",
+      "variant": 1,
+      "car_id": 9,
+      "background": "backgrounds/flexmobile.webp",
+      "foreground": "cars/gar1-car9.webp",
+      "foreground_empty": true
+    },
+    {
+      "key": "gar2-car7",
+      "variant": 2,
+      "car_id": 7,
+      "background": "backgrounds/renault-debris.webp",
+      "foreground": "cars/gar2-car7.webp",
+      "foreground_empty": false
+    },
+    {
+      "key": "gar2-car8",
+      "variant": 2,
+      "car_id": 8,
+      "background": "backgrounds/tank-open.webp",
+      "foreground": "cars/gar2-car8.webp",
+      "foreground_empty": false
+    },
+    {
+      "key": "gar2-car9",
+      "variant": 2,
+      "car_id": 9,
+      "background": "backgrounds/flexmobile-damaged.webp",
+      "foreground": "cars/gar2-car9.webp",
+      "foreground_empty": false
+    },
+    {
+      "key": "gar3-car7",
+      "variant": 3,
+      "car_id": 7,
+      "background": "backgrounds/renault.webp",
+      "foreground": "cars/gar3-car7.webp",
+      "foreground_empty": false
+    },
+    {
+      "key": "gar3-car8",
+      "variant": 3,
+      "car_id": 8,
+      "background": "backgrounds/tank-locked.webp",
+      "foreground": "cars/gar3-car8.webp",
+      "foreground_empty": false
+    },
+    {
+      "key": "gar3-car9",
+      "variant": 3,
+      "car_id": 9,
+      "background": "backgrounds/flexmobile.webp",
+      "foreground": "cars/gar3-car9.webp",
+      "foreground_empty": false
+    },
+    {
+      "key": "gar4-car7",
+      "variant": 4,
+      "car_id": 7,
+      "background": "backgrounds/renault-debris.webp",
+      "foreground": "cars/gar4-car7.webp",
+      "foreground_empty": false
+    },
+    {
+      "key": "gar4-car8",
+      "variant": 4,
+      "car_id": 8,
+      "background": "backgrounds/tank-open.webp",
+      "foreground": "cars/gar4-car8.webp",
+      "foreground_empty": false
+    },
+    {
+      "key": "gar4-car9",
+      "variant": 4,
+      "car_id": 9,
+      "background": "backgrounds/flexmobile-damaged.webp",
+      "foreground": "cars/gar4-car9.webp",
+      "foreground_empty": false
+    }
+  ],
+  "contact_shadow": {
+    "shadow": "shadows/contact.webp"
+  }
+}

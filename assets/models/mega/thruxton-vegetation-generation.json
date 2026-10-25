@@ -1,0 +1,1532 @@
+{
+  "version": 1,
+  "package": "R02-Thruxton-vegetation",
+  "source": {
+    "track": 2,
+    "path": "data/thrufree.bfp",
+    "crc32": "473c8fe8",
+    "bytes": 2575997,
+    "members": {
+      "2": "fc00e5ad",
+      "3": "383f46f3",
+      "5": "a17b2723",
+      "8": "e6be0b26",
+      "9": "cae2f0dc",
+      "10": "dfe0e48d",
+      "11": "ae5462d0"
+    }
+  },
+  "source_members": [
+    {
+      "index": 2,
+      "name": "TREES.C3D",
+      "crc32": "fc00e5ad"
+    },
+    {
+      "index": 5,
+      "name": "OBJECTS.C3D",
+      "crc32": "a17b2723"
+    }
+  ],
+  "scope": {
+    "track": 2,
+    "types": 62,
+    "bindings": 105,
+    "woodland_types": 59,
+    "near_tree_types": 3,
+    "newly_accepted_types": 60,
+    "already_accepted_near_tree_types": [
+      "297d69b9",
+      "ad4ceffe"
+    ],
+    "source_images": 5,
+    "new_missing_bmp_identity": "567244ee",
+    "types_and_bindings": [
+      {
+        "member": 2,
+        "mesh": 0,
+        "name": "TREES_1",
+        "type": "fd90563e",
+        "source_mesh_crc32": "d97b9437",
+        "source_vertices": 10,
+        "source_triangles": 4,
+        "nodes": [
+          [
+            10,
+            0
+          ]
+        ]
+      },
+      {
+        "member": 2,
+        "mesh": 1,
+        "name": "TREES_2",
+        "type": "c4a3f367",
+        "source_mesh_crc32": "b2f9b115",
+        "source_vertices": 10,
+        "source_triangles": 4,
+        "nodes": [
+          [
+            14,
+            0
+          ]
+        ]
+      },
+      {
+        "member": 2,
+        "mesh": 2,
+        "name": "TREES_3",
+        "type": "ea228b59",
+        "source_mesh_crc32": "ef12a52a",
+        "source_vertices": 7,
+        "source_triangles": 3,
+        "nodes": [
+          [
+            35,
+            0
+          ]
+        ]
+      },
+      {
+        "member": 2,
+        "mesh": 3,
+        "name": "TREES_4",
+        "type": "33ea36a3",
+        "source_mesh_crc32": "87a38b9a",
+        "source_vertices": 3,
+        "source_triangles": 1,
+        "nodes": [
+          [
+            36,
+            0
+          ]
+        ]
+      },
+      {
+        "member": 2,
+        "mesh": 4,
+        "name": "TREES_5",
+        "type": "1676ff5f",
+        "source_mesh_crc32": "ac1f0987",
+        "source_vertices": 4,
+        "source_triangles": 2,
+        "nodes": [
+          [
+            40,
+            0
+          ]
+        ]
+      },
+      {
+        "member": 2,
+        "mesh": 5,
+        "name": "TREES_6",
+        "type": "92c67196",
+        "source_mesh_crc32": "90874bb6",
+        "source_vertices": 3,
+        "source_triangles": 1,
+        "nodes": [
+          [
+            59,
+            0
+          ]
+        ]
+      },
+      {
+        "member": 2,
+        "mesh": 6,
+        "name": "TREES_7",
+        "type": "ba4668ec",
+        "source_mesh_crc32": "9f43d06c",
+        "source_vertices": 10,
+        "source_triangles": 4,
+        "nodes": [
+          [
+            60,
+            0
+          ]
+        ]
+      },
+      {
+        "member": 2,
+        "mesh": 7,
+        "name": "TREES_8",
+        "type": "c8c295d8",
+        "source_mesh_crc32": "a4dee8a4",
+        "source_vertices": 10,
+        "source_triangles": 4,
+        "nodes": [
+          [
+            67,
+            0
+          ]
+        ]
+      },
+      {
+        "member": 2,
+        "mesh": 8,
+        "name": "TREES_9",
+        "type": "03d67e0a",
+        "source_mesh_crc32": "5be24fca",
+        "source_vertices": 4,
+        "source_triangles": 2,
+        "nodes": [
+          [
+            84,
+            0
+          ]
+        ]
+      },
+      {
+        "member": 2,
+        "mesh": 9,
+        "name": "TREES_10",
+        "type": "39ad2146",
+        "source_mesh_crc32": "fe23f18d",
+        "source_vertices": 9,
+        "source_triangles": 3,
+        "nodes": [
+          [
+            85,
+            0
+          ]
+        ]
+      },
+      {
+        "member": 2,
+        "mesh": 10,
+        "name": "TREES_11",
+        "type": "89d4b516",
+        "source_mesh_crc32": "75080541",
+        "source_vertices": 10,
+        "source_triangles": 4,
+        "nodes": [
+          [
+            93,
+            0
+          ]
+        ]
+      },
+      {
+        "member": 2,
+        "mesh": 11,
+        "name": "TREES_12",
+        "type": "3a18fbcc",
+        "source_mesh_crc32": "03136bee",
+        "source_vertices": 10,
+        "source_triangles": 4,
+        "nodes": [
+          [
+            94,
+            0
+          ]
+        ]
+      },
+      {
+        "member": 2,
+        "mesh": 12,
+        "name": "TREES_13",
+        "type": "f3f545a6",
+        "source_mesh_crc32": "0733512e",
+        "source_vertices": 9,
+        "source_triangles": 3,
+        "nodes": [
+          [
+            95,
+            0
+          ]
+        ]
+      },
+      {
+        "member": 2,
+        "mesh": 13,
+        "name": "TREES_14",
+        "type": "aa0be770",
+        "source_mesh_crc32": "62021c87",
+        "source_vertices": 7,
+        "source_triangles": 3,
+        "nodes": [
+          [
+            96,
+            0
+          ]
+        ]
+      },
+      {
+        "member": 2,
+        "mesh": 14,
+        "name": "TREES_15",
+        "type": "b49dbb65",
+        "source_mesh_crc32": "7ece86f2",
+        "source_vertices": 9,
+        "source_triangles": 3,
+        "nodes": [
+          [
+            97,
+            0
+          ]
+        ]
+      },
+      {
+        "member": 2,
+        "mesh": 15,
+        "name": "TREES_16",
+        "type": "2772e07c",
+        "source_mesh_crc32": "b6803cf8",
+        "source_vertices": 7,
+        "source_triangles": 3,
+        "nodes": [
+          [
+            98,
+            0
+          ]
+        ]
+      },
+      {
+        "member": 2,
+        "mesh": 16,
+        "name": "TREES_17",
+        "type": "735d90da",
+        "source_mesh_crc32": "13768ad5",
+        "source_vertices": 7,
+        "source_triangles": 3,
+        "nodes": [
+          [
+            99,
+            0
+          ]
+        ]
+      },
+      {
+        "member": 2,
+        "mesh": 17,
+        "name": "TREES_18",
+        "type": "bd157466",
+        "source_mesh_crc32": "0acc257b",
+        "source_vertices": 7,
+        "source_triangles": 3,
+        "nodes": [
+          [
+            100,
+            0
+          ]
+        ]
+      },
+      {
+        "member": 2,
+        "mesh": 18,
+        "name": "TREES_19",
+        "type": "2b023e9f",
+        "source_mesh_crc32": "dd0cfdc8",
+        "source_vertices": 3,
+        "source_triangles": 1,
+        "nodes": [
+          [
+            101,
+            0
+          ]
+        ]
+      },
+      {
+        "member": 2,
+        "mesh": 19,
+        "name": "TREES_20",
+        "type": "5fa54ef3",
+        "source_mesh_crc32": "1813b35a",
+        "source_vertices": 4,
+        "source_triangles": 2,
+        "nodes": [
+          [
+            109,
+            0
+          ]
+        ]
+      },
+      {
+        "member": 2,
+        "mesh": 20,
+        "name": "TREES_21",
+        "type": "f9e01109",
+        "source_mesh_crc32": "cfe23bb9",
+        "source_vertices": 4,
+        "source_triangles": 2,
+        "nodes": [
+          [
+            110,
+            0
+          ]
+        ]
+      },
+      {
+        "member": 2,
+        "mesh": 21,
+        "name": "TREES_22",
+        "type": "da320815",
+        "source_mesh_crc32": "4027133d",
+        "source_vertices": 10,
+        "source_triangles": 4,
+        "nodes": [
+          [
+            127,
+            0
+          ]
+        ]
+      },
+      {
+        "member": 2,
+        "mesh": 22,
+        "name": "TREES_23",
+        "type": "aac38d74",
+        "source_mesh_crc32": "b645f5d7",
+        "source_vertices": 10,
+        "source_triangles": 4,
+        "nodes": [
+          [
+            134,
+            0
+          ]
+        ]
+      },
+      {
+        "member": 2,
+        "mesh": 23,
+        "name": "TREES_24",
+        "type": "1a3125c1",
+        "source_mesh_crc32": "1ea6012c",
+        "source_vertices": 4,
+        "source_triangles": 2,
+        "nodes": [
+          [
+            135,
+            0
+          ]
+        ]
+      },
+      {
+        "member": 2,
+        "mesh": 24,
+        "name": "TREES_25",
+        "type": "ac3477b5",
+        "source_mesh_crc32": "820878fb",
+        "source_vertices": 12,
+        "source_triangles": 4,
+        "nodes": [
+          [
+            154,
+            0
+          ]
+        ]
+      },
+      {
+        "member": 2,
+        "mesh": 25,
+        "name": "TREES_26",
+        "type": "5e241c0d",
+        "source_mesh_crc32": "dbf0290e",
+        "source_vertices": 10,
+        "source_triangles": 4,
+        "nodes": [
+          [
+            159,
+            0
+          ]
+        ]
+      },
+      {
+        "member": 2,
+        "mesh": 26,
+        "name": "TREES_27",
+        "type": "1fa85bcf",
+        "source_mesh_crc32": "a66ed66f",
+        "source_vertices": 3,
+        "source_triangles": 1,
+        "nodes": [
+          [
+            180,
+            0
+          ]
+        ]
+      },
+      {
+        "member": 2,
+        "mesh": 27,
+        "name": "TREES_28",
+        "type": "ab00f990",
+        "source_mesh_crc32": "6d15de36",
+        "source_vertices": 4,
+        "source_triangles": 2,
+        "nodes": [
+          [
+            181,
+            0
+          ]
+        ]
+      },
+      {
+        "member": 2,
+        "mesh": 28,
+        "name": "TREES_29",
+        "type": "c6dc28e1",
+        "source_mesh_crc32": "f22751f6",
+        "source_vertices": 3,
+        "source_triangles": 1,
+        "nodes": [
+          [
+            183,
+            0
+          ]
+        ]
+      },
+      {
+        "member": 2,
+        "mesh": 29,
+        "name": "TREES_30",
+        "type": "a3554aa5",
+        "source_mesh_crc32": "d09eddba",
+        "source_vertices": 10,
+        "source_triangles": 4,
+        "nodes": [
+          [
+            184,
+            0
+          ]
+        ]
+      },
+      {
+        "member": 2,
+        "mesh": 30,
+        "name": "TREES_31",
+        "type": "4b26bdde",
+        "source_mesh_crc32": "249a8b96",
+        "source_vertices": 7,
+        "source_triangles": 3,
+        "nodes": [
+          [
+            207,
+            0
+          ]
+        ]
+      },
+      {
+        "member": 2,
+        "mesh": 31,
+        "name": "TREES_32",
+        "type": "1e419f3e",
+        "source_mesh_crc32": "4aee8ef7",
+        "source_vertices": 9,
+        "source_triangles": 3,
+        "nodes": [
+          [
+            208,
+            0
+          ]
+        ]
+      },
+      {
+        "member": 2,
+        "mesh": 32,
+        "name": "TREES_33",
+        "type": "3d31b151",
+        "source_mesh_crc32": "95e259e0",
+        "source_vertices": 6,
+        "source_triangles": 2,
+        "nodes": [
+          [
+            209,
+            0
+          ]
+        ]
+      },
+      {
+        "member": 2,
+        "mesh": 33,
+        "name": "TREES_34",
+        "type": "6ee8eba3",
+        "source_mesh_crc32": "ed39af51",
+        "source_vertices": 7,
+        "source_triangles": 3,
+        "nodes": [
+          [
+            233,
+            0
+          ]
+        ]
+      },
+      {
+        "member": 2,
+        "mesh": 34,
+        "name": "TREES_35",
+        "type": "ee6d33f2",
+        "source_mesh_crc32": "83aec0e3",
+        "source_vertices": 9,
+        "source_triangles": 3,
+        "nodes": [
+          [
+            259,
+            0
+          ]
+        ]
+      },
+      {
+        "member": 2,
+        "mesh": 35,
+        "name": "TREES_36",
+        "type": "f3feacf2",
+        "source_mesh_crc32": "85b9c1b9",
+        "source_vertices": 4,
+        "source_triangles": 2,
+        "nodes": [
+          [
+            284,
+            0
+          ]
+        ]
+      },
+      {
+        "member": 2,
+        "mesh": 36,
+        "name": "TREES_37",
+        "type": "435d6ef3",
+        "source_mesh_crc32": "50afb140",
+        "source_vertices": 7,
+        "source_triangles": 3,
+        "nodes": [
+          [
+            285,
+            0
+          ]
+        ]
+      },
+      {
+        "member": 2,
+        "mesh": 37,
+        "name": "TREES_38",
+        "type": "a19c9edb",
+        "source_mesh_crc32": "ec5e7d3b",
+        "source_vertices": 10,
+        "source_triangles": 4,
+        "nodes": [
+          [
+            309,
+            0
+          ]
+        ]
+      },
+      {
+        "member": 2,
+        "mesh": 38,
+        "name": "TREES_39",
+        "type": "1a19daba",
+        "source_mesh_crc32": "90d8ff40",
+        "source_vertices": 9,
+        "source_triangles": 3,
+        "nodes": [
+          [
+            335,
+            0
+          ]
+        ]
+      },
+      {
+        "member": 2,
+        "mesh": 39,
+        "name": "TREES_40",
+        "type": "8c43814b",
+        "source_mesh_crc32": "ffc29a67",
+        "source_vertices": 9,
+        "source_triangles": 3,
+        "nodes": [
+          [
+            360,
+            0
+          ]
+        ]
+      },
+      {
+        "member": 2,
+        "mesh": 40,
+        "name": "TREES_41",
+        "type": "cf6fab95",
+        "source_mesh_crc32": "bd637d5d",
+        "source_vertices": 3,
+        "source_triangles": 1,
+        "nodes": [
+          [
+            361,
+            0
+          ]
+        ]
+      },
+      {
+        "member": 2,
+        "mesh": 41,
+        "name": "TREES_42",
+        "type": "19e2152d",
+        "source_mesh_crc32": "ff788be4",
+        "source_vertices": 9,
+        "source_triangles": 3,
+        "nodes": [
+          [
+            385,
+            0
+          ]
+        ]
+      },
+      {
+        "member": 2,
+        "mesh": 42,
+        "name": "TREES_43",
+        "type": "c0afbdc9",
+        "source_mesh_crc32": "c3a78db2",
+        "source_vertices": 3,
+        "source_triangles": 1,
+        "nodes": [
+          [
+            386,
+            0
+          ]
+        ]
+      },
+      {
+        "member": 2,
+        "mesh": 43,
+        "name": "TREES_44",
+        "type": "291b1c18",
+        "source_mesh_crc32": "88d1de59",
+        "source_vertices": 3,
+        "source_triangles": 1,
+        "nodes": [
+          [
+            408,
+            0
+          ]
+        ]
+      },
+      {
+        "member": 2,
+        "mesh": 44,
+        "name": "TREES_45",
+        "type": "85f8eeef",
+        "source_mesh_crc32": "24573cd7",
+        "source_vertices": 4,
+        "source_triangles": 2,
+        "nodes": [
+          [
+            409,
+            0
+          ]
+        ]
+      },
+      {
+        "member": 2,
+        "mesh": 45,
+        "name": "TREES_46",
+        "type": "4ae99bbc",
+        "source_mesh_crc32": "db990e89",
+        "source_vertices": 10,
+        "source_triangles": 4,
+        "nodes": [
+          [
+            410,
+            0
+          ]
+        ]
+      },
+      {
+        "member": 2,
+        "mesh": 46,
+        "name": "TREES_47",
+        "type": "9be7b0bf",
+        "source_mesh_crc32": "40fcb61a",
+        "source_vertices": 3,
+        "source_triangles": 1,
+        "nodes": [
+          [
+            411,
+            0
+          ]
+        ]
+      },
+      {
+        "member": 2,
+        "mesh": 47,
+        "name": "TREES_48",
+        "type": "70eb9bf0",
+        "source_mesh_crc32": "198daedd",
+        "source_vertices": 20,
+        "source_triangles": 8,
+        "nodes": [
+          [
+            429,
+            0
+          ]
+        ]
+      },
+      {
+        "member": 2,
+        "mesh": 48,
+        "name": "TREES_49",
+        "type": "40b9f488",
+        "source_mesh_crc32": "c2bf8c25",
+        "source_vertices": 7,
+        "source_triangles": 3,
+        "nodes": [
+          [
+            430,
+            0
+          ]
+        ]
+      },
+      {
+        "member": 2,
+        "mesh": 49,
+        "name": "TREES_50",
+        "type": "6fb8a669",
+        "source_mesh_crc32": "21b2e294",
+        "source_vertices": 4,
+        "source_triangles": 2,
+        "nodes": [
+          [
+            431,
+            0
+          ]
+        ]
+      },
+      {
+        "member": 2,
+        "mesh": 50,
+        "name": "TREES_51",
+        "type": "3264d112",
+        "source_mesh_crc32": "53af319c",
+        "source_vertices": 10,
+        "source_triangles": 4,
+        "nodes": [
+          [
+            432,
+            0
+          ]
+        ]
+      },
+      {
+        "member": 2,
+        "mesh": 51,
+        "name": "TREES_52",
+        "type": "ff4a7515",
+        "source_mesh_crc32": "90bd148d",
+        "source_vertices": 4,
+        "source_triangles": 2,
+        "nodes": [
+          [
+            433,
+            0
+          ]
+        ]
+      },
+      {
+        "member": 2,
+        "mesh": 52,
+        "name": "TREES_53",
+        "type": "af403faa",
+        "source_mesh_crc32": "aa6e74da",
+        "source_vertices": 7,
+        "source_triangles": 3,
+        "nodes": [
+          [
+            434,
+            0
+          ]
+        ]
+      },
+      {
+        "member": 2,
+        "mesh": 53,
+        "name": "TREES_54",
+        "type": "47cb4c5f",
+        "source_mesh_crc32": "12b4a255",
+        "source_vertices": 4,
+        "source_triangles": 2,
+        "nodes": [
+          [
+            455,
+            0
+          ]
+        ]
+      },
+      {
+        "member": 2,
+        "mesh": 54,
+        "name": "TREES_55",
+        "type": "4e5b7fe4",
+        "source_mesh_crc32": "4711ff1b",
+        "source_vertices": 6,
+        "source_triangles": 2,
+        "nodes": [
+          [
+            456,
+            0
+          ]
+        ]
+      },
+      {
+        "member": 2,
+        "mesh": 55,
+        "name": "TREES_56",
+        "type": "b0342e4e",
+        "source_mesh_crc32": "fda18c99",
+        "source_vertices": 4,
+        "source_triangles": 2,
+        "nodes": [
+          [
+            475,
+            0
+          ]
+        ]
+      },
+      {
+        "member": 2,
+        "mesh": 56,
+        "name": "TREES_57",
+        "type": "1f03ee94",
+        "source_mesh_crc32": "40c3cbfe",
+        "source_vertices": 4,
+        "source_triangles": 2,
+        "nodes": [
+          [
+            476,
+            0
+          ]
+        ]
+      },
+      {
+        "member": 2,
+        "mesh": 57,
+        "name": "TREES_58",
+        "type": "e5b0c25a",
+        "source_mesh_crc32": "24011e21",
+        "source_vertices": 7,
+        "source_triangles": 3,
+        "nodes": [
+          [
+            482,
+            0
+          ]
+        ]
+      },
+      {
+        "member": 2,
+        "mesh": 58,
+        "name": "TREES_59",
+        "type": "6f4cf77d",
+        "source_mesh_crc32": "5ad0f702",
+        "source_vertices": 4,
+        "source_triangles": 2,
+        "nodes": [
+          [
+            503,
+            0
+          ]
+        ]
+      },
+      {
+        "member": 5,
+        "mesh": 31,
+        "name": "TRGE17_1",
+        "type": "ad4ceffe",
+        "source_mesh_crc32": "1e5d9516",
+        "source_vertices": 6,
+        "source_triangles": 4,
+        "nodes": [
+          [
+            105,
+            0
+          ],
+          [
+            107,
+            0
+          ],
+          [
+            109,
+            0
+          ],
+          [
+            111,
+            0
+          ],
+          [
+            113,
+            0
+          ],
+          [
+            115,
+            0
+          ],
+          [
+            117,
+            0
+          ],
+          [
+            119,
+            0
+          ],
+          [
+            121,
+            0
+          ],
+          [
+            123,
+            0
+          ],
+          [
+            125,
+            0
+          ],
+          [
+            131,
+            0
+          ],
+          [
+            133,
+            0
+          ],
+          [
+            135,
+            0
+          ],
+          [
+            137,
+            0
+          ],
+          [
+            139,
+            0
+          ],
+          [
+            141,
+            0
+          ],
+          [
+            143,
+            0
+          ],
+          [
+            145,
+            0
+          ],
+          [
+            147,
+            0
+          ],
+          [
+            149,
+            0
+          ],
+          [
+            151,
+            0
+          ],
+          [
+            153,
+            0
+          ],
+          [
+            155,
+            0
+          ],
+          [
+            157,
+            0
+          ],
+          [
+            159,
+            0
+          ],
+          [
+            161,
+            0
+          ],
+          [
+            281,
+            0
+          ],
+          [
+            435,
+            0
+          ]
+        ]
+      },
+      {
+        "member": 5,
+        "mesh": 32,
+        "name": "TRIS04_1",
+        "type": "297d69b9",
+        "source_mesh_crc32": "6c6a10d8",
+        "source_vertices": 20,
+        "source_triangles": 16,
+        "nodes": [
+          [
+            127,
+            0
+          ],
+          [
+            283,
+            0
+          ]
+        ]
+      },
+      {
+        "member": 5,
+        "mesh": 33,
+        "name": "TRGS15_1",
+        "type": "ed14d531",
+        "source_mesh_crc32": "ac6d58bc",
+        "source_vertices": 6,
+        "source_triangles": 4,
+        "nodes": [
+          [
+            129,
+            0
+          ],
+          [
+            163,
+            0
+          ],
+          [
+            165,
+            0
+          ],
+          [
+            167,
+            0
+          ],
+          [
+            169,
+            0
+          ],
+          [
+            171,
+            0
+          ],
+          [
+            173,
+            0
+          ],
+          [
+            175,
+            0
+          ],
+          [
+            177,
+            0
+          ],
+          [
+            179,
+            0
+          ],
+          [
+            181,
+            0
+          ],
+          [
+            183,
+            0
+          ],
+          [
+            185,
+            0
+          ],
+          [
+            433,
+            0
+          ],
+          [
+            437,
+            0
+          ]
+        ]
+      }
+    ]
+  },
+  "geometry": "All geometry, nodes, UVs, normals, material slots and placements unchanged.59 woodland meshes and newTRGS15 retain canonical simple source surfaces. AcceptedTRIS04/TRGE17 spatial bodies retain their existing recipes and leaf/bark materials. No new crown details, appended texture layers or shapes.",
+  "export": "Five fresh source-guided foliage plates, each followed by a palette-only Imagegen edit to remove excessive yellow brightness. No source RGB upscaling or pixel tracing. Recorded presentation crop, Lanczos resize to original chart aspect/max512px; exact source-black alpha restored with nearest sampling. WebP quality70/method6; prior WebP80 files remain byte-identical.",
+  "materials": [
+    {
+      "name": "LHRTWS3",
+      "source_crc32": "5e32f181",
+      "source_size": [
+        128,
+        64
+      ],
+      "source_palette_crc32": "1a8f9cf1",
+      "action": "source-mask-and-palette-correction-with-new-artwork",
+      "output": {
+        "path": "assets/models/mega/textures/thruxton-vegetation-lhrtws3.webp",
+        "crc32": "01704580",
+        "bytes": 30736
+      },
+      "generated": {
+        "path": "build/thruxton-vegetation/LHRTWS3-generated.png",
+        "crc32": "176fe8cb",
+        "size": [
+          1774,
+          887
+        ]
+      },
+      "crop": [
+        0,
+        0,
+        1774,
+        887
+      ],
+      "export": {
+        "path": "assets/models/mega/textures/thruxton-vegetation-lhrtws3.webp",
+        "crc32": "01704580",
+        "bytes": 30736,
+        "size": [
+          512,
+          256
+        ],
+        "webp_quality": 70,
+        "webp_method": 6
+      },
+      "alpha": {
+        "exact_source_black_key": true,
+        "crc32": "31aefb31",
+        "black_key_source_pixels": 1307
+      },
+      "palette_edit": [
+        {
+          "name": "LHRTWS3",
+          "references": [
+            "build/thruxton-vegetation/LHRTWS3-source8x.png",
+            "exec-81bb5d15-bcb0-4f06-ad8a-428d36115634.png"
+          ],
+          "generated_source": "exec-3d2f2308-fc75-4443-920b-545c7e8bada5.png",
+          "reference_files": [
+            {
+              "path": "build/thruxton-vegetation/LHRTWS3-source8x.png",
+              "crc32": "2b015c01",
+              "bytes": 15722
+            },
+            {
+              "path": "exec-81bb5d15-bcb0-4f06-ad8a-428d36115634.png",
+              "crc32": "5ecb29e7",
+              "bytes": 3034062
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "LLRTS2",
+      "source_crc32": "c1dee425",
+      "source_size": [
+        128,
+        32
+      ],
+      "source_palette_crc32": "cb877547",
+      "action": "source-mask-and-palette-correction-with-new-artwork",
+      "output": {
+        "path": "assets/models/mega/textures/thruxton-vegetation-llrts2.webp",
+        "crc32": "278543ba",
+        "bytes": 14970
+      },
+      "generated": {
+        "path": "build/thruxton-vegetation/LLRTS2-generated.png",
+        "crc32": "31ff17fc",
+        "size": [
+          2169,
+          725
+        ]
+      },
+      "crop": [
+        0,
+        77,
+        2169,
+        646
+      ],
+      "export": {
+        "path": "assets/models/mega/textures/thruxton-vegetation-llrts2.webp",
+        "crc32": "278543ba",
+        "bytes": 14970,
+        "size": [
+          512,
+          128
+        ],
+        "webp_quality": 70,
+        "webp_method": 6
+      },
+      "alpha": {
+        "exact_source_black_key": true,
+        "crc32": "40aebbb9",
+        "black_key_source_pixels": 712
+      },
+      "palette_edit": [
+        {
+          "name": "LLRTS2",
+          "references": [
+            "build/thruxton-vegetation/LLRTS2-source8x.png",
+            "exec-811254f2-5864-4ea6-a871-d92d77ec767f.png"
+          ],
+          "generated_source": "exec-0d4221f8-7cea-4971-8644-f70c24a4feb3.png",
+          "reference_files": [
+            {
+              "path": "build/thruxton-vegetation/LLRTS2-source8x.png",
+              "crc32": "1001389b",
+              "bytes": 6896
+            },
+            {
+              "path": "exec-811254f2-5864-4ea6-a871-d92d77ec767f.png",
+              "crc32": "5a477324",
+              "bytes": 2226912
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "LHRTS4",
+      "source_crc32": "d34a49bb",
+      "source_size": [
+        64,
+        64
+      ],
+      "source_palette_crc32": "1a8f9cf1",
+      "action": "source-mask-and-palette-correction-with-new-artwork",
+      "output": {
+        "path": "assets/models/mega/textures/thruxton-vegetation-lhrts4.webp",
+        "crc32": "b319860b",
+        "bytes": 27058
+      },
+      "generated": {
+        "path": "build/thruxton-vegetation/LHRTS4-generated.png",
+        "crc32": "a768c10c",
+        "size": [
+          1254,
+          1254
+        ]
+      },
+      "crop": [
+        0,
+        0,
+        1254,
+        1254
+      ],
+      "export": {
+        "path": "assets/models/mega/textures/thruxton-vegetation-lhrts4.webp",
+        "crc32": "b319860b",
+        "bytes": 27058,
+        "size": [
+          512,
+          512
+        ],
+        "webp_quality": 70,
+        "webp_method": 6
+      },
+      "alpha": {
+        "exact_source_black_key": true,
+        "crc32": "ee2f7a8a",
+        "black_key_source_pixels": 1996
+      },
+      "palette_edit": [
+        {
+          "name": "LHRTS4",
+          "references": [
+            "build/thruxton-vegetation/LHRTS4-source8x.png",
+            "exec-1ab9c333-200a-46df-91a2-db5f3ab6d0f3.png"
+          ],
+          "generated_source": "exec-33285527-8203-461b-8be5-47d390ba2de6.png",
+          "reference_files": [
+            {
+              "path": "build/thruxton-vegetation/LHRTS4-source8x.png",
+              "crc32": "dda141f1",
+              "bytes": 6721
+            },
+            {
+              "path": "exec-1ab9c333-200a-46df-91a2-db5f3ab6d0f3.png",
+              "crc32": "ea051f5d",
+              "bytes": 1800089
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "LHRTWS1",
+      "source_crc32": "567244ee",
+      "source_size": [
+        128,
+        64
+      ],
+      "source_palette_crc32": "1a8f9cf1",
+      "action": "new-missing-direct-artwork",
+      "output": {
+        "path": "assets/models/mega/textures/thruxton-vegetation-lhrtws1.webp",
+        "crc32": "16be50f8",
+        "bytes": 21860
+      },
+      "generated": {
+        "path": "build/thruxton-vegetation/LHRTWS1-generated.png",
+        "crc32": "f8872c9c",
+        "size": [
+          1774,
+          887
+        ]
+      },
+      "crop": [
+        0,
+        0,
+        1774,
+        887
+      ],
+      "export": {
+        "path": "assets/models/mega/textures/thruxton-vegetation-lhrtws1.webp",
+        "crc32": "16be50f8",
+        "bytes": 21860,
+        "size": [
+          512,
+          256
+        ],
+        "webp_quality": 70,
+        "webp_method": 6
+      },
+      "alpha": {
+        "exact_source_black_key": true,
+        "crc32": "91b96e7c",
+        "black_key_source_pixels": 2530
+      },
+      "palette_edit": [
+        {
+          "name": "LHRTWS1",
+          "references": [
+            "build/thruxton-vegetation/LHRTWS1-source8x.png",
+            "exec-2cf40576-8bf2-4a6a-82b7-9a874835dacc.png"
+          ],
+          "generated_source": "exec-b8e9c2e6-9b47-4440-835d-ff41d852f1ca.png",
+          "reference_files": [
+            {
+              "path": "build/thruxton-vegetation/LHRTWS1-source8x.png",
+              "crc32": "fad9750d",
+              "bytes": 12440
+            },
+            {
+              "path": "exec-2cf40576-8bf2-4a6a-82b7-9a874835dacc.png",
+              "crc32": "bc73705d",
+              "bytes": 2534110
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "LLRTS1",
+      "source_crc32": "b202f15b",
+      "source_size": [
+        128,
+        32
+      ],
+      "source_palette_crc32": "cb877547",
+      "action": "source-mask-and-palette-correction-with-new-artwork",
+      "output": {
+        "path": "assets/models/mega/textures/thruxton-vegetation-llrts1.webp",
+        "crc32": "d1de4822",
+        "bytes": 14902
+      },
+      "generated": {
+        "path": "build/thruxton-vegetation/LLRTS1-generated.png",
+        "crc32": "9c6ce398",
+        "size": [
+          2169,
+          725
+        ]
+      },
+      "crop": [
+        0,
+        92,
+        2169,
+        629
+      ],
+      "export": {
+        "path": "assets/models/mega/textures/thruxton-vegetation-llrts1.webp",
+        "crc32": "d1de4822",
+        "bytes": 14902,
+        "size": [
+          512,
+          128
+        ],
+        "webp_quality": 70,
+        "webp_method": 6
+      },
+      "alpha": {
+        "exact_source_black_key": true,
+        "crc32": "33e2574c",
+        "black_key_source_pixels": 671
+      },
+      "palette_edit": [
+        {
+          "name": "LLRTS1",
+          "references": [
+            "build/thruxton-vegetation/LLRTS1-source8x.png",
+            "exec-d179af97-941b-4489-aff9-62ac9eb0346d.png"
+          ],
+          "generated_source": "exec-74c0248d-d15f-4c19-b966-6650b01a3574.png",
+          "reference_files": [
+            {
+              "path": "build/thruxton-vegetation/LLRTS1-source8x.png",
+              "crc32": "9831be64",
+              "bytes": 6646
+            },
+            {
+              "path": "exec-d179af97-941b-4489-aff9-62ac9eb0346d.png",
+              "crc32": "ff2c1f39",
+              "bytes": 2222555
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "reused_append_materials": [
+    {
+      "image": "textures/vegetation-bark.webp",
+      "crc32": "82dbe84d",
+      "bytes": 19328,
+      "source_binding": {
+        "append_material": "MegaTreeBark",
+        "uv": "entire opaque image"
+      },
+      "unchanged": true
+    },
+    {
+      "image": "textures/vegetation-leaf-thruxton.webp",
+      "crc32": "64279967",
+      "bytes": 64162,
+      "source_binding": {
+        "append_material": "MegaTreeLeaf",
+        "source_crc32": [
+          "d34a49bb"
+        ],
+        "uv": "whole transparent foliage cluster"
+      },
+      "unchanged": true
+    },
+    {
+      "image": "textures/vegetation-grove-leaf-thruxton.webp",
+      "crc32": "995815fe",
+      "bytes": 63546,
+      "source_binding": {
+        "append_material": "MegaGroveLf",
+        "source_crc32": [
+          "5e32f181"
+        ],
+        "uv": "whole transparent foliage cluster"
+      },
+      "unchanged": true
+    }
+  ],
+  "uv_alpha_contract": {
+    "replacement": "Exact name/size/CRC32 replacement; same source chart layout, full-chart UVs, original .02/.99 vertex clamps, alpha cutouts, crown sequence, lower trunk gaps, repeat counts and phase. No extra signs or game images.",
+    "palette": "Dark muted olive/emerald/brown; LHRTWS1 keeps warmer left/middle crowns and cooler right foliage. Woodland strips stay bottom-filled; individual tree trunks are not invented.",
+    "source_variants": "All five exact BMP identities occur only in Thruxton FREE2/5 and related lower LOD members. LLRTS1/2 shared rows lose only the target Thruxton CRC; same-name original variants on other tracks keep accepted mappings and bytes."
+  },
+  "limits": "Accepts62 listed types/105 bindings including the59 source woodland rows. Barriers, spectators and flags remain open. Vehicles/cockpits excluded. Canonical reference unchanged; original game media stays under ignored build only. No performance measurements."
+}

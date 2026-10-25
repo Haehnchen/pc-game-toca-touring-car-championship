@@ -1,0 +1,117 @@
+{
+  "version": 1,
+  "processing": "Whole generated2:1 RGB images resized to512x256 with Lanczos, WebPquality80 method6. No layout crop or procedural replacement artwork.",
+  "source": {
+    "archive": "data/donlfree.bfp",
+    "archive_crc32": "46885a20",
+    "member": 5,
+    "member_name": "OBJECTS.C3D",
+    "member_crc32": "5f670bb9"
+  },
+  "images": [
+    {
+      "id": "DA50BAR1",
+      "transparent_background": false,
+      "generated_file": "exec-ea23d14d-d37e-4ad7-a6b7-68419ab818b2.png",
+      "generated_crc32": "981f0af8",
+      "generated_size": [
+        1774,
+        887
+      ],
+      "reference": {
+        "name": "DA50BAR1",
+        "slot": 38,
+        "bmp_crc32": "4698dc57",
+        "size": [
+          64,
+          32
+        ]
+      },
+      "output": "assets/models/mega/textures/donington-barn-da50bar1.webp",
+      "output_crc32": "3beda180",
+      "output_size": [
+        512,
+        256
+      ],
+      "output_bytes": 12936
+    },
+    {
+      "id": "DA50BAR2",
+      "transparent_background": false,
+      "generated_file": "exec-85c0c146-cffd-4955-8e3f-1e856537408a.png",
+      "generated_crc32": "fd7ef3c7",
+      "generated_size": [
+        1774,
+        887
+      ],
+      "reference": {
+        "name": "DA50BAR2",
+        "slot": 41,
+        "bmp_crc32": "ca0856dd",
+        "size": [
+          64,
+          32
+        ]
+      },
+      "output": "assets/models/mega/textures/donington-barn-da50bar2.webp",
+      "output_crc32": "5165221a",
+      "output_size": [
+        512,
+        256
+      ],
+      "output_bytes": 17114
+    },
+    {
+      "id": "DA50BAR3",
+      "transparent_background": false,
+      "generated_file": "exec-c255b4b6-5143-40e1-a4fe-8964f3f2107f.png",
+      "generated_crc32": "becb3f56",
+      "generated_size": [
+        1774,
+        887
+      ],
+      "reference": {
+        "name": "DA50BAR3",
+        "slot": 39,
+        "bmp_crc32": "c6ad01e4",
+        "size": [
+          64,
+          32
+        ]
+      },
+      "output": "assets/models/mega/textures/donington-barn-da50bar3.webp",
+      "output_crc32": "23c2db25",
+      "output_size": [
+        512,
+        256
+      ],
+      "output_bytes": 9206
+    },
+    {
+      "id": "DA50BAR4",
+      "transparent_background": false,
+      "generated_file": "exec-e06e2aa6-fdc5-41ec-be2a-159af0d7476c.png",
+      "generated_crc32": "03f6d165",
+      "generated_size": [
+        1774,
+        887
+      ],
+      "reference": {
+        "name": "DA50BAR4",
+        "slot": 40,
+        "bmp_crc32": "96d7466d",
+        "size": [
+          64,
+          32
+        ]
+      },
+      "output": "assets/models/mega/textures/donington-barn-da50bar4.webp",
+      "output_crc32": "eba4a6bf",
+      "output_size": [
+        512,
+        256
+      ],
+      "output_bytes": 15524
+    }
+  ]
+}

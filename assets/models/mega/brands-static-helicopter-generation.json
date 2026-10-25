@@ -1,0 +1,311 @@
+{
+  "version": 1,
+  "package": "Brands static helicopter",
+  "source": {
+    "source_archive": "data/branfree.bfp",
+    "archive_crc32": "ecc577c7",
+    "member": 5,
+    "member_crc32": "90ddbd12",
+    "mesh": 34,
+    "name": "BH17HEL_1",
+    "type": "2ae9351e"
+  },
+  "scope": "Four source-specific static helicopter palette/alpha/layout variants, mandatory accepted T13 detail basis. No changes to moving HOR or Silverstone images. D15SHL7 is an unchanged original constant sampler, not a fifth artwork atlas.",
+  "outputs": [
+    {
+      "name": "BH17HEL",
+      "source_bmp_crc32": "9674e32a",
+      "source_size": [
+        128,
+        32
+      ],
+      "image": "textures/brands-static-bh17hel.webp",
+      "crc32": "1d97d3d5",
+      "bytes": 3764,
+      "size": [
+        512,
+        128
+      ],
+      "encoding": {
+        "format": "WebP",
+        "quality": 70,
+        "method": 6,
+        "alpha": "exact native source RGB-black-key alpha, nearest normalized scaling; white opaque, dark nonzero RGB opaque",
+        "alpha_zero_pixels": 0,
+        "decoded_alpha_matches_source": true
+      },
+      "reuse_basis": {
+        "image": "textures/silverstone-static-bh17hel.webp",
+        "crc32": "f3670e57",
+        "size": [
+          512,
+          128
+        ],
+        "source_bmp_crc32": "e01eebd3",
+        "manifest": "assets/models/mega/silverstone-static-helicopter-generation.json",
+        "relationship": "accepted detail basis only; Brands palette and source alpha/crops differ, no direct source alias"
+      },
+      "registration": {
+        "source_opaque_bbox": [
+          0,
+          0,
+          128,
+          32
+        ],
+        "generator_opaque_bbox": [
+          0,
+          0,
+          2170,
+          725
+        ],
+        "method": "local premultiplied generated-RGB box-average continuation at increasing radii; Gaussian3 only on missing RGB; no original pixel artwork copied",
+        "source_alpha_differs_from_silverstone": 0,
+        "newly_source_opaque_rgb_continuation_pixels": 0
+      },
+      "generation": {}
+    },
+    {
+      "name": "BH17HEL2",
+      "source_bmp_crc32": "8aaab57e",
+      "source_size": [
+        8,
+        64
+      ],
+      "image": "textures/brands-static-bh17hel2.webp",
+      "crc32": "2daedf1e",
+      "bytes": 2224,
+      "size": [
+        64,
+        512
+      ],
+      "encoding": {
+        "format": "WebP",
+        "quality": 70,
+        "method": 6,
+        "alpha": "exact native source RGB-black-key alpha, nearest normalized scaling; white opaque, dark nonzero RGB opaque",
+        "alpha_zero_pixels": 15936,
+        "decoded_alpha_matches_source": true
+      },
+      "reuse_basis": {
+        "image": "textures/silverstone-static-bh17hel2.webp",
+        "crc32": "4230bcf2",
+        "size": [
+          64,
+          512
+        ],
+        "source_bmp_crc32": "c5dcedae",
+        "manifest": "assets/models/mega/silverstone-static-helicopter-generation.json",
+        "relationship": "accepted detail basis only; Brands palette and source alpha/crops differ, no direct source alias"
+      },
+      "registration": {
+        "source_opaque_bbox": [
+          0,
+          0,
+          7,
+          64
+        ],
+        "generator_opaque_bbox": [
+          294,
+          0,
+          426,
+          2171
+        ],
+        "method": "local premultiplied generated-RGB box-average continuation at increasing radii; Gaussian3 only on missing RGB; no original pixel artwork copied",
+        "source_alpha_differs_from_silverstone": 10,
+        "newly_source_opaque_rgb_continuation_pixels": 385
+      },
+      "generation": {}
+    },
+    {
+      "name": "BH17HEL3",
+      "source_bmp_crc32": "882fef6f",
+      "source_size": [
+        64,
+        64
+      ],
+      "image": "textures/brands-static-bh17hel3.webp",
+      "crc32": "66245f23",
+      "bytes": 20854,
+      "size": [
+        512,
+        512
+      ],
+      "encoding": {
+        "format": "WebP",
+        "quality": 70,
+        "method": 6,
+        "alpha": "exact native source RGB-black-key alpha, nearest normalized scaling; white opaque, dark nonzero RGB opaque",
+        "alpha_zero_pixels": 0,
+        "decoded_alpha_matches_source": true
+      },
+      "reuse_basis": {
+        "image": "textures/silverstone-static-bh17hel3.webp",
+        "crc32": "3b285261",
+        "size": [
+          512,
+          512
+        ],
+        "source_bmp_crc32": "6810a8b3",
+        "manifest": "assets/models/mega/silverstone-static-helicopter-generation.json",
+        "relationship": "accepted detail basis only; Brands palette and source alpha/crops differ, no direct source alias"
+      },
+      "registration": {
+        "source_opaque_bbox": [
+          0,
+          0,
+          64,
+          64
+        ],
+        "generator_opaque_bbox": [
+          0,
+          0,
+          1254,
+          1254
+        ],
+        "method": "local premultiplied generated-RGB box-average continuation at increasing radii; Gaussian3 only on missing RGB; no original pixel artwork copied",
+        "source_alpha_differs_from_silverstone": 0,
+        "newly_source_opaque_rgb_continuation_pixels": 0
+      },
+      "generation": {}
+    },
+    {
+      "name": "BH17HEL1",
+      "source_bmp_crc32": "81cb7073",
+      "source_size": [
+        128,
+        32
+      ],
+      "image": "textures/brands-static-bh17hel1.webp",
+      "crc32": "8e2f8cbd",
+      "bytes": 1872,
+      "size": [
+        512,
+        128
+      ],
+      "encoding": {
+        "format": "WebP",
+        "quality": 70,
+        "method": 6,
+        "alpha": "exact native source RGB-black-key alpha, nearest normalized scaling; white opaque, dark nonzero RGB opaque",
+        "alpha_zero_pixels": 51824,
+        "decoded_alpha_matches_source": true
+      },
+      "reuse_basis": {
+        "image": "textures/silverstone-static-bh17hel1.webp",
+        "crc32": "b5a0c579",
+        "size": [
+          512,
+          128
+        ],
+        "source_bmp_crc32": "3a8241ca",
+        "manifest": "assets/models/mega/silverstone-static-helicopter-generation.json",
+        "relationship": "accepted detail basis only; Brands palette and source alpha/crops differ, no direct source alias"
+      },
+      "registration": {
+        "source_opaque_bbox": [
+          10,
+          1,
+          119,
+          32
+        ],
+        "generator_opaque_bbox": [
+          186,
+          113,
+          2020,
+          609
+        ],
+        "method": "local premultiplied generated-RGB box-average continuation at increasing radii; Gaussian3 only on missing RGB; no original pixel artwork copied",
+        "source_alpha_differs_from_silverstone": 18,
+        "newly_source_opaque_rgb_continuation_pixels": 5508
+      },
+      "generation": {}
+    }
+  ],
+  "unchanged_constant_material": {
+    "name": "D15SHL7",
+    "source_bmp_crc32": "1c07ca8e",
+    "source_size": [
+      32,
+      16
+    ],
+    "slot_high": 127,
+    "slot_low": 105,
+    "faces": [
+      69
+    ],
+    "raw_uv": [
+      0,
+      0
+    ],
+    "native_image_uv": [
+      0,
+      1
+    ],
+    "policy": "Original material and runtime UV/filter behavior retained; no replacement mapping. Whole atlas is shared by BH20BRDG_1 mesh33 type302ed6c8 and remains untouched."
+  },
+  "contract": "Canonical UVs/slots/motifs/repeat and exact source alpha retained. Pale front/body background remains opaque. No added text/manufacturer/livery. Original geometry and source lower details retained; native integration accepted.",
+  "native": {
+    "result": "PASS",
+    "cases": [
+      {
+        "label": "nose",
+        "result": "PASS",
+        "invocation_basis": "Native fixture using canonical TOCA 1.1a data; fixture and result identities retained.",
+        "authored_changed_pixels": 1182026,
+        "fixture": "build/static-fleet/fleet_probe.cpp",
+        "fixture_crc32": "f71a56cc"
+      },
+      {
+        "label": "whole",
+        "result": "PASS",
+        "invocation_basis": "Native fixture using canonical TOCA 1.1a data; fixture and result identities retained.",
+        "authored_changed_pixels": 281100,
+        "fixture": "build/static-fleet/fleet_probe.cpp",
+        "fixture_crc32": "f71a56cc"
+      },
+      {
+        "label": "rotor",
+        "result": "PASS",
+        "invocation_basis": "Native fixture using canonical TOCA 1.1a data; fixture and result identities retained.",
+        "authored_changed_pixels": 387836,
+        "fixture": "build/static-fleet/fleet_probe.cpp",
+        "fixture_crc32": "f71a56cc"
+      },
+      {
+        "label": "skids",
+        "result": "PASS",
+        "invocation_basis": "Native fixture using canonical TOCA 1.1a data; fixture and result identities retained.",
+        "authored_changed_pixels": 256016,
+        "fixture": "build/static-fleet/fleet_probe.cpp",
+        "fixture_crc32": "f71a56cc"
+      },
+      {
+        "label": "brands-placements",
+        "result": "PASS",
+        "invocation_basis": "Native fixture using canonical TOCA 1.1a data; fixture and result identities retained.",
+        "authored_changed_pixels": 10819,
+        "fixture": "build/static-fleet/fleet_probe.cpp",
+        "fixture_crc32": "f71a56cc",
+        "visible_source_placements": [
+          {
+            "node": 111,
+            "authored_changed_pixels": 3449
+          },
+          {
+            "node": 113,
+            "authored_changed_pixels": 2449
+          },
+          {
+            "node": 115,
+            "authored_changed_pixels": 3979
+          },
+          {
+            "node": 505,
+            "authored_changed_pixels": 942
+          }
+        ]
+      }
+    ],
+    "visual_review": "Original/current/new at identical native cameras; front, oblique, four orbit views, rotor/skids material close views and all four source placements. Source UVs/slot topology retained; foreground and key silhouettes remain registered."
+  }
+}

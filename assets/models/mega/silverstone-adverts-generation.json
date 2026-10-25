@@ -1,0 +1,346 @@
+{
+  "version": 1,
+  "package": "R01-Silverstone-advertising-boards",
+  "source_policy": "Only canonical unmodified TOCA 1.1a; originals are not committed.",
+  "source": {
+    "path": "data/silvfree.bfp",
+    "crc32": "960a335c",
+    "member": 5,
+    "member_crc32": "a92b3b70"
+  },
+  "scope": {
+    "meshes": 5,
+    "placements": 42,
+    "track": 1,
+    "source_materials": 5,
+    "direct_replacements": 5
+  },
+  "geometry": "Unchanged source4T front plus10T solid backing;10m x1.5m,0.04m depth. Opposing Luffield placements retain geometric clearance; generated DA09AD metal uses strict LESS so original artwork wins equal D16 depth. Source vertices, UVs, slots and nodes remain unchanged.",
+  "export": "Whole-canvas Lanczos resize to source aspect ratio, longest edge512; fully opaque RGB WebP quality80 method6. No crop, extra texture, UV edit or runtime-specific motif.",
+  "materials": [
+    {
+      "name": "AUTOTRAD",
+      "mesh": 27,
+      "mesh_name": "DA09AD7_1",
+      "type": "a4adfa48",
+      "source_mesh_crc32": "a7099eff",
+      "nodes": [
+        141,
+        143,
+        157,
+        159,
+        161,
+        163,
+        179,
+        345,
+        357,
+        359,
+        361,
+        371,
+        383,
+        391,
+        395
+      ],
+      "source": {
+        "material_slot": 92,
+        "bmp_crc32": "74315c31",
+        "size": [
+          128,
+          32
+        ],
+        "black_key_pixels": 0
+      },
+      "uv_contract": {
+        "image_v": "storedV+1; static runtime clamps each source vertex U/imageV to .02..99 before interpolation",
+        "repeat_count": 1,
+        "center_source_u": [
+          0.503936767578125
+        ],
+        "image_v_bounds": [
+          1.52587890625e-05,
+          0.9677581787109375
+        ]
+      },
+      "previous": {
+        "path": "assets/models/mega/textures/autotrader.webp",
+        "crc32": "18ec715a",
+        "bytes": 11426,
+        "size": [
+          512,
+          128
+        ]
+      },
+      "generated": {
+        "path": "build/silverstone-adverts/AUTOTRAD-generated.png",
+        "crc32": "323d3443",
+        "bytes": 1158244,
+        "size": [
+          2169,
+          725
+        ]
+      },
+      "output": {
+        "path": "assets/models/mega/textures/silverstone-advert-autotrad.webp",
+        "crc32": "ba9585c3",
+        "bytes": 3730,
+        "size": [
+          512,
+          128
+        ]
+      }
+    },
+    {
+      "name": "LDV",
+      "mesh": 28,
+      "mesh_name": "DA09AD2_1",
+      "type": "ae55414a",
+      "source_mesh_crc32": "d0f676d9",
+      "nodes": [
+        145,
+        151,
+        175,
+        347,
+        349,
+        353,
+        375,
+        379,
+        387
+      ],
+      "source": {
+        "material_slot": 93,
+        "bmp_crc32": "218838df",
+        "size": [
+          64,
+          32
+        ],
+        "black_key_pixels": 0
+      },
+      "uv_contract": {
+        "image_v": "storedV+1; static runtime clamps each source vertex U/imageV to .02..99 before interpolation",
+        "repeat_count": 2,
+        "center_source_u": [
+          0.0,
+          1.0
+        ],
+        "image_v_bounds": [
+          1.52587890625e-05,
+          0.9677581787109375
+        ]
+      },
+      "previous": {
+        "path": "assets/models/mega/textures/ldv.webp",
+        "crc32": "94c90c40",
+        "bytes": 4396,
+        "size": [
+          256,
+          128
+        ]
+      },
+      "generated": {
+        "path": "build/silverstone-adverts/LDV-generated.png",
+        "crc32": "560c867e",
+        "bytes": 1219247,
+        "size": [
+          1774,
+          887
+        ]
+      },
+      "output": {
+        "path": "assets/models/mega/textures/silverstone-advert-ldv.webp",
+        "crc32": "988fbc61",
+        "bytes": 4042,
+        "size": [
+          512,
+          256
+        ]
+      }
+    },
+    {
+      "name": "CASTROL",
+      "mesh": 29,
+      "mesh_name": "DA09AD5_1",
+      "type": "4cf25f2d",
+      "source_mesh_crc32": "f24c274c",
+      "nodes": [
+        147,
+        149,
+        177,
+        281,
+        373,
+        381,
+        389
+      ],
+      "source": {
+        "material_slot": 94,
+        "bmp_crc32": "6e1893e8",
+        "size": [
+          128,
+          32
+        ],
+        "black_key_pixels": 0
+      },
+      "uv_contract": {
+        "image_v": "storedV+1; static runtime clamps each source vertex U/imageV to .02..99 before interpolation",
+        "repeat_count": 1,
+        "center_source_u": [
+          0.503936767578125
+        ],
+        "image_v_bounds": [
+          1.52587890625e-05,
+          0.9677581787109375
+        ]
+      },
+      "previous": {
+        "path": "assets/models/mega/textures/castrol.webp",
+        "crc32": "32fd548f",
+        "bytes": 11966,
+        "size": [
+          512,
+          128
+        ]
+      },
+      "generated": {
+        "path": "build/silverstone-adverts/CASTROL-generated.png",
+        "crc32": "a1b0207b",
+        "bytes": 1228497,
+        "size": [
+          2170,
+          725
+        ]
+      },
+      "output": {
+        "path": "assets/models/mega/textures/silverstone-advert-castrol.webp",
+        "crc32": "eb391fd9",
+        "bytes": 6588,
+        "size": [
+          512,
+          128
+        ]
+      }
+    },
+    {
+      "name": "MCN",
+      "mesh": 30,
+      "mesh_name": "DA09AD1_1",
+      "type": "a85c5a0b",
+      "source_mesh_crc32": "65a0defa",
+      "nodes": [
+        153,
+        155,
+        181
+      ],
+      "source": {
+        "material_slot": 95,
+        "bmp_crc32": "5374b39b",
+        "size": [
+          64,
+          32
+        ],
+        "black_key_pixels": 0
+      },
+      "uv_contract": {
+        "image_v": "storedV+1; static runtime clamps each source vertex U/imageV to .02..99 before interpolation",
+        "repeat_count": 2,
+        "center_source_u": [
+          0.0,
+          1.0
+        ],
+        "image_v_bounds": [
+          1.52587890625e-05,
+          0.9677581787109375
+        ]
+      },
+      "previous": {
+        "path": "assets/models/mega/textures/mcn.webp",
+        "crc32": "6b6ca891",
+        "bytes": 4990,
+        "size": [
+          256,
+          128
+        ]
+      },
+      "generated": {
+        "path": "build/silverstone-adverts/MCN-generated.png",
+        "crc32": "4c8b843d",
+        "bytes": 1198621,
+        "size": [
+          1774,
+          887
+        ]
+      },
+      "output": {
+        "path": "assets/models/mega/textures/silverstone-advert-mcn.webp",
+        "crc32": "c37e386f",
+        "bytes": 8242,
+        "size": [
+          512,
+          256
+        ]
+      }
+    },
+    {
+      "name": "ORDSURV",
+      "mesh": 36,
+      "mesh_name": "DA09AD6_1",
+      "type": "7c1194fe",
+      "source_mesh_crc32": "5aa9c5ff",
+      "nodes": [
+        279,
+        341,
+        343,
+        351,
+        355,
+        369,
+        385,
+        393
+      ],
+      "source": {
+        "material_slot": 105,
+        "bmp_crc32": "8ad7a5cd",
+        "size": [
+          128,
+          32
+        ],
+        "black_key_pixels": 0
+      },
+      "uv_contract": {
+        "image_v": "storedV+1; static runtime clamps each source vertex U/imageV to .02..99 before interpolation",
+        "repeat_count": 1,
+        "center_source_u": [
+          0.4960479736328125
+        ],
+        "image_v_bounds": [
+          1.52587890625e-05,
+          0.9677581787109375
+        ]
+      },
+      "previous": {
+        "path": "assets/models/mega/textures/ordnance-survey.webp",
+        "crc32": "f7aac669",
+        "bytes": 9946,
+        "size": [
+          512,
+          128
+        ]
+      },
+      "generated": {
+        "path": "build/silverstone-adverts/ORDSURV-generated.png",
+        "crc32": "3fd68aec",
+        "bytes": 1118416,
+        "size": [
+          2172,
+          724
+        ]
+      },
+      "output": {
+        "path": "assets/models/mega/textures/silverstone-advert-ordsurv.webp",
+        "crc32": "f1da043b",
+        "bytes": 5640,
+        "size": [
+          512,
+          128
+        ]
+      }
+    }
+  ]
+}

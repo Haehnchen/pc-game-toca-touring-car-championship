@@ -1,0 +1,118 @@
+{
+  "version": 1,
+  "scope": "Donington GP/Short FREE8/9/10:55cones,16posts,50signs at121original placements; shared DUN0/9 also serve the Dunlop bridge. Track objects only.",
+  "source": {
+    "source_version": "TOCA 1.1a",
+    "archives": [
+      {
+        "track": 0,
+        "name": "donlfree.bfp",
+        "crc32": "46885a20",
+        "members": {
+          "8": "9408ddb9",
+          "9": "1a39b43f",
+          "10": "83a984a4"
+        }
+      },
+      {
+        "track": 5,
+        "name": "donsfree.bfp",
+        "crc32": "f07db8b7",
+        "members": {
+          "8": "866a6c58",
+          "9": "1a39b43f",
+          "10": "f425de85"
+        }
+      }
+    ]
+  },
+  "textures": [
+    {
+      "name": "LREDCON",
+      "source_bmp_crc32": "6c701962",
+      "source_size": [
+        64,
+        64
+      ],
+      "generated_file": "build/donington-dynamic-props/artwork/cone-generated.png",
+      "generated_crc32": "4d1850ff",
+      "processing": "Whole-canvas Lanczos resize; opaque WebP80 method6.",
+      "output": {
+        "path": "assets/models/mega/textures/donington-cone-bands.webp",
+        "crc32": "e5fa1889",
+        "bytes": 11342,
+        "size": [
+          512,
+          512
+        ]
+      }
+    },
+    {
+      "name": "LDHL",
+      "source_bmp_crc32": "0713dfa8",
+      "source_size": [
+        64,
+        16
+      ],
+      "generated_file": "build/donington-dynamic-props/artwork/dhl-corrected.png",
+      "generated_crc32": "3e89b795",
+      "processing": "Whole-canvas Lanczos resize; opaque WebP80 method6.",
+      "output": {
+        "path": "assets/models/mega/textures/donington-dhl.webp",
+        "crc32": "9078e0b0",
+        "bytes": 3544,
+        "size": [
+          512,
+          128
+        ]
+      }
+    }
+  ],
+  "geometry": {
+    "identity_gate": "Exact track/member/source CRC32",
+    "result": "Retain authored cone/post/sign solid meshes, nodes, UVs and material slots. Remove generic detail/rims and sign blank-paint UV remap on GP/Short; no new runtime materials.",
+    "collision_and_actors": "unchanged"
+  },
+  "reused_textures": [
+    {
+      "name": "DA16DUN0",
+      "source_bmp_crc32": "874c7719",
+      "source_size": [
+        128,
+        128
+      ],
+      "output": {
+        "path": "assets/models/mega/textures/dunlop-bridge-left.webp",
+        "crc32": "859e8045",
+        "bytes": 22806,
+        "size": [
+          512,
+          512
+        ],
+        "local_correction": "texture-generation.json: dunlop-marker-50-repair (L50_1 right numeral clipping)"
+      },
+      "provenance": "assets/models/mega/texture-generation.json",
+      "decision": "Retain accepted whole-arch projection; localized50 numeral registration repair inside unchanged L50_1 UVs. See texture-generation.json."
+    },
+    {
+      "name": "DA16DUN9",
+      "source_bmp_crc32": "2301ef84",
+      "source_size": [
+        128,
+        128
+      ],
+      "output": {
+        "path": "assets/models/mega/textures/dunlop-bridge-right.webp",
+        "crc32": "045cd6bc",
+        "bytes": 29394,
+        "size": [
+          512,
+          512
+        ]
+      },
+      "provenance": "assets/models/mega/texture-generation.json",
+      "decision": "Keep previous accepted whole-arch projection by user request; exact pre01e785b image bytes."
+    }
+  ],
+  "mapping": "LREDCON/LDHL use disjoint source-CRC bindings; all other-track variants retain their existing artwork."
+}

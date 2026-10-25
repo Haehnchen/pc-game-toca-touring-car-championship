@@ -1,0 +1,78 @@
+{
+  "schema_version": 1,
+  "archives": {
+    "enet": {
+      "name": "ENet", "version": "1.3.18", "revision": "5a9c537fd464b3c6d3c55e1d3bd47588faf71b42",
+      "url": "https://codeload.github.com/lsalzman/enet/tar.gz/5a9c537fd464b3c6d3c55e1d3bd47588faf71b42",
+      "archive": "enet-5a9c537fd464b3c6d3c55e1d3bd47588faf71b42.tar.gz", "root": "enet-5a9c537fd464b3c6d3c55e1d3bd47588faf71b42",
+      "crc32": "00c20465", "license": "MIT"
+    },
+    "meshoptimizer": {
+      "name": "meshoptimizer", "version": "0.25",
+      "url": "https://codeload.github.com/zeux/meshoptimizer/tar.gz/refs/tags/v0.25",
+      "archive": "meshoptimizer-0.25.tar.gz", "root": "meshoptimizer-0.25",
+      "crc32": "240c2b65", "license": "MIT"
+    },
+    "cgltf": {
+      "name": "cgltf", "version": "1.15",
+      "url": "https://codeload.github.com/jkuhlmann/cgltf/tar.gz/refs/tags/v1.15",
+      "archive": "cgltf-1.15.tar.gz", "root": "cgltf-1.15",
+      "crc32": "e12e73ff", "license": "MIT"
+    },
+    "libwebp": {
+      "name": "libwebp", "version": "1.6.0",
+      "url": "https://storage.googleapis.com/downloads.webmproject.org/releases/webp/libwebp-1.6.0.tar.gz",
+      "archive": "libwebp-1.6.0.tar.gz", "root": "libwebp-1.6.0",
+      "crc32": "1958338e", "license": "BSD-3-Clause"
+    },
+    "sdl_mixer": {
+      "name": "SDL3_mixer", "version": "3.2.4", "revision": "72a81869b45e249e8e67102db4e98dd2441f05a1",
+      "url": "https://github.com/libsdl-org/SDL_mixer/releases/download/release-3.2.4/SDL3_mixer-3.2.4.tar.gz",
+      "archive": "SDL3_mixer-3.2.4.tar.gz", "root": "SDL3_mixer-3.2.4",
+      "crc32": "c1ba886e",
+      "license": "Zlib"
+    },
+    "sdl3": {
+      "name": "SDL3", "version": "3.4.2",
+      "url": "https://www.libsdl.org/release/SDL3-3.4.2.tar.gz",
+      "archive": "SDL3-3.4.2.tar.gz", "root": "SDL3-3.4.2",
+      "crc32": "7ea00f45",
+      "license": "Zlib"
+    },
+    "glm": {
+      "name": "GLM", "version": "1.0.1",
+      "url": "https://codeload.github.com/g-truc/glm/tar.gz/refs/tags/1.0.1",
+      "archive": "glm-1.0.1.tar.gz", "root": "glm-1.0.1",
+      "crc32": "9c66060b",
+      "license": "MIT"
+    },
+    "shadercross": {
+      "name": "SDL_shadercross", "version": "3.0.0", "revision": "1ff05bec573988a98ef9e0260b4da44f512b8367",
+      "url": "https://codeload.github.com/libsdl-org/SDL_shadercross/tar.gz/1ff05bec573988a98ef9e0260b4da44f512b8367",
+      "archive": "shadercross-1ff05bec573988a98ef9e0260b4da44f512b8367.tar.gz", "root": "SDL_shadercross-1ff05bec573988a98ef9e0260b4da44f512b8367",
+      "crc32": "c4399c94",
+      "license": "Zlib"
+    },
+    "spirv-cross": {
+      "name": "SPIRV-Cross", "version": "2021.01.15+1.4.335.0", "revision": "vulkan-sdk-1.4.335.0",
+      "url": "https://codeload.github.com/KhronosGroup/SPIRV-Cross/tar.gz/refs/tags/vulkan-sdk-1.4.335.0",
+      "archive": "spirv-cross-vulkan-sdk-1.4.335.0.tar.gz", "root": "SPIRV-Cross-vulkan-sdk-1.4.335.0",
+      "crc32": "bc1f1002",
+      "license": "Apache-2.0"
+    },
+    "dxc-linux-x64": {
+      "name": "DirectXShaderCompiler", "version": "1.9.2609", "revision": "v1.9.2609", "host": "Linux-x86_64",
+      "url": "https://github.com/microsoft/DirectXShaderCompiler/releases/download/v1.9.2609/linux_dxc_2026_09_28.x86_x64.tar.gz",
+      "archive": "linux_dxc_2026_09_28.x86_x64.tar.gz", "root": ".",
+      "crc32": "1bc26bce",
+      "license": "NCSA; Microsoft DXC binary terms (LICENSE-MS.txt)"
+    },
+    "dxc-windows": {
+      "name": "DirectXShaderCompiler", "version": "1.9.2609", "revision": "v1.9.2609", "host": "Windows-x86,x64,arm64",
+      "url": "https://github.com/microsoft/DirectXShaderCompiler/releases/download/v1.9.2609/dxc_2026_09_29.zip",
+      "archive": "dxc_2026_09_29.zip", "root": ".",
+      "crc32": "0fede6fb",
+      "license": "NCSA; Microsoft DXC binary terms (LICENSE-MS.txt)"
+    }
+  }
+}

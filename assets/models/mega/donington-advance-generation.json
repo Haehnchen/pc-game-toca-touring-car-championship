@@ -1,0 +1,399 @@
+{
+  "version": 1,
+  "package": "MT01/MT03 Donington ADVANCE bridge advertisement",
+  "webp_quality": 80,
+  "max_texture_edge": 512,
+  "policy": "One direct 64x64-to-512x512 replacement. Preserve source UVs, slots, geometry, four tiles per bridge side and local shared-sign crop. No additional runtime materials.",
+  "original": {
+    "material": "DA15SHL3",
+    "source_bmp_crc32": "716e8a9a",
+    "source_size": [
+      64,
+      64
+    ],
+    "current_replacement": null,
+    "consumers": [
+      {
+        "track": 0,
+        "archive": "data/donlfree.bfp",
+        "archive_crc32": "46885a20",
+        "member": 5,
+        "member_name": "OBJECTS.C3D",
+        "member_crc32": "5f670bb9",
+        "mesh": 9,
+        "name": "DA17SHS_1",
+        "mesh_crc32": "7901628c",
+        "type": "0708a975",
+        "nodes": [
+          29
+        ],
+        "material_slot": 33,
+        "banner_triangles": 16,
+        "u": [
+          0.0,
+          0.9841156005859375
+        ],
+        "v_stored": [
+          -0.9999847412109375,
+          -0.0475921630859375
+        ],
+        "image_y": [
+          1.52587890625e-05,
+          0.9524078369140625
+        ]
+      },
+      {
+        "track": 0,
+        "archive": "data/donlfree.bfp",
+        "archive_crc32": "46885a20",
+        "member": 5,
+        "member_name": "OBJECTS.C3D",
+        "member_crc32": "5f670bb9",
+        "mesh": 49,
+        "name": "DA15SH2_1",
+        "mesh_crc32": "a73fe677",
+        "type": "561cd904",
+        "nodes": [
+          333
+        ],
+        "material_slot": 33,
+        "banner_triangles": 16,
+        "u": [
+          0.0,
+          0.9841156005859375
+        ],
+        "v_stored": [
+          -0.9999847412109375,
+          -0.1428375244140625
+        ],
+        "image_y": [
+          1.52587890625e-05,
+          0.8571624755859375
+        ]
+      },
+      {
+        "track": 0,
+        "archive": "data/donlfree.bfp",
+        "archive_crc32": "46885a20",
+        "member": 6,
+        "member_name": "LOWOBJ.C3D",
+        "member_crc32": "115e5886",
+        "mesh": 8,
+        "name": "DA17SHS_1",
+        "mesh_crc32": "24f4035c",
+        "type": null,
+        "nodes": [
+          27
+        ],
+        "material_slot": 28,
+        "banner_triangles": 16,
+        "u": [
+          0.0,
+          0.9841156005859375
+        ],
+        "v_stored": [
+          -0.9999847412109375,
+          -0.0475921630859375
+        ],
+        "image_y": [
+          1.52587890625e-05,
+          0.9524078369140625
+        ]
+      },
+      {
+        "track": 0,
+        "archive": "data/donlfree.bfp",
+        "archive_crc32": "46885a20",
+        "member": 6,
+        "member_name": "LOWOBJ.C3D",
+        "member_crc32": "115e5886",
+        "mesh": 40,
+        "name": "DA15SH2_1",
+        "mesh_crc32": "82c66890",
+        "type": null,
+        "nodes": [
+          221
+        ],
+        "material_slot": 28,
+        "banner_triangles": 16,
+        "u": [
+          0.0,
+          0.9841156005859375
+        ],
+        "v_stored": [
+          -0.9999847412109375,
+          -0.1428375244140625
+        ],
+        "image_y": [
+          1.52587890625e-05,
+          0.8571624755859375
+        ]
+      },
+      {
+        "track": 0,
+        "archive": "data/donlfree.bfp",
+        "archive_crc32": "46885a20",
+        "member": 7,
+        "member_name": "ZEROBJ.C3D",
+        "member_crc32": "3f64f161",
+        "mesh": 3,
+        "name": "DA17SHS_1",
+        "mesh_crc32": "2538f03f",
+        "type": null,
+        "nodes": [
+          7
+        ],
+        "material_slot": 6,
+        "banner_triangles": 16,
+        "u": [
+          0.0,
+          0.9841156005859375
+        ],
+        "v_stored": [
+          -0.9999847412109375,
+          -0.0475921630859375
+        ],
+        "image_y": [
+          1.52587890625e-05,
+          0.9524078369140625
+        ]
+      },
+      {
+        "track": 0,
+        "archive": "data/donlfree.bfp",
+        "archive_crc32": "46885a20",
+        "member": 7,
+        "member_name": "ZEROBJ.C3D",
+        "member_crc32": "3f64f161",
+        "mesh": 13,
+        "name": "DA15SH2_1",
+        "mesh_crc32": "920ff245",
+        "type": null,
+        "nodes": [
+          119
+        ],
+        "material_slot": 6,
+        "banner_triangles": 16,
+        "u": [
+          0.0,
+          0.9841156005859375
+        ],
+        "v_stored": [
+          -0.9999847412109375,
+          -0.1428375244140625
+        ],
+        "image_y": [
+          1.52587890625e-05,
+          0.8571624755859375
+        ]
+      },
+      {
+        "track": 5,
+        "archive": "data/donsfree.bfp",
+        "archive_crc32": "f07db8b7",
+        "member": 5,
+        "member_name": "OBJECTS.C3D",
+        "member_crc32": "f60fd8a0",
+        "mesh": 8,
+        "name": "DA17SHS_1",
+        "mesh_crc32": "421655f2",
+        "type": "0708a975",
+        "nodes": [
+          31
+        ],
+        "material_slot": 27,
+        "banner_triangles": 16,
+        "u": [
+          0.0,
+          0.9841156005859375
+        ],
+        "v_stored": [
+          -0.9999847412109375,
+          -0.0475921630859375
+        ],
+        "image_y": [
+          1.52587890625e-05,
+          0.9524078369140625
+        ]
+      },
+      {
+        "track": 5,
+        "archive": "data/donsfree.bfp",
+        "archive_crc32": "f07db8b7",
+        "member": 5,
+        "member_name": "OBJECTS.C3D",
+        "member_crc32": "f60fd8a0",
+        "mesh": 51,
+        "name": "DA15SH2_1",
+        "mesh_crc32": "b2ac0a94",
+        "type": "561cd904",
+        "nodes": [
+          373
+        ],
+        "material_slot": 27,
+        "banner_triangles": 16,
+        "u": [
+          0.0,
+          0.9841156005859375
+        ],
+        "v_stored": [
+          -0.9999847412109375,
+          -0.1428375244140625
+        ],
+        "image_y": [
+          1.52587890625e-05,
+          0.8571624755859375
+        ]
+      },
+      {
+        "track": 5,
+        "archive": "data/donsfree.bfp",
+        "archive_crc32": "f07db8b7",
+        "member": 6,
+        "member_name": "LOWOBJ.C3D",
+        "member_crc32": "f1caf737",
+        "mesh": 6,
+        "name": "DA17SHS_1",
+        "mesh_crc32": "dfdc2959",
+        "type": null,
+        "nodes": [
+          23
+        ],
+        "material_slot": 16,
+        "banner_triangles": 16,
+        "u": [
+          0.0,
+          0.9841156005859375
+        ],
+        "v_stored": [
+          -0.9999847412109375,
+          -0.0475921630859375
+        ],
+        "image_y": [
+          1.52587890625e-05,
+          0.9524078369140625
+        ]
+      },
+      {
+        "track": 5,
+        "archive": "data/donsfree.bfp",
+        "archive_crc32": "f07db8b7",
+        "member": 6,
+        "member_name": "LOWOBJ.C3D",
+        "member_crc32": "f1caf737",
+        "mesh": 38,
+        "name": "DA15SH2_1",
+        "mesh_crc32": "d2805726",
+        "type": null,
+        "nodes": [
+          199
+        ],
+        "material_slot": 16,
+        "banner_triangles": 16,
+        "u": [
+          0.0,
+          0.9841156005859375
+        ],
+        "v_stored": [
+          -0.9999847412109375,
+          -0.1428375244140625
+        ],
+        "image_y": [
+          1.52587890625e-05,
+          0.8571624755859375
+        ]
+      },
+      {
+        "track": 5,
+        "archive": "data/donsfree.bfp",
+        "archive_crc32": "f07db8b7",
+        "member": 7,
+        "member_name": "ZEROBJ.C3D",
+        "member_crc32": "73cced67",
+        "mesh": 16,
+        "name": "DA15SH2_1",
+        "mesh_crc32": "008ec635",
+        "type": null,
+        "nodes": [
+          113
+        ],
+        "material_slot": 23,
+        "banner_triangles": 16,
+        "u": [
+          0.0,
+          0.9841156005859375
+        ],
+        "v_stored": [
+          -0.9999847412109375,
+          -0.1428375244140625
+        ],
+        "image_y": [
+          1.52587890625e-05,
+          0.8571624755859375
+        ]
+      }
+    ],
+    "caption": "MOTORCYCLE OILS probable; source lettering remains ambiguous, related variants no clearer",
+    "policy": "References read only; exports confined to ignored build directory. No original game files committed."
+  },
+  "lettering": {
+    "main": "ADVANCE",
+    "secondary": "MOTORCYCLE OILS",
+    "basis": "ADVANCE and Shell/motorcycle motif are visible in canonical DA15SHL3. Members5/6/7 contain identical source pixels; related DA28COM contains the same branding but no sharper secondary line. MOTORCYCLE OILS is a documented reconstruction from the source caption and motorcycle motif, not exact OCR.",
+    "related_source": "DA28COM BMP CRC32 1d5c38c8; canonical Donington OBJECTS.C3D"
+  },
+  "sources": [
+    {
+      "id": "layout-draft",
+      "file": "exec-2f5cf42d-9894-4d84-8f0a-449e2c3efa5b.png",
+      "crc32": "328d2eaf",
+      "size": [
+        1254,
+        1254
+      ]
+    },
+    {
+      "id": "palette-corrected",
+      "file": "exec-cec0598f-6075-4e04-a82b-5dd6c0fde075.png",
+      "crc32": "3ab8039c",
+      "size": [
+        1254,
+        1254
+      ]
+    }
+  ],
+  "outputs": [
+    {
+      "image": "textures/donington-advance-da15shl3.webp",
+      "source": "palette-corrected",
+      "crop": [
+        1254,
+        1254,
+        0,
+        0
+      ],
+      "size": [
+        512,
+        512
+      ],
+      "alpha": "opaque",
+      "names": [
+        "DA15SHL3"
+      ],
+      "source_size": [
+        64,
+        64
+      ],
+      "source_crc32": [
+        "716e8a9a"
+      ],
+      "crc32": "53f6b350",
+      "bytes": 22052
+    }
+  ],
+  "review": {
+    "layout": "Source-normalized yellow Shell panel x0..20%; ADVANCE x22..82%, y11..66%; gold rider at right; secondary caption y75..89%. Raw square is deliberately narrow-lettered for the existing ~2.7:1 bridge stretch. Caption cropping is retained, including shared DA17SHS variant.",
+    "palette": "Second generation restores warm source vermilion/orange-gold/off-white palette; first lemon-yellow/red draft rejected for palette.",
+    "processing": "Full square downsample only using tools/import-mega-textures.py; opaque WebP80 method6, no original bitmap pixels copied."
+  }
+}

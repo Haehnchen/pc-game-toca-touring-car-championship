@@ -1,0 +1,288 @@
+{
+  "version": 1,
+  "package": "T12",
+  "source": {
+    "archive": "data/silvfree.bfp",
+    "archive_crc32": "960a335c",
+    "member": 5,
+    "member_crc32": "a92b3b70",
+    "mesh": "CARROW_1",
+    "mesh_index": 26,
+    "mesh_crc32": "48b9cbb6",
+    "type": "fbf92d23",
+    "vertices": 30,
+    "triangles": 28
+  },
+  "shared_consumers": [
+    {
+      "track": 1,
+      "member": 5,
+      "mesh": 26,
+      "nodes": [
+        135,
+        137,
+        139
+      ],
+      "source_material_slots": {
+        "89": "CARSDE1",
+        "90": "CARSDE3",
+        "91": "CARROW2"
+      }
+    }
+  ],
+  "lod": "CARROW_1 and all three images are absent from original FREE6/7; preserve source absence.",
+  "uv_contract": "Unchanged full photograph split on internal crossing planes; CARSDE1/3 U center .483856 vs .516129. CARROW2 remains continuous6-car strip over three existing sections, U0 at localX+9 toU1 atX-9, source lower V crop .933350 retained on original opposite face. No UV/geometry/slot edits.",
+  "outputs": [
+    {
+      "name": "CARSDE1",
+      "source_bmp_crc32": "1014e1c2",
+      "source_size": [
+        32,
+        16
+      ],
+      "image": "textures/silverstone-parked-cars-carsde1.webp",
+      "crc32": "de6ce12f",
+      "bytes": 15688,
+      "size": [
+        512,
+        256
+      ],
+      "provenance": {
+        "source_reference": {
+          "path": "build/silverstone-parked-cars/artwork/CARSDE1-original.png",
+          "crc32": "fd312301",
+          "size": [
+            32,
+            16
+          ]
+        },
+        "generator_file": "exec-4514601c-b838-4332-a093-e9508b1c0ddb.png",
+        "generator_crc32": "a0cfdeb5",
+        "generator_size": [
+          1774,
+          887
+        ],
+        "encoding": {
+          "format": "WebP",
+          "quality": 80,
+          "method": 6,
+          "alpha_quality": 100,
+          "mode": "RGBA",
+          "registration": {
+            "generated_main_photo_bbox128": [
+              87,
+              190,
+              1684,
+              794
+            ],
+            "canonical_occupied_bbox_pixels": [
+              2,
+              3,
+              29,
+              15
+            ],
+            "normalized_canvas_registration": [
+              32,
+              48,
+              464,
+              240
+            ],
+            "resampling": "Lanczos",
+            "method": "Fit freshly generated main photograph and connected neighbor fragments into exact canonical occupied bounding box on unchanged2:1 transparent canvas; retain generated internal alpha and smooth silhouette. No original pixel block mask composited."
+          }
+        },
+        "alpha_processing": {
+          "source_rule": "Only exact source RGB(0,0,0) keys out; source non-black tire/glazing pixels are opaque.",
+          "source_black_key_pixels": 253,
+          "generated_alpha": "Built-in transparent-background generation followed by targeted built-in background-extraction correction of concrete grey/checkerboard fringes. Corrected generated alpha retained; remove only near-invisible alpha<16 residue and saturate near-opaque alpha>=250, register/crop photo and Lanczos reduce. No raster source mask or painted replacement matte.",
+          "encoded_alpha_extrema": [
+            0,
+            255
+          ],
+          "encoded_opaque_bbox": [
+            32,
+            48,
+            464,
+            240
+          ],
+          "encoded_fully_transparent_pixels": 70646,
+          "alpha_review": "Decoded WebP alpha inspected separately and composited on neutral opaque grey. Silhouettes are smooth, exterior/inter-car areas transparent; any RGB retained beneath alpha0 by lossy WebP is invisible in compositing/native rendering."
+        }
+      }
+    },
+    {
+      "name": "CARSDE3",
+      "source_bmp_crc32": "836404fd",
+      "source_size": [
+        32,
+        16
+      ],
+      "image": "textures/silverstone-parked-cars-carsde3.webp",
+      "crc32": "757ad171",
+      "bytes": 16320,
+      "size": [
+        512,
+        256
+      ],
+      "provenance": {
+        "source_reference": {
+          "path": "build/silverstone-parked-cars/artwork/CARSDE3-original.png",
+          "crc32": "56af5f58",
+          "size": [
+            32,
+            16
+          ]
+        },
+        "generator_file": "exec-3ada25fa-6ac1-433e-9353-8ff1e1e4c288.png",
+        "generator_crc32": "fee72f00",
+        "generator_size": [
+          1774,
+          887
+        ],
+        "encoding": {
+          "format": "WebP",
+          "quality": 80,
+          "method": 6,
+          "alpha_quality": 100,
+          "mode": "RGBA",
+          "registration": {
+            "generated_main_photo_bbox128": [
+              104,
+              158,
+              1670,
+              799
+            ],
+            "canonical_occupied_bbox_pixels": [
+              2,
+              3,
+              30,
+              15
+            ],
+            "normalized_canvas_registration": [
+              32,
+              48,
+              480,
+              240
+            ],
+            "resampling": "Lanczos",
+            "method": "Fit freshly generated main photograph and connected neighbor fragments into exact canonical occupied bounding box on unchanged2:1 transparent canvas; retain generated internal alpha and smooth silhouette. No original pixel block mask composited."
+          }
+        },
+        "alpha_processing": {
+          "source_rule": "Only exact source RGB(0,0,0) keys out; source non-black tire/glazing pixels are opaque.",
+          "source_black_key_pixels": 251,
+          "generated_alpha": "Built-in transparent-background generation followed by targeted built-in background-extraction correction of concrete grey/checkerboard fringes. Corrected generated alpha retained; remove only near-invisible alpha<16 residue and saturate near-opaque alpha>=250, register/crop photo and Lanczos reduce. No raster source mask or painted replacement matte.",
+          "encoded_alpha_extrema": [
+            0,
+            255
+          ],
+          "encoded_opaque_bbox": [
+            32,
+            48,
+            480,
+            240
+          ],
+          "encoded_fully_transparent_pixels": 72478,
+          "alpha_review": "Decoded WebP alpha inspected separately and composited on neutral opaque grey. Silhouettes are smooth, exterior/inter-car areas transparent; any RGB retained beneath alpha0 by lossy WebP is invisible in compositing/native rendering."
+        }
+      }
+    },
+    {
+      "name": "CARROW2",
+      "source_bmp_crc32": "1570bfb5",
+      "source_size": [
+        128,
+        16
+      ],
+      "image": "textures/silverstone-parked-cars-carrow2.webp",
+      "crc32": "3b8f5729",
+      "bytes": 8932,
+      "size": [
+        512,
+        64
+      ],
+      "provenance": {
+        "source_reference": {
+          "path": "build/silverstone-parked-cars/artwork/CARROW2-original.png",
+          "crc32": "abd10a2e",
+          "size": [
+            128,
+            16
+          ]
+        },
+        "generator_file": "exec-702116e6-8d40-4d6d-87de-efde6b6cc7d0.png",
+        "generator_crc32": "d56f56eb",
+        "generator_size": [
+          2172,
+          724
+        ],
+        "encoding": {
+          "format": "WebP",
+          "quality": 80,
+          "method": 6,
+          "alpha_quality": 100,
+          "mode": "RGBA",
+          "registration": {
+            "presentation_crop_pixels": [
+              0,
+              226,
+              2172,
+              498
+            ],
+            "source_atlas": "Unbroken original8:1 strip; no per-car reordering or repacking.",
+            "resampling": "Lanczos"
+          }
+        },
+        "alpha_processing": {
+          "source_rule": "Only exact source RGB(0,0,0) keys out; source non-black tire/glazing pixels are opaque.",
+          "source_black_key_pixels": 1208,
+          "generated_alpha": "Built-in transparent-background generation followed by targeted built-in background-extraction correction of concrete grey/checkerboard fringes. Corrected generated alpha retained; remove only near-invisible alpha<16 residue and saturate near-opaque alpha>=250, register/crop photo and Lanczos reduce. No raster source mask or painted replacement matte.",
+          "encoded_alpha_extrema": [
+            0,
+            255
+          ],
+          "encoded_opaque_bbox": [
+            13,
+            12,
+            497,
+            61
+          ],
+          "encoded_fully_transparent_pixels": 20093,
+          "alpha_review": "Decoded WebP alpha inspected separately and composited on neutral opaque grey. Silhouettes are smooth, exterior/inter-car areas transparent; any RGB retained beneath alpha0 by lossy WebP is invisible in compositing/native rendering."
+        }
+      }
+    }
+  ],
+  "source_shape": {
+    "type": "fbf92d23",
+    "vertices": 30,
+    "triangles": 28,
+    "source_mesh_crc32": "48b9cbb6",
+    "vertex_records_crc32": "f190fa65",
+    "nodes": [
+      135,
+      137,
+      139
+    ],
+    "roots": [
+      134,
+      136,
+      138
+    ],
+    "contract": "Retain original intersecting photographic planes, ordered positions/normals/UVs/face slots, root transforms, static registration and absence in FREE6/7.",
+    "static_exception": "Photographic parked cars on intersecting alpha-cutout planes; painted tyres have no wheel pivots, steering or selectable Car actor. Preserve this source form rather than applying touring-car wheel/body dimensions."
+  },
+  "source_lods": [
+    {
+      "member": 6,
+      "crc32": "9291d1ba",
+      "present": false
+    },
+    {
+      "member": 7,
+      "crc32": "97e03476",
+      "present": false
+    }
+  ],
+  "source_uv_contract": "CARROW2 is one six-car strip on three segments, same U phase on both sides and original opposite-side V crop to .933350. CARSDE1/3 retain source mid-U .483856/.516129 and the original photographic adjoining fragments."
+}

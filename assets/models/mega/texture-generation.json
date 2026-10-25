@@ -1,0 +1,804 @@
+{
+  "processing": "Crop or inverse-project newly generated artwork into canonical UV islands; downsample to at most512px; lossy WebP quality80, method6, alphaquality100; no original-image upscaling.",
+  "sources": [
+    {
+      "id": "sponsor",
+      "file": "exec-0b912cb8-e345-49e9-973f-86c44374d3a8.png",
+      "crc32": "70cdd981"
+    },
+    {
+      "id": "markers",
+      "file": "exec-56c09563-6313-4043-914f-469348feef9b.png",
+      "crc32": "06a56935"
+    },
+    {
+      "id": "surfaces",
+      "file": "exec-660f2f67-276b-4353-9d60-168249eda160.png",
+      "crc32": "68a1bd79"
+    },
+    {
+      "id": "arrows",
+      "file": "exec-df08ea03-246d-43a8-aca3-cffabe23b765.png",
+      "crc32": "e4047684"
+    },
+    {
+      "id": "foliage",
+      "file": "exec-fdc8b5b2-c8c0-44ef-9f17-7ad16bb23216.png",
+      "crc32": "4448ba33"
+    },
+    {
+      "id": "cone",
+      "file": "exec-fa56c6bc-a8ff-4718-adaf-83e2d1d51d7a.png",
+      "crc32": "62acbef1"
+    },
+    {
+      "id": "painted",
+      "file": "exec-d813cc1e-615f-4bca-adb9-8b7613287428.png",
+      "crc32": "6f3789f2"
+    },
+    {
+      "id": "dhlwhite",
+      "file": "exec-b6cc3b77-6c4b-4935-8e47-d0463df1e4f2.png",
+      "crc32": "82891bb0"
+    },
+    {
+      "id": "dunlop-banner",
+      "file": "exec-a3e27868-747e-4a29-9d55-b7b41cc9c40c.png",
+      "crc32": "91336e13",
+      "size": [
+        2172,
+        724
+      ],
+      "reference": {
+        "archive": "data/donlfree.bfp",
+        "archive_crc32": "46885a20",
+        "member": 5,
+        "member_name": "OBJECTS.C3D",
+        "member_crc32": "5f670bb9",
+        "mesh": "DA16DUN_1",
+        "shared_track_ids": [
+          0,
+          5
+        ],
+        "materials": {
+          "DA16DUN0": "874c7719",
+          "DA16DUN1": "e3c8163f",
+          "DA16DUN4": "dd4a5792",
+          "DA16DUN8": "409bd539",
+          "DA16DUN9": "2301ef84"
+        }
+      }
+    },
+    {
+      "id": "dunlop-support",
+      "file": "exec-9ac2cbc1-8fff-42f9-ba6a-0ed830a35339.png",
+      "crc32": "a1bbe94d",
+      "size": [
+        1254,
+        1254
+      ],
+      "reference": {
+        "archive": "data/donlfree.bfp",
+        "archive_crc32": "46885a20",
+        "member": 5,
+        "member_name": "OBJECTS.C3D",
+        "member_crc32": "5f670bb9",
+        "mesh": "DA16DUN_1",
+        "shared_track_ids": [
+          0,
+          5
+        ],
+        "materials": {
+          "DA16DUN0": "874c7719",
+          "DA16DUN1": "e3c8163f",
+          "DA16DUN4": "dd4a5792",
+          "DA16DUN8": "409bd539",
+          "DA16DUN9": "2301ef84"
+        }
+      }
+    },
+    {
+      "id": "dunlop-whole-arch-9",
+      "file": "DA16DUN9.png",
+      "crc32": "6a498b39",
+      "size": [
+        512,
+        512
+      ],
+      "derived_from": {
+        "file": "exec-def647ff-6e6a-44cb-b3f0-e1bf8a666f9e.png",
+        "crc32": "7f3695eb",
+        "size": [
+          2007,
+          784
+        ]
+      },
+      "packing": {
+        "method": "Inverse affine projection of continuous artwork into canonical triangle UVs; per-vertex clamp [.02,.99], bilinear texel-center sampling and protected base pixels preserved.",
+        "projection": "assets/models/mega/dunlop-arch-projection.json",
+        "projection_crc32": "935bf9d4",
+        "base_source": "dunlop-arch-pair",
+        "base_crop": [
+          887,
+          887,
+          887,
+          0
+        ],
+        "base_size": [
+          512,
+          512
+        ],
+        "base_crc32": "f57697c0",
+        "bleed_radius": 2,
+        "material": "DA16DUN9",
+        "protected_pixels_preserved": true
+      }
+    },
+    {
+      "id": "dunlop-marker-50-repair",
+      "file": "packed.png",
+      "crc32": "70d058af",
+      "size": [
+        512,
+        512
+      ],
+      "derived_from": {
+        "file": "DA16DUN0.png",
+        "crc32": "2836d39f",
+        "size": [
+          512,
+          512
+        ],
+        "derived_from": {
+          "file": "exec-def647ff-6e6a-44cb-b3f0-e1bf8a666f9e.png",
+          "crc32": "7f3695eb",
+          "size": [
+            2007,
+            784
+          ]
+        }
+      },
+      "generated_file": "build/dhl-50-fix/generated.png",
+      "generated_crc32": "3df21eaf",
+      "generated_size": [
+        1254,
+        1254
+      ],
+      "packing": {
+        "base_file": "build/bridge-review/whole-arch/packed/DA16DUN0.png",
+        "base_crc32": "2836d39f",
+        "generated_crop": [
+          214,
+          155,
+          633,
+          9
+        ],
+        "patch_size": [
+          84,
+          64
+        ],
+        "patch_origin": [
+          254,
+          1
+        ],
+        "cleared_rectangle": [
+          250,
+          0,
+          358,
+          69
+        ],
+        "background_rgb": [
+          253,
+          253,
+          253
+        ],
+        "background_processing": "Multiply generated patch RGB by253/255; retain original atlas pixels outside the localized rectangle before encoding."
+      },
+      "reference": {
+        "mesh": "L50_1",
+        "mesh_crc32": "8462a87b",
+        "material": "DA16DUN0",
+        "source_bmp_crc32": "874c7719",
+        "shared_track_ids": [
+          0,
+          5
+        ],
+        "u": [
+          0.4881744384765625,
+          0.669281005859375
+        ],
+        "image_y": [
+          1.52587890625e-05,
+          0.126007080078125
+        ],
+        "original_vertical_clamp_preserved": true
+      }
+    }
+  ],
+  "outputs": [
+    {
+      "image": "textures/castrol.webp",
+      "source": "sponsor",
+      "crop": [
+        627,
+        154,
+        0,
+        0
+      ],
+      "size": [
+        512,
+        128
+      ],
+      "crc32": "32fd548f",
+      "bytes": 11966
+    },
+    {
+      "image": "textures/dunlop.webp",
+      "source": "sponsor",
+      "crop": [
+        627,
+        154,
+        627,
+        0
+      ],
+      "size": [
+        512,
+        128
+      ],
+      "crc32": "d9dec3f0",
+      "bytes": 10564
+    },
+    {
+      "image": "textures/autotrader.webp",
+      "source": "sponsor",
+      "crop": [
+        627,
+        154,
+        0,
+        154
+      ],
+      "size": [
+        512,
+        128
+      ],
+      "crc32": "18ec715a",
+      "bytes": 11426
+    },
+    {
+      "image": "textures/ldv.webp",
+      "source": "sponsor",
+      "crop": [
+        627,
+        154,
+        627,
+        154
+      ],
+      "size": [
+        256,
+        128
+      ],
+      "crc32": "94c90c40",
+      "bytes": 4396
+    },
+    {
+      "image": "textures/mcn.webp",
+      "source": "sponsor",
+      "crop": [
+        627,
+        152,
+        0,
+        308
+      ],
+      "size": [
+        256,
+        128
+      ],
+      "crc32": "6b6ca891",
+      "bytes": 4990
+    },
+    {
+      "image": "textures/pirelli.webp",
+      "source": "sponsor",
+      "crop": [
+        627,
+        152,
+        627,
+        308
+      ],
+      "size": [
+        512,
+        128
+      ],
+      "crc32": "7663a28d",
+      "bytes": 7378
+    },
+    {
+      "image": "textures/avon.webp",
+      "source": "sponsor",
+      "crop": [
+        627,
+        153,
+        0,
+        460
+      ],
+      "size": [
+        512,
+        128
+      ],
+      "crc32": "d5dab6a2",
+      "bytes": 7416
+    },
+    {
+      "image": "textures/ferodo.webp",
+      "source": "sponsor",
+      "crop": [
+        627,
+        153,
+        627,
+        460
+      ],
+      "size": [
+        512,
+        128
+      ],
+      "crc32": "fd07dae0",
+      "bytes": 8252
+    },
+    {
+      "image": "textures/snap-on.webp",
+      "source": "sponsor",
+      "crop": [
+        627,
+        155,
+        0,
+        613
+      ],
+      "size": [
+        256,
+        128
+      ],
+      "crc32": "36d40cd6",
+      "bytes": 6906
+    },
+    {
+      "image": "textures/hankook.webp",
+      "source": "sponsor",
+      "crop": [
+        627,
+        155,
+        627,
+        613
+      ],
+      "size": [
+        256,
+        128
+      ],
+      "crc32": "54f887cb",
+      "bytes": 6410
+    },
+    {
+      "image": "textures/ordnance-survey.webp",
+      "source": "sponsor",
+      "crop": [
+        627,
+        156,
+        0,
+        768
+      ],
+      "size": [
+        512,
+        128
+      ],
+      "crc32": "f7aac669",
+      "bytes": 9946
+    },
+    {
+      "image": "textures/mobil.webp",
+      "source": "sponsor",
+      "crop": [
+        627,
+        156,
+        627,
+        768
+      ],
+      "size": [
+        512,
+        128
+      ],
+      "crc32": "04f9a13f",
+      "bytes": 8266
+    },
+    {
+      "image": "textures/dhl.webp",
+      "source": "dhlwhite",
+      "crop": [
+        2048,
+        400,
+        0,
+        140
+      ],
+      "size": [
+        512,
+        128
+      ],
+      "crc32": "fd43714a",
+      "bytes": 3728
+    },
+    {
+      "image": "textures/snap-on-wide.webp",
+      "source": "sponsor",
+      "crop": [
+        627,
+        155,
+        0,
+        613
+      ],
+      "size": [
+        512,
+        128
+      ],
+      "crc32": "0ec848fc",
+      "bytes": 10754
+    },
+    {
+      "image": "textures/marker-200.webp",
+      "source": "markers",
+      "crop": [
+        627,
+        314,
+        0,
+        0
+      ],
+      "size": [
+        256,
+        128
+      ],
+      "crc32": "54a91edd",
+      "bytes": 4992
+    },
+    {
+      "image": "textures/marker-100.webp",
+      "source": "markers",
+      "crop": [
+        627,
+        314,
+        627,
+        0
+      ],
+      "size": [
+        256,
+        128
+      ],
+      "crc32": "3fe3a1a5",
+      "bytes": 4584
+    },
+    {
+      "image": "textures/marker-50.webp",
+      "source": "markers",
+      "crop": [
+        627,
+        314,
+        0,
+        314
+      ],
+      "size": [
+        256,
+        128
+      ],
+      "crc32": "51bef962",
+      "bytes": 4248
+    },
+    {
+      "image": "textures/marker-pit.webp",
+      "source": "markers",
+      "crop": [
+        627,
+        314,
+        627,
+        314
+      ],
+      "size": [
+        256,
+        128
+      ],
+      "crc32": "f8d7e342",
+      "bytes": 3628
+    },
+    {
+      "image": "textures/arrow-hairpin.webp",
+      "source": "arrows",
+      "crop": [
+        627,
+        627,
+        0,
+        0
+      ],
+      "size": [
+        256,
+        256
+      ],
+      "crc32": "cb18efb2",
+      "bytes": 4058
+    },
+    {
+      "image": "textures/arrow-left.webp",
+      "source": "arrows",
+      "crop": [
+        627,
+        627,
+        627,
+        0
+      ],
+      "size": [
+        256,
+        256
+      ],
+      "crc32": "922e880b",
+      "bytes": 3936
+    },
+    {
+      "image": "textures/arrow-bend.webp",
+      "source": "arrows",
+      "crop": [
+        627,
+        627,
+        0,
+        627
+      ],
+      "size": [
+        256,
+        256
+      ],
+      "crc32": "247f1869",
+      "bytes": 4360
+    },
+    {
+      "image": "textures/dunlop-bridge-left.webp",
+      "source": "dunlop-marker-50-repair",
+      "crop": [
+        512,
+        512,
+        0,
+        0
+      ],
+      "size": [
+        512,
+        512
+      ],
+      "alpha": "opaque",
+      "registration": "Accepted whole-arch projection retained; only50 numerals registered inside unchanged L50_1 UV footprint. Original vertical registration/clamp retained.",
+      "crc32": "859e8045",
+      "bytes": 22806
+    },
+    {
+      "image": "textures/dunlop-bridge-right.webp",
+      "source": "dunlop-whole-arch-9",
+      "crop": [
+        512,
+        512,
+        0,
+        0
+      ],
+      "size": [
+        512,
+        512
+      ],
+      "alpha": "opaque",
+      "registration": "One continuous full arch inverse-projected through original clamped UVs; no independent AI half and no raw image-edge split.",
+      "crc32": "045cd6bc",
+      "bytes": 29394
+    },
+    {
+      "image": "textures/cone-bands.webp",
+      "source": "cone",
+      "crop": [
+        1254,
+        1254,
+        0,
+        0
+      ],
+      "size": [
+        512,
+        512
+      ],
+      "crc32": "45a2fec7",
+      "bytes": 61872
+    },
+    {
+      "image": "textures/tyres-side.webp",
+      "source": "surfaces",
+      "crop": [
+        1254,
+        244,
+        0,
+        0
+      ],
+      "size": [
+        512,
+        128
+      ],
+      "crc32": "46d22d0d",
+      "bytes": 9730
+    },
+    {
+      "image": "textures/tyres-top.webp",
+      "source": "surfaces",
+      "crop": [
+        1254,
+        404,
+        0,
+        244
+      ],
+      "size": [
+        512,
+        128
+      ],
+      "crc32": "6afe0836",
+      "bytes": 7922
+    },
+    {
+      "image": "textures/fence-green.webp",
+      "source": "foliage",
+      "crop": [
+        1278,
+        308,
+        0,
+        922
+      ],
+      "size": [
+        512,
+        256
+      ],
+      "crc32": "19947af5",
+      "bytes": 31552
+    },
+    {
+      "image": "textures/tyres-yellow-side.webp",
+      "source": "painted",
+      "crop": [
+        887,
+        220,
+        0,
+        447
+      ],
+      "size": [
+        512,
+        128
+      ],
+      "crc32": "df53ec48",
+      "bytes": 23394
+    },
+    {
+      "image": "textures/tyres-yellow-top.webp",
+      "source": "painted",
+      "crop": [
+        887,
+        220,
+        887,
+        447
+      ],
+      "size": [
+        512,
+        128
+      ],
+      "crc32": "c28e1fc9",
+      "bytes": 20254
+    },
+    {
+      "image": "textures/tyres-green-side.webp",
+      "source": "painted",
+      "crop": [
+        887,
+        220,
+        0,
+        667
+      ],
+      "size": [
+        512,
+        128
+      ],
+      "crc32": "af9ae4cb",
+      "bytes": 13784
+    },
+    {
+      "image": "textures/tyres-green-top.webp",
+      "source": "painted",
+      "crop": [
+        887,
+        220,
+        887,
+        667
+      ],
+      "size": [
+        512,
+        128
+      ],
+      "crc32": "2de7bc86",
+      "bytes": 12602
+    },
+    {
+      "image": "textures/rail-blue-tall.webp",
+      "source": "surfaces",
+      "crop": [
+        1254,
+        332,
+        0,
+        648
+      ],
+      "size": [
+        512,
+        256
+      ],
+      "crc32": "a347837a",
+      "bytes": 17724
+    },
+    {
+      "image": "textures/rail-white-tall.webp",
+      "source": "surfaces",
+      "crop": [
+        1254,
+        274,
+        0,
+        980
+      ],
+      "size": [
+        512,
+        256
+      ],
+      "crc32": "0af451b9",
+      "bytes": 26252
+    },
+    {
+      "image": "textures/dunlop-bridge-banner-left.webp",
+      "source": "dunlop-banner",
+      "crop": [
+        1086,
+        266,
+        0,
+        229
+      ],
+      "size": [
+        512,
+        128
+      ],
+      "alpha": "opaque",
+      "crc32": "44b2640a",
+      "bytes": 8654
+    },
+    {
+      "image": "textures/dunlop-bridge-banner-right.webp",
+      "source": "dunlop-banner",
+      "crop": [
+        1086,
+        266,
+        1086,
+        229
+      ],
+      "size": [
+        512,
+        128
+      ],
+      "alpha": "opaque",
+      "crc32": "19994f81",
+      "bytes": 8430
+    },
+    {
+      "image": "textures/dunlop-bridge-support.webp",
+      "source": "dunlop-support",
+      "crop": [
+        1254,
+        1254,
+        0,
+        0
+      ],
+      "size": [
+        256,
+        256
+      ],
+      "alpha": "opaque",
+      "crc32": "28d2e51b",
+      "bytes": 5692
+    }
+  ],
+  "webp_quality": 80
+}

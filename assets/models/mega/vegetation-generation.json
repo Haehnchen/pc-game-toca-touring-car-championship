@@ -1,0 +1,5465 @@
+{
+  "version": 1,
+  "webp_quality": 80,
+  "sources": [
+    {
+      "id": "LHRTS4-donington",
+      "file": "exec-3531cd65-3865-4b85-9d9e-001cc5703772.png",
+      "crc32": "1bd1fc74",
+      "size": [
+        1254,
+        1254
+      ],
+      "reference": {
+        "names": [
+          "LHRTS4"
+        ],
+        "size": [
+          64,
+          64
+        ],
+        "bmp_crc32": [
+          "4cff410e"
+        ],
+        "uses": [
+          {
+            "track": 0,
+            "archive": "data/donlfree.bfp",
+            "archive_crc32": "46885a20",
+            "member": 5,
+            "member_name": "OBJECTS.C3D",
+            "member_crc32": "5f670bb9",
+            "material_slot": 67
+          },
+          {
+            "track": 5,
+            "archive": "data/donsfree.bfp",
+            "archive_crc32": "f07db8b7",
+            "member": 5,
+            "member_name": "OBJECTS.C3D",
+            "member_crc32": "f60fd8a0",
+            "material_slot": 67
+          }
+        ]
+      }
+    },
+    {
+      "id": "LHRTS4-donington-framed",
+      "file": "lhrts4-donington-framed.png",
+      "crc32": "3905e1c7",
+      "size": [
+        512,
+        512
+      ],
+      "derived_from": "LHRTS4-donington",
+      "preparation": {
+        "source_crop": [
+          1140,
+          1187,
+          62,
+          33
+        ],
+        "framing": {
+          "canvas": [
+            512,
+            512
+          ],
+          "image_rect": [
+            40,
+            32,
+            408,
+            480
+          ],
+          "reason": "Match exact original alpha bounding rectangle (5,4)-(56,64) normalized to512²; crop only generated alpha fringe, resize generated pixels, transparent canvas."
+        }
+      },
+      "reference": {
+        "names": [
+          "LHRTS4"
+        ],
+        "size": [
+          64,
+          64
+        ],
+        "bmp_crc32": [
+          "4cff410e"
+        ],
+        "uses": [
+          {
+            "track": 0,
+            "archive": "data/donlfree.bfp",
+            "archive_crc32": "46885a20",
+            "member": 5,
+            "member_name": "OBJECTS.C3D",
+            "member_crc32": "5f670bb9",
+            "material_slot": 67
+          },
+          {
+            "track": 5,
+            "archive": "data/donsfree.bfp",
+            "archive_crc32": "f07db8b7",
+            "member": 5,
+            "member_name": "OBJECTS.C3D",
+            "member_crc32": "f60fd8a0",
+            "material_slot": 67
+          }
+        ]
+      }
+    },
+    {
+      "id": "LHRTS4-silverstone",
+      "file": "exec-58f20958-e201-4107-a42d-bce40dabdf07.png",
+      "crc32": "ddb94e05",
+      "size": [
+        1254,
+        1254
+      ],
+      "reference": {
+        "names": [
+          "LHRTS4"
+        ],
+        "size": [
+          64,
+          64
+        ],
+        "bmp_crc32": [
+          "329fd920"
+        ],
+        "uses": [
+          {
+            "track": 1,
+            "archive": "data/silvfree.bfp",
+            "archive_crc32": "960a335c",
+            "member": 5,
+            "member_name": "OBJECTS.C3D",
+            "member_crc32": "a92b3b70",
+            "material_slot": 116
+          }
+        ]
+      }
+    },
+    {
+      "id": "LHRTS4-silverstone-framed",
+      "file": "lhrts4-silverstone-framed.png",
+      "crc32": "3f4b2369",
+      "size": [
+        512,
+        512
+      ],
+      "derived_from": "LHRTS4-silverstone",
+      "preparation": {
+        "source_crop": [
+          1148,
+          1194,
+          58,
+          34
+        ],
+        "framing": {
+          "canvas": [
+            512,
+            512
+          ],
+          "image_rect": [
+            40,
+            32,
+            408,
+            480
+          ],
+          "reason": "Match original source alpha bounding rectangle normalized to512²; crop faint generated alpha fringe, resize generated pixels, transparent canvas."
+        }
+      },
+      "reference": {
+        "names": [
+          "LHRTS4"
+        ],
+        "size": [
+          64,
+          64
+        ],
+        "bmp_crc32": [
+          "329fd920"
+        ],
+        "uses": [
+          {
+            "track": 1,
+            "archive": "data/silvfree.bfp",
+            "archive_crc32": "960a335c",
+            "member": 5,
+            "member_name": "OBJECTS.C3D",
+            "member_crc32": "a92b3b70",
+            "material_slot": 116
+          }
+        ]
+      }
+    },
+    {
+      "id": "LHRTS4-thruxton",
+      "file": "exec-d96a20f9-faa8-4ca2-afb4-bb4f4bec9716.png",
+      "crc32": "f9368272",
+      "size": [
+        1254,
+        1254
+      ],
+      "reference": {
+        "names": [
+          "LHRTS4"
+        ],
+        "size": [
+          64,
+          64
+        ],
+        "bmp_crc32": [
+          "d34a49bb"
+        ],
+        "uses": [
+          {
+            "track": 2,
+            "archive": "data/thrufree.bfp",
+            "archive_crc32": "473c8fe8",
+            "member": 5,
+            "member_name": "OBJECTS.C3D",
+            "member_crc32": "a17b2723",
+            "material_slot": 79
+          }
+        ]
+      }
+    },
+    {
+      "id": "LHRTS4-thruxton-framed",
+      "file": "lhrts4-thruxton-framed.png",
+      "crc32": "a21fa8b0",
+      "size": [
+        512,
+        512
+      ],
+      "derived_from": "LHRTS4-thruxton",
+      "preparation": {
+        "source_crop": [
+          1150,
+          1211,
+          59,
+          22
+        ],
+        "framing": {
+          "canvas": [
+            512,
+            512
+          ],
+          "image_rect": [
+            40,
+            32,
+            408,
+            480
+          ],
+          "reason": "Match original source alpha bounding rectangle normalized to512²; crop faint generated alpha fringe, resize generated pixels, transparent canvas."
+        }
+      },
+      "reference": {
+        "names": [
+          "LHRTS4"
+        ],
+        "size": [
+          64,
+          64
+        ],
+        "bmp_crc32": [
+          "d34a49bb"
+        ],
+        "uses": [
+          {
+            "track": 2,
+            "archive": "data/thrufree.bfp",
+            "archive_crc32": "473c8fe8",
+            "member": 5,
+            "member_name": "OBJECTS.C3D",
+            "member_crc32": "a17b2723",
+            "material_slot": 79
+          }
+        ]
+      }
+    },
+    {
+      "id": "LHRTS4-brands-hatch",
+      "file": "exec-52c3e510-3132-49af-a3ca-c0986d34bbf2.png",
+      "crc32": "7bda0c5b",
+      "size": [
+        1254,
+        1254
+      ],
+      "reference": {
+        "names": [
+          "LHRTS4"
+        ],
+        "size": [
+          64,
+          64
+        ],
+        "bmp_crc32": [
+          "9382b6a6"
+        ],
+        "uses": [
+          {
+            "track": 3,
+            "archive": "data/branfree.bfp",
+            "archive_crc32": "ecc577c7",
+            "member": 5,
+            "member_name": "OBJECTS.C3D",
+            "member_crc32": "90ddbd12",
+            "material_slot": 133
+          }
+        ]
+      }
+    },
+    {
+      "id": "LHRTS4-brands-hatch-framed",
+      "file": "lhrts4-brands-hatch-framed.png",
+      "crc32": "1fb27678",
+      "size": [
+        512,
+        512
+      ],
+      "derived_from": "LHRTS4-brands-hatch",
+      "preparation": {
+        "source_crop": [
+          1111,
+          1186,
+          75,
+          41
+        ],
+        "framing": {
+          "canvas": [
+            512,
+            512
+          ],
+          "image_rect": [
+            40,
+            32,
+            408,
+            480
+          ],
+          "reason": "Match original source alpha bounding rectangle normalized to512²; crop faint generated alpha fringe, resize generated pixels, transparent canvas."
+        }
+      },
+      "reference": {
+        "names": [
+          "LHRTS4"
+        ],
+        "size": [
+          64,
+          64
+        ],
+        "bmp_crc32": [
+          "9382b6a6"
+        ],
+        "uses": [
+          {
+            "track": 3,
+            "archive": "data/branfree.bfp",
+            "archive_crc32": "ecc577c7",
+            "member": 5,
+            "member_name": "OBJECTS.C3D",
+            "member_crc32": "90ddbd12",
+            "material_slot": 133
+          }
+        ]
+      }
+    },
+    {
+      "id": "LHRTS4-oulton-park",
+      "file": "exec-d9fc2e48-91d8-421a-b606-83ded06f79c6.png",
+      "crc32": "b51fa73e",
+      "size": [
+        1254,
+        1254
+      ],
+      "reference": {
+        "names": [
+          "LHRTS4"
+        ],
+        "size": [
+          64,
+          64
+        ],
+        "bmp_crc32": [
+          "bfcd58a8"
+        ],
+        "uses": [
+          {
+            "track": 4,
+            "archive": "data/oultfree.bfp",
+            "archive_crc32": "e6e258cb",
+            "member": 5,
+            "member_name": "OBJECTS.C3D",
+            "member_crc32": "5ad0e21a",
+            "material_slot": 92
+          }
+        ]
+      }
+    },
+    {
+      "id": "LHRTS4-oulton-park-framed",
+      "file": "lhrts4-oulton-park-framed.png",
+      "crc32": "ac17fd59",
+      "size": [
+        512,
+        512
+      ],
+      "derived_from": "LHRTS4-oulton-park",
+      "preparation": {
+        "source_crop": [
+          1113,
+          1177,
+          91,
+          50
+        ],
+        "framing": {
+          "canvas": [
+            512,
+            512
+          ],
+          "image_rect": [
+            40,
+            32,
+            408,
+            480
+          ],
+          "reason": "Match original source alpha bounding rectangle normalized to512²; crop faint generated alpha fringe, resize generated pixels, transparent canvas."
+        }
+      },
+      "reference": {
+        "names": [
+          "LHRTS4"
+        ],
+        "size": [
+          64,
+          64
+        ],
+        "bmp_crc32": [
+          "bfcd58a8"
+        ],
+        "uses": [
+          {
+            "track": 4,
+            "archive": "data/oultfree.bfp",
+            "archive_crc32": "e6e258cb",
+            "member": 5,
+            "member_name": "OBJECTS.C3D",
+            "member_crc32": "5ad0e21a",
+            "material_slot": 92
+          }
+        ]
+      }
+    },
+    {
+      "id": "LHRTS4-croft",
+      "file": "exec-a2e8439e-c05a-492f-92de-5ab48b98b952.png",
+      "crc32": "ef44b73a",
+      "size": [
+        1254,
+        1254
+      ],
+      "reference": {
+        "names": [
+          "LHRTS4"
+        ],
+        "size": [
+          64,
+          64
+        ],
+        "bmp_crc32": [
+          "259a6c1a"
+        ],
+        "uses": [
+          {
+            "track": 6,
+            "archive": "data/croffree.bfp",
+            "archive_crc32": "e4399113",
+            "member": 5,
+            "member_name": "OBJECTS.C3D",
+            "member_crc32": "93406c70",
+            "material_slot": 71
+          }
+        ]
+      }
+    },
+    {
+      "id": "LHRTS4-croft-framed",
+      "file": "lhrts4-croft-framed.png",
+      "crc32": "06636016",
+      "size": [
+        512,
+        512
+      ],
+      "derived_from": "LHRTS4-croft",
+      "preparation": {
+        "source_crop": [
+          1112,
+          1230,
+          80,
+          12
+        ],
+        "framing": {
+          "canvas": [
+            512,
+            512
+          ],
+          "image_rect": [
+            40,
+            32,
+            408,
+            480
+          ],
+          "reason": "Match original source alpha bounding rectangle normalized to512²; crop faint generated alpha fringe, resize generated pixels, transparent canvas."
+        }
+      },
+      "reference": {
+        "names": [
+          "LHRTS4"
+        ],
+        "size": [
+          64,
+          64
+        ],
+        "bmp_crc32": [
+          "259a6c1a"
+        ],
+        "uses": [
+          {
+            "track": 6,
+            "archive": "data/croffree.bfp",
+            "archive_crc32": "e4399113",
+            "member": 5,
+            "member_name": "OBJECTS.C3D",
+            "member_crc32": "93406c70",
+            "material_slot": 71
+          }
+        ]
+      }
+    },
+    {
+      "id": "LHRTS4-knockhill",
+      "file": "exec-3830cd35-9d95-43ea-974e-85fc5119d55c.png",
+      "crc32": "f65b5a17",
+      "size": [
+        1254,
+        1254
+      ],
+      "reference": {
+        "names": [
+          "LHRTS4"
+        ],
+        "size": [
+          64,
+          64
+        ],
+        "bmp_crc32": [
+          "6ba1b357"
+        ],
+        "uses": [
+          {
+            "track": 7,
+            "archive": "data/knocfree.bfp",
+            "archive_crc32": "7e00bade",
+            "member": 5,
+            "member_name": "OBJECTS.C3D",
+            "member_crc32": "24a4dac8",
+            "material_slot": 58
+          }
+        ]
+      }
+    },
+    {
+      "id": "LHRTS4-knockhill-framed",
+      "file": "lhrts4-knockhill-framed.png",
+      "crc32": "3e99f007",
+      "size": [
+        512,
+        512
+      ],
+      "derived_from": "LHRTS4-knockhill",
+      "preparation": {
+        "source_crop": [
+          1213,
+          1208,
+          25,
+          24
+        ],
+        "framing": {
+          "canvas": [
+            512,
+            512
+          ],
+          "image_rect": [
+            40,
+            32,
+            408,
+            480
+          ],
+          "reason": "Match original source alpha bounding rectangle normalized to512²; crop faint generated alpha fringe, resize generated pixels, transparent canvas."
+        }
+      },
+      "reference": {
+        "names": [
+          "LHRTS4"
+        ],
+        "size": [
+          64,
+          64
+        ],
+        "bmp_crc32": [
+          "6ba1b357"
+        ],
+        "uses": [
+          {
+            "track": 7,
+            "archive": "data/knocfree.bfp",
+            "archive_crc32": "7e00bade",
+            "member": 5,
+            "member_name": "OBJECTS.C3D",
+            "member_crc32": "24a4dac8",
+            "material_slot": 58
+          }
+        ]
+      }
+    },
+    {
+      "id": "LHRTS4-snetterton",
+      "file": "exec-11639867-1d06-4b1d-b5f5-392554e498da.png",
+      "crc32": "0016f649",
+      "size": [
+        1254,
+        1254
+      ],
+      "reference": {
+        "names": [
+          "LHRTS4"
+        ],
+        "size": [
+          64,
+          64
+        ],
+        "bmp_crc32": [
+          "9418c826"
+        ],
+        "uses": [
+          {
+            "track": 8,
+            "archive": "data/snetfree.bfp",
+            "archive_crc32": "4111866a",
+            "member": 5,
+            "member_name": "OBJECTS.C3D",
+            "member_crc32": "d5bdef63",
+            "material_slot": 158
+          }
+        ]
+      }
+    },
+    {
+      "id": "LHRTS4-snetterton-framed",
+      "file": "lhrts4-snetterton-framed.png",
+      "crc32": "03c95dc3",
+      "size": [
+        512,
+        512
+      ],
+      "derived_from": "LHRTS4-snetterton",
+      "preparation": {
+        "source_crop": [
+          1137,
+          1213,
+          68,
+          28
+        ],
+        "framing": {
+          "canvas": [
+            512,
+            512
+          ],
+          "image_rect": [
+            40,
+            32,
+            408,
+            480
+          ],
+          "reason": "Match original source alpha bounding rectangle normalized to512²; crop faint generated alpha fringe, resize generated pixels, transparent canvas."
+        }
+      },
+      "reference": {
+        "names": [
+          "LHRTS4"
+        ],
+        "size": [
+          64,
+          64
+        ],
+        "bmp_crc32": [
+          "9418c826"
+        ],
+        "uses": [
+          {
+            "track": 8,
+            "archive": "data/snetfree.bfp",
+            "archive_crc32": "4111866a",
+            "member": 5,
+            "member_name": "OBJECTS.C3D",
+            "member_crc32": "d5bdef63",
+            "material_slot": 158
+          }
+        ]
+      }
+    },
+    {
+      "id": "LHRTS4-bark",
+      "file": "exec-9fae84eb-dd7a-4f19-b26c-2261eda4041c.png",
+      "crc32": "f3b4b89e",
+      "size": [
+        1254,
+        1254
+      ],
+      "reference": {
+        "names": [
+          "LHRTS4"
+        ],
+        "size": [
+          64,
+          64
+        ],
+        "bmp_crc32": [
+          "4cff410e"
+        ],
+        "uses": [
+          {
+            "track": 0,
+            "archive": "data/donlfree.bfp",
+            "archive_crc32": "46885a20",
+            "member": 5,
+            "member_name": "OBJECTS.C3D",
+            "member_crc32": "5f670bb9",
+            "material_slot": 67
+          },
+          {
+            "track": 5,
+            "archive": "data/donsfree.bfp",
+            "archive_crc32": "f07db8b7",
+            "member": 5,
+            "member_name": "OBJECTS.C3D",
+            "member_crc32": "f60fd8a0",
+            "material_slot": 67
+          }
+        ]
+      }
+    },
+    {
+      "id": "LHRTS4-bark-framed",
+      "file": "lhrts4-bark-framed.png",
+      "crc32": "6311cb00",
+      "size": [
+        256,
+        256
+      ],
+      "derived_from": "LHRTS4-bark",
+      "preparation": {
+        "source_crop": [
+          1254,
+          1254,
+          0,
+          0
+        ],
+        "framing": {
+          "canvas": [
+            256,
+            256
+          ],
+          "image_rect": [
+            0,
+            0,
+            256,
+            256
+          ],
+          "reason": "Generated motif fitted to original alpha bounds; bark fills entire appended slot."
+        }
+      },
+      "reference": {
+        "names": [
+          "LHRTS4"
+        ],
+        "size": [
+          64,
+          64
+        ],
+        "bmp_crc32": [
+          "4cff410e"
+        ],
+        "uses": [
+          {
+            "track": 0,
+            "archive": "data/donlfree.bfp",
+            "archive_crc32": "46885a20",
+            "member": 5,
+            "member_name": "OBJECTS.C3D",
+            "member_crc32": "5f670bb9",
+            "material_slot": 67
+          },
+          {
+            "track": 5,
+            "archive": "data/donsfree.bfp",
+            "archive_crc32": "f07db8b7",
+            "member": 5,
+            "member_name": "OBJECTS.C3D",
+            "member_crc32": "f60fd8a0",
+            "material_slot": 67
+          }
+        ]
+      }
+    },
+    {
+      "id": "MegaTreeLeaf-donington",
+      "file": "exec-8c559d2f-0ce7-4d0e-9615-a975ded9dd76.png",
+      "crc32": "b315078a",
+      "size": [
+        1254,
+        1254
+      ],
+      "reference": {
+        "names": [
+          "LHRTS4"
+        ],
+        "size": [
+          64,
+          64
+        ],
+        "bmp_crc32": [
+          "4cff410e"
+        ],
+        "uses": [
+          {
+            "track": 0,
+            "archive": "data/donlfree.bfp",
+            "archive_crc32": "46885a20",
+            "member": 5,
+            "member_name": "OBJECTS.C3D",
+            "member_crc32": "5f670bb9",
+            "material_slot": 67
+          },
+          {
+            "track": 5,
+            "archive": "data/donsfree.bfp",
+            "archive_crc32": "f07db8b7",
+            "member": 5,
+            "member_name": "OBJECTS.C3D",
+            "member_crc32": "f60fd8a0",
+            "material_slot": 67
+          }
+        ]
+      }
+    },
+    {
+      "id": "MegaTreeLeaf-donington-framed",
+      "file": "leaf-donington-framed.png",
+      "crc32": "e002cada",
+      "size": [
+        512,
+        512
+      ],
+      "derived_from": "MegaTreeLeaf-donington",
+      "preparation": {
+        "source_crop": [
+          1190,
+          861,
+          37,
+          192
+        ],
+        "framing": {
+          "canvas": [
+            512,
+            512
+          ],
+          "image_rect": [
+            26,
+            89,
+            460,
+            333
+          ],
+          "reason": "Preserve generated connected foliage cluster aspect; fit its alpha bounds within460x460 pixels, leaving at least26px transparent reserve on every side."
+        }
+      },
+      "reference": {
+        "names": [
+          "LHRTS4"
+        ],
+        "size": [
+          64,
+          64
+        ],
+        "bmp_crc32": [
+          "4cff410e"
+        ],
+        "uses": [
+          {
+            "track": 0,
+            "archive": "data/donlfree.bfp",
+            "archive_crc32": "46885a20",
+            "member": 5,
+            "member_name": "OBJECTS.C3D",
+            "member_crc32": "5f670bb9",
+            "material_slot": 67
+          },
+          {
+            "track": 5,
+            "archive": "data/donsfree.bfp",
+            "archive_crc32": "f07db8b7",
+            "member": 5,
+            "member_name": "OBJECTS.C3D",
+            "member_crc32": "f60fd8a0",
+            "material_slot": 67
+          }
+        ]
+      }
+    },
+    {
+      "id": "MegaTreeLeaf-silverstone",
+      "file": "exec-a6ad2221-25c9-4656-b629-e032e4b783ea.png",
+      "crc32": "fd81c405",
+      "size": [
+        1254,
+        1254
+      ],
+      "reference": {
+        "names": [
+          "LHRTS4"
+        ],
+        "size": [
+          64,
+          64
+        ],
+        "bmp_crc32": [
+          "329fd920"
+        ],
+        "uses": [
+          {
+            "track": 1,
+            "archive": "data/silvfree.bfp",
+            "archive_crc32": "960a335c",
+            "member": 5,
+            "member_name": "OBJECTS.C3D",
+            "member_crc32": "a92b3b70",
+            "material_slot": 116
+          }
+        ]
+      }
+    },
+    {
+      "id": "MegaTreeLeaf-silverstone-framed",
+      "file": "leaf-silverstone-framed.png",
+      "crc32": "c087e30d",
+      "size": [
+        512,
+        512
+      ],
+      "derived_from": "MegaTreeLeaf-silverstone",
+      "preparation": {
+        "source_crop": [
+          1202,
+          928,
+          32,
+          151
+        ],
+        "framing": {
+          "canvas": [
+            512,
+            512
+          ],
+          "image_rect": [
+            26,
+            78,
+            460,
+            355
+          ],
+          "reason": "Preserve generated connected foliage cluster aspect; fit its alpha bounds within460x460 pixels, leaving at least26px transparent reserve on every side."
+        }
+      },
+      "reference": {
+        "names": [
+          "LHRTS4"
+        ],
+        "size": [
+          64,
+          64
+        ],
+        "bmp_crc32": [
+          "329fd920"
+        ],
+        "uses": [
+          {
+            "track": 1,
+            "archive": "data/silvfree.bfp",
+            "archive_crc32": "960a335c",
+            "member": 5,
+            "member_name": "OBJECTS.C3D",
+            "member_crc32": "a92b3b70",
+            "material_slot": 116
+          }
+        ]
+      }
+    },
+    {
+      "id": "MegaTreeLeaf-thruxton",
+      "file": "exec-6e11e172-c5e8-4d23-90a5-0f5c599f239a.png",
+      "crc32": "7ea49e43",
+      "size": [
+        1254,
+        1254
+      ],
+      "reference": {
+        "names": [
+          "LHRTS4"
+        ],
+        "size": [
+          64,
+          64
+        ],
+        "bmp_crc32": [
+          "d34a49bb"
+        ],
+        "uses": [
+          {
+            "track": 2,
+            "archive": "data/thrufree.bfp",
+            "archive_crc32": "473c8fe8",
+            "member": 5,
+            "member_name": "OBJECTS.C3D",
+            "member_crc32": "a17b2723",
+            "material_slot": 79
+          }
+        ]
+      }
+    },
+    {
+      "id": "MegaTreeLeaf-thruxton-framed",
+      "file": "leaf-thruxton-framed.png",
+      "crc32": "6fbf788e",
+      "size": [
+        512,
+        512
+      ],
+      "derived_from": "MegaTreeLeaf-thruxton",
+      "preparation": {
+        "source_crop": [
+          1200,
+          889,
+          29,
+          183
+        ],
+        "framing": {
+          "canvas": [
+            512,
+            512
+          ],
+          "image_rect": [
+            26,
+            85,
+            460,
+            341
+          ],
+          "reason": "Preserve generated connected foliage cluster aspect; fit its alpha bounds within460x460 pixels, leaving at least26px transparent reserve on every side."
+        }
+      },
+      "reference": {
+        "names": [
+          "LHRTS4"
+        ],
+        "size": [
+          64,
+          64
+        ],
+        "bmp_crc32": [
+          "d34a49bb"
+        ],
+        "uses": [
+          {
+            "track": 2,
+            "archive": "data/thrufree.bfp",
+            "archive_crc32": "473c8fe8",
+            "member": 5,
+            "member_name": "OBJECTS.C3D",
+            "member_crc32": "a17b2723",
+            "material_slot": 79
+          }
+        ]
+      }
+    },
+    {
+      "id": "MegaTreeLeaf-brands-hatch",
+      "file": "exec-45be43a1-d056-4c42-a660-86ec3467bf6b.png",
+      "crc32": "545c2549",
+      "size": [
+        1254,
+        1254
+      ],
+      "reference": {
+        "names": [
+          "LHRTS4"
+        ],
+        "size": [
+          64,
+          64
+        ],
+        "bmp_crc32": [
+          "9382b6a6"
+        ],
+        "uses": [
+          {
+            "track": 3,
+            "archive": "data/branfree.bfp",
+            "archive_crc32": "ecc577c7",
+            "member": 5,
+            "member_name": "OBJECTS.C3D",
+            "member_crc32": "90ddbd12",
+            "material_slot": 133
+          }
+        ]
+      }
+    },
+    {
+      "id": "MegaTreeLeaf-brands-hatch-framed",
+      "file": "leaf-brands-hatch-framed.png",
+      "crc32": "ca0c247e",
+      "size": [
+        512,
+        512
+      ],
+      "derived_from": "MegaTreeLeaf-brands-hatch",
+      "preparation": {
+        "source_crop": [
+          1213,
+          931,
+          20,
+          160
+        ],
+        "framing": {
+          "canvas": [
+            512,
+            512
+          ],
+          "image_rect": [
+            26,
+            79,
+            460,
+            353
+          ],
+          "reason": "Preserve generated connected foliage cluster aspect; fit its alpha bounds within460x460 pixels, leaving at least26px transparent reserve on every side."
+        }
+      },
+      "reference": {
+        "names": [
+          "LHRTS4"
+        ],
+        "size": [
+          64,
+          64
+        ],
+        "bmp_crc32": [
+          "9382b6a6"
+        ],
+        "uses": [
+          {
+            "track": 3,
+            "archive": "data/branfree.bfp",
+            "archive_crc32": "ecc577c7",
+            "member": 5,
+            "member_name": "OBJECTS.C3D",
+            "member_crc32": "90ddbd12",
+            "material_slot": 133
+          }
+        ]
+      }
+    },
+    {
+      "id": "MegaTreeLeaf-oulton-park",
+      "file": "exec-f5b72c72-802a-49ef-a6de-272fb44003f0.png",
+      "crc32": "d0e709f4",
+      "size": [
+        1254,
+        1254
+      ],
+      "reference": {
+        "names": [
+          "LHRTS4"
+        ],
+        "size": [
+          64,
+          64
+        ],
+        "bmp_crc32": [
+          "bfcd58a8"
+        ],
+        "uses": [
+          {
+            "track": 4,
+            "archive": "data/oultfree.bfp",
+            "archive_crc32": "e6e258cb",
+            "member": 5,
+            "member_name": "OBJECTS.C3D",
+            "member_crc32": "5ad0e21a",
+            "material_slot": 92
+          }
+        ]
+      }
+    },
+    {
+      "id": "MegaTreeLeaf-oulton-park-framed",
+      "file": "leaf-oulton-park-framed.png",
+      "crc32": "0baaede7",
+      "size": [
+        512,
+        512
+      ],
+      "derived_from": "MegaTreeLeaf-oulton-park",
+      "preparation": {
+        "source_crop": [
+          1193,
+          906,
+          43,
+          166
+        ],
+        "framing": {
+          "canvas": [
+            512,
+            512
+          ],
+          "image_rect": [
+            26,
+            81,
+            460,
+            349
+          ],
+          "reason": "Preserve generated connected foliage cluster aspect; fit its alpha bounds within460x460 pixels, leaving at least26px transparent reserve on every side."
+        }
+      },
+      "reference": {
+        "names": [
+          "LHRTS4"
+        ],
+        "size": [
+          64,
+          64
+        ],
+        "bmp_crc32": [
+          "bfcd58a8"
+        ],
+        "uses": [
+          {
+            "track": 4,
+            "archive": "data/oultfree.bfp",
+            "archive_crc32": "e6e258cb",
+            "member": 5,
+            "member_name": "OBJECTS.C3D",
+            "member_crc32": "5ad0e21a",
+            "material_slot": 92
+          }
+        ]
+      }
+    },
+    {
+      "id": "MegaTreeLeaf-croft",
+      "file": "exec-e5696da6-a02e-445a-9615-61d0735269c2.png",
+      "crc32": "1a0c9e0b",
+      "size": [
+        1254,
+        1254
+      ],
+      "reference": {
+        "names": [
+          "LHRTS4"
+        ],
+        "size": [
+          64,
+          64
+        ],
+        "bmp_crc32": [
+          "259a6c1a"
+        ],
+        "uses": [
+          {
+            "track": 6,
+            "archive": "data/croffree.bfp",
+            "archive_crc32": "e4399113",
+            "member": 5,
+            "member_name": "OBJECTS.C3D",
+            "member_crc32": "93406c70",
+            "material_slot": 71
+          }
+        ]
+      }
+    },
+    {
+      "id": "MegaTreeLeaf-croft-framed",
+      "file": "leaf-croft-framed.png",
+      "crc32": "e46a3ded",
+      "size": [
+        512,
+        512
+      ],
+      "derived_from": "MegaTreeLeaf-croft",
+      "preparation": {
+        "source_crop": [
+          1211,
+          880,
+          21,
+          187
+        ],
+        "framing": {
+          "canvas": [
+            512,
+            512
+          ],
+          "image_rect": [
+            26,
+            89,
+            460,
+            334
+          ],
+          "reason": "Preserve generated connected foliage cluster aspect; fit its alpha bounds within460x460 pixels, leaving at least26px transparent reserve on every side."
+        }
+      },
+      "reference": {
+        "names": [
+          "LHRTS4"
+        ],
+        "size": [
+          64,
+          64
+        ],
+        "bmp_crc32": [
+          "259a6c1a"
+        ],
+        "uses": [
+          {
+            "track": 6,
+            "archive": "data/croffree.bfp",
+            "archive_crc32": "e4399113",
+            "member": 5,
+            "member_name": "OBJECTS.C3D",
+            "member_crc32": "93406c70",
+            "material_slot": 71
+          }
+        ]
+      }
+    },
+    {
+      "id": "MegaTreeLeaf-knockhill",
+      "file": "exec-55fb3bda-c594-4565-a773-222190635555.png",
+      "crc32": "29c33834",
+      "size": [
+        1254,
+        1254
+      ],
+      "reference": {
+        "names": [
+          "LHRTS4"
+        ],
+        "size": [
+          64,
+          64
+        ],
+        "bmp_crc32": [
+          "6ba1b357"
+        ],
+        "uses": [
+          {
+            "track": 7,
+            "archive": "data/knocfree.bfp",
+            "archive_crc32": "7e00bade",
+            "member": 5,
+            "member_name": "OBJECTS.C3D",
+            "member_crc32": "24a4dac8",
+            "material_slot": 58
+          }
+        ]
+      }
+    },
+    {
+      "id": "MegaTreeLeaf-knockhill-framed",
+      "file": "leaf-knockhill-framed.png",
+      "crc32": "cdce0e29",
+      "size": [
+        512,
+        512
+      ],
+      "derived_from": "MegaTreeLeaf-knockhill",
+      "preparation": {
+        "source_crop": [
+          1177,
+          920,
+          40,
+          174
+        ],
+        "framing": {
+          "canvas": [
+            512,
+            512
+          ],
+          "image_rect": [
+            26,
+            76,
+            460,
+            360
+          ],
+          "reason": "Preserve generated connected foliage cluster aspect; fit its alpha bounds within460x460 pixels, leaving at least26px transparent reserve on every side."
+        }
+      },
+      "reference": {
+        "names": [
+          "LHRTS4"
+        ],
+        "size": [
+          64,
+          64
+        ],
+        "bmp_crc32": [
+          "6ba1b357"
+        ],
+        "uses": [
+          {
+            "track": 7,
+            "archive": "data/knocfree.bfp",
+            "archive_crc32": "7e00bade",
+            "member": 5,
+            "member_name": "OBJECTS.C3D",
+            "member_crc32": "24a4dac8",
+            "material_slot": 58
+          }
+        ]
+      }
+    },
+    {
+      "id": "MegaTreeLeaf-snetterton",
+      "file": "exec-0fc87e1f-bf15-4b72-a027-15ee1d5ffc05.png",
+      "crc32": "e602c8de",
+      "size": [
+        1254,
+        1254
+      ],
+      "reference": {
+        "names": [
+          "LHRTS4"
+        ],
+        "size": [
+          64,
+          64
+        ],
+        "bmp_crc32": [
+          "9418c826"
+        ],
+        "uses": [
+          {
+            "track": 8,
+            "archive": "data/snetfree.bfp",
+            "archive_crc32": "4111866a",
+            "member": 5,
+            "member_name": "OBJECTS.C3D",
+            "member_crc32": "d5bdef63",
+            "material_slot": 158
+          }
+        ]
+      }
+    },
+    {
+      "id": "MegaTreeLeaf-snetterton-framed",
+      "file": "leaf-snetterton-framed.png",
+      "crc32": "d4a9cfca",
+      "size": [
+        512,
+        512
+      ],
+      "derived_from": "MegaTreeLeaf-snetterton",
+      "preparation": {
+        "source_crop": [
+          1213,
+          904,
+          13,
+          180
+        ],
+        "framing": {
+          "canvas": [
+            512,
+            512
+          ],
+          "image_rect": [
+            26,
+            84,
+            460,
+            343
+          ],
+          "reason": "Preserve generated connected foliage cluster aspect; fit its alpha bounds within460x460 pixels, leaving at least26px transparent reserve on every side."
+        }
+      },
+      "reference": {
+        "names": [
+          "LHRTS4"
+        ],
+        "size": [
+          64,
+          64
+        ],
+        "bmp_crc32": [
+          "9418c826"
+        ],
+        "uses": [
+          {
+            "track": 8,
+            "archive": "data/snetfree.bfp",
+            "archive_crc32": "4111866a",
+            "member": 5,
+            "member_name": "OBJECTS.C3D",
+            "member_crc32": "d5bdef63",
+            "material_slot": 158
+          }
+        ]
+      }
+    },
+    {
+      "id": "LHRTS7-donington",
+      "file": "exec-760a5e78-ae01-43bd-b6cb-6e1883b108e4.png",
+      "crc32": "e3498726",
+      "size": [
+        1254,
+        1254
+      ],
+      "reference": {
+        "names": [
+          "LHRTS7"
+        ],
+        "size": [
+          64,
+          64
+        ],
+        "bmp_crc32": [
+          "b5c67d09"
+        ],
+        "palette_crc32": "82c646ab",
+        "uses": [
+          {
+            "track": 0,
+            "archive": "data/donlfree.bfp",
+            "archive_crc32": "46885a20",
+            "member": 5,
+            "member_name": "OBJECTS.C3D",
+            "member_crc32": "5f670bb9",
+            "material_slot": 66
+          },
+          {
+            "track": 5,
+            "archive": "data/donsfree.bfp",
+            "archive_crc32": "f07db8b7",
+            "member": 5,
+            "member_name": "OBJECTS.C3D",
+            "member_crc32": "f60fd8a0",
+            "material_slot": 66
+          }
+        ]
+      }
+    },
+    {
+      "id": "LHRTS7-donington-framed",
+      "file": "LHRTS7-donington-framed.png",
+      "crc32": "1f3be2bb",
+      "size": [
+        512,
+        512
+      ],
+      "derived_from": "LHRTS7-donington",
+      "preparation": {
+        "source_crop": [
+          506,
+          915,
+          367,
+          299
+        ],
+        "framing": {
+          "canvas": [
+            512,
+            512
+          ],
+          "image_rect": [
+            152,
+            120,
+            184,
+            392
+          ],
+          "reason": "Fit newly generated whole tree exactly to canonical alpha bounds (19,15)-(42,64) normalized to512²; preserve original square UV composition."
+        }
+      },
+      "reference": {
+        "names": [
+          "LHRTS7"
+        ],
+        "size": [
+          64,
+          64
+        ],
+        "bmp_crc32": [
+          "b5c67d09"
+        ],
+        "palette_crc32": "82c646ab",
+        "uses": [
+          {
+            "track": 0,
+            "archive": "data/donlfree.bfp",
+            "archive_crc32": "46885a20",
+            "member": 5,
+            "member_name": "OBJECTS.C3D",
+            "member_crc32": "5f670bb9",
+            "material_slot": 66
+          },
+          {
+            "track": 5,
+            "archive": "data/donsfree.bfp",
+            "archive_crc32": "f07db8b7",
+            "member": 5,
+            "member_name": "OBJECTS.C3D",
+            "member_crc32": "f60fd8a0",
+            "material_slot": 66
+          }
+        ]
+      }
+    },
+    {
+      "id": "MegaTreeLf7-donington",
+      "file": "exec-0c1bb592-f421-4f6f-ac1c-60afd0297fdb.png",
+      "crc32": "c8df40ac",
+      "size": [
+        1254,
+        1254
+      ],
+      "reference": {
+        "names": [
+          "LHRTS7"
+        ],
+        "size": [
+          64,
+          64
+        ],
+        "bmp_crc32": [
+          "b5c67d09"
+        ],
+        "palette_crc32": "82c646ab",
+        "uses": [
+          {
+            "track": 0,
+            "archive": "data/donlfree.bfp",
+            "archive_crc32": "46885a20",
+            "member": 5,
+            "member_name": "OBJECTS.C3D",
+            "member_crc32": "5f670bb9",
+            "material_slot": 66
+          },
+          {
+            "track": 5,
+            "archive": "data/donsfree.bfp",
+            "archive_crc32": "f07db8b7",
+            "member": 5,
+            "member_name": "OBJECTS.C3D",
+            "member_crc32": "f60fd8a0",
+            "material_slot": 66
+          }
+        ]
+      }
+    },
+    {
+      "id": "MegaTreeLf7-donington-framed",
+      "file": "MegaTreeLf7-donington-framed.png",
+      "crc32": "586d64fa",
+      "size": [
+        512,
+        512
+      ],
+      "derived_from": "MegaTreeLf7-donington",
+      "preparation": {
+        "source_crop": [
+          707,
+          998,
+          276,
+          139
+        ],
+        "framing": {
+          "canvas": [
+            512,
+            512
+          ],
+          "image_rect": [
+            93,
+            26,
+            326,
+            460
+          ],
+          "reason": "Preserve generated leaf tuft aspect and fit alpha bounds within460x460, with at least26 transparent pixels on each side."
+        }
+      },
+      "reference": {
+        "names": [
+          "LHRTS7"
+        ],
+        "size": [
+          64,
+          64
+        ],
+        "bmp_crc32": [
+          "b5c67d09"
+        ],
+        "palette_crc32": "82c646ab",
+        "uses": [
+          {
+            "track": 0,
+            "archive": "data/donlfree.bfp",
+            "archive_crc32": "46885a20",
+            "member": 5,
+            "member_name": "OBJECTS.C3D",
+            "member_crc32": "5f670bb9",
+            "material_slot": 66
+          },
+          {
+            "track": 5,
+            "archive": "data/donsfree.bfp",
+            "archive_crc32": "f07db8b7",
+            "member": 5,
+            "member_name": "OBJECTS.C3D",
+            "member_crc32": "f60fd8a0",
+            "material_slot": 66
+          }
+        ]
+      }
+    },
+    {
+      "id": "LHRTS7-brands-hatch",
+      "file": "exec-7c212a6c-24a6-4f36-87fb-18cb62f87cec.png",
+      "crc32": "8adf9133",
+      "size": [
+        1254,
+        1254
+      ],
+      "reference": {
+        "names": [
+          "LHRTS7"
+        ],
+        "size": [
+          64,
+          64
+        ],
+        "bmp_crc32": [
+          "a7ffa46d"
+        ],
+        "palette_crc32": "c2ef88fe",
+        "uses": [
+          {
+            "track": 3,
+            "archive": "data/branfree.bfp",
+            "archive_crc32": "ecc577c7",
+            "member": 5,
+            "member_name": "OBJECTS.C3D",
+            "member_crc32": "90ddbd12",
+            "material_slot": 134
+          }
+        ]
+      }
+    },
+    {
+      "id": "LHRTS7-brands-hatch-framed",
+      "file": "LHRTS7-brands-hatch-framed.png",
+      "crc32": "9ba04c8f",
+      "size": [
+        512,
+        512
+      ],
+      "derived_from": "LHRTS7-brands-hatch",
+      "preparation": {
+        "source_crop": [
+          475,
+          943,
+          385,
+          291
+        ],
+        "framing": {
+          "canvas": [
+            512,
+            512
+          ],
+          "image_rect": [
+            152,
+            120,
+            184,
+            392
+          ],
+          "reason": "Fit newly generated whole tree exactly to canonical alpha bounds (19,15)-(42,64) normalized to512²; preserve original square UV composition."
+        }
+      },
+      "reference": {
+        "names": [
+          "LHRTS7"
+        ],
+        "size": [
+          64,
+          64
+        ],
+        "bmp_crc32": [
+          "a7ffa46d"
+        ],
+        "palette_crc32": "c2ef88fe",
+        "uses": [
+          {
+            "track": 3,
+            "archive": "data/branfree.bfp",
+            "archive_crc32": "ecc577c7",
+            "member": 5,
+            "member_name": "OBJECTS.C3D",
+            "member_crc32": "90ddbd12",
+            "material_slot": 134
+          }
+        ]
+      }
+    },
+    {
+      "id": "MegaTreeLf7-brands-hatch",
+      "file": "exec-52a7def9-5475-4e14-9be4-95db6d7c9bfd.png",
+      "crc32": "245cea9e",
+      "size": [
+        1254,
+        1254
+      ],
+      "reference": {
+        "names": [
+          "LHRTS7"
+        ],
+        "size": [
+          64,
+          64
+        ],
+        "bmp_crc32": [
+          "a7ffa46d"
+        ],
+        "palette_crc32": "c2ef88fe",
+        "uses": [
+          {
+            "track": 3,
+            "archive": "data/branfree.bfp",
+            "archive_crc32": "ecc577c7",
+            "member": 5,
+            "member_name": "OBJECTS.C3D",
+            "member_crc32": "90ddbd12",
+            "material_slot": 134
+          }
+        ]
+      }
+    },
+    {
+      "id": "MegaTreeLf7-brands-hatch-framed",
+      "file": "MegaTreeLf7-brands-hatch-framed.png",
+      "crc32": "56e99ca7",
+      "size": [
+        512,
+        512
+      ],
+      "derived_from": "MegaTreeLf7-brands-hatch",
+      "preparation": {
+        "source_crop": [
+          736,
+          1004,
+          262,
+          132
+        ],
+        "framing": {
+          "canvas": [
+            512,
+            512
+          ],
+          "image_rect": [
+            87,
+            26,
+            337,
+            460
+          ],
+          "reason": "Preserve generated leaf tuft aspect and fit alpha bounds within460x460, with at least26 transparent pixels on each side."
+        }
+      },
+      "reference": {
+        "names": [
+          "LHRTS7"
+        ],
+        "size": [
+          64,
+          64
+        ],
+        "bmp_crc32": [
+          "a7ffa46d"
+        ],
+        "palette_crc32": "c2ef88fe",
+        "uses": [
+          {
+            "track": 3,
+            "archive": "data/branfree.bfp",
+            "archive_crc32": "ecc577c7",
+            "member": 5,
+            "member_name": "OBJECTS.C3D",
+            "member_crc32": "90ddbd12",
+            "material_slot": 134
+          }
+        ]
+      }
+    },
+    {
+      "id": "LHRTWS3-donington",
+      "file": "exec-e41b53c9-0343-428a-952e-55e0d3c3d409.png",
+      "crc32": "804aa9e3",
+      "size": [
+        1774,
+        887
+      ],
+      "reference": {
+        "names": [
+          "LHRTWS3"
+        ],
+        "size": [
+          128,
+          64
+        ],
+        "bmp_crc32": [
+          "c2bce436"
+        ],
+        "palette_crc32": "82c646ab",
+        "alpha_mask_crc32": "74197fa0",
+        "uses": [
+          {
+            "track": 0,
+            "archive": "data/donlfree.bfp",
+            "archive_crc32": "46885a20",
+            "member": 5,
+            "member_name": "OBJECTS.C3D",
+            "member_crc32": "5f670bb9",
+            "material_slot": 131
+          },
+          {
+            "track": 5,
+            "archive": "data/donsfree.bfp",
+            "archive_crc32": "f07db8b7",
+            "member": 5,
+            "member_name": "OBJECTS.C3D",
+            "member_crc32": "f60fd8a0",
+            "material_slot": 126
+          }
+        ],
+        "alpha_layout_guide": {
+          "path": "build/mega-vegetation/m01c/artwork-mask-c2bce436.png",
+          "crc32": "4160bda5",
+          "size": [
+            128,
+            64
+          ],
+          "role": "Binary alpha layout reference derived from the same canonical BMP; local reference only."
+        }
+      }
+    },
+    {
+      "id": "LHRTWS3-donington-framed",
+      "file": "LHRTWS3-donington-framed.png",
+      "crc32": "7552c7b4",
+      "size": [
+        512,
+        256
+      ],
+      "derived_from": "LHRTWS3-donington",
+      "preparation": {
+        "source_crop": [
+          1695,
+          887,
+          42,
+          0
+        ],
+        "framing": {
+          "canvas": [
+            512,
+            256
+          ],
+          "image_rect": [
+            4,
+            0,
+            492,
+            256
+          ],
+          "reason": "Fit generated complete connected grove to canonical alpha bounds normalized to512x256; preserve original2:1 UV composition and source-specific grouping/gaps."
+        }
+      },
+      "reference": {
+        "names": [
+          "LHRTWS3"
+        ],
+        "size": [
+          128,
+          64
+        ],
+        "bmp_crc32": [
+          "c2bce436"
+        ],
+        "palette_crc32": "82c646ab",
+        "alpha_mask_crc32": "74197fa0",
+        "uses": [
+          {
+            "track": 0,
+            "archive": "data/donlfree.bfp",
+            "archive_crc32": "46885a20",
+            "member": 5,
+            "member_name": "OBJECTS.C3D",
+            "member_crc32": "5f670bb9",
+            "material_slot": 131
+          },
+          {
+            "track": 5,
+            "archive": "data/donsfree.bfp",
+            "archive_crc32": "f07db8b7",
+            "member": 5,
+            "member_name": "OBJECTS.C3D",
+            "member_crc32": "f60fd8a0",
+            "material_slot": 126
+          }
+        ],
+        "alpha_layout_guide": {
+          "path": "build/mega-vegetation/m01c/artwork-mask-c2bce436.png",
+          "crc32": "4160bda5",
+          "size": [
+            128,
+            64
+          ],
+          "role": "Binary alpha layout reference derived from the same canonical BMP; local reference only."
+        }
+      }
+    },
+    {
+      "id": "MegaGroveLf-donington",
+      "file": "exec-4de2867d-a874-4f31-a8a6-c84d305b913a.png",
+      "crc32": "ddf692e9",
+      "size": [
+        1254,
+        1254
+      ],
+      "reference": {
+        "names": [
+          "LHRTWS3"
+        ],
+        "size": [
+          128,
+          64
+        ],
+        "bmp_crc32": [
+          "c2bce436"
+        ],
+        "palette_crc32": "82c646ab",
+        "alpha_mask_crc32": "74197fa0",
+        "uses": [
+          {
+            "track": 0,
+            "archive": "data/donlfree.bfp",
+            "archive_crc32": "46885a20",
+            "member": 5,
+            "member_name": "OBJECTS.C3D",
+            "member_crc32": "5f670bb9",
+            "material_slot": 131
+          },
+          {
+            "track": 5,
+            "archive": "data/donsfree.bfp",
+            "archive_crc32": "f07db8b7",
+            "member": 5,
+            "member_name": "OBJECTS.C3D",
+            "member_crc32": "f60fd8a0",
+            "material_slot": 126
+          }
+        ]
+      }
+    },
+    {
+      "id": "MegaGroveLf-donington-framed",
+      "file": "MegaGroveLf-donington-framed.png",
+      "crc32": "46d17545",
+      "size": [
+        512,
+        512
+      ],
+      "derived_from": "MegaGroveLf-donington",
+      "preparation": {
+        "source_crop": [
+          1195,
+          890,
+          44,
+          201
+        ],
+        "framing": {
+          "canvas": [
+            512,
+            512
+          ],
+          "image_rect": [
+            26,
+            84,
+            460,
+            343
+          ],
+          "reason": "Preserve generated connected foliage tuft aspect; fit alpha within460x460 with at least26 transparent pixels on all sides."
+        }
+      },
+      "reference": {
+        "names": [
+          "LHRTWS3"
+        ],
+        "size": [
+          128,
+          64
+        ],
+        "bmp_crc32": [
+          "c2bce436"
+        ],
+        "palette_crc32": "82c646ab",
+        "alpha_mask_crc32": "74197fa0",
+        "uses": [
+          {
+            "track": 0,
+            "archive": "data/donlfree.bfp",
+            "archive_crc32": "46885a20",
+            "member": 5,
+            "member_name": "OBJECTS.C3D",
+            "member_crc32": "5f670bb9",
+            "material_slot": 131
+          },
+          {
+            "track": 5,
+            "archive": "data/donsfree.bfp",
+            "archive_crc32": "f07db8b7",
+            "member": 5,
+            "member_name": "OBJECTS.C3D",
+            "member_crc32": "f60fd8a0",
+            "material_slot": 126
+          }
+        ]
+      }
+    },
+    {
+      "id": "LHRTWS3-thruxton",
+      "file": "exec-37b5d51f-551a-4906-8598-a079d95f1efd.png",
+      "crc32": "e1c10f15",
+      "size": [
+        1774,
+        887
+      ],
+      "reference": {
+        "names": [
+          "LHRTWS3"
+        ],
+        "size": [
+          128,
+          64
+        ],
+        "bmp_crc32": [
+          "5e32f181"
+        ],
+        "palette_crc32": "1a8f9cf1",
+        "alpha_mask_crc32": "5067a27e",
+        "uses": [
+          {
+            "track": 2,
+            "archive": "data/thrufree.bfp",
+            "archive_crc32": "473c8fe8",
+            "member": 5,
+            "member_name": "OBJECTS.C3D",
+            "member_crc32": "a17b2723",
+            "material_slot": 78
+          }
+        ]
+      }
+    },
+    {
+      "id": "LHRTWS3-thruxton-framed",
+      "file": "LHRTWS3-thruxton-framed.png",
+      "crc32": "0db99f89",
+      "size": [
+        512,
+        256
+      ],
+      "derived_from": "LHRTWS3-thruxton",
+      "preparation": {
+        "source_crop": [
+          1761,
+          881,
+          7,
+          6
+        ],
+        "framing": {
+          "canvas": [
+            512,
+            256
+          ],
+          "image_rect": [
+            8,
+            0,
+            488,
+            256
+          ],
+          "reason": "Fit generated complete connected grove to canonical alpha bounds normalized to512x256; preserve original2:1 UV composition and source-specific grouping/gaps."
+        }
+      },
+      "reference": {
+        "names": [
+          "LHRTWS3"
+        ],
+        "size": [
+          128,
+          64
+        ],
+        "bmp_crc32": [
+          "5e32f181"
+        ],
+        "palette_crc32": "1a8f9cf1",
+        "alpha_mask_crc32": "5067a27e",
+        "uses": [
+          {
+            "track": 2,
+            "archive": "data/thrufree.bfp",
+            "archive_crc32": "473c8fe8",
+            "member": 5,
+            "member_name": "OBJECTS.C3D",
+            "member_crc32": "a17b2723",
+            "material_slot": 78
+          }
+        ]
+      }
+    },
+    {
+      "id": "MegaGroveLf-thruxton",
+      "file": "exec-3f812cec-bf3c-4865-80ed-7b33ffe18a6e.png",
+      "crc32": "17fccacf",
+      "size": [
+        1254,
+        1254
+      ],
+      "reference": {
+        "names": [
+          "LHRTWS3"
+        ],
+        "size": [
+          128,
+          64
+        ],
+        "bmp_crc32": [
+          "5e32f181"
+        ],
+        "palette_crc32": "1a8f9cf1",
+        "alpha_mask_crc32": "5067a27e",
+        "uses": [
+          {
+            "track": 2,
+            "archive": "data/thrufree.bfp",
+            "archive_crc32": "473c8fe8",
+            "member": 5,
+            "member_name": "OBJECTS.C3D",
+            "member_crc32": "a17b2723",
+            "material_slot": 78
+          }
+        ]
+      }
+    },
+    {
+      "id": "MegaGroveLf-thruxton-framed",
+      "file": "MegaGroveLf-thruxton-framed.png",
+      "crc32": "2fd497eb",
+      "size": [
+        512,
+        512
+      ],
+      "derived_from": "MegaGroveLf-thruxton",
+      "preparation": {
+        "source_crop": [
+          1141,
+          851,
+          62,
+          204
+        ],
+        "framing": {
+          "canvas": [
+            512,
+            512
+          ],
+          "image_rect": [
+            26,
+            84,
+            460,
+            343
+          ],
+          "reason": "Preserve generated connected foliage tuft aspect; fit alpha within460x460 with at least26 transparent pixels on all sides."
+        }
+      },
+      "reference": {
+        "names": [
+          "LHRTWS3"
+        ],
+        "size": [
+          128,
+          64
+        ],
+        "bmp_crc32": [
+          "5e32f181"
+        ],
+        "palette_crc32": "1a8f9cf1",
+        "alpha_mask_crc32": "5067a27e",
+        "uses": [
+          {
+            "track": 2,
+            "archive": "data/thrufree.bfp",
+            "archive_crc32": "473c8fe8",
+            "member": 5,
+            "member_name": "OBJECTS.C3D",
+            "member_crc32": "a17b2723",
+            "material_slot": 78
+          }
+        ]
+      }
+    },
+    {
+      "id": "LHRTWS3-brands-hatch",
+      "file": "exec-b79c1e18-04c2-475a-9144-0a8f58053da0.png",
+      "crc32": "bbfebafb",
+      "size": [
+        1774,
+        887
+      ],
+      "reference": {
+        "names": [
+          "LHRTWS3"
+        ],
+        "size": [
+          128,
+          64
+        ],
+        "bmp_crc32": [
+          "6d9bbf4f"
+        ],
+        "palette_crc32": "c2ef88fe",
+        "alpha_mask_crc32": "ef143df7",
+        "uses": [
+          {
+            "track": 3,
+            "archive": "data/branfree.bfp",
+            "archive_crc32": "ecc577c7",
+            "member": 5,
+            "member_name": "OBJECTS.C3D",
+            "member_crc32": "90ddbd12",
+            "material_slot": 138
+          }
+        ]
+      }
+    },
+    {
+      "id": "LHRTWS3-brands-hatch-framed",
+      "file": "LHRTWS3-brands-hatch-framed.png",
+      "crc32": "5b366e6c",
+      "size": [
+        512,
+        256
+      ],
+      "derived_from": "LHRTWS3-brands-hatch",
+      "preparation": {
+        "source_crop": [
+          1774,
+          887,
+          0,
+          0
+        ],
+        "framing": {
+          "canvas": [
+            512,
+            256
+          ],
+          "image_rect": [
+            8,
+            0,
+            488,
+            256
+          ],
+          "reason": "Fit generated complete connected grove to canonical alpha bounds normalized to512x256; preserve original2:1 UV composition and source-specific grouping/gaps."
+        }
+      },
+      "reference": {
+        "names": [
+          "LHRTWS3"
+        ],
+        "size": [
+          128,
+          64
+        ],
+        "bmp_crc32": [
+          "6d9bbf4f"
+        ],
+        "palette_crc32": "c2ef88fe",
+        "alpha_mask_crc32": "ef143df7",
+        "uses": [
+          {
+            "track": 3,
+            "archive": "data/branfree.bfp",
+            "archive_crc32": "ecc577c7",
+            "member": 5,
+            "member_name": "OBJECTS.C3D",
+            "member_crc32": "90ddbd12",
+            "material_slot": 138
+          }
+        ]
+      }
+    },
+    {
+      "id": "MegaGroveLf-brands-hatch",
+      "file": "exec-3465bf4e-6a38-4153-89e7-fc6929a3183e.png",
+      "crc32": "af4e2d9b",
+      "size": [
+        1254,
+        1254
+      ],
+      "reference": {
+        "names": [
+          "LHRTWS3"
+        ],
+        "size": [
+          128,
+          64
+        ],
+        "bmp_crc32": [
+          "6d9bbf4f"
+        ],
+        "palette_crc32": "c2ef88fe",
+        "alpha_mask_crc32": "ef143df7",
+        "uses": [
+          {
+            "track": 3,
+            "archive": "data/branfree.bfp",
+            "archive_crc32": "ecc577c7",
+            "member": 5,
+            "member_name": "OBJECTS.C3D",
+            "member_crc32": "90ddbd12",
+            "material_slot": 138
+          }
+        ]
+      }
+    },
+    {
+      "id": "MegaGroveLf-brands-hatch-framed",
+      "file": "MegaGroveLf-brands-hatch-framed.png",
+      "crc32": "63e6d041",
+      "size": [
+        512,
+        512
+      ],
+      "derived_from": "MegaGroveLf-brands-hatch",
+      "preparation": {
+        "source_crop": [
+          1207,
+          895,
+          28,
+          202
+        ],
+        "framing": {
+          "canvas": [
+            512,
+            512
+          ],
+          "image_rect": [
+            26,
+            85,
+            460,
+            341
+          ],
+          "reason": "Preserve generated connected foliage tuft aspect; fit alpha within460x460 with at least26 transparent pixels on all sides."
+        }
+      },
+      "reference": {
+        "names": [
+          "LHRTWS3"
+        ],
+        "size": [
+          128,
+          64
+        ],
+        "bmp_crc32": [
+          "6d9bbf4f"
+        ],
+        "palette_crc32": "c2ef88fe",
+        "alpha_mask_crc32": "ef143df7",
+        "uses": [
+          {
+            "track": 3,
+            "archive": "data/branfree.bfp",
+            "archive_crc32": "ecc577c7",
+            "member": 5,
+            "member_name": "OBJECTS.C3D",
+            "member_crc32": "90ddbd12",
+            "material_slot": 138
+          }
+        ]
+      }
+    },
+    {
+      "id": "LHRTWS3-croft",
+      "file": "exec-d3dbc829-60f5-45e9-b738-5b56fe923d8c.png",
+      "crc32": "fdd5478d",
+      "size": [
+        1774,
+        887
+      ],
+      "reference": {
+        "names": [
+          "LHRTWS3"
+        ],
+        "size": [
+          128,
+          64
+        ],
+        "bmp_crc32": [
+          "450c8317"
+        ],
+        "palette_crc32": "e6abc9dd",
+        "alpha_mask_crc32": "5a1ac6e0",
+        "uses": [
+          {
+            "track": 6,
+            "archive": "data/croffree.bfp",
+            "archive_crc32": "e4399113",
+            "member": 5,
+            "member_name": "OBJECTS.C3D",
+            "member_crc32": "93406c70",
+            "material_slot": 72
+          }
+        ],
+        "alpha_layout_guide": {
+          "path": "build/mega-vegetation/m01c/artwork-mask-450c8317.png",
+          "crc32": "9af3713a",
+          "size": [
+            128,
+            64
+          ],
+          "role": "Binary alpha layout reference derived from the same canonical BMP; local reference only."
+        }
+      }
+    },
+    {
+      "id": "LHRTWS3-croft-framed",
+      "file": "LHRTWS3-croft-framed.png",
+      "crc32": "7eabf704",
+      "size": [
+        512,
+        256
+      ],
+      "derived_from": "LHRTWS3-croft",
+      "preparation": {
+        "source_crop": [
+          1705,
+          871,
+          10,
+          7
+        ],
+        "framing": {
+          "canvas": [
+            512,
+            256
+          ],
+          "image_rect": [
+            4,
+            0,
+            492,
+            256
+          ],
+          "reason": "Fit generated complete connected grove to canonical alpha bounds normalized to512x256; preserve original2:1 UV composition and source-specific grouping/gaps."
+        }
+      },
+      "reference": {
+        "names": [
+          "LHRTWS3"
+        ],
+        "size": [
+          128,
+          64
+        ],
+        "bmp_crc32": [
+          "450c8317"
+        ],
+        "palette_crc32": "e6abc9dd",
+        "alpha_mask_crc32": "5a1ac6e0",
+        "uses": [
+          {
+            "track": 6,
+            "archive": "data/croffree.bfp",
+            "archive_crc32": "e4399113",
+            "member": 5,
+            "member_name": "OBJECTS.C3D",
+            "member_crc32": "93406c70",
+            "material_slot": 72
+          }
+        ],
+        "alpha_layout_guide": {
+          "path": "build/mega-vegetation/m01c/artwork-mask-450c8317.png",
+          "crc32": "9af3713a",
+          "size": [
+            128,
+            64
+          ],
+          "role": "Binary alpha layout reference derived from the same canonical BMP; local reference only."
+        }
+      }
+    },
+    {
+      "id": "MegaGroveLf-croft",
+      "file": "exec-8cddf34d-182c-48cb-881c-c174f15a965c.png",
+      "crc32": "908f3779",
+      "size": [
+        1254,
+        1254
+      ],
+      "reference": {
+        "names": [
+          "LHRTWS3"
+        ],
+        "size": [
+          128,
+          64
+        ],
+        "bmp_crc32": [
+          "450c8317"
+        ],
+        "palette_crc32": "e6abc9dd",
+        "alpha_mask_crc32": "5a1ac6e0",
+        "uses": [
+          {
+            "track": 6,
+            "archive": "data/croffree.bfp",
+            "archive_crc32": "e4399113",
+            "member": 5,
+            "member_name": "OBJECTS.C3D",
+            "member_crc32": "93406c70",
+            "material_slot": 72
+          }
+        ]
+      }
+    },
+    {
+      "id": "MegaGroveLf-croft-framed",
+      "file": "MegaGroveLf-croft-framed.png",
+      "crc32": "edc75977",
+      "size": [
+        512,
+        512
+      ],
+      "derived_from": "MegaGroveLf-croft",
+      "preparation": {
+        "source_crop": [
+          1127,
+          932,
+          68,
+          173
+        ],
+        "framing": {
+          "canvas": [
+            512,
+            512
+          ],
+          "image_rect": [
+            26,
+            66,
+            460,
+            380
+          ],
+          "reason": "Preserve generated connected foliage tuft aspect; fit alpha within460x460 with at least26 transparent pixels on all sides."
+        }
+      },
+      "reference": {
+        "names": [
+          "LHRTWS3"
+        ],
+        "size": [
+          128,
+          64
+        ],
+        "bmp_crc32": [
+          "450c8317"
+        ],
+        "palette_crc32": "e6abc9dd",
+        "alpha_mask_crc32": "5a1ac6e0",
+        "uses": [
+          {
+            "track": 6,
+            "archive": "data/croffree.bfp",
+            "archive_crc32": "e4399113",
+            "member": 5,
+            "member_name": "OBJECTS.C3D",
+            "member_crc32": "93406c70",
+            "material_slot": 72
+          }
+        ]
+      }
+    },
+    {
+      "id": "LHRTWS3-snetterton",
+      "file": "exec-c4f40081-2457-4cd7-97e2-14c05c120d5d.png",
+      "crc32": "b54eba48",
+      "size": [
+        1774,
+        887
+      ],
+      "reference": {
+        "names": [
+          "LHRTWS3"
+        ],
+        "size": [
+          128,
+          64
+        ],
+        "bmp_crc32": [
+          "0fc2a9f0"
+        ],
+        "palette_crc32": "a8b42f74",
+        "alpha_mask_crc32": "842cdb5a",
+        "uses": [
+          {
+            "track": 8,
+            "archive": "data/snetfree.bfp",
+            "archive_crc32": "4111866a",
+            "member": 5,
+            "member_name": "OBJECTS.C3D",
+            "member_crc32": "d5bdef63",
+            "material_slot": 159
+          }
+        ]
+      }
+    },
+    {
+      "id": "LHRTWS3-snetterton-framed",
+      "file": "LHRTWS3-snetterton-framed.png",
+      "crc32": "15e2b8e6",
+      "size": [
+        512,
+        256
+      ],
+      "derived_from": "LHRTWS3-snetterton",
+      "preparation": {
+        "source_crop": [
+          1769,
+          887,
+          5,
+          0
+        ],
+        "framing": {
+          "canvas": [
+            512,
+            256
+          ],
+          "image_rect": [
+            8,
+            0,
+            488,
+            256
+          ],
+          "reason": "Fit generated complete connected grove to canonical alpha bounds normalized to512x256; preserve original2:1 UV composition and source-specific grouping/gaps."
+        }
+      },
+      "reference": {
+        "names": [
+          "LHRTWS3"
+        ],
+        "size": [
+          128,
+          64
+        ],
+        "bmp_crc32": [
+          "0fc2a9f0"
+        ],
+        "palette_crc32": "a8b42f74",
+        "alpha_mask_crc32": "842cdb5a",
+        "uses": [
+          {
+            "track": 8,
+            "archive": "data/snetfree.bfp",
+            "archive_crc32": "4111866a",
+            "member": 5,
+            "member_name": "OBJECTS.C3D",
+            "member_crc32": "d5bdef63",
+            "material_slot": 159
+          }
+        ]
+      }
+    },
+    {
+      "id": "MegaGroveLf-snetterton",
+      "file": "exec-aca3d671-2212-49ba-83f1-a82a95c83485.png",
+      "crc32": "8e0fd8d2",
+      "size": [
+        1254,
+        1254
+      ],
+      "reference": {
+        "names": [
+          "LHRTWS3"
+        ],
+        "size": [
+          128,
+          64
+        ],
+        "bmp_crc32": [
+          "0fc2a9f0"
+        ],
+        "palette_crc32": "a8b42f74",
+        "alpha_mask_crc32": "842cdb5a",
+        "uses": [
+          {
+            "track": 8,
+            "archive": "data/snetfree.bfp",
+            "archive_crc32": "4111866a",
+            "member": 5,
+            "member_name": "OBJECTS.C3D",
+            "member_crc32": "d5bdef63",
+            "material_slot": 159
+          }
+        ]
+      }
+    },
+    {
+      "id": "MegaGroveLf-snetterton-framed",
+      "file": "MegaGroveLf-snetterton-framed.png",
+      "crc32": "a5ce732d",
+      "size": [
+        512,
+        512
+      ],
+      "derived_from": "MegaGroveLf-snetterton",
+      "preparation": {
+        "source_crop": [
+          1147,
+          867,
+          50,
+          217
+        ],
+        "framing": {
+          "canvas": [
+            512,
+            512
+          ],
+          "image_rect": [
+            26,
+            82,
+            460,
+            348
+          ],
+          "reason": "Preserve generated connected foliage tuft aspect; fit alpha within460x460 with at least26 transparent pixels on all sides."
+        }
+      },
+      "reference": {
+        "names": [
+          "LHRTWS3"
+        ],
+        "size": [
+          128,
+          64
+        ],
+        "bmp_crc32": [
+          "0fc2a9f0"
+        ],
+        "palette_crc32": "a8b42f74",
+        "alpha_mask_crc32": "842cdb5a",
+        "uses": [
+          {
+            "track": 8,
+            "archive": "data/snetfree.bfp",
+            "archive_crc32": "4111866a",
+            "member": 5,
+            "member_name": "OBJECTS.C3D",
+            "member_crc32": "d5bdef63",
+            "material_slot": 159
+          }
+        ]
+      }
+    },
+    {
+      "id": "LHRTS2-donington",
+      "file": "exec-13f68e01-f113-4a7b-8fe8-05f09fb0dee3.png",
+      "crc32": "5a64f24b",
+      "size": [
+        887,
+        1774
+      ],
+      "reference": {
+        "names": [
+          "LHRTS2"
+        ],
+        "size": [
+          32,
+          64
+        ],
+        "bmp_crc32": [
+          "fdd155e8"
+        ],
+        "palette_crc32": "82c646ab",
+        "alpha_mask_crc32": "90908e9d",
+        "uses": [
+          {
+            "track": 0,
+            "archive": "data/donlfree.bfp",
+            "archive_crc32": "46885a20",
+            "member": 5,
+            "member_name": "OBJECTS.C3D",
+            "member_crc32": "5f670bb9",
+            "material_slot": 74
+          },
+          {
+            "track": 5,
+            "archive": "data/donsfree.bfp",
+            "archive_crc32": "f07db8b7",
+            "member": 5,
+            "member_name": "OBJECTS.C3D",
+            "member_crc32": "f60fd8a0",
+            "material_slot": 74
+          }
+        ]
+      }
+    },
+    {
+      "id": "LHRTS2-donington-framed",
+      "file": "LHRTS2-donington-framed.png",
+      "crc32": "9de80468",
+      "size": [
+        256,
+        512
+      ],
+      "derived_from": "LHRTS2-donington",
+      "preparation": {
+        "source_crop": [
+          886,
+          1768,
+          0,
+          0
+        ],
+        "framing": {
+          "canvas": [
+            256,
+            512
+          ],
+          "image_rect": [
+            0,
+            8,
+            256,
+            504
+          ],
+          "reason": "Fit newly generated whole tree to exact canonical alpha bounds(0,1)-(32,64) normalized to256x512; keep the original1:2 portrait UV composition."
+        }
+      },
+      "reference": {
+        "names": [
+          "LHRTS2"
+        ],
+        "size": [
+          32,
+          64
+        ],
+        "bmp_crc32": [
+          "fdd155e8"
+        ],
+        "palette_crc32": "82c646ab",
+        "alpha_mask_crc32": "90908e9d",
+        "uses": [
+          {
+            "track": 0,
+            "archive": "data/donlfree.bfp",
+            "archive_crc32": "46885a20",
+            "member": 5,
+            "member_name": "OBJECTS.C3D",
+            "member_crc32": "5f670bb9",
+            "material_slot": 74
+          },
+          {
+            "track": 5,
+            "archive": "data/donsfree.bfp",
+            "archive_crc32": "f07db8b7",
+            "member": 5,
+            "member_name": "OBJECTS.C3D",
+            "member_crc32": "f60fd8a0",
+            "material_slot": 74
+          }
+        ]
+      }
+    },
+    {
+      "id": "MegaTreeLf2-donington",
+      "file": "exec-8be7aa4a-b684-4409-8744-0beaf324488e.png",
+      "crc32": "7dd18ea5",
+      "size": [
+        1254,
+        1254
+      ],
+      "reference": {
+        "names": [
+          "LHRTS2"
+        ],
+        "size": [
+          32,
+          64
+        ],
+        "bmp_crc32": [
+          "fdd155e8"
+        ],
+        "palette_crc32": "82c646ab",
+        "alpha_mask_crc32": "90908e9d",
+        "uses": [
+          {
+            "track": 0,
+            "archive": "data/donlfree.bfp",
+            "archive_crc32": "46885a20",
+            "member": 5,
+            "member_name": "OBJECTS.C3D",
+            "member_crc32": "5f670bb9",
+            "material_slot": 74
+          },
+          {
+            "track": 5,
+            "archive": "data/donsfree.bfp",
+            "archive_crc32": "f07db8b7",
+            "member": 5,
+            "member_name": "OBJECTS.C3D",
+            "member_crc32": "f60fd8a0",
+            "material_slot": 74
+          }
+        ]
+      }
+    },
+    {
+      "id": "MegaTreeLf2-donington-framed",
+      "file": "MegaTreeLf2-donington-framed.png",
+      "crc32": "f11e829f",
+      "size": [
+        512,
+        512
+      ],
+      "derived_from": "MegaTreeLf2-donington",
+      "preparation": {
+        "source_crop": [
+          784,
+          1106,
+          249,
+          69
+        ],
+        "framing": {
+          "canvas": [
+            512,
+            512
+          ],
+          "image_rect": [
+            93,
+            26,
+            326,
+            460
+          ],
+          "reason": "Preserve generated tuft aspect within square canvas; fit alpha bounds within460x460 and leave at least26 transparent pixels on every side."
+        }
+      },
+      "reference": {
+        "names": [
+          "LHRTS2"
+        ],
+        "size": [
+          32,
+          64
+        ],
+        "bmp_crc32": [
+          "fdd155e8"
+        ],
+        "palette_crc32": "82c646ab",
+        "alpha_mask_crc32": "90908e9d",
+        "uses": [
+          {
+            "track": 0,
+            "archive": "data/donlfree.bfp",
+            "archive_crc32": "46885a20",
+            "member": 5,
+            "member_name": "OBJECTS.C3D",
+            "member_crc32": "5f670bb9",
+            "material_slot": 74
+          },
+          {
+            "track": 5,
+            "archive": "data/donsfree.bfp",
+            "archive_crc32": "f07db8b7",
+            "member": 5,
+            "member_name": "OBJECTS.C3D",
+            "member_crc32": "f60fd8a0",
+            "material_slot": 74
+          }
+        ]
+      }
+    },
+    {
+      "id": "LHRTS1-croft",
+      "file": "exec-5cd1da47-2396-4e55-921e-da4aeaad4724.png",
+      "crc32": "4f88529b",
+      "size": [
+        1254,
+        1254
+      ],
+      "reference": {
+        "names": [
+          "LHRTS1"
+        ],
+        "size": [
+          64,
+          64
+        ],
+        "bmp_crc32": [
+          "065f127e"
+        ],
+        "palette_crc32": "c2ef88fe",
+        "alpha_mask_crc32": "3809f0ac",
+        "uses": [
+          {
+            "track": 6,
+            "archive": "data/croffree.bfp",
+            "archive_crc32": "e4399113",
+            "member": 5,
+            "member_name": "OBJECTS.C3D",
+            "member_crc32": "93406c70",
+            "material_slot": 70
+          }
+        ]
+      }
+    },
+    {
+      "id": "LHRTS1-croft-framed",
+      "file": "LHRTS1-croft-framed.png",
+      "crc32": "1d90f443",
+      "size": [
+        512,
+        512
+      ],
+      "derived_from": "LHRTS1-croft",
+      "preparation": {
+        "source_crop": [
+          626,
+          1169,
+          349,
+          57
+        ],
+        "framing": {
+          "canvas": [
+            512,
+            512
+          ],
+          "image_rect": [
+            128,
+            48,
+            248,
+            464
+          ],
+          "reason": "Fit newly generated whole tree to exact canonical alpha bounds(16,6)-(47,64) normalized to512x512; keep the original square UV composition."
+        }
+      },
+      "reference": {
+        "names": [
+          "LHRTS1"
+        ],
+        "size": [
+          64,
+          64
+        ],
+        "bmp_crc32": [
+          "065f127e"
+        ],
+        "palette_crc32": "c2ef88fe",
+        "alpha_mask_crc32": "3809f0ac",
+        "uses": [
+          {
+            "track": 6,
+            "archive": "data/croffree.bfp",
+            "archive_crc32": "e4399113",
+            "member": 5,
+            "member_name": "OBJECTS.C3D",
+            "member_crc32": "93406c70",
+            "material_slot": 70
+          }
+        ]
+      }
+    },
+    {
+      "id": "MegaTreeLf1-croft",
+      "file": "exec-aa8cbe10-4bf3-4407-b3fa-779bdaef1dca.png",
+      "crc32": "43cbfd2b",
+      "size": [
+        1254,
+        1254
+      ],
+      "reference": {
+        "names": [
+          "LHRTS1"
+        ],
+        "size": [
+          64,
+          64
+        ],
+        "bmp_crc32": [
+          "065f127e"
+        ],
+        "palette_crc32": "c2ef88fe",
+        "alpha_mask_crc32": "3809f0ac",
+        "uses": [
+          {
+            "track": 6,
+            "archive": "data/croffree.bfp",
+            "archive_crc32": "e4399113",
+            "member": 5,
+            "member_name": "OBJECTS.C3D",
+            "member_crc32": "93406c70",
+            "material_slot": 70
+          }
+        ]
+      }
+    },
+    {
+      "id": "MegaTreeLf1-croft-framed",
+      "file": "MegaTreeLf1-croft-framed.png",
+      "crc32": "33a9c2e5",
+      "size": [
+        512,
+        512
+      ],
+      "derived_from": "MegaTreeLf1-croft",
+      "preparation": {
+        "source_crop": [
+          1213,
+          1008,
+          21,
+          122
+        ],
+        "framing": {
+          "canvas": [
+            512,
+            512
+          ],
+          "image_rect": [
+            26,
+            65,
+            460,
+            382
+          ],
+          "reason": "Preserve generated tuft aspect within square canvas; fit alpha bounds within460x460 and leave at least26 transparent pixels on every side."
+        }
+      },
+      "reference": {
+        "names": [
+          "LHRTS1"
+        ],
+        "size": [
+          64,
+          64
+        ],
+        "bmp_crc32": [
+          "065f127e"
+        ],
+        "palette_crc32": "c2ef88fe",
+        "alpha_mask_crc32": "3809f0ac",
+        "uses": [
+          {
+            "track": 6,
+            "archive": "data/croffree.bfp",
+            "archive_crc32": "e4399113",
+            "member": 5,
+            "member_name": "OBJECTS.C3D",
+            "member_crc32": "93406c70",
+            "material_slot": 70
+          }
+        ]
+      }
+    },
+    {
+      "id": "LHRTWS4-brands-hatch",
+      "file": "exec-e5c1e2e7-fc0b-44d8-aeaf-7ad0ced2c5bc.png",
+      "crc32": "068f6e68",
+      "size": [
+        1774,
+        887
+      ],
+      "reference": {
+        "names": [
+          "LHRTWS4"
+        ],
+        "size": [
+          128,
+          64
+        ],
+        "bmp_crc32": [
+          "cd66b801"
+        ],
+        "palette_crc32": "c2ef88fe",
+        "alpha_mask_crc32": "2cce041a",
+        "uses": [
+          {
+            "track": 3,
+            "archive": "data/branfree.bfp",
+            "archive_crc32": "ecc577c7",
+            "member": 5,
+            "member_name": "OBJECTS.C3D",
+            "member_crc32": "90ddbd12",
+            "material_slot": 137
+          }
+        ],
+        "alpha_layout_guide": {
+          "path": "build/mega-vegetation/m01d-d/artwork-mask-cd66b801.png",
+          "crc32": "5cfd0957",
+          "size": [
+            128,
+            64
+          ],
+          "role": "Original-derived binary reference only; never composited into final generated artwork."
+        }
+      }
+    },
+    {
+      "id": "LHRTWS4-brands-hatch-framed",
+      "file": "LHRTWS4-brands-hatch-framed.png",
+      "crc32": "3bda785e",
+      "size": [
+        512,
+        256
+      ],
+      "derived_from": "LHRTWS4-brands-hatch",
+      "preparation": {
+        "source_crop": [
+          1730,
+          887,
+          38,
+          0
+        ],
+        "framing": {
+          "canvas": [
+            512,
+            256
+          ],
+          "image_rect": [
+            12,
+            0,
+            500,
+            256
+          ],
+          "reason": "Fit newly generated complete grove to canonical alpha bounds (3,0)-(128,64) normalized to 512x256; retain closed lower foliage mass and original 2:1 UV composition."
+        }
+      },
+      "reference": {
+        "names": [
+          "LHRTWS4"
+        ],
+        "size": [
+          128,
+          64
+        ],
+        "bmp_crc32": [
+          "cd66b801"
+        ],
+        "palette_crc32": "c2ef88fe",
+        "alpha_mask_crc32": "2cce041a",
+        "uses": [
+          {
+            "track": 3,
+            "archive": "data/branfree.bfp",
+            "archive_crc32": "ecc577c7",
+            "member": 5,
+            "member_name": "OBJECTS.C3D",
+            "member_crc32": "90ddbd12",
+            "material_slot": 137
+          }
+        ],
+        "alpha_layout_guide": {
+          "path": "build/mega-vegetation/m01d-d/artwork-mask-cd66b801.png",
+          "crc32": "5cfd0957",
+          "size": [
+            128,
+            64
+          ],
+          "role": "Original-derived binary reference only; never composited into final generated artwork."
+        }
+      }
+    },
+    {
+      "id": "MegaGrovLf4-brands-hatch",
+      "file": "exec-e1927a3d-ded4-4121-98da-53f1a449a41f.png",
+      "crc32": "30ed68d5",
+      "size": [
+        1254,
+        1254
+      ],
+      "reference": {
+        "names": [
+          "LHRTWS4"
+        ],
+        "size": [
+          128,
+          64
+        ],
+        "bmp_crc32": [
+          "cd66b801"
+        ],
+        "palette_crc32": "c2ef88fe",
+        "alpha_mask_crc32": "2cce041a",
+        "uses": [
+          {
+            "track": 3,
+            "archive": "data/branfree.bfp",
+            "archive_crc32": "ecc577c7",
+            "member": 5,
+            "member_name": "OBJECTS.C3D",
+            "member_crc32": "90ddbd12",
+            "material_slot": 137
+          }
+        ]
+      }
+    },
+    {
+      "id": "MegaGrovLf4-brands-hatch-framed",
+      "file": "MegaGrovLf4-brands-hatch-framed.png",
+      "crc32": "b4874ecb",
+      "size": [
+        512,
+        512
+      ],
+      "derived_from": "MegaGrovLf4-brands-hatch",
+      "preparation": {
+        "source_crop": [
+          1243,
+          876,
+          5,
+          215
+        ],
+        "framing": {
+          "canvas": [
+            512,
+            512
+          ],
+          "image_rect": [
+            26,
+            94,
+            460,
+            324
+          ],
+          "reason": "Preserve generated broad tuft aspect on a square whole-UV canvas; fit visible alpha within 460x460 with at least 26 transparent pixels on every side."
+        }
+      },
+      "reference": {
+        "names": [
+          "LHRTWS4"
+        ],
+        "size": [
+          128,
+          64
+        ],
+        "bmp_crc32": [
+          "cd66b801"
+        ],
+        "palette_crc32": "c2ef88fe",
+        "alpha_mask_crc32": "2cce041a",
+        "uses": [
+          {
+            "track": 3,
+            "archive": "data/branfree.bfp",
+            "archive_crc32": "ecc577c7",
+            "member": 5,
+            "member_name": "OBJECTS.C3D",
+            "member_crc32": "90ddbd12",
+            "material_slot": 137
+          }
+        ]
+      }
+    },
+    {
+      "id": "LHRTWS4-oulton-park",
+      "file": "exec-ed5715e0-29ff-4a31-bbbe-a09e217768f6.png",
+      "crc32": "8f30bf33",
+      "size": [
+        1774,
+        887
+      ],
+      "reference": {
+        "names": [
+          "LHRTWS4"
+        ],
+        "size": [
+          128,
+          64
+        ],
+        "bmp_crc32": [
+          "d3163486"
+        ],
+        "palette_crc32": "c9378119",
+        "alpha_mask_crc32": "52da4749",
+        "uses": [
+          {
+            "track": 4,
+            "archive": "data/oultfree.bfp",
+            "archive_crc32": "e6e258cb",
+            "member": 5,
+            "member_name": "OBJECTS.C3D",
+            "member_crc32": "5ad0e21a",
+            "material_slot": 91
+          }
+        ],
+        "alpha_layout_guide": {
+          "path": "build/mega-vegetation/m01d-d/artwork-mask-d3163486.png",
+          "crc32": "a499dc5a",
+          "size": [
+            128,
+            64
+          ],
+          "role": "Original-derived binary reference only; never composited into final generated artwork."
+        }
+      }
+    },
+    {
+      "id": "LHRTWS4-oulton-park-framed",
+      "file": "LHRTWS4-oulton-park-framed.png",
+      "crc32": "69f8d76c",
+      "size": [
+        512,
+        256
+      ],
+      "derived_from": "LHRTWS4-oulton-park",
+      "preparation": {
+        "source_crop": [
+          1726,
+          887,
+          48,
+          0
+        ],
+        "framing": {
+          "canvas": [
+            512,
+            256
+          ],
+          "image_rect": [
+            12,
+            0,
+            500,
+            256
+          ],
+          "reason": "Fit newly generated complete grove to canonical alpha bounds (3,0)-(128,64) normalized to 512x256; retain closed lower foliage mass and original 2:1 UV composition."
+        }
+      },
+      "reference": {
+        "names": [
+          "LHRTWS4"
+        ],
+        "size": [
+          128,
+          64
+        ],
+        "bmp_crc32": [
+          "d3163486"
+        ],
+        "palette_crc32": "c9378119",
+        "alpha_mask_crc32": "52da4749",
+        "uses": [
+          {
+            "track": 4,
+            "archive": "data/oultfree.bfp",
+            "archive_crc32": "e6e258cb",
+            "member": 5,
+            "member_name": "OBJECTS.C3D",
+            "member_crc32": "5ad0e21a",
+            "material_slot": 91
+          }
+        ],
+        "alpha_layout_guide": {
+          "path": "build/mega-vegetation/m01d-d/artwork-mask-d3163486.png",
+          "crc32": "a499dc5a",
+          "size": [
+            128,
+            64
+          ],
+          "role": "Original-derived binary reference only; never composited into final generated artwork."
+        }
+      }
+    },
+    {
+      "id": "MegaGrovLf4-oulton-park",
+      "file": "exec-b1b8143e-b1b6-4680-bb79-61a9a6006b71.png",
+      "crc32": "7bb8c795",
+      "size": [
+        1254,
+        1254
+      ],
+      "reference": {
+        "names": [
+          "LHRTWS4"
+        ],
+        "size": [
+          128,
+          64
+        ],
+        "bmp_crc32": [
+          "d3163486"
+        ],
+        "palette_crc32": "c9378119",
+        "alpha_mask_crc32": "52da4749",
+        "uses": [
+          {
+            "track": 4,
+            "archive": "data/oultfree.bfp",
+            "archive_crc32": "e6e258cb",
+            "member": 5,
+            "member_name": "OBJECTS.C3D",
+            "member_crc32": "5ad0e21a",
+            "material_slot": 91
+          }
+        ]
+      }
+    },
+    {
+      "id": "MegaGrovLf4-oulton-park-framed",
+      "file": "MegaGrovLf4-oulton-park-framed.png",
+      "crc32": "17c8f7f7",
+      "size": [
+        512,
+        512
+      ],
+      "derived_from": "MegaGrovLf4-oulton-park",
+      "preparation": {
+        "source_crop": [
+          1229,
+          1027,
+          13,
+          113
+        ],
+        "framing": {
+          "canvas": [
+            512,
+            512
+          ],
+          "image_rect": [
+            26,
+            64,
+            460,
+            384
+          ],
+          "reason": "Preserve generated broad tuft aspect on a square whole-UV canvas; fit visible alpha within 460x460 with at least 26 transparent pixels on every side."
+        }
+      },
+      "reference": {
+        "names": [
+          "LHRTWS4"
+        ],
+        "size": [
+          128,
+          64
+        ],
+        "bmp_crc32": [
+          "d3163486"
+        ],
+        "palette_crc32": "c9378119",
+        "alpha_mask_crc32": "52da4749",
+        "uses": [
+          {
+            "track": 4,
+            "archive": "data/oultfree.bfp",
+            "archive_crc32": "e6e258cb",
+            "member": 5,
+            "member_name": "OBJECTS.C3D",
+            "member_crc32": "5ad0e21a",
+            "material_slot": 91
+          }
+        ]
+      }
+    },
+    {
+      "id": "LMRTS4-brands-hatch",
+      "file": "exec-bcde8f68-8387-477b-8e2f-03e26392ff93.png",
+      "crc32": "c894c7e7",
+      "size": [
+        1774,
+        887
+      ],
+      "reference": {
+        "names": [
+          "LMRTS4"
+        ],
+        "size": [
+          64,
+          32
+        ],
+        "bmp_crc32": [
+          "fdd0802f"
+        ],
+        "palette_crc32": "c2ef88fe",
+        "alpha_mask_crc32": "e7629654",
+        "uses": [
+          {
+            "track": 3,
+            "archive": "data/branfree.bfp",
+            "archive_crc32": "ecc577c7",
+            "member": 5,
+            "member_name": "OBJECTS.C3D",
+            "member_crc32": "90ddbd12",
+            "material_slot": 135
+          }
+        ],
+        "alpha_layout_guide": {
+          "path": "build/mega-vegetation/m01d-e/artwork-mask-fdd0802f.png",
+          "crc32": "f29dc127",
+          "size": [
+            64,
+            32
+          ],
+          "role": "Original-derived binary reference only; never composited into final generated artwork."
+        }
+      }
+    },
+    {
+      "id": "LMRTS4-brands-hatch-framed",
+      "file": "LMRTS4-brands-hatch-framed.png",
+      "crc32": "c4ecbe78",
+      "size": [
+        512,
+        256
+      ],
+      "derived_from": "LMRTS4-brands-hatch",
+      "preparation": {
+        "source_crop": [
+          1749,
+          847,
+          17,
+          19
+        ],
+        "framing": {
+          "canvas": [
+            512,
+            256
+          ],
+          "image_rect": [
+            16,
+            8,
+            496,
+            248
+          ],
+          "reason": "Fit newly generated complete grove to canonical alpha bounds (2,1)-(64,32) normalized to 512x256; retain nine short narrow stems and their lower alpha gaps and original 2:1 UV composition."
+        }
+      },
+      "reference": {
+        "names": [
+          "LMRTS4"
+        ],
+        "size": [
+          64,
+          32
+        ],
+        "bmp_crc32": [
+          "fdd0802f"
+        ],
+        "palette_crc32": "c2ef88fe",
+        "alpha_mask_crc32": "e7629654",
+        "uses": [
+          {
+            "track": 3,
+            "archive": "data/branfree.bfp",
+            "archive_crc32": "ecc577c7",
+            "member": 5,
+            "member_name": "OBJECTS.C3D",
+            "member_crc32": "90ddbd12",
+            "material_slot": 135
+          }
+        ],
+        "alpha_layout_guide": {
+          "path": "build/mega-vegetation/m01d-e/artwork-mask-fdd0802f.png",
+          "crc32": "f29dc127",
+          "size": [
+            64,
+            32
+          ],
+          "role": "Original-derived binary reference only; never composited into final generated artwork."
+        }
+      }
+    },
+    {
+      "id": "MegaGrovLm4-brands-hatch",
+      "file": "exec-2ada392e-6d56-4a48-9267-b2631b11e966.png",
+      "crc32": "815e22e3",
+      "size": [
+        1254,
+        1254
+      ],
+      "reference": {
+        "names": [
+          "LMRTS4"
+        ],
+        "size": [
+          64,
+          32
+        ],
+        "bmp_crc32": [
+          "fdd0802f"
+        ],
+        "palette_crc32": "c2ef88fe",
+        "alpha_mask_crc32": "e7629654",
+        "uses": [
+          {
+            "track": 3,
+            "archive": "data/branfree.bfp",
+            "archive_crc32": "ecc577c7",
+            "member": 5,
+            "member_name": "OBJECTS.C3D",
+            "member_crc32": "90ddbd12",
+            "material_slot": 135
+          }
+        ]
+      }
+    },
+    {
+      "id": "MegaGrovLm4-brands-hatch-framed",
+      "file": "MegaGrovLm4-brands-hatch-framed.png",
+      "crc32": "285c7ba1",
+      "size": [
+        512,
+        512
+      ],
+      "derived_from": "MegaGrovLm4-brands-hatch",
+      "preparation": {
+        "source_crop": [
+          1223,
+          1143,
+          16,
+          49
+        ],
+        "framing": {
+          "canvas": [
+            512,
+            512
+          ],
+          "image_rect": [
+            26,
+            41,
+            460,
+            430
+          ],
+          "reason": "Preserve generated broad tuft aspect on a square whole-UV canvas; fit visible alpha within 460x460 with at least 26 transparent pixels on every side."
+        }
+      },
+      "reference": {
+        "names": [
+          "LMRTS4"
+        ],
+        "size": [
+          64,
+          32
+        ],
+        "bmp_crc32": [
+          "fdd0802f"
+        ],
+        "palette_crc32": "c2ef88fe",
+        "alpha_mask_crc32": "e7629654",
+        "uses": [
+          {
+            "track": 3,
+            "archive": "data/branfree.bfp",
+            "archive_crc32": "ecc577c7",
+            "member": 5,
+            "member_name": "OBJECTS.C3D",
+            "member_crc32": "90ddbd12",
+            "material_slot": 135
+          }
+        ]
+      }
+    },
+    {
+      "id": "LMRTS2-brands-hatch",
+      "file": "exec-12c09f12-40a4-4b25-aa0b-33b8160169d9.png",
+      "crc32": "e7b85c84",
+      "size": [
+        1774,
+        887
+      ],
+      "reference": {
+        "names": [
+          "LMRTS2"
+        ],
+        "size": [
+          64,
+          32
+        ],
+        "bmp_crc32": [
+          "2bb5e0c1"
+        ],
+        "palette_crc32": "c2ef88fe",
+        "alpha_mask_crc32": "b6d0e375",
+        "uses": [
+          {
+            "track": 3,
+            "archive": "data/branfree.bfp",
+            "archive_crc32": "ecc577c7",
+            "member": 5,
+            "member_name": "OBJECTS.C3D",
+            "member_crc32": "90ddbd12",
+            "material_slot": 136
+          }
+        ],
+        "alpha_layout_guide": {
+          "path": "build/mega-vegetation/m01d-f/artwork-full-gap-layout.png",
+          "crc32": "93e19abd",
+          "size": [
+            1024,
+            512
+          ],
+          "role": "Original-derived layout reference only; magenta marks full canonical central gap and is never composited into final generated artwork."
+        },
+        "generated_edit_target": {
+          "file": "exec-7a77ec89-5368-4d67-869c-71dafdea9c18.png",
+          "crc32": "572437ab",
+          "size": [
+            1774,
+            887
+          ],
+          "role": "Previously generated source-referenced whole-group artwork; final built-in edit corrects central gap only. Generated file retained in common source directory."
+        }
+      }
+    },
+    {
+      "id": "LMRTS2-brands-hatch-framed",
+      "file": "LMRTS2-brands-hatch-framed-v2.png",
+      "crc32": "d9c16240",
+      "size": [
+        512,
+        256
+      ],
+      "derived_from": "LMRTS2-brands-hatch",
+      "preparation": {
+        "source_crop": [
+          1774,
+          877,
+          0,
+          0
+        ],
+        "framing": {
+          "canvas": [
+            512,
+            256
+          ],
+          "image_rect": [
+            0,
+            0,
+            512,
+            256
+          ],
+          "reason": "Fit newly generated complete grove to canonical alpha bounds (0,0)-(64,32) normalized to 512x256; retain three short narrow stems, their lower alpha gaps and the continuous central alpha channel and original 2:1 UV composition."
+        }
+      },
+      "reference": {
+        "names": [
+          "LMRTS2"
+        ],
+        "size": [
+          64,
+          32
+        ],
+        "bmp_crc32": [
+          "2bb5e0c1"
+        ],
+        "palette_crc32": "c2ef88fe",
+        "alpha_mask_crc32": "b6d0e375",
+        "uses": [
+          {
+            "track": 3,
+            "archive": "data/branfree.bfp",
+            "archive_crc32": "ecc577c7",
+            "member": 5,
+            "member_name": "OBJECTS.C3D",
+            "member_crc32": "90ddbd12",
+            "material_slot": 136
+          }
+        ],
+        "alpha_layout_guide": {
+          "path": "build/mega-vegetation/m01d-f/artwork-full-gap-layout.png",
+          "crc32": "93e19abd",
+          "size": [
+            1024,
+            512
+          ],
+          "role": "Original-derived layout reference only; magenta marks full canonical central gap and is never composited into final generated artwork."
+        },
+        "generated_edit_target": {
+          "file": "exec-7a77ec89-5368-4d67-869c-71dafdea9c18.png",
+          "crc32": "572437ab",
+          "size": [
+            1774,
+            887
+          ],
+          "role": "Previously generated source-referenced whole-group artwork; final built-in edit corrects central gap only. Generated file retained in common source directory."
+        }
+      }
+    },
+    {
+      "id": "MegaGrovLm2-brands-hatch",
+      "file": "exec-906f2780-b4e6-48fb-87b4-5776e8a27784.png",
+      "crc32": "4bffade2",
+      "size": [
+        1254,
+        1254
+      ],
+      "reference": {
+        "names": [
+          "LMRTS2"
+        ],
+        "size": [
+          64,
+          32
+        ],
+        "bmp_crc32": [
+          "2bb5e0c1"
+        ],
+        "palette_crc32": "c2ef88fe",
+        "alpha_mask_crc32": "b6d0e375",
+        "uses": [
+          {
+            "track": 3,
+            "archive": "data/branfree.bfp",
+            "archive_crc32": "ecc577c7",
+            "member": 5,
+            "member_name": "OBJECTS.C3D",
+            "member_crc32": "90ddbd12",
+            "material_slot": 136
+          }
+        ]
+      }
+    },
+    {
+      "id": "MegaGrovLm2-brands-hatch-framed",
+      "file": "MegaGrovLm2-brands-hatch-framed.png",
+      "crc32": "2c858925",
+      "size": [
+        512,
+        512
+      ],
+      "derived_from": "MegaGrovLm2-brands-hatch",
+      "preparation": {
+        "source_crop": [
+          1223,
+          1085,
+          16,
+          86
+        ],
+        "framing": {
+          "canvas": [
+            512,
+            512
+          ],
+          "image_rect": [
+            26,
+            52,
+            460,
+            408
+          ],
+          "reason": "Preserve generated broad tuft aspect on a square whole-UV canvas; fit visible alpha within 460x460 with at least 26 transparent pixels on every side."
+        }
+      },
+      "reference": {
+        "names": [
+          "LMRTS2"
+        ],
+        "size": [
+          64,
+          32
+        ],
+        "bmp_crc32": [
+          "2bb5e0c1"
+        ],
+        "palette_crc32": "c2ef88fe",
+        "alpha_mask_crc32": "b6d0e375",
+        "uses": [
+          {
+            "track": 3,
+            "archive": "data/branfree.bfp",
+            "archive_crc32": "ecc577c7",
+            "member": 5,
+            "member_name": "OBJECTS.C3D",
+            "member_crc32": "90ddbd12",
+            "material_slot": 136
+          }
+        ]
+      }
+    }
+  ],
+  "outputs": [
+    {
+      "source": "LHRTS4-donington-framed",
+      "image": "textures/vegetation-lhrts4-donington.webp",
+      "size": [
+        512,
+        512
+      ],
+      "encoding": {
+        "quality": 80,
+        "alpha_quality": 100,
+        "method": 6,
+        "lossless": false
+      },
+      "crc32": "50c24a99",
+      "bytes": 94582,
+      "mapping": {
+        "names": [
+          "LHRTS4"
+        ],
+        "source_size": [
+          64,
+          64
+        ],
+        "source_crc32": [
+          "4cff410e"
+        ]
+      },
+      "crop": [
+        512,
+        512,
+        0,
+        0
+      ]
+    },
+    {
+      "source": "LHRTS4-silverstone-framed",
+      "image": "textures/vegetation-lhrts4-silverstone.webp",
+      "size": [
+        512,
+        512
+      ],
+      "crop": [
+        512,
+        512,
+        0,
+        0
+      ],
+      "encoding": {
+        "quality": 80,
+        "alpha_quality": 100,
+        "method": 6,
+        "lossless": false
+      },
+      "mapping": {
+        "names": [
+          "LHRTS4"
+        ],
+        "source_size": [
+          64,
+          64
+        ],
+        "source_crc32": [
+          "329fd920"
+        ]
+      },
+      "crc32": "3ca762c6",
+      "bytes": 91102
+    },
+    {
+      "source": "LHRTS4-thruxton-framed",
+      "image": "textures/vegetation-lhrts4-thruxton.webp",
+      "size": [
+        512,
+        512
+      ],
+      "crop": [
+        512,
+        512,
+        0,
+        0
+      ],
+      "encoding": {
+        "quality": 80,
+        "alpha_quality": 100,
+        "method": 6,
+        "lossless": false
+      },
+      "mapping": {
+        "names": [
+          "LHRTS4"
+        ],
+        "source_size": [
+          64,
+          64
+        ],
+        "source_crc32": [
+          "d34a49bb"
+        ]
+      },
+      "crc32": "7229ffb7",
+      "bytes": 96906
+    },
+    {
+      "source": "LHRTS4-brands-hatch-framed",
+      "image": "textures/vegetation-lhrts4-brands-hatch.webp",
+      "size": [
+        512,
+        512
+      ],
+      "crop": [
+        512,
+        512,
+        0,
+        0
+      ],
+      "encoding": {
+        "quality": 80,
+        "alpha_quality": 100,
+        "method": 6,
+        "lossless": false
+      },
+      "mapping": {
+        "names": [
+          "LHRTS4"
+        ],
+        "source_size": [
+          64,
+          64
+        ],
+        "source_crc32": [
+          "9382b6a6"
+        ]
+      },
+      "crc32": "6b318fc3",
+      "bytes": 89994
+    },
+    {
+      "source": "LHRTS4-oulton-park-framed",
+      "image": "textures/vegetation-lhrts4-oulton-park.webp",
+      "size": [
+        512,
+        512
+      ],
+      "crop": [
+        512,
+        512,
+        0,
+        0
+      ],
+      "encoding": {
+        "quality": 80,
+        "alpha_quality": 100,
+        "method": 6,
+        "lossless": false
+      },
+      "mapping": {
+        "names": [
+          "LHRTS4"
+        ],
+        "source_size": [
+          64,
+          64
+        ],
+        "source_crc32": [
+          "bfcd58a8"
+        ]
+      },
+      "crc32": "f603afd0",
+      "bytes": 86082
+    },
+    {
+      "source": "LHRTS4-croft-framed",
+      "image": "textures/vegetation-lhrts4-croft.webp",
+      "size": [
+        512,
+        512
+      ],
+      "crop": [
+        512,
+        512,
+        0,
+        0
+      ],
+      "encoding": {
+        "quality": 80,
+        "alpha_quality": 100,
+        "method": 6,
+        "lossless": false
+      },
+      "mapping": {
+        "names": [
+          "LHRTS4"
+        ],
+        "source_size": [
+          64,
+          64
+        ],
+        "source_crc32": [
+          "259a6c1a"
+        ]
+      },
+      "crc32": "ed49c165",
+      "bytes": 83706
+    },
+    {
+      "source": "LHRTS4-knockhill-framed",
+      "image": "textures/vegetation-lhrts4-knockhill.webp",
+      "size": [
+        512,
+        512
+      ],
+      "crop": [
+        512,
+        512,
+        0,
+        0
+      ],
+      "encoding": {
+        "quality": 80,
+        "alpha_quality": 100,
+        "method": 6,
+        "lossless": false
+      },
+      "mapping": {
+        "names": [
+          "LHRTS4"
+        ],
+        "source_size": [
+          64,
+          64
+        ],
+        "source_crc32": [
+          "6ba1b357"
+        ]
+      },
+      "crc32": "98acfcab",
+      "bytes": 89894
+    },
+    {
+      "source": "LHRTS4-snetterton-framed",
+      "image": "textures/vegetation-lhrts4-snetterton.webp",
+      "size": [
+        512,
+        512
+      ],
+      "crop": [
+        512,
+        512,
+        0,
+        0
+      ],
+      "encoding": {
+        "quality": 80,
+        "alpha_quality": 100,
+        "method": 6,
+        "lossless": false
+      },
+      "mapping": {
+        "names": [
+          "LHRTS4"
+        ],
+        "source_size": [
+          64,
+          64
+        ],
+        "source_crc32": [
+          "9418c826"
+        ]
+      },
+      "crc32": "d4dc9d31",
+      "bytes": 85944
+    },
+    {
+      "source": "LHRTS4-bark-framed",
+      "image": "textures/vegetation-bark.webp",
+      "size": [
+        256,
+        256
+      ],
+      "crop": [
+        256,
+        256,
+        0,
+        0
+      ],
+      "encoding": {
+        "quality": 80,
+        "alpha_quality": 100,
+        "method": 6,
+        "lossless": false
+      },
+      "mapping": {
+        "append_material": "MegaTreeBark",
+        "uv": "entire opaque image"
+      },
+      "crc32": "82dbe84d",
+      "bytes": 19328
+    },
+    {
+      "source": "MegaTreeLeaf-donington-framed",
+      "image": "textures/vegetation-leaf-donington.webp",
+      "size": [
+        512,
+        512
+      ],
+      "crop": [
+        512,
+        512,
+        0,
+        0
+      ],
+      "encoding": {
+        "quality": 80,
+        "alpha_quality": 100,
+        "method": 6,
+        "lossless": false
+      },
+      "mapping": {
+        "append_material": "MegaTreeLeaf",
+        "source_crc32": [
+          "4cff410e"
+        ],
+        "uv": "whole transparent foliage cluster"
+      },
+      "crc32": "c70a864f",
+      "bytes": 81192
+    },
+    {
+      "source": "MegaTreeLeaf-silverstone-framed",
+      "image": "textures/vegetation-leaf-silverstone.webp",
+      "size": [
+        512,
+        512
+      ],
+      "crop": [
+        512,
+        512,
+        0,
+        0
+      ],
+      "encoding": {
+        "quality": 80,
+        "alpha_quality": 100,
+        "method": 6,
+        "lossless": false
+      },
+      "mapping": {
+        "append_material": "MegaTreeLeaf",
+        "source_crc32": [
+          "329fd920"
+        ],
+        "uv": "whole transparent foliage cluster"
+      },
+      "crc32": "2fd62d89",
+      "bytes": 70100
+    },
+    {
+      "source": "MegaTreeLeaf-thruxton-framed",
+      "image": "textures/vegetation-leaf-thruxton.webp",
+      "size": [
+        512,
+        512
+      ],
+      "crop": [
+        512,
+        512,
+        0,
+        0
+      ],
+      "encoding": {
+        "quality": 80,
+        "alpha_quality": 100,
+        "method": 6,
+        "lossless": false
+      },
+      "mapping": {
+        "append_material": "MegaTreeLeaf",
+        "source_crc32": [
+          "d34a49bb"
+        ],
+        "uv": "whole transparent foliage cluster"
+      },
+      "crc32": "64279967",
+      "bytes": 64162
+    },
+    {
+      "source": "MegaTreeLeaf-brands-hatch-framed",
+      "image": "textures/vegetation-leaf-brands-hatch.webp",
+      "size": [
+        512,
+        512
+      ],
+      "crop": [
+        512,
+        512,
+        0,
+        0
+      ],
+      "encoding": {
+        "quality": 80,
+        "alpha_quality": 100,
+        "method": 6,
+        "lossless": false
+      },
+      "mapping": {
+        "append_material": "MegaTreeLeaf",
+        "source_crc32": [
+          "9382b6a6"
+        ],
+        "uv": "whole transparent foliage cluster"
+      },
+      "crc32": "381fdddd",
+      "bytes": 69844
+    },
+    {
+      "source": "MegaTreeLeaf-oulton-park-framed",
+      "image": "textures/vegetation-leaf-oulton-park.webp",
+      "size": [
+        512,
+        512
+      ],
+      "crop": [
+        512,
+        512,
+        0,
+        0
+      ],
+      "encoding": {
+        "quality": 80,
+        "alpha_quality": 100,
+        "method": 6,
+        "lossless": false
+      },
+      "mapping": {
+        "append_material": "MegaTreeLeaf",
+        "source_crc32": [
+          "bfcd58a8"
+        ],
+        "uv": "whole transparent foliage cluster"
+      },
+      "crc32": "6eeddd42",
+      "bytes": 66720
+    },
+    {
+      "source": "MegaTreeLeaf-croft-framed",
+      "image": "textures/vegetation-leaf-croft.webp",
+      "size": [
+        512,
+        512
+      ],
+      "crop": [
+        512,
+        512,
+        0,
+        0
+      ],
+      "encoding": {
+        "quality": 80,
+        "alpha_quality": 100,
+        "method": 6,
+        "lossless": false
+      },
+      "mapping": {
+        "append_material": "MegaTreeLeaf",
+        "source_crc32": [
+          "259a6c1a"
+        ],
+        "uv": "whole transparent foliage cluster"
+      },
+      "crc32": "3ea5d9de",
+      "bytes": 71062
+    },
+    {
+      "source": "MegaTreeLeaf-knockhill-framed",
+      "image": "textures/vegetation-leaf-knockhill.webp",
+      "size": [
+        512,
+        512
+      ],
+      "crop": [
+        512,
+        512,
+        0,
+        0
+      ],
+      "encoding": {
+        "quality": 80,
+        "alpha_quality": 100,
+        "method": 6,
+        "lossless": false
+      },
+      "mapping": {
+        "append_material": "MegaTreeLeaf",
+        "source_crc32": [
+          "6ba1b357"
+        ],
+        "uv": "whole transparent foliage cluster"
+      },
+      "crc32": "70e82d12",
+      "bytes": 72060
+    },
+    {
+      "source": "MegaTreeLeaf-snetterton-framed",
+      "image": "textures/vegetation-leaf-snetterton.webp",
+      "size": [
+        512,
+        512
+      ],
+      "crop": [
+        512,
+        512,
+        0,
+        0
+      ],
+      "encoding": {
+        "quality": 80,
+        "alpha_quality": 100,
+        "method": 6,
+        "lossless": false
+      },
+      "mapping": {
+        "append_material": "MegaTreeLeaf",
+        "source_crc32": [
+          "9418c826"
+        ],
+        "uv": "whole transparent foliage cluster"
+      },
+      "crc32": "2751d710",
+      "bytes": 77738
+    },
+    {
+      "source": "LHRTS7-donington-framed",
+      "image": "textures/vegetation-lhrts7-donington.webp",
+      "size": [
+        512,
+        512
+      ],
+      "crop": [
+        512,
+        512,
+        0,
+        0
+      ],
+      "encoding": {
+        "quality": 80,
+        "alpha_quality": 100,
+        "method": 6,
+        "lossless": false
+      },
+      "mapping": {
+        "names": [
+          "LHRTS7"
+        ],
+        "source_size": [
+          64,
+          64
+        ],
+        "source_crc32": [
+          "b5c67d09"
+        ]
+      },
+      "package": "M01b",
+      "crc32": "662b3a0e",
+      "bytes": 34060
+    },
+    {
+      "source": "MegaTreeLf7-donington-framed",
+      "image": "textures/vegetation-leaf7-donington.webp",
+      "size": [
+        512,
+        512
+      ],
+      "crop": [
+        512,
+        512,
+        0,
+        0
+      ],
+      "encoding": {
+        "quality": 80,
+        "alpha_quality": 100,
+        "method": 6,
+        "lossless": false
+      },
+      "mapping": {
+        "append_material": "MegaTreeLf7",
+        "source_crc32": [
+          "b5c67d09"
+        ],
+        "uv": "whole transparent foliage cluster"
+      },
+      "package": "M01b",
+      "crc32": "3851754e",
+      "bytes": 63458
+    },
+    {
+      "source": "LHRTS7-brands-hatch-framed",
+      "image": "textures/vegetation-lhrts7-brands-hatch.webp",
+      "size": [
+        512,
+        512
+      ],
+      "crop": [
+        512,
+        512,
+        0,
+        0
+      ],
+      "encoding": {
+        "quality": 80,
+        "alpha_quality": 100,
+        "method": 6,
+        "lossless": false
+      },
+      "mapping": {
+        "names": [
+          "LHRTS7"
+        ],
+        "source_size": [
+          64,
+          64
+        ],
+        "source_crc32": [
+          "a7ffa46d"
+        ]
+      },
+      "package": "M01b",
+      "crc32": "b2335ea0",
+      "bytes": 32900
+    },
+    {
+      "source": "MegaTreeLf7-brands-hatch-framed",
+      "image": "textures/vegetation-leaf7-brands-hatch.webp",
+      "size": [
+        512,
+        512
+      ],
+      "crop": [
+        512,
+        512,
+        0,
+        0
+      ],
+      "encoding": {
+        "quality": 80,
+        "alpha_quality": 100,
+        "method": 6,
+        "lossless": false
+      },
+      "mapping": {
+        "append_material": "MegaTreeLf7",
+        "source_crc32": [
+          "a7ffa46d"
+        ],
+        "uv": "whole transparent foliage cluster"
+      },
+      "package": "M01b",
+      "crc32": "e22eb81a",
+      "bytes": 67848
+    },
+    {
+      "source": "LHRTWS3-donington-framed",
+      "image": "textures/vegetation-lhrtws3-donington.webp",
+      "size": [
+        512,
+        256
+      ],
+      "crop": [
+        512,
+        256,
+        0,
+        0
+      ],
+      "encoding": {
+        "quality": 80,
+        "alpha_quality": 100,
+        "method": 6,
+        "lossless": false
+      },
+      "mapping": {
+        "names": [
+          "LHRTWS3"
+        ],
+        "source_size": [
+          128,
+          64
+        ],
+        "source_crc32": [
+          "c2bce436"
+        ]
+      },
+      "package": "M01c",
+      "crc32": "db7fbba7",
+      "bytes": 46036
+    },
+    {
+      "source": "MegaGroveLf-donington-framed",
+      "image": "textures/vegetation-grove-leaf-donington.webp",
+      "size": [
+        512,
+        512
+      ],
+      "crop": [
+        512,
+        512,
+        0,
+        0
+      ],
+      "encoding": {
+        "quality": 80,
+        "alpha_quality": 100,
+        "method": 6,
+        "lossless": false
+      },
+      "mapping": {
+        "append_material": "MegaGroveLf",
+        "source_crc32": [
+          "c2bce436"
+        ],
+        "uv": "whole transparent foliage cluster"
+      },
+      "package": "M01c",
+      "crc32": "50eee837",
+      "bytes": 65244
+    },
+    {
+      "source": "LHRTWS3-thruxton-framed",
+      "image": "textures/vegetation-lhrtws3-thruxton.webp",
+      "size": [
+        512,
+        256
+      ],
+      "crop": [
+        512,
+        256,
+        0,
+        0
+      ],
+      "encoding": {
+        "quality": 80,
+        "alpha_quality": 100,
+        "method": 6,
+        "lossless": false
+      },
+      "mapping": {
+        "names": [
+          "LHRTWS3"
+        ],
+        "source_size": [
+          128,
+          64
+        ],
+        "source_crc32": [
+          "5e32f181"
+        ]
+      },
+      "package": "M01c",
+      "crc32": "2b2e4d19",
+      "bytes": 50520
+    },
+    {
+      "source": "MegaGroveLf-thruxton-framed",
+      "image": "textures/vegetation-grove-leaf-thruxton.webp",
+      "size": [
+        512,
+        512
+      ],
+      "crop": [
+        512,
+        512,
+        0,
+        0
+      ],
+      "encoding": {
+        "quality": 80,
+        "alpha_quality": 100,
+        "method": 6,
+        "lossless": false
+      },
+      "mapping": {
+        "append_material": "MegaGroveLf",
+        "source_crc32": [
+          "5e32f181"
+        ],
+        "uv": "whole transparent foliage cluster"
+      },
+      "package": "M01c",
+      "crc32": "995815fe",
+      "bytes": 63546
+    },
+    {
+      "source": "LHRTWS3-brands-hatch-framed",
+      "image": "textures/vegetation-lhrtws3-brands-hatch.webp",
+      "size": [
+        512,
+        256
+      ],
+      "crop": [
+        512,
+        256,
+        0,
+        0
+      ],
+      "encoding": {
+        "quality": 80,
+        "alpha_quality": 100,
+        "method": 6,
+        "lossless": false
+      },
+      "mapping": {
+        "names": [
+          "LHRTWS3"
+        ],
+        "source_size": [
+          128,
+          64
+        ],
+        "source_crc32": [
+          "6d9bbf4f"
+        ]
+      },
+      "package": "M01c",
+      "crc32": "18366bd8",
+      "bytes": 62466
+    },
+    {
+      "source": "MegaGroveLf-brands-hatch-framed",
+      "image": "textures/vegetation-grove-leaf-brands-hatch.webp",
+      "size": [
+        512,
+        512
+      ],
+      "crop": [
+        512,
+        512,
+        0,
+        0
+      ],
+      "encoding": {
+        "quality": 80,
+        "alpha_quality": 100,
+        "method": 6,
+        "lossless": false
+      },
+      "mapping": {
+        "append_material": "MegaGroveLf",
+        "source_crc32": [
+          "6d9bbf4f"
+        ],
+        "uv": "whole transparent foliage cluster"
+      },
+      "package": "M01c",
+      "crc32": "045195cd",
+      "bytes": 67654
+    },
+    {
+      "source": "LHRTWS3-croft-framed",
+      "image": "textures/vegetation-lhrtws3-croft.webp",
+      "size": [
+        512,
+        256
+      ],
+      "crop": [
+        512,
+        256,
+        0,
+        0
+      ],
+      "encoding": {
+        "quality": 80,
+        "alpha_quality": 100,
+        "method": 6,
+        "lossless": false
+      },
+      "mapping": {
+        "names": [
+          "LHRTWS3"
+        ],
+        "source_size": [
+          128,
+          64
+        ],
+        "source_crc32": [
+          "450c8317"
+        ]
+      },
+      "package": "M01c",
+      "crc32": "aa163c3e",
+      "bytes": 44506
+    },
+    {
+      "source": "MegaGroveLf-croft-framed",
+      "image": "textures/vegetation-grove-leaf-croft.webp",
+      "size": [
+        512,
+        512
+      ],
+      "crop": [
+        512,
+        512,
+        0,
+        0
+      ],
+      "encoding": {
+        "quality": 80,
+        "alpha_quality": 100,
+        "method": 6,
+        "lossless": false
+      },
+      "mapping": {
+        "append_material": "MegaGroveLf",
+        "source_crc32": [
+          "450c8317"
+        ],
+        "uv": "whole transparent foliage cluster"
+      },
+      "package": "M01c",
+      "crc32": "2e0374c0",
+      "bytes": 71256
+    },
+    {
+      "source": "LHRTWS3-snetterton-framed",
+      "image": "textures/vegetation-lhrtws3-snetterton.webp",
+      "size": [
+        512,
+        256
+      ],
+      "crop": [
+        512,
+        256,
+        0,
+        0
+      ],
+      "encoding": {
+        "quality": 80,
+        "alpha_quality": 100,
+        "method": 6,
+        "lossless": false
+      },
+      "mapping": {
+        "names": [
+          "LHRTWS3"
+        ],
+        "source_size": [
+          128,
+          64
+        ],
+        "source_crc32": [
+          "0fc2a9f0"
+        ]
+      },
+      "package": "M01c",
+      "crc32": "851cbba2",
+      "bytes": 65102
+    },
+    {
+      "source": "MegaGroveLf-snetterton-framed",
+      "image": "textures/vegetation-grove-leaf-snetterton.webp",
+      "size": [
+        512,
+        512
+      ],
+      "crop": [
+        512,
+        512,
+        0,
+        0
+      ],
+      "encoding": {
+        "quality": 80,
+        "alpha_quality": 100,
+        "method": 6,
+        "lossless": false
+      },
+      "mapping": {
+        "append_material": "MegaGroveLf",
+        "source_crc32": [
+          "0fc2a9f0"
+        ],
+        "uv": "whole transparent foliage cluster"
+      },
+      "package": "M01c",
+      "crc32": "fd5be447",
+      "bytes": 75156
+    },
+    {
+      "source": "LHRTS2-donington-framed",
+      "image": "textures/vegetation-lhrts2-donington.webp",
+      "size": [
+        256,
+        512
+      ],
+      "crop": [
+        256,
+        512,
+        0,
+        0
+      ],
+      "encoding": {
+        "quality": 80,
+        "alpha_quality": 100,
+        "method": 6,
+        "lossless": false
+      },
+      "mapping": {
+        "names": [
+          "LHRTS2"
+        ],
+        "source_size": [
+          32,
+          64
+        ],
+        "source_crc32": [
+          "fdd155e8"
+        ]
+      },
+      "package": "M01d-b",
+      "crc32": "c4cac858",
+      "bytes": 58360
+    },
+    {
+      "source": "MegaTreeLf2-donington-framed",
+      "image": "textures/vegetation-leaf2-donington.webp",
+      "size": [
+        512,
+        512
+      ],
+      "crop": [
+        512,
+        512,
+        0,
+        0
+      ],
+      "encoding": {
+        "quality": 80,
+        "alpha_quality": 100,
+        "method": 6,
+        "lossless": false
+      },
+      "mapping": {
+        "append_material": "MegaTreeLf2",
+        "source_crc32": [
+          "fdd155e8"
+        ],
+        "uv": "whole transparent foliage cluster"
+      },
+      "package": "M01d-b",
+      "crc32": "54125320",
+      "bytes": 64392
+    },
+    {
+      "source": "LHRTS1-croft-framed",
+      "image": "textures/vegetation-lhrts1-croft.webp",
+      "size": [
+        512,
+        512
+      ],
+      "crop": [
+        512,
+        512,
+        0,
+        0
+      ],
+      "encoding": {
+        "quality": 80,
+        "alpha_quality": 100,
+        "method": 6,
+        "lossless": false
+      },
+      "mapping": {
+        "names": [
+          "LHRTS1"
+        ],
+        "source_size": [
+          64,
+          64
+        ],
+        "source_crc32": [
+          "065f127e"
+        ]
+      },
+      "package": "M01d-c",
+      "crc32": "44d64210",
+      "bytes": 45078
+    },
+    {
+      "source": "MegaTreeLf1-croft-framed",
+      "image": "textures/vegetation-leaf1-croft.webp",
+      "size": [
+        512,
+        512
+      ],
+      "crop": [
+        512,
+        512,
+        0,
+        0
+      ],
+      "encoding": {
+        "quality": 80,
+        "alpha_quality": 100,
+        "method": 6,
+        "lossless": false
+      },
+      "mapping": {
+        "append_material": "MegaTreeLf1",
+        "source_crc32": [
+          "065f127e"
+        ],
+        "uv": "whole transparent foliage cluster"
+      },
+      "package": "M01d-c",
+      "crc32": "a69cf1cd",
+      "bytes": 80186
+    },
+    {
+      "source": "LHRTWS4-brands-hatch-framed",
+      "image": "textures/vegetation-lhrtws4-brands-hatch.webp",
+      "size": [
+        512,
+        256
+      ],
+      "crop": [
+        512,
+        256,
+        0,
+        0
+      ],
+      "encoding": {
+        "quality": 80,
+        "alpha_quality": 100,
+        "method": 6,
+        "lossless": false
+      },
+      "mapping": {
+        "names": [
+          "LHRTWS4"
+        ],
+        "source_size": [
+          128,
+          64
+        ],
+        "source_crc32": [
+          "cd66b801"
+        ]
+      },
+      "package": "M01d-d",
+      "crc32": "1bb448a0",
+      "bytes": 58902
+    },
+    {
+      "source": "MegaGrovLf4-brands-hatch-framed",
+      "image": "textures/vegetation-grove-leaf4-brands-hatch.webp",
+      "size": [
+        512,
+        512
+      ],
+      "crop": [
+        512,
+        512,
+        0,
+        0
+      ],
+      "encoding": {
+        "quality": 80,
+        "alpha_quality": 100,
+        "method": 6,
+        "lossless": false
+      },
+      "mapping": {
+        "append_material": "MegaGrovLf4",
+        "source_crc32": [
+          "cd66b801"
+        ],
+        "uv": "whole transparent foliage cluster"
+      },
+      "package": "M01d-d",
+      "crc32": "f22450a4",
+      "bytes": 82266
+    },
+    {
+      "source": "LHRTWS4-oulton-park-framed",
+      "image": "textures/vegetation-lhrtws4-oulton-park.webp",
+      "size": [
+        512,
+        256
+      ],
+      "crop": [
+        512,
+        256,
+        0,
+        0
+      ],
+      "encoding": {
+        "quality": 80,
+        "alpha_quality": 100,
+        "method": 6,
+        "lossless": false
+      },
+      "mapping": {
+        "names": [
+          "LHRTWS4"
+        ],
+        "source_size": [
+          128,
+          64
+        ],
+        "source_crc32": [
+          "d3163486"
+        ]
+      },
+      "package": "M01d-d",
+      "crc32": "79e650f2",
+      "bytes": 49284
+    },
+    {
+      "source": "MegaGrovLf4-oulton-park-framed",
+      "image": "textures/vegetation-grove-leaf4-oulton-park.webp",
+      "size": [
+        512,
+        512
+      ],
+      "crop": [
+        512,
+        512,
+        0,
+        0
+      ],
+      "encoding": {
+        "quality": 80,
+        "alpha_quality": 100,
+        "method": 6,
+        "lossless": false
+      },
+      "mapping": {
+        "append_material": "MegaGrovLf4",
+        "source_crc32": [
+          "d3163486"
+        ],
+        "uv": "whole transparent foliage cluster"
+      },
+      "package": "M01d-d",
+      "crc32": "4c66831c",
+      "bytes": 83804
+    },
+    {
+      "source": "LMRTS4-brands-hatch-framed",
+      "image": "textures/vegetation-lmrts4-brands-hatch.webp",
+      "size": [
+        512,
+        256
+      ],
+      "crop": [
+        512,
+        256,
+        0,
+        0
+      ],
+      "encoding": {
+        "quality": 80,
+        "alpha_quality": 100,
+        "method": 6,
+        "lossless": false
+      },
+      "mapping": {
+        "names": [
+          "LMRTS4"
+        ],
+        "source_size": [
+          64,
+          32
+        ],
+        "source_crc32": [
+          "fdd0802f"
+        ]
+      },
+      "package": "M01d-e",
+      "crc32": "00faadf3",
+      "bytes": 50230
+    },
+    {
+      "source": "MegaGrovLm4-brands-hatch-framed",
+      "image": "textures/vegetation-grove-lm4-brands-hatch.webp",
+      "size": [
+        512,
+        512
+      ],
+      "crop": [
+        512,
+        512,
+        0,
+        0
+      ],
+      "encoding": {
+        "quality": 80,
+        "alpha_quality": 100,
+        "method": 6,
+        "lossless": false
+      },
+      "mapping": {
+        "append_material": "MegaGrovLm4",
+        "source_crc32": [
+          "fdd0802f"
+        ],
+        "uv": "whole transparent foliage cluster"
+      },
+      "package": "M01d-e",
+      "crc32": "56307e0d",
+      "bytes": 84042
+    },
+    {
+      "source": "LMRTS2-brands-hatch-framed",
+      "image": "textures/vegetation-lmrts2-brands-hatch.webp",
+      "size": [
+        512,
+        256
+      ],
+      "crop": [
+        512,
+        256,
+        0,
+        0
+      ],
+      "encoding": {
+        "quality": 80,
+        "alpha_quality": 100,
+        "method": 6,
+        "lossless": false
+      },
+      "mapping": {
+        "names": [
+          "LMRTS2"
+        ],
+        "source_size": [
+          64,
+          32
+        ],
+        "source_crc32": [
+          "2bb5e0c1"
+        ]
+      },
+      "package": "M01d-f",
+      "crc32": "b992329f",
+      "bytes": 42586
+    },
+    {
+      "source": "MegaGrovLm2-brands-hatch-framed",
+      "image": "textures/vegetation-grove-lm2-brands-hatch.webp",
+      "size": [
+        512,
+        512
+      ],
+      "crop": [
+        512,
+        512,
+        0,
+        0
+      ],
+      "encoding": {
+        "quality": 80,
+        "alpha_quality": 100,
+        "method": 6,
+        "lossless": false
+      },
+      "mapping": {
+        "append_material": "MegaGrovLm2",
+        "source_crc32": [
+          "2bb5e0c1"
+        ],
+        "uv": "whole transparent foliage cluster"
+      },
+      "package": "M01d-f",
+      "crc32": "af9a661f",
+      "bytes": 86090
+    }
+  ]
+}

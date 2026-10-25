@@ -1,0 +1,1536 @@
+{
+  "version": 1,
+  "package": "R01-Silverstone-TRA-buildings",
+  "source": {
+    "path": "data/silvfree.bfp",
+    "crc32": "960a335c",
+    "member": 5,
+    "member_crc32": "a92b3b70"
+  },
+  "scope": {
+    "track": 1,
+    "buildings": [
+      {
+        "mesh": 7,
+        "name": "SI06TRA1_1",
+        "type": "58b031fb",
+        "source_crc32": "da88c1c2",
+        "vertices": 23,
+        "triangles": 15,
+        "nodes": [
+          21
+        ]
+      },
+      {
+        "mesh": 8,
+        "name": "SI06TRA4_1",
+        "type": "2795fdaf",
+        "source_crc32": "7388611b",
+        "vertices": 15,
+        "triangles": 9,
+        "nodes": [
+          23,
+          25
+        ]
+      },
+      {
+        "mesh": 15,
+        "name": "SI06TRA2_1",
+        "type": "d5071e6f",
+        "source_crc32": "387bf894",
+        "vertices": 147,
+        "triangles": 75,
+        "nodes": [
+          45
+        ]
+      }
+    ],
+    "types": 3,
+    "placements": 4,
+    "new_unique_source_images": 12,
+    "changed_original_slots": 12,
+    "shared_crowd_grandstand_placements": 6
+  },
+  "geometry": "Canonical simple bodies retained:23V/15T,15V/9T,147V/75T. Positions, normals, UVs, corner order/colour/materialbindings, material definitions, samplers and all512 hierarchy nodes unchanged. No new geometry, texture slots or UV islands.",
+  "uv_contract": "Twelve exact source-name/size/BMP-CRC mappings; no aliases or cross-track exact-CRC consumers. TR1 lower windows start with a full bay; TR2/TRAI keep clipped left bays. Source header/glazing/ad/window bands retained, including bottom-reaching sills. Shared roof/corner samples and source repeat/clamp phase retained.",
+  "export": "New Imagegen artwork, whole-canvas Lanczos to original aspect, longest edge512; WebP quality80 method6. Only recorded AI presentation padding cropped from Crowd1. Three source masks restored onto opaque auxiliary RGB. No old RGB copied, procedural repaint, regional artwork warp, extra game image or UV remap.",
+  "materials": [
+    {
+      "name": "SI06TRAK",
+      "source": {
+        "slot": 12,
+        "crc32": "f001ca38",
+        "size": [
+          64,
+          64
+        ],
+        "black_key_pixels": 0
+      },
+      "consumers": [
+        {
+          "mesh": 7,
+          "name": "SI06TRA1_1",
+          "nodes": [
+            21
+          ],
+          "faces": [
+            0,
+            1
+          ],
+          "uv_bounds": [
+            [
+              0.0,
+              0.9677276611328125
+            ],
+            [
+              -0.9999847412109375,
+              -0.0317230224609375
+            ]
+          ]
+        },
+        {
+          "mesh": 8,
+          "name": "SI06TRA4_1",
+          "nodes": [
+            23,
+            25
+          ],
+          "faces": [
+            7,
+            8
+          ],
+          "uv_bounds": [
+            [
+              0.0,
+              1.0
+            ],
+            [
+              -0.9999847412109375,
+              -0.0158538818359375
+            ]
+          ]
+        }
+      ],
+      "generated": {
+        "path": "build/silverstone-tra-buildings/SI06TRAK-generated.png",
+        "crc32": "53315ac6",
+        "bytes": 2606808,
+        "size": [
+          1254,
+          1254
+        ]
+      },
+      "output": {
+        "path": "assets/models/mega/textures/silverstone-tra-si06trak.webp",
+        "crc32": "7a41751a",
+        "bytes": 23830,
+        "size": [
+          512,
+          512
+        ]
+      },
+      "processing_crop": [
+        0,
+        0,
+        1254,
+        1254
+      ],
+      "alpha": "Fully opaque including dark glass and under-bands."
+    },
+    {
+      "name": "SI06TRAH",
+      "source": {
+        "slot": 39,
+        "crc32": "9e6ee931",
+        "size": [
+          64,
+          64
+        ],
+        "black_key_pixels": 1925
+      },
+      "consumers": [
+        {
+          "mesh": 15,
+          "name": "SI06TRA2_1",
+          "nodes": [
+            45
+          ],
+          "faces": [
+            15,
+            16,
+            17,
+            18,
+            19,
+            20
+          ],
+          "uv_bounds": [
+            [
+              0.0,
+              0.9677276611328125
+            ],
+            [
+              -0.9999847412109375,
+              -0.0317230224609375
+            ]
+          ]
+        }
+      ],
+      "generated": {
+        "path": "build/silverstone-tra-buildings/SI06TRAH-generated.png",
+        "crc32": "8a1fe2a2",
+        "bytes": 2279672,
+        "size": [
+          1254,
+          1254
+        ]
+      },
+      "output": {
+        "path": "assets/models/mega/textures/silverstone-tra-si06trah.webp",
+        "crc32": "0bb619d5",
+        "bytes": 6228,
+        "size": [
+          512,
+          512
+        ]
+      },
+      "processing_crop": [
+        0,
+        0,
+        1254,
+        1254
+      ],
+      "alpha": "Exact immutable original RGB-black-key mask, nearest-scaled; new opaque Imagegen RGB underpainting, no source RGB copied."
+    },
+    {
+      "name": "SI06TRAD",
+      "source": {
+        "slot": 40,
+        "crc32": "dd29f97c",
+        "size": [
+          64,
+          64
+        ],
+        "black_key_pixels": 0
+      },
+      "consumers": [
+        {
+          "mesh": 15,
+          "name": "SI06TRA2_1",
+          "nodes": [
+            45
+          ],
+          "faces": [
+            21,
+            22,
+            23,
+            24,
+            25,
+            26,
+            27,
+            28,
+            29,
+            30
+          ],
+          "uv_bounds": [
+            [
+              0.0,
+              0.9682464599609375
+            ],
+            [
+              -0.9999847412109375,
+              -0.0322418212890625
+            ]
+          ]
+        }
+      ],
+      "generated": {
+        "path": "build/silverstone-tra-buildings/SI06TRAD-generated.png",
+        "crc32": "7e566110",
+        "bytes": 2105514,
+        "size": [
+          1254,
+          1254
+        ]
+      },
+      "output": {
+        "path": "assets/models/mega/textures/silverstone-tra-si06trad.webp",
+        "crc32": "7dfe3309",
+        "bytes": 4946,
+        "size": [
+          512,
+          512
+        ]
+      },
+      "processing_crop": [
+        0,
+        0,
+        1254,
+        1254
+      ],
+      "alpha": "Fully opaque including dark glass and under-bands."
+    },
+    {
+      "name": "SI06TRAA",
+      "source": {
+        "slot": 41,
+        "crc32": "16e88f28",
+        "size": [
+          64,
+          64
+        ],
+        "black_key_pixels": 0
+      },
+      "consumers": [
+        {
+          "mesh": 15,
+          "name": "SI06TRA2_1",
+          "nodes": [
+            45
+          ],
+          "faces": [
+            31,
+            32,
+            33,
+            34
+          ],
+          "uv_bounds": [
+            [
+              0.0,
+              0.9841156005859375
+            ],
+            [
+              -0.9999847412109375,
+              -0.0475921630859375
+            ]
+          ]
+        }
+      ],
+      "references": [
+        {
+          "path": "build/silverstone-tra-buildings/SI06TRAA-source6x.png",
+          "crc32": "0447d370",
+          "bytes": 8278,
+          "size": [
+            384,
+            384
+          ]
+        },
+        {
+          "path": "assets/models/mega/textures/silverstone-advert-autotrad.webp",
+          "crc32": "ba9585c3",
+          "bytes": 3730,
+          "size": [
+            512,
+            128
+          ]
+        }
+      ],
+      "generated": {
+        "path": "build/silverstone-tra-buildings/SI06TRAA-generated.png",
+        "crc32": "424cd944",
+        "bytes": 1953818,
+        "size": [
+          1254,
+          1254
+        ]
+      },
+      "output": {
+        "path": "assets/models/mega/textures/silverstone-tra-si06traa.webp",
+        "crc32": "7ff57208",
+        "bytes": 11776,
+        "size": [
+          512,
+          512
+        ]
+      },
+      "processing_crop": [
+        0,
+        0,
+        1254,
+        1254
+      ],
+      "alpha": "Fully opaque including dark glass and under-bands.",
+      "reconstruction": "Auto Trader confirmed against canonical AUTOTRAD 916be8c7; one-line lower logo retained."
+    },
+    {
+      "name": "SI06TRAF",
+      "source": {
+        "slot": 42,
+        "crc32": "2fed0e84",
+        "size": [
+          64,
+          64
+        ],
+        "black_key_pixels": 0
+      },
+      "consumers": [
+        {
+          "mesh": 15,
+          "name": "SI06TRA2_1",
+          "nodes": [
+            45
+          ],
+          "faces": [
+            35,
+            36,
+            37,
+            38,
+            39,
+            40
+          ],
+          "uv_bounds": [
+            [
+              0.0,
+              0.9677276611328125
+            ],
+            [
+              -0.9999847412109375,
+              -0.0158538818359375
+            ]
+          ]
+        }
+      ],
+      "references": [
+        {
+          "path": "build/silverstone-tra-buildings/SI06TRAF-source6x.png",
+          "crc32": "0710b914",
+          "bytes": 7977,
+          "size": [
+            384,
+            384
+          ]
+        },
+        {
+          "path": "assets/models/mega/textures/silverstone-advert-autotrad.webp",
+          "crc32": "ba9585c3",
+          "bytes": 3730,
+          "size": [
+            512,
+            128
+          ]
+        }
+      ],
+      "generated": {
+        "path": "build/silverstone-tra-buildings/SI06TRAF-generated.png",
+        "crc32": "4e4033e3",
+        "bytes": 2119406,
+        "size": [
+          1254,
+          1254
+        ]
+      },
+      "output": {
+        "path": "assets/models/mega/textures/silverstone-tra-si06traf.webp",
+        "crc32": "f9e31d72",
+        "bytes": 13430,
+        "size": [
+          512,
+          512
+        ]
+      },
+      "processing_crop": [
+        0,
+        0,
+        1254,
+        1254
+      ],
+      "alpha": "Fully opaque including dark glass and under-bands.",
+      "reconstruction": "Auto Trader confirmed against canonical AUTOTRAD 916be8c7; two-line upper/lower motifs retained."
+    },
+    {
+      "name": "SI06TRAC",
+      "source": {
+        "slot": 43,
+        "crc32": "b545913c",
+        "size": [
+          64,
+          64
+        ],
+        "black_key_pixels": 0
+      },
+      "consumers": [
+        {
+          "mesh": 15,
+          "name": "SI06TRA2_1",
+          "nodes": [
+            45
+          ],
+          "faces": [
+            41,
+            42,
+            43,
+            44,
+            45,
+            46,
+            47,
+            48,
+            49,
+            50,
+            51,
+            52,
+            53,
+            54,
+            55,
+            56
+          ],
+          "uv_bounds": [
+            [
+              0.0,
+              1.0
+            ],
+            [
+              -0.9999847412109375,
+              1.52587890625e-05
+            ]
+          ]
+        }
+      ],
+      "generated": {
+        "path": "build/silverstone-tra-buildings/SI06TRAC-generated.png",
+        "crc32": "1b28499a",
+        "bytes": 2138479,
+        "size": [
+          1254,
+          1254
+        ]
+      },
+      "output": {
+        "path": "assets/models/mega/textures/silverstone-tra-si06trac.webp",
+        "crc32": "316af925",
+        "bytes": 4522,
+        "size": [
+          512,
+          512
+        ]
+      },
+      "processing_crop": [
+        0,
+        0,
+        1254,
+        1254
+      ],
+      "alpha": "Fully opaque including dark glass and under-bands.",
+      "reconstruction": "Unlettered original wall fixture remains a restrained brown rounded rectangle/circular centre and adjacent grey box; no invented brackets or wording.",
+      "edits": [
+        {
+          "references": [
+            {
+              "path": "build/silverstone-tra-buildings/SI06TRAC-edit-reference.png",
+              "crc32": "4bfbbac8",
+              "bytes": 2425607,
+              "size": [
+                1254,
+                1254
+              ]
+            },
+            {
+              "path": "build/silverstone-tra-buildings/SI06TRAC-source6x.png",
+              "crc32": "6dced64e",
+              "bytes": 4121,
+              "size": [
+                384,
+                384
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "SI06TRAE",
+      "source": {
+        "slot": 44,
+        "crc32": "3dcd1de1",
+        "size": [
+          64,
+          32
+        ],
+        "black_key_pixels": 267
+      },
+      "consumers": [
+        {
+          "mesh": 15,
+          "name": "SI06TRA2_1",
+          "nodes": [
+            45
+          ],
+          "faces": [
+            57,
+            58,
+            59,
+            60,
+            61,
+            62
+          ],
+          "uv_bounds": [
+            [
+              0.0,
+              1.0
+            ],
+            [
+              -0.9999847412109375,
+              -0.0644989013671875
+            ]
+          ]
+        }
+      ],
+      "generated": {
+        "path": "build/silverstone-tra-buildings/SI06TRAE-generated.png",
+        "crc32": "2c767fc3",
+        "bytes": 2759196,
+        "size": [
+          1774,
+          887
+        ]
+      },
+      "output": {
+        "path": "assets/models/mega/textures/silverstone-tra-si06trae.webp",
+        "crc32": "168f304d",
+        "bytes": 2268,
+        "size": [
+          512,
+          256
+        ]
+      },
+      "processing_crop": [
+        0,
+        0,
+        1774,
+        887
+      ],
+      "alpha": "Exact immutable original RGB-black-key mask, nearest-scaled; new opaque Imagegen RGB underpainting, no source RGB copied."
+    },
+    {
+      "name": "SI06TRAB",
+      "source": {
+        "slot": 45,
+        "crc32": "daa25a26",
+        "size": [
+          128,
+          32
+        ],
+        "black_key_pixels": 0
+      },
+      "consumers": [
+        {
+          "mesh": 15,
+          "name": "SI06TRA2_1",
+          "nodes": [
+            45
+          ],
+          "faces": [
+            63,
+            64,
+            65,
+            66,
+            67,
+            68
+          ],
+          "uv_bounds": [
+            [
+              0.0,
+              0.9842376708984375
+            ],
+            [
+              -0.9999847412109375,
+              -0.066650390625
+            ]
+          ]
+        }
+      ],
+      "references": [
+        {
+          "path": "build/silverstone-tra-buildings/SI06TRAB-source6x.png",
+          "crc32": "3e38a28b",
+          "bytes": 7132,
+          "size": [
+            768,
+            192
+          ]
+        },
+        {
+          "path": "assets/models/mega/textures/silverstone-pit-il09pit5.webp",
+          "crc32": "308b257d",
+          "bytes": 5328,
+          "size": [
+            512,
+            128
+          ]
+        }
+      ],
+      "generated": {
+        "path": "build/silverstone-tra-buildings/SI06TRAB-generated.png",
+        "crc32": "a1111354",
+        "bytes": 1251962,
+        "size": [
+          2169,
+          725
+        ]
+      },
+      "output": {
+        "path": "assets/models/mega/textures/silverstone-tra-si06trab.webp",
+        "crc32": "c6fec8cf",
+        "bytes": 8150,
+        "size": [
+          512,
+          128
+        ]
+      },
+      "processing_crop": [
+        0,
+        0,
+        2169,
+        725
+      ],
+      "alpha": "Fully opaque including dark glass and under-bands.",
+      "reconstruction": "Original white italic Silverstone word on red, original generous margins and tall glyph footprint.",
+      "edits": [
+        {
+          "references": [
+            {
+              "path": "build/silverstone-tra-buildings/SI06TRAB-edit-reference.png",
+              "crc32": "99e9da10",
+              "bytes": 1235402,
+              "size": [
+                2170,
+                725
+              ]
+            },
+            {
+              "path": "build/silverstone-tra-buildings/SI06TRAB-source6x.png",
+              "crc32": "3e38a28b",
+              "bytes": 7132,
+              "size": [
+                768,
+                192
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Crowd1",
+      "source": {
+        "slot": 34,
+        "crc32": "0ef3ad96",
+        "size": [
+          128,
+          32
+        ],
+        "black_key_pixels": 493
+      },
+      "consumers": [
+        {
+          "mesh": 13,
+          "name": "SI20OGSB_1",
+          "nodes": [
+            35,
+            37,
+            43
+          ],
+          "faces": [
+            22,
+            23,
+            24,
+            25,
+            26,
+            27,
+            28,
+            29,
+            30,
+            31,
+            32,
+            33,
+            34,
+            35,
+            36,
+            37,
+            38,
+            39
+          ],
+          "uv_bounds": [
+            [
+              0.0,
+              1.0
+            ],
+            [
+              -0.9999847412109375,
+              -0.3225555419921875
+            ]
+          ]
+        },
+        {
+          "mesh": 14,
+          "name": "SI20OGSA_1",
+          "nodes": [
+            39,
+            41,
+            165
+          ],
+          "faces": [
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17
+          ],
+          "uv_bounds": [
+            [
+              0.0,
+              1.0
+            ],
+            [
+              -0.9999847412109375,
+              -0.4515838623046875
+            ]
+          ]
+        },
+        {
+          "mesh": 15,
+          "name": "SI06TRA2_1",
+          "nodes": [
+            45
+          ],
+          "faces": [
+            69,
+            70,
+            71,
+            72,
+            73,
+            74
+          ],
+          "uv_bounds": [
+            [
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0
+            ]
+          ]
+        }
+      ],
+      "references": [
+        {
+          "path": "build/silverstone-tra-buildings/Crowd1-source6x.png",
+          "crc32": "2bcf483d",
+          "bytes": 11110,
+          "size": [
+            768,
+            192
+          ]
+        },
+        {
+          "path": "assets/models/mega/textures/donington-spectators-lpeople5.webp",
+          "crc32": "c54249dd",
+          "bytes": 38236,
+          "size": [
+            512,
+            256
+          ]
+        }
+      ],
+      "generated": {
+        "path": "build/silverstone-tra-buildings/Crowd1-generated.png",
+        "crc32": "f6e0fc9e",
+        "bytes": 2159587,
+        "size": [
+          2169,
+          725
+        ]
+      },
+      "output": {
+        "path": "assets/models/mega/textures/silverstone-tra-crowd1.webp",
+        "crc32": "a2d6efe8",
+        "bytes": 20266,
+        "size": [
+          512,
+          128
+        ]
+      },
+      "processing_crop": [
+        0,
+        97,
+        2169,
+        621
+      ],
+      "alpha": "Exact immutable original RGB-black-key mask, nearest-scaled; new opaque Imagegen RGB underpainting, no source RGB copied.",
+      "reconstruction": "Continuous natural spectator forms replace coarse clusters; original mask, group cadence, pale jacket distribution and repeat phase retained. Shared constant-UV sample remains opaque muted ochre, somewhat warmer than source; not claimed RGB-identical."
+    },
+    {
+      "name": "SI06TR1",
+      "source": {
+        "slot": 13,
+        "crc32": "f6bbeca3",
+        "size": [
+          128,
+          32
+        ],
+        "black_key_pixels": 0
+      },
+      "consumers": [
+        {
+          "mesh": 7,
+          "name": "SI06TRA1_1",
+          "nodes": [
+            21
+          ],
+          "faces": [
+            2,
+            3,
+            4,
+            5
+          ],
+          "uv_bounds": [
+            [
+              0.0,
+              0.9921112060546875
+            ],
+            [
+              -0.9999847412109375,
+              -0.0322418212890625
+            ]
+          ]
+        },
+        {
+          "mesh": 15,
+          "name": "SI06TRA2_1",
+          "nodes": [
+            45
+          ],
+          "faces": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "uv_bounds": [
+            [
+              0.0,
+              0.9921112060546875
+            ],
+            [
+              -0.9999847412109375,
+              -0.0322418212890625
+            ]
+          ]
+        }
+      ],
+      "generated": {
+        "path": "build/silverstone-tra-buildings/SI06TR1-generated.png",
+        "crc32": "8630378f",
+        "bytes": 1562320,
+        "size": [
+          2169,
+          725
+        ]
+      },
+      "output": {
+        "path": "assets/models/mega/textures/silverstone-tra-si06tr1.webp",
+        "crc32": "f688dc6c",
+        "bytes": 8558,
+        "size": [
+          512,
+          128
+        ]
+      },
+      "processing_crop": [
+        0,
+        0,
+        2169,
+        725
+      ],
+      "alpha": "Fully opaque including dark glass and under-bands.",
+      "reconstruction": "VAUXHALL and BRIDGESTONE are source-wordshape/context reconstructions, not exact glyph recoveries. Original small left marks and yellow/red upper emblem remain simplified smooth source-coloured motifs; no added wording.",
+      "edits": [
+        {
+          "references": [
+            {
+              "path": "build/silverstone-tra-buildings/SI06TR1-source6x.png",
+              "crc32": "a924b4ec",
+              "bytes": 8053,
+              "size": [
+                768,
+                192
+              ]
+            },
+            {
+              "path": "build/silverstone-tra-buildings/SI06TR1-registration-reference.png",
+              "crc32": "a9426de6",
+              "bytes": 78401,
+              "size": [
+                512,
+                128
+              ]
+            }
+          ],
+          "output": {
+            "path": "exec-d434faf1-a010-4a9e-a7d8-1d272caa5a58.png",
+            "crc32": "4d485792",
+            "bytes": 1394930,
+            "size": [
+              2170,
+              725
+            ]
+          }
+        },
+        {
+          "references": [
+            {
+              "path": "exec-d434faf1-a010-4a9e-a7d8-1d272caa5a58.png",
+              "crc32": "4d485792",
+              "bytes": 1394930,
+              "size": [
+                2170,
+                725
+              ]
+            }
+          ]
+        },
+        {
+          "references": [
+            {
+              "path": "exec-a7dd0fbb-b51a-45e7-8d7f-f79424fa5064.png",
+              "crc32": "a8e5d6ac",
+              "bytes": 1440041,
+              "size": [
+                2170,
+                725
+              ]
+            },
+            {
+              "path": "exec-6ff082be-1eea-49df-b440-ecd3f3511ceb.png",
+              "crc32": "72e7cdc4",
+              "bytes": 1748920,
+              "size": [
+                2169,
+                725
+              ]
+            }
+          ]
+        },
+        {
+          "references": [
+            {
+              "path": "exec-ab545515-c215-4ab6-b583-1e48a63f3be2.png",
+              "crc32": "369b282d",
+              "bytes": 1526474,
+              "size": [
+                2170,
+                725
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "SI06TR2",
+      "source": {
+        "slot": 14,
+        "crc32": "87b66b8b",
+        "size": [
+          128,
+          32
+        ],
+        "black_key_pixels": 0
+      },
+      "consumers": [
+        {
+          "mesh": 7,
+          "name": "SI06TRA1_1",
+          "nodes": [
+            21
+          ],
+          "faces": [
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14
+          ],
+          "uv_bounds": [
+            [
+              0.0,
+              0.9921112060546875
+            ],
+            [
+              -0.9999847412109375,
+              -0.0322418212890625
+            ]
+          ]
+        },
+        {
+          "mesh": 8,
+          "name": "SI06TRA4_1",
+          "nodes": [
+            23,
+            25
+          ],
+          "faces": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ],
+          "uv_bounds": [
+            [
+              0.0,
+              1.0
+            ],
+            [
+              -0.9999847412109375,
+              1.52587890625e-05
+            ]
+          ]
+        }
+      ],
+      "generated": {
+        "path": "build/silverstone-tra-buildings/SI06TR2-generated.png",
+        "crc32": "72e7cdc4",
+        "bytes": 1748920,
+        "size": [
+          2169,
+          725
+        ]
+      },
+      "output": {
+        "path": "assets/models/mega/textures/silverstone-tra-si06tr2.webp",
+        "crc32": "47baf2c1",
+        "bytes": 7866,
+        "size": [
+          512,
+          128
+        ]
+      },
+      "processing_crop": [
+        0,
+        0,
+        2169,
+        725
+      ],
+      "alpha": "Fully opaque including dark glass and under-bands.",
+      "reconstruction": "AVON confirmed against related canonical AVON e5bfcc82; only the original blue word is used, no unrelated red tyre/tagline. Caravan Club is a context reconstruction of original grey wording/green plaque, not an exact glyph recovery.",
+      "edits": [
+        {
+          "references": [
+            {
+              "path": "build/silverstone-tra-buildings/SI06TR2-source6x.png",
+              "crc32": "8d948c6f",
+              "bytes": 8698,
+              "size": [
+                768,
+                192
+              ]
+            },
+            {
+              "path": "build/silverstone-tra-buildings/SI06TR2-registration-reference.png",
+              "crc32": "6ffdd790",
+              "bytes": 73625,
+              "size": [
+                512,
+                128
+              ]
+            }
+          ],
+          "output": {
+            "path": "exec-5c116401-9bd2-46d0-a7c5-45ccee3a3cbc.png",
+            "crc32": "15fbb932",
+            "bytes": 1817416,
+            "size": [
+              2170,
+              725
+            ]
+          }
+        },
+        {
+          "references": [
+            {
+              "path": "exec-5c116401-9bd2-46d0-a7c5-45ccee3a3cbc.png",
+              "crc32": "15fbb932",
+              "bytes": 1817416,
+              "size": [
+                2170,
+                725
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "SI06TRAI",
+      "source": {
+        "slot": 38,
+        "crc32": "d6f12765",
+        "size": [
+          128,
+          32
+        ],
+        "black_key_pixels": 0
+      },
+      "consumers": [
+        {
+          "mesh": 15,
+          "name": "SI06TRA2_1",
+          "nodes": [
+            45
+          ],
+          "faces": [
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14
+          ],
+          "uv_bounds": [
+            [
+              0.0,
+              0.7637786865234375
+            ],
+            [
+              -0.9999847412109375,
+              1.52587890625e-05
+            ]
+          ]
+        }
+      ],
+      "generated": {
+        "path": "build/silverstone-tra-buildings/SI06TRAI-generated.png",
+        "crc32": "1b5fd59c",
+        "bytes": 1591687,
+        "size": [
+          2169,
+          725
+        ]
+      },
+      "output": {
+        "path": "assets/models/mega/textures/silverstone-tra-si06trai.webp",
+        "crc32": "dc71f8d5",
+        "bytes": 5998,
+        "size": [
+          512,
+          128
+        ]
+      },
+      "processing_crop": [
+        0,
+        0,
+        2169,
+        725
+      ],
+      "alpha": "Fully opaque including dark glass and under-bands.",
+      "reconstruction": "CHEQUERED is a source-wordshape/context reconstruction; nine-letter spelling corrected. Other tiny marks remain source-coloured abstract emblems. Original U crop may clip right letters; no UV or word repositioning to evade it.",
+      "edits": [
+        {
+          "references": [
+            {
+              "path": "build/silverstone-tra-buildings/SI06TRAI-edit-reference.png",
+              "crc32": "5bc7616f",
+              "bytes": 1824897,
+              "size": [
+                2172,
+                724
+              ]
+            },
+            {
+              "path": "build/silverstone-tra-buildings/SI06TRAI-source6x.png",
+              "crc32": "4621c995",
+              "bytes": 7620,
+              "size": [
+                768,
+                192
+              ]
+            }
+          ]
+        },
+        {
+          "references": [
+            {
+              "path": "build/silverstone-tra-buildings/SI06TRAI-source6x.png",
+              "crc32": "4621c995",
+              "bytes": 7620,
+              "size": [
+                768,
+                192
+              ]
+            },
+            {
+              "path": "build/silverstone-tra-buildings/SI06TRAI-registration-reference.png",
+              "crc32": "744d0a67",
+              "bytes": 58768,
+              "size": [
+                512,
+                128
+              ]
+            }
+          ],
+          "output": {
+            "path": "exec-97802291-c86e-4fe2-b58b-e7556402fee1.png",
+            "crc32": "445fcdc8",
+            "bytes": 1516894,
+            "size": [
+              2170,
+              725
+            ]
+          }
+        },
+        {
+          "references": [
+            {
+              "path": "exec-97802291-c86e-4fe2-b58b-e7556402fee1.png",
+              "crc32": "445fcdc8",
+              "bytes": 1516894,
+              "size": [
+                2170,
+                725
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "related_originals": [
+    {
+      "name": "SI12FOS1",
+      "slot": 6,
+      "crc32": "bac6bffd",
+      "size": [
+        64,
+        64
+      ],
+      "reference": {
+        "path": "build/silverstone-tra-buildings/SI12FOS1-related6x.png",
+        "crc32": "77f9d4ae",
+        "bytes": 3616,
+        "size": [
+          384,
+          384
+        ]
+      }
+    },
+    {
+      "name": "SI13ROVB",
+      "slot": 7,
+      "crc32": "0ccbcf3a",
+      "size": [
+        64,
+        64
+      ],
+      "reference": {
+        "path": "build/silverstone-tra-buildings/SI13ROVB-related6x.png",
+        "crc32": "2c483f2f",
+        "bytes": 5374,
+        "size": [
+          384,
+          384
+        ]
+      }
+    },
+    {
+      "name": "SI13ROV1",
+      "slot": 21,
+      "crc32": "4f89e416",
+      "size": [
+        64,
+        64
+      ],
+      "reference": {
+        "path": "build/silverstone-tra-buildings/SI13ROV1-related6x.png",
+        "crc32": "0e67b4c8",
+        "bytes": 5472,
+        "size": [
+          384,
+          384
+        ]
+      }
+    },
+    {
+      "name": "SI13ROV3",
+      "slot": 23,
+      "crc32": "1b1f40cc",
+      "size": [
+        128,
+        32
+      ],
+      "reference": {
+        "path": "build/silverstone-tra-buildings/SI13ROV3-related6x.png",
+        "crc32": "be9289ec",
+        "bytes": 3900,
+        "size": [
+          768,
+          192
+        ]
+      }
+    },
+    {
+      "name": "SI15BRI0",
+      "slot": 108,
+      "crc32": "759e678b",
+      "size": [
+        128,
+        32
+      ],
+      "reference": {
+        "path": "build/silverstone-tra-buildings/SI15BRI0-related6x.png",
+        "crc32": "f9427160",
+        "bytes": 3162,
+        "size": [
+          768,
+          192
+        ]
+      }
+    },
+    {
+      "name": "SI15BRI2",
+      "slot": 109,
+      "crc32": "234b0f89",
+      "size": [
+        128,
+        32
+      ],
+      "reference": {
+        "path": "build/silverstone-tra-buildings/SI15BRI2-related6x.png",
+        "crc32": "c3c770ce",
+        "bytes": 4977,
+        "size": [
+          768,
+          192
+        ]
+      }
+    },
+    {
+      "name": "SI15BRI1",
+      "slot": 110,
+      "crc32": "cbae0ae7",
+      "size": [
+        128,
+        32
+      ],
+      "reference": {
+        "path": "build/silverstone-tra-buildings/SI15BRI1-related6x.png",
+        "crc32": "cb54d0b0",
+        "bytes": 5300,
+        "size": [
+          768,
+          192
+        ]
+      }
+    },
+    {
+      "name": "SI15BRI3",
+      "slot": 111,
+      "crc32": "4fb9a3f7",
+      "size": [
+        64,
+        64
+      ],
+      "reference": {
+        "path": "build/silverstone-tra-buildings/SI15BRI3-related6x.png",
+        "crc32": "1d0aeb44",
+        "bytes": 7852,
+        "size": [
+          384,
+          384
+        ]
+      }
+    },
+    {
+      "name": "SI15BRI7",
+      "slot": 112,
+      "crc32": "d6b7b761",
+      "size": [
+        64,
+        64
+      ],
+      "reference": {
+        "path": "build/silverstone-tra-buildings/SI15BRI7-related6x.png",
+        "crc32": "04a543fd",
+        "bytes": 5316,
+        "size": [
+          384,
+          384
+        ]
+      }
+    },
+    {
+      "name": "SI15BRI8",
+      "slot": 113,
+      "crc32": "dfd31a15",
+      "size": [
+        64,
+        32
+      ],
+      "reference": {
+        "path": "build/silverstone-tra-buildings/SI15BRI8-related6x.png",
+        "crc32": "95e39cae",
+        "bytes": 1750,
+        "size": [
+          384,
+          192
+        ]
+      }
+    },
+    {
+      "name": "SI15BRI6",
+      "slot": 114,
+      "crc32": "cefabbce",
+      "size": [
+        64,
+        64
+      ],
+      "reference": {
+        "path": "build/silverstone-tra-buildings/SI15BRI6-related6x.png",
+        "crc32": "010864e2",
+        "bytes": 5598,
+        "size": [
+          384,
+          384
+        ]
+      }
+    },
+    {
+      "name": "SI15BRI4",
+      "slot": 115,
+      "crc32": "5195b61a",
+      "size": [
+        16,
+        16
+      ],
+      "reference": {
+        "path": "build/silverstone-tra-buildings/SI15BRI4-related6x.png",
+        "crc32": "70268304",
+        "bytes": 675,
+        "size": [
+          96,
+          96
+        ]
+      }
+    }
+  ],
+  "related_findings": "SI12FOS1 is a flag; SI13ROV charts are windows/crowd; SI15BRI charts are bridge structure/ground, with no clearer fascia words. Related AVON and AUTOTRAD establish only those brands; other reconstructions are explicitly qualified per material.",
+  "limits": "Only pure track props. Other Silverstone building/grandstand materials remain open; Crowd1 does not accept entire shared stands. Reference media unchanged and uncommitted. No performance measurements."
+}

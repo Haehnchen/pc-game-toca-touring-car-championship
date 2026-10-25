@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "package": "R08-M06",
+  "source": {
+    "original_version": "1.1a",
+    "path": "data/snetfree.bfp",
+    "crc32": "4111866a",
+    "member": 11,
+    "member_crc32": "95d91529"
+  },
+  "export": {
+    "geometry": "original nodes, transforms, mesh variants, triangle corners, UVs and material slots",
+    "artwork": "shared phase-specific images",
+    "alpha": "exact source palette-index0 nearest mask",
+    "webp_quality": 70,
+    "webp_method": 6,
+    "max_edge": 512
+  },
+  "materials": [
+    {"name":"LIFLAGA1","source_crc32":"ce031c73","source_size":[32,32],"alpha_crc32":"8664ffab","image":"textures/oulton-rest-liflaga1.webp","crc32":"c89e6963","donor_source_crc32":"4815ec58","bindings":[{"member":11,"slot":0}]},
+    {"name":"POST","source_crc32":"16ef43b7","source_size":[8,16],"alpha_crc32":"652d544c","native_constant_rgb":[198,214,231],"bindings":[{"member":11,"slot":1}]},
+    {"name":"LIFLAGA2","source_crc32":"c26523f6","source_size":[32,32],"alpha_crc32":"f9c09f06","image":"textures/oulton-rest-liflaga2.webp","crc32":"4568fddc","donor_source_crc32":"024f9577","bindings":[{"member":11,"slot":2}]},
+    {"name":"LIFLAGA3","source_crc32":"c5cd3a8f","source_size":[32,32],"alpha_crc32":"098848b5","image":"textures/oulton-rest-liflaga3.webp","crc32":"e0cd063c","donor_source_crc32":"c2bede72","bindings":[{"member":11,"slot":3}]},
+    {"name":"LIFLAGL1","source_crc32":"65993c1f","source_size":[32,32],"alpha_crc32":"d23e3bd5","image":"textures/thruxton-rest-liflagl1.webp","crc32":"29c2b0c1","donor_source_crc32":"0c4c5a07","bindings":[{"member":11,"slot":4}]},
+    {"name":"LIFLAGL2","source_crc32":"132cb061","source_size":[32,32],"alpha_crc32":"17639989","image":"textures/thruxton-rest-liflagl2.webp","crc32":"022857c7","donor_source_crc32":"560492b1","bindings":[{"member":11,"slot":5}]},
+    {"name":"LIFLAGL3","source_crc32":"5a433f81","source_size":[32,32],"alpha_crc32":"d9de8f47","image":"textures/thruxton-rest-liflagl3.webp","crc32":"ff284f66","donor_source_crc32":"90a3ebaa","bindings":[{"member":11,"slot":6}]},
+    {"name":"LIFLAGD1","source_crc32":"6f95c462","source_size":[32,32],"alpha_crc32":"6a0c5688","image":"textures/oulton-rest-liflagd1.webp","crc32":"7e405baf","donor_source_crc32":"536f6d51","bindings":[{"member":11,"slot":7}]},
+    {"name":"LIFLAGD2","source_crc32":"fdfe8c54","source_size":[32,32],"alpha_crc32":"f7a0fca1","image":"textures/oulton-rest-liflagd2.webp","crc32":"927908ef","donor_source_crc32":"b8e6a8fb","bindings":[{"member":11,"slot":8}]},
+    {"name":"LIFLAGD3","source_crc32":"cbd38979","source_size":[32,32],"alpha_crc32":"ed0dbf23","image":"textures/oulton-rest-liflagd3.webp","crc32":"9af6a52a","donor_source_crc32":"1588607e","bindings":[{"member":11,"slot":9}]}
+  ]
+}

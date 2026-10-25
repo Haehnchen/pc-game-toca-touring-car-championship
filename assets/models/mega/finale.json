@@ -1,0 +1,61 @@
+{
+  "version": 1,
+  "models": [
+    {
+      "role": "pace-car",
+      "source": {
+        "member": 0,
+        "member_name": "cars\\pace\\high\\p",
+        "member_crc32": "7076ff0e",
+        "archive": "data/champfin.bfp",
+        "archive_crc32": "28f9b97c"
+      },
+      "output": "finale/pace-car.glb",
+      "textures": [
+        {
+          "name": "ENGFLO",
+          "source_bmp_crc32": "dd515299",
+          "image": "assets/models/finale/textures/pace-engflo.webp",
+          "crc32": "f40bf8a1"
+        },
+        {
+          "name": "PACE",
+          "source_bmp_crc32": "c9e555d5",
+          "image": "assets/models/finale/textures/pace-atlas.webp",
+          "crc32": "5df117c5"
+        },
+        {
+          "name": "SIDEG",
+          "source_bmp_crc32": "78f8acd6",
+          "image": "assets/models/finale/textures/pace-sideg.webp",
+          "crc32": "9976e38e"
+        },
+        {
+          "name": "WSCRN",
+          "source_bmp_crc32": "3c46d201",
+          "image": "assets/models/finale/textures/pace-wscrn.webp",
+          "crc32": "4d88b33e"
+        }
+      ]
+    },
+    {
+      "role": "transporter",
+      "source": {
+        "member": 1,
+        "member_name": "cars\\tocatrk\\toc",
+        "member_crc32": "94b4e25b",
+        "archive": "data/champfin.bfp",
+        "archive_crc32": "28f9b97c"
+      },
+      "output": "finale/transporter.glb",
+      "textures": [
+        {
+          "name": "TRUCK",
+          "source_bmp_crc32": "190b8812",
+          "image": "assets/models/finale/textures/transporter-atlas.webp",
+          "crc32": "66613d98"
+        }
+      ]
+    }
+  ]
+}

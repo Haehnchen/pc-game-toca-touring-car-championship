@@ -1,0 +1,1643 @@
+{
+  "version": 1,
+  "sources": [
+    {
+      "id": "BALLBOT",
+      "file": "exec-ca862dfc-5a88-478e-917c-bb650d204ae1.png",
+      "reference": {
+        "names": [
+          "BALLBOT"
+        ],
+        "size": [
+          32,
+          32
+        ],
+        "normalized_bmp_crc32": "b5a41b5f",
+        "packed_bmp_crc32": [
+          "15ba3921"
+        ],
+        "uses": [
+          {
+            "track": 1,
+            "archive": "silvhor.bfp",
+            "member": 0,
+            "family": "moving"
+          },
+          {
+            "track": 6,
+            "archive": "crofhor.bfp",
+            "member": 0,
+            "family": "moving"
+          },
+          {
+            "track": 8,
+            "archive": "snethor.bfp",
+            "member": 0,
+            "family": "moving"
+          }
+        ]
+      },
+      "crc32": "293f168b"
+    },
+    {
+      "id": "BALLLOG1",
+      "file": "exec-66e8fbd6-e31c-4cf8-9ea4-7cb86639b642.png",
+      "reference": {
+        "names": [
+          "BALLLOG1"
+        ],
+        "size": [
+          64,
+          16
+        ],
+        "normalized_bmp_crc32": "947a6f8e",
+        "packed_bmp_crc32": [
+          "2d86fdb9"
+        ],
+        "uses": [
+          {
+            "track": 1,
+            "archive": "silvhor.bfp",
+            "member": 0,
+            "family": "moving"
+          },
+          {
+            "track": 6,
+            "archive": "crofhor.bfp",
+            "member": 0,
+            "family": "moving"
+          },
+          {
+            "track": 8,
+            "archive": "snethor.bfp",
+            "member": 0,
+            "family": "moving"
+          }
+        ]
+      },
+      "crc32": "167f51b2"
+    },
+    {
+      "id": "BALLLOG2",
+      "file": "exec-89a29eb2-4618-4fd5-a01a-d00a9c809a41.png",
+      "reference": {
+        "names": [
+          "BALLLOG2"
+        ],
+        "size": [
+          64,
+          16
+        ],
+        "normalized_bmp_crc32": "0fd57f69",
+        "packed_bmp_crc32": [
+          "b629ed5e"
+        ],
+        "uses": [
+          {
+            "track": 1,
+            "archive": "silvhor.bfp",
+            "member": 0,
+            "family": "moving"
+          },
+          {
+            "track": 6,
+            "archive": "crofhor.bfp",
+            "member": 0,
+            "family": "moving"
+          },
+          {
+            "track": 8,
+            "archive": "snethor.bfp",
+            "member": 0,
+            "family": "moving"
+          }
+        ]
+      },
+      "crc32": "3c39198e"
+    },
+    {
+      "id": "BALLLOG3",
+      "file": "exec-6e0c5c75-eac8-40a3-9a7a-60289258aef2.png",
+      "reference": {
+        "names": [
+          "BALLLOG3"
+        ],
+        "size": [
+          32,
+          32
+        ],
+        "normalized_bmp_crc32": "021638d6",
+        "packed_bmp_crc32": [
+          "a2081aa8"
+        ],
+        "uses": [
+          {
+            "track": 1,
+            "archive": "silvhor.bfp",
+            "member": 0,
+            "family": "moving"
+          },
+          {
+            "track": 6,
+            "archive": "crofhor.bfp",
+            "member": 0,
+            "family": "moving"
+          },
+          {
+            "track": 8,
+            "archive": "snethor.bfp",
+            "member": 0,
+            "family": "moving"
+          }
+        ]
+      },
+      "crc32": "5b39ce75"
+    },
+    {
+      "id": "BALLMID",
+      "file": "exec-293c702b-d566-46c5-9fb1-116423f14298.png",
+      "reference": {
+        "names": [
+          "BALLMID"
+        ],
+        "size": [
+          64,
+          16
+        ],
+        "normalized_bmp_crc32": "28ecb410",
+        "packed_bmp_crc32": [
+          "91102627"
+        ],
+        "uses": [
+          {
+            "track": 1,
+            "archive": "silvhor.bfp",
+            "member": 0,
+            "family": "moving"
+          },
+          {
+            "track": 6,
+            "archive": "crofhor.bfp",
+            "member": 0,
+            "family": "moving"
+          },
+          {
+            "track": 8,
+            "archive": "snethor.bfp",
+            "member": 0,
+            "family": "moving"
+          }
+        ]
+      },
+      "crc32": "a6d29386"
+    },
+    {
+      "id": "BALLTOP",
+      "file": "exec-69ab066d-4518-4ccc-8b81-aa7a82cb257e.png",
+      "reference": {
+        "names": [
+          "BALLTOP"
+        ],
+        "size": [
+          32,
+          16
+        ],
+        "normalized_bmp_crc32": "cc8811af",
+        "packed_bmp_crc32": [
+          "16e4a1fc"
+        ],
+        "uses": [
+          {
+            "track": 1,
+            "archive": "silvhor.bfp",
+            "member": 0,
+            "family": "moving"
+          },
+          {
+            "track": 6,
+            "archive": "crofhor.bfp",
+            "member": 0,
+            "family": "moving"
+          },
+          {
+            "track": 8,
+            "archive": "snethor.bfp",
+            "member": 0,
+            "family": "moving"
+          }
+        ]
+      },
+      "crc32": "1ceff882"
+    },
+    {
+      "id": "BALLTOP1",
+      "file": "exec-1c1275ca-047a-4c21-aa51-7d58ff05e07e.png",
+      "reference": {
+        "names": [
+          "BALLTOP1"
+        ],
+        "size": [
+          32,
+          16
+        ],
+        "normalized_bmp_crc32": "061e4209",
+        "packed_bmp_crc32": [
+          "dc72f25a"
+        ],
+        "uses": [
+          {
+            "track": 1,
+            "archive": "silvhor.bfp",
+            "member": 0,
+            "family": "moving"
+          },
+          {
+            "track": 6,
+            "archive": "crofhor.bfp",
+            "member": 0,
+            "family": "moving"
+          },
+          {
+            "track": 8,
+            "archive": "snethor.bfp",
+            "member": 0,
+            "family": "moving"
+          }
+        ]
+      },
+      "crc32": "9d72d11f"
+    },
+    {
+      "id": "BH17HEL",
+      "file": "exec-53ba782a-960a-4807-99a9-e963830a9663.png",
+      "reference": {
+        "names": [
+          "BH17HEL"
+        ],
+        "size": [
+          128,
+          32
+        ],
+        "normalized_bmp_crc32": "93af18c9",
+        "packed_bmp_crc32": [
+          "6d3c4203"
+        ],
+        "uses": [
+          {
+            "track": 1,
+            "archive": "silvhor.bfp",
+            "member": 1,
+            "family": "rotorcraft"
+          },
+          {
+            "track": 3,
+            "archive": "branhor.bfp",
+            "member": 1,
+            "family": "rotorcraft"
+          },
+          {
+            "track": 4,
+            "archive": "oulthor.bfp",
+            "member": 1,
+            "family": "rotorcraft"
+          },
+          {
+            "track": 7,
+            "archive": "knochor.bfp",
+            "member": 1,
+            "family": "rotorcraft"
+          },
+          {
+            "track": 8,
+            "archive": "snethor.bfp",
+            "member": 1,
+            "family": "rotorcraft"
+          }
+        ]
+      },
+      "crc32": "eefee362"
+    },
+    {
+      "id": "BH17HEL1",
+      "file": "exec-439b1bd2-adc8-464c-adad-48ad1d0e5c1c.png",
+      "reference": {
+        "names": [
+          "BH17HEL1"
+        ],
+        "size": [
+          128,
+          32
+        ],
+        "normalized_bmp_crc32": "a3760444",
+        "packed_bmp_crc32": [
+          "5de55e8e"
+        ],
+        "uses": [
+          {
+            "track": 1,
+            "archive": "silvhor.bfp",
+            "member": 1,
+            "family": "rotorcraft"
+          },
+          {
+            "track": 3,
+            "archive": "branhor.bfp",
+            "member": 1,
+            "family": "rotorcraft"
+          },
+          {
+            "track": 4,
+            "archive": "oulthor.bfp",
+            "member": 1,
+            "family": "rotorcraft"
+          },
+          {
+            "track": 7,
+            "archive": "knochor.bfp",
+            "member": 1,
+            "family": "rotorcraft"
+          },
+          {
+            "track": 8,
+            "archive": "snethor.bfp",
+            "member": 1,
+            "family": "rotorcraft"
+          }
+        ]
+      },
+      "crc32": "0334ec0d"
+    },
+    {
+      "id": "BH17HEL3",
+      "file": "exec-f80c92da-2785-4d4b-b671-8840fc44b498.png",
+      "reference": {
+        "names": [
+          "BH17HEL3"
+        ],
+        "size": [
+          64,
+          64
+        ],
+        "normalized_bmp_crc32": "143b170c",
+        "packed_bmp_crc32": [
+          "9f72d281"
+        ],
+        "uses": [
+          {
+            "track": 1,
+            "archive": "silvhor.bfp",
+            "member": 1,
+            "family": "rotorcraft"
+          },
+          {
+            "track": 3,
+            "archive": "branhor.bfp",
+            "member": 1,
+            "family": "rotorcraft"
+          },
+          {
+            "track": 4,
+            "archive": "oulthor.bfp",
+            "member": 1,
+            "family": "rotorcraft"
+          },
+          {
+            "track": 7,
+            "archive": "knochor.bfp",
+            "member": 1,
+            "family": "rotorcraft"
+          },
+          {
+            "track": 8,
+            "archive": "snethor.bfp",
+            "member": 1,
+            "family": "rotorcraft"
+          }
+        ]
+      },
+      "crc32": "1beadec7"
+    },
+    {
+      "id": "CR13AUD1",
+      "file": "exec-77befe65-0bbc-4e5e-a3f8-0a24f9c6b867.png",
+      "reference": {
+        "names": [
+          "CR13AUD1"
+        ],
+        "size": [
+          32,
+          16
+        ],
+        "normalized_bmp_crc32": "98d76bb5",
+        "packed_bmp_crc32": [
+          "98d76bb5"
+        ],
+        "uses": [
+          {
+            "track": 6,
+            "archive": "crofhor.bfp",
+            "member": 0,
+            "family": "moving"
+          }
+        ]
+      },
+      "crc32": "50306de0"
+    },
+    {
+      "id": "CR13AUD2",
+      "file": "exec-bc629196-1f7f-448d-b52a-4a7112668570.png",
+      "reference": {
+        "names": [
+          "CR13AUD2"
+        ],
+        "size": [
+          32,
+          32
+        ],
+        "normalized_bmp_crc32": "6d0b72d5",
+        "packed_bmp_crc32": [
+          "cd1550ab"
+        ],
+        "uses": [
+          {
+            "track": 6,
+            "archive": "crofhor.bfp",
+            "member": 0,
+            "family": "moving"
+          }
+        ]
+      },
+      "crc32": "0dd58d66"
+    },
+    {
+      "id": "CR13AUD3",
+      "file": "exec-80e0efa8-f61e-4510-ac32-1a29f37ec9d4.png",
+      "reference": {
+        "names": [
+          "CR13AUD3"
+        ],
+        "size": [
+          32,
+          16
+        ],
+        "normalized_bmp_crc32": "427a3fe2",
+        "packed_bmp_crc32": [
+          "98168fb1"
+        ],
+        "uses": [
+          {
+            "track": 6,
+            "archive": "crofhor.bfp",
+            "member": 0,
+            "family": "moving"
+          }
+        ]
+      },
+      "crc32": "8b8ba39d"
+    },
+    {
+      "id": "CR13AUD4",
+      "file": "exec-290b3d82-7352-481e-8e1c-ba19949b85e4.png",
+      "reference": {
+        "names": [
+          "CR13AUD4"
+        ],
+        "size": [
+          64,
+          32
+        ],
+        "normalized_bmp_crc32": "a5fcd8ae",
+        "packed_bmp_crc32": [
+          "8b390a61"
+        ],
+        "uses": [
+          {
+            "track": 6,
+            "archive": "crofhor.bfp",
+            "member": 0,
+            "family": "moving"
+          }
+        ]
+      },
+      "crc32": "f3353806"
+    },
+    {
+      "id": "CR13AUD5",
+      "file": "exec-f728e818-b52b-4b6f-9607-8e4d467d570e.png",
+      "reference": {
+        "names": [
+          "CR13AUD5"
+        ],
+        "size": [
+          32,
+          32
+        ],
+        "normalized_bmp_crc32": "6921574a",
+        "packed_bmp_crc32": [
+          "c93f7534"
+        ],
+        "uses": [
+          {
+            "track": 6,
+            "archive": "crofhor.bfp",
+            "member": 0,
+            "family": "moving"
+          }
+        ]
+      },
+      "crc32": "65bf72c4"
+    },
+    {
+      "id": "CR13AUD6",
+      "file": "exec-41c5ed39-849e-4dcd-bf56-a45debb17c8e.png",
+      "reference": {
+        "names": [
+          "CR13AUD6"
+        ],
+        "size": [
+          32,
+          32
+        ],
+        "normalized_bmp_crc32": "b11c4c93",
+        "packed_bmp_crc32": [
+          "11026eed"
+        ],
+        "uses": [
+          {
+            "track": 6,
+            "archive": "crofhor.bfp",
+            "member": 0,
+            "family": "moving"
+          }
+        ]
+      },
+      "crc32": "c59aac0f"
+    },
+    {
+      "id": "CR13AUDB",
+      "file": "exec-6d7815c7-67ba-46c2-97b1-513fa79f750b.png",
+      "reference": {
+        "names": [
+          "CR13AUDB"
+        ],
+        "size": [
+          64,
+          32
+        ],
+        "normalized_bmp_crc32": "fdf73889",
+        "packed_bmp_crc32": [
+          "fdf73889"
+        ],
+        "uses": [
+          {
+            "track": 6,
+            "archive": "crofhor.bfp",
+            "member": 0,
+            "family": "moving"
+          }
+        ]
+      },
+      "generated_edit_target": {
+        "file": "exec-c2a2ae7d-5856-475f-a23a-2046cb53581c.png",
+        "reason": "Unclear Audi lettering",
+        "crc32": "d9446f72"
+      },
+      "crc32": "48ff5847"
+    },
+    {
+      "id": "HELI1",
+      "file": "exec-7090f90d-72ab-4bb4-8d37-c395b1e2d88f.png",
+      "reference": {
+        "names": [
+          "HELI1"
+        ],
+        "size": [
+          32,
+          32
+        ],
+        "normalized_bmp_crc32": "30ccdc91",
+        "packed_bmp_crc32": [
+          "90d2feef"
+        ],
+        "uses": [
+          {
+            "track": 1,
+            "archive": "silvhor.bfp",
+            "member": 0,
+            "family": "moving"
+          },
+          {
+            "track": 1,
+            "archive": "silvhor.bfp",
+            "member": 1,
+            "family": "rotorcraft"
+          },
+          {
+            "track": 2,
+            "archive": "thruhor.bfp",
+            "member": 0,
+            "family": "moving"
+          },
+          {
+            "track": 3,
+            "archive": "branhor.bfp",
+            "member": 1,
+            "family": "rotorcraft"
+          },
+          {
+            "track": 4,
+            "archive": "oulthor.bfp",
+            "member": 1,
+            "family": "rotorcraft"
+          },
+          {
+            "track": 7,
+            "archive": "knochor.bfp",
+            "member": 1,
+            "family": "rotorcraft"
+          },
+          {
+            "track": 8,
+            "archive": "snethor.bfp",
+            "member": 1,
+            "family": "rotorcraft"
+          }
+        ]
+      },
+      "crc32": "54237695"
+    },
+    {
+      "id": "MARKAM",
+      "file": "exec-672796e9-c657-4fac-a9e9-acb4ba07f472.png",
+      "reference": {
+        "names": [
+          "MARKAM"
+        ],
+        "size": [
+          128,
+          32
+        ],
+        "normalized_bmp_crc32": "c9485409",
+        "packed_bmp_crc32": [
+          "37db0ec3"
+        ],
+        "uses": [
+          {
+            "track": 0,
+            "archive": "donlhor.bfp",
+            "member": 0,
+            "family": "moving"
+          },
+          {
+            "track": 5,
+            "archive": "donshor.bfp",
+            "member": 0,
+            "family": "moving"
+          }
+        ]
+      },
+      "crc32": "c31718a7"
+    },
+    {
+      "id": "MARKAMB",
+      "file": "exec-4f05d6d5-7427-460f-b9a1-1e1a5c256e33.png",
+      "reference": {
+        "names": [
+          "MARKAMB"
+        ],
+        "size": [
+          8,
+          64
+        ],
+        "normalized_bmp_crc32": "c0e298bb",
+        "packed_bmp_crc32": [
+          "1b559835"
+        ],
+        "uses": [
+          {
+            "track": 0,
+            "archive": "donlhor.bfp",
+            "member": 0,
+            "family": "moving"
+          },
+          {
+            "track": 5,
+            "archive": "donshor.bfp",
+            "member": 0,
+            "family": "moving"
+          }
+        ]
+      },
+      "crc32": "943ea827"
+    },
+    {
+      "id": "MARKAMW",
+      "file": "exec-03efed1b-dfb8-41a7-b76a-5f6abc7c10f9.png",
+      "reference": {
+        "names": [
+          "MARKAMW"
+        ],
+        "size": [
+          64,
+          64
+        ],
+        "normalized_bmp_crc32": "41695fd3",
+        "packed_bmp_crc32": [
+          "ca209a5e"
+        ],
+        "uses": [
+          {
+            "track": 0,
+            "archive": "donlhor.bfp",
+            "member": 0,
+            "family": "moving"
+          },
+          {
+            "track": 5,
+            "archive": "donshor.bfp",
+            "member": 0,
+            "family": "moving"
+          }
+        ]
+      },
+      "crc32": "0ee28f4b"
+    },
+    {
+      "id": "PBALLBOT",
+      "file": "exec-47547fab-16e4-4418-82f3-682a49270997.png",
+      "reference": {
+        "names": [
+          "PBALLBOT"
+        ],
+        "size": [
+          32,
+          32
+        ],
+        "normalized_bmp_crc32": "88c4954a",
+        "packed_bmp_crc32": [
+          "28dab734"
+        ],
+        "uses": [
+          {
+            "track": 6,
+            "archive": "crofhor.bfp",
+            "member": 0,
+            "family": "moving"
+          }
+        ]
+      },
+      "crc32": "60c8daaf"
+    },
+    {
+      "id": "PBALLMID",
+      "file": "exec-57d036cb-7696-499b-ac24-82a6d0421064.png",
+      "reference": {
+        "names": [
+          "PBALLMID"
+        ],
+        "size": [
+          64,
+          16
+        ],
+        "normalized_bmp_crc32": "0c5fc9bc",
+        "packed_bmp_crc32": [
+          "b5a35b8b"
+        ],
+        "uses": [
+          {
+            "track": 6,
+            "archive": "crofhor.bfp",
+            "member": 0,
+            "family": "moving"
+          }
+        ]
+      },
+      "crc32": "68cfa3d7"
+    },
+    {
+      "id": "PBALLOG1",
+      "file": "exec-bec74a8e-9230-4c3c-b23c-318e3f005495.png",
+      "reference": {
+        "names": [
+          "PBALLOG1"
+        ],
+        "size": [
+          64,
+          16
+        ],
+        "normalized_bmp_crc32": "9b9e36d2",
+        "packed_bmp_crc32": [
+          "2262a4e5"
+        ],
+        "uses": [
+          {
+            "track": 6,
+            "archive": "crofhor.bfp",
+            "member": 0,
+            "family": "moving"
+          }
+        ]
+      },
+      "crc32": "6066ae6e"
+    },
+    {
+      "id": "PBALLOG2",
+      "file": "exec-3f8649c8-e0ad-46f6-a721-8642a88d8424.png",
+      "reference": {
+        "names": [
+          "PBALLOG2"
+        ],
+        "size": [
+          64,
+          16
+        ],
+        "normalized_bmp_crc32": "0bd1b89f",
+        "packed_bmp_crc32": [
+          "b22d2aa8"
+        ],
+        "uses": [
+          {
+            "track": 6,
+            "archive": "crofhor.bfp",
+            "member": 0,
+            "family": "moving"
+          }
+        ]
+      },
+      "crc32": "6e01b319"
+    },
+    {
+      "id": "PBALLTOP",
+      "file": "exec-5e585116-dcb1-4146-9e33-851e9cb20a87.png",
+      "reference": {
+        "names": [
+          "PBALLTOP"
+        ],
+        "size": [
+          32,
+          16
+        ],
+        "normalized_bmp_crc32": "d246bc80",
+        "packed_bmp_crc32": [
+          "082a0cd3"
+        ],
+        "uses": [
+          {
+            "track": 6,
+            "archive": "crofhor.bfp",
+            "member": 0,
+            "family": "moving"
+          }
+        ]
+      },
+      "crc32": "5c54bb24"
+    },
+    {
+      "id": "PSP1",
+      "file": "exec-ff091818-edd9-435e-b244-8fb0a3e76983.png",
+      "reference": {
+        "names": [
+          "PSP1"
+        ],
+        "size": [
+          64,
+          32
+        ],
+        "normalized_bmp_crc32": "43415954",
+        "packed_bmp_crc32": [
+          "43415954"
+        ],
+        "uses": [
+          {
+            "track": 0,
+            "archive": "donlhor.bfp",
+            "member": 0,
+            "family": "moving"
+          },
+          {
+            "track": 5,
+            "archive": "donshor.bfp",
+            "member": 0,
+            "family": "moving"
+          }
+        ]
+      },
+      "crc32": "f3f766ee"
+    },
+    {
+      "id": "TH36AI1",
+      "file": "exec-6201bcec-6a0f-4e20-949d-141ac2603651.png",
+      "reference": {
+        "names": [
+          "TH36AI1"
+        ],
+        "size": [
+          32,
+          64
+        ],
+        "normalized_bmp_crc32": "da948386",
+        "packed_bmp_crc32": [
+          "a8f140f5"
+        ],
+        "uses": [
+          {
+            "track": 1,
+            "archive": "silvhor.bfp",
+            "member": 0,
+            "family": "moving"
+          },
+          {
+            "track": 2,
+            "archive": "thruhor.bfp",
+            "member": 0,
+            "family": "moving"
+          }
+        ]
+      },
+      "crc32": "81f63a43"
+    },
+    {
+      "id": "TH36AIR",
+      "file": "exec-23974622-7e89-4cf9-882e-607673ed22a1.png",
+      "reference": {
+        "names": [
+          "TH36AIR"
+        ],
+        "size": [
+          64,
+          32
+        ],
+        "normalized_bmp_crc32": "40bb6c05",
+        "packed_bmp_crc32": [
+          "6e7ebeca"
+        ],
+        "uses": [
+          {
+            "track": 2,
+            "archive": "thruhor.bfp",
+            "member": 0,
+            "family": "moving"
+          }
+        ]
+      },
+      "crc32": "9681172f"
+    },
+    {
+      "id": "TH36AIR3",
+      "file": "exec-66ab935c-77e9-4920-9693-9eccf33c0727.png",
+      "reference": {
+        "names": [
+          "TH36AIR3"
+        ],
+        "size": [
+          64,
+          64
+        ],
+        "normalized_bmp_crc32": "41222af6",
+        "packed_bmp_crc32": [
+          "ca6bef7b"
+        ],
+        "uses": [
+          {
+            "track": 1,
+            "archive": "silvhor.bfp",
+            "member": 0,
+            "family": "moving"
+          },
+          {
+            "track": 2,
+            "archive": "thruhor.bfp",
+            "member": 0,
+            "family": "moving"
+          }
+        ]
+      },
+      "crc32": "bc19f06f"
+    },
+    {
+      "id": "TH36AIR7",
+      "file": "exec-d8fdf361-48cb-41fd-a104-a695331a38f6.png",
+      "reference": {
+        "names": [
+          "TH36AIR7"
+        ],
+        "size": [
+          64,
+          32
+        ],
+        "normalized_bmp_crc32": "9d2fd1e7",
+        "packed_bmp_crc32": [
+          "b3ea0328"
+        ],
+        "uses": [
+          {
+            "track": 1,
+            "archive": "silvhor.bfp",
+            "member": 0,
+            "family": "moving"
+          },
+          {
+            "track": 2,
+            "archive": "thruhor.bfp",
+            "member": 0,
+            "family": "moving"
+          }
+        ]
+      },
+      "crc32": "8e94695c"
+    },
+    {
+      "id": "TH37AIR",
+      "file": "exec-a8e27042-33df-4b21-96a2-9e6dfa88a21c.png",
+      "reference": {
+        "names": [
+          "TH37AIR"
+        ],
+        "size": [
+          128,
+          32
+        ],
+        "normalized_bmp_crc32": "3d61bea9",
+        "packed_bmp_crc32": [
+          "c3f2e463"
+        ],
+        "uses": [
+          {
+            "track": 1,
+            "archive": "silvhor.bfp",
+            "member": 0,
+            "family": "moving"
+          },
+          {
+            "track": 2,
+            "archive": "thruhor.bfp",
+            "member": 0,
+            "family": "moving"
+          }
+        ]
+      },
+      "crc32": "ebfdd825"
+    },
+    {
+      "id": "PSP_3D_SKIN",
+      "file": "exec-20ece7ef-526f-4a8a-8b4c-e2f901d2acd9.png",
+      "reference": {
+        "image": "textures/air-psp1.webp",
+        "role": "original-faithful generated aircraft reference",
+        "crc32": "4a8d450a"
+      },
+      "crc32": "47db49f5"
+    }
+  ],
+  "outputs": [
+    {
+      "image": "textures/air-ballbot.webp",
+      "source": "BALLBOT",
+      "crop": [
+        1254,
+        1254,
+        0,
+        0
+      ],
+      "size": [
+        256,
+        256
+      ],
+      "crc32": "2a23b59c",
+      "bytes": 12316
+    },
+    {
+      "image": "textures/air-balllog1.webp",
+      "source": "BALLLOG1",
+      "crop": [
+        2164,
+        727,
+        0,
+        0
+      ],
+      "size": [
+        512,
+        128
+      ],
+      "crc32": "84803be7",
+      "bytes": 6048
+    },
+    {
+      "image": "textures/air-balllog2.webp",
+      "source": "BALLLOG2",
+      "crop": [
+        2172,
+        724,
+        0,
+        0
+      ],
+      "size": [
+        512,
+        128
+      ],
+      "crc32": "c19802ed",
+      "bytes": 7958
+    },
+    {
+      "image": "textures/air-balllog3.webp",
+      "source": "BALLLOG3",
+      "crop": [
+        1254,
+        1254,
+        0,
+        0
+      ],
+      "size": [
+        256,
+        256
+      ],
+      "crc32": "fafd3f8b",
+      "bytes": 3468
+    },
+    {
+      "image": "textures/air-ballmid.webp",
+      "source": "BALLMID",
+      "crop": [
+        2172,
+        724,
+        0,
+        0
+      ],
+      "size": [
+        512,
+        128
+      ],
+      "crc32": "a0a724c8",
+      "bytes": 4932
+    },
+    {
+      "image": "textures/air-balltop.webp",
+      "source": "BALLTOP",
+      "crop": [
+        1774,
+        887,
+        0,
+        0
+      ],
+      "size": [
+        256,
+        128
+      ],
+      "crc32": "0b402cfb",
+      "bytes": 2422
+    },
+    {
+      "image": "textures/air-balltop1.webp",
+      "source": "BALLTOP1",
+      "crop": [
+        1774,
+        887,
+        0,
+        0
+      ],
+      "size": [
+        256,
+        128
+      ],
+      "crc32": "5c87e60d",
+      "bytes": 2184
+    },
+    {
+      "image": "textures/air-bh17hel.webp",
+      "source": "BH17HEL",
+      "crop": [
+        2164,
+        727,
+        0,
+        0
+      ],
+      "size": [
+        512,
+        128
+      ],
+      "crc32": "551ac0e3",
+      "bytes": 5100
+    },
+    {
+      "image": "textures/air-bh17hel1.webp",
+      "source": "BH17HEL1",
+      "crop": [
+        2164,
+        615,
+        0,
+        35
+      ],
+      "size": [
+        512,
+        128
+      ],
+      "crc32": "f61c95e4",
+      "bytes": 7074
+    },
+    {
+      "image": "textures/air-bh17hel3.webp",
+      "source": "BH17HEL3",
+      "crop": [
+        1254,
+        1254,
+        0,
+        0
+      ],
+      "size": [
+        512,
+        512
+      ],
+      "crc32": "85bbd510",
+      "bytes": 34384
+    },
+    {
+      "image": "textures/air-cr13aud1.webp",
+      "source": "CR13AUD1",
+      "crop": [
+        1774,
+        887,
+        0,
+        0
+      ],
+      "size": [
+        256,
+        128
+      ],
+      "crc32": "ab087fc7",
+      "bytes": 5990
+    },
+    {
+      "image": "textures/air-cr13aud2.webp",
+      "source": "CR13AUD2",
+      "crop": [
+        1254,
+        1254,
+        0,
+        0
+      ],
+      "size": [
+        256,
+        256
+      ],
+      "crc32": "501cb16e",
+      "bytes": 6768
+    },
+    {
+      "image": "textures/air-cr13aud3.webp",
+      "source": "CR13AUD3",
+      "crop": [
+        1774,
+        887,
+        0,
+        0
+      ],
+      "size": [
+        256,
+        128
+      ],
+      "crc32": "095e38fc",
+      "bytes": 3362
+    },
+    {
+      "image": "textures/air-cr13aud4.webp",
+      "source": "CR13AUD4",
+      "crop": [
+        1774,
+        887,
+        0,
+        0
+      ],
+      "size": [
+        512,
+        256
+      ],
+      "crc32": "e8c728dd",
+      "bytes": 33320
+    },
+    {
+      "image": "textures/air-cr13aud5.webp",
+      "source": "CR13AUD5",
+      "crop": [
+        1254,
+        1254,
+        0,
+        0
+      ],
+      "size": [
+        256,
+        256
+      ],
+      "crc32": "94497342",
+      "bytes": 8876
+    },
+    {
+      "image": "textures/air-cr13aud6.webp",
+      "source": "CR13AUD6",
+      "crop": [
+        1254,
+        1254,
+        0,
+        0
+      ],
+      "size": [
+        256,
+        256
+      ],
+      "crc32": "bd5e115b",
+      "bytes": 18726
+    },
+    {
+      "image": "textures/air-cr13audb.webp",
+      "source": "CR13AUDB",
+      "crop": [
+        1774,
+        887,
+        0,
+        0
+      ],
+      "size": [
+        512,
+        256
+      ],
+      "crc32": "23a8d081",
+      "bytes": 20602
+    },
+    {
+      "image": "textures/air-heli1.webp",
+      "source": "HELI1",
+      "crop": [
+        1254,
+        1254,
+        0,
+        0
+      ],
+      "size": [
+        256,
+        256
+      ],
+      "crc32": "022f2b03",
+      "bytes": 6478
+    },
+    {
+      "image": "textures/air-markam.webp",
+      "source": "MARKAM",
+      "crop": [
+        2164,
+        600,
+        0,
+        40
+      ],
+      "size": [
+        512,
+        128
+      ],
+      "crc32": "d6b2b864",
+      "bytes": 11200
+    },
+    {
+      "image": "textures/air-markamb.webp",
+      "source": "MARKAMB",
+      "crop": [
+        224,
+        2164,
+        250,
+        0
+      ],
+      "size": [
+        64,
+        512
+      ],
+      "crc32": "0082c0c8",
+      "bytes": 7098
+    },
+    {
+      "image": "textures/air-markamw.webp",
+      "source": "MARKAMW",
+      "crop": [
+        1254,
+        1254,
+        0,
+        0
+      ],
+      "size": [
+        512,
+        512
+      ],
+      "crc32": "21d5ce11",
+      "bytes": 13766
+    },
+    {
+      "image": "textures/air-pballbot.webp",
+      "source": "PBALLBOT",
+      "crop": [
+        1254,
+        1254,
+        0,
+        0
+      ],
+      "size": [
+        256,
+        256
+      ],
+      "crc32": "b7b1113a",
+      "bytes": 7518
+    },
+    {
+      "image": "textures/air-pballmid.webp",
+      "source": "PBALLMID",
+      "crop": [
+        2164,
+        727,
+        0,
+        0
+      ],
+      "size": [
+        512,
+        128
+      ],
+      "crc32": "17adc614",
+      "bytes": 6352
+    },
+    {
+      "image": "textures/air-pballog1.webp",
+      "source": "PBALLOG1",
+      "crop": [
+        2172,
+        724,
+        0,
+        0
+      ],
+      "size": [
+        512,
+        128
+      ],
+      "crc32": "90f2186b",
+      "bytes": 21368
+    },
+    {
+      "image": "textures/air-pballog2.webp",
+      "source": "PBALLOG2",
+      "crop": [
+        2164,
+        727,
+        0,
+        0
+      ],
+      "size": [
+        512,
+        128
+      ],
+      "crc32": "8b1e2967",
+      "bytes": 13094
+    },
+    {
+      "image": "textures/air-pballtop.webp",
+      "source": "PBALLTOP",
+      "crop": [
+        1774,
+        887,
+        0,
+        0
+      ],
+      "size": [
+        256,
+        128
+      ],
+      "crc32": "63b3eaad",
+      "bytes": 3084
+    },
+    {
+      "image": "textures/air-psp1.webp",
+      "source": "PSP1",
+      "crop": [
+        1774,
+        887,
+        0,
+        0
+      ],
+      "size": [
+        512,
+        256
+      ],
+      "crc32": "4a8d450a",
+      "bytes": 13846
+    },
+    {
+      "image": "textures/air-th36ai1.webp",
+      "source": "TH36AI1",
+      "crop": [
+        887,
+        1774,
+        0,
+        0
+      ],
+      "size": [
+        256,
+        512
+      ],
+      "crc32": "aec50833",
+      "bytes": 28770
+    },
+    {
+      "image": "textures/air-th36air.webp",
+      "source": "TH36AIR",
+      "crop": [
+        1774,
+        887,
+        0,
+        0
+      ],
+      "size": [
+        512,
+        256
+      ],
+      "crc32": "22dc33d9",
+      "bytes": 6602
+    },
+    {
+      "image": "textures/air-th36air3.webp",
+      "source": "TH36AIR3",
+      "crop": [
+        1254,
+        1254,
+        0,
+        0
+      ],
+      "size": [
+        512,
+        512
+      ],
+      "crc32": "77599d1b",
+      "bytes": 19280
+    },
+    {
+      "image": "textures/air-th36air7.webp",
+      "source": "TH36AIR7",
+      "crop": [
+        1774,
+        887,
+        0,
+        0
+      ],
+      "size": [
+        512,
+        256
+      ],
+      "crc32": "0afb1353",
+      "bytes": 12866
+    },
+    {
+      "image": "textures/air-th37air.webp",
+      "source": "TH37AIR",
+      "crop": [
+        2164,
+        535,
+        0,
+        70
+      ],
+      "size": [
+        512,
+        128
+      ],
+      "crc32": "522b4691",
+      "bytes": 5758
+    },
+    {
+      "image": "aircraft-skin.webp",
+      "source": "PSP_3D_SKIN",
+      "size": [
+        512,
+        256
+      ],
+      "rows": [
+        {
+          "crop": [
+            1774,
+            390,
+            0,
+            0
+          ],
+          "size": [
+            512,
+            128
+          ]
+        },
+        {
+          "crop": [
+            1774,
+            497,
+            0,
+            390
+          ],
+          "size": [
+            512,
+            128
+          ]
+        }
+      ],
+      "crc32": "bc776124",
+      "bytes": 8978
+    }
+  ],
+  "webp_quality": 80
+}

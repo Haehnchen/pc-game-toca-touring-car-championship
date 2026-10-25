@@ -1,0 +1,251 @@
+{
+  "version": 1,
+  "package": "R07-M04a-M04c-M06-M07-7-M08",
+  "status": "accepted",
+  "source": {
+    "original_version": "1.1a",
+    "path": "data/knocfree.bfp",
+    "crc32": "7e00bade",
+    "bytes": 2099077,
+    "members": [
+      {
+        "index": 5,
+        "name": "OBJECTS.C3D",
+        "crc32": "24a4dac8"
+      },
+      {
+        "index": 8,
+        "name": "CONES.C3D",
+        "crc32": "c9d52df1"
+      },
+      {
+        "index": 9,
+        "name": "POSTS.C3D",
+        "crc32": "cd8f639c"
+      },
+      {
+        "index": 10,
+        "name": "SIGNS.C3D",
+        "crc32": "d2bd1dfc"
+      },
+      {
+        "index": 11,
+        "name": "FLAGS.C3D",
+        "crc32": "ca9a56c1"
+      }
+    ]
+  },
+  "scope": {
+    "mesh_rows": 61,
+    "types": 37,
+    "raw_bindings": 372,
+    "new_images": 27,
+    "material_only_contributions": 5,
+    "reused_images": 25,
+    "native_constants": 1,
+    "geometry_uv_slots_nodes": "unchanged-installed"
+  },
+  "geometry": "Retain original simple bodies, people cards, open facade charts, controller nodes and flag variants; no geometry or hierarchy edit.",
+  "export": {
+    "new_images_format": "WebP",
+    "quality": 70,
+    "method": 6,
+    "max_edge": 512,
+    "alpha": "Exact source RGB-black key, nearest-size mask; verified after decoding. Existing accepted artwork bytes unchanged."
+  },
+  "source_reading": {
+    "race_control": "OFFICIALS AND / RACE CONTROL and Mobil1 confirmed across KN16RCB0/9/1/2; split side-banner crops retained. KN16RCBC faded orange sign uses the related confirmed control-building wording.",
+    "uncertain_notices": "After comparing KN16RCBB, KN16RCB0 and the related large signs, the small warning remains too low resolution to transcribe. NO SMOKING / IN THIS AREA / THANK YOU and the faint circular secondary notice are bounded racing-venue reconstructions; original two-notice positions and color hierarchy retained.",
+    "figures": "PCREW1/2 are swapped and mirrored relative to Brands sources with different local masks. New local cards retain original group layout; PEO-BACK reuses Thruxton, PEO-MID2 reuses Silverstone Crowd7 by source motif and exact mask.",
+    "flags": "Three original phases for Ireland/Spain/Switzerland/Belgium/Sweden/Finland; phase index, controller hierarchy and four-tick switch unchanged."
+  },
+  "materials": [
+    {"names":["AUTOTRAD"],"source_crc32":"347378df","source_size":[128,32],"bindings":[{"member":5,"slot":29}],"image":"textures/silverstone-advert-autotrad.webp","crc32":"ba9585c3","reuse":true,"decision":"Same original logo, colors and edge occupancy checked against source; source palettes vary, accepted motif shared.","alpha_crc32":"deab7e4e"},
+    {"names":["AUTOGLAS"],"source_crc32":"3134d809","source_size":[128,32],"bindings":[{"member":5,"slot":30}],"image":"textures/oulton-rest-autoglas.webp","crc32":"3277bbd4","reuse":true,"decision":"Same original logo, colors and edge occupancy checked against source; source palettes vary, accepted motif shared.","alpha_crc32":"deab7e4e"},
+    {"names":["ORDSURV"],"source_crc32":"38d40caa","source_size":[128,32],"bindings":[{"member":5,"slot":31}],"image":"textures/silverstone-advert-ordsurv.webp","crc32":"f1da043b","reuse":true,"decision":"Same original logo, colors and edge occupancy checked against source; source palettes vary, accepted motif shared.","alpha_crc32":"deab7e4e"},
+    {"names":["SNAPON"],"source_crc32":"46c996e9","source_size":[64,32],"bindings":[{"member":5,"slot":52}],"image":"textures/dgp-mt03-snapon.webp","crc32":"cdba4c6c","reuse":true,"decision":"Same original logo, colors and edge occupancy checked against source; source palettes vary, accepted motif shared.","alpha_crc32":"154803cc"},
+    {"names":["KN02GSD3"],"source_crc32":"e7a4560a","source_size":[128,32],"bindings":[{"member":5,"slot":54}],"image":"textures/knockhill-rest-kn02gsd3.webp","crc32":"aa5afcd9","bytes":6334,"size":[512,128],"new_artwork":true,"geometry_acceptance_owner":"R07-M07 main; material-only contribution","decision":"Original lower spectator row, group gaps, upper empty region and narrow source edge strips retained; precise source alpha applied after generated-crowd chart registration.","alpha_crc32":"feb78a4c"},
+    {"names":["KN02GSD4"],"source_crc32":"13aef6c6","source_size":[128,32],"bindings":[{"member":5,"slot":55}],"image":"textures/knockhill-rest-kn02gsd4.webp","crc32":"4858a6f3","bytes":6718,"size":[512,128],"new_artwork":true,"geometry_acceptance_owner":"R07-M07 main; material-only contribution","decision":"Original lower spectator row, group gaps, upper empty region and narrow source edge strips retained; precise source alpha applied after generated-crowd chart registration.","alpha_crc32":"67fbac65"},
+    {"names":["KN02GS2"],"source_crc32":"d855459b","source_size":[128,32],"bindings":[{"member":5,"slot":57}],"image":"textures/knockhill-rest-kn02gs2.webp","crc32":"8ed42a7d","bytes":2938,"size":[512,128],"new_artwork":true,"geometry_acceptance_owner":"R07-M07 main; material-only contribution","decision":"CHUN Racing lettering confirmed against KN01MAR1; dark-blue sign band and brown trims retain source UV placement.","alpha_crc32":"deab7e4e"},
+    {"names":["KN15SPO1"],"source_crc32":"06fe0646","source_size":[128,32],"bindings":[{"member":5,"slot":59}],"image":"textures/knockhill-rest-kn15spo1.webp","crc32":"96e60e97","bytes":3668,"size":[512,128],"new_artwork":true,"geometry_acceptance_owner":"R07-M07 main; material-only contribution","decision":"Source old-style blue/red Mobil with gold1, blue highlight and diagonal red field on black; original logo bounds retained after white-canvas crop.","alpha_crc32":"deab7e4e"},
+    {"names":["KN15SPO6"],"source_crc32":"10c7e135","source_size":[32,128],"bindings":[{"member":5,"slot":61}],"image":"textures/knockhill-rest-kn15spo6.webp","crc32":"b7448d99","bytes":1786,"size":[128,512],"new_artwork":true,"geometry_acceptance_owner":"R07-M07 main; material-only contribution","decision":"Small LAPS / TO GO panel and edge uprights remain in source chart band with large empty regions above/below; exact original alpha retained.","alpha_crc32":"d5f8c56c"},
+    {"names":["PCREW1"],"source_crc32":"83189fa8","source_size":[64,64],"bindings":[{"member":5,"slot":62}],"image":"textures/knockhill-rest-pcrew1.webp","crc32":"a9dd716a","bytes":20500,"size":[512,512],"new_artwork":true,"decision":"Knockhill local mirrored/swapped crew card reconstructed; poses, yellow-olive clothing, side crop and exact local black-key mask retained.","alpha_crc32":"4c705ea2"},
+    {"names":["PCREW2"],"source_crc32":"9a3029bc","source_size":[64,64],"bindings":[{"member":5,"slot":63}],"image":"textures/knockhill-rest-pcrew2.webp","crc32":"0c2d00ba","bytes":23378,"size":[512,512],"new_artwork":true,"decision":"Knockhill local mirrored/swapped crew card reconstructed; poses, yellow-olive clothing, side crop and exact local black-key mask retained.","alpha_crc32":"823830f6"},
+    {"names":["PEO-BACK"],"source_crc32":"53bdeb46","source_size":[128,32],"bindings":[{"member":5,"slot":64}],"image":"textures/thruxton-rest-peo-back.webp","crc32":"9fcc4b4d","reuse":true,"decision":"Same people, poses, clothing layout and exact black-key mask; PEO-MID2 matches Silverstone Crowd7 despite different source name.","alpha_crc32":"7e6f8821"},
+    {"names":["PEO-MID2"],"source_crc32":"914c28f6","source_size":[128,32],"bindings":[{"member":5,"slot":65}],"image":"textures/silverstone-stands-crowd7.webp","crc32":"43c203bc","reuse":true,"decision":"Same people, poses, clothing layout and exact black-key mask; PEO-MID2 matches Silverstone Crowd7 despite different source name.","alpha_crc32":"3b979248"},
+    {"names":["CHEV"],"source_crc32":"72499e56","source_size":[64,64],"bindings":[{"member":5,"slot":66}],"image":"textures/dgp-mt03-chev.webp","crc32":"5e5c95df","reuse":true,"decision":"Four repeating white right chevrons on dark ground; source tip positions, edge phase and repeat checked against Donington chart.","alpha_crc32":"b7094978"},
+    {"names":["LVOLVO4"],"source_crc32":"d27b6b01","source_size":[32,32],"bindings":[{"member":5,"slot":70}],"image":"textures/static-vectra-croft-knockhill-lvolvo4.webp","reuse":true,"provenance":"static-vectra-generation.json","decision":"Existing approved T0 neutral body chart retained on KN16RAC_1; no source or mapping change.","crc32":"91a03259"},
+    {"names":["KN16RCB0"],"source_crc32":"5629037b","source_size":[128,32],"bindings":[{"member":5,"slot":87}],"image":"textures/knockhill-rest-kn16rcb0.webp","crc32":"753690b2","bytes":6238,"size":[512,128],"new_artwork":true,"decision":"Original wall/sign/roof/metal chart rebuilt; openings, fascia/plinth, lettering crops and material slots retained.","alpha_crc32":"deab7e4e"},
+    {"names":["KN16RCB9"],"source_crc32":"0095e168","source_size":[128,32],"bindings":[{"member":5,"slot":88}],"image":"textures/knockhill-rest-kn16rcb9.webp","crc32":"9d0181f4","bytes":5358,"size":[512,128],"new_artwork":true,"decision":"Original wall/sign/roof/metal chart rebuilt; openings, fascia/plinth, lettering crops and material slots retained.","alpha_crc32":"deab7e4e"},
+    {"names":["KN16RCBB"],"source_crc32":"027bd53c","source_size":[64,64],"bindings":[{"member":5,"slot":89}],"image":"textures/knockhill-rest-kn16rcbb.webp","crc32":"049bce86","bytes":73382,"size":[512,512],"new_artwork":true,"decision":"Original wall/sign/roof/metal chart rebuilt; openings, fascia/plinth, lettering crops and material slots retained.","alpha_crc32":"b7094978"},
+    {"names":["KN16RCB1"],"source_crc32":"d523c983","source_size":[128,32],"bindings":[{"member":5,"slot":90}],"image":"textures/knockhill-rest-kn16rcb1.webp","crc32":"955fd9a8","bytes":4778,"size":[512,128],"new_artwork":true,"decision":"Original wall/sign/roof/metal chart rebuilt; openings, fascia/plinth, lettering crops and material slots retained.","alpha_crc32":"deab7e4e"},
+    {"names":["KN16RCB2"],"source_crc32":"7742bd07","source_size":[128,32],"bindings":[{"member":5,"slot":91}],"image":"textures/knockhill-rest-kn16rcb2.webp","crc32":"b894f066","bytes":4828,"size":[512,128],"new_artwork":true,"decision":"Original wall/sign/roof/metal chart rebuilt; openings, fascia/plinth, lettering crops and material slots retained.","alpha_crc32":"deab7e4e"},
+    {"names":["KN16RCB7"],"source_crc32":"499c4d64","source_size":[128,32],"bindings":[{"member":5,"slot":92}],"image":"textures/knockhill-rest-kn16rcb7.webp","crc32":"49681a1b","bytes":1622,"size":[512,128],"new_artwork":true,"decision":"Original wall/sign/roof/metal chart rebuilt; openings, fascia/plinth, lettering crops and material slots retained.","alpha_crc32":"deab7e4e"},
+    {"names":["KN16RCBC"],"source_crc32":"b2ba9839","source_size":[128,32],"bindings":[{"member":5,"slot":93}],"image":"textures/knockhill-rest-kn16rcbc.webp","crc32":"1ba6ee89","bytes":12446,"size":[512,128],"new_artwork":true,"decision":"Original wall/sign/roof/metal chart rebuilt; openings, fascia/plinth, lettering crops and material slots retained.","alpha_crc32":"deab7e4e"},
+    {"names":["KN16RCBD"],"source_crc32":"9497c452","source_size":[128,32],"bindings":[{"member":5,"slot":94}],"image":"textures/knockhill-rest-kn16rcbd.webp","crc32":"577fa707","bytes":9010,"size":[512,128],"new_artwork":true,"decision":"Original wall/sign/roof/metal chart rebuilt; openings, fascia/plinth, lettering crops and material slots retained.","alpha_crc32":"deab7e4e"},
+    {"names":["KN16RCB3"],"source_crc32":"d775e99f","source_size":[64,32],"bindings":[{"member":5,"slot":95}],"image":"textures/knockhill-rest-kn16rcb3.webp","crc32":"f1916f4a","bytes":6686,"size":[512,256],"new_artwork":true,"decision":"Original wall/sign/roof/metal chart rebuilt; openings, fascia/plinth, lettering crops and material slots retained.","alpha_crc32":"154803cc"},
+    {"names":["KN16RCB8"],"source_crc32":"2df6b46d","source_size":[64,32],"bindings":[{"member":5,"slot":96}],"image":"textures/knockhill-rest-kn16rcb8.webp","crc32":"96853fa1","bytes":5188,"size":[512,256],"new_artwork":true,"decision":"Original wall/sign/roof/metal chart rebuilt; openings, fascia/plinth, lettering crops and material slots retained.","alpha_crc32":"154803cc"},
+    {"names":["KN16RCBE"],"source_crc32":"cbbb7a16","source_size":[128,32],"bindings":[{"member":5,"slot":97}],"image":"textures/knockhill-rest-kn16rcbe.webp","crc32":"6b19e987","bytes":3712,"size":[512,128],"new_artwork":true,"decision":"Original wall/sign/roof/metal chart rebuilt; openings, fascia/plinth, lettering crops and material slots retained.","alpha_crc32":"deab7e4e"},
+    {"names":["LREDCON"],"source_crc32":"7af6e41a","source_size":[64,64],"bindings":[{"member":8,"slot":0},{"member":9,"slot":0}],"image":"textures/donington-cone-bands.webp","crc32":"e5fa1889","reuse":true,"decision":"Original single white band, red upper/lower plastic and dark base; accepted Donington chart retains band order and boundaries.","alpha_crc32":"b7094978"},
+    {"names":["LDHL"],"source_crc32":"a1f6eac2","source_size":[64,16],"bindings":[{"member":10,"slot":0}],"image":"textures/silverstone-prop-ldhl.webp","crc32":"b70927c5","reuse":true,"decision":"Accepted red-on-white DHL chart preserves protected blank rear/frame UV crop; generic centered DHL replaced.","alpha_crc32":"deab7e4e"},
+    {"names":["L200"],"source_crc32":"dd03e471","source_size":[32,16],"bindings":[{"member":10,"slot":1}],"image":"textures/silverstone-prop-l200.webp","crc32":"ea7ce4d5","reuse":true,"decision":"Precise accepted source-size motif and edge occupancy replaces generic inset/weathered mapping; original UV chart unchanged.","alpha_crc32":"154803cc"},
+    {"names":["L100"],"source_crc32":"1e7ca7ed","source_size":[32,16],"bindings":[{"member":10,"slot":2}],"image":"textures/silverstone-prop-l100.webp","crc32":"122c39ff","reuse":true,"decision":"Precise accepted source-size motif and edge occupancy replaces generic inset/weathered mapping; original UV chart unchanged.","alpha_crc32":"154803cc"},
+    {"names":["L50"],"source_crc32":"a65d2adf","source_size":[32,16],"bindings":[{"member":10,"slot":3}],"image":"textures/silverstone-prop-l50.webp","crc32":"4c61d386","reuse":true,"decision":"Precise accepted source-size motif and edge occupancy replaces generic inset/weathered mapping; original UV chart unchanged.","alpha_crc32":"154803cc"},
+    {"names":["LARROW5"],"source_crc32":"12f058a3","source_size":[32,32],"bindings":[{"member":10,"slot":4}],"image":"textures/oulton-rest-larrow5.webp","crc32":"3d267e3a","reuse":true,"decision":"Precise accepted source-size motif and edge occupancy replaces generic inset/weathered mapping; original UV chart unchanged.","alpha_crc32":"b7094978"},
+    {"names":["LPIT"],"source_crc32":"5f2bd71f","source_size":[32,16],"bindings":[{"member":10,"slot":5}],"image":"textures/silverstone-prop-lpit.webp","crc32":"8b6c7cab","reuse":true,"decision":"Precise accepted source-size motif and edge occupancy replaces generic inset/weathered mapping; original UV chart unchanged.","alpha_crc32":"154803cc"},
+    {"names":["LARROW1"],"source_crc32":"de9577ba","source_size":[32,32],"bindings":[{"member":10,"slot":6}],"image":"textures/silverstone-prop-larrow1.webp","crc32":"21cf73a2","reuse":true,"decision":"Precise accepted source-size motif and edge occupancy replaces generic inset/weathered mapping; original UV chart unchanged.","alpha_crc32":"b7094978"},
+    {"names":["LARROW2"],"source_crc32":"35073588","source_size":[32,32],"bindings":[{"member":10,"slot":7}],"image":"textures/silverstone-prop-larrow2.webp","crc32":"3a2569ea","reuse":true,"decision":"Precise accepted source-size motif and edge occupancy replaces generic inset/weathered mapping; original UV chart unchanged.","alpha_crc32":"b7094978"},
+    {"names":["LIFLAGC1"],"source_crc32":"777047ea","source_size":[32,32],"bindings":[{"member":11,"slot":0}],"image":"textures/oulton-rest-liflagc1.webp","crc32":"e511bf50","reuse":true,"decision":"Same nation, ordered phase and exact black-key silhouette as accepted source; palette-only variation retains established cloth artwork.","alpha_crc32":"60ba429e"},
+    {"names":["POST"],"source_crc32":"a645301c","source_size":[8,16],"bindings":[{"member":11,"slot":1}],"native_constant_rgb":[189,206,222]},
+    {"names":["LIFLAGC2"],"source_crc32":"59d9bd98","source_size":[32,32],"bindings":[{"member":11,"slot":2}],"image":"textures/oulton-rest-liflagc2.webp","crc32":"b4a382be","reuse":true,"decision":"Same nation, ordered phase and exact black-key silhouette as accepted source; palette-only variation retains established cloth artwork.","alpha_crc32":"3bde86f2"},
+    {"names":["LIFLAGC3"],"source_crc32":"a6e36e32","source_size":[32,32],"bindings":[{"member":11,"slot":3}],"image":"textures/oulton-rest-liflagc3.webp","crc32":"759602a5","reuse":true,"decision":"Same nation, ordered phase and exact black-key silhouette as accepted source; palette-only variation retains established cloth artwork.","alpha_crc32":"c478a821"},
+    {"names":["LIFLAGE1"],"source_crc32":"8e9bbb14","source_size":[32,32],"bindings":[{"member":11,"slot":4}],"image":"textures/knockhill-rest-liflage1.webp","crc32":"575d996a","bytes":12124,"size":[512,512],"new_artwork":true,"decision":"Original nation motif and source phase reconstructed independently, no added emblems; exact local black-key silhouette retained.","alpha_crc32":"d89d7dff"},
+    {"names":["LIFLAGE2"],"source_crc32":"9295abe0","source_size":[32,32],"bindings":[{"member":11,"slot":5}],"image":"textures/knockhill-rest-liflage2.webp","crc32":"19d3a407","bytes":10476,"size":[512,512],"new_artwork":true,"decision":"Original nation motif and source phase reconstructed independently, no added emblems; exact local black-key silhouette retained.","alpha_crc32":"d9de08e1"},
+    {"names":["LIFLAGE3"],"source_crc32":"82414d5f","source_size":[32,32],"bindings":[{"member":11,"slot":6}],"image":"textures/knockhill-rest-liflage3.webp","crc32":"bb752755","bytes":11832,"size":[512,512],"new_artwork":true,"decision":"Original nation motif and source phase reconstructed independently, no added emblems; exact local black-key silhouette retained.","alpha_crc32":"e7e87144"},
+    {"names":["LIFLAGG1"],"source_crc32":"a87b9fda","source_size":[32,32],"bindings":[{"member":11,"slot":7}],"image":"textures/knockhill-rest-liflagg1.webp","crc32":"b162612f","bytes":15030,"size":[512,512],"new_artwork":true,"decision":"Original nation motif and source phase reconstructed independently, no added emblems; exact local black-key silhouette retained.","alpha_crc32":"d9c49450"},
+    {"names":["LIFLAGG2"],"source_crc32":"093bf324","source_size":[32,32],"bindings":[{"member":11,"slot":8}],"image":"textures/knockhill-rest-liflagg2.webp","crc32":"7a887311","bytes":15156,"size":[512,512],"new_artwork":true,"decision":"Original nation motif and source phase reconstructed independently, no added emblems; exact local black-key silhouette retained.","alpha_crc32":"ad04fcf6"},
+    {"names":["LIFLAGG3"],"source_crc32":"a24a11af","source_size":[32,32],"bindings":[{"member":11,"slot":9}],"image":"textures/knockhill-rest-liflagg3.webp","crc32":"6a860864","bytes":14062,"size":[512,512],"new_artwork":true,"decision":"Original nation motif and source phase reconstructed independently, no added emblems; exact local black-key silhouette retained.","alpha_crc32":"86cba0c2"},
+    {"names":["LIFLAGH1"],"source_crc32":"7e8505e4","source_size":[32,32],"bindings":[{"member":11,"slot":10}],"image":"textures/knockhill-rest-liflagh1.webp","crc32":"28fc4f96","bytes":10396,"size":[512,512],"new_artwork":true,"decision":"Original nation motif and source phase reconstructed independently, no added emblems; exact local black-key silhouette retained.","alpha_crc32":"877b4221"},
+    {"names":["LIFLAGH2"],"source_crc32":"45434033","source_size":[32,32],"bindings":[{"member":11,"slot":11}],"image":"textures/knockhill-rest-liflagh2.webp","crc32":"9af93992","bytes":10726,"size":[512,512],"new_artwork":true,"decision":"Original nation motif and source phase reconstructed independently, no added emblems; exact local black-key silhouette retained.","alpha_crc32":"ec9713c4"},
+    {"names":["LIFLAGH3"],"source_crc32":"70d723bd","source_size":[32,32],"bindings":[{"member":11,"slot":12}],"image":"textures/knockhill-rest-liflagh3.webp","crc32":"2acf7dd0","bytes":16106,"size":[512,512],"new_artwork":true,"decision":"Original nation motif and source phase reconstructed independently, no added emblems; exact local black-key silhouette retained.","alpha_crc32":"ece70baa"},
+    {"names":["LIFLAGK1"],"source_crc32":"7aa9766b","source_size":[32,32],"bindings":[{"member":11,"slot":13}],"image":"textures/thruxton-rest-liflagk1.webp","crc32":"98fd036c","reuse":true,"decision":"Same nation, ordered phase and exact black-key silhouette as accepted source; palette-only variation retains established cloth artwork.","alpha_crc32":"91aa83fd"},
+    {"names":["LIFLAGK2"],"source_crc32":"436fbc32","source_size":[32,32],"bindings":[{"member":11,"slot":14}],"image":"textures/thruxton-rest-liflagk2.webp","crc32":"03c055b6","reuse":true,"decision":"Same nation, ordered phase and exact black-key silhouette as accepted source; palette-only variation retains established cloth artwork.","alpha_crc32":"10d07bbe"},
+    {"names":["LIFLAGK3"],"source_crc32":"32e369b4","source_size":[32,32],"bindings":[{"member":11,"slot":15}],"image":"textures/thruxton-rest-liflagk3.webp","crc32":"7ef504c3","reuse":true,"decision":"Same nation, ordered phase and exact black-key silhouette as accepted source; palette-only variation retains established cloth artwork.","alpha_crc32":"db795747"},
+    {"names":["LIFLAGM1"],"source_crc32":"22d30c55","source_size":[32,32],"bindings":[{"member":11,"slot":16}],"image":"textures/thruxton-rest-liflagm1.webp","crc32":"10110dac","reuse":true,"decision":"Same nation, ordered phase and exact black-key silhouette as accepted source; palette-only variation retains established cloth artwork.","alpha_crc32":"e17ffb22"},
+    {"names":["LIFLAGM2"],"source_crc32":"23a407ff","source_size":[32,32],"bindings":[{"member":11,"slot":17}],"image":"textures/thruxton-rest-liflagm2.webp","crc32":"dc9b0c0b","reuse":true,"decision":"Same nation, ordered phase and exact black-key silhouette as accepted source; palette-only variation retains established cloth artwork.","alpha_crc32":"f539afc0"},
+    {"names":["LIFLAGM3"],"source_crc32":"84b6f954","source_size":[32,32],"bindings":[{"member":11,"slot":18}],"image":"textures/thruxton-rest-liflagm3.webp","crc32":"f835c8e6","reuse":true,"decision":"Same nation, ordered phase and exact black-key silhouette as accepted source; palette-only variation retains established cloth artwork.","alpha_crc32":"83288a31"}
+  ],
+  "shared_dependencies": [
+    {
+      "names": ["LVOLVO4"],
+      "source_crc32": "d27b6b01",
+      "source_size": [32,32],
+      "bindings": [
+        {"member":5,"slot":70}
+      ],
+      "image": "textures/static-vectra-croft-knockhill-lvolvo4.webp",
+      "reuse": true,
+      "provenance": "static-vectra-generation.json",
+      "decision": "Existing approved T0 neutral body chart retained on KN16RAC_1; no source or mapping change.",
+      "crc32": "91a03259"
+    },
+    {
+      "names": ["KN15SPO3"],
+      "source_crc32": "7554f525",
+      "source_size": [128,32],
+      "bindings": [
+        {"member":5,"slot":20}
+      ],
+      "owner": "R07-M07 main",
+      "consumer": "CHERVL_1 shares this plain structural surface with KN15SPO_1"
+    }
+  ],
+  "acceptance": {
+    "packages": {
+      "M08": {
+        "types": ["5db3efbf","8d14557c","f11124d1","78fb3435","cbcaf167","7794c4d7","02d6c01a","d33b42f2","5406d8ea","c470568a","236de257","efef3c6d","a7f6ce74"],
+        "meshes": [
+          {"member":5,"mesh":8,"name":"DA09AD7_1","type":"5db3efbf","source_crc32":"0a86988f"},
+          {"member":5,"mesh":9,"name":"DA09AD8_1","type":"8d14557c","source_crc32":"15f05551"},
+          {"member":5,"mesh":10,"name":"DA09AD3_1","type":"f11124d1","source_crc32":"38fbceda"},
+          {"member":5,"mesh":28,"name":"CHERVL_1","type":"78fb3435","source_crc32":"f33092df"},
+          {"member":8,"mesh":0,"name":"LRED_1","type":"cbcaf167","source_crc32":"c7f79a55"},
+          {"member":9,"mesh":0,"name":"LTALLCON_1","type":"7794c4d7","source_crc32":"e5576d2b"},
+          {"member":10,"mesh":0,"name":"L200_1","type":"02d6c01a","source_crc32":"de297544"},
+          {"member":10,"mesh":1,"name":"L100_1","type":"d33b42f2","source_crc32":"889d7d72"},
+          {"member":10,"mesh":2,"name":"L50_1","type":"5406d8ea","source_crc32":"cdc007a7"},
+          {"member":10,"mesh":3,"name":"LARROW5_1","type":"c470568a","source_crc32":"230b6b9e"},
+          {"member":10,"mesh":4,"name":"LPIT_1","type":"236de257","source_crc32":"72ee355b"},
+          {"member":10,"mesh":5,"name":"LARROW3_1","type":"efef3c6d","source_crc32":"21b14d71"},
+          {"member":10,"mesh":6,"name":"LARROW4_1","type":"a7f6ce74","source_crc32":"a580e5de"}
+        ],
+        "raw_bindings": 67
+      },
+      "M04c": {
+        "types": ["933c292f"],
+        "meshes": [
+          {"member":5,"mesh":25,"name":"PCREWS_1","type":"933c292f","source_crc32":"b33172e1"}
+        ],
+        "raw_bindings": 3
+      },
+      "M04a": {
+        "types": ["ac76d61c","84001a98"],
+        "meshes": [
+          {"member":5,"mesh":26,"name":"PEOBACK_1","type":"ac76d61c","source_crc32":"02eab915"},
+          {"member":5,"mesh":27,"name":"PEOMID2_1","type":"84001a98","source_crc32":"721f33b8"}
+        ],
+        "raw_bindings": 139
+      },
+      "M07-7": {
+        "types": ["cb9ff845"],
+        "meshes": [
+          {"member":5,"mesh":33,"name":"KN16RAC_1","type":"cb9ff845","source_crc32":"545f728d"}
+        ],
+        "raw_bindings": 1
+      },
+      "M06": {
+        "types": ["b9d8d701","0bf422ba","8f23beb7","2a0ca07e","47a8e1bb","3003ce1c","cc1f1466","9abf92c9","53fa17f6","6ab7c9d7","7997830a","1580e7f6","17ca2ea0","30e84690","b401842a","97b378f1","3a088df8","af9f87e0","866f4ce4","970ef2c0"],
+        "meshes": [
+          {"member":11,"mesh":0,"name":"IRL_FLG2_1","type":"b9d8d701","source_crc32":"1da98b18"},
+          {"member":11,"mesh":1,"name":"IRL_FLG2_2","type":"0bf422ba","source_crc32":"682efcf2"},
+          {"member":11,"mesh":2,"name":"IRL_FLG2_3","type":"8f23beb7","source_crc32":"97c28765"},
+          {"member":11,"mesh":3,"name":"IRL_FLG2_4","type":"2a0ca07e","source_crc32":"4433dfb9"},
+          {"member":11,"mesh":4,"name":"SPA_FLG2_1","type":"b9d8d701","source_crc32":"90209886"},
+          {"member":11,"mesh":5,"name":"SPA_FLG2_2","type":"47a8e1bb","source_crc32":"14a37db2"},
+          {"member":11,"mesh":6,"name":"SPA_FLG2_3","type":"3003ce1c","source_crc32":"5a5aaa8a"},
+          {"member":11,"mesh":7,"name":"SPA_FLG2_4","type":"cc1f1466","source_crc32":"e16238a3"},
+          {"member":11,"mesh":8,"name":"SWS_FLG2_1","type":"b9d8d701","source_crc32":"038fa663"},
+          {"member":11,"mesh":9,"name":"SWS_FLG2_2","type":"9abf92c9","source_crc32":"5a6c9c8f"},
+          {"member":11,"mesh":10,"name":"SWS_FLG2_3","type":"53fa17f6","source_crc32":"d599393d"},
+          {"member":11,"mesh":11,"name":"SWS_FLG2_4","type":"6ab7c9d7","source_crc32":"066861e1"},
+          {"member":11,"mesh":12,"name":"BEL_FLG2_1","type":"b9d8d701","source_crc32":"09d2349a"},
+          {"member":11,"mesh":13,"name":"BEL_FLG2_2","type":"7997830a","source_crc32":"3916ee37"},
+          {"member":11,"mesh":14,"name":"BEL_FLG2_3","type":"1580e7f6","source_crc32":"77ef390f"},
+          {"member":11,"mesh":15,"name":"BEL_FLG2_4","type":"17ca2ea0","source_crc32":"1d443ecc"},
+          {"member":11,"mesh":16,"name":"SWD_FLG2_1","type":"b9d8d701","source_crc32":"0931370c"},
+          {"member":11,"mesh":17,"name":"SWD_FLG2_2","type":"30e84690","source_crc32":"37290909"},
+          {"member":11,"mesh":18,"name":"SWD_FLG2_3","type":"b401842a","source_crc32":"111914c4"},
+          {"member":11,"mesh":19,"name":"SWD_FLG2_4","type":"97b378f1","source_crc32":"c2e84c18"},
+          {"member":11,"mesh":20,"name":"FIN_FLG2_1","type":"b9d8d701","source_crc32":"b1f350dd"},
+          {"member":11,"mesh":21,"name":"FIN_FLG2_2","type":"3a088df8","source_crc32":"ca5c4ee5"},
+          {"member":11,"mesh":22,"name":"FIN_FLG2_3","type":"af9f87e0","source_crc32":"84a599dd"},
+          {"member":11,"mesh":23,"name":"FIN_FLG2_4","type":"866f4ce4","source_crc32":"3f9d0bf4"},
+          {"member":11,"mesh":24,"name":"BEL_FLG1_1","type":"970ef2c0","source_crc32":"9f86443a"},
+          {"member":11,"mesh":25,"name":"BEL_FLG1_2","type":"7997830a","source_crc32":"da65bdc6"},
+          {"member":11,"mesh":26,"name":"BEL_FLG1_3","type":"1580e7f6","source_crc32":"949c6afe"},
+          {"member":11,"mesh":27,"name":"BEL_FLG1_4","type":"17ca2ea0","source_crc32":"fe376d3d"},
+          {"member":11,"mesh":28,"name":"SWS_FLG1_1","type":"970ef2c0","source_crc32":"95dbd6c3"},
+          {"member":11,"mesh":29,"name":"SWS_FLG1_2","type":"9abf92c9","source_crc32":"b91fcf7e"},
+          {"member":11,"mesh":30,"name":"SWS_FLG1_3","type":"53fa17f6","source_crc32":"36ea6acc"},
+          {"member":11,"mesh":31,"name":"SWS_FLG1_4","type":"6ab7c9d7","source_crc32":"e51b3210"},
+          {"member":11,"mesh":32,"name":"SPA_FLG1_1","type":"970ef2c0","source_crc32":"0674e826"},
+          {"member":11,"mesh":33,"name":"SPA_FLG1_2","type":"47a8e1bb","source_crc32":"f7d02e43"},
+          {"member":11,"mesh":34,"name":"SPA_FLG1_3","type":"3003ce1c","source_crc32":"b929f97b"},
+          {"member":11,"mesh":35,"name":"SPA_FLG1_4","type":"cc1f1466","source_crc32":"02116b52"},
+          {"member":11,"mesh":36,"name":"FIN_FLG1_1","type":"970ef2c0","source_crc32":"27a7207d"},
+          {"member":11,"mesh":37,"name":"FIN_FLG1_2","type":"3a088df8","source_crc32":"292f1d14"},
+          {"member":11,"mesh":38,"name":"FIN_FLG1_3","type":"af9f87e0","source_crc32":"67d6ca2c"},
+          {"member":11,"mesh":39,"name":"FIN_FLG1_4","type":"866f4ce4","source_crc32":"dcee5805"},
+          {"member":11,"mesh":40,"name":"SWD_FLG1_1","type":"970ef2c0","source_crc32":"9f6547ac"},
+          {"member":11,"mesh":41,"name":"SWD_FLG1_2","type":"30e84690","source_crc32":"d45a5af8"},
+          {"member":11,"mesh":42,"name":"SWD_FLG1_3","type":"b401842a","source_crc32":"f26a4735"},
+          {"member":11,"mesh":43,"name":"SWD_FLG1_4","type":"97b378f1","source_crc32":"219b1fe9"}
+        ],
+        "raw_bindings": 162
+      }
+    },
+    "checks": ["mega-assets","mega-geometry","scenery-inventory","flag-animation","scene-reference-mega-flags","scene-reference-mega-scenery","native-knockhill"],
+    "limits": "Tiny warning text reconstructed as noted; no performance measurements.",
+    "native_review": "Six real source flag actors show all18 cloth phases with original27 controllers, four-tick switches, source RNG3078176496 and complete hierarchy/geometry/UV parity. Crew/crowd, race control and chevrons checked through source/artwork/Mega native views.",
+    "captures": [
+      {
+        "path": "build/knockhill-rest/review/KN16RAC_1-oblique-mega.webp",
+        "crc32": "eb276e1e"
+      },
+      {
+        "path": "build/knockhill-rest/review/PCREWS_1-oblique-mega.webp",
+        "crc32": "adbfbd96"
+      }
+    ]
+  }
+}

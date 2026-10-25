@@ -1,0 +1,442 @@
+{
+  "version": 1,
+  "package": "R01-Silverstone-BRDC",
+  "source": {
+    "path": "data/silvfree.bfp",
+    "crc32": "960a335c",
+    "member": 5,
+    "member_crc32": "a92b3b70"
+  },
+  "scope": {
+    "track": 1,
+    "building": {
+      "mesh": 9,
+      "name": "SI02BRDC_1",
+      "type": "486a4039",
+      "source_crc32": "e095d2e5",
+      "nodes": [
+        27
+      ],
+      "vertices": 43,
+      "triangles": 28
+    },
+    "source_materials": 6,
+    "new_images": 6,
+    "shared_consumer": {
+      "mesh": 20,
+      "name": "SI01CON_1",
+      "source_crc32": "892dc79f",
+      "nodes": [
+        83
+      ],
+      "scope": "Only shared IL01CO1 surfaces accepted; remaining tower materials stay open."
+    }
+  },
+  "geometry": "Canonical simple L-shaped body, roof, stair and rail planes retained. Positions/normals/UVs/corners/colors/materialslots and all512 hierarchy nodes unchanged; no new geometry or slots.",
+  "uv_contract": "Six exact source-name/size/BMP-CRC mappings, direct1:1 artwork. Original wall crops, opaque dark fields, three black-key masks and stair/rail phase retained. IL01CO1 is a whole controltower facade chart; BRDC samples only U0.291336..0.409439, imageV0.158752..0.285736.",
+  "export": "New Imagegen artwork only; whole-canvas Lanczos resize to original aspect, longest edge512, WebP quality80 method6. Three cutout atlases use opaque auxiliary colorplates beneath their exact source alpha masks to avoid undefined-RGB fringes. No source RGB copied, added game texture, UV remap or atlas islands.",
+  "materials": [
+    {
+      "name": "SI02BR0",
+      "source": {
+        "slot": 15,
+        "crc32": "6961aac0",
+        "size": [
+          64,
+          64
+        ],
+        "black_key_pixels": 0
+      },
+      "consumers": [
+        {
+          "mesh": 9,
+          "name": "SI02BRDC_1",
+          "nodes": [
+            27
+          ],
+          "faces": 7,
+          "uv_bounds": [
+            [
+              0.0,
+              1.0
+            ],
+            [
+              -0.9999847412109375,
+              -0.0158538818359375
+            ]
+          ]
+        }
+      ],
+      "references": [
+        {
+          "path": "build/silverstone-brdc/SI02BR0-source6x.png",
+          "crc32": "74a8633b",
+          "bytes": 5843,
+          "size": [
+            384,
+            384
+          ]
+        },
+        {
+          "path": "assets/models/mega/textures/silverstone-pit-il09pit.webp",
+          "crc32": "efed70f2",
+          "bytes": 14536,
+          "size": [
+            512,
+            512
+          ]
+        }
+      ],
+      "generated": {
+        "path": "build/silverstone-brdc/SI02BR0-generated.png",
+        "crc32": "3cba7c06",
+        "bytes": 2117362,
+        "size": [
+          1254,
+          1254
+        ]
+      },
+      "output": {
+        "path": "assets/models/mega/textures/silverstone-brdc-si02br0.webp",
+        "crc32": "84c97151",
+        "bytes": 25854,
+        "size": [
+          512,
+          512
+        ]
+      },
+      "processing_crop": [
+        0,
+        0,
+        1254,
+        1254
+      ],
+      "alpha": "Fully opaque, including dark glazing/openings.",
+      "reconstruction": "Source flag/shield/green-gold/red emblem clarified by the accepted pit crest; retain local warmer subdued colors, small placement and no added wording. Heraldic microdetail is reconstruction."
+    },
+    {
+      "name": "SI02BR2",
+      "source": {
+        "slot": 16,
+        "crc32": "fdb52f07",
+        "size": [
+          64,
+          64
+        ],
+        "black_key_pixels": 0
+      },
+      "consumers": [
+        {
+          "mesh": 9,
+          "name": "SI02BRDC_1",
+          "nodes": [
+            27
+          ],
+          "faces": 2,
+          "uv_bounds": [
+            [
+              0.0,
+              1.0
+            ],
+            [
+              -0.9999847412109375,
+              -0.0158538818359375
+            ]
+          ]
+        }
+      ],
+      "generated": {
+        "path": "build/silverstone-brdc/SI02BR2-generated.png",
+        "crc32": "4337754a",
+        "bytes": 1608637,
+        "size": [
+          1254,
+          1254
+        ]
+      },
+      "output": {
+        "path": "assets/models/mega/textures/silverstone-brdc-si02br2.webp",
+        "crc32": "44bbb3d7",
+        "bytes": 12694,
+        "size": [
+          512,
+          512
+        ]
+      },
+      "processing_crop": [
+        0,
+        0,
+        1254,
+        1254
+      ],
+      "alpha": "Fully opaque, including dark glazing/openings."
+    },
+    {
+      "name": "SI02BR4",
+      "source": {
+        "slot": 17,
+        "crc32": "9be8fdfe",
+        "size": [
+          64,
+          64
+        ],
+        "black_key_pixels": 971
+      },
+      "consumers": [
+        {
+          "mesh": 9,
+          "name": "SI02BRDC_1",
+          "nodes": [
+            27
+          ],
+          "faces": 8,
+          "uv_bounds": [
+            [
+              0.0,
+              1.0
+            ],
+            [
+              -0.9999847412109375,
+              1.52587890625e-05
+            ]
+          ]
+        }
+      ],
+      "generated": {
+        "path": "build/silverstone-brdc/SI02BR4-generated.png",
+        "crc32": "c4b105b3",
+        "bytes": 2303990,
+        "size": [
+          1254,
+          1254
+        ]
+      },
+      "output": {
+        "path": "assets/models/mega/textures/silverstone-brdc-si02br4.webp",
+        "crc32": "c173d999",
+        "bytes": 19590,
+        "size": [
+          512,
+          512
+        ]
+      },
+      "processing_crop": [
+        0,
+        0,
+        1254,
+        1254
+      ],
+      "alpha": "Exact source RGB(0,0,0) black-key mask, nearest-scaled to output size. New opaque Imagegen RGB colorplate supplies every visible pixel; no original RGB copied."
+    },
+    {
+      "name": "SI02BR6",
+      "source": {
+        "slot": 18,
+        "crc32": "dc151b5e",
+        "size": [
+          64,
+          64
+        ],
+        "black_key_pixels": 2898
+      },
+      "consumers": [
+        {
+          "mesh": 9,
+          "name": "SI02BRDC_1",
+          "nodes": [
+            27
+          ],
+          "faces": 2,
+          "uv_bounds": [
+            [
+              0.0,
+              0.9841156005859375
+            ],
+            [
+              -0.9999847412109375,
+              1.52587890625e-05
+            ]
+          ]
+        }
+      ],
+      "generated": {
+        "path": "build/silverstone-brdc/SI02BR6-generated.png",
+        "crc32": "c8b1274f",
+        "bytes": 2886611,
+        "size": [
+          1254,
+          1254
+        ]
+      },
+      "output": {
+        "path": "assets/models/mega/textures/silverstone-brdc-si02br6.webp",
+        "crc32": "35ef8832",
+        "bytes": 4382,
+        "size": [
+          512,
+          512
+        ]
+      },
+      "processing_crop": [
+        0,
+        0,
+        1254,
+        1254
+      ],
+      "alpha": "Exact source RGB(0,0,0) black-key mask, nearest-scaled to output size. New opaque Imagegen RGB colorplate supplies every visible pixel; no original RGB copied."
+    },
+    {
+      "name": "SI02BR5",
+      "source": {
+        "slot": 19,
+        "crc32": "135772a0",
+        "size": [
+          16,
+          64
+        ],
+        "black_key_pixels": 352
+      },
+      "consumers": [
+        {
+          "mesh": 9,
+          "name": "SI02BRDC_1",
+          "nodes": [
+            27
+          ],
+          "faces": 2,
+          "uv_bounds": [
+            [
+              0.0,
+              1.0
+            ],
+            [
+              -0.9999847412109375,
+              -0.0158538818359375
+            ]
+          ]
+        }
+      ],
+      "generated": {
+        "path": "build/silverstone-brdc/SI02BR5-generated.png",
+        "crc32": "c21a508f",
+        "bytes": 1055967,
+        "size": [
+          724,
+          2172
+        ]
+      },
+      "output": {
+        "path": "assets/models/mega/textures/silverstone-brdc-si02br5.webp",
+        "crc32": "996fdd20",
+        "bytes": 840,
+        "size": [
+          128,
+          512
+        ]
+      },
+      "processing_crop": [
+        0,
+        0,
+        724,
+        2172
+      ],
+      "alpha": "Exact source RGB(0,0,0) black-key mask, nearest-scaled to output size. New opaque Imagegen RGB colorplate supplies every visible pixel; no original RGB copied."
+    },
+    {
+      "name": "IL01CO1",
+      "source": {
+        "slot": 20,
+        "crc32": "bcf62f48",
+        "size": [
+          128,
+          64
+        ],
+        "black_key_pixels": 0
+      },
+      "consumers": [
+        {
+          "mesh": 9,
+          "name": "SI02BRDC_1",
+          "nodes": [
+            27
+          ],
+          "faces": 7,
+          "uv_bounds": [
+            [
+              0.2913360595703125,
+              0.4094390869140625
+            ],
+            [
+              -0.84124755859375,
+              -0.714263916015625
+            ]
+          ]
+        },
+        {
+          "mesh": 20,
+          "name": "SI01CON_1",
+          "nodes": [
+            83
+          ],
+          "faces": 9,
+          "uv_bounds": [
+            [
+              0.0,
+              1.0
+            ],
+            [
+              -0.9999847412109375,
+              -0.0158538818359375
+            ]
+          ]
+        }
+      ],
+      "generated": {
+        "path": "build/silverstone-brdc/IL01CO1-generated.png",
+        "crc32": "73e23f98",
+        "bytes": 1702922,
+        "size": [
+          1774,
+          887
+        ]
+      },
+      "output": {
+        "path": "assets/models/mega/textures/silverstone-brdc-il01co1.webp",
+        "crc32": "56dfe12c",
+        "bytes": 17754,
+        "size": [
+          512,
+          256
+        ]
+      },
+      "processing_crop": [
+        0,
+        0,
+        1774,
+        887
+      ],
+      "alpha": "Fully opaque, including dark glazing/openings.",
+      "reconstruction": "Autosport is the best-supported reading from matching three-repeat red sponsor bands in related original IL01CO1 and IL01CO2; clean glyphs and small abstract grey marks are source-guided reconstruction. Two Silverstone repeats retained. The upper-window mullion stays outside the BRDC roof crop."
+    }
+  ],
+  "related_source_review": {
+    "name": "IL01CO2",
+    "slot": 62,
+    "source_crc32": "c0b1196e",
+    "size": [
+      128,
+      32
+    ],
+    "reference": {
+      "path": "build/silverstone-brdc/IL01CO2-source8x.png",
+      "crc32": "cc8686c7",
+      "bytes": 8983,
+      "size": [
+        1024,
+        256
+      ]
+    },
+    "finding": "Same three single-word red Autosport motifs as IL01CO1, no extra tagline."
+  },
+  "limits": "Remaining Silverstone buildings/materials remain open. Canonical reference media stay unchanged and uncommitted. No performance measurements."
+}

@@ -1,0 +1,1003 @@
+{
+  "version": 1,
+  "package": "R01-Silverstone-rest-and-inventory-closure",
+  "source": {
+    "path": "data/silvfree.bfp",
+    "crc32": "960a335c",
+    "members": [
+      {
+        "member": 2,
+        "member_name": "TREES.C3D",
+        "member_crc32": "6b65e4c4",
+        "meshes": 26,
+        "nodes": 224
+      },
+      {
+        "member": 3,
+        "member_name": "FENCE.C3D",
+        "member_crc32": "1828e58e",
+        "meshes": 93,
+        "nodes": 224
+      },
+      {
+        "member": 5,
+        "member_name": "OBJECTS.C3D",
+        "member_crc32": "a92b3b70",
+        "meshes": 44,
+        "nodes": 512
+      },
+      {
+        "member": 8,
+        "member_name": "CONES.C3D",
+        "member_crc32": "923cec08",
+        "meshes": 1,
+        "nodes": 30
+      },
+      {
+        "member": 9,
+        "member_name": "POSTS.C3D",
+        "member_crc32": "7c127e1a",
+        "meshes": 1,
+        "nodes": 20
+      },
+      {
+        "member": 10,
+        "member_name": "SIGNS.C3D",
+        "member_crc32": "9f9d3951",
+        "meshes": 8,
+        "nodes": 52
+      },
+      {
+        "member": 11,
+        "member_name": "FLAGS.C3D",
+        "member_crc32": "b5424ac9",
+        "meshes": 0,
+        "nodes": 0
+      }
+    ]
+  },
+  "scope": {
+    "track": 1,
+    "pure_scenery_meshes": 171,
+    "pure_scenery_bindings": 419,
+    "source_bmp_identities": 130,
+    "mapped_source_bmp_identities": 130,
+    "new_direct_images": 19,
+    "new_opaque_images": 14,
+    "new_exact_alpha_masks": 5,
+    "fence_meshes": 93,
+    "fence_bindings": 93,
+    "fence_material_slots": 18,
+    "marshal_type": "e1f77dde",
+    "marshal_bindings": 15,
+    "tent_type": "294acd6d",
+    "tent_bindings": 5,
+    "retained_woodland_meshes": 26,
+    "retained_tree_type": "abcba967",
+    "retained_tree_bindings": 4,
+    "excluded_T0": [
+      "BH17HEL_1",
+      "CARROW_1"
+    ]
+  },
+  "geometry": "No geometry edits. Retain existing simple tyre rings/rail profiles and source fence bodies,29V/13T tent with original opening and6V/4T three-marshal card. Existing simplified near tree and all26 original woodland meshes retained. All decoded before/after geometry, UVs, normals, face/material slots, hierarchy and placements identical. Isolated material comparisons use canonical source geometry in all phases; driving context uses installed Mega resources.",
+  "uv_contract": {
+    "mapping": "Exact original name/size/BMP CRC32. Only Silverstone sources match the19 new entries; seven generic entries restricted/removed while all693 other baseline mappings and bytes remain unchanged.",
+    "tyre_sides": "Seven stacks across, six tyre layers; original spacing/edge phase.",
+    "tyre_tops": "Eight periods, upper centres0/12.5/.../100%, lower6.25/18.75/.../93.75%; stagger and clipped upper edges retained.",
+    "tent": "Ford oval stays in lower source field U.265625..640625,V.6875..921875; original wall UVs endV.666687, so roof triangles carry logo and side panels stay plain. Navy top valance retained.",
+    "marshal": "Three original poses/heights and exact black-key silhouette; splitU.483856201171875, full-height charts. RGB colour bleed beneath source silhouette removes opaque backdrop wedges; unchanged source mask steps are intentional.",
+    "rails": "Source horizontal profile bands, attachment locations, open gaps and white/blue palettes retained. TRACK2 reuses exact accepted ground identitya65c40a1."
+  },
+  "export": "Fresh AI artwork from originals; no source RGB upscale/pixelblock tracing. Crop only generated presentation padding (marshal figure-group crop removes surrounding backdrop); whole plate resized Lanczos to original aspect with longest edge512. WebP quality70/method6. Exact nearest-scaled original black-key alpha restored; all19 decoded masks verified. No extra game texture/slot or UV remap.",
+  "materials": [
+    {
+      "name": "WHITYRES",
+      "source_size": [
+        128,
+        32
+      ],
+      "source_crc32": "4ce8c964",
+      "source_slots": [
+        {
+          "member": 3,
+          "slot": 1
+        }
+      ],
+      "reference": "build/silverstone-rest/WHITYRES-source6x.png",
+      "generated": {
+        "path": "build/silverstone-rest/WHITYRES-generated.png",
+        "crc32": "ec0c488f",
+        "size": [
+          2170,
+          725
+        ]
+      },
+      "crop": [
+        0,
+        0,
+        2170,
+        725
+      ],
+      "output": {
+        "path": "assets/models/mega/textures/silverstone-rest-whityres.webp",
+        "crc32": "82cdf9b9",
+        "bytes": 7198,
+        "size": [
+          512,
+          128
+        ],
+        "webp_quality": 70,
+        "webp_method": 6
+      },
+      "alpha": {
+        "source_black_key_pixels": 0,
+        "decoded_mask_crc32": "deab7e4e",
+        "exact_source_mask": true
+      }
+    },
+    {
+      "name": "WHITOP",
+      "source_size": [
+        128,
+        32
+      ],
+      "source_crc32": "4054cd44",
+      "source_slots": [
+        {
+          "member": 3,
+          "slot": 6
+        }
+      ],
+      "reference": "build/silverstone-rest/WHITOP-source6x.png",
+      "generated": {
+        "path": "build/silverstone-rest/WHITOP-generated.png",
+        "crc32": "51d7c48e",
+        "size": [
+          2169,
+          725
+        ]
+      },
+      "crop": [
+        0,
+        92,
+        2169,
+        634
+      ],
+      "output": {
+        "path": "assets/models/mega/textures/silverstone-rest-whitop.webp",
+        "crc32": "dc77cb1f",
+        "bytes": 4696,
+        "size": [
+          512,
+          128
+        ],
+        "webp_quality": 70,
+        "webp_method": 6
+      },
+      "alpha": {
+        "source_black_key_pixels": 0,
+        "decoded_mask_crc32": "deab7e4e",
+        "exact_source_mask": true
+      },
+      "edits": [
+        {
+          "name": "WHITOP",
+          "references": [
+            "exec-13a7e5af-f0c6-4406-a610-45c3c2d0d563.png",
+            "build/silverstone-rest/WHITOP-source6x.png"
+          ],
+          "previous_generated_source": "exec-13a7e5af-f0c6-4406-a610-45c3c2d0d563.png",
+          "generated_source": "exec-61c11c92-8abe-4be5-b5a3-74fa7378d4a1.png"
+        }
+      ]
+    },
+    {
+      "name": "BLUTYRES",
+      "source_size": [
+        128,
+        32
+      ],
+      "source_crc32": "6b6cc1c2",
+      "source_slots": [
+        {
+          "member": 3,
+          "slot": 5
+        }
+      ],
+      "reference": "build/silverstone-rest/BLUTYRES-source6x.png",
+      "generated": {
+        "path": "build/silverstone-rest/BLUTYRES-generated.png",
+        "crc32": "c36db229",
+        "size": [
+          2170,
+          725
+        ]
+      },
+      "crop": [
+        0,
+        70,
+        2170,
+        624
+      ],
+      "output": {
+        "path": "assets/models/mega/textures/silverstone-rest-blutyres.webp",
+        "crc32": "d74bf2fb",
+        "bytes": 3980,
+        "size": [
+          512,
+          128
+        ],
+        "webp_quality": 70,
+        "webp_method": 6
+      },
+      "alpha": {
+        "source_black_key_pixels": 0,
+        "decoded_mask_crc32": "deab7e4e",
+        "exact_source_mask": true
+      }
+    },
+    {
+      "name": "BLUTTOP",
+      "source_size": [
+        128,
+        32
+      ],
+      "source_crc32": "daaa98e4",
+      "source_slots": [
+        {
+          "member": 3,
+          "slot": 7
+        }
+      ],
+      "reference": "build/silverstone-rest/BLUTTOP-source6x.png",
+      "generated": {
+        "path": "build/silverstone-rest/BLUTTOP-generated.png",
+        "crc32": "7b057517",
+        "size": [
+          2169,
+          725
+        ]
+      },
+      "crop": [
+        0,
+        91,
+        2169,
+        634
+      ],
+      "output": {
+        "path": "assets/models/mega/textures/silverstone-rest-bluttop.webp",
+        "crc32": "7b31254c",
+        "bytes": 4404,
+        "size": [
+          512,
+          128
+        ],
+        "webp_quality": 70,
+        "webp_method": 6
+      },
+      "alpha": {
+        "source_black_key_pixels": 0,
+        "decoded_mask_crc32": "deab7e4e",
+        "exact_source_mask": true
+      },
+      "edits": [
+        {
+          "name": "BLUTTOP",
+          "references": [
+            "exec-40122a05-ef5c-4e8b-8fa6-43a89e97fdba.png",
+            "build/silverstone-rest/BLUTTOP-source6x.png"
+          ],
+          "previous_generated_source": "exec-40122a05-ef5c-4e8b-8fa6-43a89e97fdba.png",
+          "generated_source": "exec-b00c56cf-0375-4b9f-9f66-a304e29901b1.png"
+        }
+      ]
+    },
+    {
+      "name": "MOBIL",
+      "source_size": [
+        128,
+        32
+      ],
+      "source_crc32": "6334e150",
+      "source_slots": [
+        {
+          "member": 3,
+          "slot": 13
+        }
+      ],
+      "reference": "build/silverstone-rest/MOBIL-source6x.png",
+      "generated": {
+        "path": "build/silverstone-rest/MOBIL-generated.png",
+        "crc32": "15afab8f",
+        "size": [
+          2170,
+          725
+        ]
+      },
+      "crop": [
+        0,
+        65,
+        2170,
+        640
+      ],
+      "output": {
+        "path": "assets/models/mega/textures/silverstone-rest-mobil.webp",
+        "crc32": "9875b8ca",
+        "bytes": 3630,
+        "size": [
+          512,
+          128
+        ],
+        "webp_quality": 70,
+        "webp_method": 6
+      },
+      "alpha": {
+        "source_black_key_pixels": 0,
+        "decoded_mask_crc32": "deab7e4e",
+        "exact_source_mask": true
+      }
+    },
+    {
+      "name": "SCRUB",
+      "source_size": [
+        64,
+        64
+      ],
+      "source_crc32": "13339076",
+      "source_slots": [
+        {
+          "member": 3,
+          "slot": 4
+        }
+      ],
+      "reference": "build/silverstone-rest/SCRUB-source6x.png",
+      "generated": {
+        "path": "build/silverstone-rest/SCRUB-generated.png",
+        "crc32": "a56a9b03",
+        "size": [
+          1254,
+          1254
+        ]
+      },
+      "crop": [
+        0,
+        0,
+        1254,
+        1254
+      ],
+      "output": {
+        "path": "assets/models/mega/textures/silverstone-rest-scrub.webp",
+        "crc32": "251e68a8",
+        "bytes": 30218,
+        "size": [
+          512,
+          512
+        ],
+        "webp_quality": 70,
+        "webp_method": 6
+      },
+      "alpha": {
+        "source_black_key_pixels": 0,
+        "decoded_mask_crc32": "b7094978",
+        "exact_source_mask": true
+      }
+    },
+    {
+      "name": "CB-TOP",
+      "source_size": [
+        64,
+        16
+      ],
+      "source_crc32": "bb811736",
+      "source_slots": [
+        {
+          "member": 3,
+          "slot": 9
+        }
+      ],
+      "reference": "build/silverstone-rest/CB-TOP-source6x.png",
+      "generated": {
+        "path": "build/silverstone-rest/CB-TOP-generated.png",
+        "crc32": "d8148b27",
+        "size": [
+          2172,
+          724
+        ]
+      },
+      "crop": [
+        0,
+        106,
+        2172,
+        566
+      ],
+      "output": {
+        "path": "assets/models/mega/textures/silverstone-rest-cb-top.webp",
+        "crc32": "a88a0e76",
+        "bytes": 6892,
+        "size": [
+          512,
+          128
+        ],
+        "webp_quality": 70,
+        "webp_method": 6
+      },
+      "alpha": {
+        "source_black_key_pixels": 0,
+        "decoded_mask_crc32": "deab7e4e",
+        "exact_source_mask": true
+      }
+    },
+    {
+      "name": "DA05CMB1",
+      "source_size": [
+        128,
+        32
+      ],
+      "source_crc32": "dac87ae5",
+      "source_slots": [
+        {
+          "member": 3,
+          "slot": 10
+        }
+      ],
+      "reference": "build/silverstone-rest/DA05CMB1-source6x.png",
+      "generated": {
+        "path": "build/silverstone-rest/DA05CMB1-generated.png",
+        "crc32": "25254358",
+        "size": [
+          2170,
+          725
+        ]
+      },
+      "crop": [
+        0,
+        92,
+        2170,
+        633
+      ],
+      "output": {
+        "path": "assets/models/mega/textures/silverstone-rest-da05cmb1.webp",
+        "crc32": "cd0a5d49",
+        "bytes": 1072,
+        "size": [
+          512,
+          128
+        ],
+        "webp_quality": 70,
+        "webp_method": 6
+      },
+      "alpha": {
+        "source_black_key_pixels": 3510,
+        "decoded_mask_crc32": "9ddaa77b",
+        "exact_source_mask": true
+      }
+    },
+    {
+      "name": "WITEWALL",
+      "source_size": [
+        128,
+        32
+      ],
+      "source_crc32": "dbe5db0e",
+      "source_slots": [
+        {
+          "member": 3,
+          "slot": 12
+        }
+      ],
+      "reference": "build/silverstone-rest/WITEWALL-source6x.png",
+      "generated": {
+        "path": "build/silverstone-rest/WITEWALL-generated.png",
+        "crc32": "6235d8aa",
+        "size": [
+          2170,
+          725
+        ]
+      },
+      "crop": [
+        0,
+        0,
+        2170,
+        642
+      ],
+      "output": {
+        "path": "assets/models/mega/textures/silverstone-rest-witewall.webp",
+        "crc32": "866faf62",
+        "bytes": 4994,
+        "size": [
+          512,
+          128
+        ],
+        "webp_quality": 70,
+        "webp_method": 6
+      },
+      "alpha": {
+        "source_black_key_pixels": 0,
+        "decoded_mask_crc32": "deab7e4e",
+        "exact_source_mask": true
+      }
+    },
+    {
+      "name": "CBB-TOP",
+      "source_size": [
+        64,
+        16
+      ],
+      "source_crc32": "32cd4f41",
+      "source_slots": [
+        {
+          "member": 3,
+          "slot": 14
+        }
+      ],
+      "reference": "build/silverstone-rest/CBB-TOP-source6x.png",
+      "generated": {
+        "path": "build/silverstone-rest/CBB-TOP-generated.png",
+        "crc32": "14147877",
+        "size": [
+          2172,
+          724
+        ]
+      },
+      "crop": [
+        0,
+        98,
+        2172,
+        635
+      ],
+      "output": {
+        "path": "assets/models/mega/textures/silverstone-rest-cbb-top.webp",
+        "crc32": "5b2fedb1",
+        "bytes": 1444,
+        "size": [
+          512,
+          128
+        ],
+        "webp_quality": 70,
+        "webp_method": 6
+      },
+      "alpha": {
+        "source_black_key_pixels": 0,
+        "decoded_mask_crc32": "deab7e4e",
+        "exact_source_mask": true
+      }
+    },
+    {
+      "name": "CBW-TOP",
+      "source_size": [
+        64,
+        16
+      ],
+      "source_crc32": "c3a33f12",
+      "source_slots": [
+        {
+          "member": 3,
+          "slot": 15
+        }
+      ],
+      "reference": "build/silverstone-rest/CBW-TOP-source6x.png",
+      "generated": {
+        "path": "build/silverstone-rest/CBW-TOP-generated.png",
+        "crc32": "a0968bc8",
+        "size": [
+          2172,
+          724
+        ]
+      },
+      "crop": [
+        0,
+        98,
+        2172,
+        566
+      ],
+      "output": {
+        "path": "assets/models/mega/textures/silverstone-rest-cbw-top.webp",
+        "crc32": "155006f8",
+        "bytes": 1724,
+        "size": [
+          512,
+          128
+        ],
+        "webp_quality": 70,
+        "webp_method": 6
+      },
+      "alpha": {
+        "source_black_key_pixels": 0,
+        "decoded_mask_crc32": "deab7e4e",
+        "exact_source_mask": true
+      }
+    },
+    {
+      "name": "WOOD",
+      "source_size": [
+        128,
+        32
+      ],
+      "source_crc32": "37891cbe",
+      "source_slots": [
+        {
+          "member": 3,
+          "slot": 16
+        }
+      ],
+      "reference": "build/silverstone-rest/WOOD-source6x.png",
+      "generated": {
+        "path": "build/silverstone-rest/WOOD-generated.png",
+        "crc32": "bdd0821e",
+        "size": [
+          2170,
+          725
+        ]
+      },
+      "crop": [
+        0,
+        0,
+        2170,
+        725
+      ],
+      "output": {
+        "path": "assets/models/mega/textures/silverstone-rest-wood.webp",
+        "crc32": "ad4cff89",
+        "bytes": 4358,
+        "size": [
+          512,
+          128
+        ],
+        "webp_quality": 70,
+        "webp_method": 6
+      },
+      "alpha": {
+        "source_black_key_pixels": 0,
+        "decoded_mask_crc32": "deab7e4e",
+        "exact_source_mask": true
+      }
+    },
+    {
+      "name": "CB-LO",
+      "source_size": [
+        64,
+        32
+      ],
+      "source_crc32": "17bfad56",
+      "source_slots": [
+        {
+          "member": 3,
+          "slot": 17
+        }
+      ],
+      "reference": "build/silverstone-rest/CB-LO-source6x.png",
+      "generated": {
+        "path": "build/silverstone-rest/CB-LO-generated.png",
+        "crc32": "197f246a",
+        "size": [
+          1774,
+          887
+        ]
+      },
+      "crop": [
+        0,
+        0,
+        1774,
+        887
+      ],
+      "output": {
+        "path": "assets/models/mega/textures/silverstone-rest-cb-lo.webp",
+        "crc32": "4f3676b6",
+        "bytes": 8416,
+        "size": [
+          512,
+          256
+        ],
+        "webp_quality": 70,
+        "webp_method": 6
+      },
+      "alpha": {
+        "source_black_key_pixels": 168,
+        "decoded_mask_crc32": "3c6d913a",
+        "exact_source_mask": true
+      }
+    },
+    {
+      "name": "LFOTENT2",
+      "source_size": [
+        128,
+        64
+      ],
+      "source_crc32": "8eb7780a",
+      "source_slots": [
+        {
+          "member": 5,
+          "slot": 100
+        }
+      ],
+      "reference": "build/silverstone-rest/LFOTENT2-source6x.png",
+      "generated": {
+        "path": "build/silverstone-rest/LFOTENT2-generated.png",
+        "crc32": "9c5af6a2",
+        "size": [
+          1774,
+          887
+        ]
+      },
+      "crop": [
+        0,
+        0,
+        1774,
+        887
+      ],
+      "output": {
+        "path": "assets/models/mega/textures/silverstone-rest-lfotent2.webp",
+        "crc32": "82dfec1a",
+        "bytes": 7802,
+        "size": [
+          512,
+          256
+        ],
+        "webp_quality": 70,
+        "webp_method": 6
+      },
+      "alpha": {
+        "source_black_key_pixels": 0,
+        "decoded_mask_crc32": "154803cc",
+        "exact_source_mask": true
+      }
+    },
+    {
+      "name": "LMARSH3",
+      "source_size": [
+        32,
+        32
+      ],
+      "source_crc32": "4393f88f",
+      "source_slots": [
+        {
+          "member": 5,
+          "slot": 107
+        }
+      ],
+      "reference": "build/silverstone-rest/LMARSH3-source6x.png",
+      "generated": {
+        "path": "build/silverstone-rest/LMARSH3-generated.png",
+        "crc32": "a706b51f",
+        "size": [
+          1254,
+          1254
+        ]
+      },
+      "crop": [
+        0,
+        0,
+        1254,
+        1254
+      ],
+      "output": {
+        "path": "assets/models/mega/textures/silverstone-rest-lmarsh3.webp",
+        "crc32": "67ddf2e2",
+        "bytes": 21684,
+        "size": [
+          512,
+          512
+        ],
+        "webp_quality": 70,
+        "webp_method": 6
+      },
+      "alpha": {
+        "source_black_key_pixels": 363,
+        "decoded_mask_crc32": "13cf315b",
+        "exact_source_mask": true
+      },
+      "edits": [
+        {
+          "name": "LMARSH3",
+          "references": [
+            "exec-4424e287-a1c3-4c7c-88c9-b521e4a886a6.png",
+            "build/silverstone-rest/LMARSH3-source6x.png",
+            "build/silverstone-rest/audit-qa-marshal-mask.png"
+          ],
+          "previous_generated_source": "exec-4424e287-a1c3-4c7c-88c9-b521e4a886a6.png",
+          "generated_source": "exec-912edd9c-9ebb-4bc7-bbcd-b2492fa5d5f2.png"
+        },
+        {
+          "name": "LMARSH3",
+          "references": [
+            "assets/models/mega/textures/silverstone-rest-lmarsh3.webp",
+            "build/silverstone-rest/LMARSH3-source6x.png"
+          ],
+          "generated_source": "exec-e4a0ed0f-2cfe-4a71-9e5d-a2526c85ab22.png",
+          "input_crc32": "906c0743"
+        }
+      ]
+    },
+    {
+      "name": "MOBILTOP",
+      "source_size": [
+        128,
+        32
+      ],
+      "source_crc32": "8f6fac48",
+      "source_slots": [
+        {
+          "member": 3,
+          "slot": 2
+        }
+      ],
+      "reference": "build/silverstone-rest/MOBILTOP-source6x.png",
+      "generated": {
+        "path": "build/silverstone-rest/MOBILTOP-generated.png",
+        "crc32": "73239d1e",
+        "size": [
+          2170,
+          725
+        ]
+      },
+      "crop": [
+        0,
+        0,
+        2170,
+        725
+      ],
+      "output": {
+        "path": "assets/models/mega/textures/silverstone-rest-mobiltop.webp",
+        "crc32": "e75ddfec",
+        "bytes": 4212,
+        "size": [
+          512,
+          128
+        ],
+        "webp_quality": 70,
+        "webp_method": 6
+      },
+      "alpha": {
+        "source_black_key_pixels": 0,
+        "decoded_mask_crc32": "deab7e4e",
+        "exact_source_mask": true
+      }
+    },
+    {
+      "name": "CBW-LO",
+      "source_size": [
+        64,
+        32
+      ],
+      "source_crc32": "b6755d18",
+      "source_slots": [
+        {
+          "member": 3,
+          "slot": 3
+        }
+      ],
+      "reference": "build/silverstone-rest/CBW-LO-source6x.png",
+      "generated": {
+        "path": "build/silverstone-rest/CBW-LO-generated.png",
+        "crc32": "360b4a8e",
+        "size": [
+          1774,
+          887
+        ]
+      },
+      "crop": [
+        0,
+        0,
+        1774,
+        887
+      ],
+      "output": {
+        "path": "assets/models/mega/textures/silverstone-rest-cbw-lo.webp",
+        "crc32": "86468378",
+        "bytes": 6084,
+        "size": [
+          512,
+          256
+        ],
+        "webp_quality": 70,
+        "webp_method": 6
+      },
+      "alpha": {
+        "source_black_key_pixels": 168,
+        "decoded_mask_crc32": "3c6d913a",
+        "exact_source_mask": true
+      }
+    },
+    {
+      "name": "CBB-LO",
+      "source_size": [
+        64,
+        32
+      ],
+      "source_crc32": "2219fecb",
+      "source_slots": [
+        {
+          "member": 3,
+          "slot": 8
+        }
+      ],
+      "reference": "build/silverstone-rest/CBB-LO-source6x.png",
+      "generated": {
+        "path": "build/silverstone-rest/CBB-LO-generated.png",
+        "crc32": "3c353bba",
+        "size": [
+          1774,
+          887
+        ]
+      },
+      "crop": [
+        0,
+        0,
+        1774,
+        887
+      ],
+      "output": {
+        "path": "assets/models/mega/textures/silverstone-rest-cbb-lo.webp",
+        "crc32": "03affffe",
+        "bytes": 4296,
+        "size": [
+          512,
+          256
+        ],
+        "webp_quality": 70,
+        "webp_method": 6
+      },
+      "alpha": {
+        "source_black_key_pixels": 166,
+        "decoded_mask_crc32": "57adb969",
+        "exact_source_mask": true
+      }
+    },
+    {
+      "name": "MOBILBK",
+      "source_size": [
+        128,
+        32
+      ],
+      "source_crc32": "bfe6b26d",
+      "source_slots": [
+        {
+          "member": 3,
+          "slot": 11
+        }
+      ],
+      "reference": "build/silverstone-rest/MOBILBK-source6x.png",
+      "generated": {
+        "path": "build/silverstone-rest/MOBILBK-generated.png",
+        "crc32": "504e47bd",
+        "size": [
+          2170,
+          725
+        ]
+      },
+      "crop": [
+        0,
+        0,
+        2170,
+        725
+      ],
+      "output": {
+        "path": "assets/models/mega/textures/silverstone-rest-mobilbk.webp",
+        "crc32": "8ee4aa8d",
+        "bytes": 6212,
+        "size": [
+          512,
+          128
+        ],
+        "webp_quality": 70,
+        "webp_method": 6
+      },
+      "alpha": {
+        "source_black_key_pixels": 0,
+        "decoded_mask_crc32": "deab7e4e",
+        "exact_source_mask": true
+      }
+    }
+  ],
+  "inventory": {
+    "families": "FREE2/3/5/8/9/10/11 across all10 tracks; empty families retained, Lavaland FREE8 gargoyle routedM05e, vehicle routing remainsT0.",
+    "totals": {
+      "meshes": 2014,
+      "exact_types": 1608
+    },
+    "silverstone": "All171 pure scenery rows/419bindings accepted by exact package+source type;31M07 types/85bindings and90crowd bindings retain prior acceptance. Adverts/arrows/small props reconciled with existing provenance; no duplicate image/native review.",
+    "existing_other_tracks": "Newly visible Donington GP/Short FREE8/9/10 types linked to existing121-placement prop acceptance; Lavaland gargoyle linked to its existing package. Other tracks remain source-inventoried."
+  },
+  "limits": "Track props only. Original game media not committed; canonical1.1a references unchanged. No new collision, animation, audio or performance measurements. Global M00–M08 rollout continues at Thruxton."
+}

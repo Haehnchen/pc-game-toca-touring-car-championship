@@ -1,0 +1,346 @@
+{
+  "version": 1,
+  "processing": "Each material generated separately with built-in Imagegen using its enlarged original layout. Full generated canvas resized with Lanczos and encoded as opaque RGB WebP quality80 method6. No programmatic painting, masking or material composition.",
+  "sources": [
+    {
+      "id": "GRASS",
+      "file": "exec-c0151c68-a037-4e4b-851a-1334a6d63f45.png",
+      "crc32": "ec75b0a9",
+      "size": [
+        1254,
+        1254
+      ],
+      "reference": {
+        "archive": "data/oultfree.bfp",
+        "archive_crc32": "e6e258cb",
+        "member": 1,
+        "member_name": "GROUND.C3D",
+        "member_crc32": "1a659c43",
+        "material_slot": 3,
+        "material": "GRASS",
+        "bmp_crc32": "293f24c1",
+        "size": [
+          128,
+          128
+        ]
+      }
+    },
+    {
+      "id": "GRAVEL",
+      "file": "exec-af5e4fd6-4d46-4e05-b32a-5acb37e08a58.png",
+      "crc32": "80a80617",
+      "size": [
+        1254,
+        1254
+      ],
+      "reference": {
+        "archive": "data/oultfree.bfp",
+        "archive_crc32": "e6e258cb",
+        "member": 1,
+        "member_name": "GROUND.C3D",
+        "member_crc32": "1a659c43",
+        "material_slot": 4,
+        "material": "GRAVEL",
+        "bmp_crc32": "25f693e1",
+        "size": [
+          64,
+          64
+        ]
+      }
+    },
+    {
+      "id": "G&G",
+      "file": "exec-f7ea05db-3dd2-4456-a4cb-280b942abb9c.png",
+      "crc32": "10cc513c",
+      "size": [
+        887,
+        1774
+      ],
+      "reference": {
+        "archive": "data/oultfree.bfp",
+        "archive_crc32": "e6e258cb",
+        "member": 1,
+        "member_name": "GROUND.C3D",
+        "member_crc32": "1a659c43",
+        "material_slot": 5,
+        "material": "G&G",
+        "bmp_crc32": "77248025",
+        "size": [
+          32,
+          64
+        ]
+      },
+      "polish_reason": "Match approved companion material brightness/grain while preserving existing marking or transition geometry."
+    },
+    {
+      "id": "WITEL",
+      "file": "exec-b05b6e14-ff9c-4e44-84ab-19e17a8803d4.png",
+      "crc32": "f7882b59",
+      "size": [
+        1774,
+        887
+      ],
+      "reference": {
+        "archive": "data/oultfree.bfp",
+        "archive_crc32": "e6e258cb",
+        "member": 1,
+        "member_name": "GROUND.C3D",
+        "member_crc32": "1a659c43",
+        "material_slot": 7,
+        "material": "WITEL",
+        "bmp_crc32": "cc0384b9",
+        "size": [
+          64,
+          32
+        ]
+      }
+    },
+    {
+      "id": "BIGR1",
+      "file": "exec-9658980d-d8c7-4be3-b300-53b7fa0d0e89.png",
+      "crc32": "aced8e4d",
+      "size": [
+        2172,
+        724
+      ],
+      "reference": {
+        "archive": "data/oultfree.bfp",
+        "archive_crc32": "e6e258cb",
+        "member": 1,
+        "member_name": "GROUND.C3D",
+        "member_crc32": "1a659c43",
+        "material_slot": 8,
+        "material": "BIGR1",
+        "bmp_crc32": "f32addcd",
+        "size": [
+          128,
+          32
+        ]
+      }
+    },
+    {
+      "id": "BIGR2",
+      "file": "exec-026c6670-4c67-4f4d-b197-9ba0a87dc8f1.png",
+      "crc32": "36fbd04a",
+      "size": [
+        2170,
+        725
+      ],
+      "reference": {
+        "archive": "data/oultfree.bfp",
+        "archive_crc32": "e6e258cb",
+        "member": 1,
+        "member_name": "GROUND.C3D",
+        "member_crc32": "1a659c43",
+        "material_slot": 12,
+        "material": "BIGR2",
+        "bmp_crc32": "fb6340f1",
+        "size": [
+          128,
+          32
+        ]
+      }
+    },
+    {
+      "id": "RUMBLE",
+      "file": "exec-38471d77-7e3c-4079-af28-e443d6b9f980.png",
+      "crc32": "b41fd079",
+      "size": [
+        1774,
+        887
+      ],
+      "reference": {
+        "archive": "data/oultfree.bfp",
+        "archive_crc32": "e6e258cb",
+        "member": 1,
+        "member_name": "GROUND.C3D",
+        "member_crc32": "1a659c43",
+        "material_slot": 13,
+        "material": "RUMBLE",
+        "bmp_crc32": "3aa03cc2",
+        "size": [
+          64,
+          32
+        ]
+      }
+    },
+    {
+      "id": "RUMBLE2",
+      "file": "exec-1e056584-a097-449c-a359-fa5cefb88432.png",
+      "crc32": "e1f416e6",
+      "size": [
+        1774,
+        887
+      ],
+      "reference": {
+        "archive": "data/oultfree.bfp",
+        "archive_crc32": "e6e258cb",
+        "member": 1,
+        "member_name": "GROUND.C3D",
+        "member_crc32": "1a659c43",
+        "material_slot": 14,
+        "material": "RUMBLE2",
+        "bmp_crc32": "4b6c399d",
+        "size": [
+          64,
+          32
+        ]
+      }
+    }
+  ],
+  "outputs": [
+    {
+      "image": "textures/ground-oulton-park-grass.webp",
+      "source": "GRASS",
+      "size": [
+        256,
+        256
+      ],
+      "alpha": "opaque",
+      "webp_quality": 80,
+      "method": 6,
+      "crc32": "d88fd31b",
+      "bytes": 15600,
+      "mean_rgb": [
+        56.718,
+        59.109,
+        5.636
+      ]
+    },
+    {
+      "image": "textures/ground-oulton-park-gravel.webp",
+      "source": "GRAVEL",
+      "size": [
+        128,
+        128
+      ],
+      "alpha": "opaque",
+      "webp_quality": 80,
+      "method": 6,
+      "crc32": "c7cbad5b",
+      "bytes": 5628,
+      "mean_rgb": [
+        160.944,
+        120.609,
+        52.084
+      ]
+    },
+    {
+      "image": "textures/ground-oulton-park-gg.webp",
+      "source": "G&G",
+      "size": [
+        64,
+        128
+      ],
+      "alpha": "opaque",
+      "webp_quality": 80,
+      "method": 6,
+      "crc32": "ebd1e8e8",
+      "bytes": 2978,
+      "mean_rgb": [
+        125.551,
+        94.892,
+        29.397
+      ],
+      "crop": [
+        887,
+        1774,
+        0,
+        0
+      ],
+      "quality": 80,
+      "resize": "Whole generated image resized with Lanczos; no painting, mask composition or color postprocessing."
+    },
+    {
+      "image": "textures/ground-oulton-park-witel.webp",
+      "source": "WITEL",
+      "size": [
+        128,
+        64
+      ],
+      "alpha": "opaque",
+      "webp_quality": 80,
+      "method": 6,
+      "crc32": "0c870456",
+      "bytes": 444,
+      "mean_rgb": [
+        183.686,
+        183.962,
+        182.701
+      ]
+    },
+    {
+      "image": "textures/ground-oulton-park-bigr1.webp",
+      "source": "BIGR1",
+      "size": [
+        256,
+        64
+      ],
+      "alpha": "opaque",
+      "webp_quality": 80,
+      "method": 6,
+      "crc32": "ba5057e8",
+      "bytes": 3250,
+      "mean_rgb": [
+        81.498,
+        117.345,
+        92.407
+      ]
+    },
+    {
+      "image": "textures/ground-oulton-park-bigr2.webp",
+      "source": "BIGR2",
+      "size": [
+        256,
+        64
+      ],
+      "alpha": "opaque",
+      "webp_quality": 80,
+      "method": 6,
+      "crc32": "34d574bc",
+      "bytes": 5028,
+      "mean_rgb": [
+        40.83,
+        103.976,
+        57.656
+      ]
+    },
+    {
+      "image": "textures/ground-oulton-park-rumble.webp",
+      "source": "RUMBLE",
+      "size": [
+        128,
+        64
+      ],
+      "alpha": "opaque",
+      "webp_quality": 80,
+      "method": 6,
+      "crc32": "d6f47bf8",
+      "bytes": 1274,
+      "mean_rgb": [
+        84.475,
+        123.765,
+        90.624
+      ]
+    },
+    {
+      "image": "textures/ground-oulton-park-rumble2.webp",
+      "source": "RUMBLE2",
+      "size": [
+        128,
+        64
+      ],
+      "alpha": "opaque",
+      "webp_quality": 80,
+      "method": 6,
+      "crc32": "9c8f1db4",
+      "bytes": 2038,
+      "mean_rgb": [
+        39.12,
+        96.819,
+        55.744
+      ]
+    }
+  ],
+  "webp_quality": 80
+}

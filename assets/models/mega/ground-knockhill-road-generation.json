@@ -1,0 +1,249 @@
+{
+  "version": 1,
+  "policy": "New original-reference-based Knockhill road artwork. Mega only, opaque WebP quality80. Whole-image Lanczos resize; no procedural painting or mask composition.",
+  "sources": [
+    {
+      "id": "pit",
+      "file": "exec-133f3f47-4b1e-461a-97c6-abae97a7a37d.png",
+      "size": [
+        1254,
+        1254
+      ],
+      "crc32": "bd765009",
+      "reference": {
+        "archive": "data/knocfree.bfp",
+        "archive_crc32": "7e00bade",
+        "member": 1,
+        "member_name": "GROUND.C3D",
+        "member_crc32": "b04927f8",
+        "material_slot": 2,
+        "material": "pit",
+        "bmp_crc32": "6cd7dedb",
+        "size": [
+          64,
+          64
+        ]
+      }
+    },
+    {
+      "id": "scrub",
+      "file": "exec-faa48986-0022-4b59-8c73-c23fa18e87c6.png",
+      "size": [
+        1254,
+        1254
+      ],
+      "crc32": "f31a8140",
+      "reference": {
+        "archive": "data/knocfree.bfp",
+        "archive_crc32": "7e00bade",
+        "member": 1,
+        "member_name": "GROUND.C3D",
+        "member_crc32": "b04927f8",
+        "material_slot": 3,
+        "material": "scrub",
+        "bmp_crc32": "876493ee",
+        "size": [
+          64,
+          64
+        ]
+      }
+    },
+    {
+      "id": "TRACK",
+      "file": "exec-d28ec181-053f-418c-9d38-a67d4e134b31.png",
+      "size": [
+        1774,
+        887
+      ],
+      "crc32": "4501cb6e",
+      "reference": {
+        "archive": "data/knocfree.bfp",
+        "archive_crc32": "7e00bade",
+        "member": 1,
+        "member_name": "GROUND.C3D",
+        "member_crc32": "b04927f8",
+        "material_slot": 4,
+        "material": "TRACK",
+        "bmp_crc32": "f5faaf18",
+        "size": [
+          128,
+          64
+        ]
+      }
+    },
+    {
+      "id": "TRAK_X",
+      "file": "exec-95f31a70-1540-4f3a-b865-9caafdea351d.png",
+      "size": [
+        887,
+        1774
+      ],
+      "crc32": "fc62b4f6",
+      "reference": {
+        "archive": "data/knocfree.bfp",
+        "archive_crc32": "7e00bade",
+        "member": 1,
+        "member_name": "GROUND.C3D",
+        "member_crc32": "b04927f8",
+        "material_slot": 6,
+        "material": "TRAK_X",
+        "bmp_crc32": "e3c1564b",
+        "size": [
+          32,
+          64
+        ]
+      }
+    },
+    {
+      "id": "START_X",
+      "file": "exec-5fb4fe1c-6703-4e16-a65d-d99099c4cc5c.png",
+      "size": [
+        887,
+        1774
+      ],
+      "crc32": "515832be",
+      "reference": {
+        "archive": "data/knocfree.bfp",
+        "archive_crc32": "7e00bade",
+        "member": 1,
+        "member_name": "GROUND.C3D",
+        "member_crc32": "b04927f8",
+        "material_slot": 7,
+        "material": "START_X",
+        "bmp_crc32": "d2865e5f",
+        "size": [
+          32,
+          64
+        ]
+      }
+    },
+    {
+      "id": "GRID_X",
+      "file": "exec-763169c0-6864-4f8d-8ec8-d37cc01d8146.png",
+      "size": [
+        887,
+        1774
+      ],
+      "crc32": "d169eab7",
+      "reference": {
+        "archive": "data/knocfree.bfp",
+        "archive_crc32": "7e00bade",
+        "member": 1,
+        "member_name": "GROUND.C3D",
+        "member_crc32": "b04927f8",
+        "material_slot": 11,
+        "material": "GRID_X",
+        "bmp_crc32": "e2c5e282",
+        "size": [
+          32,
+          64
+        ]
+      }
+    }
+  ],
+  "outputs": [
+    {
+      "image": "textures/ground-knockhill-pit.webp",
+      "source": "pit",
+      "crop": [
+        1254,
+        1254,
+        0,
+        0
+      ],
+      "size": [
+        128,
+        128
+      ],
+      "alpha": "opaque",
+      "crc32": "5b0b4a87",
+      "bytes": 370
+    },
+    {
+      "image": "textures/ground-knockhill-scrub.webp",
+      "source": "scrub",
+      "crop": [
+        1254,
+        1254,
+        0,
+        0
+      ],
+      "size": [
+        128,
+        128
+      ],
+      "alpha": "opaque",
+      "crc32": "3ad11a72",
+      "bytes": 2102
+    },
+    {
+      "image": "textures/ground-knockhill-track.webp",
+      "source": "TRACK",
+      "crop": [
+        1774,
+        887,
+        0,
+        0
+      ],
+      "size": [
+        256,
+        128
+      ],
+      "alpha": "opaque",
+      "crc32": "5eec46b3",
+      "bytes": 4142
+    },
+    {
+      "image": "textures/ground-knockhill-trak-x.webp",
+      "source": "TRAK_X",
+      "crop": [
+        887,
+        1774,
+        0,
+        0
+      ],
+      "size": [
+        64,
+        128
+      ],
+      "alpha": "opaque",
+      "crc32": "ab74b0d3",
+      "bytes": 710
+    },
+    {
+      "image": "textures/ground-knockhill-start-x.webp",
+      "source": "START_X",
+      "crop": [
+        887,
+        1774,
+        0,
+        0
+      ],
+      "size": [
+        64,
+        128
+      ],
+      "alpha": "opaque",
+      "crc32": "aa1b8f53",
+      "bytes": 858
+    },
+    {
+      "image": "textures/ground-knockhill-grid-x.webp",
+      "source": "GRID_X",
+      "crop": [
+        887,
+        1774,
+        0,
+        0
+      ],
+      "size": [
+        64,
+        128
+      ],
+      "alpha": "opaque",
+      "crc32": "1e07545e",
+      "bytes": 724
+    }
+  ],
+  "webp_quality": 80
+}

@@ -1,0 +1,885 @@
+{
+  "version": 1,
+  "package": "R04-M01-M02-M03",
+  "source": {
+    "original_version": "1.1a",
+    "path": "data/oultfree.bfp",
+    "crc32": "e6e258cb",
+    "bytes": 2887479,
+    "members": [
+      {
+        "index": 2,
+        "name": "TREES.C3D",
+        "crc32": "cf058247"
+      },
+      {
+        "index": 3,
+        "name": "FENCE.C3D",
+        "crc32": "072c4bc6"
+      },
+      {
+        "index": 5,
+        "name": "OBJECTS.C3D",
+        "crc32": "5ad0e21a"
+      }
+    ]
+  },
+  "scope": {
+    "types": 259,
+    "bindings": 376,
+    "new_images": 11,
+    "new_source_mappings": 6,
+    "local_source_remaps": 5,
+    "new_acceptance_pairs": 253,
+    "geometry_uv_slots_nodes": "unchanged-installed"
+  },
+  "families": [
+    {
+      "member": 2,
+      "mesh_range": [
+        0,
+        130
+      ],
+      "types": 131,
+      "bindings": 131,
+      "retained_body_meshes": [
+        14,
+        15,
+        100,
+        101
+      ]
+    },
+    {
+      "member": 3,
+      "mesh_range": [
+        0,
+        124
+      ],
+      "types": 125,
+      "bindings": 125
+    }
+  ],
+  "near_trees": [
+    {
+      "mesh": 29,
+      "name": "TRGS16_1",
+      "source_crc32": "6cb1e361",
+      "type": "d5dd3df8",
+      "nodes": [
+        [
+          141,
+          0
+        ],
+        [
+          143,
+          0
+        ]
+      ]
+    },
+    {
+      "mesh": 30,
+      "name": "TRGS18_1",
+      "source_crc32": "dd00939b",
+      "type": "09f18eae",
+      "nodes": [
+        [
+          145,
+          0
+        ],
+        [
+          147,
+          0
+        ],
+        [
+          429,
+          0
+        ],
+        [
+          431,
+          0
+        ]
+      ]
+    },
+    {
+      "mesh": 31,
+      "name": "TRIS04_1",
+      "source_crc32": "9420f546",
+      "type": "50e6290f",
+      "nodes": [
+        [
+          149,
+          0
+        ],
+        [
+          151,
+          0
+        ],
+        [
+          153,
+          0
+        ],
+        [
+          155,
+          0
+        ],
+        [
+          157,
+          0
+        ],
+        [
+          159,
+          0
+        ],
+        [
+          161,
+          0
+        ],
+        [
+          409,
+          0
+        ],
+        [
+          411,
+          0
+        ],
+        [
+          413,
+          0
+        ],
+        [
+          415,
+          0
+        ],
+        [
+          417,
+          0
+        ],
+        [
+          419,
+          0
+        ],
+        [
+          421,
+          0
+        ],
+        [
+          433,
+          0
+        ],
+        [
+          435,
+          0
+        ],
+        [
+          437,
+          0
+        ],
+        [
+          439,
+          0
+        ],
+        [
+          441,
+          0
+        ],
+        [
+          443,
+          0
+        ],
+        [
+          445,
+          0
+        ],
+        [
+          447,
+          0
+        ],
+        [
+          449,
+          0
+        ],
+        [
+          451,
+          0
+        ],
+        [
+          453,
+          0
+        ],
+        [
+          455,
+          0
+        ],
+        [
+          457,
+          0
+        ],
+        [
+          459,
+          0
+        ],
+        [
+          461,
+          0
+        ],
+        [
+          463,
+          0
+        ],
+        [
+          465,
+          0
+        ],
+        [
+          467,
+          0
+        ],
+        [
+          469,
+          0
+        ],
+        [
+          471,
+          0
+        ],
+        [
+          473,
+          0
+        ],
+        [
+          475,
+          0
+        ],
+        [
+          477,
+          0
+        ],
+        [
+          479,
+          0
+        ],
+        [
+          481,
+          0
+        ],
+        [
+          483,
+          0
+        ],
+        [
+          485,
+          0
+        ],
+        [
+          487,
+          0
+        ],
+        [
+          489,
+          0
+        ],
+        [
+          491,
+          0
+        ],
+        [
+          493,
+          0
+        ],
+        [
+          495,
+          0
+        ],
+        [
+          497,
+          0
+        ],
+        [
+          499,
+          0
+        ],
+        [
+          501,
+          0
+        ],
+        [
+          503,
+          0
+        ],
+        [
+          505,
+          0
+        ],
+        [
+          507,
+          0
+        ],
+        [
+          509,
+          0
+        ],
+        [
+          511,
+          0
+        ],
+        [
+          513,
+          0
+        ],
+        [
+          515,
+          0
+        ],
+        [
+          517,
+          0
+        ],
+        [
+          519,
+          0
+        ],
+        [
+          521,
+          0
+        ],
+        [
+          523,
+          0
+        ],
+        [
+          525,
+          0
+        ],
+        [
+          527,
+          0
+        ],
+        [
+          529,
+          0
+        ],
+        [
+          531,
+          0
+        ],
+        [
+          533,
+          0
+        ],
+        [
+          535,
+          0
+        ],
+        [
+          537,
+          0
+        ],
+        [
+          539,
+          0
+        ],
+        [
+          541,
+          0
+        ],
+        [
+          543,
+          0
+        ],
+        [
+          545,
+          0
+        ],
+        [
+          547,
+          0
+        ],
+        [
+          549,
+          0
+        ],
+        [
+          551,
+          0
+        ],
+        [
+          553,
+          0
+        ],
+        [
+          555,
+          0
+        ],
+        [
+          557,
+          0
+        ],
+        [
+          559,
+          0
+        ],
+        [
+          561,
+          0
+        ],
+        [
+          563,
+          0
+        ],
+        [
+          565,
+          0
+        ],
+        [
+          567,
+          0
+        ],
+        [
+          569,
+          0
+        ],
+        [
+          571,
+          0
+        ],
+        [
+          573,
+          0
+        ],
+        [
+          575,
+          0
+        ],
+        [
+          577,
+          0
+        ],
+        [
+          579,
+          0
+        ],
+        [
+          581,
+          0
+        ],
+        [
+          583,
+          0
+        ],
+        [
+          585,
+          0
+        ],
+        [
+          587,
+          0
+        ],
+        [
+          589,
+          0
+        ],
+        [
+          591,
+          0
+        ],
+        [
+          593,
+          0
+        ],
+        [
+          595,
+          0
+        ],
+        [
+          597,
+          0
+        ],
+        [
+          599,
+          0
+        ],
+        [
+          601,
+          0
+        ],
+        [
+          603,
+          0
+        ],
+        [
+          605,
+          0
+        ],
+        [
+          607,
+          0
+        ],
+        [
+          609,
+          0
+        ],
+        [
+          611,
+          0
+        ],
+        [
+          613,
+          0
+        ],
+        [
+          615,
+          0
+        ],
+        [
+          617,
+          0
+        ],
+        [
+          619,
+          0
+        ],
+        [
+          621,
+          0
+        ],
+        [
+          623,
+          0
+        ],
+        [
+          625,
+          0
+        ],
+        [
+          627,
+          0
+        ],
+        [
+          629,
+          0
+        ],
+        [
+          631,
+          0
+        ]
+      ]
+    }
+  ],
+  "export": {
+    "generator": "imagegen",
+    "format": "WebP",
+    "quality": 70,
+    "method": 6,
+    "max_edge": 512,
+    "source_aspect": true,
+    "presentation_padding": "removed before export; full forest chart retained",
+    "generated_alpha_composite": "black",
+    "alpha": "Exact original RGB-black key; nearest source mask at output size"
+  },
+  "material_contracts": {
+    "forest": "Full source crown sequence; no artificial half-chart duplication.",
+    "tyres": "Eight source periods; top rings clipped by both chart edges; opaque dark centres.",
+    "rails": "Individual slot/foot masks and CB-TOP complete border profiles retained for actual end-cap UV line sampling."
+  },
+  "retained_appended_images": [
+    {
+      "image": "textures/vegetation-bark.webp",
+      "crc32": "82dbe84d"
+    },
+    {
+      "image": "textures/vegetation-grove-leaf4-oulton-park.webp",
+      "crc32": "4c66831c"
+    },
+    {
+      "image": "textures/vegetation-leaf-oulton-park.webp",
+      "crc32": "6eeddd42"
+    }
+  ],
+  "textures": [
+    {
+      "name": "LLRTS1",
+      "bindings": [
+        {
+          "member": 2,
+          "slot": 0
+        }
+      ],
+      "source_crc32": "6f02e8d1",
+      "source_size": [
+        256,
+        64
+      ],
+      "image": "textures/oulton-nature-llrts1.webp",
+      "crc32": "db1c9ea2",
+      "bytes": 12160,
+      "size": [
+        512,
+        128
+      ]
+    },
+    {
+      "name": "LLRTS2",
+      "bindings": [
+        {
+          "member": 2,
+          "slot": 1
+        }
+      ],
+      "source_crc32": "95df9a74",
+      "source_size": [
+        256,
+        64
+      ],
+      "image": "textures/oulton-nature-llrts2.webp",
+      "crc32": "5bc70087",
+      "bytes": 12822,
+      "size": [
+        512,
+        128
+      ]
+    },
+    {
+      "name": "TYRES",
+      "bindings": [
+        {
+          "member": 3,
+          "slot": 0
+        }
+      ],
+      "source_crc32": "0914546a",
+      "source_size": [
+        128,
+        32
+      ],
+      "image": "textures/oulton-nature-tyres.webp",
+      "crc32": "16d65990",
+      "bytes": 7590,
+      "size": [
+        512,
+        128
+      ]
+    },
+    {
+      "name": "BLAK",
+      "bindings": [
+        {
+          "member": 3,
+          "slot": 1
+        }
+      ],
+      "source_crc32": "c4231456",
+      "source_size": [
+        8,
+        8
+      ],
+      "native_constant_rgb": [
+        33,
+        57,
+        33
+      ]
+    },
+    {
+      "name": "CB-TOP",
+      "bindings": [
+        {
+          "member": 3,
+          "slot": 2
+        }
+      ],
+      "source_crc32": "3fdc7a56",
+      "source_size": [
+        128,
+        32
+      ],
+      "image": "textures/oulton-nature-cb-top.webp",
+      "crc32": "17f6e2d1",
+      "bytes": 5526,
+      "size": [
+        512,
+        128
+      ]
+    },
+    {
+      "name": "CB-LO",
+      "bindings": [
+        {
+          "member": 3,
+          "slot": 3
+        }
+      ],
+      "source_crc32": "e7e3c9a1",
+      "source_size": [
+        128,
+        64
+      ],
+      "image": "textures/oulton-nature-cb-lo.webp",
+      "crc32": "21cea232",
+      "bytes": 12412,
+      "size": [
+        512,
+        256
+      ]
+    },
+    {
+      "name": "PITWALL",
+      "bindings": [
+        {
+          "member": 3,
+          "slot": 4
+        }
+      ],
+      "source_crc32": "977de7b6",
+      "source_size": [
+        16,
+        16
+      ],
+      "image": "textures/oulton-nature-pitwall.webp",
+      "crc32": "c98fc20f",
+      "bytes": 28564,
+      "size": [
+        512,
+        512
+      ]
+    },
+    {
+      "name": "LTYRTOP",
+      "bindings": [
+        {
+          "member": 3,
+          "slot": 5
+        }
+      ],
+      "source_crc32": "8c6e1eda",
+      "source_size": [
+        128,
+        32
+      ],
+      "image": "textures/oulton-nature-ltyrtop.webp",
+      "crc32": "5dd1bfbf",
+      "bytes": 5058,
+      "size": [
+        512,
+        128
+      ]
+    },
+    {
+      "name": "WATERX",
+      "bindings": [
+        {
+          "member": 3,
+          "slot": 6
+        }
+      ],
+      "source_crc32": "17e718bf",
+      "source_size": [
+        64,
+        64
+      ],
+      "image": "textures/ground-oulton-park-waterx.webp",
+      "crc32": "4645949b",
+      "reuse": true
+    },
+    {
+      "name": "CB-WITE",
+      "bindings": [
+        {
+          "member": 3,
+          "slot": 7
+        }
+      ],
+      "source_crc32": "995c9798",
+      "source_size": [
+        64,
+        32
+      ],
+      "image": "textures/oulton-nature-cb-wite.webp",
+      "crc32": "ff3011f6",
+      "bytes": 5376,
+      "size": [
+        512,
+        256
+      ]
+    },
+    {
+      "name": "CB-GREEN",
+      "bindings": [
+        {
+          "member": 3,
+          "slot": 8
+        }
+      ],
+      "source_crc32": "6be93876",
+      "source_size": [
+        64,
+        32
+      ],
+      "image": "textures/oulton-nature-cb-green.webp",
+      "crc32": "99696be4",
+      "bytes": 3336,
+      "size": [
+        512,
+        256
+      ]
+    },
+    {
+      "name": "LHRTWS2",
+      "bindings": [
+        {
+          "member": 5,
+          "slot": 90
+        }
+      ],
+      "source_crc32": "a362257e",
+      "source_size": [
+        128,
+        64
+      ],
+      "image": "textures/oulton-nature-lhrtws2.webp",
+      "crc32": "c7db3a27",
+      "bytes": 19990,
+      "size": [
+        512,
+        256
+      ]
+    },
+    {
+      "name": "LHRTWS4",
+      "bindings": [
+        {
+          "member": 5,
+          "slot": 91
+        }
+      ],
+      "source_crc32": "d3163486",
+      "source_size": [
+        128,
+        64
+      ],
+      "image": "textures/oulton-nature-lhrtws4.webp",
+      "crc32": "68aec09f",
+      "bytes": 22106,
+      "size": [
+        512,
+        256
+      ]
+    },
+    {
+      "name": "LHRTS4",
+      "bindings": [
+        {
+          "member": 5,
+          "slot": 92
+        }
+      ],
+      "source_crc32": "bfcd58a8",
+      "source_size": [
+        64,
+        64
+      ],
+      "image": "textures/vegetation-lhrts4-oulton-park.webp",
+      "crc32": "f603afd0",
+      "reuse": true,
+      "runtime_use": "Original direct prefix unused by installed TRIS04; appended leaf/bark materials retained."
+    }
+  ]
+}

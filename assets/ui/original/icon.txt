@@ -1,0 +1,15 @@
+Original Windows icon
+
+The user approved committing the original 32x32 TOCA 1.1a executable icon.
+Source: TOCA 1.1a tourcars.exe, RT_GROUP_ICON 101, language 2057;
+its only frame is RT_ICON 1, language 2057: 32x32, 4-bit indexed color,
+16 palette entries and the original AND transparency mask.
+The single-frame ICO wraps the unchanged 744-byte DIB resource in an ICO
+directory; no decoding, resampling, palette conversion or mask changes.
+The Windows build embeds it as icon group 101 through src/platform/windows.rc.
+
+CRC32 IEEE/zlib:
+8ce56d41  tourcars.exe
+cea9fc26  tourcars.exe RT_GROUP_ICON/101/2057
+319715d0  tourcars.exe RT_ICON/1/2057
+e2e0fae9  icon.ico

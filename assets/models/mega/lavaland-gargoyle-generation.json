@@ -1,0 +1,149 @@
+{
+  "version": 1,
+  "package": "M05e Lavaland GARCON_1 gargoyle",
+  "source": {
+    "archive": "data/landfree.bfp",
+    "archive_crc32": "dba52c51",
+    "member": 8,
+    "member_name": "CONES.C3D",
+    "member_crc32": "ca267324",
+    "mesh": "GARCON_1",
+    "mesh_index": 0,
+    "mesh_crc32": "94130c59",
+    "vertices": 26,
+    "triangles": 14,
+    "material_slots": [
+      "GARG01",
+      "GARG02"
+    ],
+    "actors": 5,
+    "root_nodes": [
+      0,
+      2,
+      4,
+      6,
+      8
+    ]
+  },
+  "preparation": {
+    "source_uv_review": "build/lavaland-gargoyle/reference/source-uv-review.json",
+    "source_uv_review_crc32": "08e3cad0",
+    "uv_convention": "Canonical signed Q16 U is unchanged; V is source V+1 at runtime. Front slot0 covers whole image. Side slot1 covers whole image plus separate quiet-area crops.",
+    "garg02_top_back_uv_rect": [
+      0.3650665283203125,
+      0.031768798828125,
+      0.5396728515625,
+      0.3174896240234375
+    ],
+    "garg02_bottom_uv_rect": [
+      0.380950927734375,
+      0.65081787109375,
+      0.5079345703125,
+      0.68255615234375
+    ]
+  },
+  "output_handling": {
+    "resize": "Whole image Lanczos1254x1254 to256x256; no crop/rearrangement or local retouching",
+    "format": "WebP",
+    "quality": 80,
+    "method": 6,
+    "alpha": "Both original BMPs have no exact-black color-key texels; output remains fully opaque RGB, no masks/cutouts added"
+  },
+  "outputs": [
+    {
+      "name": "GARG01",
+      "material_slot": 0,
+      "source_bmp_crc32": "ac720722",
+      "source_size": [
+        64,
+        64
+      ],
+      "source_bits": 8,
+      "source_black_key_texels": 0,
+      "source_triangles": 3,
+      "image": "textures/lavaland-gargoyle-garg01.webp",
+      "crc32": "67df8fff",
+      "bytes": 13332,
+      "size": [
+        256,
+        256
+      ],
+      "mode": "RGB",
+      "webp_quality": 80,
+      "encoding_method": 6,
+      "transparent_background": false,
+      "generator_file": "exec-3845e5d0-0de9-461d-9734-4627dd7d5086.png",
+      "generator_crc32": "1f555747",
+      "generator_size": [
+        1254,
+        1254
+      ],
+      "generator_mode": "RGB",
+      "generator_alpha_extrema": null,
+      "reference_original": {
+        "path": "build/lavaland-gargoyle/reference/GARG01-original.png",
+        "crc32": "b09e63a5",
+        "size": [
+          64,
+          64
+        ],
+        "role": "Canonical original source exported selectively to ignored build only"
+      }
+    },
+    {
+      "name": "GARG02",
+      "material_slot": 1,
+      "source_bmp_crc32": "5de59b15",
+      "source_size": [
+        64,
+        64
+      ],
+      "source_bits": 8,
+      "source_black_key_texels": 0,
+      "source_triangles": 11,
+      "image": "textures/lavaland-gargoyle-garg02.webp",
+      "crc32": "6b1e23d9",
+      "bytes": 10536,
+      "size": [
+        256,
+        256
+      ],
+      "mode": "RGB",
+      "webp_quality": 80,
+      "encoding_method": 6,
+      "transparent_background": false,
+      "generator_file": "exec-68b0d3c4-15f1-4f80-b910-95984d7a7516.png",
+      "generator_crc32": "8b4f2fd4",
+      "generator_size": [
+        1254,
+        1254
+      ],
+      "generator_mode": "RGB",
+      "generator_alpha_extrema": null,
+      "reference_original": {
+        "path": "build/lavaland-gargoyle/reference/GARG02-original.png",
+        "crc32": "9145947b",
+        "size": [
+          64,
+          64
+        ],
+        "role": "Canonical original source exported selectively to ignored build only"
+      }
+    }
+  ],
+  "model": {
+    "source_mesh_crc32": "94130c59",
+    "policy": "Closed shallow frontal brow/eye/nose/muzzle relief with affine source UVs; source closure planes, slots, bounds, local origin and actor pivots retained. SceneView applies the existing common visual-origin correction.",
+    "generated_glb": "build/release/generated/mega/scene/track-9/cones.glb",
+    "generated_glb_crc32": "76874ba8",
+    "bytes": 31820,
+    "vertices": 121,
+    "triangles": 154,
+    "authored_material_slots": 2,
+    "source_native_material_slots": 0
+  },
+  "artwork_review": {
+    "front": "Gray-blue face, source bright right eye and shadowed left socket, brow/nose/muzzle placement and restrained pale stone accents retained. New fine grain/fissures replace source pixels.",
+    "side": "Source upper-left cropped right-facing profile/rim retained; remaining dark navy stone regions remain quiet, including back/top and underside UV crops."
+  }
+}

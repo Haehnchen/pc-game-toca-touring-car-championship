@@ -1,0 +1,1020 @@
+{
+  "version": 1,
+  "package": "T15",
+  "policy": "Source-specific Thruxton/Oulton variants and the final Donington side preserve canonical UVs, material slots, alpha and shared original geometry. Original T11 edit-basis identity is recorded by CRC32 and revision.",
+  "sources": [
+    {
+      "track": 2,
+      "archive": "data/thrufree.bfp",
+      "archive_crc32": "473c8fe8",
+      "member": 5,
+      "member_crc32": "a17b2723",
+      "mesh": 41,
+      "name": "CRAN3_1",
+      "mesh_crc32": "36366506",
+      "type": "37fdcb96",
+      "vertices": 136,
+      "triangles": 66,
+      "nodes": [
+        265,
+        271,
+        273
+      ]
+    },
+    {
+      "track": 4,
+      "archive": "data/oultfree.bfp",
+      "archive_crc32": "e6e258cb",
+      "member": 5,
+      "member_crc32": "5ad0e21a",
+      "mesh": 28,
+      "name": "CRAN3_1",
+      "mesh_crc32": "0e789aa3",
+      "type": "6c721efc",
+      "vertices": 136,
+      "triangles": 66
+    },
+    {
+      "track": 0,
+      "archive": "data/donlfree.bfp",
+      "archive_crc32": "46885a20",
+      "member": 5,
+      "member_crc32": "5f670bb9",
+      "mesh": 55,
+      "name": "CRAN3_1",
+      "mesh_crc32": "12779946",
+      "type": "2b9bfb4e",
+      "nodes": [
+        361,
+        363,
+        365
+      ]
+    }
+  ],
+  "shared_consumers": [
+    {
+      "track": 2,
+      "mesh": 41,
+      "nodes": [
+        265,
+        271,
+        273
+      ],
+      "materials": [
+        "b872703c",
+        "7e81100f"
+      ]
+    },
+    {
+      "track": 4,
+      "mesh": 28,
+      "nodes": [
+        137,
+        139
+      ],
+      "materials": [
+        "3eb84fb9",
+        "ba3c6928"
+      ]
+    },
+    {
+      "track": 0,
+      "mesh": 55,
+      "nodes": [
+        361,
+        363,
+        365
+      ],
+      "alpha_corrected_side": "6148ee1c"
+    },
+    {
+      "track": 5,
+      "mesh": 57,
+      "nodes": [
+        405,
+        407,
+        409
+      ],
+      "alpha_corrected_side": "6148ee1c",
+      "policy": "Donington Short shares the same corrected T11-side source identity; T11front unchanged."
+    },
+    {
+      "track": 2,
+      "member": 5,
+      "mesh": 42,
+      "name": "TH02GSTD_1",
+      "type": "74a9d03f",
+      "source_mesh_crc32": "8f90ec97",
+      "nodes": [
+        267,
+        269
+      ],
+      "material": "CRANF4B",
+      "source_bmp_crc32": "7e81100f",
+      "source_slot": 91,
+      "source_faces": [
+        65
+      ],
+      "image_uv": [
+        0,
+        1
+      ],
+      "runtime_clamped_uv": [
+        0.02,
+        0.99
+      ],
+      "canonical_RGBA": [
+        8,
+        8,
+        8,
+        255
+      ],
+      "encoded_RGBA": [
+        5.52,
+        9.74,
+        8.0,
+        255.0
+      ],
+      "role": "Unchanged grandstand constant corner sampler only; not an additional vehicle or building artwork scope."
+    }
+  ],
+  "uv_contract": "Side is64 sourcefaces and front2faces. Keep original first-boom SKY LIFT crop, quiet middle-boom U.228333–.755905/Y.516159–.677444 and basket walls/rim U.3307–.5591/Y.3871–.9678. Geometric subdivisions interpolate the original UVs; material slots, repeat phase and fixed placements remain source-bound.",
+  "outputs": [
+    {
+      "track": 2,
+      "id": "thruxton-crane4b",
+      "name": "CRANE4B",
+      "source_bmp_crc32": "b872703c",
+      "source_size": [
+        128,
+        32
+      ],
+      "image": "textures/thruxton-static-crane4b.webp",
+      "crc32": "a320b702",
+      "bytes": 6602,
+      "size": [
+        512,
+        128
+      ],
+      "provenance": {
+        "source_reference": {
+          "crc32": "b493020f",
+          "size": [
+            128,
+            32
+          ]
+        },
+        "generator_file": "exec-4c535b02-d1c3-42ee-8ed1-23ae90a52fb2.png",
+        "generator_crc32": "d3d6fa44",
+        "generator_size": [
+          2170,
+          725
+        ],
+        "reuse_basis": {
+          "crc32": "3e47e209",
+          "bytes": 6592,
+          "size": [
+            512,
+            128
+          ],
+          "revision": "1885e81",
+          "source_bmp_crc32": "6148ee1c"
+        },
+        "encoding": {
+          "format": "WebP",
+          "quality": 80,
+          "method": 6,
+          "alpha_quality": 100,
+          "mode": "RGBA",
+          "resampling": "Lanczos",
+          "registration": {
+            "presentation_crop": [
+              0,
+              92,
+              2170,
+              634
+            ],
+            "target_size": [
+              512,
+              128
+            ],
+            "method": "Side4:1 presentation padding removed, front whole2:1 source frame preserved; no UV/atlas/motif repacking.",
+            "source_opaque_RGB_continuation_pixels": 104,
+            "source_opaque_RGB_continuation": "Where generator wrongly removed source-opaque material, continue the SAME existing T11 authored RGB at that exact normalized location, multiplied by source-variant fresh paint mean/base-paint mean. No untrusted hidden RGB exposed, no source-photo pixels copied, no nearest-color stripes.",
+            "fresh_paint_mean": [
+              176.2695530726257,
+              198.64036312849163,
+              216.31442039106145
+            ],
+            "base_paint_mean": [
+              212.96892458100558,
+              228.96962290502793,
+              243.96927374301677
+            ],
+            "continuation_palette_ratios": [
+              0.8276773403416385,
+              0.867540246641729,
+              0.8866461627414387
+            ]
+          }
+        },
+        "alpha_processing": {
+          "native_rule": "Only exact canonical RGB000000 is key; source nonblack glass, rubber and pale paint stay opaque.",
+          "canonical_source_black_key_pixels": 348,
+          "encoded_transparent_pixels": 5568,
+          "encoded_alpha_extrema": [
+            0,
+            255
+          ],
+          "encoded_alpha_exactly_equals_nearest_scaled_source": true
+        }
+      }
+    },
+    {
+      "track": 2,
+      "id": "thruxton-cranf4b",
+      "name": "CRANF4B",
+      "source_bmp_crc32": "7e81100f",
+      "source_size": [
+        64,
+        32
+      ],
+      "image": "textures/thruxton-static-cranf4b.webp",
+      "crc32": "6fc4f985",
+      "bytes": 4324,
+      "size": [
+        512,
+        256
+      ],
+      "provenance": {
+        "source_reference": {
+          "crc32": "28bc9d8e",
+          "size": [
+            64,
+            32
+          ]
+        },
+        "generator_file": "exec-2bbd4ded-1ddf-4493-a8ee-fb2164e63c8f.png",
+        "generator_crc32": "b1983299",
+        "generator_size": [
+          1774,
+          887
+        ],
+        "reuse_basis": {
+          "image": "textures/donington-static-cranf4b.webp",
+          "crc32": "1664e9bd",
+          "bytes": 4174,
+          "size": [
+            512,
+            256
+          ],
+          "generation_manifest": "assets/models/mega/donington-static-platform-generation.json",
+          "output_record": {
+            "name": "CRANF4B",
+            "source_bmp_crc32": "9ac42a3f",
+            "source_size": [
+              64,
+              32
+            ],
+            "image": "textures/donington-static-cranf4b.webp",
+            "crc32": "1664e9bd",
+            "bytes": 4174,
+            "size": [
+              512,
+              256
+            ]
+          },
+          "policy": "Accepted existing artwork used as edit/detail basis only; original T11 image bytes unchanged."
+        },
+        "encoding": {
+          "format": "WebP",
+          "quality": 80,
+          "method": 6,
+          "alpha_quality": 100,
+          "mode": "RGB",
+          "resampling": "Lanczos",
+          "registration": {
+            "presentation_crop": [
+              0,
+              0,
+              1774,
+              887
+            ],
+            "target_size": [
+              512,
+              256
+            ],
+            "method": "Side4:1 presentation padding removed, front whole2:1 source frame preserved; no UV/atlas/motif repacking.",
+            "source_opaque_RGB_continuation_pixels": 0,
+            "source_opaque_RGB_continuation": "Where generator wrongly removed source-opaque material, continue the SAME existing T11 authored RGB at that exact normalized location, multiplied by source-variant fresh paint mean/base-paint mean. No untrusted hidden RGB exposed, no source-photo pixels copied, no nearest-color stripes.",
+            "fresh_paint_mean": [
+              168.9190243902439,
+              183.62048780487805,
+              211.96268292682927
+            ],
+            "base_paint_mean": [
+              159.73853658536586,
+              171.2229268292683,
+              197.73280487804877
+            ],
+            "continuation_palette_ratios": [
+              1.057471966384091,
+              1.0724059634138352,
+              1.0719651858352828
+            ],
+            "constant_sampler_lock": {
+              "consumer": "TH02GSTD_1",
+              "source_slot": 91,
+              "source_face": 65,
+              "nodes": [
+                267,
+                269
+              ],
+              "source_raw_uv": [
+                0,
+                0
+              ],
+              "image_uv": [
+                0,
+                1
+              ],
+              "runtime_clamped_uv": [
+                0.02,
+                0.99
+              ],
+              "canonical_bilinear_RGBA": [
+                8,
+                8,
+                8,
+                255
+              ],
+              "encoded_bilinear_RGBA": [
+                5.52,
+                9.74,
+                8.0,
+                255.0
+              ],
+              "output_rgb_guard": [
+                0,
+                240,
+                32,
+                256
+              ],
+              "reason": "Constant shared grandstand material sample; preserve original dark corner after runtimeUV clamp/filtering, no additional building artwork."
+            }
+          }
+        },
+        "alpha_processing": {
+          "native_rule": "Only exact canonical RGB000000 is key; source nonblack glass, rubber and pale paint stay opaque.",
+          "canonical_source_black_key_pixels": 0,
+          "encoded_transparent_pixels": 0,
+          "encoded_alpha_extrema": [
+            255,
+            255
+          ],
+          "encoded_alpha_exactly_equals_nearest_scaled_source": true
+        }
+      }
+    },
+    {
+      "track": 4,
+      "id": "oulton-crane4b",
+      "name": "CRANE4B",
+      "source_bmp_crc32": "3eb84fb9",
+      "source_size": [
+        128,
+        32
+      ],
+      "image": "textures/oulton-static-crane4b.webp",
+      "crc32": "e50085ea",
+      "bytes": 6530,
+      "size": [
+        512,
+        128
+      ],
+      "provenance": {
+        "source_reference": {
+          "crc32": "676e8531",
+          "size": [
+            128,
+            32
+          ]
+        },
+        "generator_file": "exec-329707d0-8745-4053-a97a-4a673856d805.png",
+        "generator_crc32": "f04d3011",
+        "generator_size": [
+          2164,
+          727
+        ],
+        "reuse_basis": {
+          "crc32": "3e47e209",
+          "bytes": 6592,
+          "size": [
+            512,
+            128
+          ],
+          "revision": "1885e81",
+          "source_bmp_crc32": "6148ee1c"
+        },
+        "encoding": {
+          "format": "WebP",
+          "quality": 80,
+          "method": 6,
+          "alpha_quality": 100,
+          "mode": "RGBA",
+          "resampling": "Lanczos",
+          "registration": {
+            "presentation_crop": [
+              0,
+              93,
+              2164,
+              634
+            ],
+            "target_size": [
+              512,
+              128
+            ],
+            "method": "Side4:1 presentation padding removed, front whole2:1 source frame preserved; no UV/atlas/motif repacking.",
+            "source_opaque_RGB_continuation_pixels": 711,
+            "source_opaque_RGB_continuation": "Where generator wrongly removed source-opaque material, continue the SAME existing T11 authored RGB at that exact normalized location, multiplied by source-variant fresh paint mean/base-paint mean. No untrusted hidden RGB exposed, no source-photo pixels copied, no nearest-color stripes.",
+            "fresh_paint_mean": [
+              190.7253840782123,
+              200.55900837988827,
+              229.3969972067039
+            ],
+            "base_paint_mean": [
+              212.96892458100558,
+              228.96962290502793,
+              243.96927374301677
+            ],
+            "continuation_palette_ratios": [
+              0.8955549944830911,
+              0.8759197217312804,
+              0.9402700335466733
+            ]
+          }
+        },
+        "alpha_processing": {
+          "native_rule": "Only exact canonical RGB000000 is key; source nonblack glass, rubber and pale paint stay opaque.",
+          "canonical_source_black_key_pixels": 422,
+          "encoded_transparent_pixels": 6752,
+          "encoded_alpha_extrema": [
+            0,
+            255
+          ],
+          "encoded_alpha_exactly_equals_nearest_scaled_source": true
+        }
+      }
+    },
+    {
+      "track": 4,
+      "id": "oulton-cranf4b",
+      "name": "CRANF4B",
+      "source_bmp_crc32": "ba3c6928",
+      "source_size": [
+        64,
+        32
+      ],
+      "image": "textures/oulton-static-cranf4b.webp",
+      "crc32": "c5f51bf6",
+      "bytes": 5098,
+      "size": [
+        512,
+        256
+      ],
+      "provenance": {
+        "source_reference": {
+          "crc32": "1c8bef28",
+          "size": [
+            64,
+            32
+          ]
+        },
+        "generator_file": "exec-f4abb182-b1ad-43fa-a6fc-b3930f175cfa.png",
+        "generator_crc32": "c87bf1e6",
+        "generator_size": [
+          1774,
+          887
+        ],
+        "reuse_basis": {
+          "image": "textures/donington-static-cranf4b.webp",
+          "crc32": "1664e9bd",
+          "bytes": 4174,
+          "size": [
+            512,
+            256
+          ],
+          "generation_manifest": "assets/models/mega/donington-static-platform-generation.json",
+          "output_record": {
+            "name": "CRANF4B",
+            "source_bmp_crc32": "9ac42a3f",
+            "source_size": [
+              64,
+              32
+            ],
+            "image": "textures/donington-static-cranf4b.webp",
+            "crc32": "1664e9bd",
+            "bytes": 4174,
+            "size": [
+              512,
+              256
+            ]
+          },
+          "policy": "Accepted existing artwork used as edit/detail basis only; original T11 image bytes unchanged."
+        },
+        "encoding": {
+          "format": "WebP",
+          "quality": 80,
+          "method": 6,
+          "alpha_quality": 100,
+          "mode": "RGBA",
+          "resampling": "Lanczos",
+          "registration": {
+            "presentation_crop": [
+              0,
+              0,
+              1774,
+              887
+            ],
+            "target_size": [
+              512,
+              256
+            ],
+            "method": "Side4:1 presentation padding removed, front whole2:1 source frame preserved; no UV/atlas/motif repacking.",
+            "source_opaque_RGB_continuation_pixels": 1551,
+            "source_opaque_RGB_continuation": "Where generator wrongly removed source-opaque material, continue the SAME existing T11 authored RGB at that exact normalized location, multiplied by source-variant fresh paint mean/base-paint mean. No untrusted hidden RGB exposed, no source-photo pixels copied, no nearest-color stripes.",
+            "fresh_paint_mean": [
+              171.2109756097561,
+              181.92512195121952,
+              211.4608536585366
+            ],
+            "base_paint_mean": [
+              159.73853658536586,
+              171.2229268292683,
+              197.73280487804877
+            ],
+            "continuation_palette_ratios": [
+              1.0718201084699386,
+              1.0625044514781758,
+              1.0694272697388507
+            ]
+          }
+        },
+        "alpha_processing": {
+          "native_rule": "Only exact canonical RGB000000 is key; source nonblack glass, rubber and pale paint stay opaque.",
+          "canonical_source_black_key_pixels": 128,
+          "encoded_transparent_pixels": 8192,
+          "encoded_alpha_extrema": [
+            0,
+            255
+          ],
+          "encoded_alpha_exactly_equals_nearest_scaled_source": true
+        }
+      }
+    },
+    {
+      "track": 0,
+      "id": "donington-crane4b-alpha",
+      "name": "CRANE4B",
+      "source_bmp_crc32": "6148ee1c",
+      "source_size": [
+        128,
+        32
+      ],
+      "image": "textures/donington-static-crane4b-alpha.webp",
+      "crc32": "7b439191",
+      "bytes": 6176,
+      "size": [
+        512,
+        128
+      ],
+      "provenance": {
+        "source_reference": {
+          "crc32": "82d53c34",
+          "size": [
+            128,
+            32
+          ]
+        },
+        "generator_file": "exec-77bb0c5d-fbaa-4f80-bcb6-36c0c6fc0cc3.png",
+        "generator_crc32": "2d742ada",
+        "generator_size": [
+          2164,
+          727
+        ],
+        "reuse_basis": {
+          "crc32": "3e47e209",
+          "bytes": 6592,
+          "size": [
+            512,
+            128
+          ],
+          "revision": "1885e81",
+          "source_bmp_crc32": "6148ee1c"
+        },
+        "encoding": {
+          "format": "WebP",
+          "quality": 80,
+          "method": 6,
+          "alpha_quality": 100,
+          "mode": "RGBA",
+          "resampling": "Lanczos",
+          "registration": {
+            "presentation_crop": [
+              0,
+              93,
+              2164,
+              634
+            ],
+            "target_size": [
+              512,
+              128
+            ],
+            "method": "Side4:1 presentation padding removed, front whole2:1 source frame preserved; no UV/atlas/motif repacking.",
+            "source_opaque_RGB_continuation_pixels": 5961,
+            "source_opaque_RGB_continuation": "Where generator wrongly removed source-opaque material, continue the SAME existing T11 authored RGB at that exact normalized location, multiplied by source-variant fresh paint mean/base-paint mean. No untrusted hidden RGB exposed, no source-photo pixels copied, no nearest-color stripes.",
+            "fresh_paint_mean": [
+              181.6524092178771,
+              191.36173184357543,
+              214.3477653631285
+            ],
+            "base_paint_mean": [
+              212.96892458100558,
+              228.96962290502793,
+              243.96927374301677
+            ],
+            "continuation_palette_ratios": [
+              0.852952652952817,
+              0.8357516137542336,
+              0.878585086042065
+            ]
+          }
+        },
+        "alpha_processing": {
+          "native_rule": "Only exact canonical RGB000000 is key; source nonblack glass, rubber and pale paint stay opaque.",
+          "canonical_source_black_key_pixels": 348,
+          "encoded_transparent_pixels": 5568,
+          "encoded_alpha_extrema": [
+            0,
+            255
+          ],
+          "encoded_alpha_exactly_equals_nearest_scaled_source": true
+        }
+      }
+    }
+  ],
+  "source_gate": {
+    "name": "CRAN3_1",
+    "vertices": 136,
+    "triangles": 66,
+    "raw_fixed_vertex_crc32": "bbc2e55f",
+    "topology_without_material_slot_crc32": "64771e20",
+    "ordered_materials": [
+      [
+        "CRANE4B",
+        64
+      ],
+      [
+        "CRANF4B",
+        2
+      ]
+    ]
+  },
+  "source_models": [
+    {
+      "track": 0,
+      "archive": "data/donlfree.bfp",
+      "archive_crc32": "46885a20",
+      "member": 5,
+      "member_crc32": "5f670bb9",
+      "mesh": 55,
+      "type": "2b9bfb4e",
+      "source_mesh_crc32": "12779946",
+      "vertices": 136,
+      "triangles": 66,
+      "nodes": [
+        361,
+        363,
+        365
+      ],
+      "roots": [
+        360,
+        362,
+        364
+      ],
+      "materials": [
+        {
+          "name": "CRANE4B",
+          "slot": 115,
+          "crc32": "6148ee1c",
+          "size": [
+            128,
+            32
+          ]
+        },
+        {
+          "name": "CRANF4B",
+          "slot": 116,
+          "crc32": "9ac42a3f",
+          "size": [
+            64,
+            32
+          ]
+        }
+      ]
+    },
+    {
+      "track": 0,
+      "archive": "data/donlfree.bfp",
+      "archive_crc32": "46885a20",
+      "member": 6,
+      "member_crc32": "115e5886",
+      "mesh": 46,
+      "type": "2b9bfb4e",
+      "source_mesh_crc32": "0b71622f",
+      "vertices": 136,
+      "triangles": 66,
+      "nodes": [
+        247,
+        249,
+        251
+      ],
+      "roots": [
+        246,
+        248,
+        250
+      ],
+      "materials": [
+        {
+          "name": "CRANE4B",
+          "slot": 99,
+          "crc32": "6148ee1c",
+          "size": [
+            128,
+            32
+          ]
+        },
+        {
+          "name": "CRANF4B",
+          "slot": 100,
+          "crc32": "9ac42a3f",
+          "size": [
+            64,
+            32
+          ]
+        }
+      ]
+    },
+    {
+      "track": 2,
+      "archive": "data/thrufree.bfp",
+      "archive_crc32": "473c8fe8",
+      "member": 5,
+      "member_crc32": "a17b2723",
+      "mesh": 41,
+      "type": "37fdcb96",
+      "source_mesh_crc32": "36366506",
+      "vertices": 136,
+      "triangles": 66,
+      "nodes": [
+        265,
+        271,
+        273
+      ],
+      "roots": [
+        264,
+        270,
+        272
+      ],
+      "materials": [
+        {
+          "name": "CRANE4B",
+          "slot": 90,
+          "crc32": "b872703c",
+          "size": [
+            128,
+            32
+          ]
+        },
+        {
+          "name": "CRANF4B",
+          "slot": 91,
+          "crc32": "7e81100f",
+          "size": [
+            64,
+            32
+          ]
+        }
+      ]
+    },
+    {
+      "track": 2,
+      "archive": "data/thrufree.bfp",
+      "archive_crc32": "473c8fe8",
+      "member": 6,
+      "member_crc32": "b816e715",
+      "mesh": 30,
+      "type": "37fdcb96",
+      "source_mesh_crc32": "86d86014",
+      "vertices": 136,
+      "triangles": 66,
+      "nodes": [
+        165,
+        171,
+        267
+      ],
+      "roots": [
+        164,
+        170,
+        266
+      ],
+      "materials": [
+        {
+          "name": "CRANE4B",
+          "slot": 68,
+          "crc32": "b872703c",
+          "size": [
+            128,
+            32
+          ]
+        },
+        {
+          "name": "CRANF4B",
+          "slot": 69,
+          "crc32": "7e81100f",
+          "size": [
+            64,
+            32
+          ]
+        }
+      ]
+    },
+    {
+      "track": 4,
+      "archive": "data/oultfree.bfp",
+      "archive_crc32": "e6e258cb",
+      "member": 5,
+      "member_crc32": "5ad0e21a",
+      "mesh": 28,
+      "type": "6c721efc",
+      "source_mesh_crc32": "0e789aa3",
+      "vertices": 136,
+      "triangles": 66,
+      "nodes": [
+        137,
+        139
+      ],
+      "roots": [
+        136,
+        138
+      ],
+      "materials": [
+        {
+          "name": "CRANE4B",
+          "slot": 88,
+          "crc32": "3eb84fb9",
+          "size": [
+            128,
+            32
+          ]
+        },
+        {
+          "name": "CRANF4B",
+          "slot": 89,
+          "crc32": "ba3c6928",
+          "size": [
+            64,
+            32
+          ]
+        }
+      ]
+    },
+    {
+      "track": 4,
+      "archive": "data/oultfree.bfp",
+      "archive_crc32": "e6e258cb",
+      "member": 6,
+      "member_crc32": "d19a42f6",
+      "mesh": 25,
+      "type": "6c721efc",
+      "source_mesh_crc32": "942465de",
+      "vertices": 136,
+      "triangles": 66,
+      "nodes": [
+        105,
+        107
+      ],
+      "roots": [
+        104,
+        106
+      ],
+      "materials": [
+        {
+          "name": "CRANE4B",
+          "slot": 77,
+          "crc32": "3eb84fb9",
+          "size": [
+            128,
+            32
+          ]
+        },
+        {
+          "name": "CRANF4B",
+          "slot": 78,
+          "crc32": "ba3c6928",
+          "size": [
+            64,
+            32
+          ]
+        }
+      ]
+    },
+    {
+      "track": 5,
+      "archive": "data/donsfree.bfp",
+      "archive_crc32": "f07db8b7",
+      "member": 5,
+      "member_crc32": "f60fd8a0",
+      "mesh": 57,
+      "type": "2b9bfb4e",
+      "source_mesh_crc32": "6b8a78bc",
+      "vertices": 136,
+      "triangles": 66,
+      "nodes": [
+        405,
+        407,
+        409
+      ],
+      "roots": [
+        404,
+        406,
+        408
+      ],
+      "materials": [
+        {
+          "name": "CRANE4B",
+          "slot": 119,
+          "crc32": "6148ee1c",
+          "size": [
+            128,
+            32
+          ]
+        },
+        {
+          "name": "CRANF4B",
+          "slot": 120,
+          "crc32": "9ac42a3f",
+          "size": [
+            64,
+            32
+          ]
+        }
+      ]
+    },
+    {
+      "track": 5,
+      "archive": "data/donsfree.bfp",
+      "archive_crc32": "f07db8b7",
+      "member": 6,
+      "member_crc32": "f1caf737",
+      "mesh": 42,
+      "type": "2b9bfb4e",
+      "source_mesh_crc32": "fdbf61fd",
+      "vertices": 136,
+      "triangles": 66,
+      "nodes": [
+        207,
+        209,
+        211
+      ],
+      "roots": [
+        206,
+        208,
+        210
+      ],
+      "materials": [
+        {
+          "name": "CRANE4B",
+          "slot": 89,
+          "crc32": "6148ee1c",
+          "size": [
+            128,
+            32
+          ]
+        },
+        {
+          "name": "CRANF4B",
+          "slot": 90,
+          "crc32": "9ac42a3f",
+          "size": [
+            64,
+            32
+          ]
+        }
+      ]
+    }
+  ],
+  "source_lod_contract": "Common original CRAN3_1 geometry in FREE5/FREE6 on tracks0/2/4/5. No CRAN3_1 in FREE7; original detail0-3 and distance/node selection remain unchanged. Improve only the Mega FREE5 geometry; lower-detail models remain canonical.",
+  "geometry_contract": "Replace the six painted wheel discs at the three source axle positions with simple closed raised wheel reliefs; close actual cabin/chassis underside holes. Preserve all other body, boom and deliberately open basket faces, UV motifs, original scale, axle/contact positions, roots, hierarchy and material slots. Small symmetric tyre-side relief may extend the source lateral bounds by at most3cm; measured deltas are recorded in geometry_review. No chassis trimming or added mechanical detail.",
+  "static_exception": "Static FREE scenery work platform, without a selectable Car actor, steering, boom/wheel animation or damage. Preserve original collision and placements. The source-specific three-axle layout and limited tyre relief replace touring-car wheel/body spacing requirements."
+}

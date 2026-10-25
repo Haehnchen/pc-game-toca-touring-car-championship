@@ -1,0 +1,216 @@
+{
+  "version": 1,
+  "package": "MT01 Donington PIT3 wordmark and repeat correction",
+  "identity": {
+    "wordmark": "Shell Oils",
+    "secondary_words": [
+      "HELIX",
+      "ADVANCE"
+    ],
+    "evidence": "Canonical higher-detail DA28PIT2 clearly reads Shell Oils and preserves the same red/white/yellow design family as lower-detail twice-repeated PIT3. Source comparison supports identity; PIT3 is not an exact simple reduction of PIT2.",
+    "source_records": [
+      {
+        "archive": "data/donlfree.bfp",
+        "archive_crc32": "46885a20",
+        "member_index": 5,
+        "member": "OBJECTS.C3D",
+        "member_crc32": "5f670bb9",
+        "texture_slot": 36,
+        "name": "DA28PIT3",
+        "bmp_crc32": "74174611",
+        "bytes": 1592,
+        "size": [
+          64,
+          8
+        ]
+      },
+      {
+        "archive": "data/donlfree.bfp",
+        "archive_crc32": "46885a20",
+        "member_index": 5,
+        "member": "OBJECTS.C3D",
+        "member_crc32": "5f670bb9",
+        "texture_slot": 102,
+        "name": "DA28PIT2",
+        "bmp_crc32": "d9129048",
+        "bytes": 5176,
+        "size": [
+          128,
+          32
+        ]
+      },
+      {
+        "archive": "data/donlfree.bfp",
+        "archive_crc32": "46885a20",
+        "member_index": 6,
+        "member": "LOWOBJ.C3D",
+        "member_crc32": "115e5886",
+        "texture_slot": 31,
+        "name": "DA28PIT3",
+        "bmp_crc32": "74174611",
+        "bytes": 1592
+      },
+      {
+        "archive": "data/donlfree.bfp",
+        "archive_crc32": "46885a20",
+        "member_index": 6,
+        "member": "LOWOBJ.C3D",
+        "member_crc32": "115e5886",
+        "texture_slot": 86,
+        "name": "DA28PIT2",
+        "bmp_crc32": "d9129048",
+        "bytes": 5176
+      },
+      {
+        "archive": "data/donsfree.bfp",
+        "archive_crc32": "f07db8b7",
+        "member_index": 5,
+        "member": "OBJECTS.C3D",
+        "member_crc32": "f60fd8a0",
+        "texture_slot": 31,
+        "name": "DA28PIT3",
+        "bmp_crc32": "74174611",
+        "bytes": 1592
+      },
+      {
+        "archive": "data/donsfree.bfp",
+        "archive_crc32": "f07db8b7",
+        "member_index": 5,
+        "member": "OBJECTS.C3D",
+        "member_crc32": "f60fd8a0",
+        "texture_slot": 106,
+        "name": "DA28PIT2",
+        "bmp_crc32": "d9129048",
+        "bytes": 5176
+      },
+      {
+        "archive": "data/donsfree.bfp",
+        "archive_crc32": "f07db8b7",
+        "member_index": 6,
+        "member": "LOWOBJ.C3D",
+        "member_crc32": "f1caf737",
+        "texture_slot": 20,
+        "name": "DA28PIT3",
+        "bmp_crc32": "74174611",
+        "bytes": 1592
+      },
+      {
+        "archive": "data/donsfree.bfp",
+        "archive_crc32": "f07db8b7",
+        "member_index": 6,
+        "member": "LOWOBJ.C3D",
+        "member_crc32": "f1caf737",
+        "texture_slot": 78,
+        "name": "DA28PIT2",
+        "bmp_crc32": "d9129048",
+        "bytes": 5176
+      }
+    ]
+  },
+  "replacement": {
+    "policy": "Direct replacement of the existing PIT3 file/material, source UVs and geometry unchanged. No extra runtime texture or material slot; source twofold repeat retained.",
+    "output": "assets/models/mega/textures/donington-cbo4-da28pit3.webp",
+    "crc32": "9f022b6e",
+    "size": [
+      512,
+      64
+    ],
+    "bytes": 6850
+  },
+  "generation": {
+    "generated_file": "exec-135c9779-40ae-4a4d-8475-1119477a70a0.png",
+    "generated_crc32": "09241c47",
+    "generated_size": [
+      2170,
+      725
+    ],
+    "reviewed_crop": [
+      0,
+      135,
+      2170,
+      575
+    ],
+    "packing": "Extract one newly painted tile, resize to256x64 with Lanczos, then periodically resample two equal periods into the unchanged static U inset (.02..99) of the existing512x64 PIT3 layout; encode opaque WebPquality80 method6. Periodic continuation fills outer filtering gutters. No original pixels copied. Working tiles are ignored build artifacts, not extra game textures."
+  },
+  "repeat": {
+    "source_label_centers_512": [
+      120,
+      376
+    ],
+    "source_period_pixels_512": 256,
+    "geometry": "Two coincident adjacent15.01088m panels each map U0..1. Each image contains two sponsor repeats, so the complete board has four. Existing UVs, face prefix and material binding retained.",
+    "sampling_inset": [
+      0.019999999552965164,
+      0.9900000095367432
+    ],
+    "active_period": 0.485000004991889,
+    "active_boundaries_pixels": [
+      10.239999771118164,
+      258.56000232696533,
+      506.8800048828125
+    ],
+    "sampling": "CPU equivalent of renderer linear repeat sampling: x=u*512-.5, neighboring texels modulo512.1024 samples per period per row; join contexts compare internal and physical boundaries up to3texels each side."
+  },
+  "consumers": [
+    {
+      "track": 0,
+      "mesh": 10,
+      "name": "DA28CBO4_1",
+      "type": "dcb96e70"
+    },
+    {
+      "track": 0,
+      "mesh": 11,
+      "name": "DA28CBO5_1",
+      "type": "48f9bf63"
+    },
+    {
+      "track": 0,
+      "mesh": 12,
+      "name": "DA28CBO6_1",
+      "type": "d31dc50d"
+    },
+    {
+      "track": 0,
+      "mesh": 51,
+      "name": "DA28CBO3_1",
+      "type": "433a382b"
+    },
+    {
+      "track": 0,
+      "mesh": 52,
+      "name": "DA28CBO2_1",
+      "type": "7c0884d1"
+    },
+    {
+      "track": 5,
+      "mesh": 9,
+      "name": "DA28CBO4_1",
+      "type": "dcb96e70"
+    },
+    {
+      "track": 5,
+      "mesh": 10,
+      "name": "DA28CBO5_1",
+      "type": "48f9bf63"
+    },
+    {
+      "track": 5,
+      "mesh": 11,
+      "name": "DA28CBO6_1",
+      "type": "d31dc50d"
+    },
+    {
+      "track": 5,
+      "mesh": 53,
+      "name": "DA28CBO3_1",
+      "type": "433a382b"
+    },
+    {
+      "track": 5,
+      "mesh": 54,
+      "name": "DA28CBO2_1",
+      "type": "7c0884d1"
+    }
+  ]
+}

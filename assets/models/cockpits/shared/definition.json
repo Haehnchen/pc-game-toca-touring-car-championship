@@ -1,0 +1,15 @@
+{
+  "geometry": "cockpit-shared",
+  "wheel": {
+    "source_crc32": "bb153bcc",
+    "rim_segments": 64,
+    "rim_cross_segments": 12,
+    "rim_radius": 0.287,
+    "rim_tube_radius": 0.026,
+    "spoke_directions_degrees": [180, 90, 270],
+    "hub_bolts": 6
+  },
+  "wiper": {
+    "source_crc32": "a958a105"
+  }
+}

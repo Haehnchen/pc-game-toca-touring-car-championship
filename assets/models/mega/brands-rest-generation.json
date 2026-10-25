@@ -1,0 +1,1971 @@
+{
+  "version": 1,
+  "package": "R03-Brands-Hatch-barriers-people-props-flags",
+  "source": {
+    "track": 3,
+    "path": "data/branfree.bfp",
+    "crc32": "ecc577c7",
+    "bytes": 2645477,
+    "members": {
+      "2": "55003579",
+      "3": "de9680a4",
+      "5": "90ddbd12",
+      "8": "87440301",
+      "9": "46178c94",
+      "10": "de435d9a",
+      "11": "1cccb3ce"
+    }
+  },
+  "source_members": [
+    {
+      "index": 3,
+      "name": "FENCE.C3D",
+      "crc32": "de9680a4"
+    },
+    {
+      "index": 5,
+      "name": "OBJECTS.C3D",
+      "crc32": "90ddbd12"
+    },
+    {
+      "index": 11,
+      "name": "FLAGS.C3D",
+      "crc32": "1cccb3ce"
+    }
+  ],
+  "scope": {
+    "track": 3,
+    "mesh_rows": 62,
+    "exact_types": 59,
+    "raw_bindings": 377,
+    "source_images": 31,
+    "new_images": 22,
+    "reused_images": 7,
+    "native_constants": 2,
+    "types_and_bindings": [
+      {
+        "member": 3,
+        "mesh": 0,
+        "name": "FENCE_1",
+        "type": "47991c5d",
+        "source_mesh_crc32": "0bf36766",
+        "bindings": 1
+      },
+      {
+        "member": 3,
+        "mesh": 1,
+        "name": "FENCE_2",
+        "type": "9571cac6",
+        "source_mesh_crc32": "39623d80",
+        "bindings": 1
+      },
+      {
+        "member": 3,
+        "mesh": 2,
+        "name": "FENCE_3",
+        "type": "2a951eb1",
+        "source_mesh_crc32": "c33037f3",
+        "bindings": 1
+      },
+      {
+        "member": 3,
+        "mesh": 3,
+        "name": "FENCE_4",
+        "type": "6d68da3a",
+        "source_mesh_crc32": "d2120f64",
+        "bindings": 1
+      },
+      {
+        "member": 3,
+        "mesh": 4,
+        "name": "FENCE_5",
+        "type": "ed367e29",
+        "source_mesh_crc32": "e6195dcd",
+        "bindings": 1
+      },
+      {
+        "member": 3,
+        "mesh": 5,
+        "name": "FENCE_6",
+        "type": "97229b8f",
+        "source_mesh_crc32": "966956fd",
+        "bindings": 1
+      },
+      {
+        "member": 3,
+        "mesh": 6,
+        "name": "FENCE_7",
+        "type": "8b3206b2",
+        "source_mesh_crc32": "efd1f750",
+        "bindings": 1
+      },
+      {
+        "member": 3,
+        "mesh": 7,
+        "name": "FENCE_8",
+        "type": "e3083544",
+        "source_mesh_crc32": "1088ca62",
+        "bindings": 1
+      },
+      {
+        "member": 3,
+        "mesh": 8,
+        "name": "FENCE_9",
+        "type": "b707387e",
+        "source_mesh_crc32": "e4bce9bd",
+        "bindings": 1
+      },
+      {
+        "member": 3,
+        "mesh": 9,
+        "name": "FENCE_10",
+        "type": "4559ed67",
+        "source_mesh_crc32": "66c1cc85",
+        "bindings": 1
+      },
+      {
+        "member": 3,
+        "mesh": 10,
+        "name": "FENCE_11",
+        "type": "58a80de4",
+        "source_mesh_crc32": "abdf54a5",
+        "bindings": 1
+      },
+      {
+        "member": 3,
+        "mesh": 11,
+        "name": "FENCE_12",
+        "type": "ca39a6eb",
+        "source_mesh_crc32": "b7f37a45",
+        "bindings": 1
+      },
+      {
+        "member": 3,
+        "mesh": 12,
+        "name": "FENCE_13",
+        "type": "18c3e39b",
+        "source_mesh_crc32": "b4a85a6c",
+        "bindings": 1
+      },
+      {
+        "member": 3,
+        "mesh": 13,
+        "name": "FENCE_14",
+        "type": "ede96a07",
+        "source_mesh_crc32": "73d5c337",
+        "bindings": 1
+      },
+      {
+        "member": 3,
+        "mesh": 14,
+        "name": "FENCE_15",
+        "type": "2d9a0cce",
+        "source_mesh_crc32": "181f8904",
+        "bindings": 1
+      },
+      {
+        "member": 3,
+        "mesh": 15,
+        "name": "FENCE_16",
+        "type": "9b902c5c",
+        "source_mesh_crc32": "dc03998d",
+        "bindings": 1
+      },
+      {
+        "member": 3,
+        "mesh": 16,
+        "name": "FENCE_17",
+        "type": "de4b6596",
+        "source_mesh_crc32": "a2d8de19",
+        "bindings": 1
+      },
+      {
+        "member": 3,
+        "mesh": 17,
+        "name": "FENCE_18",
+        "type": "d3d09c63",
+        "source_mesh_crc32": "8c5e694a",
+        "bindings": 1
+      },
+      {
+        "member": 3,
+        "mesh": 18,
+        "name": "FENCE_19",
+        "type": "d8140e27",
+        "source_mesh_crc32": "7b2fed48",
+        "bindings": 1
+      },
+      {
+        "member": 3,
+        "mesh": 19,
+        "name": "FENCE_20",
+        "type": "e7144bc7",
+        "source_mesh_crc32": "fd313d3b",
+        "bindings": 1
+      },
+      {
+        "member": 3,
+        "mesh": 20,
+        "name": "FENCE_21",
+        "type": "7ce93634",
+        "source_mesh_crc32": "ce55355d",
+        "bindings": 1
+      },
+      {
+        "member": 3,
+        "mesh": 21,
+        "name": "FENCE_22",
+        "type": "6d335660",
+        "source_mesh_crc32": "2262a4aa",
+        "bindings": 1
+      },
+      {
+        "member": 3,
+        "mesh": 22,
+        "name": "FENCE_23",
+        "type": "8ac1e21a",
+        "source_mesh_crc32": "0a0ac6cc",
+        "bindings": 1
+      },
+      {
+        "member": 3,
+        "mesh": 23,
+        "name": "FENCE_24",
+        "type": "426cf981",
+        "source_mesh_crc32": "95b99a24",
+        "bindings": 1
+      },
+      {
+        "member": 3,
+        "mesh": 24,
+        "name": "FENCE_25",
+        "type": "70e2eb9c",
+        "source_mesh_crc32": "023cc0b4",
+        "bindings": 1
+      },
+      {
+        "member": 3,
+        "mesh": 25,
+        "name": "FENCE_26",
+        "type": "554a69d3",
+        "source_mesh_crc32": "901cd44c",
+        "bindings": 1
+      },
+      {
+        "member": 3,
+        "mesh": 26,
+        "name": "FENCE_27",
+        "type": "d7fa18b5",
+        "source_mesh_crc32": "18071a1c",
+        "bindings": 1
+      },
+      {
+        "member": 3,
+        "mesh": 27,
+        "name": "FENCE_28",
+        "type": "7edaf8a8",
+        "source_mesh_crc32": "66f11937",
+        "bindings": 1
+      },
+      {
+        "member": 3,
+        "mesh": 28,
+        "name": "FENCE_29",
+        "type": "0aac2ce1",
+        "source_mesh_crc32": "90ba0d9a",
+        "bindings": 1
+      },
+      {
+        "member": 3,
+        "mesh": 29,
+        "name": "FENCE_30",
+        "type": "616606fd",
+        "source_mesh_crc32": "f1904ac3",
+        "bindings": 1
+      },
+      {
+        "member": 3,
+        "mesh": 30,
+        "name": "FENCE_31",
+        "type": "f4233fab",
+        "source_mesh_crc32": "4c6542d4",
+        "bindings": 1
+      },
+      {
+        "member": 3,
+        "mesh": 31,
+        "name": "FENCE_32",
+        "type": "0e9b315f",
+        "source_mesh_crc32": "ac8bfe62",
+        "bindings": 1
+      },
+      {
+        "member": 3,
+        "mesh": 32,
+        "name": "FENCE_33",
+        "type": "74452db6",
+        "source_mesh_crc32": "13688194",
+        "bindings": 1
+      },
+      {
+        "member": 3,
+        "mesh": 33,
+        "name": "FENCE_34",
+        "type": "c7aec7d1",
+        "source_mesh_crc32": "64d5e625",
+        "bindings": 1
+      },
+      {
+        "member": 3,
+        "mesh": 34,
+        "name": "FENCE_35",
+        "type": "c67ea7f5",
+        "source_mesh_crc32": "020647de",
+        "bindings": 1
+      },
+      {
+        "member": 3,
+        "mesh": 35,
+        "name": "FENCE_36",
+        "type": "e5b21e9b",
+        "source_mesh_crc32": "80ed906a",
+        "bindings": 1
+      },
+      {
+        "member": 3,
+        "mesh": 36,
+        "name": "FENCE_37",
+        "type": "cb8c7219",
+        "source_mesh_crc32": "3f5c4bc3",
+        "bindings": 1
+      },
+      {
+        "member": 3,
+        "mesh": 37,
+        "name": "FENCE_38",
+        "type": "c10f4fe3",
+        "source_mesh_crc32": "69e4a292",
+        "bindings": 1
+      },
+      {
+        "member": 3,
+        "mesh": 38,
+        "name": "FENCE_39",
+        "type": "5d69ac2b",
+        "source_mesh_crc32": "6429c19c",
+        "bindings": 1
+      },
+      {
+        "member": 3,
+        "mesh": 39,
+        "name": "FENCE_40",
+        "type": "98d2a197",
+        "source_mesh_crc32": "cd59f488",
+        "bindings": 1
+      },
+      {
+        "member": 3,
+        "mesh": 40,
+        "name": "FENCE_41",
+        "type": "f646c9db",
+        "source_mesh_crc32": "e4307f8a",
+        "bindings": 1
+      },
+      {
+        "member": 3,
+        "mesh": 41,
+        "name": "FENCE_42",
+        "type": "d295e254",
+        "source_mesh_crc32": "b39c84d5",
+        "bindings": 1
+      },
+      {
+        "member": 3,
+        "mesh": 42,
+        "name": "FENCE_43",
+        "type": "750285a3",
+        "source_mesh_crc32": "efb550b7",
+        "bindings": 1
+      },
+      {
+        "member": 3,
+        "mesh": 43,
+        "name": "FENCE_44",
+        "type": "5e80db60",
+        "source_mesh_crc32": "1daf03f5",
+        "bindings": 1
+      },
+      {
+        "member": 3,
+        "mesh": 44,
+        "name": "FENCE_45",
+        "type": "7195445f",
+        "source_mesh_crc32": "625b3404",
+        "bindings": 1
+      },
+      {
+        "member": 5,
+        "mesh": 7,
+        "name": "BH24TSB_1",
+        "type": "bf258bc7",
+        "source_mesh_crc32": "492ebeaf",
+        "bindings": 1
+      },
+      {
+        "member": 5,
+        "mesh": 8,
+        "name": "BH24TSB1_1",
+        "type": "45b1e745",
+        "source_mesh_crc32": "70aa9ae3",
+        "bindings": 1
+      },
+      {
+        "member": 5,
+        "mesh": 30,
+        "name": "LSPEAKER_1",
+        "type": "cc713565",
+        "source_mesh_crc32": "8bb15752",
+        "bindings": 1
+      },
+      {
+        "member": 5,
+        "mesh": 43,
+        "name": "PEOBACK_1",
+        "type": "7d9050fa",
+        "source_mesh_crc32": "5567d3db",
+        "bindings": 125
+      },
+      {
+        "member": 5,
+        "mesh": 44,
+        "name": "LPEOP5_1",
+        "type": "f45c3e27",
+        "source_mesh_crc32": "b409f869",
+        "bindings": 60
+      },
+      {
+        "member": 5,
+        "mesh": 46,
+        "name": "LBIN1_1",
+        "type": "172abd9b",
+        "source_mesh_crc32": "561d3aff",
+        "bindings": 3
+      },
+      {
+        "member": 5,
+        "mesh": 48,
+        "name": "LMARSH2_1",
+        "type": "a6f695a6",
+        "source_mesh_crc32": "4509bfa7",
+        "bindings": 1
+      },
+      {
+        "member": 5,
+        "mesh": 49,
+        "name": "LMARSH3_1",
+        "type": "dabf01fc",
+        "source_mesh_crc32": "2250e0d2",
+        "bindings": 7
+      },
+      {
+        "member": 5,
+        "mesh": 51,
+        "name": "PCREWS_1",
+        "type": "6edd8568",
+        "source_mesh_crc32": "c5b680eb",
+        "bindings": 7
+      },
+      {
+        "member": 11,
+        "mesh": 0,
+        "name": "UK_FLG1_1",
+        "type": "ebcf6da3",
+        "source_mesh_crc32": "156a02e8",
+        "bindings": 4
+      },
+      {
+        "member": 11,
+        "mesh": 1,
+        "name": "UK_FLG1_2",
+        "type": "da7055a0",
+        "source_mesh_crc32": "679a1007",
+        "bindings": 0
+      },
+      {
+        "member": 11,
+        "mesh": 2,
+        "name": "UK_FLG1_3",
+        "type": "dc8b315c",
+        "source_mesh_crc32": "f5015524",
+        "bindings": 10
+      },
+      {
+        "member": 11,
+        "mesh": 3,
+        "name": "UK_FLG1_4",
+        "type": "11e18d37",
+        "source_mesh_crc32": "1f6c84ac",
+        "bindings": 50
+      },
+      {
+        "member": 11,
+        "mesh": 4,
+        "name": "UK_FLG2_1",
+        "type": "c5194862",
+        "source_mesh_crc32": "9ee732c6",
+        "bindings": 0
+      },
+      {
+        "member": 11,
+        "mesh": 5,
+        "name": "UK_FLG2_2",
+        "type": "da7055a0",
+        "source_mesh_crc32": "adc3a1de",
+        "bindings": 0
+      },
+      {
+        "member": 11,
+        "mesh": 6,
+        "name": "UK_FLG2_3",
+        "type": "dc8b315c",
+        "source_mesh_crc32": "3f58e4fd",
+        "bindings": 11
+      },
+      {
+        "member": 11,
+        "mesh": 7,
+        "name": "UK_FLG2_4",
+        "type": "11e18d37",
+        "source_mesh_crc32": "d5353575",
+        "bindings": 51
+      }
+    ],
+    "exact_type_aliases": {
+      "track": 9,
+      "types": [
+        "dc8b315c",
+        "11e18d37"
+      ],
+      "mesh_rows": 22,
+      "raw_bindings": 44,
+      "limitation": "Accepts these two exact UK phase mesh types only; other Lavaland flag types, motifs and placements remain open."
+    }
+  },
+  "geometry": "All77 bundles retain geometry, normals, UVs, nodes, material slots and placement.45 existing simple fence bodies/source-prefix recipes and nine source-exact object meshes remain unchanged. PCREWS uses adjacent same-facing left/right cards, not front/back skins. No extra body detail or texture layers.",
+  "materials": [
+    {
+      "name": "CB-TOP",
+      "source_crc32": "10f65e90",
+      "source_size": [
+        64,
+        16
+      ],
+      "source_palette_crc32": "4f1deb08",
+      "output": {
+        "path": "assets/models/mega/textures/brands-rest-cb-top.webp",
+        "crc32": "bd6d728b",
+        "bytes": 2586
+      },
+      "generated": {
+        "path": "build/brands-rest/CB-TOP-generated.png",
+        "crc32": "6d7ae832",
+        "size": [
+          2170,
+          725
+        ]
+      },
+      "crop": [
+        0,
+        114,
+        2170,
+        609
+      ],
+      "export": {
+        "path": "assets/models/mega/textures/brands-rest-cb-top.webp",
+        "crc32": "bd6d728b",
+        "bytes": 2586,
+        "size": [
+          512,
+          128
+        ],
+        "webp_quality": 70,
+        "webp_method": 6
+      },
+      "alpha": {
+        "exact_source_black_key": true,
+        "crc32": "f5617333",
+        "black_key_source_pixels": 580
+      }
+    },
+    {
+      "name": "FLATRUM2",
+      "source_crc32": "e13700f2",
+      "source_size": [
+        64,
+        32
+      ],
+      "source_palette_crc32": "4f1deb08",
+      "output": {
+        "path": "assets/models/mega/textures/brands-rest-flatrum2.webp",
+        "crc32": "8b11723c",
+        "bytes": 11892
+      },
+      "generated": {
+        "path": "build/brands-rest/FLATRUM2-generated.png",
+        "crc32": "eae6890f",
+        "size": [
+          1774,
+          887
+        ]
+      },
+      "crop": [
+        0,
+        0,
+        1774,
+        887
+      ],
+      "export": {
+        "path": "assets/models/mega/textures/brands-rest-flatrum2.webp",
+        "crc32": "8b11723c",
+        "bytes": 11892,
+        "size": [
+          512,
+          256
+        ],
+        "webp_quality": 70,
+        "webp_method": 6
+      },
+      "alpha": {
+        "exact_source_black_key": true,
+        "crc32": "154803cc",
+        "black_key_source_pixels": 0
+      }
+    },
+    {
+      "name": "CBF",
+      "source_crc32": "2acd8d58",
+      "source_size": [
+        64,
+        64
+      ],
+      "source_palette_crc32": "4f1deb08",
+      "output": {
+        "path": "assets/models/mega/textures/brands-rest-cbf.webp",
+        "crc32": "3f20e993",
+        "bytes": 15576
+      },
+      "generated": {
+        "path": "build/brands-rest/CBF-generated.png",
+        "crc32": "655a5d69",
+        "size": [
+          1254,
+          1254
+        ]
+      },
+      "crop": [
+        0,
+        0,
+        1254,
+        1254
+      ],
+      "export": {
+        "path": "assets/models/mega/textures/brands-rest-cbf.webp",
+        "crc32": "3f20e993",
+        "bytes": 15576,
+        "size": [
+          512,
+          512
+        ],
+        "webp_quality": 70,
+        "webp_method": 6
+      },
+      "alpha": {
+        "exact_source_black_key": true,
+        "crc32": "8b9a0cdf",
+        "black_key_source_pixels": 372
+      }
+    },
+    {
+      "name": "BH24TEN1",
+      "source_crc32": "c9a19214",
+      "source_size": [
+        64,
+        16
+      ],
+      "source_palette_crc32": "c2ef88fe",
+      "output": {
+        "path": "assets/models/mega/textures/brands-rest-bh24ten1.webp",
+        "crc32": "e45e116d",
+        "bytes": 6334
+      },
+      "generated": {
+        "path": "build/brands-rest/BH24TEN1-generated.png",
+        "crc32": "bff8e8a9",
+        "size": [
+          2170,
+          725
+        ]
+      },
+      "crop": [
+        0,
+        88,
+        2170,
+        635
+      ],
+      "export": {
+        "path": "assets/models/mega/textures/brands-rest-bh24ten1.webp",
+        "crc32": "e45e116d",
+        "bytes": 6334,
+        "size": [
+          512,
+          128
+        ],
+        "webp_quality": 70,
+        "webp_method": 6
+      },
+      "alpha": {
+        "exact_source_black_key": true,
+        "crc32": "deab7e4e",
+        "black_key_source_pixels": 0
+      }
+    },
+    {
+      "name": "BH24TEN2",
+      "source_crc32": "7319d9e8",
+      "source_size": [
+        32,
+        16
+      ],
+      "source_palette_crc32": "c2ef88fe",
+      "output": {
+        "path": "assets/models/mega/textures/brands-rest-bh24ten2.webp",
+        "crc32": "8a96fc23",
+        "bytes": 3760
+      },
+      "generated": {
+        "path": "build/brands-rest/BH24TEN2-generated.png",
+        "crc32": "ae238fed",
+        "size": [
+          1774,
+          887
+        ]
+      },
+      "crop": [
+        0,
+        0,
+        1774,
+        887
+      ],
+      "export": {
+        "path": "assets/models/mega/textures/brands-rest-bh24ten2.webp",
+        "crc32": "8a96fc23",
+        "bytes": 3760,
+        "size": [
+          512,
+          256
+        ],
+        "webp_quality": 70,
+        "webp_method": 6
+      },
+      "alpha": {
+        "exact_source_black_key": true,
+        "crc32": "154803cc",
+        "black_key_source_pixels": 0
+      }
+    },
+    {
+      "name": "BH24TEN3",
+      "source_crc32": "408f9afa",
+      "source_size": [
+        32,
+        16
+      ],
+      "source_palette_crc32": "c2ef88fe",
+      "output": {
+        "path": "assets/models/mega/textures/brands-rest-bh24ten3.webp",
+        "crc32": "546f4cff",
+        "bytes": 3838
+      },
+      "generated": {
+        "path": "build/brands-rest/BH24TEN3-generated.png",
+        "crc32": "d158e60d",
+        "size": [
+          1774,
+          887
+        ]
+      },
+      "crop": [
+        0,
+        0,
+        1774,
+        887
+      ],
+      "export": {
+        "path": "assets/models/mega/textures/brands-rest-bh24ten3.webp",
+        "crc32": "546f4cff",
+        "bytes": 3838,
+        "size": [
+          512,
+          256
+        ],
+        "webp_quality": 70,
+        "webp_method": 6
+      },
+      "alpha": {
+        "exact_source_black_key": true,
+        "crc32": "154803cc",
+        "black_key_source_pixels": 0
+      }
+    },
+    {
+      "name": "BH24TEN4",
+      "source_crc32": "9a06fa37",
+      "source_size": [
+        32,
+        16
+      ],
+      "source_palette_crc32": "c2ef88fe",
+      "output": {
+        "path": "assets/models/mega/textures/brands-rest-bh24ten4.webp",
+        "crc32": "f27f75ac",
+        "bytes": 6742
+      },
+      "generated": {
+        "path": "build/brands-rest/BH24TEN4-generated.png",
+        "crc32": "6082b048",
+        "size": [
+          1774,
+          887
+        ]
+      },
+      "crop": [
+        0,
+        0,
+        1774,
+        887
+      ],
+      "export": {
+        "path": "assets/models/mega/textures/brands-rest-bh24ten4.webp",
+        "crc32": "f27f75ac",
+        "bytes": 6742,
+        "size": [
+          512,
+          256
+        ],
+        "webp_quality": 70,
+        "webp_method": 6
+      },
+      "alpha": {
+        "exact_source_black_key": true,
+        "crc32": "154803cc",
+        "black_key_source_pixels": 0
+      }
+    },
+    {
+      "name": "BH24TNT1",
+      "source_crc32": "b07d8945",
+      "source_size": [
+        32,
+        16
+      ],
+      "source_palette_crc32": "c2ef88fe",
+      "output": {
+        "path": "assets/models/mega/textures/brands-rest-bh24tnt1.webp",
+        "crc32": "c4767d18",
+        "bytes": 6378
+      },
+      "generated": {
+        "path": "build/brands-rest/BH24TNT1-generated.png",
+        "crc32": "233e6f10",
+        "size": [
+          1774,
+          887
+        ]
+      },
+      "crop": [
+        0,
+        0,
+        1774,
+        887
+      ],
+      "export": {
+        "path": "assets/models/mega/textures/brands-rest-bh24tnt1.webp",
+        "crc32": "c4767d18",
+        "bytes": 6378,
+        "size": [
+          512,
+          256
+        ],
+        "webp_quality": 70,
+        "webp_method": 6
+      },
+      "alpha": {
+        "exact_source_black_key": true,
+        "crc32": "154803cc",
+        "black_key_source_pixels": 0
+      }
+    },
+    {
+      "name": "BH24TNT3",
+      "source_crc32": "4ccee2fe",
+      "source_size": [
+        32,
+        32
+      ],
+      "source_palette_crc32": "c2ef88fe",
+      "output": {
+        "path": "assets/models/mega/textures/brands-rest-bh24tnt3.webp",
+        "crc32": "637fb8f4",
+        "bytes": 14524
+      },
+      "generated": {
+        "path": "build/brands-rest/BH24TNT3-generated.png",
+        "crc32": "4dcdf14f",
+        "size": [
+          1254,
+          1254
+        ]
+      },
+      "crop": [
+        0,
+        0,
+        1254,
+        1254
+      ],
+      "export": {
+        "path": "assets/models/mega/textures/brands-rest-bh24tnt3.webp",
+        "crc32": "637fb8f4",
+        "bytes": 14524,
+        "size": [
+          512,
+          512
+        ],
+        "webp_quality": 70,
+        "webp_method": 6
+      },
+      "alpha": {
+        "exact_source_black_key": true,
+        "crc32": "b7094978",
+        "black_key_source_pixels": 0
+      }
+    },
+    {
+      "name": "BH24TNT4",
+      "source_crc32": "63e913a6",
+      "source_size": [
+        64,
+        32
+      ],
+      "source_palette_crc32": "c2ef88fe",
+      "output": {
+        "path": "assets/models/mega/textures/brands-rest-bh24tnt4.webp",
+        "crc32": "2fabbc8d",
+        "bytes": 6326
+      },
+      "generated": {
+        "path": "build/brands-rest/BH24TNT4-generated.png",
+        "crc32": "fb6f2566",
+        "size": [
+          1774,
+          887
+        ]
+      },
+      "crop": [
+        0,
+        0,
+        1774,
+        887
+      ],
+      "export": {
+        "path": "assets/models/mega/textures/brands-rest-bh24tnt4.webp",
+        "crc32": "2fabbc8d",
+        "bytes": 6326,
+        "size": [
+          512,
+          256
+        ],
+        "webp_quality": 70,
+        "webp_method": 6
+      },
+      "alpha": {
+        "exact_source_black_key": true,
+        "crc32": "154803cc",
+        "black_key_source_pixels": 0
+      }
+    },
+    {
+      "name": "BH24TNT6",
+      "source_crc32": "ff9dcbb7",
+      "source_size": [
+        32,
+        16
+      ],
+      "source_palette_crc32": "c2ef88fe",
+      "output": {
+        "path": "assets/models/mega/textures/brands-rest-bh24tnt6.webp",
+        "crc32": "9acf46d6",
+        "bytes": 6082
+      },
+      "generated": {
+        "path": "build/brands-rest/BH24TNT6-generated.png",
+        "crc32": "a55d4e27",
+        "size": [
+          1774,
+          887
+        ]
+      },
+      "crop": [
+        0,
+        0,
+        1774,
+        887
+      ],
+      "export": {
+        "path": "assets/models/mega/textures/brands-rest-bh24tnt6.webp",
+        "crc32": "9acf46d6",
+        "bytes": 6082,
+        "size": [
+          512,
+          256
+        ],
+        "webp_quality": 70,
+        "webp_method": 6
+      },
+      "alpha": {
+        "exact_source_black_key": true,
+        "crc32": "154803cc",
+        "black_key_source_pixels": 0
+      },
+      "layout_edits": [
+        {
+          "name": "BH24TNT6",
+          "source_crc32": "ff9dcbb7",
+          "source_size": [
+            32,
+            16
+          ],
+          "references": [
+            "build/brands-rest/BH24TNT6-source8x.png",
+            "exec-d169568e-ad2c-4de0-933b-371d01ee2523.png"
+          ],
+          "image": "assets/models/mega/textures/brands-rest-bh24tnt6.webp",
+          "generated_source": "exec-81ed3b97-0789-49d6-ba7a-a7ca52a3a545.png",
+          "prior_edit": {
+            "name": "BH24TNT6",
+            "source_crc32": "ff9dcbb7",
+            "source_size": [
+              32,
+              16
+            ],
+            "references": [
+              "build/brands-rest/BH24TNT6-source8x.png",
+              "exec-408ae148-8ace-40c9-8e4c-9e0532d0b331.png"
+            ],
+            "image": "assets/models/mega/textures/brands-rest-bh24tnt6.webp",
+            "generated_source": "exec-d169568e-ad2c-4de0-933b-371d01ee2523.png"
+          },
+          "reference_files": [
+            {
+              "path": "build/brands-rest/BH24TNT6-source8x.png",
+              "crc32": "21943dc4",
+              "bytes": 1210
+            },
+            {
+              "path": "exec-d169568e-ad2c-4de0-933b-371d01ee2523.png",
+              "crc32": "ac19dff2",
+              "bytes": 2690922
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "BH24TNT5",
+      "source_crc32": "b9f8a268",
+      "source_size": [
+        64,
+        16
+      ],
+      "source_palette_crc32": "c2ef88fe",
+      "output": {
+        "path": "assets/models/mega/textures/brands-rest-bh24tnt5.webp",
+        "crc32": "bbe9739f",
+        "bytes": 6606
+      },
+      "generated": {
+        "path": "build/brands-rest/BH24TNT5-generated.png",
+        "crc32": "789b3464",
+        "size": [
+          2169,
+          725
+        ]
+      },
+      "crop": [
+        0,
+        109,
+        2169,
+        617
+      ],
+      "export": {
+        "path": "assets/models/mega/textures/brands-rest-bh24tnt5.webp",
+        "crc32": "bbe9739f",
+        "bytes": 6606,
+        "size": [
+          512,
+          128
+        ],
+        "webp_quality": 70,
+        "webp_method": 6
+      },
+      "alpha": {
+        "exact_source_black_key": true,
+        "crc32": "deab7e4e",
+        "black_key_source_pixels": 0
+      }
+    },
+    {
+      "name": "BH24TNT2",
+      "source_crc32": "2f976f35",
+      "source_size": [
+        32,
+        16
+      ],
+      "source_palette_crc32": "c2ef88fe",
+      "output": {
+        "path": "assets/models/mega/textures/brands-rest-bh24tnt2.webp",
+        "crc32": "8150670b",
+        "bytes": 7072
+      },
+      "generated": {
+        "path": "build/brands-rest/BH24TNT2-generated.png",
+        "crc32": "4195941c",
+        "size": [
+          1774,
+          887
+        ]
+      },
+      "crop": [
+        0,
+        0,
+        1774,
+        887
+      ],
+      "export": {
+        "path": "assets/models/mega/textures/brands-rest-bh24tnt2.webp",
+        "crc32": "8150670b",
+        "bytes": 7072,
+        "size": [
+          512,
+          256
+        ],
+        "webp_quality": 70,
+        "webp_method": 6
+      },
+      "alpha": {
+        "exact_source_black_key": true,
+        "crc32": "154803cc",
+        "black_key_source_pixels": 0
+      }
+    },
+    {
+      "name": "LSPEAKR3",
+      "source_crc32": "7973f1c3",
+      "source_size": [
+        4,
+        32
+      ],
+      "source_palette_crc32": "c2ef88fe",
+      "output": {
+        "path": "assets/models/mega/textures/brands-rest-lspeakr3.webp",
+        "crc32": "f6b67fbd",
+        "bytes": 820
+      },
+      "generated": {
+        "path": "build/brands-rest/LSPEAKR3-generated.png",
+        "crc32": "65ecb0b4",
+        "size": [
+          725,
+          2170
+        ]
+      },
+      "crop": [
+        229,
+        0,
+        496,
+        2170
+      ],
+      "export": {
+        "path": "assets/models/mega/textures/brands-rest-lspeakr3.webp",
+        "crc32": "f6b67fbd",
+        "bytes": 820,
+        "size": [
+          64,
+          512
+        ],
+        "webp_quality": 70,
+        "webp_method": 6
+      },
+      "alpha": {
+        "exact_source_black_key": true,
+        "crc32": "1b43eabd",
+        "black_key_source_pixels": 0
+      }
+    },
+    {
+      "name": "LSPEAKR2",
+      "source_crc32": "e2b666bb",
+      "source_size": [
+        32,
+        32
+      ],
+      "source_palette_crc32": "c2ef88fe",
+      "output": {
+        "path": "assets/models/mega/textures/brands-rest-lspeakr2.webp",
+        "crc32": "7618abdf",
+        "bytes": 10586
+      },
+      "generated": {
+        "path": "build/brands-rest/LSPEAKR2-generated.png",
+        "crc32": "388ad864",
+        "size": [
+          1254,
+          1254
+        ]
+      },
+      "crop": [
+        0,
+        0,
+        1254,
+        1254
+      ],
+      "export": {
+        "path": "assets/models/mega/textures/brands-rest-lspeakr2.webp",
+        "crc32": "7618abdf",
+        "bytes": 10586,
+        "size": [
+          512,
+          512
+        ],
+        "webp_quality": 70,
+        "webp_method": 6
+      },
+      "alpha": {
+        "exact_source_black_key": true,
+        "crc32": "b7094978",
+        "black_key_source_pixels": 0
+      }
+    },
+    {
+      "name": "PEO-BACK",
+      "source_crc32": "46907a75",
+      "source_size": [
+        128,
+        32
+      ],
+      "source_palette_crc32": "c2ef88fe",
+      "output": {
+        "path": "assets/models/mega/textures/brands-rest-peo-back.webp",
+        "crc32": "c6f3e272",
+        "bytes": 9942
+      },
+      "generated": {
+        "path": "build/brands-rest/PEO-BACK-generated.png",
+        "crc32": "aa8bbb6c",
+        "size": [
+          2170,
+          725
+        ]
+      },
+      "crop": [
+        0,
+        85,
+        2170,
+        639
+      ],
+      "export": {
+        "path": "assets/models/mega/textures/brands-rest-peo-back.webp",
+        "crc32": "c6f3e272",
+        "bytes": 9942,
+        "size": [
+          512,
+          128
+        ],
+        "webp_quality": 70,
+        "webp_method": 6
+      },
+      "alpha": {
+        "exact_source_black_key": true,
+        "crc32": "7e6f8821",
+        "black_key_source_pixels": 1885
+      }
+    },
+    {
+      "name": "LPEOPLE5",
+      "source_crc32": "2430a801",
+      "source_size": [
+        128,
+        64
+      ],
+      "source_palette_crc32": "c2ef88fe",
+      "output": {
+        "path": "assets/models/mega/textures/brands-rest-lpeople5.webp",
+        "crc32": "2967681d",
+        "bytes": 13752
+      },
+      "generated": {
+        "path": "build/brands-rest/LPEOPLE5-generated.png",
+        "crc32": "3d3b7538",
+        "size": [
+          1774,
+          887
+        ]
+      },
+      "crop": [
+        0,
+        0,
+        1774,
+        887
+      ],
+      "export": {
+        "path": "assets/models/mega/textures/brands-rest-lpeople5.webp",
+        "crc32": "2967681d",
+        "bytes": 13752,
+        "size": [
+          512,
+          256
+        ],
+        "webp_quality": 70,
+        "webp_method": 6
+      },
+      "alpha": {
+        "exact_source_black_key": true,
+        "crc32": "88e53214",
+        "black_key_source_pixels": 3221
+      }
+    },
+    {
+      "name": "LMARSH2",
+      "source_crc32": "1b5bc6d3",
+      "source_size": [
+        16,
+        32
+      ],
+      "source_palette_crc32": "c2ef88fe",
+      "output": {
+        "path": "assets/models/mega/textures/brands-rest-lmarsh2.webp",
+        "crc32": "1c9e413a",
+        "bytes": 5770
+      },
+      "generated": {
+        "path": "build/brands-rest/LMARSH2-generated.png",
+        "crc32": "31145387",
+        "size": [
+          887,
+          1774
+        ]
+      },
+      "crop": [
+        0,
+        0,
+        887,
+        1774
+      ],
+      "export": {
+        "path": "assets/models/mega/textures/brands-rest-lmarsh2.webp",
+        "crc32": "1c9e413a",
+        "bytes": 5770,
+        "size": [
+          256,
+          512
+        ],
+        "webp_quality": 70,
+        "webp_method": 6
+      },
+      "alpha": {
+        "exact_source_black_key": true,
+        "crc32": "f454b8dd",
+        "black_key_source_pixels": 234
+      }
+    },
+    {
+      "name": "LMARSH3",
+      "source_crc32": "46129dd8",
+      "source_size": [
+        32,
+        32
+      ],
+      "source_palette_crc32": "c2ef88fe",
+      "output": {
+        "path": "assets/models/mega/textures/brands-rest-lmarsh3.webp",
+        "crc32": "a9e0fb60",
+        "bytes": 17584
+      },
+      "generated": {
+        "path": "build/brands-rest/LMARSH3-generated.png",
+        "crc32": "a5077477",
+        "size": [
+          1254,
+          1254
+        ]
+      },
+      "crop": [
+        0,
+        0,
+        1254,
+        1254
+      ],
+      "export": {
+        "path": "assets/models/mega/textures/brands-rest-lmarsh3.webp",
+        "crc32": "a9e0fb60",
+        "bytes": 17584,
+        "size": [
+          512,
+          512
+        ],
+        "webp_quality": 70,
+        "webp_method": 6
+      },
+      "alpha": {
+        "exact_source_black_key": true,
+        "crc32": "dd894208",
+        "black_key_source_pixels": 426
+      }
+    },
+    {
+      "name": "PCREW1",
+      "source_crc32": "2b900d61",
+      "source_size": [
+        64,
+        64
+      ],
+      "source_palette_crc32": "c2ef88fe",
+      "output": {
+        "path": "assets/models/mega/textures/brands-rest-pcrew1.webp",
+        "crc32": "4e402f28",
+        "bytes": 19524
+      },
+      "generated": {
+        "path": "build/brands-rest/PCREW1-generated.png",
+        "crc32": "d6cbff58",
+        "size": [
+          1254,
+          1254
+        ]
+      },
+      "crop": [
+        0,
+        0,
+        1254,
+        1254
+      ],
+      "export": {
+        "path": "assets/models/mega/textures/brands-rest-pcrew1.webp",
+        "crc32": "4e402f28",
+        "bytes": 19524,
+        "size": [
+          512,
+          512
+        ],
+        "webp_quality": 70,
+        "webp_method": 6
+      },
+      "alpha": {
+        "exact_source_black_key": true,
+        "crc32": "fe821e64",
+        "black_key_source_pixels": 1608
+      }
+    },
+    {
+      "name": "PCREW2",
+      "source_crc32": "7ffa7809",
+      "source_size": [
+        64,
+        64
+      ],
+      "source_palette_crc32": "c2ef88fe",
+      "output": {
+        "path": "assets/models/mega/textures/brands-rest-pcrew2.webp",
+        "crc32": "ec051a82",
+        "bytes": 19258
+      },
+      "generated": {
+        "path": "build/brands-rest/PCREW2-generated.png",
+        "crc32": "877257dc",
+        "size": [
+          1254,
+          1254
+        ]
+      },
+      "crop": [
+        0,
+        0,
+        1254,
+        1254
+      ],
+      "export": {
+        "path": "assets/models/mega/textures/brands-rest-pcrew2.webp",
+        "crc32": "ec051a82",
+        "bytes": 19258,
+        "size": [
+          512,
+          512
+        ],
+        "webp_quality": 70,
+        "webp_method": 6
+      },
+      "alpha": {
+        "exact_source_black_key": true,
+        "crc32": "715e5a23",
+        "black_key_source_pixels": 1743
+      }
+    },
+    {
+      "name": "LBINB",
+      "source_crc32": "0a249966",
+      "source_size": [
+        64,
+        32
+      ],
+      "source_palette_crc32": "c2ef88fe",
+      "output": {
+        "path": "assets/models/mega/textures/brands-rest-lbinb.webp",
+        "crc32": "170a7d5e",
+        "bytes": 4796
+      },
+      "generated": {
+        "path": "build/brands-rest/LBINB-generated.png",
+        "crc32": "ed73dc23",
+        "size": [
+          1774,
+          887
+        ]
+      },
+      "crop": [
+        0,
+        0,
+        1774,
+        887
+      ],
+      "export": {
+        "path": "assets/models/mega/textures/brands-rest-lbinb.webp",
+        "crc32": "170a7d5e",
+        "bytes": 4796,
+        "size": [
+          512,
+          256
+        ],
+        "webp_quality": 70,
+        "webp_method": 6
+      },
+      "alpha": {
+        "exact_source_black_key": true,
+        "crc32": "154803cc",
+        "black_key_source_pixels": 0
+      },
+      "lettering_reconstruction": "CLEAN / AWAY is restrained contextual reconstruction after canonical Brands/Knockhill/Croft comparison; exact transcription unconfirmed. Source linked-loop mark preserved."
+    }
+  ],
+  "reused_materials": [
+    {
+      "name": "LIFLAGA2",
+      "source_crc32": "b221c277",
+      "image": "textures/thruxton-rest-liflaga2.webp",
+      "crc32": "944a88dc",
+      "size": [
+        512,
+        512
+      ],
+      "alpha_exact_nearest_source_black_key": true,
+      "source_rgb_alias_exact": false,
+      "review": "Existing source-faithful same motif/phase artwork; preserve prior file bytes and documented encoding recipe.",
+      "selection": "Main source/reuse comparison accepted; unchanged authored bytes selected.",
+      "donor": {
+        "path": "data/thrufree.bfp",
+        "member": 11,
+        "source_crc32": "e0c481ca"
+      },
+      "donor_mapping": {
+        "names": [
+          "LIFLAGA2"
+        ],
+        "source_size": [
+          32,
+          32
+        ],
+        "source_crc32": [
+          "e0c481ca"
+        ],
+        "image": "textures/thruxton-rest-liflaga2.webp",
+        "description": "Direct source-faithful Thruxton barriers, spectators and flag phases; see thruxton-rest-generation.json",
+        "webp_quality": 70,
+        "webp_method": 6
+      },
+      "generation_provenance": {
+        "path": "assets/models/mega/thruxton-rest-generation.json",
+        "crc32": "0535ef89"
+      },
+      "source_equal_rgb_texels": 435,
+      "source_total_texels": 1024,
+      "donor_palette_crc32": "1a8f9cf1",
+      "source_alpha_different_texels": 0,
+      "coarse_black_red_white_navy_motif_class_equal_texels": 986,
+      "phase_contract": "Same named source phase, full source alpha identical, same UK flag red/white/navy motif footprint; palette differences do not introduce a new phase.",
+      "output": {
+        "path": "assets/models/mega/textures/thruxton-rest-liflaga2.webp",
+        "crc32": "944a88dc",
+        "bytes": 16580
+      },
+      "unchanged": true
+    },
+    {
+      "name": "LIFLAGA1",
+      "source_crc32": "2dc93a9b",
+      "image": "textures/thruxton-rest-liflaga1.webp",
+      "crc32": "5b2b47e0",
+      "size": [
+        512,
+        512
+      ],
+      "alpha_exact_nearest_source_black_key": true,
+      "source_rgb_alias_exact": false,
+      "review": "Existing source-faithful same motif/phase artwork; preserve prior file bytes and documented encoding recipe.",
+      "selection": "Main source/reuse comparison accepted; unchanged authored bytes selected.",
+      "donor": {
+        "path": "data/thrufree.bfp",
+        "member": 11,
+        "source_crc32": "38e7c836"
+      },
+      "donor_mapping": {
+        "names": [
+          "LIFLAGA1"
+        ],
+        "source_size": [
+          32,
+          32
+        ],
+        "source_crc32": [
+          "38e7c836"
+        ],
+        "image": "textures/thruxton-rest-liflaga1.webp",
+        "description": "Direct source-faithful Thruxton barriers, spectators and flag phases; see thruxton-rest-generation.json",
+        "webp_quality": 70,
+        "webp_method": 6
+      },
+      "generation_provenance": {
+        "path": "assets/models/mega/thruxton-rest-generation.json",
+        "crc32": "0535ef89"
+      },
+      "source_equal_rgb_texels": 328,
+      "source_total_texels": 1024,
+      "donor_palette_crc32": "1a8f9cf1",
+      "source_alpha_different_texels": 0,
+      "coarse_black_red_white_navy_motif_class_equal_texels": 995,
+      "phase_contract": "Same named source phase, full source alpha identical, same UK flag red/white/navy motif footprint; palette differences do not introduce a new phase.",
+      "output": {
+        "path": "assets/models/mega/textures/thruxton-rest-liflaga1.webp",
+        "crc32": "5b2b47e0",
+        "bytes": 16740
+      },
+      "unchanged": true
+    },
+    {
+      "name": "TYRES",
+      "source_crc32": "8424b60c",
+      "image": "textures/thruxton-rest-tyres.webp",
+      "crc32": "c13f7d32",
+      "size": [
+        512,
+        128
+      ],
+      "alpha_exact_nearest_source_black_key": true,
+      "source_rgb_alias_exact": false,
+      "review": "Existing source-faithful same motif/phase artwork; preserve prior file bytes and documented encoding recipe.",
+      "selection": "Main source/reuse comparison accepted; unchanged authored bytes selected.",
+      "donor": {
+        "path": "data/thrufree.bfp",
+        "member": 3,
+        "source_crc32": "7db4ebe9"
+      },
+      "donor_mapping": {
+        "names": [
+          "TYRES"
+        ],
+        "source_size": [
+          128,
+          32
+        ],
+        "source_crc32": [
+          "7db4ebe9"
+        ],
+        "image": "textures/thruxton-rest-tyres.webp",
+        "description": "Direct source-faithful Thruxton barriers, spectators and flag phases; see thruxton-rest-generation.json",
+        "webp_quality": 70,
+        "webp_method": 6
+      },
+      "generation_provenance": {
+        "path": "assets/models/mega/thruxton-rest-generation.json",
+        "crc32": "0535ef89"
+      },
+      "source_equal_rgb_texels": 869,
+      "source_total_texels": 4096,
+      "donor_palette_crc32": "cb877547",
+      "source_alpha_different_texels": 0,
+      "phase_contract": "Eight horizontal tyre periods in two rows with the same clipped edge phase; original generic six-period mappings are excluded.",
+      "output": {
+        "path": "assets/models/mega/textures/thruxton-rest-tyres.webp",
+        "crc32": "c13f7d32",
+        "bytes": 6488
+      },
+      "unchanged": true
+    },
+    {
+      "name": "LTYRTOP",
+      "source_crc32": "170a24df",
+      "image": "textures/thruxton-rest-ltyrtop.webp",
+      "crc32": "af48ff39",
+      "size": [
+        512,
+        128
+      ],
+      "alpha_exact_nearest_source_black_key": true,
+      "source_rgb_alias_exact": false,
+      "review": "Existing source-faithful same motif/phase artwork; preserve prior file bytes and documented encoding recipe.",
+      "selection": "Main source/reuse comparison accepted; unchanged authored bytes selected.",
+      "donor": {
+        "path": "data/thrufree.bfp",
+        "member": 3,
+        "source_crc32": "26bd643d"
+      },
+      "donor_mapping": {
+        "names": [
+          "LTYRTOP"
+        ],
+        "source_size": [
+          128,
+          32
+        ],
+        "source_crc32": [
+          "26bd643d"
+        ],
+        "image": "textures/thruxton-rest-ltyrtop.webp",
+        "description": "Direct source-faithful Thruxton barriers, spectators and flag phases; see thruxton-rest-generation.json",
+        "webp_quality": 70,
+        "webp_method": 6
+      },
+      "generation_provenance": {
+        "path": "assets/models/mega/thruxton-rest-generation.json",
+        "crc32": "0535ef89"
+      },
+      "source_equal_rgb_texels": 2622,
+      "source_total_texels": 4096,
+      "donor_palette_crc32": "cb877547",
+      "source_alpha_different_texels": 0,
+      "phase_contract": "Eight horizontal tyre periods in two rows with the same clipped edge phase; original generic six-period mappings are excluded.",
+      "output": {
+        "path": "assets/models/mega/textures/thruxton-rest-ltyrtop.webp",
+        "crc32": "af48ff39",
+        "bytes": 5430
+      },
+      "unchanged": true
+    },
+    {
+      "name": "MOBIL",
+      "source_crc32": "53bfe50d",
+      "image": "textures/silverstone-rest-mobil.webp",
+      "crc32": "9875b8ca",
+      "size": [
+        512,
+        128
+      ],
+      "alpha_exact_nearest_source_black_key": true,
+      "source_rgb_alias_exact": false,
+      "review": "Existing source-faithful same motif/phase artwork; preserve prior file bytes and documented encoding recipe.",
+      "selection": "Main source/reuse comparison accepted; unchanged authored bytes selected.",
+      "donor": {
+        "path": "data/silvfree.bfp",
+        "member": 3,
+        "source_crc32": "6334e150"
+      },
+      "donor_mapping": {
+        "names": [
+          "MOBIL"
+        ],
+        "source_size": [
+          128,
+          32
+        ],
+        "source_crc32": [
+          "6334e150"
+        ],
+        "image": "textures/silverstone-rest-mobil.webp",
+        "webp_quality": 70,
+        "webp_method": 6,
+        "description": "Silverstone exact-source artwork; silverstone-rest-generation.json"
+      },
+      "generation_provenance": {
+        "path": "assets/models/mega/silverstone-rest-generation.json",
+        "crc32": "dfe526d8"
+      },
+      "source_equal_rgb_texels": 795,
+      "source_total_texels": 4096,
+      "donor_palette_crc32": "6e1761ee",
+      "source_alpha_different_texels": 0,
+      "output": {
+        "path": "assets/models/mega/textures/silverstone-rest-mobil.webp",
+        "crc32": "9875b8ca",
+        "bytes": 3630
+      },
+      "unchanged": true
+    },
+    {
+      "name": "DA05CMB1",
+      "source_crc32": "2a5733e9",
+      "image": "textures/silverstone-rest-da05cmb1.webp",
+      "crc32": "cd0a5d49",
+      "size": [
+        512,
+        128
+      ],
+      "alpha_exact_nearest_source_black_key": true,
+      "source_rgb_alias_exact": true,
+      "review": "Existing source-faithful same motif/phase artwork; preserve prior file bytes and documented encoding recipe.",
+      "selection": "Main source/reuse comparison accepted; unchanged authored bytes selected.",
+      "donor": {
+        "path": "data/silvfree.bfp",
+        "member": 3,
+        "source_crc32": "dac87ae5"
+      },
+      "donor_mapping": {
+        "names": [
+          "DA05CMB1"
+        ],
+        "source_size": [
+          128,
+          32
+        ],
+        "source_crc32": [
+          "dac87ae5"
+        ],
+        "image": "textures/silverstone-rest-da05cmb1.webp",
+        "webp_quality": 70,
+        "webp_method": 6,
+        "description": "Silverstone exact-source artwork; silverstone-rest-generation.json"
+      },
+      "generation_provenance": {
+        "path": "assets/models/mega/silverstone-rest-generation.json",
+        "crc32": "dfe526d8"
+      },
+      "source_equal_rgb_texels": 4096,
+      "source_total_texels": 4096,
+      "donor_palette_crc32": "6e1761ee",
+      "source_alpha_different_texels": 0,
+      "output": {
+        "path": "assets/models/mega/textures/silverstone-rest-da05cmb1.webp",
+        "crc32": "cd0a5d49",
+        "bytes": 1072
+      },
+      "unchanged": true
+    },
+    {
+      "name": "LIFLAGA3",
+      "source_crc32": "f55e164d",
+      "image": "textures/thruxton-rest-liflaga3.webp",
+      "crc32": "680d12e3",
+      "size": [
+        512,
+        512
+      ],
+      "alpha_exact_nearest_source_black_key": true,
+      "source_rgb_alias_exact": false,
+      "review": "Existing source-faithful same motif/phase artwork; preserve prior file bytes and documented encoding recipe.",
+      "selection": "Main source/reuse comparison accepted; unchanged authored bytes selected.",
+      "donor": {
+        "path": "data/thrufree.bfp",
+        "member": 11,
+        "source_crc32": "47feb733"
+      },
+      "donor_mapping": {
+        "names": [
+          "LIFLAGA3"
+        ],
+        "source_size": [
+          32,
+          32
+        ],
+        "source_crc32": [
+          "47feb733"
+        ],
+        "image": "textures/thruxton-rest-liflaga3.webp",
+        "description": "Direct source-faithful Thruxton barriers, spectators and flag phases; see thruxton-rest-generation.json",
+        "webp_quality": 70,
+        "webp_method": 6
+      },
+      "generation_provenance": {
+        "path": "assets/models/mega/thruxton-rest-generation.json",
+        "crc32": "0535ef89"
+      },
+      "source_equal_rgb_texels": 337,
+      "source_total_texels": 1024,
+      "donor_palette_crc32": "1a8f9cf1",
+      "source_alpha_different_texels": 0,
+      "coarse_black_red_white_navy_motif_class_equal_texels": 962,
+      "phase_contract": "Same named source phase, full source alpha identical, same UK flag red/white/navy motif footprint; palette differences do not introduce a new phase.",
+      "output": {
+        "path": "assets/models/mega/textures/thruxton-rest-liflaga3.webp",
+        "crc32": "680d12e3",
+        "bytes": 17228
+      },
+      "unchanged": true
+    }
+  ],
+  "native_constants": [
+    {
+      "name": "BLAK",
+      "source_crc32": "d83867ed",
+      "size": [
+        8,
+        8
+      ],
+      "rgb": [
+        33,
+        33,
+        33
+      ]
+    },
+    {
+      "name": "POST",
+      "source_crc32": "e5f30441",
+      "size": [
+        8,
+        16
+      ],
+      "rgb": [
+        198,
+        206,
+        231
+      ]
+    }
+  ],
+  "export": "Fresh source-guided RGB plates, recorded presentation crop, Lanczos resize to original chart aspect/max512px, source pure-black alpha restored with nearest sampling; WebP70/method6. BH24TNT6 selected final plate includes its three original splayed support paths. Corrections are baked in the final authored WebPs; builds copy them without recompositing drafts. Seven donor and all814 prior authored files remain byte-identical.",
+  "source_contract": {
+    "repeats": "Tyre side/top have eight original periods and clipped-ring edge phase. Rail bands, source fasteners and motifs keep their source positions. Tent stripes, openings and supports keep original layouts and clamped joins; TNT1/TNT2 end on cream.",
+    "people": "Original crowd/marshal/crew silhouettes, head/limb positions, clothing families, overlap, card seam and alpha masks retained. Brands crew differs from mirrored Croft variants and is not shared by name.",
+    "lettering": "Mobil uses the faithful existing Mobil word plus boxed numeral1, with original thin edge rules. LBINB CLEAN/AWAY is an explicitly uncertain contextual two-line reconstruction after Brands/Knockhill/Croft comparison; source linked-loop mark and small lettering footprint retained.",
+    "mapping": "29 exact source-CRC rows: three generic target assignments corrected and26 previously uncovered identities mapped. Retained tyre/Mobil-back/top consumers keep their images and CRCs; unused MOBIL name removed only from the residual back/top mapping row. BLAK/POST remain native constants."
+  },
+  "flag_contract": {
+    "raw_nodes": 63,
+    "raw_roots": 21,
+    "materialized_roots": 21,
+    "all_identity": true,
+    "registered_controllers": 0,
+    "active_variant0_meshes": [
+      0,
+      3,
+      7
+    ],
+    "brands": "Preserve21 childless identity roots and zero controllers. Variant0 uses the pole and A3 cloth; A1/A2 are source-slot references, not newly animated visible Brands phases. No raw-binding-to-actor count inference or reconstructed placements.",
+    "shared_lavaland": "Three exact UK source images repeat across11 pole groups; actual24-controller hierarchy and original three-phase/four-tick switch are preserved and checked at ticks0/4/8. Two exact geometry/UV/material types also alias22 raw rows/44 bindings, without closing Lavaland as a whole."
+  },
+  "limits": "Only the listed Brands M03–M06 scope and two exact shared Lavaland types are accepted. Brands M07 remains26 rows/26 types/40 bindings and108 source images. Vehicles/cockpits excluded. Canonical references unchanged. No performance measurements or track/weather matrix."
+}

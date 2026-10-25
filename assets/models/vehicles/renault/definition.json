@@ -1,0 +1,21 @@
+{
+  "geometry": "renault",
+  "wheel_segments": 32,
+  "wheel_outset": [0.055, 0.03],
+  "wheel_profile": [
+    [-0.125, 0.258],
+    [-0.107, 0.334],
+    [-0.078, 0.35],
+    [0.078, 0.35],
+    [0.107, 0.334],
+    [0.125, 0.258]
+  ],
+  "wheel_spokes": 12,
+  "body_subdivisions": 2,
+  "body_max_curve": 0.025,
+  "body_details": true,
+  "curved_meshes": [0, 1, 2, 4, 5, 6, 13, 14, 15, 24, 25, 27, 28, 29, 30, 31, 32, 36, 37],
+  "rim_color": [24, 48, 166, 255],
+  "rim_edge_color": [62, 89, 204, 255],
+  "tire_color": [18, 20, 22, 255]
+}

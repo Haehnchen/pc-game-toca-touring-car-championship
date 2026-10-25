@@ -1,0 +1,22 @@
+{
+  "version": 1,
+  "purpose": "Register one continuous generated Dunlop arch before inverse projection into the original DA16DUN0/9 UV islands.",
+  "canonical_archive": "data/donlfree.bfp",
+  "canonical_archive_crc32": "46885a20",
+  "canonical_member": 5,
+  "canonical_member_crc32": "5f670bb9",
+  "mesh": "DA16DUN_1",
+  "viewport": {
+    "width": 2007,
+    "height": 784,
+    "x_left": -24.97052001953125,
+    "x_right": 25.036880493164062,
+    "z_bottom": -2.552169233560562,
+    "z_top": 16.981971591711044,
+    "world_width": 50.00740051269531,
+    "world_height": 19.534140825271606,
+    "pixels_per_world_unit_x": 40.134059747626466,
+    "pixels_per_world_unit_z": 40.134859629235784
+  },
+  "registration": "One whole-image downward placement of0.48835352063179016 world units keeps both continuous ribs inside the canonical polygon; no independent half adjustment."
+}

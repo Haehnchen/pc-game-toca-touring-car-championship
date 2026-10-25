@@ -1,0 +1,5 @@
+Generated track-prop material atlas,2026-10-17.
+Built-in image_gen tool; no original game artwork used as image input.
+Stored as512x512 WebP, quality80, method6, metadata stripped.
+CRC32 (IEEE/zlib):3d5a552e. Quadrants: orange plastic, white reflector,
+black rubber, galvanized metal. Import leaves a4px inner UV gutter.

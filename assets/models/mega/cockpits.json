@@ -1,0 +1,267 @@
+{
+  "version": 1,
+  "definition": "assets/models/cockpits/shared/definition.json",
+  "texture_directory": "assets/models/cockpits/shared/textures",
+  "consumers": [
+    {
+      "car_id": 0,
+      "archive": "data/honddasx.bfp",
+      "archive_crc32": "6c68f4a3",
+      "key": "honda"
+    },
+    {
+      "car_id": 1,
+      "archive": "data/audidasx.bfp",
+      "archive_crc32": "f3f7ab71",
+      "key": "audi"
+    },
+    {
+      "car_id": 2,
+      "archive": "data/vectdasx.bfp",
+      "archive_crc32": "2949934a",
+      "key": "vectra"
+    },
+    {
+      "car_id": 3,
+      "archive": "data/volvdasx.bfp",
+      "archive_crc32": "30f85a03",
+      "key": "volvo"
+    },
+    {
+      "car_id": 4,
+      "archive": "data/forddasx.bfp",
+      "archive_crc32": "505d1bfb",
+      "key": "ford"
+    },
+    {
+      "car_id": 5,
+      "archive": "data/nissdasx.bfp",
+      "archive_crc32": "08de1330",
+      "key": "nissan"
+    },
+    {
+      "car_id": 6,
+      "archive": "data/p406dasx.bfp",
+      "archive_crc32": "9a0f77d6",
+      "key": "peugeot"
+    },
+    {
+      "car_id": 7,
+      "archive": "data/rendasx.bfp",
+      "archive_crc32": "fd3542e3",
+      "key": "renault"
+    },
+    {
+      "car_id": 9,
+      "archive": "data/flexdasx.bfp",
+      "archive_crc32": "038cfaae",
+      "key": "flexmobile"
+    }
+  ],
+  "models": [
+    {
+      "role": "wiper",
+      "member": 3,
+      "member_crc32": "a958a105",
+      "output": "cockpit/shared/wiper.glb",
+      "member_name": "..\\..\\objects\\ha"
+    },
+    {
+      "role": "wheel",
+      "member": 4,
+      "member_crc32": "bb153bcc",
+      "output": "cockpit/shared/wheel.glb",
+      "member_name": "..\\..\\objects\\ha"
+    },
+    {
+      "role": "left-hand",
+      "member": 0,
+      "source_car_id": 0,
+      "member_crc32": "f267e581",
+      "member_name": "gloves\\left.c3d",
+      "definition": "assets/models/cockpits/hands/definition.json",
+      "texture_directory": "assets/models/cockpits/hands/honda/textures",
+      "output": "cockpit/honda/left-hand.glb"
+    },
+    {
+      "role": "right-hand",
+      "member": 1,
+      "source_car_id": 0,
+      "member_crc32": "ddb3ab8f",
+      "member_name": "gloves\\right.c3d",
+      "definition": "assets/models/cockpits/hands/definition.json",
+      "texture_directory": "assets/models/cockpits/hands/honda/textures",
+      "output": "cockpit/honda/right-hand.glb"
+    },
+    {
+      "role": "left-hand",
+      "member": 0,
+      "source_car_id": 1,
+      "member_crc32": "da028a07",
+      "member_name": "gloves\\left.c3d",
+      "definition": "assets/models/cockpits/hands/definition.json",
+      "texture_directory": "assets/models/cockpits/hands/audi/textures",
+      "output": "cockpit/audi/left-hand.glb"
+    },
+    {
+      "role": "right-hand",
+      "member": 1,
+      "source_car_id": 1,
+      "member_crc32": "0ca23a12",
+      "member_name": "gloves\\right.c3d",
+      "definition": "assets/models/cockpits/hands/definition.json",
+      "texture_directory": "assets/models/cockpits/hands/audi/textures",
+      "output": "cockpit/audi/right-hand.glb"
+    },
+    {
+      "role": "left-hand",
+      "member": 0,
+      "source_car_id": 2,
+      "member_crc32": "acf2a8ff",
+      "member_name": "gloves\\left.c3d",
+      "definition": "assets/models/cockpits/hands/definition.json",
+      "texture_directory": "assets/models/cockpits/hands/vectra/textures",
+      "output": "cockpit/vectra/left-hand.glb"
+    },
+    {
+      "role": "right-hand",
+      "member": 1,
+      "source_car_id": 2,
+      "member_crc32": "8326e6f1",
+      "member_name": "gloves\\right.c3d",
+      "definition": "assets/models/cockpits/hands/definition.json",
+      "texture_directory": "assets/models/cockpits/hands/vectra/textures",
+      "output": "cockpit/vectra/right-hand.glb"
+    },
+    {
+      "role": "left-hand",
+      "member": 0,
+      "source_car_id": 3,
+      "member_crc32": "5b49a2c4",
+      "member_name": "gloves\\left.c3d",
+      "definition": "assets/models/cockpits/hands/definition.json",
+      "texture_directory": "assets/models/cockpits/hands/volvo/textures",
+      "output": "cockpit/volvo/left-hand.glb"
+    },
+    {
+      "role": "right-hand",
+      "member": 1,
+      "source_car_id": 3,
+      "member_crc32": "749decca",
+      "member_name": "gloves\\right.c3d",
+      "definition": "assets/models/cockpits/hands/definition.json",
+      "texture_directory": "assets/models/cockpits/hands/volvo/textures",
+      "output": "cockpit/volvo/right-hand.glb"
+    },
+    {
+      "role": "left-hand",
+      "member": 0,
+      "source_car_id": 4,
+      "member_crc32": "c4873609",
+      "member_name": "gloves\\left.c3d",
+      "definition": "assets/models/cockpits/hands/definition.json",
+      "texture_directory": "assets/models/cockpits/hands/ford/textures",
+      "output": "cockpit/ford/left-hand.glb"
+    },
+    {
+      "role": "right-hand",
+      "member": 1,
+      "source_car_id": 4,
+      "member_crc32": "eb537807",
+      "member_name": "gloves\\right.c3d",
+      "definition": "assets/models/cockpits/hands/definition.json",
+      "texture_directory": "assets/models/cockpits/hands/ford/textures",
+      "output": "cockpit/ford/right-hand.glb"
+    },
+    {
+      "role": "left-hand",
+      "member": 0,
+      "source_car_id": 5,
+      "member_crc32": "15aa1f60",
+      "member_name": "gloves\\left.c3d",
+      "definition": "assets/models/cockpits/hands/definition.json",
+      "texture_directory": "assets/models/cockpits/hands/nissan/textures",
+      "output": "cockpit/nissan/left-hand.glb"
+    },
+    {
+      "role": "right-hand",
+      "member": 1,
+      "source_car_id": 5,
+      "member_crc32": "3a7e516e",
+      "member_name": "gloves\\right.c3d",
+      "definition": "assets/models/cockpits/hands/definition.json",
+      "texture_directory": "assets/models/cockpits/hands/nissan/textures",
+      "output": "cockpit/nissan/right-hand.glb"
+    },
+    {
+      "role": "left-hand",
+      "member": 0,
+      "source_car_id": 6,
+      "member_crc32": "8e90e043",
+      "member_name": "gloves\\left.c3d",
+      "definition": "assets/models/cockpits/hands/definition.json",
+      "texture_directory": "assets/models/cockpits/hands/peugeot/textures",
+      "output": "cockpit/peugeot/left-hand.glb"
+    },
+    {
+      "role": "right-hand",
+      "member": 1,
+      "source_car_id": 6,
+      "member_crc32": "a144ae4d",
+      "member_name": "gloves\\right.c3d",
+      "definition": "assets/models/cockpits/hands/definition.json",
+      "texture_directory": "assets/models/cockpits/hands/peugeot/textures",
+      "output": "cockpit/peugeot/right-hand.glb"
+    },
+    {
+      "role": "left-hand",
+      "member": 0,
+      "source_car_id": 7,
+      "member_crc32": "88c39c04",
+      "member_name": "gloves\\left.c3d",
+      "definition": "assets/models/cockpits/hands/definition.json",
+      "texture_directory": "assets/models/cockpits/hands/renault/textures",
+      "output": "cockpit/renault/left-hand.glb"
+    },
+    {
+      "role": "right-hand",
+      "member": 1,
+      "source_car_id": 7,
+      "member_crc32": "a717d20a",
+      "member_name": "gloves\\right.c3d",
+      "definition": "assets/models/cockpits/hands/definition.json",
+      "texture_directory": "assets/models/cockpits/hands/renault/textures",
+      "output": "cockpit/renault/right-hand.glb"
+    },
+    {
+      "role": "left-hand",
+      "member": 0,
+      "source_car_id": 9,
+      "member_crc32": "7ac2a416",
+      "member_name": "gloves\\left.c3d",
+      "definition": "assets/models/cockpits/hands/definition.json",
+      "texture_directory": "assets/models/cockpits/hands/flexmobile/textures",
+      "output": "cockpit/flexmobile/left-hand.glb"
+    },
+    {
+      "role": "right-hand",
+      "member": 1,
+      "source_car_id": 9,
+      "member_crc32": "6bdeb556",
+      "member_name": "gloves\\right.c3d",
+      "definition": "assets/models/cockpits/hands/definition.json",
+      "texture_directory": "assets/models/cockpits/hands/flexmobile/textures",
+      "output": "cockpit/flexmobile/right-hand.glb"
+    },
+    {
+      "role": "dashboard",
+      "member": 2,
+      "source_car_id": 0,
+      "member_crc32": "68206187",
+      "member_name": "cabin\\dash.c3d",
+      "definition": "assets/models/cockpits/honda/definition.json",
+      "texture_directory": "assets/models/cockpits/honda/textures",
+      "output": "cockpit/honda/dashboard.glb"
+    }
+  ]
+}

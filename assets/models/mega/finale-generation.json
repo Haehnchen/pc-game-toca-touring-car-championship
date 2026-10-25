@@ -1,0 +1,80 @@
+{
+  "version": 1,
+  "asset_root": "assets/models/finale",
+  "registry": "assets/models/mega/finale.json",
+  "outputs": [
+    {
+      "image": "textures/pace-engflo.webp",
+      "source": {
+        "generator_path": "exec-e40cd5fe-1e11-4c87-af2a-80c03924ca5d.png",
+        "generator_crc32": "a7bc6a43"
+      },
+      "size": [512, 512],
+      "encoding": {
+        "quality": 70,
+        "method": 6,
+        "alpha": "lossless exact native source RGB-black-key alpha; source white and dark nonzero ink remain opaque"
+      }
+    },
+    {
+      "image": "textures/pace-atlas.webp",
+      "source": {
+        "generator_path": "exec-044de9d8-4c51-4f71-b493-72b959f05b80.png",
+        "generator_crc32": "51edd981"
+      },
+      "size": [512, 512],
+      "encoding": {
+        "quality": 70,
+        "method": 6,
+        "alpha": "lossless exact native source RGB-black-key alpha; source white and dark nonzero ink remain opaque"
+      },
+      "contextual_lettering": {
+        "PCE 97": "user-authorized readable reconstruction within both existing source plate fields; source exact characters are unclear",
+        "source_marks": "Original Audi four interlocking rings/A4 marks and red checker motif retained"
+      }
+    },
+    {
+      "image": "textures/pace-sideg.webp",
+      "source": {
+        "generator_path": "exec-ae9dfdd1-d387-4974-8363-79e2cfbaff12.png",
+        "generator_crc32": "f94ecb21"
+      },
+      "size": [512, 512],
+      "encoding": {
+        "quality": 70,
+        "method": 6,
+        "alpha": "lossless exact native source RGB-black-key alpha; source white and dark nonzero ink remain opaque"
+      }
+    },
+    {
+      "image": "textures/pace-wscrn.webp",
+      "source": {
+        "generator_path": "exec-960958e8-2a1b-4b80-9bd7-8c9a57eb8b0c.png",
+        "generator_crc32": "0d285e37"
+      },
+      "size": [512, 512],
+      "encoding": {
+        "quality": 70,
+        "method": 6,
+        "alpha": "lossless exact native source RGB-black-key alpha; source white and dark nonzero ink remain opaque"
+      }
+    },
+    {
+      "image": "textures/transporter-atlas.webp",
+      "source": {
+        "generator_path": "exec-18b56b87-03c4-4e8a-9f9d-fd556480ac51.png",
+        "generator_crc32": "a7f995fd"
+      },
+      "size": [512, 512],
+      "encoding": {
+        "quality": 70,
+        "method": 6,
+        "alpha": "lossless exact native source RGB-black-key alpha; source white and dark nonzero ink remain opaque"
+      },
+      "contextual_lettering": {
+        "RSL": "user-authorized reconstruction of all existing unreadable outlined blue three-glyph fields; Racing Support Logistics expansion is provenance only and is not painted",
+        "source_scope": "Same source logo positions/orientations/colors, no new fields/slogans"
+      }
+    }
+  ]
+}

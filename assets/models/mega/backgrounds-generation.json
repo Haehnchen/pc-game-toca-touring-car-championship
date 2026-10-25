@@ -1,0 +1,2716 @@
+{
+  "version": 1,
+  "sources": [
+    {
+      "id": "DO02",
+      "file": "exec-af32eda6-5eff-4e71-89ca-de5c0205deca.png",
+      "crc32": "b9900063",
+      "size": [
+        1254,
+        1254
+      ],
+      "reference": {
+        "archive": "data/donlhor.bfp",
+        "archive_crc32": "8771ca20",
+        "member": 3,
+        "member_crc32": "fd1149f7",
+        "mesh": "DO023D_1",
+        "material_slot": 0,
+        "material": "DO02",
+        "bmp_crc32": "87048995",
+        "palette_crc32": "2d92689f",
+        "size": [
+          256,
+          256
+        ]
+      }
+    },
+    {
+      "id": "DO01",
+      "file": "exec-ce63a6a2-0085-408e-9f0f-c8e71a90112d.png",
+      "crc32": "2de08ac8",
+      "size": [
+        1254,
+        1254
+      ],
+      "reference": {
+        "archive": "data/donlhor.bfp",
+        "archive_crc32": "8771ca20",
+        "member": 2,
+        "member_crc32": "15a6fbe8",
+        "mesh": "DO013D_1",
+        "material_slot": 0,
+        "material": "DO01",
+        "bmp_crc32": "500f1ba6",
+        "palette_crc32": "2f69bc1e",
+        "size": [
+          256,
+          256
+        ]
+      }
+    },
+    {
+      "id": "DO03",
+      "file": "exec-ae778e88-ebec-4c4f-b57c-5c859fedfeb9.png",
+      "crc32": "8eec0691",
+      "size": [
+        1254,
+        1254
+      ],
+      "reference": {
+        "archive": "data/donlhor.bfp",
+        "archive_crc32": "8771ca20",
+        "member": 4,
+        "member_crc32": "1ed1abd0",
+        "mesh": "DO033D_1",
+        "material_slot": 0,
+        "material": "DO03",
+        "bmp_crc32": "c77f7669",
+        "palette_crc32": "ac945ee1",
+        "size": [
+          256,
+          256
+        ]
+      }
+    },
+    {
+      "id": "DO04",
+      "file": "exec-0f9ec3d1-9407-46e1-86a9-810d0aa51a87.png",
+      "crc32": "8d332927",
+      "size": [
+        1254,
+        1254
+      ],
+      "reference": {
+        "archive": "data/donlhor.bfp",
+        "archive_crc32": "8771ca20",
+        "member": 5,
+        "member_crc32": "fd4082b2",
+        "mesh": "DO043D_1",
+        "material_slot": 0,
+        "material": "DO04",
+        "bmp_crc32": "f82d0288",
+        "palette_crc32": "34bf84b7",
+        "size": [
+          256,
+          256
+        ]
+      }
+    },
+    {
+      "id": "DO05",
+      "file": "exec-b0545dec-73a6-4f10-a969-7e82319e6473.png",
+      "crc32": "8d4e1f58",
+      "size": [
+        1254,
+        1254
+      ],
+      "reference": {
+        "archive": "data/donlhor.bfp",
+        "archive_crc32": "8771ca20",
+        "member": 6,
+        "member_crc32": "8da5d599",
+        "mesh": "DO053D_1",
+        "material_slot": 0,
+        "material": "DO05",
+        "bmp_crc32": "53c7c2d5",
+        "palette_crc32": "c12d390a",
+        "size": [
+          256,
+          256
+        ]
+      }
+    },
+    {
+      "id": "DO05L",
+      "file": "exec-a108a829-301e-4114-b5b4-c7bea583eb33.png",
+      "crc32": "65d19fdf",
+      "size": [
+        1254,
+        1254
+      ],
+      "reference": {
+        "archive": "data/donlhor.bfp",
+        "archive_crc32": "8771ca20",
+        "member": 6,
+        "member_crc32": "8da5d599",
+        "mesh": "DO053D_2",
+        "material_slot": 1,
+        "material": "DO05L",
+        "bmp_crc32": "14991598",
+        "palette_crc32": "c12d390a",
+        "size": [
+          256,
+          256
+        ]
+      },
+      "paired_generated_source": "DO05"
+    },
+    {
+      "id": "SI02",
+      "file": "exec-a894cc88-939e-4be5-b73d-60f592fda104.png",
+      "crc32": "7f0130e7",
+      "size": [
+        1254,
+        1254
+      ],
+      "reference": {
+        "archive": "data/silvhor.bfp",
+        "archive_crc32": "5bc8cde6",
+        "member": 3,
+        "member_crc32": "c4344e03",
+        "mesh": "SI023D_1",
+        "material_slot": 0,
+        "material": "SI02",
+        "bmp_crc32": "193abea0",
+        "palette_crc32": "c4c17ec5",
+        "size": [
+          256,
+          256
+        ]
+      }
+    },
+    {
+      "id": "SI01",
+      "file": "exec-05751149-21ab-4c46-b21a-64c7475603fe.png",
+      "crc32": "7375d904",
+      "size": [
+        1254,
+        1254
+      ],
+      "reference": {
+        "archive": "data/silvhor.bfp",
+        "archive_crc32": "5bc8cde6",
+        "member": 2,
+        "member_crc32": "c411a9ab",
+        "mesh": "SI013D_1",
+        "material_slot": 0,
+        "material": "SI01",
+        "bmp_crc32": "26a37924",
+        "palette_crc32": "2ab199ba",
+        "size": [
+          256,
+          256
+        ]
+      }
+    },
+    {
+      "id": "SI03",
+      "file": "exec-e25f17ca-05c1-4979-8ca2-8e925582fdbf.png",
+      "crc32": "feec72a3",
+      "size": [
+        1254,
+        1254
+      ],
+      "reference": {
+        "archive": "data/silvhor.bfp",
+        "archive_crc32": "5bc8cde6",
+        "member": 4,
+        "member_crc32": "1bcf5464",
+        "mesh": "SI033D_1",
+        "material_slot": 0,
+        "material": "SI03",
+        "bmp_crc32": "657ab91c",
+        "palette_crc32": "370439de",
+        "size": [
+          256,
+          256
+        ]
+      }
+    },
+    {
+      "id": "SI05",
+      "file": "exec-a4c150b8-90ec-4051-8e7e-f468ff37cb5b.png",
+      "crc32": "d462c33f",
+      "size": [
+        1254,
+        1254
+      ],
+      "reference": {
+        "archive": "data/silvhor.bfp",
+        "archive_crc32": "5bc8cde6",
+        "member": 6,
+        "member_crc32": "0ecd22e4",
+        "mesh": "SI053D_1",
+        "material_slot": 0,
+        "material": "SI05",
+        "bmp_crc32": "3efd1185",
+        "palette_crc32": "a3d77689",
+        "size": [
+          256,
+          256
+        ]
+      }
+    },
+    {
+      "id": "SI05L",
+      "file": "exec-13b82cf1-562b-4d97-b5c2-4524979ecb20.png",
+      "crc32": "d65c2a3f",
+      "size": [
+        1254,
+        1254
+      ],
+      "reference": {
+        "archive": "data/silvhor.bfp",
+        "archive_crc32": "5bc8cde6",
+        "member": 6,
+        "member_crc32": "0ecd22e4",
+        "mesh": "SI053D_2",
+        "material_slot": 1,
+        "material": "SI05L",
+        "bmp_crc32": "37fab019",
+        "palette_crc32": "a3d77689",
+        "size": [
+          256,
+          256
+        ]
+      },
+      "paired_generated_source": "SI05"
+    },
+    {
+      "id": "SI04",
+      "file": "exec-ae006800-ec78-4e33-b6e2-e6a4ae35036f.png",
+      "crc32": "51d4eed2",
+      "size": [
+        1254,
+        1254
+      ],
+      "reference": {
+        "archive": "data/silvhor.bfp",
+        "archive_crc32": "5bc8cde6",
+        "member": 5,
+        "member_crc32": "c4022545",
+        "mesh": "SI043D_1",
+        "material_slot": 0,
+        "material": "SI04",
+        "bmp_crc32": "667495be",
+        "palette_crc32": "ee44105c",
+        "size": [
+          256,
+          256
+        ]
+      }
+    },
+    {
+      "id": "LAVABAK",
+      "file": "exec-e8fe52fa-e790-4e7c-a1fe-89ed16e53f11.png",
+      "crc32": "990a52c7",
+      "size": [
+        1254,
+        1254
+      ],
+      "reference": {
+        "archive": "data/landhor.bfp",
+        "archive_crc32": "25e04c2f",
+        "member": 2,
+        "member_crc32": "18c347ea",
+        "material": "LAVABAK",
+        "material_slot": 0,
+        "bmp_crc32": "87ca1ff9",
+        "palette_crc32": "7dd7037a",
+        "size": [
+          256,
+          256
+        ],
+        "mesh": "LAVA03_1"
+      }
+    },
+    {
+      "id": "SILLYLAN",
+      "file": "exec-567cefb0-03ed-43c5-8bac-b7de901d07d7.png",
+      "crc32": "173f352f",
+      "size": [
+        1254,
+        1254
+      ],
+      "reference": {
+        "archive": "data/donlhor.bfp",
+        "archive_crc32": "8771ca20",
+        "member": 7,
+        "member_crc32": "7a15d6b4",
+        "material": "SILLYLAN",
+        "material_slot": 0,
+        "bmp_crc32": "9b924bbe",
+        "palette_crc32": "afc43c33",
+        "size": [
+          256,
+          256
+        ],
+        "mesh": "SILYLAN_1"
+      }
+    },
+    {
+      "id": "CARTOON",
+      "file": "exec-01b2be0c-ea11-4ee6-8079-bc7c4a7532da.png",
+      "crc32": "17c67760",
+      "size": [
+        1254,
+        1254
+      ],
+      "reference": {
+        "archive": "data/donlhor.bfp",
+        "archive_crc32": "8771ca20",
+        "member": 8,
+        "member_crc32": "3e8b26ba",
+        "material": "CARTOON",
+        "material_slot": 0,
+        "bmp_crc32": "a912938e",
+        "palette_crc32": "010623bf",
+        "size": [
+          256,
+          256
+        ],
+        "mesh": "CARTOON_1"
+      }
+    },
+    {
+      "id": "TH01",
+      "file": "exec-302b9248-5f55-4d91-80aa-af0732fa67fe.png",
+      "crc32": "5cb154ca",
+      "size": [
+        1254,
+        1254
+      ],
+      "reference": {
+        "archive": "data/thruhor.bfp",
+        "archive_crc32": "46eab623",
+        "member": 2,
+        "member_crc32": "d5fd4bea",
+        "mesh": "TH013D_1",
+        "material_slot": 0,
+        "material": "TH01",
+        "bmp_crc32": "d88e5dc5",
+        "palette_crc32": "26ed43ed",
+        "size": [
+          256,
+          256
+        ]
+      }
+    },
+    {
+      "id": "TH03",
+      "file": "exec-2060bcd7-730b-4369-9385-e8830b80840f.png",
+      "crc32": "2f20ce63",
+      "size": [
+        1254,
+        1254
+      ],
+      "reference": {
+        "archive": "data/thruhor.bfp",
+        "archive_crc32": "46eab623",
+        "member": 4,
+        "member_crc32": "b4f319e2",
+        "mesh": "TH033D_1",
+        "material_slot": 0,
+        "material": "TH03",
+        "bmp_crc32": "2587323a",
+        "palette_crc32": "f385654e",
+        "size": [
+          256,
+          256
+        ]
+      }
+    },
+    {
+      "id": "TH04",
+      "file": "exec-0e995900-93ac-44bc-bec1-eb6998ddeba6.png",
+      "crc32": "69a78b44",
+      "size": [
+        1254,
+        1254
+      ],
+      "reference": {
+        "archive": "data/thruhor.bfp",
+        "archive_crc32": "46eab623",
+        "member": 5,
+        "member_crc32": "4aafa2f4",
+        "mesh": "TH043D_1",
+        "material_slot": 0,
+        "material": "TH04",
+        "bmp_crc32": "0718d4af",
+        "palette_crc32": "074af8d3",
+        "size": [
+          256,
+          256
+        ]
+      }
+    },
+    {
+      "id": "TH05",
+      "file": "exec-4871c688-3ff9-4dbc-a77f-b36772c2db5a.png",
+      "crc32": "cc31a943",
+      "size": [
+        1254,
+        1254
+      ],
+      "reference": {
+        "archive": "data/thruhor.bfp",
+        "archive_crc32": "46eab623",
+        "member": 6,
+        "member_crc32": "4d94b3a5",
+        "mesh": "TH053D_1",
+        "material_slot": 0,
+        "material": "TH05",
+        "bmp_crc32": "f356f1f7",
+        "palette_crc32": "1fe858f6",
+        "size": [
+          256,
+          256
+        ]
+      }
+    },
+    {
+      "id": "TH05L",
+      "file": "exec-30999982-75ba-4bcc-a8f6-ce4822f67951.png",
+      "crc32": "f3b1df6a",
+      "size": [
+        1254,
+        1254
+      ],
+      "reference": {
+        "archive": "data/thruhor.bfp",
+        "archive_crc32": "46eab623",
+        "member": 6,
+        "member_crc32": "4d94b3a5",
+        "mesh": "TH053D_2",
+        "material_slot": 1,
+        "material": "TH05L",
+        "bmp_crc32": "24494811",
+        "palette_crc32": "1fe858f6",
+        "size": [
+          256,
+          256
+        ]
+      },
+      "paired_generated_source": "TH05"
+    },
+    {
+      "id": "BH01",
+      "file": "exec-0dc897f3-8c50-4258-9929-ff0b0a98c9c5.png",
+      "crc32": "9d45a500",
+      "size": [
+        1254,
+        1254
+      ],
+      "reference": {
+        "archive": "data/branhor.bfp",
+        "archive_crc32": "7f2628e3",
+        "member": 2,
+        "member_crc32": "185e6aa0",
+        "mesh": "BH013D_1",
+        "material_slot": 0,
+        "material": "BH01",
+        "bmp_crc32": "884ee383",
+        "palette_crc32": "b32ab0b5",
+        "size": [
+          256,
+          256
+        ]
+      }
+    },
+    {
+      "id": "BH02",
+      "file": "exec-82da6b28-2714-4513-8d58-cb8521ccda66.png",
+      "crc32": "fa3552ff",
+      "size": [
+        1254,
+        1254
+      ],
+      "reference": {
+        "archive": "data/branhor.bfp",
+        "archive_crc32": "7f2628e3",
+        "member": 3,
+        "member_crc32": "6ac3edc3",
+        "mesh": "BH023D_1",
+        "material_slot": 0,
+        "material": "BH02",
+        "bmp_crc32": "90b8fe68",
+        "palette_crc32": "c25919d0",
+        "size": [
+          256,
+          256
+        ]
+      }
+    },
+    {
+      "id": "BH04",
+      "file": "exec-a12aeccd-faa5-4a5b-bc0e-d5550f7eb24f.png",
+      "crc32": "cd030073",
+      "size": [
+        1254,
+        1254
+      ],
+      "reference": {
+        "archive": "data/branhor.bfp",
+        "archive_crc32": "7f2628e3",
+        "member": 5,
+        "member_crc32": "de43886a",
+        "mesh": "BH043D_1",
+        "material_slot": 0,
+        "material": "BH04",
+        "bmp_crc32": "5710d789",
+        "palette_crc32": "8367dfda",
+        "size": [
+          256,
+          256
+        ]
+      }
+    },
+    {
+      "id": "BH05",
+      "file": "exec-4a1afb0a-9523-4447-879e-b96f6be3fdfa.png",
+      "crc32": "2e322ba9",
+      "size": [
+        1254,
+        1254
+      ],
+      "reference": {
+        "archive": "data/branhor.bfp",
+        "archive_crc32": "7f2628e3",
+        "member": 6,
+        "member_crc32": "318e8a74",
+        "mesh": "BH053D_1",
+        "material_slot": 0,
+        "material": "BH05",
+        "bmp_crc32": "49d2d533",
+        "palette_crc32": "28993ddd",
+        "size": [
+          256,
+          256
+        ]
+      }
+    },
+    {
+      "id": "BH05L",
+      "file": "exec-0ad7ff7b-5653-4e4e-bdb4-a401660f38a4.png",
+      "crc32": "1f159a53",
+      "size": [
+        1254,
+        1254
+      ],
+      "reference": {
+        "archive": "data/branhor.bfp",
+        "archive_crc32": "7f2628e3",
+        "member": 6,
+        "member_crc32": "318e8a74",
+        "mesh": "BH053D_2",
+        "material_slot": 1,
+        "material": "BH05L",
+        "bmp_crc32": "8ff868e5",
+        "palette_crc32": "28993ddd",
+        "size": [
+          256,
+          256
+        ]
+      },
+      "paired_generated_source": "BH05"
+    },
+    {
+      "id": "SN01",
+      "file": "exec-dd7fc44b-f367-4473-8721-e88d4ea69205.png",
+      "crc32": "603d277d",
+      "size": [
+        1254,
+        1254
+      ],
+      "reference": {
+        "archive": "data/snethor.bfp",
+        "archive_crc32": "8cad122b",
+        "member": 2,
+        "member_crc32": "9299deef",
+        "material": "SN01",
+        "material_slot": 0,
+        "bmp_crc32": "755f3462",
+        "palette_crc32": "d50b8d7e",
+        "size": [
+          256,
+          256
+        ],
+        "mesh": "SN013D_1"
+      }
+    },
+    {
+      "id": "SN03",
+      "file": "exec-a61daf29-1588-49f2-8e64-e9c5d9eba81e.png",
+      "crc32": "30b3998a",
+      "size": [
+        1254,
+        1254
+      ],
+      "reference": {
+        "archive": "data/snethor.bfp",
+        "archive_crc32": "8cad122b",
+        "member": 4,
+        "member_crc32": "701a150c",
+        "material": "SN03",
+        "material_slot": 0,
+        "bmp_crc32": "0bdbc276",
+        "palette_crc32": "a59e09a1",
+        "size": [
+          256,
+          256
+        ],
+        "mesh": "SN033D_1"
+      }
+    },
+    {
+      "id": "SN04",
+      "file": "exec-cfd9c5a1-2265-49c5-9c1b-10ebe376edbe.png",
+      "crc32": "000321fa",
+      "size": [
+        1254,
+        1254
+      ],
+      "reference": {
+        "archive": "data/snethor.bfp",
+        "archive_crc32": "8cad122b",
+        "member": 5,
+        "member_crc32": "496a596e",
+        "material": "SN04",
+        "material_slot": 0,
+        "bmp_crc32": "ee68d397",
+        "palette_crc32": "ba546031",
+        "size": [
+          256,
+          256
+        ],
+        "mesh": "SN043D_1"
+      }
+    },
+    {
+      "id": "SN05",
+      "file": "exec-bce3b98d-7127-4632-8fd9-bcc14e18b2e3.png",
+      "crc32": "35d4e3d9",
+      "size": [
+        1254,
+        1254
+      ],
+      "reference": {
+        "archive": "data/snethor.bfp",
+        "archive_crc32": "8cad122b",
+        "member": 6,
+        "member_crc32": "b965188b",
+        "material": "SN05",
+        "material_slot": 0,
+        "bmp_crc32": "508346c5",
+        "palette_crc32": "f6af21a8",
+        "size": [
+          256,
+          256
+        ],
+        "mesh": "SN053D_1"
+      }
+    },
+    {
+      "id": "SN05L",
+      "file": "exec-58d64fa7-6e44-40ce-9070-db49b786c90c.png",
+      "crc32": "0c45957c",
+      "size": [
+        1254,
+        1254
+      ],
+      "reference": {
+        "archive": "data/snethor.bfp",
+        "archive_crc32": "8cad122b",
+        "member": 6,
+        "member_crc32": "b965188b",
+        "material": "SN05L",
+        "material_slot": 1,
+        "bmp_crc32": "87b9c0dc",
+        "palette_crc32": "f6af21a8",
+        "size": [
+          256,
+          256
+        ],
+        "mesh": "SN053D_2"
+      }
+    },
+    {
+      "id": "OP01",
+      "file": "exec-356694a4-4f58-47f7-93f0-b872857cdd15.png",
+      "crc32": "dde99c29",
+      "size": [
+        1254,
+        1254
+      ],
+      "reference": {
+        "archive": "data/oulthor.bfp",
+        "archive_crc32": "716aabd8",
+        "member": 2,
+        "member_crc32": "136e1a82",
+        "mesh": "OP013D_1",
+        "material_slot": 0,
+        "material": "OP01",
+        "bmp_crc32": "ec23e7b1",
+        "palette_crc32": "dfbe6038",
+        "size": [
+          256,
+          256
+        ]
+      }
+    },
+    {
+      "id": "OP02",
+      "file": "exec-e823821c-a5b9-4a1c-bb36-afdf0c33831e.png",
+      "crc32": "7e4c9055",
+      "size": [
+        1254,
+        1254
+      ],
+      "reference": {
+        "archive": "data/oulthor.bfp",
+        "archive_crc32": "716aabd8",
+        "member": 3,
+        "member_crc32": "1dfaff12",
+        "mesh": "OP023D_1",
+        "material_slot": 0,
+        "material": "OP02",
+        "bmp_crc32": "dd0b220d",
+        "palette_crc32": "78bcdf6e",
+        "size": [
+          256,
+          256
+        ]
+      }
+    },
+    {
+      "id": "OP03",
+      "file": "exec-7c4ec2bb-d838-4a14-b5ed-1ff933e956b3.png",
+      "crc32": "7f59c1f3",
+      "size": [
+        1254,
+        1254
+      ],
+      "reference": {
+        "archive": "data/oulthor.bfp",
+        "archive_crc32": "716aabd8",
+        "member": 4,
+        "member_crc32": "fd4b306c",
+        "mesh": "OP033D_1",
+        "material_slot": 0,
+        "material": "OP03",
+        "bmp_crc32": "9e01f0a8",
+        "palette_crc32": "cd8c1e20",
+        "size": [
+          256,
+          256
+        ]
+      }
+    },
+    {
+      "id": "OP04",
+      "file": "exec-a13bd552-77d0-452d-ac43-bd4cee68ad21.png",
+      "crc32": "1c624677",
+      "size": [
+        1254,
+        1254
+      ],
+      "reference": {
+        "archive": "data/oulthor.bfp",
+        "archive_crc32": "716aabd8",
+        "member": 5,
+        "member_crc32": "76af02fc",
+        "mesh": "OP043D_1",
+        "material_slot": 0,
+        "material": "OP04",
+        "bmp_crc32": "c9269fbb",
+        "palette_crc32": "da8a9f4c",
+        "size": [
+          256,
+          256
+        ]
+      }
+    },
+    {
+      "id": "OP05",
+      "file": "exec-2df48c7b-dccc-4c5e-bed9-377c9fee9e36.png",
+      "crc32": "0647dc46",
+      "size": [
+        1254,
+        1254
+      ],
+      "reference": {
+        "archive": "data/oulthor.bfp",
+        "archive_crc32": "716aabd8",
+        "member": 6,
+        "member_crc32": "f700bc15",
+        "mesh": "OP053D_1",
+        "material_slot": 0,
+        "material": "OP05",
+        "bmp_crc32": "c17c234a",
+        "palette_crc32": "b55fd89c",
+        "size": [
+          256,
+          256
+        ]
+      }
+    },
+    {
+      "id": "OP05L",
+      "file": "exec-500f182e-1cea-4252-a7c0-23bc8b66ac63.png",
+      "crc32": "6a2de630",
+      "size": [
+        1254,
+        1254
+      ],
+      "reference": {
+        "archive": "data/oulthor.bfp",
+        "archive_crc32": "716aabd8",
+        "member": 6,
+        "member_crc32": "f700bc15",
+        "mesh": "OP053D_2",
+        "material_slot": 1,
+        "material": "OP05L",
+        "bmp_crc32": "bba452e8",
+        "palette_crc32": "b55fd89c",
+        "size": [
+          256,
+          256
+        ]
+      },
+      "paired_generated_source": "OP05"
+    },
+    {
+      "id": "KN01",
+      "file": "exec-883abc8c-5e85-43c9-a35f-05ff7f30dbce.png",
+      "crc32": "42e8133f",
+      "size": [
+        1254,
+        1254
+      ],
+      "reference": {
+        "archive": "data/knochor.bfp",
+        "archive_crc32": "2715d7f9",
+        "member": 2,
+        "member_crc32": "685257d8",
+        "material": "KN01",
+        "material_slot": 0,
+        "bmp_crc32": "09559427",
+        "palette_crc32": "2d18701c",
+        "size": [
+          256,
+          256
+        ],
+        "mesh": "KN013D_1"
+      }
+    },
+    {
+      "id": "KN02",
+      "file": "exec-d8f2f760-c3ef-44c9-874e-d503b3b9fcb1.png",
+      "crc32": "a66f13f7",
+      "size": [
+        1254,
+        1254
+      ],
+      "reference": {
+        "archive": "data/knochor.bfp",
+        "archive_crc32": "2715d7f9",
+        "member": 3,
+        "member_crc32": "ac87e148",
+        "material": "KN02",
+        "material_slot": 0,
+        "bmp_crc32": "f23c029b",
+        "palette_crc32": "900d9cd2",
+        "size": [
+          256,
+          256
+        ],
+        "mesh": "KN023D_1"
+      }
+    },
+    {
+      "id": "KN03",
+      "file": "exec-20c1ee64-dd8a-4247-a7df-4b9332b34ea1.png",
+      "crc32": "7527f0cb",
+      "size": [
+        1254,
+        1254
+      ],
+      "reference": {
+        "archive": "data/knochor.bfp",
+        "archive_crc32": "2715d7f9",
+        "member": 4,
+        "member_crc32": "b525fa90",
+        "material": "KN03",
+        "material_slot": 0,
+        "bmp_crc32": "48250498",
+        "palette_crc32": "8a060b41",
+        "size": [
+          256,
+          256
+        ],
+        "mesh": "KN033D_1"
+      }
+    },
+    {
+      "id": "KN04",
+      "file": "exec-c46ea607-e501-4439-85f9-940efe0c6399.png",
+      "crc32": "99dbf495",
+      "size": [
+        1254,
+        1254
+      ],
+      "reference": {
+        "archive": "data/knochor.bfp",
+        "archive_crc32": "2715d7f9",
+        "member": 5,
+        "member_crc32": "cc3d9b90",
+        "material": "KN04",
+        "material_slot": 0,
+        "bmp_crc32": "edfe381b",
+        "palette_crc32": "6fdce8bc",
+        "size": [
+          256,
+          256
+        ],
+        "mesh": "KN043D_1"
+      }
+    },
+    {
+      "id": "KN05",
+      "file": "exec-a02d9563-cf1c-4492-afb5-ac5ce2c9dd1d.png",
+      "crc32": "3ab0e76f",
+      "size": [
+        1254,
+        1254
+      ],
+      "reference": {
+        "archive": "data/knochor.bfp",
+        "archive_crc32": "2715d7f9",
+        "member": 6,
+        "member_crc32": "984b17c6",
+        "material": "KN05",
+        "material_slot": 0,
+        "bmp_crc32": "b1552f97",
+        "palette_crc32": "53e0b929",
+        "size": [
+          256,
+          256
+        ],
+        "mesh": "KN053D_1"
+      }
+    },
+    {
+      "id": "KN05L",
+      "file": "exec-e08785b3-e959-4c96-a586-53526b6961c9.png",
+      "crc32": "435445ee",
+      "size": [
+        1254,
+        1254
+      ],
+      "reference": {
+        "archive": "data/knochor.bfp",
+        "archive_crc32": "2715d7f9",
+        "member": 6,
+        "member_crc32": "984b17c6",
+        "material": "KN05L",
+        "material_slot": 1,
+        "bmp_crc32": "19a88778",
+        "palette_crc32": "53e0b929",
+        "size": [
+          256,
+          256
+        ],
+        "mesh": "KN053D_2"
+      }
+    },
+    {
+      "id": "CR01",
+      "file": "exec-a8a7af77-0f58-4613-98d5-52f52f2f40dd.png",
+      "crc32": "1ae67bbe",
+      "size": [
+        1254,
+        1254
+      ],
+      "reference": {
+        "archive": "data/crofhor.bfp",
+        "archive_crc32": "f242381f",
+        "member": 2,
+        "member_crc32": "c62b62a0",
+        "mesh": "CR013D_1",
+        "material_slot": 0,
+        "material": "CR01",
+        "bmp_crc32": "7f50f973",
+        "palette_crc32": "98f66333",
+        "size": [
+          256,
+          256
+        ]
+      }
+    },
+    {
+      "id": "CR02",
+      "file": "exec-7b47537a-e1c4-4084-b357-d5170b940a1e.png",
+      "crc32": "dad7c506",
+      "size": [
+        1254,
+        1254
+      ],
+      "reference": {
+        "archive": "data/crofhor.bfp",
+        "archive_crc32": "f242381f",
+        "member": 3,
+        "member_crc32": "2998ab4f",
+        "mesh": "CR023D_1",
+        "material_slot": 0,
+        "material": "CR02",
+        "bmp_crc32": "fa88aa14",
+        "palette_crc32": "3ff158ec",
+        "size": [
+          256,
+          256
+        ]
+      }
+    },
+    {
+      "id": "CR03",
+      "file": "exec-b2919d0a-e8a9-48dd-b154-a6c629bc567e.png",
+      "crc32": "58223f11",
+      "size": [
+        1254,
+        1254
+      ],
+      "reference": {
+        "archive": "data/crofhor.bfp",
+        "archive_crc32": "f242381f",
+        "member": 4,
+        "member_crc32": "b8fc3a56",
+        "mesh": "CR033D_1",
+        "material_slot": 0,
+        "material": "CR03",
+        "bmp_crc32": "9b43c947",
+        "palette_crc32": "47759eed",
+        "size": [
+          256,
+          256
+        ]
+      }
+    },
+    {
+      "id": "CR04",
+      "file": "exec-f88aad7e-0baa-4579-8e86-76e2dbbfb816.png",
+      "crc32": "b244a912",
+      "size": [
+        1254,
+        1254
+      ],
+      "reference": {
+        "archive": "data/crofhor.bfp",
+        "archive_crc32": "f242381f",
+        "member": 5,
+        "member_crc32": "3d6e21ef",
+        "mesh": "CR043D_1",
+        "material_slot": 0,
+        "material": "CR04",
+        "bmp_crc32": "3769f979",
+        "palette_crc32": "41cb36f9",
+        "size": [
+          256,
+          256
+        ]
+      }
+    },
+    {
+      "id": "CR05",
+      "file": "exec-9a0b1461-a796-4108-b8b9-7b79bdf31dfe.png",
+      "crc32": "e2c8c9e1",
+      "size": [
+        1254,
+        1254
+      ],
+      "reference": {
+        "archive": "data/crofhor.bfp",
+        "archive_crc32": "f242381f",
+        "member": 6,
+        "member_crc32": "3ecc94b5",
+        "mesh": "CR053D_1",
+        "material_slot": 0,
+        "material": "CR05",
+        "bmp_crc32": "47447b28",
+        "palette_crc32": "b9985bf0",
+        "size": [
+          256,
+          256
+        ]
+      }
+    },
+    {
+      "id": "CR05L",
+      "file": "exec-568399de-bf03-48fa-8e72-d5879c6b3870.png",
+      "crc32": "3ba7e2f3",
+      "size": [
+        1254,
+        1254
+      ],
+      "reference": {
+        "archive": "data/crofhor.bfp",
+        "archive_crc32": "f242381f",
+        "member": 6,
+        "member_crc32": "3ecc94b5",
+        "mesh": "CR053D_2",
+        "material_slot": 1,
+        "material": "CR05L",
+        "bmp_crc32": "b83295ad",
+        "palette_crc32": "b9985bf0",
+        "size": [
+          256,
+          256
+        ]
+      },
+      "paired_generated_source": "CR05"
+    }
+  ],
+  "outputs": [
+    {
+      "image": "textures/background-do02.webp",
+      "source": "DO02",
+      "crop": [
+        1254,
+        1254,
+        0,
+        0
+      ],
+      "size": [
+        512,
+        512
+      ],
+      "alpha": "opaque",
+      "crc32": "806e8682",
+      "bytes": 36528,
+      "roll": [
+        -627,
+        0
+      ]
+    },
+    {
+      "image": "textures/background-do01.webp",
+      "source": "DO01",
+      "crop": [
+        1254,
+        1254,
+        0,
+        0
+      ],
+      "size": [
+        512,
+        512
+      ],
+      "alpha": "opaque",
+      "crc32": "8c811e26",
+      "bytes": 17962,
+      "roll": [
+        -627,
+        0
+      ]
+    },
+    {
+      "image": "textures/background-do03.webp",
+      "source": "DO03",
+      "crop": [
+        1254,
+        1254,
+        0,
+        0
+      ],
+      "size": [
+        512,
+        512
+      ],
+      "alpha": "opaque",
+      "crc32": "393d3c0c",
+      "bytes": 21572,
+      "roll": [
+        -627,
+        0
+      ]
+    },
+    {
+      "image": "textures/background-do04.webp",
+      "source": "DO04",
+      "crop": [
+        1254,
+        1254,
+        0,
+        0
+      ],
+      "size": [
+        512,
+        512
+      ],
+      "alpha": "opaque",
+      "crc32": "914c8f9e",
+      "bytes": 11550,
+      "roll": [
+        -627,
+        0
+      ]
+    },
+    {
+      "image": "textures/background-do05.webp",
+      "source": "DO05",
+      "crop": [
+        1254,
+        1254,
+        0,
+        0
+      ],
+      "size": [
+        512,
+        512
+      ],
+      "alpha": "opaque",
+      "crc32": "71228b63",
+      "bytes": 20326,
+      "roll": [
+        -627,
+        0
+      ]
+    },
+    {
+      "image": "textures/background-do05l.webp",
+      "source": "DO05L",
+      "crop": [
+        1254,
+        1254,
+        0,
+        0
+      ],
+      "size": [
+        512,
+        512
+      ],
+      "alpha": "opaque",
+      "crc32": "de2fe0ba",
+      "bytes": 23348
+    },
+    {
+      "image": "textures/background-si02.webp",
+      "source": "SI02",
+      "crop": [
+        1254,
+        1254,
+        0,
+        0
+      ],
+      "size": [
+        512,
+        512
+      ],
+      "alpha": "opaque",
+      "crc32": "4fa7fcb5",
+      "bytes": 29222
+    },
+    {
+      "image": "textures/background-si01.webp",
+      "source": "SI01",
+      "crop": [
+        1254,
+        1254,
+        0,
+        0
+      ],
+      "size": [
+        512,
+        512
+      ],
+      "alpha": "opaque",
+      "crc32": "2c89d413",
+      "bytes": 19354,
+      "roll": [
+        -627,
+        0
+      ]
+    },
+    {
+      "image": "textures/background-si03.webp",
+      "source": "SI03",
+      "crop": [
+        1254,
+        1254,
+        0,
+        0
+      ],
+      "size": [
+        512,
+        512
+      ],
+      "alpha": "opaque",
+      "crc32": "ed0a1824",
+      "bytes": 16876,
+      "roll": [
+        -627,
+        0
+      ]
+    },
+    {
+      "image": "textures/background-si05.webp",
+      "source": "SI05",
+      "crop": [
+        1254,
+        1254,
+        0,
+        0
+      ],
+      "size": [
+        512,
+        512
+      ],
+      "alpha": "opaque",
+      "crc32": "73e65855",
+      "bytes": 18534,
+      "roll": [
+        -627,
+        0
+      ]
+    },
+    {
+      "image": "textures/background-si05l.webp",
+      "source": "SI05L",
+      "crop": [
+        1254,
+        1254,
+        0,
+        0
+      ],
+      "size": [
+        512,
+        512
+      ],
+      "alpha": "opaque",
+      "crc32": "6425070d",
+      "bytes": 22144
+    },
+    {
+      "image": "textures/background-si04.webp",
+      "source": "SI04",
+      "crop": [
+        1254,
+        1254,
+        0,
+        0
+      ],
+      "size": [
+        512,
+        512
+      ],
+      "alpha": "opaque",
+      "crc32": "767c61c7",
+      "bytes": 11866,
+      "roll": [
+        -627,
+        0
+      ]
+    },
+    {
+      "image": "textures/background-lavabak.webp",
+      "source": "LAVABAK",
+      "roll": [
+        -627,
+        0
+      ],
+      "crop": [
+        1254,
+        1254,
+        0,
+        0
+      ],
+      "size": [
+        512,
+        512
+      ],
+      "alpha": "opaque",
+      "crc32": "1277728b",
+      "bytes": 27026
+    },
+    {
+      "image": "textures/background-sillylan.webp",
+      "source": "SILLYLAN",
+      "roll": [
+        -627,
+        0
+      ],
+      "crop": [
+        1254,
+        1254,
+        0,
+        0
+      ],
+      "size": [
+        512,
+        512
+      ],
+      "alpha": "opaque",
+      "crc32": "af61cba2",
+      "bytes": 10218
+    },
+    {
+      "image": "textures/background-cartoon.webp",
+      "source": "CARTOON",
+      "roll": [
+        -627,
+        0
+      ],
+      "crop": [
+        1254,
+        1254,
+        0,
+        0
+      ],
+      "size": [
+        512,
+        512
+      ],
+      "alpha": "opaque",
+      "crc32": "8fb33977",
+      "bytes": 12108
+    },
+    {
+      "image": "textures/background-th01.webp",
+      "source": "TH01",
+      "crop": [
+        1254,
+        1254,
+        0,
+        0
+      ],
+      "size": [
+        512,
+        512
+      ],
+      "alpha": "opaque",
+      "crc32": "08b356a6",
+      "bytes": 16774,
+      "roll": [
+        -627,
+        0
+      ]
+    },
+    {
+      "image": "textures/background-th03.webp",
+      "source": "TH03",
+      "crop": [
+        1254,
+        1254,
+        0,
+        0
+      ],
+      "size": [
+        512,
+        512
+      ],
+      "alpha": "opaque",
+      "crc32": "f20cf168",
+      "bytes": 16846,
+      "roll": [
+        -627,
+        0
+      ]
+    },
+    {
+      "image": "textures/background-th04.webp",
+      "source": "TH04",
+      "crop": [
+        1254,
+        1254,
+        0,
+        0
+      ],
+      "size": [
+        512,
+        512
+      ],
+      "alpha": "opaque",
+      "crc32": "b405b549",
+      "bytes": 11362,
+      "roll": [
+        -627,
+        0
+      ]
+    },
+    {
+      "image": "textures/background-th05.webp",
+      "source": "TH05",
+      "crop": [
+        1254,
+        1254,
+        0,
+        0
+      ],
+      "size": [
+        512,
+        512
+      ],
+      "alpha": "opaque",
+      "crc32": "fa2803fc",
+      "bytes": 18474,
+      "roll": [
+        -627,
+        0
+      ]
+    },
+    {
+      "image": "textures/background-th05l.webp",
+      "source": "TH05L",
+      "crop": [
+        1254,
+        1254,
+        0,
+        0
+      ],
+      "size": [
+        512,
+        512
+      ],
+      "alpha": "opaque",
+      "crc32": "1d603792",
+      "bytes": 25000
+    },
+    {
+      "image": "textures/background-bh01.webp",
+      "source": "BH01",
+      "crop": [
+        1254,
+        1254,
+        0,
+        0
+      ],
+      "size": [
+        512,
+        512
+      ],
+      "alpha": "opaque",
+      "crc32": "48fc4d5f",
+      "bytes": 23622,
+      "roll": [
+        -627,
+        0
+      ]
+    },
+    {
+      "image": "textures/background-bh02.webp",
+      "source": "BH02",
+      "crop": [
+        1254,
+        1254,
+        0,
+        0
+      ],
+      "size": [
+        512,
+        512
+      ],
+      "alpha": "opaque",
+      "crc32": "e02a6f83",
+      "bytes": 31468,
+      "roll": [
+        -627,
+        0
+      ]
+    },
+    {
+      "image": "textures/background-bh04.webp",
+      "source": "BH04",
+      "crop": [
+        1254,
+        1254,
+        0,
+        0
+      ],
+      "size": [
+        512,
+        512
+      ],
+      "alpha": "opaque",
+      "crc32": "45de1749",
+      "bytes": 14770,
+      "roll": [
+        -627,
+        0
+      ]
+    },
+    {
+      "image": "textures/background-bh05.webp",
+      "source": "BH05",
+      "crop": [
+        1254,
+        1254,
+        0,
+        0
+      ],
+      "size": [
+        512,
+        512
+      ],
+      "alpha": "opaque",
+      "crc32": "d9c6ce31",
+      "bytes": 19370,
+      "roll": [
+        -627,
+        0
+      ]
+    },
+    {
+      "image": "textures/background-bh05l.webp",
+      "source": "BH05L",
+      "crop": [
+        1254,
+        1254,
+        0,
+        0
+      ],
+      "size": [
+        512,
+        512
+      ],
+      "alpha": "opaque",
+      "crc32": "58d5ee88",
+      "bytes": 23756
+    },
+    {
+      "image": "textures/background-sn01.webp",
+      "source": "SN01",
+      "roll": [
+        -627,
+        0
+      ],
+      "crop": [
+        1254,
+        1254,
+        0,
+        0
+      ],
+      "size": [
+        512,
+        512
+      ],
+      "alpha": "opaque",
+      "crc32": "5d4bd8ce",
+      "bytes": 26358
+    },
+    {
+      "image": "textures/background-sn03.webp",
+      "source": "SN03",
+      "roll": [
+        -627,
+        0
+      ],
+      "crop": [
+        1254,
+        1254,
+        0,
+        0
+      ],
+      "size": [
+        512,
+        512
+      ],
+      "alpha": "opaque",
+      "crc32": "bd56a809",
+      "bytes": 20962
+    },
+    {
+      "image": "textures/background-sn04.webp",
+      "source": "SN04",
+      "roll": [
+        -627,
+        0
+      ],
+      "crop": [
+        1254,
+        1254,
+        0,
+        0
+      ],
+      "size": [
+        512,
+        512
+      ],
+      "alpha": "opaque",
+      "crc32": "1d8eb5d4",
+      "bytes": 12402
+    },
+    {
+      "image": "textures/background-sn05.webp",
+      "source": "SN05",
+      "roll": [
+        -627,
+        0
+      ],
+      "crop": [
+        1254,
+        1254,
+        0,
+        0
+      ],
+      "size": [
+        512,
+        512
+      ],
+      "alpha": "opaque",
+      "crc32": "259f6a2c",
+      "bytes": 23312
+    },
+    {
+      "image": "textures/background-sn05l.webp",
+      "source": "SN05L",
+      "crop": [
+        1254,
+        1254,
+        0,
+        0
+      ],
+      "size": [
+        512,
+        512
+      ],
+      "alpha": "opaque",
+      "crc32": "a05b2408",
+      "bytes": 26640
+    },
+    {
+      "image": "textures/background-op01.webp",
+      "source": "OP01",
+      "crop": [
+        1254,
+        1254,
+        0,
+        0
+      ],
+      "size": [
+        512,
+        512
+      ],
+      "alpha": "opaque",
+      "crc32": "7582534d",
+      "bytes": 22404,
+      "roll": [
+        -627,
+        0
+      ]
+    },
+    {
+      "image": "textures/background-op02.webp",
+      "source": "OP02",
+      "crop": [
+        1254,
+        1254,
+        0,
+        0
+      ],
+      "size": [
+        512,
+        512
+      ],
+      "alpha": "opaque",
+      "crc32": "9b2e0477",
+      "bytes": 32200,
+      "roll": [
+        -627,
+        0
+      ]
+    },
+    {
+      "image": "textures/background-op03.webp",
+      "source": "OP03",
+      "crop": [
+        1254,
+        1254,
+        0,
+        0
+      ],
+      "size": [
+        512,
+        512
+      ],
+      "alpha": "opaque",
+      "crc32": "83737785",
+      "bytes": 17970,
+      "roll": [
+        -627,
+        0
+      ]
+    },
+    {
+      "image": "textures/background-op04.webp",
+      "source": "OP04",
+      "crop": [
+        1254,
+        1254,
+        0,
+        0
+      ],
+      "size": [
+        512,
+        512
+      ],
+      "alpha": "opaque",
+      "crc32": "7e4cf476",
+      "bytes": 12776,
+      "roll": [
+        -627,
+        0
+      ]
+    },
+    {
+      "image": "textures/background-op05.webp",
+      "source": "OP05",
+      "crop": [
+        1254,
+        1254,
+        0,
+        0
+      ],
+      "size": [
+        512,
+        512
+      ],
+      "alpha": "opaque",
+      "crc32": "920f87ad",
+      "bytes": 16306,
+      "roll": [
+        -627,
+        0
+      ]
+    },
+    {
+      "image": "textures/background-op05l.webp",
+      "source": "OP05L",
+      "crop": [
+        1254,
+        1254,
+        0,
+        0
+      ],
+      "size": [
+        512,
+        512
+      ],
+      "alpha": "opaque",
+      "crc32": "4540b6f9",
+      "bytes": 18776
+    },
+    {
+      "image": "textures/background-kn01.webp",
+      "source": "KN01",
+      "roll": [
+        -627,
+        0
+      ],
+      "crop": [
+        1254,
+        1254,
+        0,
+        0
+      ],
+      "size": [
+        512,
+        512
+      ],
+      "alpha": "opaque",
+      "crc32": "60310fb1",
+      "bytes": 18864
+    },
+    {
+      "image": "textures/background-kn02.webp",
+      "source": "KN02",
+      "roll": [
+        -627,
+        0
+      ],
+      "crop": [
+        1254,
+        1254,
+        0,
+        0
+      ],
+      "size": [
+        512,
+        512
+      ],
+      "alpha": "opaque",
+      "crc32": "a69fc327",
+      "bytes": 23636
+    },
+    {
+      "image": "textures/background-kn03.webp",
+      "source": "KN03",
+      "roll": [
+        -627,
+        0
+      ],
+      "crop": [
+        1254,
+        1254,
+        0,
+        0
+      ],
+      "size": [
+        512,
+        512
+      ],
+      "alpha": "opaque",
+      "crc32": "d2069343",
+      "bytes": 16500
+    },
+    {
+      "image": "textures/background-kn04.webp",
+      "source": "KN04",
+      "roll": [
+        -627,
+        0
+      ],
+      "crop": [
+        1254,
+        1254,
+        0,
+        0
+      ],
+      "size": [
+        512,
+        512
+      ],
+      "alpha": "opaque",
+      "crc32": "9816dfe2",
+      "bytes": 11734
+    },
+    {
+      "image": "textures/background-kn05.webp",
+      "source": "KN05",
+      "roll": [
+        -627,
+        0
+      ],
+      "crop": [
+        1254,
+        1254,
+        0,
+        0
+      ],
+      "size": [
+        512,
+        512
+      ],
+      "alpha": "opaque",
+      "crc32": "727cae87",
+      "bytes": 14894
+    },
+    {
+      "image": "textures/background-kn05l.webp",
+      "source": "KN05L",
+      "crop": [
+        1254,
+        1254,
+        0,
+        0
+      ],
+      "size": [
+        512,
+        512
+      ],
+      "alpha": "opaque",
+      "crc32": "35147037",
+      "bytes": 18112
+    },
+    {
+      "image": "textures/background-cr01.webp",
+      "source": "CR01",
+      "crop": [
+        1254,
+        1254,
+        0,
+        0
+      ],
+      "size": [
+        512,
+        512
+      ],
+      "alpha": "opaque",
+      "crc32": "f9ffa8f9",
+      "bytes": 27522,
+      "roll": [
+        -627,
+        0
+      ]
+    },
+    {
+      "image": "textures/background-cr02.webp",
+      "source": "CR02",
+      "crop": [
+        1254,
+        1254,
+        0,
+        0
+      ],
+      "size": [
+        512,
+        512
+      ],
+      "alpha": "opaque",
+      "crc32": "94e65a35",
+      "bytes": 39960,
+      "roll": [
+        -627,
+        0
+      ]
+    },
+    {
+      "image": "textures/background-cr03.webp",
+      "source": "CR03",
+      "crop": [
+        1254,
+        1254,
+        0,
+        0
+      ],
+      "size": [
+        512,
+        512
+      ],
+      "alpha": "opaque",
+      "crc32": "c6d81c39",
+      "bytes": 21028,
+      "roll": [
+        -627,
+        0
+      ]
+    },
+    {
+      "image": "textures/background-cr04.webp",
+      "source": "CR04",
+      "crop": [
+        1254,
+        1254,
+        0,
+        0
+      ],
+      "size": [
+        512,
+        512
+      ],
+      "alpha": "opaque",
+      "crc32": "fab5d068",
+      "bytes": 19414,
+      "roll": [
+        -627,
+        0
+      ]
+    },
+    {
+      "image": "textures/background-cr05.webp",
+      "source": "CR05",
+      "crop": [
+        1254,
+        1254,
+        0,
+        0
+      ],
+      "size": [
+        512,
+        512
+      ],
+      "alpha": "opaque",
+      "crc32": "3a2afadd",
+      "bytes": 26112,
+      "roll": [
+        -627,
+        0
+      ]
+    },
+    {
+      "image": "textures/background-cr05l.webp",
+      "source": "CR05L",
+      "crop": [
+        1254,
+        1254,
+        0,
+        0
+      ],
+      "size": [
+        512,
+        512
+      ],
+      "alpha": "opaque",
+      "crc32": "c127b719",
+      "bytes": 30658
+    }
+  ],
+  "images": [
+    {
+      "material": "DO02",
+      "source_bmp_crc32": "87048995",
+      "source_id": "DO02",
+      "output": {
+        "path": "assets/models/mega/textures/background-do02.webp",
+        "width": 512,
+        "height": 512,
+        "crc32": "806e8682",
+        "bytes": 36528
+      }
+    },
+    {
+      "material": "DO01",
+      "source_bmp_crc32": "500f1ba6",
+      "source_id": "DO01",
+      "output": {
+        "path": "assets/models/mega/textures/background-do01.webp",
+        "width": 512,
+        "height": 512,
+        "crc32": "8c811e26",
+        "bytes": 17962
+      }
+    },
+    {
+      "material": "DO03",
+      "source_bmp_crc32": "c77f7669",
+      "source_id": "DO03",
+      "output": {
+        "path": "assets/models/mega/textures/background-do03.webp",
+        "width": 512,
+        "height": 512,
+        "crc32": "393d3c0c",
+        "bytes": 21572
+      }
+    },
+    {
+      "material": "DO04",
+      "source_bmp_crc32": "f82d0288",
+      "source_id": "DO04",
+      "output": {
+        "path": "assets/models/mega/textures/background-do04.webp",
+        "width": 512,
+        "height": 512,
+        "crc32": "914c8f9e",
+        "bytes": 11550
+      }
+    },
+    {
+      "material": "DO05",
+      "source_bmp_crc32": "53c7c2d5",
+      "source_id": "DO05",
+      "output": {
+        "path": "assets/models/mega/textures/background-do05.webp",
+        "width": 512,
+        "height": 512,
+        "crc32": "71228b63",
+        "bytes": 20326
+      }
+    },
+    {
+      "material": "DO05L",
+      "source_bmp_crc32": "14991598",
+      "source_id": "DO05L",
+      "output": {
+        "path": "assets/models/mega/textures/background-do05l.webp",
+        "width": 512,
+        "height": 512,
+        "crc32": "de2fe0ba",
+        "bytes": 23348
+      }
+    },
+    {
+      "material": "SI02",
+      "source_bmp_crc32": "193abea0",
+      "source_id": "SI02",
+      "output": {
+        "path": "assets/models/mega/textures/background-si02.webp",
+        "width": 512,
+        "height": 512,
+        "crc32": "4fa7fcb5",
+        "bytes": 29222
+      }
+    },
+    {
+      "material": "SI01",
+      "source_bmp_crc32": "26a37924",
+      "source_id": "SI01",
+      "output": {
+        "path": "assets/models/mega/textures/background-si01.webp",
+        "width": 512,
+        "height": 512,
+        "crc32": "2c89d413",
+        "bytes": 19354
+      }
+    },
+    {
+      "material": "SI03",
+      "source_bmp_crc32": "657ab91c",
+      "source_id": "SI03",
+      "output": {
+        "path": "assets/models/mega/textures/background-si03.webp",
+        "width": 512,
+        "height": 512,
+        "crc32": "ed0a1824",
+        "bytes": 16876
+      }
+    },
+    {
+      "material": "SI05",
+      "source_bmp_crc32": "3efd1185",
+      "source_id": "SI05",
+      "output": {
+        "path": "assets/models/mega/textures/background-si05.webp",
+        "width": 512,
+        "height": 512,
+        "crc32": "73e65855",
+        "bytes": 18534
+      }
+    },
+    {
+      "material": "SI05L",
+      "source_bmp_crc32": "37fab019",
+      "source_id": "SI05L",
+      "output": {
+        "path": "assets/models/mega/textures/background-si05l.webp",
+        "width": 512,
+        "height": 512,
+        "crc32": "6425070d",
+        "bytes": 22144
+      }
+    },
+    {
+      "material": "SI04",
+      "source_bmp_crc32": "667495be",
+      "source_id": "SI04",
+      "output": {
+        "path": "assets/models/mega/textures/background-si04.webp",
+        "width": 512,
+        "height": 512,
+        "crc32": "767c61c7",
+        "bytes": 11866
+      }
+    },
+    {
+      "material": "LAVABAK",
+      "source_bmp_crc32": "87ca1ff9",
+      "source_id": "LAVABAK",
+      "output": {
+        "path": "assets/models/mega/textures/background-lavabak.webp",
+        "width": 512,
+        "height": 512,
+        "crc32": "1277728b",
+        "bytes": 27026
+      }
+    },
+    {
+      "material": "SILLYLAN",
+      "source_bmp_crc32": "9b924bbe",
+      "source_id": "SILLYLAN",
+      "output": {
+        "path": "assets/models/mega/textures/background-sillylan.webp",
+        "width": 512,
+        "height": 512,
+        "crc32": "af61cba2",
+        "bytes": 10218
+      }
+    },
+    {
+      "material": "CARTOON",
+      "source_bmp_crc32": "a912938e",
+      "source_id": "CARTOON",
+      "output": {
+        "path": "assets/models/mega/textures/background-cartoon.webp",
+        "width": 512,
+        "height": 512,
+        "crc32": "8fb33977",
+        "bytes": 12108
+      }
+    },
+    {
+      "material": "TH01",
+      "source_bmp_crc32": "d88e5dc5",
+      "source_id": "TH01",
+      "output": {
+        "path": "assets/models/mega/textures/background-th01.webp",
+        "width": 512,
+        "height": 512,
+        "crc32": "08b356a6",
+        "bytes": 16774
+      }
+    },
+    {
+      "material": "TH03",
+      "source_bmp_crc32": "2587323a",
+      "source_id": "TH03",
+      "output": {
+        "path": "assets/models/mega/textures/background-th03.webp",
+        "width": 512,
+        "height": 512,
+        "crc32": "f20cf168",
+        "bytes": 16846
+      }
+    },
+    {
+      "material": "TH04",
+      "source_bmp_crc32": "0718d4af",
+      "source_id": "TH04",
+      "output": {
+        "path": "assets/models/mega/textures/background-th04.webp",
+        "width": 512,
+        "height": 512,
+        "crc32": "b405b549",
+        "bytes": 11362
+      }
+    },
+    {
+      "material": "TH05",
+      "source_bmp_crc32": "f356f1f7",
+      "source_id": "TH05",
+      "output": {
+        "path": "assets/models/mega/textures/background-th05.webp",
+        "width": 512,
+        "height": 512,
+        "crc32": "fa2803fc",
+        "bytes": 18474
+      }
+    },
+    {
+      "material": "TH05L",
+      "source_bmp_crc32": "24494811",
+      "source_id": "TH05L",
+      "output": {
+        "path": "assets/models/mega/textures/background-th05l.webp",
+        "width": 512,
+        "height": 512,
+        "crc32": "1d603792",
+        "bytes": 25000
+      }
+    },
+    {
+      "material": "BH01",
+      "source_bmp_crc32": "884ee383",
+      "source_id": "BH01",
+      "output": {
+        "path": "assets/models/mega/textures/background-bh01.webp",
+        "width": 512,
+        "height": 512,
+        "crc32": "48fc4d5f",
+        "bytes": 23622
+      }
+    },
+    {
+      "material": "BH02",
+      "source_bmp_crc32": "90b8fe68",
+      "source_id": "BH02",
+      "output": {
+        "path": "assets/models/mega/textures/background-bh02.webp",
+        "width": 512,
+        "height": 512,
+        "crc32": "e02a6f83",
+        "bytes": 31468
+      }
+    },
+    {
+      "material": "BH04",
+      "source_bmp_crc32": "5710d789",
+      "source_id": "BH04",
+      "output": {
+        "path": "assets/models/mega/textures/background-bh04.webp",
+        "width": 512,
+        "height": 512,
+        "crc32": "45de1749",
+        "bytes": 14770
+      }
+    },
+    {
+      "material": "BH05",
+      "source_bmp_crc32": "49d2d533",
+      "source_id": "BH05",
+      "output": {
+        "path": "assets/models/mega/textures/background-bh05.webp",
+        "width": 512,
+        "height": 512,
+        "crc32": "d9c6ce31",
+        "bytes": 19370
+      }
+    },
+    {
+      "material": "BH05L",
+      "source_bmp_crc32": "8ff868e5",
+      "source_id": "BH05L",
+      "output": {
+        "path": "assets/models/mega/textures/background-bh05l.webp",
+        "width": 512,
+        "height": 512,
+        "crc32": "58d5ee88",
+        "bytes": 23756
+      }
+    },
+    {
+      "material": "SN01",
+      "source_bmp_crc32": "755f3462",
+      "source_id": "SN01",
+      "output": {
+        "path": "assets/models/mega/textures/background-sn01.webp",
+        "width": 512,
+        "height": 512,
+        "crc32": "5d4bd8ce",
+        "bytes": 26358
+      }
+    },
+    {
+      "material": "SN03",
+      "source_bmp_crc32": "0bdbc276",
+      "source_id": "SN03",
+      "output": {
+        "path": "assets/models/mega/textures/background-sn03.webp",
+        "width": 512,
+        "height": 512,
+        "crc32": "bd56a809",
+        "bytes": 20962
+      }
+    },
+    {
+      "material": "SN04",
+      "source_bmp_crc32": "ee68d397",
+      "source_id": "SN04",
+      "output": {
+        "path": "assets/models/mega/textures/background-sn04.webp",
+        "width": 512,
+        "height": 512,
+        "crc32": "1d8eb5d4",
+        "bytes": 12402
+      }
+    },
+    {
+      "material": "SN05",
+      "source_bmp_crc32": "508346c5",
+      "source_id": "SN05",
+      "output": {
+        "path": "assets/models/mega/textures/background-sn05.webp",
+        "width": 512,
+        "height": 512,
+        "crc32": "259f6a2c",
+        "bytes": 23312
+      }
+    },
+    {
+      "material": "SN05L",
+      "source_bmp_crc32": "87b9c0dc",
+      "source_id": "SN05L",
+      "output": {
+        "path": "assets/models/mega/textures/background-sn05l.webp",
+        "width": 512,
+        "height": 512,
+        "crc32": "a05b2408",
+        "bytes": 26640
+      }
+    },
+    {
+      "material": "OP01",
+      "source_bmp_crc32": "ec23e7b1",
+      "source_id": "OP01",
+      "output": {
+        "path": "assets/models/mega/textures/background-op01.webp",
+        "width": 512,
+        "height": 512,
+        "crc32": "7582534d",
+        "bytes": 22404
+      }
+    },
+    {
+      "material": "OP02",
+      "source_bmp_crc32": "dd0b220d",
+      "source_id": "OP02",
+      "output": {
+        "path": "assets/models/mega/textures/background-op02.webp",
+        "width": 512,
+        "height": 512,
+        "crc32": "9b2e0477",
+        "bytes": 32200
+      }
+    },
+    {
+      "material": "OP03",
+      "source_bmp_crc32": "9e01f0a8",
+      "source_id": "OP03",
+      "output": {
+        "path": "assets/models/mega/textures/background-op03.webp",
+        "width": 512,
+        "height": 512,
+        "crc32": "83737785",
+        "bytes": 17970
+      }
+    },
+    {
+      "material": "OP04",
+      "source_bmp_crc32": "c9269fbb",
+      "source_id": "OP04",
+      "output": {
+        "path": "assets/models/mega/textures/background-op04.webp",
+        "width": 512,
+        "height": 512,
+        "crc32": "7e4cf476",
+        "bytes": 12776
+      }
+    },
+    {
+      "material": "OP05",
+      "source_bmp_crc32": "c17c234a",
+      "source_id": "OP05",
+      "output": {
+        "path": "assets/models/mega/textures/background-op05.webp",
+        "width": 512,
+        "height": 512,
+        "crc32": "920f87ad",
+        "bytes": 16306
+      }
+    },
+    {
+      "material": "OP05L",
+      "source_bmp_crc32": "bba452e8",
+      "source_id": "OP05L",
+      "output": {
+        "path": "assets/models/mega/textures/background-op05l.webp",
+        "width": 512,
+        "height": 512,
+        "crc32": "4540b6f9",
+        "bytes": 18776
+      }
+    },
+    {
+      "material": "KN01",
+      "source_bmp_crc32": "09559427",
+      "source_id": "KN01",
+      "output": {
+        "path": "assets/models/mega/textures/background-kn01.webp",
+        "width": 512,
+        "height": 512,
+        "crc32": "60310fb1",
+        "bytes": 18864
+      }
+    },
+    {
+      "material": "KN02",
+      "source_bmp_crc32": "f23c029b",
+      "source_id": "KN02",
+      "output": {
+        "path": "assets/models/mega/textures/background-kn02.webp",
+        "width": 512,
+        "height": 512,
+        "crc32": "a69fc327",
+        "bytes": 23636
+      }
+    },
+    {
+      "material": "KN03",
+      "source_bmp_crc32": "48250498",
+      "source_id": "KN03",
+      "output": {
+        "path": "assets/models/mega/textures/background-kn03.webp",
+        "width": 512,
+        "height": 512,
+        "crc32": "d2069343",
+        "bytes": 16500
+      }
+    },
+    {
+      "material": "KN04",
+      "source_bmp_crc32": "edfe381b",
+      "source_id": "KN04",
+      "output": {
+        "path": "assets/models/mega/textures/background-kn04.webp",
+        "width": 512,
+        "height": 512,
+        "crc32": "9816dfe2",
+        "bytes": 11734
+      }
+    },
+    {
+      "material": "KN05",
+      "source_bmp_crc32": "b1552f97",
+      "source_id": "KN05",
+      "output": {
+        "path": "assets/models/mega/textures/background-kn05.webp",
+        "width": 512,
+        "height": 512,
+        "crc32": "727cae87",
+        "bytes": 14894
+      }
+    },
+    {
+      "material": "KN05L",
+      "source_bmp_crc32": "19a88778",
+      "source_id": "KN05L",
+      "output": {
+        "path": "assets/models/mega/textures/background-kn05l.webp",
+        "width": 512,
+        "height": 512,
+        "crc32": "35147037",
+        "bytes": 18112
+      }
+    },
+    {
+      "material": "CR01",
+      "source_bmp_crc32": "7f50f973",
+      "source_id": "CR01",
+      "output": {
+        "path": "assets/models/mega/textures/background-cr01.webp",
+        "width": 512,
+        "height": 512,
+        "crc32": "f9ffa8f9",
+        "bytes": 27522
+      }
+    },
+    {
+      "material": "CR02",
+      "source_bmp_crc32": "fa88aa14",
+      "source_id": "CR02",
+      "output": {
+        "path": "assets/models/mega/textures/background-cr02.webp",
+        "width": 512,
+        "height": 512,
+        "crc32": "94e65a35",
+        "bytes": 39960
+      }
+    },
+    {
+      "material": "CR03",
+      "source_bmp_crc32": "9b43c947",
+      "source_id": "CR03",
+      "output": {
+        "path": "assets/models/mega/textures/background-cr03.webp",
+        "width": 512,
+        "height": 512,
+        "crc32": "c6d81c39",
+        "bytes": 21028
+      }
+    },
+    {
+      "material": "CR04",
+      "source_bmp_crc32": "3769f979",
+      "source_id": "CR04",
+      "output": {
+        "path": "assets/models/mega/textures/background-cr04.webp",
+        "width": 512,
+        "height": 512,
+        "crc32": "fab5d068",
+        "bytes": 19414
+      }
+    },
+    {
+      "material": "CR05",
+      "source_bmp_crc32": "47447b28",
+      "source_id": "CR05",
+      "output": {
+        "path": "assets/models/mega/textures/background-cr05.webp",
+        "width": 512,
+        "height": 512,
+        "crc32": "3a2afadd",
+        "bytes": 26112
+      }
+    },
+    {
+      "material": "CR05L",
+      "source_bmp_crc32": "b83295ad",
+      "source_id": "CR05L",
+      "output": {
+        "path": "assets/models/mega/textures/background-cr05l.webp",
+        "width": 512,
+        "height": 512,
+        "crc32": "c127b719",
+        "bytes": 30658
+      }
+    }
+  ],
+  "webp_quality": 80
+}

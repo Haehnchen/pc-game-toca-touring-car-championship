@@ -1,0 +1,3109 @@
+{
+  "version": 1,
+  "package": "R01-Silverstone-buildings-towers-bridges",
+  "source": {
+    "path": "data/silvfree.bfp",
+    "crc32": "960a335c",
+    "member": 5,
+    "member_crc32": "a92b3b70"
+  },
+  "scope": {
+    "accepted_types": 12,
+    "accepted_placements": 35,
+    "partial_types": 1,
+    "partial_TV_placements": 4,
+    "new_source_images": 41,
+    "reused_source_images": 4,
+    "unchanged_open_source_images": 1,
+    "new_exact_alpha_masks": 18,
+    "new_opaque_images": 23,
+    "buildings": [
+      {
+        "mesh": 4,
+        "name": "SI12FOS_1",
+        "type": "3c666bcd",
+        "source_crc32": "f4931673",
+        "vertices": 34,
+        "triangles": 22,
+        "nodes": [
+          9,
+          11,
+          13,
+          15
+        ],
+        "status": "accepted"
+      },
+      {
+        "mesh": 5,
+        "name": "SI22INK1_1",
+        "type": "533d42fd",
+        "source_crc32": "3950de0a",
+        "vertices": 19,
+        "triangles": 12,
+        "nodes": [
+          17
+        ],
+        "status": "accepted"
+      },
+      {
+        "mesh": 6,
+        "name": "SI22INK2_1",
+        "type": "4f611dfa",
+        "source_crc32": "8790a741",
+        "vertices": 24,
+        "triangles": 12,
+        "nodes": [
+          19
+        ],
+        "status": "accepted"
+      },
+      {
+        "mesh": 11,
+        "name": "SI07SPR_1",
+        "type": "b636bf70",
+        "source_crc32": "5c5a49d5",
+        "vertices": 52,
+        "triangles": 28,
+        "nodes": [
+          31,
+          191,
+          203,
+          205,
+          207
+        ],
+        "status": "accepted"
+      },
+      {
+        "mesh": 12,
+        "name": "SI34TWR_1",
+        "type": "002a89ef",
+        "source_crc32": "13a98cd9",
+        "vertices": 98,
+        "triangles": 58,
+        "nodes": [
+          33
+        ],
+        "status": "accepted"
+      },
+      {
+        "mesh": 16,
+        "name": "SI14VST_1",
+        "type": "5f914a8a",
+        "source_crc32": "bdf662d1",
+        "vertices": 73,
+        "triangles": 48,
+        "nodes": [
+          47
+        ],
+        "status": "accepted"
+      },
+      {
+        "mesh": 17,
+        "name": "SI19MAR_1",
+        "type": "0d209ab8",
+        "source_crc32": "38634392",
+        "vertices": 46,
+        "triangles": 34,
+        "nodes": [
+          49,
+          51,
+          53,
+          55,
+          57,
+          59,
+          61,
+          63,
+          65,
+          67,
+          69,
+          81,
+          127,
+          183,
+          293,
+          301,
+          329
+        ],
+        "status": "accepted"
+      },
+      {
+        "mesh": 19,
+        "name": "SI23ARO_1",
+        "type": "b2baec53",
+        "source_crc32": "55017389",
+        "vertices": 60,
+        "triangles": 30,
+        "nodes": [
+          75
+        ],
+        "status": "accepted"
+      },
+      {
+        "mesh": 25,
+        "name": "SI10BRI_1",
+        "type": "e8163ba9",
+        "source_crc32": "ec85dd41",
+        "vertices": 192,
+        "triangles": 100,
+        "nodes": [
+          129
+        ],
+        "status": "accepted"
+      },
+      {
+        "mesh": 32,
+        "name": "TV_1",
+        "type": "4db5016b",
+        "source_crc32": "1ee3b4e5",
+        "vertices": 41,
+        "triangles": 21,
+        "nodes": [
+          185,
+          187,
+          189,
+          209
+        ],
+        "status": "partial-TV2-open"
+      },
+      {
+        "mesh": 34,
+        "name": "SI16PRB_1",
+        "type": "5f0919b2",
+        "source_crc32": "59877963",
+        "vertices": 34,
+        "triangles": 24,
+        "nodes": [
+          201
+        ],
+        "status": "accepted"
+      },
+      {
+        "mesh": 40,
+        "name": "SI15BRI_1",
+        "type": "420c4afd",
+        "source_crc32": "82ee9ec5",
+        "vertices": 142,
+        "triangles": 76,
+        "nodes": [
+          333
+        ],
+        "status": "accepted"
+      },
+      {
+        "mesh": 42,
+        "name": "SI11BRI_1",
+        "type": "85d0421e",
+        "source_crc32": "49673ebd",
+        "vertices": 149,
+        "triangles": 109,
+        "nodes": [
+          367
+        ],
+        "status": "accepted"
+      }
+    ]
+  },
+  "geometry": "All13 simple source bodies retained,574 source triangles total. No new brackets, individual slats, bolts, cables or support geometry. Complete packed positions/normals/UVs/corner order/colour/materialslots and512 hierarchy nodes exact. Source openbottoms/backs and compound plane joins retained; TV_1 remains its original planar structure.",
+  "uv_contract": "41 exact source-name/size/BMP-CRC mappings; no aliases or cross-track exact-CRC consumers. Internal sharing:INK3/4 on both kiosks,SPR4 on hut/tower,MBX1 on marshalbox/bridge/TV,ARO2 on wall/bridge. All recorded roof/corner/line samples preserved. Static clamp applied to each source vertex remains .02..99; no UV remap or new texture slot.",
+  "export": "New Imagegen artwork, not source upscale or pixelblock tracing. Whole-artwork Lanczos to original aspect, longestedge512, WebP quality80 method6. Six recorded crops remove only AI presentation padding. Source alpha restored exactly for18 images; no source RGB copied or procedural artwork repaint. SPR2 angular noise and TV1 block flecks removed by targeted Imagegen edits.",
+  "materials": [
+    {
+      "name": "I10BRI1",
+      "source": {
+        "slot": 85,
+        "crc32": "cdad88c6",
+        "size": [
+          32,
+          64
+        ],
+        "black_key_pixels": 1069
+      },
+      "consumers": [
+        {
+          "mesh": 25,
+          "name": "SI10BRI_1",
+          "nodes": [
+            129
+          ],
+          "faces": 25,
+          "uv_bounds": [
+            [
+              0.0,
+              0.9677276611328125
+            ],
+            [
+              -0.9999847412109375,
+              -0.0158538818359375
+            ]
+          ]
+        }
+      ],
+      "generated": {
+        "path": "build/silverstone-structures/I10BRI1-generated.png",
+        "crc32": "ffb4567e",
+        "bytes": 1598149,
+        "size": [
+          887,
+          1774
+        ]
+      },
+      "output": {
+        "path": "assets/models/mega/textures/silverstone-structures-i10bri1.webp",
+        "crc32": "5b990099",
+        "bytes": 6346,
+        "size": [
+          256,
+          512
+        ]
+      },
+      "processing_crop": [
+        0,
+        0,
+        887,
+        1774
+      ],
+      "alpha": "Exact immutable source RGB-black-key mask, nearest-scaled; opaque Imagegen colourplate below it."
+    },
+    {
+      "name": "I10BRI3",
+      "source": {
+        "slot": 86,
+        "crc32": "5badd96b",
+        "size": [
+          64,
+          32
+        ],
+        "black_key_pixels": 1223
+      },
+      "consumers": [
+        {
+          "mesh": 25,
+          "name": "SI10BRI_1",
+          "nodes": [
+            129
+          ],
+          "faces": 8,
+          "uv_bounds": [
+            [
+              0.0,
+              1.0
+            ],
+            [
+              -0.9999847412109375,
+              1.52587890625e-05
+            ]
+          ]
+        }
+      ],
+      "generated": {
+        "path": "build/silverstone-structures/I10BRI3-generated.png",
+        "crc32": "aec6db25",
+        "bytes": 1478140,
+        "size": [
+          1774,
+          887
+        ]
+      },
+      "output": {
+        "path": "assets/models/mega/textures/silverstone-structures-i10bri3.webp",
+        "crc32": "334efef7",
+        "bytes": 4822,
+        "size": [
+          512,
+          256
+        ]
+      },
+      "processing_crop": [
+        0,
+        0,
+        1774,
+        887
+      ],
+      "alpha": "Exact immutable source RGB-black-key mask, nearest-scaled; opaque Imagegen colourplate below it."
+    },
+    {
+      "name": "I10BRI5",
+      "source": {
+        "slot": 84,
+        "crc32": "1971b1d8",
+        "size": [
+          64,
+          64
+        ],
+        "black_key_pixels": 2916
+      },
+      "consumers": [
+        {
+          "mesh": 25,
+          "name": "SI10BRI_1",
+          "nodes": [
+            129
+          ],
+          "faces": 19,
+          "uv_bounds": [
+            [
+              0.0,
+              0.9682464599609375
+            ],
+            [
+              -0.9999847412109375,
+              -0.0317230224609375
+            ]
+          ]
+        }
+      ],
+      "generated": {
+        "path": "build/silverstone-structures/I10BRI5-generated.png",
+        "crc32": "8a81ed72",
+        "bytes": 1363221,
+        "size": [
+          1254,
+          1254
+        ]
+      },
+      "output": {
+        "path": "assets/models/mega/textures/silverstone-structures-i10bri5.webp",
+        "crc32": "dea42bd9",
+        "bytes": 11234,
+        "size": [
+          512,
+          512
+        ]
+      },
+      "processing_crop": [
+        0,
+        0,
+        1254,
+        1254
+      ],
+      "alpha": "Exact immutable source RGB-black-key mask, nearest-scaled; opaque Imagegen colourplate below it."
+    },
+    {
+      "name": "SI07SPR1",
+      "source": {
+        "slot": 24,
+        "crc32": "fe0b0650",
+        "size": [
+          64,
+          32
+        ],
+        "black_key_pixels": 0
+      },
+      "consumers": [
+        {
+          "mesh": 11,
+          "name": "SI07SPR_1",
+          "nodes": [
+            31,
+            191,
+            203,
+            205,
+            207
+          ],
+          "faces": 4,
+          "uv_bounds": [
+            [
+              0.0,
+              1.0
+            ],
+            [
+              -0.9999847412109375,
+              -0.0322418212890625
+            ]
+          ]
+        }
+      ],
+      "generated": {
+        "path": "build/silverstone-structures/SI07SPR1-generated.png",
+        "crc32": "0417d793",
+        "bytes": 2230639,
+        "size": [
+          1774,
+          887
+        ]
+      },
+      "output": {
+        "path": "assets/models/mega/textures/silverstone-structures-si07spr1.webp",
+        "crc32": "1c0ffb53",
+        "bytes": 5244,
+        "size": [
+          512,
+          256
+        ]
+      },
+      "processing_crop": [
+        0,
+        0,
+        1774,
+        887
+      ],
+      "alpha": "Fully opaque including dark windows/structural fields."
+    },
+    {
+      "name": "SI07SPR2",
+      "source": {
+        "slot": 25,
+        "crc32": "b4c943ca",
+        "size": [
+          64,
+          32
+        ],
+        "black_key_pixels": 0
+      },
+      "consumers": [
+        {
+          "mesh": 11,
+          "name": "SI07SPR_1",
+          "nodes": [
+            31,
+            191,
+            203,
+            205,
+            207
+          ],
+          "faces": 12,
+          "uv_bounds": [
+            [
+              0.0,
+              1.0
+            ],
+            [
+              -0.9999847412109375,
+              -0.0322418212890625
+            ]
+          ]
+        }
+      ],
+      "generated": {
+        "path": "build/silverstone-structures/SI07SPR2-generated.png",
+        "crc32": "6b75ad52",
+        "bytes": 2279757,
+        "size": [
+          1774,
+          887
+        ]
+      },
+      "output": {
+        "path": "assets/models/mega/textures/silverstone-structures-si07spr2.webp",
+        "crc32": "724d736b",
+        "bytes": 3690,
+        "size": [
+          512,
+          256
+        ]
+      },
+      "processing_crop": [
+        0,
+        0,
+        1774,
+        887
+      ],
+      "alpha": "Fully opaque including dark windows/structural fields.",
+      "edit": {
+        "references": [
+          {
+            "path": "exec-7c1c14e2-6a1b-4c68-b3d6-aac7249a3c33.png",
+            "crc32": "6f04cad3",
+            "bytes": 2204690,
+            "size": [
+              1774,
+              887
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "SI07SPR4",
+      "source": {
+        "slot": 26,
+        "crc32": "c2060889",
+        "size": [
+          64,
+          32
+        ],
+        "black_key_pixels": 0
+      },
+      "consumers": [
+        {
+          "mesh": 11,
+          "name": "SI07SPR_1",
+          "nodes": [
+            31,
+            191,
+            203,
+            205,
+            207
+          ],
+          "faces": 12,
+          "uv_bounds": [
+            [
+              0.0,
+              1.0
+            ],
+            [
+              -0.9999847412109375,
+              1.52587890625e-05
+            ]
+          ]
+        },
+        {
+          "mesh": 12,
+          "name": "SI34TWR_1",
+          "nodes": [
+            33
+          ],
+          "faces": 2,
+          "uv_bounds": [
+            [
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0
+            ]
+          ]
+        }
+      ],
+      "generated": {
+        "path": "build/silverstone-structures/SI07SPR4-generated.png",
+        "crc32": "534e5325",
+        "bytes": 2535817,
+        "size": [
+          1774,
+          887
+        ]
+      },
+      "output": {
+        "path": "assets/models/mega/textures/silverstone-structures-si07spr4.webp",
+        "crc32": "9e7046eb",
+        "bytes": 1870,
+        "size": [
+          512,
+          256
+        ]
+      },
+      "processing_crop": [
+        0,
+        0,
+        1774,
+        887
+      ],
+      "alpha": "Fully opaque including dark windows/structural fields."
+    },
+    {
+      "name": "SI11BRA",
+      "source": {
+        "slot": 118,
+        "crc32": "ee0ddbf8",
+        "size": [
+          128,
+          32
+        ],
+        "black_key_pixels": 0
+      },
+      "consumers": [
+        {
+          "mesh": 42,
+          "name": "SI11BRI_1",
+          "nodes": [
+            367
+          ],
+          "faces": 62,
+          "uv_bounds": [
+            [
+              0.0,
+              0.9921112060546875
+            ],
+            [
+              -0.9999847412109375,
+              -0.0644989013671875
+            ]
+          ]
+        }
+      ],
+      "generated": {
+        "path": "build/silverstone-structures/SI11BRA-generated.png",
+        "crc32": "5c232e6b",
+        "bytes": 1172409,
+        "size": [
+          2170,
+          725
+        ]
+      },
+      "output": {
+        "path": "assets/models/mega/textures/silverstone-structures-si11bra.webp",
+        "crc32": "9e004776",
+        "bytes": 5590,
+        "size": [
+          512,
+          128
+        ]
+      },
+      "processing_crop": [
+        0,
+        0,
+        2170,
+        725
+      ],
+      "alpha": "Fully opaque including dark windows/structural fields.",
+      "reconstruction": "TREBOR EXTRA STRONG confirmed; unresolved tiny lower print stays quiet source graphic structure without invented readable wording."
+    },
+    {
+      "name": "SI11BRI",
+      "source": {
+        "slot": 117,
+        "crc32": "29cfbe64",
+        "size": [
+          32,
+          64
+        ],
+        "black_key_pixels": 1612
+      },
+      "consumers": [
+        {
+          "mesh": 42,
+          "name": "SI11BRI_1",
+          "nodes": [
+            367
+          ],
+          "faces": 24,
+          "uv_bounds": [
+            [
+              0.0,
+              0.9677276611328125
+            ],
+            [
+              -0.9999847412109375,
+              -0.0158538818359375
+            ]
+          ]
+        }
+      ],
+      "generated": {
+        "path": "build/silverstone-structures/SI11BRI-generated.png",
+        "crc32": "74215f0a",
+        "bytes": 969807,
+        "size": [
+          887,
+          1774
+        ]
+      },
+      "output": {
+        "path": "assets/models/mega/textures/silverstone-structures-si11bri.webp",
+        "crc32": "18866c00",
+        "bytes": 4070,
+        "size": [
+          256,
+          512
+        ]
+      },
+      "processing_crop": [
+        0,
+        0,
+        887,
+        1774
+      ],
+      "alpha": "Exact immutable source RGB-black-key mask, nearest-scaled; opaque Imagegen colourplate below it."
+    },
+    {
+      "name": "SI12FOS1",
+      "source": {
+        "slot": 6,
+        "crc32": "bac6bffd",
+        "size": [
+          64,
+          64
+        ],
+        "black_key_pixels": 0
+      },
+      "consumers": [
+        {
+          "mesh": 4,
+          "name": "SI12FOS_1",
+          "nodes": [
+            9,
+            11,
+            13,
+            15
+          ],
+          "faces": 4,
+          "uv_bounds": [
+            [
+              0.0,
+              0.4920501708984375
+            ],
+            [
+              -0.9999847412109375,
+              -0.5079193115234375
+            ]
+          ]
+        }
+      ],
+      "generated": {
+        "path": "build/silverstone-structures/SI12FOS1-generated.png",
+        "crc32": "8439ef76",
+        "bytes": 1341477,
+        "size": [
+          1254,
+          1254
+        ]
+      },
+      "output": {
+        "path": "assets/models/mega/textures/silverstone-structures-si12fos1.webp",
+        "crc32": "075661f8",
+        "bytes": 6856,
+        "size": [
+          512,
+          512
+        ]
+      },
+      "processing_crop": [
+        0,
+        0,
+        1254,
+        1254
+      ],
+      "alpha": "Fully opaque including dark windows/structural fields.",
+      "reconstruction": "Original navy/gold bands, two stars and pale kangaroo retained; no added wording."
+    },
+    {
+      "name": "SI14VST",
+      "source": {
+        "slot": 46,
+        "crc32": "e031d336",
+        "size": [
+          64,
+          128
+        ],
+        "black_key_pixels": 0
+      },
+      "consumers": [
+        {
+          "mesh": 16,
+          "name": "SI14VST_1",
+          "nodes": [
+            47
+          ],
+          "faces": 16,
+          "uv_bounds": [
+            [
+              0.0,
+              0.9677276611328125
+            ],
+            [
+              -0.9999847412109375,
+              -0.0322418212890625
+            ]
+          ]
+        }
+      ],
+      "generated": {
+        "path": "build/silverstone-structures/SI14VST-generated.png",
+        "crc32": "b4ae640a",
+        "bytes": 1579392,
+        "size": [
+          887,
+          1774
+        ]
+      },
+      "output": {
+        "path": "assets/models/mega/textures/silverstone-structures-si14vst.webp",
+        "crc32": "0d3fe085",
+        "bytes": 3766,
+        "size": [
+          256,
+          512
+        ]
+      },
+      "processing_crop": [
+        0,
+        0,
+        887,
+        1774
+      ],
+      "alpha": "Fully opaque including dark windows/structural fields."
+    },
+    {
+      "name": "SI14VSTA",
+      "source": {
+        "slot": 47,
+        "crc32": "22d37772",
+        "size": [
+          64,
+          64
+        ],
+        "black_key_pixels": 0
+      },
+      "consumers": [
+        {
+          "mesh": 16,
+          "name": "SI14VST_1",
+          "nodes": [
+            47
+          ],
+          "faces": 24,
+          "uv_bounds": [
+            [
+              0.0,
+              0.9841156005859375
+            ],
+            [
+              -0.9999847412109375,
+              -0.0158538818359375
+            ]
+          ]
+        }
+      ],
+      "generated": {
+        "path": "build/silverstone-structures/SI14VSTA-generated.png",
+        "crc32": "ddf02d61",
+        "bytes": 2578029,
+        "size": [
+          1254,
+          1254
+        ]
+      },
+      "output": {
+        "path": "assets/models/mega/textures/silverstone-structures-si14vsta.webp",
+        "crc32": "68482fd9",
+        "bytes": 16316,
+        "size": [
+          512,
+          512
+        ]
+      },
+      "processing_crop": [
+        0,
+        0,
+        1254,
+        1254
+      ],
+      "alpha": "Fully opaque including dark windows/structural fields."
+    },
+    {
+      "name": "SI14VSTB",
+      "source": {
+        "slot": 48,
+        "crc32": "5a7a403e",
+        "size": [
+          64,
+          64
+        ],
+        "black_key_pixels": 0
+      },
+      "consumers": [
+        {
+          "mesh": 16,
+          "name": "SI14VST_1",
+          "nodes": [
+            47
+          ],
+          "faces": 8,
+          "uv_bounds": [
+            [
+              0.0,
+              0.9841156005859375
+            ],
+            [
+              -0.9999847412109375,
+              -0.0317230224609375
+            ]
+          ]
+        }
+      ],
+      "generated": {
+        "path": "build/silverstone-structures/SI14VSTB-generated.png",
+        "crc32": "2d579d61",
+        "bytes": 2125480,
+        "size": [
+          1254,
+          1254
+        ]
+      },
+      "output": {
+        "path": "assets/models/mega/textures/silverstone-structures-si14vstb.webp",
+        "crc32": "403273cc",
+        "bytes": 12994,
+        "size": [
+          512,
+          512
+        ]
+      },
+      "processing_crop": [
+        0,
+        0,
+        1254,
+        1254
+      ],
+      "alpha": "Fully opaque including dark windows/structural fields."
+    },
+    {
+      "name": "SI15BRI0",
+      "source": {
+        "slot": 108,
+        "crc32": "759e678b",
+        "size": [
+          128,
+          32
+        ],
+        "black_key_pixels": 3027
+      },
+      "consumers": [
+        {
+          "mesh": 40,
+          "name": "SI15BRI_1",
+          "nodes": [
+            333
+          ],
+          "faces": 8,
+          "uv_bounds": [
+            [
+              0.0,
+              0.9921112060546875
+            ],
+            [
+              -0.9999847412109375,
+              1.52587890625e-05
+            ]
+          ]
+        }
+      ],
+      "generated": {
+        "path": "build/silverstone-structures/SI15BRI0-generated.png",
+        "crc32": "30810f17",
+        "bytes": 830996,
+        "size": [
+          2170,
+          725
+        ]
+      },
+      "output": {
+        "path": "assets/models/mega/textures/silverstone-structures-si15bri0.webp",
+        "crc32": "c4ce73f4",
+        "bytes": 2614,
+        "size": [
+          512,
+          128
+        ]
+      },
+      "processing_crop": [
+        0,
+        0,
+        2170,
+        725
+      ],
+      "alpha": "Exact immutable source RGB-black-key mask, nearest-scaled; opaque Imagegen colourplate below it."
+    },
+    {
+      "name": "SI15BRI1",
+      "source": {
+        "slot": 110,
+        "crc32": "cbae0ae7",
+        "size": [
+          128,
+          32
+        ],
+        "black_key_pixels": 888
+      },
+      "consumers": [
+        {
+          "mesh": 40,
+          "name": "SI15BRI_1",
+          "nodes": [
+            333
+          ],
+          "faces": 12,
+          "uv_bounds": [
+            [
+              0.0,
+              0.9921112060546875
+            ],
+            [
+              -0.9999847412109375,
+              1.52587890625e-05
+            ]
+          ]
+        }
+      ],
+      "generated": {
+        "path": "build/silverstone-structures/SI15BRI1-generated.png",
+        "crc32": "d96a3477",
+        "bytes": 2149222,
+        "size": [
+          2170,
+          725
+        ]
+      },
+      "output": {
+        "path": "assets/models/mega/textures/silverstone-structures-si15bri1.webp",
+        "crc32": "cc5b559b",
+        "bytes": 9396,
+        "size": [
+          512,
+          128
+        ]
+      },
+      "processing_crop": [
+        0,
+        90,
+        2170,
+        638
+      ],
+      "alpha": "Exact immutable source RGB-black-key mask, nearest-scaled; opaque Imagegen colourplate below it."
+    },
+    {
+      "name": "SI15BRI2",
+      "source": {
+        "slot": 109,
+        "crc32": "234b0f89",
+        "size": [
+          128,
+          32
+        ],
+        "black_key_pixels": 2086
+      },
+      "consumers": [
+        {
+          "mesh": 40,
+          "name": "SI15BRI_1",
+          "nodes": [
+            333
+          ],
+          "faces": 10,
+          "uv_bounds": [
+            [
+              0.0,
+              0.9921112060546875
+            ],
+            [
+              -0.9999847412109375,
+              -0.0322418212890625
+            ]
+          ]
+        }
+      ],
+      "generated": {
+        "path": "build/silverstone-structures/SI15BRI2-generated.png",
+        "crc32": "efe718ae",
+        "bytes": 1439688,
+        "size": [
+          2170,
+          725
+        ]
+      },
+      "output": {
+        "path": "assets/models/mega/textures/silverstone-structures-si15bri2.webp",
+        "crc32": "d0e0ddc5",
+        "bytes": 4510,
+        "size": [
+          512,
+          128
+        ]
+      },
+      "processing_crop": [
+        0,
+        0,
+        2170,
+        725
+      ],
+      "alpha": "Exact immutable source RGB-black-key mask, nearest-scaled; opaque Imagegen colourplate below it."
+    },
+    {
+      "name": "SI15BRI3",
+      "source": {
+        "slot": 111,
+        "crc32": "4fb9a3f7",
+        "size": [
+          64,
+          64
+        ],
+        "black_key_pixels": 0
+      },
+      "consumers": [
+        {
+          "mesh": 40,
+          "name": "SI15BRI_1",
+          "nodes": [
+            333
+          ],
+          "faces": 4,
+          "uv_bounds": [
+            [
+              0.0,
+              1.0
+            ],
+            [
+              -0.9999847412109375,
+              1.52587890625e-05
+            ]
+          ]
+        }
+      ],
+      "generated": {
+        "path": "build/silverstone-structures/SI15BRI3-generated.png",
+        "crc32": "f47c254e",
+        "bytes": 3613225,
+        "size": [
+          1254,
+          1254
+        ]
+      },
+      "output": {
+        "path": "assets/models/mega/textures/silverstone-structures-si15bri3.webp",
+        "crc32": "516157ab",
+        "bytes": 65384,
+        "size": [
+          512,
+          512
+        ]
+      },
+      "processing_crop": [
+        0,
+        0,
+        1254,
+        1254
+      ],
+      "alpha": "Fully opaque including dark windows/structural fields."
+    },
+    {
+      "name": "SI15BRI4",
+      "source": {
+        "slot": 115,
+        "crc32": "5195b61a",
+        "size": [
+          16,
+          16
+        ],
+        "black_key_pixels": 0
+      },
+      "consumers": [
+        {
+          "mesh": 40,
+          "name": "SI15BRI_1",
+          "nodes": [
+            333
+          ],
+          "faces": 4,
+          "uv_bounds": [
+            [
+              0.0,
+              1.0
+            ],
+            [
+              -0.9999847412109375,
+              1.52587890625e-05
+            ]
+          ]
+        }
+      ],
+      "generated": {
+        "path": "build/silverstone-structures/SI15BRI4-generated.png",
+        "crc32": "368bc067",
+        "bytes": 2316567,
+        "size": [
+          1254,
+          1254
+        ]
+      },
+      "output": {
+        "path": "assets/models/mega/textures/silverstone-structures-si15bri4.webp",
+        "crc32": "e9df86d0",
+        "bytes": 19970,
+        "size": [
+          512,
+          512
+        ]
+      },
+      "processing_crop": [
+        0,
+        0,
+        1254,
+        1254
+      ],
+      "alpha": "Fully opaque including dark windows/structural fields."
+    },
+    {
+      "name": "SI15BRI6",
+      "source": {
+        "slot": 114,
+        "crc32": "cefabbce",
+        "size": [
+          64,
+          64
+        ],
+        "black_key_pixels": 1311
+      },
+      "consumers": [
+        {
+          "mesh": 40,
+          "name": "SI15BRI_1",
+          "nodes": [
+            333
+          ],
+          "faces": 12,
+          "uv_bounds": [
+            [
+              0.0,
+              1.0
+            ],
+            [
+              -0.9999847412109375,
+              1.52587890625e-05
+            ]
+          ]
+        }
+      ],
+      "generated": {
+        "path": "build/silverstone-structures/SI15BRI6-generated.png",
+        "crc32": "ded222c0",
+        "bytes": 2813376,
+        "size": [
+          1254,
+          1254
+        ]
+      },
+      "output": {
+        "path": "assets/models/mega/textures/silverstone-structures-si15bri6.webp",
+        "crc32": "710eeb14",
+        "bytes": 48950,
+        "size": [
+          512,
+          512
+        ]
+      },
+      "processing_crop": [
+        0,
+        0,
+        1254,
+        1254
+      ],
+      "alpha": "Exact immutable source RGB-black-key mask, nearest-scaled; opaque Imagegen colourplate below it."
+    },
+    {
+      "name": "SI15BRI7",
+      "source": {
+        "slot": 112,
+        "crc32": "d6b7b761",
+        "size": [
+          64,
+          64
+        ],
+        "black_key_pixels": 0
+      },
+      "consumers": [
+        {
+          "mesh": 40,
+          "name": "SI15BRI_1",
+          "nodes": [
+            333
+          ],
+          "faces": 8,
+          "uv_bounds": [
+            [
+              0.0,
+              1.0
+            ],
+            [
+              -0.9999847412109375,
+              1.52587890625e-05
+            ]
+          ]
+        }
+      ],
+      "generated": {
+        "path": "build/silverstone-structures/SI15BRI7-generated.png",
+        "crc32": "9cc42a54",
+        "bytes": 3041669,
+        "size": [
+          1254,
+          1254
+        ]
+      },
+      "output": {
+        "path": "assets/models/mega/textures/silverstone-structures-si15bri7.webp",
+        "crc32": "c5c861ec",
+        "bytes": 36324,
+        "size": [
+          512,
+          512
+        ]
+      },
+      "processing_crop": [
+        0,
+        0,
+        1254,
+        1254
+      ],
+      "alpha": "Fully opaque including dark windows/structural fields."
+    },
+    {
+      "name": "SI15BRI8",
+      "source": {
+        "slot": 113,
+        "crc32": "dfd31a15",
+        "size": [
+          64,
+          32
+        ],
+        "black_key_pixels": 1207
+      },
+      "consumers": [
+        {
+          "mesh": 40,
+          "name": "SI15BRI_1",
+          "nodes": [
+            333
+          ],
+          "faces": 4,
+          "uv_bounds": [
+            [
+              0.0,
+              1.0
+            ],
+            [
+              -0.9999847412109375,
+              -0.0322418212890625
+            ]
+          ]
+        }
+      ],
+      "generated": {
+        "path": "build/silverstone-structures/SI15BRI8-generated.png",
+        "crc32": "3e2e39f3",
+        "bytes": 1327726,
+        "size": [
+          1774,
+          887
+        ]
+      },
+      "output": {
+        "path": "assets/models/mega/textures/silverstone-structures-si15bri8.webp",
+        "crc32": "bb561025",
+        "bytes": 7166,
+        "size": [
+          512,
+          256
+        ]
+      },
+      "processing_crop": [
+        0,
+        0,
+        1774,
+        887
+      ],
+      "alpha": "Exact immutable source RGB-black-key mask, nearest-scaled; opaque Imagegen colourplate below it."
+    },
+    {
+      "name": "SI16PRB1",
+      "source": {
+        "slot": 101,
+        "crc32": "a92249ec",
+        "size": [
+          64,
+          64
+        ],
+        "black_key_pixels": 0
+      },
+      "consumers": [
+        {
+          "mesh": 34,
+          "name": "SI16PRB_1",
+          "nodes": [
+            201
+          ],
+          "faces": 4,
+          "uv_bounds": [
+            [
+              0.0,
+              1.0
+            ],
+            [
+              -0.9999847412109375,
+              -0.0158538818359375
+            ]
+          ]
+        }
+      ],
+      "generated": {
+        "path": "build/silverstone-structures/SI16PRB1-generated.png",
+        "crc32": "4a9d4aa0",
+        "bytes": 3090296,
+        "size": [
+          1254,
+          1254
+        ]
+      },
+      "output": {
+        "path": "assets/models/mega/textures/silverstone-structures-si16prb1.webp",
+        "crc32": "5d35d8a3",
+        "bytes": 28674,
+        "size": [
+          512,
+          512
+        ]
+      },
+      "processing_crop": [
+        0,
+        0,
+        1254,
+        1254
+      ],
+      "alpha": "Fully opaque including dark windows/structural fields."
+    },
+    {
+      "name": "SI16PRB2",
+      "source": {
+        "slot": 103,
+        "crc32": "a04b6ddb",
+        "size": [
+          64,
+          32
+        ],
+        "black_key_pixels": 0
+      },
+      "consumers": [
+        {
+          "mesh": 34,
+          "name": "SI16PRB_1",
+          "nodes": [
+            201
+          ],
+          "faces": 8,
+          "uv_bounds": [
+            [
+              0.0,
+              1.0
+            ],
+            [
+              -0.9999847412109375,
+              1.52587890625e-05
+            ]
+          ]
+        }
+      ],
+      "generated": {
+        "path": "build/silverstone-structures/SI16PRB2-generated.png",
+        "crc32": "0ca02bbe",
+        "bytes": 3771692,
+        "size": [
+          1774,
+          887
+        ]
+      },
+      "output": {
+        "path": "assets/models/mega/textures/silverstone-structures-si16prb2.webp",
+        "crc32": "c2ca5f38",
+        "bytes": 32548,
+        "size": [
+          512,
+          256
+        ]
+      },
+      "processing_crop": [
+        0,
+        0,
+        1774,
+        887
+      ],
+      "alpha": "Fully opaque including dark windows/structural fields."
+    },
+    {
+      "name": "SI16PRB3",
+      "source": {
+        "slot": 102,
+        "crc32": "6e2b6f9d",
+        "size": [
+          32,
+          64
+        ],
+        "black_key_pixels": 0
+      },
+      "consumers": [
+        {
+          "mesh": 34,
+          "name": "SI16PRB_1",
+          "nodes": [
+            201
+          ],
+          "faces": 12,
+          "uv_bounds": [
+            [
+              0.0,
+              1.0
+            ],
+            [
+              -0.9999847412109375,
+              1.52587890625e-05
+            ]
+          ]
+        }
+      ],
+      "generated": {
+        "path": "build/silverstone-structures/SI16PRB3-generated.png",
+        "crc32": "012ed3ae",
+        "bytes": 2343527,
+        "size": [
+          887,
+          1774
+        ]
+      },
+      "output": {
+        "path": "assets/models/mega/textures/silverstone-structures-si16prb3.webp",
+        "crc32": "9066764f",
+        "bytes": 5042,
+        "size": [
+          256,
+          512
+        ]
+      },
+      "processing_crop": [
+        0,
+        0,
+        887,
+        1774
+      ],
+      "alpha": "Fully opaque including dark windows/structural fields."
+    },
+    {
+      "name": "SI19MBF2",
+      "source": {
+        "slot": 49,
+        "crc32": "88b69b37",
+        "size": [
+          64,
+          64
+        ],
+        "black_key_pixels": 888
+      },
+      "consumers": [
+        {
+          "mesh": 17,
+          "name": "SI19MAR_1",
+          "nodes": [
+            49,
+            51,
+            53,
+            55,
+            57,
+            59,
+            61,
+            63,
+            65,
+            67,
+            69,
+            81,
+            127,
+            183,
+            293,
+            301,
+            329
+          ],
+          "faces": 4,
+          "uv_bounds": [
+            [
+              0.0,
+              1.0
+            ],
+            [
+              -0.9999847412109375,
+              1.52587890625e-05
+            ]
+          ]
+        }
+      ],
+      "generated": {
+        "path": "build/silverstone-structures/SI19MBF2-generated.png",
+        "crc32": "ba17d783",
+        "bytes": 1834629,
+        "size": [
+          1254,
+          1254
+        ]
+      },
+      "output": {
+        "path": "assets/models/mega/textures/silverstone-structures-si19mbf2.webp",
+        "crc32": "af13b9d2",
+        "bytes": 13850,
+        "size": [
+          512,
+          512
+        ]
+      },
+      "processing_crop": [
+        0,
+        0,
+        1254,
+        1254
+      ],
+      "alpha": "Exact immutable source RGB-black-key mask, nearest-scaled; opaque Imagegen colourplate below it."
+    },
+    {
+      "name": "SI19MBX1",
+      "source": {
+        "slot": 52,
+        "crc32": "034593e6",
+        "size": [
+          64,
+          64
+        ],
+        "black_key_pixels": 2919
+      },
+      "consumers": [
+        {
+          "mesh": 17,
+          "name": "SI19MAR_1",
+          "nodes": [
+            49,
+            51,
+            53,
+            55,
+            57,
+            59,
+            61,
+            63,
+            65,
+            67,
+            69,
+            81,
+            127,
+            183,
+            293,
+            301,
+            329
+          ],
+          "faces": 8,
+          "uv_bounds": [
+            [
+              0.0,
+              1.0
+            ],
+            [
+              -0.9999847412109375,
+              1.52587890625e-05
+            ]
+          ]
+        },
+        {
+          "mesh": 18,
+          "name": "BH17HEL_1",
+          "nodes": [
+            71,
+            73,
+            77,
+            79
+          ],
+          "faces": 1,
+          "uv_bounds": [
+            [
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0
+            ]
+          ]
+        },
+        {
+          "mesh": 25,
+          "name": "SI10BRI_1",
+          "nodes": [
+            129
+          ],
+          "faces": 4,
+          "uv_bounds": [
+            [
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0
+            ]
+          ]
+        },
+        {
+          "mesh": 32,
+          "name": "TV_1",
+          "nodes": [
+            185,
+            187,
+            189,
+            209
+          ],
+          "faces": 4,
+          "uv_bounds": [
+            [
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0
+            ]
+          ]
+        }
+      ],
+      "generated": {
+        "path": "build/silverstone-structures/SI19MBX1-generated.png",
+        "crc32": "b561cf83",
+        "bytes": 1810145,
+        "size": [
+          1254,
+          1254
+        ]
+      },
+      "output": {
+        "path": "assets/models/mega/textures/silverstone-structures-si19mbx1.webp",
+        "crc32": "9845a74f",
+        "bytes": 12530,
+        "size": [
+          512,
+          512
+        ]
+      },
+      "processing_crop": [
+        0,
+        0,
+        1254,
+        1254
+      ],
+      "alpha": "Exact immutable source RGB-black-key mask, nearest-scaled; opaque Imagegen colourplate below it."
+    },
+    {
+      "name": "SI19MBXF",
+      "source": {
+        "slot": 50,
+        "crc32": "0b0918f7",
+        "size": [
+          64,
+          64
+        ],
+        "black_key_pixels": 819
+      },
+      "consumers": [
+        {
+          "mesh": 17,
+          "name": "SI19MAR_1",
+          "nodes": [
+            49,
+            51,
+            53,
+            55,
+            57,
+            59,
+            61,
+            63,
+            65,
+            67,
+            69,
+            81,
+            127,
+            183,
+            293,
+            301,
+            329
+          ],
+          "faces": 6,
+          "uv_bounds": [
+            [
+              0.0,
+              1.0
+            ],
+            [
+              -0.9999847412109375,
+              1.52587890625e-05
+            ]
+          ]
+        }
+      ],
+      "generated": {
+        "path": "build/silverstone-structures/SI19MBXF-generated.png",
+        "crc32": "340892bb",
+        "bytes": 1644885,
+        "size": [
+          1254,
+          1254
+        ]
+      },
+      "output": {
+        "path": "assets/models/mega/textures/silverstone-structures-si19mbxf.webp",
+        "crc32": "a28971c8",
+        "bytes": 11372,
+        "size": [
+          512,
+          512
+        ]
+      },
+      "processing_crop": [
+        0,
+        0,
+        1254,
+        1254
+      ],
+      "alpha": "Exact immutable source RGB-black-key mask, nearest-scaled; opaque Imagegen colourplate below it."
+    },
+    {
+      "name": "SI19MBXS",
+      "source": {
+        "slot": 51,
+        "crc32": "a44c004d",
+        "size": [
+          64,
+          64
+        ],
+        "black_key_pixels": 1470
+      },
+      "consumers": [
+        {
+          "mesh": 17,
+          "name": "SI19MAR_1",
+          "nodes": [
+            49,
+            51,
+            53,
+            55,
+            57,
+            59,
+            61,
+            63,
+            65,
+            67,
+            69,
+            81,
+            127,
+            183,
+            293,
+            301,
+            329
+          ],
+          "faces": 16,
+          "uv_bounds": [
+            [
+              0.0,
+              1.0
+            ],
+            [
+              -0.9999847412109375,
+              1.52587890625e-05
+            ]
+          ]
+        }
+      ],
+      "generated": {
+        "path": "build/silverstone-structures/SI19MBXS-generated.png",
+        "crc32": "17e78cf3",
+        "bytes": 1689330,
+        "size": [
+          1254,
+          1254
+        ]
+      },
+      "output": {
+        "path": "assets/models/mega/textures/silverstone-structures-si19mbxs.webp",
+        "crc32": "a60081d5",
+        "bytes": 17924,
+        "size": [
+          512,
+          512
+        ]
+      },
+      "processing_crop": [
+        0,
+        0,
+        1254,
+        1254
+      ],
+      "alpha": "Exact immutable source RGB-black-key mask, nearest-scaled; opaque Imagegen colourplate below it."
+    },
+    {
+      "name": "SI22INK0",
+      "source": {
+        "slot": 8,
+        "crc32": "7720bdfd",
+        "size": [
+          128,
+          32
+        ],
+        "black_key_pixels": 0
+      },
+      "consumers": [
+        {
+          "mesh": 5,
+          "name": "SI22INK1_1",
+          "nodes": [
+            17
+          ],
+          "faces": 2,
+          "uv_bounds": [
+            [
+              0.0,
+              1.0
+            ],
+            [
+              -0.9999847412109375,
+              1.52587890625e-05
+            ]
+          ]
+        }
+      ],
+      "generated": {
+        "path": "build/silverstone-structures/SI22INK0-generated.png",
+        "crc32": "e16e310a",
+        "bytes": 2447809,
+        "size": [
+          2170,
+          725
+        ]
+      },
+      "output": {
+        "path": "assets/models/mega/textures/silverstone-structures-si22ink0.webp",
+        "crc32": "24726891",
+        "bytes": 10252,
+        "size": [
+          512,
+          128
+        ]
+      },
+      "processing_crop": [
+        0,
+        0,
+        2170,
+        725
+      ],
+      "alpha": "Fully opaque including dark windows/structural fields.",
+      "reconstruction": "Mobil 1 confirmed. Coarse red/dark poster details reconstructed as period racing imagery and clean source-coloured graphic bars, no invented headline."
+    },
+    {
+      "name": "SI22INK1",
+      "source": {
+        "slot": 11,
+        "crc32": "231f7628",
+        "size": [
+          128,
+          32
+        ],
+        "black_key_pixels": 0
+      },
+      "consumers": [
+        {
+          "mesh": 6,
+          "name": "SI22INK2_1",
+          "nodes": [
+            19
+          ],
+          "faces": 2,
+          "uv_bounds": [
+            [
+              0.0,
+              1.0
+            ],
+            [
+              -0.9999847412109375,
+              1.52587890625e-05
+            ]
+          ]
+        }
+      ],
+      "generated": {
+        "path": "build/silverstone-structures/SI22INK1-generated.png",
+        "crc32": "09ff4ba7",
+        "bytes": 2627960,
+        "size": [
+          2172,
+          724
+        ]
+      },
+      "output": {
+        "path": "assets/models/mega/textures/silverstone-structures-si22ink1.webp",
+        "crc32": "045e7b63",
+        "bytes": 6600,
+        "size": [
+          512,
+          128
+        ]
+      },
+      "processing_crop": [
+        0,
+        0,
+        2172,
+        724
+      ],
+      "alpha": "Fully opaque including dark windows/structural fields.",
+      "reconstruction": "RENAULT confirmed; plain violet left fascia remains unlettered."
+    },
+    {
+      "name": "SI22INK3",
+      "source": {
+        "slot": 10,
+        "crc32": "d0d0296e",
+        "size": [
+          64,
+          32
+        ],
+        "black_key_pixels": 0
+      },
+      "consumers": [
+        {
+          "mesh": 5,
+          "name": "SI22INK1_1",
+          "nodes": [
+            17
+          ],
+          "faces": 6,
+          "uv_bounds": [
+            [
+              0.0,
+              1.0
+            ],
+            [
+              -0.9999847412109375,
+              1.52587890625e-05
+            ]
+          ]
+        },
+        {
+          "mesh": 6,
+          "name": "SI22INK2_1",
+          "nodes": [
+            19
+          ],
+          "faces": 6,
+          "uv_bounds": [
+            [
+              0.5238037109375,
+              0.9841156005859375
+            ],
+            [
+              -0.9999847412109375,
+              -0.0322418212890625
+            ]
+          ]
+        }
+      ],
+      "generated": {
+        "path": "build/silverstone-structures/SI22INK3-generated.png",
+        "crc32": "9866c2f3",
+        "bytes": 2309595,
+        "size": [
+          1774,
+          887
+        ]
+      },
+      "output": {
+        "path": "assets/models/mega/textures/silverstone-structures-si22ink3.webp",
+        "crc32": "1eebf8e8",
+        "bytes": 8594,
+        "size": [
+          512,
+          256
+        ]
+      },
+      "processing_crop": [
+        0,
+        0,
+        1774,
+        887
+      ],
+      "alpha": "Fully opaque including dark windows/structural fields.",
+      "reconstruction": "Poster colour/footprint and racing imagery retained; unresolved small print becomes clean graphic bars, no pseudoletters."
+    },
+    {
+      "name": "SI22INK4",
+      "source": {
+        "slot": 9,
+        "crc32": "11ddd515",
+        "size": [
+          64,
+          32
+        ],
+        "black_key_pixels": 0
+      },
+      "consumers": [
+        {
+          "mesh": 5,
+          "name": "SI22INK1_1",
+          "nodes": [
+            17
+          ],
+          "faces": 4,
+          "uv_bounds": [
+            [
+              0.0,
+              1.0
+            ],
+            [
+              -0.9999847412109375,
+              1.52587890625e-05
+            ]
+          ]
+        },
+        {
+          "mesh": 6,
+          "name": "SI22INK2_1",
+          "nodes": [
+            19
+          ],
+          "faces": 4,
+          "uv_bounds": [
+            [
+              0.0,
+              1.0
+            ],
+            [
+              -0.9999847412109375,
+              1.52587890625e-05
+            ]
+          ]
+        }
+      ],
+      "generated": {
+        "path": "build/silverstone-structures/SI22INK4-generated.png",
+        "crc32": "163a0091",
+        "bytes": 1888867,
+        "size": [
+          1774,
+          887
+        ]
+      },
+      "output": {
+        "path": "assets/models/mega/textures/silverstone-structures-si22ink4.webp",
+        "crc32": "5833b7ed",
+        "bytes": 2962,
+        "size": [
+          512,
+          256
+        ]
+      },
+      "processing_crop": [
+        0,
+        0,
+        1774,
+        887
+      ],
+      "alpha": "Fully opaque including dark windows/structural fields."
+    },
+    {
+      "name": "SI23ARO2",
+      "source": {
+        "slot": 58,
+        "crc32": "8c570e6e",
+        "size": [
+          128,
+          32
+        ],
+        "black_key_pixels": 0
+      },
+      "consumers": [
+        {
+          "mesh": 19,
+          "name": "SI23ARO_1",
+          "nodes": [
+            75
+          ],
+          "faces": 6,
+          "uv_bounds": [
+            [
+              0.0,
+              0.9921112060546875
+            ],
+            [
+              -0.9999847412109375,
+              -0.0322418212890625
+            ]
+          ]
+        },
+        {
+          "mesh": 40,
+          "name": "SI15BRI_1",
+          "nodes": [
+            333
+          ],
+          "faces": 14,
+          "uv_bounds": [
+            [
+              0.3070831298828125,
+              0.535430908203125
+            ],
+            [
+              -0.9031982421875,
+              -0.4838409423828125
+            ]
+          ]
+        }
+      ],
+      "generated": {
+        "path": "build/silverstone-structures/SI23ARO2-generated.png",
+        "crc32": "34df8b95",
+        "bytes": 2605533,
+        "size": [
+          2170,
+          725
+        ]
+      },
+      "output": {
+        "path": "assets/models/mega/textures/silverstone-structures-si23aro2.webp",
+        "crc32": "2f8ff827",
+        "bytes": 7422,
+        "size": [
+          512,
+          128
+        ]
+      },
+      "processing_crop": [
+        0,
+        24,
+        2170,
+        649
+      ],
+      "alpha": "Fully opaque including dark windows/structural fields.",
+      "reconstruction": "Original painted car fragments retained within source wall atlas, no separate vehicle asset or geometry."
+    },
+    {
+      "name": "SI23ARO3",
+      "source": {
+        "slot": 59,
+        "crc32": "f26d0ebb",
+        "size": [
+          64,
+          64
+        ],
+        "black_key_pixels": 0
+      },
+      "consumers": [
+        {
+          "mesh": 19,
+          "name": "SI23ARO_1",
+          "nodes": [
+            75
+          ],
+          "faces": 4,
+          "uv_bounds": [
+            [
+              0.0,
+              1.0
+            ],
+            [
+              -0.9999847412109375,
+              -0.0158538818359375
+            ]
+          ]
+        }
+      ],
+      "generated": {
+        "path": "build/silverstone-structures/SI23ARO3-generated.png",
+        "crc32": "10325168",
+        "bytes": 2764383,
+        "size": [
+          1254,
+          1254
+        ]
+      },
+      "output": {
+        "path": "assets/models/mega/textures/silverstone-structures-si23aro3.webp",
+        "crc32": "855984c2",
+        "bytes": 15506,
+        "size": [
+          512,
+          512
+        ]
+      },
+      "processing_crop": [
+        0,
+        0,
+        1254,
+        1254
+      ],
+      "alpha": "Fully opaque including dark windows/structural fields.",
+      "reconstruction": "Source yellow C panel/checker/red poster motifs retained; no invented poster headlines."
+    },
+    {
+      "name": "SI23ARO4",
+      "source": {
+        "slot": 60,
+        "crc32": "99b33c51",
+        "size": [
+          128,
+          32
+        ],
+        "black_key_pixels": 0
+      },
+      "consumers": [
+        {
+          "mesh": 19,
+          "name": "SI23ARO_1",
+          "nodes": [
+            75
+          ],
+          "faces": 2,
+          "uv_bounds": [
+            [
+              0.0,
+              0.9921112060546875
+            ],
+            [
+              -0.9999847412109375,
+              -0.0322418212890625
+            ]
+          ]
+        }
+      ],
+      "generated": {
+        "path": "build/silverstone-structures/SI23ARO4-generated.png",
+        "crc32": "e7e13cd7",
+        "bytes": 2511258,
+        "size": [
+          2170,
+          725
+        ]
+      },
+      "output": {
+        "path": "assets/models/mega/textures/silverstone-structures-si23aro4.webp",
+        "crc32": "31a15b6b",
+        "bytes": 4776,
+        "size": [
+          512,
+          128
+        ]
+      },
+      "processing_crop": [
+        0,
+        18,
+        2170,
+        654
+      ],
+      "alpha": "Fully opaque including dark windows/structural fields."
+    },
+    {
+      "name": "SI23ARO5",
+      "source": {
+        "slot": 61,
+        "crc32": "51cdf603",
+        "size": [
+          64,
+          64
+        ],
+        "black_key_pixels": 0
+      },
+      "consumers": [
+        {
+          "mesh": 19,
+          "name": "SI23ARO_1",
+          "nodes": [
+            75
+          ],
+          "faces": 10,
+          "uv_bounds": [
+            [
+              0.0,
+              0.9682464599609375
+            ],
+            [
+              -0.9999847412109375,
+              -0.0158538818359375
+            ]
+          ]
+        }
+      ],
+      "generated": {
+        "path": "build/silverstone-structures/SI23ARO5-generated.png",
+        "crc32": "650d00d1",
+        "bytes": 3090058,
+        "size": [
+          1254,
+          1254
+        ]
+      },
+      "output": {
+        "path": "assets/models/mega/textures/silverstone-structures-si23aro5.webp",
+        "crc32": "5f90f71b",
+        "bytes": 16090,
+        "size": [
+          512,
+          512
+        ]
+      },
+      "processing_crop": [
+        0,
+        0,
+        1254,
+        1254
+      ],
+      "alpha": "Fully opaque including dark windows/structural fields."
+    },
+    {
+      "name": "SI34TWR1",
+      "source": {
+        "slot": 27,
+        "crc32": "d590b8b1",
+        "size": [
+          32,
+          128
+        ],
+        "black_key_pixels": 1542
+      },
+      "consumers": [
+        {
+          "mesh": 12,
+          "name": "SI34TWR_1",
+          "nodes": [
+            33
+          ],
+          "faces": 24,
+          "uv_bounds": [
+            [
+              0.0,
+              1.0
+            ],
+            [
+              -0.9999847412109375,
+              1.52587890625e-05
+            ]
+          ]
+        }
+      ],
+      "generated": {
+        "path": "build/silverstone-structures/SI34TWR1-generated.png",
+        "crc32": "284dd3ed",
+        "bytes": 1512462,
+        "size": [
+          725,
+          2169
+        ]
+      },
+      "output": {
+        "path": "assets/models/mega/textures/silverstone-structures-si34twr1.webp",
+        "crc32": "340864b7",
+        "bytes": 8084,
+        "size": [
+          128,
+          512
+        ]
+      },
+      "processing_crop": [
+        56,
+        0,
+        669,
+        2169
+      ],
+      "alpha": "Exact immutable source RGB-black-key mask, nearest-scaled; opaque Imagegen colourplate below it."
+    },
+    {
+      "name": "SI34TWR2",
+      "source": {
+        "slot": 28,
+        "crc32": "9b3849d9",
+        "size": [
+          32,
+          32
+        ],
+        "black_key_pixels": 440
+      },
+      "consumers": [
+        {
+          "mesh": 12,
+          "name": "SI34TWR_1",
+          "nodes": [
+            33
+          ],
+          "faces": 32,
+          "uv_bounds": [
+            [
+              0.0,
+              1.0
+            ],
+            [
+              -0.9999847412109375,
+              1.52587890625e-05
+            ]
+          ]
+        }
+      ],
+      "generated": {
+        "path": "build/silverstone-structures/SI34TWR2-generated.png",
+        "crc32": "4bfb80e7",
+        "bytes": 1673210,
+        "size": [
+          1254,
+          1254
+        ]
+      },
+      "output": {
+        "path": "assets/models/mega/textures/silverstone-structures-si34twr2.webp",
+        "crc32": "0d4b460d",
+        "bytes": 7126,
+        "size": [
+          512,
+          512
+        ]
+      },
+      "processing_crop": [
+        0,
+        0,
+        1254,
+        1254
+      ],
+      "alpha": "Exact immutable source RGB-black-key mask, nearest-scaled; opaque Imagegen colourplate below it."
+    },
+    {
+      "name": "SIL10BRG",
+      "source": {
+        "slot": 88,
+        "crc32": "ac85ae17",
+        "size": [
+          256,
+          32
+        ],
+        "black_key_pixels": 0
+      },
+      "consumers": [
+        {
+          "mesh": 25,
+          "name": "SI10BRI_1",
+          "nodes": [
+            129
+          ],
+          "faces": 24,
+          "uv_bounds": [
+            [
+              0.0,
+              0.996063232421875
+            ],
+            [
+              -0.9999847412109375,
+              -0.0322418212890625
+            ]
+          ]
+        }
+      ],
+      "generated": {
+        "path": "build/silverstone-structures/SIL10BRG-generated.png",
+        "crc32": "d8d247e3",
+        "bytes": 1227527,
+        "size": [
+          2172,
+          724
+        ]
+      },
+      "output": {
+        "path": "assets/models/mega/textures/silverstone-structures-sil10brg.webp",
+        "crc32": "5e1f278f",
+        "bytes": 5590,
+        "size": [
+          512,
+          64
+        ]
+      },
+      "processing_crop": [
+        0,
+        219,
+        2172,
+        499
+      ],
+      "alpha": "Fully opaque including dark windows/structural fields.",
+      "reconstruction": "Three DHL logos confirmed. WORLDWIDE EXPRESS footer is documented racing-context reconstruction of coarse source footer, not exact glyph recovery."
+    },
+    {
+      "name": "T06BRG1",
+      "source": {
+        "slot": 87,
+        "crc32": "158044ed",
+        "size": [
+          64,
+          32
+        ],
+        "black_key_pixels": 598
+      },
+      "consumers": [
+        {
+          "mesh": 25,
+          "name": "SI10BRI_1",
+          "nodes": [
+            129
+          ],
+          "faces": 20,
+          "uv_bounds": [
+            [
+              0.0,
+              0.9841156005859375
+            ],
+            [
+              -0.9999847412109375,
+              -0.0322418212890625
+            ]
+          ]
+        }
+      ],
+      "generated": {
+        "path": "build/silverstone-structures/T06BRG1-generated.png",
+        "crc32": "d5ada37d",
+        "bytes": 1635226,
+        "size": [
+          1774,
+          887
+        ]
+      },
+      "output": {
+        "path": "assets/models/mega/textures/silverstone-structures-t06brg1.webp",
+        "crc32": "960f36a7",
+        "bytes": 7242,
+        "size": [
+          512,
+          256
+        ]
+      },
+      "processing_crop": [
+        0,
+        0,
+        1774,
+        887
+      ],
+      "alpha": "Exact immutable source RGB-black-key mask, nearest-scaled; opaque Imagegen colourplate below it."
+    },
+    {
+      "name": "TV1",
+      "source": {
+        "slot": 97,
+        "crc32": "80138445",
+        "size": [
+          16,
+          128
+        ],
+        "black_key_pixels": 42
+      },
+      "consumers": [
+        {
+          "mesh": 32,
+          "name": "TV_1",
+          "nodes": [
+            185,
+            187,
+            189,
+            209
+          ],
+          "faces": 4,
+          "uv_bounds": [
+            [
+              0.0,
+              0.933319091796875
+            ],
+            [
+              -0.9999847412109375,
+              -0.0078582763671875
+            ]
+          ]
+        }
+      ],
+      "generated": {
+        "path": "build/silverstone-structures/TV1-generated.png",
+        "crc32": "f7f86dcd",
+        "bytes": 1444124,
+        "size": [
+          725,
+          2170
+        ]
+      },
+      "output": {
+        "path": "assets/models/mega/textures/silverstone-structures-tv1.webp",
+        "crc32": "2ab79fdb",
+        "bytes": 742,
+        "size": [
+          64,
+          512
+        ]
+      },
+      "processing_crop": [
+        227,
+        0,
+        498,
+        2170
+      ],
+      "alpha": "Exact immutable source RGB-black-key mask, nearest-scaled; opaque Imagegen colourplate below it.",
+      "edit": {
+        "references": [
+          {
+            "path": "exec-65e898f5-d113-4213-913a-edeea566b114.png",
+            "crc32": "f0852e16",
+            "bytes": 1253638,
+            "size": [
+              725,
+              2170
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "TV3",
+      "source": {
+        "slot": 99,
+        "crc32": "682f68ad",
+        "size": [
+          128,
+          8
+        ],
+        "black_key_pixels": 928
+      },
+      "consumers": [
+        {
+          "mesh": 32,
+          "name": "TV_1",
+          "nodes": [
+            185,
+            187,
+            189,
+            209
+          ],
+          "faces": 4,
+          "uv_bounds": [
+            [
+              0.0,
+              1.0
+            ],
+            [
+              -0.9999847412109375,
+              1.52587890625e-05
+            ]
+          ]
+        }
+      ],
+      "generated": {
+        "path": "build/silverstone-structures/TV3-generated.png",
+        "crc32": "de51775e",
+        "bytes": 1860877,
+        "size": [
+          2170,
+          725
+        ]
+      },
+      "output": {
+        "path": "assets/models/mega/textures/silverstone-structures-tv3.webp",
+        "crc32": "4b3dc263",
+        "bytes": 284,
+        "size": [
+          512,
+          32
+        ]
+      },
+      "processing_crop": [
+        0,
+        0,
+        2170,
+        725
+      ],
+      "alpha": "Exact immutable source RGB-black-key mask, nearest-scaled; opaque Imagegen colourplate below it."
+    }
+  ],
+  "reused_materials": [
+    {
+      "name": "IL09PIT",
+      "source_slot": 0,
+      "source_crc32": "3770586a",
+      "output": {
+        "path": "assets/models/mega/textures/silverstone-pit-il09pit.webp",
+        "crc32": "efed70f2",
+        "bytes": 14536,
+        "size": [
+          512,
+          512
+        ]
+      },
+      "provenance": "assets/models/mega/silverstone-pits-generation.json",
+      "contract": "Accepted image retained byte-identically; current source-bound consumer reviewed."
+    },
+    {
+      "name": "SI13ROVB",
+      "source_slot": 7,
+      "source_crc32": "0ccbcf3a",
+      "output": {
+        "path": "assets/models/mega/textures/silverstone-rov-si13rovb.webp",
+        "crc32": "59da3b8f",
+        "bytes": 2924,
+        "size": [
+          512,
+          512
+        ]
+      },
+      "provenance": "assets/models/mega/silverstone-rov-generation.json",
+      "contract": "Accepted image retained byte-identically; current source-bound consumer reviewed."
+    },
+    {
+      "name": "SI13ROV3",
+      "source_slot": 23,
+      "source_crc32": "1b1f40cc",
+      "output": {
+        "path": "assets/models/mega/textures/silverstone-rov-si13rov3.webp",
+        "crc32": "73072670",
+        "bytes": 3546,
+        "size": [
+          512,
+          128
+        ]
+      },
+      "provenance": "assets/models/mega/silverstone-rov-generation.json",
+      "contract": "Accepted image retained byte-identically; current source-bound consumer reviewed."
+    },
+    {
+      "name": "SI23ARO1",
+      "source_slot": 57,
+      "source_crc32": "62fb9ae7",
+      "output": {
+        "path": "assets/models/mega/textures/silverstone-arrow-si23aro1.webp",
+        "crc32": "484ee32d",
+        "bytes": 18600,
+        "size": [
+          512,
+          512
+        ]
+      },
+      "provenance": "assets/models/mega/silverstone-arrows-generation.json",
+      "contract": "Accepted image retained byte-identically; current source-bound consumer reviewed."
+    }
+  ],
+  "protected_uv_regions": [
+    {
+      "mesh": 16,
+      "slot": 46,
+      "uv": [
+        [
+          0,
+          0.09677124
+        ],
+        [
+          1.526e-05,
+          0.12905884
+        ]
+      ],
+      "role": "navy top-left roof patch"
+    },
+    {
+      "mesh": 17,
+      "slot": 50,
+      "uv": [
+        [
+          0.44444275,
+          0.53967285
+        ],
+        [
+          0.17462158,
+          0.26986694
+        ]
+      ],
+      "role": "roof window crop"
+    },
+    {
+      "mesh": 17,
+      "slot": 51,
+      "uv": [
+        [
+          0.15872192,
+          0.33332825
+        ],
+        [
+          0.11112976,
+          0.15875244
+        ]
+      ],
+      "role": "horizontal cap"
+    },
+    {
+      "mesh": 19,
+      "slot": 61,
+      "uv": [
+        [
+          0.63491821,
+          0.74601746
+        ],
+        [
+          0.60319519,
+          0.74604797
+        ]
+      ],
+      "role": "roof window crop"
+    },
+    {
+      "mesh": 40,
+      "slot": 58,
+      "uv": [
+        [
+          0.30708313,
+          0.53543091
+        ],
+        [
+          0.09680176,
+          0.51615906
+        ]
+      ],
+      "role": "horizontal pieces shared with original ARO2 wall"
+    },
+    {
+      "mesh": 25,
+      "slot": 84,
+      "uv": [
+        [
+          0,
+          0.31745911
+        ],
+        [
+          0.30160522,
+          0.66668701
+        ]
+      ],
+      "role": "horizontal stair/frame patch"
+    },
+    {
+      "mesh": 25,
+      "slot": 88,
+      "uv": [
+        [
+          0.54508972,
+          0.77253723
+        ],
+        [
+          1.526e-05,
+          0.9355011
+        ]
+      ],
+      "role": "horizontal DHL patch"
+    },
+    {
+      "mesh": 42,
+      "slot": 118,
+      "uv": [
+        [
+          0.89762878,
+          0.98423767
+        ],
+        [
+          1.526e-05,
+          0.83872986
+        ]
+      ],
+      "role": "quiet right-edge roof/trim"
+    },
+    {
+      "mesh": 12,
+      "slot": 28,
+      "u": [
+        0.93547058,
+        0.96772766
+      ],
+      "image_v": [
+        0.54841614,
+        0.96775818
+      ],
+      "role": "narrow columns"
+    },
+    {
+      "mesh": 16,
+      "slot": 47,
+      "u": [
+        0.34919739,
+        0.36506653,
+        0.38095093
+      ],
+      "image_v": [
+        0.9206543,
+        0.98414612
+      ],
+      "role": "narrow lower rows/columns"
+    }
+  ],
+  "protected_scalar_samples": [
+    {
+      "name": "SI07SPR4",
+      "effective_uv": [
+        0.02,
+        0.99
+      ],
+      "source_nearest_rgba": [
+        115,
+        132,
+        140,
+        255
+      ],
+      "output_bilinear_rgba": [
+        115,
+        132,
+        142,
+        255
+      ],
+      "consumers": "SI34TWR_1 top cap faces56/57"
+    },
+    {
+      "name": "SI19MBX1",
+      "effective_uv": [
+        0.02,
+        0.99
+      ],
+      "source_nearest_rgba": [
+        74,
+        82,
+        82,
+        255
+      ],
+      "output_bilinear_rgba": [
+        75.9,
+        81.28,
+        75.28,
+        255
+      ],
+      "consumers": "SI10BRI_1 faces96..99,TV_1 faces17..20,existing BH17HEL_1 face69/nodes71/73/77/79; related sourceLOD6/7 use same scalar",
+      "contract": "Opaque quiet grey field retained. Shared helicopter scalar preserved; no vehicle artwork/model changes undertaken."
+    }
+  ],
+  "related_originals": [
+    {
+      "track": 6,
+      "archive": "data/croffree.bfp",
+      "archive_crc32": "e4399113",
+      "member": 5,
+      "member_crc32": "93406c70",
+      "slot": 68,
+      "name": "TV2",
+      "crc32": "2084ac34",
+      "size": [
+        128,
+        32
+      ],
+      "bits": 8,
+      "bytes": 5176,
+      "reference": {
+        "path": "build/silverstone-structures/crof-TV2-related6x.png",
+        "crc32": "24bcc9ed",
+        "bytes": 3439,
+        "size": [
+          768,
+          192
+        ]
+      }
+    },
+    {
+      "track": 8,
+      "archive": "data/snetfree.bfp",
+      "archive_crc32": "4111866a",
+      "member": 5,
+      "member_crc32": "d5bdef63",
+      "slot": 156,
+      "name": "TV2",
+      "crc32": "72d52d0b",
+      "size": [
+        128,
+        32
+      ],
+      "bits": 8,
+      "bytes": 5176,
+      "reference": {
+        "path": "build/silverstone-structures/snet-TV2-related6x.png",
+        "crc32": "97a8ca8f",
+        "bytes": 3294,
+        "size": [
+          768,
+          192
+        ]
+      }
+    }
+  ],
+  "limits": "Seven grandstandtypes/33placements remain open. TV2 stays original because builtin generator output moderation rejected attempts (category other); partialTV mast/trim replacements do not accept full TV_1. No original game media committed, no reference mutations, no performance measurements."
+}

@@ -1,0 +1,249 @@
+{
+  "version": 1,
+  "policy": "New original-reference-based Croft road artwork. Mega only, opaque WebP quality80. Whole-image Lanczos resize; no procedural painting or mask composition.",
+  "sources": [
+    {
+      "id": "TRACK",
+      "file": "exec-9adcfe62-4c94-4fd1-a6b6-62104f45079b.png",
+      "size": [
+        1774,
+        887
+      ],
+      "crc32": "0dcb3032",
+      "reference": {
+        "archive": "data/croffree.bfp",
+        "archive_crc32": "e4399113",
+        "member": 1,
+        "member_name": "GROUND.C3D",
+        "member_crc32": "a33ff2d6",
+        "material_slot": 2,
+        "material": "TRACK",
+        "bmp_crc32": "5e196d1f",
+        "size": [
+          128,
+          64
+        ]
+      }
+    },
+    {
+      "id": "SCRUB",
+      "file": "exec-d04b2ff4-ac30-410e-8d1a-ced43be539b4.png",
+      "size": [
+        1254,
+        1254
+      ],
+      "crc32": "6e4f2843",
+      "reference": {
+        "archive": "data/croffree.bfp",
+        "archive_crc32": "e4399113",
+        "member": 1,
+        "member_name": "GROUND.C3D",
+        "member_crc32": "a33ff2d6",
+        "material_slot": 5,
+        "material": "SCRUB",
+        "bmp_crc32": "9c527339",
+        "size": [
+          64,
+          64
+        ]
+      }
+    },
+    {
+      "id": "PIT",
+      "file": "exec-45ecf290-743e-4792-b978-2fdfd939d91c.png",
+      "size": [
+        1254,
+        1254
+      ],
+      "crc32": "d3d28916",
+      "reference": {
+        "archive": "data/croffree.bfp",
+        "archive_crc32": "e4399113",
+        "member": 1,
+        "member_name": "GROUND.C3D",
+        "member_crc32": "a33ff2d6",
+        "material_slot": 6,
+        "material": "PIT",
+        "bmp_crc32": "e7e80a42",
+        "size": [
+          64,
+          64
+        ]
+      }
+    },
+    {
+      "id": "START_X",
+      "file": "exec-7a20e268-54f6-4f1c-81f8-dc85f0cb669e.png",
+      "size": [
+        887,
+        1774
+      ],
+      "crc32": "41b193e1",
+      "reference": {
+        "archive": "data/croffree.bfp",
+        "archive_crc32": "e4399113",
+        "member": 1,
+        "member_name": "GROUND.C3D",
+        "member_crc32": "a33ff2d6",
+        "material_slot": 3,
+        "material": "START_X",
+        "bmp_crc32": "0b990e74",
+        "size": [
+          32,
+          64
+        ]
+      }
+    },
+    {
+      "id": "TRAK_X",
+      "file": "exec-30febd1d-9785-4ac1-8bda-4d1d892e33c9.png",
+      "size": [
+        887,
+        1774
+      ],
+      "crc32": "55f886b3",
+      "reference": {
+        "archive": "data/croffree.bfp",
+        "archive_crc32": "e4399113",
+        "member": 1,
+        "member_name": "GROUND.C3D",
+        "member_crc32": "a33ff2d6",
+        "material_slot": 7,
+        "material": "TRAK_X",
+        "bmp_crc32": "42e44b4f",
+        "size": [
+          32,
+          64
+        ]
+      }
+    },
+    {
+      "id": "GRID_X",
+      "file": "exec-0570107a-aafe-4126-896b-2cb68f7faacf.png",
+      "size": [
+        887,
+        1774
+      ],
+      "crc32": "e819d217",
+      "reference": {
+        "archive": "data/croffree.bfp",
+        "archive_crc32": "e4399113",
+        "member": 1,
+        "member_name": "GROUND.C3D",
+        "member_crc32": "a33ff2d6",
+        "material_slot": 9,
+        "material": "GRID_X",
+        "bmp_crc32": "59529261",
+        "size": [
+          32,
+          64
+        ]
+      }
+    }
+  ],
+  "outputs": [
+    {
+      "image": "textures/ground-croft-track.webp",
+      "source": "TRACK",
+      "crop": [
+        1774,
+        887,
+        0,
+        0
+      ],
+      "size": [
+        256,
+        128
+      ],
+      "alpha": "opaque",
+      "crc32": "aae8ba88",
+      "bytes": 1064
+    },
+    {
+      "image": "textures/ground-croft-scrub.webp",
+      "source": "SCRUB",
+      "crop": [
+        1254,
+        1254,
+        0,
+        0
+      ],
+      "size": [
+        128,
+        128
+      ],
+      "alpha": "opaque",
+      "crc32": "daa11feb",
+      "bytes": 1982
+    },
+    {
+      "image": "textures/ground-croft-pit.webp",
+      "source": "PIT",
+      "crop": [
+        1254,
+        1254,
+        0,
+        0
+      ],
+      "size": [
+        128,
+        128
+      ],
+      "alpha": "opaque",
+      "crc32": "211e9114",
+      "bytes": 4712
+    },
+    {
+      "image": "textures/ground-croft-start-x.webp",
+      "source": "START_X",
+      "crop": [
+        887,
+        1774,
+        0,
+        0
+      ],
+      "size": [
+        64,
+        128
+      ],
+      "alpha": "opaque",
+      "crc32": "d8083153",
+      "bytes": 212
+    },
+    {
+      "image": "textures/ground-croft-trak-x.webp",
+      "source": "TRAK_X",
+      "crop": [
+        887,
+        1774,
+        0,
+        0
+      ],
+      "size": [
+        64,
+        128
+      ],
+      "alpha": "opaque",
+      "crc32": "ad7289f3",
+      "bytes": 242
+    },
+    {
+      "image": "textures/ground-croft-grid-x.webp",
+      "source": "GRID_X",
+      "crop": [
+        887,
+        1774,
+        0,
+        0
+      ],
+      "size": [
+        64,
+        128
+      ],
+      "alpha": "opaque",
+      "crc32": "dee3f613",
+      "bytes": 208
+    }
+  ],
+  "webp_quality": 80
+}

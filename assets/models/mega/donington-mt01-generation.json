@@ -1,0 +1,591 @@
+{
+  "version": 1,
+  "package": "MT01 Donington GP source artwork review",
+  "source_archive": "data/donlfree.bfp",
+  "source_archive_crc32": "46885a20",
+  "outputs": [
+    {
+      "names": [
+        "DA15SHL1"
+      ],
+      "source_bmp_crc32": "c2cae8fd",
+      "source_size": [
+        64,
+        64
+      ],
+      "generated_source": "exec-0c124425-c848-4989-a57d-376072302172.png",
+      "generated_crc32": "bd0e79e1",
+      "crop": [
+        0,
+        0,
+        1254,
+        1254
+      ],
+      "processing": "Crop only specified presentation padding; resize whole original-aspect tile with Lanczos; preserve source opacity/alpha; WebPquality80 method6. No original RGB copied.",
+      "image": "textures/dgp-mt01-da15shl1.webp",
+      "crc32": "f8832b6d",
+      "bytes": 25490,
+      "size": [
+        512,
+        512
+      ],
+      "lettering_reconstruction": "SHELL reconstructed from exact Shell-branded source bridge context; tiny original clock header not independently readable."
+    },
+    {
+      "names": [
+        "DA15SHL2"
+      ],
+      "source_bmp_crc32": "dcd84d0d",
+      "source_size": [
+        8,
+        16
+      ],
+      "generated_source": "exec-23b52d8e-284a-4328-9b50-dd3b10a9e25a.png",
+      "generated_crc32": "60731e1b",
+      "crop": [
+        0,
+        0,
+        887,
+        1774
+      ],
+      "processing": "Crop only specified presentation padding; resize whole original-aspect tile with Lanczos; preserve source opacity/alpha; WebPquality80 method6. No original RGB copied.",
+      "image": "textures/dgp-mt01-da15shl2.webp",
+      "crc32": "543d3da8",
+      "bytes": 5982,
+      "size": [
+        256,
+        512
+      ]
+    },
+    {
+      "names": [
+        "DA15SHL5"
+      ],
+      "source_bmp_crc32": "a458a5d2",
+      "source_size": [
+        32,
+        32
+      ],
+      "generated_source": "exec-55c1f590-8d3e-4288-9f0a-52c05e684f95.png",
+      "generated_crc32": "a1f9780a",
+      "crop": [
+        0,
+        0,
+        1254,
+        1254
+      ],
+      "processing": "Crop only specified presentation padding; resize whole original-aspect tile with Lanczos; preserve source opacity/alpha; WebPquality80 method6. No original RGB copied.",
+      "image": "textures/dgp-mt01-da15shl5.webp",
+      "crc32": "bfd23958",
+      "bytes": 36750,
+      "size": [
+        512,
+        512
+      ]
+    },
+    {
+      "names": [
+        "DA15SHL7"
+      ],
+      "source_bmp_crc32": "dbed7e2e",
+      "source_size": [
+        32,
+        16
+      ],
+      "generated_source": "exec-86cb5c9e-b5e5-4eb2-b2a0-40e5b7ed50da.png",
+      "generated_crc32": "11000e14",
+      "crop": [
+        0,
+        0,
+        1774,
+        887
+      ],
+      "processing": "Crop only specified presentation padding; resize whole original-aspect tile with Lanczos; preserve source opacity/alpha; WebPquality80 method6. No original RGB copied.",
+      "image": "textures/dgp-mt01-da15shl7.webp",
+      "crc32": "4b6bcfeb",
+      "bytes": 4438,
+      "size": [
+        512,
+        256
+      ]
+    },
+    {
+      "names": [
+        "DA15SHL8"
+      ],
+      "source_bmp_crc32": "cb4418b4",
+      "source_size": [
+        32,
+        32
+      ],
+      "generated_source": "exec-7a2c2a81-d9ed-4e5f-be1b-a08daad055b2.png",
+      "generated_crc32": "e2f2f8e3",
+      "crop": [
+        0,
+        0,
+        1254,
+        1254
+      ],
+      "processing": "Crop only specified presentation padding; resize whole original-aspect tile with Lanczos; preserve source opacity/alpha; WebPquality80 method6. No original RGB copied.",
+      "image": "textures/dgp-mt01-da15shl8.webp",
+      "crc32": "62536256",
+      "bytes": 17150,
+      "size": [
+        512,
+        512
+      ]
+    },
+    {
+      "names": [
+        "DA15SHL9"
+      ],
+      "source_bmp_crc32": "f7b06ce5",
+      "source_size": [
+        128,
+        32
+      ],
+      "generated_source": "exec-cd800f44-fb51-49d7-be78-3cbb21cc22b1.png",
+      "generated_crc32": "2e628284",
+      "crop": [
+        0,
+        155,
+        2172,
+        630
+      ],
+      "processing": "Crop only specified presentation padding; resize whole original-aspect tile with Lanczos; preserve source opacity/alpha; WebPquality80 method6. No original RGB copied.",
+      "image": "textures/dgp-mt01-da15shl9.webp",
+      "crc32": "75efce14",
+      "bytes": 16924,
+      "size": [
+        512,
+        128
+      ]
+    },
+    {
+      "names": [
+        "DA15SHLX"
+      ],
+      "source_bmp_crc32": "32139eb3",
+      "source_size": [
+        64,
+        32
+      ],
+      "generated_source": "exec-4269a359-bc8e-475b-a86a-c894713bf911.png",
+      "generated_crc32": "a03d6a89",
+      "crop": [
+        0,
+        0,
+        1774,
+        887
+      ],
+      "processing": "Crop only specified presentation padding; resize whole original-aspect tile with Lanczos; preserve source opacity/alpha; WebPquality80 method6. No original RGB copied.",
+      "image": "textures/dgp-mt01-da15shlx.webp",
+      "crc32": "849bf2a0",
+      "bytes": 21608,
+      "size": [
+        512,
+        256
+      ]
+    },
+    {
+      "names": [
+        "DA15SHY"
+      ],
+      "source_bmp_crc32": "3976673d",
+      "source_size": [
+        64,
+        32
+      ],
+      "generated_source": "exec-b8da6622-d1c6-476c-b7ff-69910b79ceff.png",
+      "generated_crc32": "7d5275de",
+      "crop": [
+        0,
+        0,
+        1774,
+        887
+      ],
+      "processing": "Crop only specified presentation padding; resize whole original-aspect tile with Lanczos; preserve source opacity/alpha; WebPquality80 method6. No original RGB copied.",
+      "image": "textures/dgp-mt01-da15shy.webp",
+      "crc32": "91db0cf1",
+      "bytes": 29366,
+      "size": [
+        512,
+        256
+      ]
+    },
+    {
+      "names": [
+        "DA15SHB1"
+      ],
+      "source_bmp_crc32": "460e8d45",
+      "source_size": [
+        16,
+        32
+      ],
+      "generated_source": "exec-4182b81c-df9f-4843-bcf5-685d5a782055.png",
+      "generated_crc32": "46c15308",
+      "crop": [
+        0,
+        0,
+        887,
+        1774
+      ],
+      "processing": "Crop only specified presentation padding; resize whole original-aspect tile with Lanczos; preserve source opacity/alpha; WebPquality80 method6. No original RGB copied.",
+      "image": "textures/dgp-mt01-da15shb1.webp",
+      "crc32": "98304416",
+      "bytes": 2542,
+      "size": [
+        256,
+        512
+      ]
+    },
+    {
+      "names": [
+        "DA28COM"
+      ],
+      "source_bmp_crc32": "1d5c38c8",
+      "source_size": [
+        64,
+        32
+      ],
+      "generated_source": "exec-e4711765-ff08-4272-b378-49fc1677fada.png",
+      "generated_crc32": "ec874242",
+      "crop": [
+        0,
+        0,
+        1774,
+        887
+      ],
+      "processing": "Crop only specified presentation padding; resize whole original-aspect tile with Lanczos; preserve source opacity/alpha; WebPquality80 method6. No original RGB copied.",
+      "image": "textures/dgp-mt01-da28com.webp",
+      "crc32": "d564d63b",
+      "bytes": 12868,
+      "size": [
+        512,
+        256
+      ],
+      "row_packing": {
+        "source_y": [
+          0,
+          82,
+          305,
+          652,
+          887
+        ],
+        "target_y_normalized": [
+          0,
+          0.09375,
+          0.34375,
+          0.78125,
+          1
+        ],
+        "reason": "Source navy/window/sign/window bands restored after generated draft sign stopped at73.5% rather than78.125%."
+      }
+    }
+  ],
+  "reused_images": [
+    {
+      "names": [
+        "DA02GSD9"
+      ],
+      "source_bmp_crc32": "9152b7db",
+      "source_size": [
+        64,
+        64
+      ],
+      "image": "textures/donington-grandstand-da02gsd9.webp",
+      "crc32": "aa26a999",
+      "bytes": 12174
+    },
+    {
+      "names": [
+        "DA28COM6"
+      ],
+      "source_bmp_crc32": "7872be89",
+      "source_size": [
+        64,
+        32
+      ],
+      "image": "textures/donington-cbo1-da28com6.webp",
+      "crc32": "9c4a0bae",
+      "bytes": 16804
+    },
+    {
+      "names": [
+        "DA28COM7"
+      ],
+      "source_bmp_crc32": "81ec50fd",
+      "source_size": [
+        32,
+        32
+      ],
+      "image": "textures/donington-cbo1-da28com7.webp",
+      "crc32": "2be11d53",
+      "bytes": 43120
+    },
+    {
+      "names": [
+        "DA28COM8"
+      ],
+      "source_bmp_crc32": "311a0c1b",
+      "source_size": [
+        32,
+        32
+      ],
+      "image": "textures/donington-cbo1-da28com8.webp",
+      "crc32": "b4714012",
+      "bytes": 34710
+    },
+    {
+      "names": [
+        "DA28COM9"
+      ],
+      "source_bmp_crc32": "2f737a83",
+      "source_size": [
+        128,
+        32
+      ],
+      "image": "textures/donington-grandstand-da28com9.webp",
+      "crc32": "a85e9232",
+      "bytes": 3118
+    },
+    {
+      "names": [
+        "DA28COMA"
+      ],
+      "source_bmp_crc32": "559b67cc",
+      "source_size": [
+        64,
+        16
+      ],
+      "image": "textures/donington-cbo4-da28coma.webp",
+      "crc32": "0b9522ce",
+      "bytes": 3500
+    },
+    {
+      "names": [
+        "DA28PIT2"
+      ],
+      "source_bmp_crc32": "d9129048",
+      "source_size": [
+        128,
+        32
+      ],
+      "image": "textures/donington-cbo1-da28pit2.webp",
+      "crc32": "9c05f260",
+      "bytes": 14816
+    },
+    {
+      "names": [
+        "DA28COMB"
+      ],
+      "source_bmp_crc32": "b8a015e3",
+      "source_size": [
+        64,
+        16
+      ],
+      "image": "textures/donington-cbo2-da28comb.webp",
+      "crc32": "211d12e9",
+      "bytes": 1146
+    },
+    {
+      "names": [
+        "DA28PIT3"
+      ],
+      "source_bmp_crc32": "74174611",
+      "source_size": [
+        64,
+        8
+      ],
+      "image": "textures/donington-cbo4-da28pit3.webp",
+      "crc32": "9f022b6e",
+      "bytes": 6850
+    },
+    {
+      "names": [
+        "DA28COM4"
+      ],
+      "source_bmp_crc32": "0c68325a",
+      "source_size": [
+        64,
+        16
+      ],
+      "image": "textures/donington-cbo4-da28com4.webp",
+      "crc32": "570d0e5c",
+      "bytes": 3762
+    },
+    {
+      "names": [
+        "DA50BAR1"
+      ],
+      "source_bmp_crc32": "4698dc57",
+      "source_size": [
+        64,
+        32
+      ],
+      "image": "textures/donington-barn-da50bar1.webp",
+      "crc32": "3beda180",
+      "bytes": 12936
+    },
+    {
+      "names": [
+        "DA50BAR2"
+      ],
+      "source_bmp_crc32": "ca0856dd",
+      "source_size": [
+        64,
+        32
+      ],
+      "image": "textures/donington-barn-da50bar2.webp",
+      "crc32": "5165221a",
+      "bytes": 17114
+    },
+    {
+      "names": [
+        "DA50BAR3"
+      ],
+      "source_bmp_crc32": "c6ad01e4",
+      "source_size": [
+        64,
+        32
+      ],
+      "image": "textures/donington-barn-da50bar3.webp",
+      "crc32": "23c2db25",
+      "bytes": 9206
+    },
+    {
+      "names": [
+        "DA50BAR4"
+      ],
+      "source_bmp_crc32": "96d7466d",
+      "source_size": [
+        64,
+        32
+      ],
+      "image": "textures/donington-barn-da50bar4.webp",
+      "crc32": "eba4a6bf",
+      "bytes": 15524
+    },
+    {
+      "names": [
+        "DA02GSD2"
+      ],
+      "source_bmp_crc32": "94482874",
+      "source_size": [
+        64,
+        32
+      ],
+      "image": "textures/donington-grandstand-da02gsd2.webp",
+      "crc32": "fffe843c",
+      "bytes": 56414
+    },
+    {
+      "names": [
+        "DA02GSD4"
+      ],
+      "source_bmp_crc32": "34ed41c3",
+      "source_size": [
+        64,
+        64
+      ],
+      "image": "textures/donington-grandstand-da02gsd4.webp",
+      "crc32": "637fba8c",
+      "bytes": 44174
+    },
+    {
+      "names": [
+        "DA02GSD6"
+      ],
+      "source_bmp_crc32": "93311813",
+      "source_size": [
+        64,
+        64
+      ],
+      "image": "textures/donington-grandstand-da02gsd6.webp",
+      "crc32": "2b2c232e",
+      "bytes": 54904
+    },
+    {
+      "names": [
+        "Da02gsd5"
+      ],
+      "source_bmp_crc32": "0dc1420c",
+      "source_size": [
+        64,
+        32
+      ],
+      "image": "textures/donington-grandstand-da02gsd5.webp",
+      "crc32": "6f92aeb0",
+      "bytes": 24724
+    },
+    {
+      "names": [
+        "DA16DUN0"
+      ],
+      "source_bmp_crc32": "874c7719",
+      "source_size": [
+        128,
+        128
+      ],
+      "image": "textures/dunlop-bridge-left.webp",
+      "crc32": "859e8045",
+      "bytes": 22806,
+      "current_provenance": "texture-generation.json",
+      "local_correction": "texture-generation.json: dunlop-marker-50-repair (L50_1 right numeral clipping)"
+    },
+    {
+      "names": [
+        "DA16DUN1"
+      ],
+      "source_bmp_crc32": "e3c8163f",
+      "source_size": [
+        128,
+        32
+      ],
+      "image": "textures/dunlop-bridge-banner-left.webp",
+      "crc32": "44b2640a",
+      "bytes": 8654
+    },
+    {
+      "names": [
+        "DA16DUN4"
+      ],
+      "source_bmp_crc32": "dd4a5792",
+      "source_size": [
+        32,
+        32
+      ],
+      "image": "textures/dunlop-bridge-support.webp",
+      "crc32": "28d2e51b",
+      "bytes": 5692
+    },
+    {
+      "names": [
+        "DA16DUN8"
+      ],
+      "source_bmp_crc32": "409bd539",
+      "source_size": [
+        128,
+        32
+      ],
+      "image": "textures/dunlop-bridge-banner-right.webp",
+      "crc32": "19994f81",
+      "bytes": 8430
+    },
+    {
+      "names": [
+        "DA16DUN9"
+      ],
+      "source_bmp_crc32": "2301ef84",
+      "source_size": [
+        128,
+        128
+      ],
+      "image": "textures/dunlop-bridge-right.webp",
+      "crc32": "045cd6bc",
+      "bytes": 29394,
+      "current_provenance": "texture-generation.json"
+    }
+  ],
+  "webp_quality": 80
+}

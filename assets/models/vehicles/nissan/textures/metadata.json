@@ -1,0 +1,42 @@
+{
+  "final_dimensions": {
+    "Nissan": [1024, 1024],
+    "SIDEG": [512, 512],
+    "WSCRN": [512, 512],
+    "ListA": [512, 512],
+    "ListB": [512, 512],
+    "Num4": [256, 256],
+    "Num23": [256, 256]
+  },
+  "name_source_uv_range": [0.625, 0.75],
+  "body_words": [
+    {
+      "label": "upper-quarter NISSAN",
+      "search_master": [44, 136, 172, 29],
+      "ink": "black",
+      "minimum_height_master": 18,
+      "components": 6,
+      "rotate": 180
+    },
+    {
+      "label": "upper side VODAFONE",
+      "search_master": [840, 150, 270, 60],
+      "ink": "red",
+      "minimum_height_master": 22,
+      "components": 8,
+      "source_search": [170, 35, 225, 40],
+      "height_source": 3.25,
+      "vertical_shift_source": 0.5
+    },
+    {
+      "label": "lower side VODAFONE",
+      "search_master": [840, 1040, 270, 60],
+      "ink": "red",
+      "minimum_height_master": 22,
+      "components": 8,
+      "source_search": [170, 217, 225, 222],
+      "height_source": 3.25,
+      "vertical_shift_source": -1.75
+    }
+  ]
+}

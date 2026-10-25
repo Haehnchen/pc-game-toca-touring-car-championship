@@ -1,0 +1,1963 @@
+{
+  "version": 1,
+  "scope": "Donington GP MT03 material review; one image per original material, unchanged UVs/slots/motifs/repeat phase",
+  "materials": [
+    {
+      "name": "BARBLUE2",
+      "source": {
+        "file": "BARBLUE2-4c4e969a-original.png",
+        "crc32": "365c60fa",
+        "bmp_crc32": "4c4e969a",
+        "size": [
+          16,
+          16
+        ]
+      },
+      "generated": {
+        "path": "exec-fb9d39b1-8c8f-40a4-b628-f9e1ed54cb67.png",
+        "crc32": "a1c4cca2"
+      },
+      "export": {
+        "encoding": "WebP quality80 method6 exact alpha",
+        "target_size": [
+          512,
+          512
+        ]
+      },
+      "output": {
+        "path": "assets/models/mega/textures/dgp-mt03-barblue2.webp",
+        "crc32": "4b9286c5",
+        "bytes": 44110,
+        "size": [
+          512,
+          512
+        ]
+      },
+      "mapping": {
+        "names": [
+          "BARBLUE2"
+        ],
+        "source_size": [
+          16,
+          16
+        ],
+        "image": "textures/dgp-mt03-barblue2.webp",
+        "source_crc32": [
+          "4c4e969a"
+        ]
+      }
+    },
+    {
+      "name": "BARWHITE",
+      "source": {
+        "file": "BARWHITE-eb23b043-original.png",
+        "crc32": "96b30d72",
+        "bmp_crc32": "eb23b043",
+        "size": [
+          16,
+          16
+        ]
+      },
+      "generated": {
+        "path": "exec-b38cde81-41c4-45ad-8c53-6eb263431d3a.png",
+        "crc32": "59a7524a"
+      },
+      "export": {
+        "encoding": "WebP quality80 method6 exact alpha",
+        "target_size": [
+          512,
+          512
+        ]
+      },
+      "output": {
+        "path": "assets/models/mega/textures/dgp-mt03-barwhite.webp",
+        "crc32": "658d4820",
+        "bytes": 26768,
+        "size": [
+          512,
+          512
+        ]
+      },
+      "mapping": {
+        "names": [
+          "BARWHITE"
+        ],
+        "source_size": [
+          16,
+          16
+        ],
+        "image": "textures/dgp-mt03-barwhite.webp",
+        "source_crc32": [
+          "eb23b043"
+        ]
+      }
+    },
+    {
+      "name": "DA05CMB1",
+      "source": {
+        "file": "DA05CMB1-0c3b0e42-original.png",
+        "crc32": "9a74d051",
+        "bmp_crc32": "0c3b0e42",
+        "size": [
+          128,
+          32
+        ]
+      },
+      "generated": {
+        "path": "exec-f5e70e69-9379-4426-8a61-df7a13177a82.png",
+        "crc32": "25aee689"
+      },
+      "export": {
+        "encoding": "WebP quality80 method6 exact alpha",
+        "target_size": [
+          512,
+          128
+        ],
+        "atlas_packing": "AI center post1060,75,1104,661 to original upright spans; AI rail600,182,1040,210 to source rows6:8. Source alpha retains exact four intervals including partial edge post.",
+        "alpha": "Exact original black-key alpha mask scaled nearest; RGB is new Imagegen artwork only."
+      },
+      "output": {
+        "path": "assets/models/mega/textures/dgp-mt03-da05cmb1.webp",
+        "crc32": "96a1e467",
+        "bytes": 874,
+        "size": [
+          512,
+          128
+        ]
+      },
+      "mapping": {
+        "names": [
+          "DA05CMB1"
+        ],
+        "source_size": [
+          128,
+          32
+        ],
+        "image": "textures/dgp-mt03-da05cmb1.webp",
+        "source_crc32": [
+          "0c3b0e42"
+        ]
+      }
+    },
+    {
+      "name": "BCBTOP",
+      "source": {
+        "file": "BCBTOP-e24fbd02-original.png",
+        "crc32": "a937c51f",
+        "bmp_crc32": "e24fbd02",
+        "size": [
+          128,
+          16
+        ]
+      },
+      "generated": {
+        "path": "exec-719c5129-1eca-470d-bdfc-ddde66f86f22.png",
+        "crc32": "3c6d3528"
+      },
+      "export": {
+        "encoding": "WebP quality80 method6 exact alpha",
+        "target_size": [
+          512,
+          64
+        ],
+        "crop": [
+          0,
+          80,
+          2164,
+          645
+        ]
+      },
+      "output": {
+        "path": "assets/models/mega/textures/dgp-mt03-bcbtop.webp",
+        "crc32": "651af42c",
+        "bytes": 1190,
+        "size": [
+          512,
+          64
+        ]
+      },
+      "mapping": {
+        "names": [
+          "BCBTOP"
+        ],
+        "source_size": [
+          128,
+          16
+        ],
+        "image": "textures/dgp-mt03-bcbtop.webp",
+        "source_crc32": [
+          "e24fbd02"
+        ]
+      }
+    },
+    {
+      "name": "WCBTOP",
+      "source": {
+        "file": "WCBTOP-525cf27e-original.png",
+        "crc32": "3d074935",
+        "bmp_crc32": "525cf27e",
+        "size": [
+          128,
+          16
+        ]
+      },
+      "generated": {
+        "path": "exec-78ca77a0-e653-4bfb-aad0-72f794b03536.png",
+        "crc32": "fa78e7a4"
+      },
+      "export": {
+        "encoding": "WebP quality80 method6 exact alpha",
+        "target_size": [
+          512,
+          64
+        ],
+        "crop": [
+          0,
+          181,
+          2164,
+          467
+        ]
+      },
+      "output": {
+        "path": "assets/models/mega/textures/dgp-mt03-wcbtop.webp",
+        "crc32": "6e0e8b5c",
+        "bytes": 2180,
+        "size": [
+          512,
+          64
+        ]
+      },
+      "mapping": {
+        "names": [
+          "WCBTOP"
+        ],
+        "source_size": [
+          128,
+          16
+        ],
+        "image": "textures/dgp-mt03-wcbtop.webp",
+        "source_crc32": [
+          "525cf27e"
+        ]
+      }
+    },
+    {
+      "name": "BCBLO",
+      "source": {
+        "file": "BCBLO-9cbfe119-original.png",
+        "crc32": "6cf630c9",
+        "bmp_crc32": "9cbfe119",
+        "size": [
+          128,
+          32
+        ]
+      },
+      "generated": {
+        "path": "exec-1e9fcab6-aaeb-4b0e-8881-e695df7b7496.png",
+        "crc32": "4dab33f6"
+      },
+      "export": {
+        "encoding": "WebP quality80 method6 exact alpha",
+        "target_size": [
+          512,
+          128
+        ],
+        "atlas_packing": "Generated rail and feet separately packed to original75%/25%split; horizontal joint centers mapped to original support centers; exact source black-key alpha silhouette retained.",
+        "alpha": "Exact original black-key alpha mask scaled nearest; RGB is new Imagegen artwork only."
+      },
+      "output": {
+        "path": "assets/models/mega/textures/dgp-mt03-bcblo.webp",
+        "crc32": "e4be83d7",
+        "bytes": 4498,
+        "size": [
+          512,
+          128
+        ]
+      },
+      "mapping": {
+        "names": [
+          "BCBLO"
+        ],
+        "source_size": [
+          128,
+          32
+        ],
+        "image": "textures/dgp-mt03-bcblo.webp",
+        "source_crc32": [
+          "9cbfe119"
+        ]
+      }
+    },
+    {
+      "name": "WCBLO",
+      "source": {
+        "file": "WCBLO-61914a2b-original.png",
+        "crc32": "ebf0af0e",
+        "bmp_crc32": "61914a2b",
+        "size": [
+          128,
+          32
+        ]
+      },
+      "generated": {
+        "path": "exec-36010379-73f9-4cfe-a8a4-d8396e9bdfc2.png",
+        "crc32": "aeb6b155"
+      },
+      "export": {
+        "encoding": "WebP quality80 method6 exact alpha",
+        "target_size": [
+          512,
+          128
+        ],
+        "atlas_packing": "Generated rail and feet separately packed to original75%/25%split; horizontal joint centers mapped to original support centers; exact source black-key alpha silhouette retained.",
+        "alpha": "Exact original black-key alpha mask scaled nearest; RGB is new Imagegen artwork only."
+      },
+      "output": {
+        "path": "assets/models/mega/textures/dgp-mt03-wcblo.webp",
+        "crc32": "1c3a939b",
+        "bytes": 3600,
+        "size": [
+          512,
+          128
+        ]
+      },
+      "mapping": {
+        "names": [
+          "WCBLO"
+        ],
+        "source_size": [
+          128,
+          32
+        ],
+        "image": "textures/dgp-mt03-wcblo.webp",
+        "source_crc32": [
+          "61914a2b"
+        ]
+      }
+    },
+    {
+      "name": "PITWALL",
+      "source": {
+        "file": "PITWALL-bf1bc841-original.png",
+        "crc32": "da0a1b15",
+        "bmp_crc32": "bf1bc841",
+        "size": [
+          128,
+          32
+        ]
+      },
+      "generated": {
+        "path": "exec-b733dc78-253f-446a-bd21-52a9f06d1dc8.png",
+        "crc32": "27d1a049"
+      },
+      "export": {
+        "encoding": "WebP quality80 method6 exact alpha",
+        "target_size": [
+          512,
+          128
+        ]
+      },
+      "output": {
+        "path": "assets/models/mega/textures/dgp-mt03-pitwall.webp",
+        "crc32": "ab7f9ec8",
+        "bytes": 3782,
+        "size": [
+          512,
+          128
+        ]
+      },
+      "mapping": {
+        "names": [
+          "PITWALL"
+        ],
+        "source_size": [
+          128,
+          32
+        ],
+        "image": "textures/dgp-mt03-pitwall.webp",
+        "source_crc32": [
+          "bf1bc841"
+        ]
+      },
+      "reconstruction": "Small original gold architectural/crest motif reconstructed conservatively after checking related Donington textures; no readable letters proven, none added."
+    },
+    {
+      "name": "AVON",
+      "source": {
+        "file": "AVON-e5bfcc82-original.png",
+        "crc32": "264779dc",
+        "bmp_crc32": "e5bfcc82",
+        "size": [
+          128,
+          32
+        ]
+      },
+      "generated": {
+        "path": "exec-77d1ca27-bee0-4af1-82e5-380684ae0f24.png",
+        "crc32": "7cea8d3f"
+      },
+      "export": {
+        "resize": [
+          512,
+          128
+        ],
+        "encoding": "WebP quality80 method6 opaque; same source aspect ratio"
+      },
+      "output": {
+        "path": "assets/models/mega/textures/dgp-mt03-avon.webp",
+        "crc32": "bec2fc65",
+        "bytes": 7110,
+        "size": [
+          512,
+          128
+        ]
+      },
+      "mapping": {
+        "names": [
+          "AVON"
+        ],
+        "source_size": [
+          128,
+          32
+        ],
+        "source_crc32": [
+          "e5bfcc82"
+        ],
+        "image": "textures/dgp-mt03-avon.webp"
+      }
+    },
+    {
+      "name": "FERODO",
+      "source": {
+        "file": "FERODO-743be489-original.png",
+        "crc32": "5b0656f4",
+        "bmp_crc32": "743be489",
+        "size": [
+          128,
+          32
+        ]
+      },
+      "generated": {
+        "path": "exec-326e7db7-cc69-4483-b8ca-1acdf233c459.png",
+        "crc32": "d676b719"
+      },
+      "export": {
+        "resize": [
+          512,
+          128
+        ],
+        "encoding": "WebP quality80 method6 opaque; same source aspect ratio"
+      },
+      "output": {
+        "path": "assets/models/mega/textures/dgp-mt03-ferodo.webp",
+        "crc32": "b62502ff",
+        "bytes": 2634,
+        "size": [
+          512,
+          128
+        ]
+      },
+      "mapping": {
+        "names": [
+          "FERODO"
+        ],
+        "source_size": [
+          128,
+          32
+        ],
+        "source_crc32": [
+          "743be489"
+        ],
+        "image": "textures/dgp-mt03-ferodo.webp"
+      }
+    },
+    {
+      "name": "DUNLOP",
+      "source": {
+        "file": "DUNLOP-dd523001-original.png",
+        "crc32": "bdd29540",
+        "bmp_crc32": "dd523001",
+        "size": [
+          128,
+          32
+        ]
+      },
+      "generated": {
+        "path": "exec-02a04059-2ff8-4a2d-ad61-19d2449dfac1.png",
+        "crc32": "03089194"
+      },
+      "export": {
+        "resize": [
+          512,
+          128
+        ],
+        "encoding": "WebP quality80 method6 opaque; same source aspect ratio"
+      },
+      "output": {
+        "path": "assets/models/mega/textures/dgp-mt03-dunlop.webp",
+        "crc32": "be1173bd",
+        "bytes": 4446,
+        "size": [
+          512,
+          128
+        ]
+      },
+      "mapping": {
+        "names": [
+          "DUNLOP"
+        ],
+        "source_size": [
+          128,
+          32
+        ],
+        "source_crc32": [
+          "dd523001"
+        ],
+        "image": "textures/dgp-mt03-dunlop.webp"
+      }
+    },
+    {
+      "name": "CASTROL",
+      "source": {
+        "file": "CASTROL-b5b15c40-original.png",
+        "crc32": "46fbb945",
+        "bmp_crc32": "b5b15c40",
+        "size": [
+          128,
+          32
+        ]
+      },
+      "generated": {
+        "path": "exec-23b65d45-88d4-450b-9601-0c54e9146f89.png",
+        "crc32": "4dff7082"
+      },
+      "export": {
+        "resize": [
+          512,
+          128
+        ],
+        "encoding": "WebP quality80 method6 opaque; same source aspect ratio"
+      },
+      "output": {
+        "path": "assets/models/mega/textures/dgp-mt03-castrol.webp",
+        "crc32": "1caae8cd",
+        "bytes": 7312,
+        "size": [
+          512,
+          128
+        ]
+      },
+      "mapping": {
+        "names": [
+          "CASTROL"
+        ],
+        "source_size": [
+          128,
+          32
+        ],
+        "source_crc32": [
+          "b5b15c40"
+        ],
+        "image": "textures/dgp-mt03-castrol.webp"
+      }
+    },
+    {
+      "name": "AUTOTRAD",
+      "source": {
+        "file": "AUTOTRAD-916be8c7-original.png",
+        "crc32": "12ac2f75",
+        "bmp_crc32": "916be8c7",
+        "size": [
+          128,
+          32
+        ]
+      },
+      "generated": {
+        "path": "exec-7486efe3-12cd-4c52-9a6c-c20259c67d29.png",
+        "crc32": "77f042d7"
+      },
+      "export": {
+        "resize": [
+          512,
+          128
+        ],
+        "encoding": "WebP quality80 method6 opaque; same source aspect ratio"
+      },
+      "output": {
+        "path": "assets/models/mega/textures/dgp-mt03-autotrad.webp",
+        "crc32": "2679a2fe",
+        "bytes": 4056,
+        "size": [
+          512,
+          128
+        ]
+      },
+      "mapping": {
+        "names": [
+          "AUTOTRAD"
+        ],
+        "source_size": [
+          128,
+          32
+        ],
+        "source_crc32": [
+          "916be8c7"
+        ],
+        "image": "textures/dgp-mt03-autotrad.webp"
+      }
+    },
+    {
+      "name": "SNAPON",
+      "source": {
+        "file": "SNAPON-ac1deeea-original.png",
+        "crc32": "e9f5fbda",
+        "bmp_crc32": "ac1deeea",
+        "size": [
+          64,
+          32
+        ]
+      },
+      "generated": {
+        "path": "exec-c36170ea-3b81-49bf-8dd5-0cc3cc9b8afe.png",
+        "crc32": "411db7fc"
+      },
+      "export": {
+        "resize": [
+          512,
+          256
+        ],
+        "encoding": "WebP quality80 method6 opaque; same source aspect ratio"
+      },
+      "output": {
+        "path": "assets/models/mega/textures/dgp-mt03-snapon.webp",
+        "crc32": "cdba4c6c",
+        "bytes": 5844,
+        "size": [
+          512,
+          256
+        ]
+      },
+      "mapping": {
+        "names": [
+          "SNAPON"
+        ],
+        "source_size": [
+          64,
+          32
+        ],
+        "source_crc32": [
+          "ac1deeea"
+        ],
+        "image": "textures/dgp-mt03-snapon.webp"
+      }
+    },
+    {
+      "name": "LDV",
+      "source": {
+        "file": "LDV-386d3d0a-original.png",
+        "crc32": "46851a71",
+        "bmp_crc32": "386d3d0a",
+        "size": [
+          64,
+          32
+        ]
+      },
+      "generated": {
+        "path": "exec-b2264175-828f-4aab-9779-560122282e2d.png",
+        "crc32": "b120309c"
+      },
+      "export": {
+        "resize": [
+          512,
+          256
+        ],
+        "encoding": "WebP quality80 method6 opaque; same source aspect ratio"
+      },
+      "output": {
+        "path": "assets/models/mega/textures/dgp-mt03-ldv.webp",
+        "crc32": "7454e9a5",
+        "bytes": 4236,
+        "size": [
+          512,
+          256
+        ]
+      },
+      "mapping": {
+        "names": [
+          "LDV"
+        ],
+        "source_size": [
+          64,
+          32
+        ],
+        "source_crc32": [
+          "386d3d0a"
+        ],
+        "image": "textures/dgp-mt03-ldv.webp"
+      }
+    },
+    {
+      "name": "MCN",
+      "source": {
+        "file": "MCN-faa9cb91-original.png",
+        "crc32": "b8f97238",
+        "bmp_crc32": "faa9cb91",
+        "size": [
+          64,
+          32
+        ]
+      },
+      "generated": {
+        "path": "exec-847e0fbc-ac4c-42df-a53d-15f00678b689.png",
+        "crc32": "0cb743c2"
+      },
+      "export": {
+        "resize": [
+          512,
+          256
+        ],
+        "encoding": "WebP quality80 method6 opaque; same source aspect ratio"
+      },
+      "output": {
+        "path": "assets/models/mega/textures/dgp-mt03-mcn.webp",
+        "crc32": "b2292280",
+        "bytes": 10288,
+        "size": [
+          512,
+          256
+        ]
+      },
+      "mapping": {
+        "names": [
+          "MCN"
+        ],
+        "source_size": [
+          64,
+          32
+        ],
+        "source_crc32": [
+          "faa9cb91"
+        ],
+        "image": "textures/dgp-mt03-mcn.webp"
+      }
+    },
+    {
+      "name": "ORDSURV",
+      "source": {
+        "file": "ORDSURV-48840798-original.png",
+        "crc32": "e9de45aa",
+        "bmp_crc32": "48840798",
+        "size": [
+          128,
+          32
+        ]
+      },
+      "generated": {
+        "path": "exec-35da2600-21a5-483c-a740-c4bad70777a5.png",
+        "crc32": "9a07431f"
+      },
+      "export": {
+        "resize": [
+          512,
+          128
+        ],
+        "encoding": "WebP quality80 method6 opaque; same source aspect ratio"
+      },
+      "output": {
+        "path": "assets/models/mega/textures/dgp-mt03-ordsurv.webp",
+        "crc32": "4e326967",
+        "bytes": 5890,
+        "size": [
+          512,
+          128
+        ]
+      },
+      "mapping": {
+        "names": [
+          "ORDSURV"
+        ],
+        "source_size": [
+          128,
+          32
+        ],
+        "source_crc32": [
+          "48840798"
+        ],
+        "image": "textures/dgp-mt03-ordsurv.webp"
+      }
+    },
+    {
+      "name": "BBFRONT",
+      "source": {
+        "file": "BBFRONT-5199949c-original.png",
+        "crc32": "dbc399e0",
+        "bmp_crc32": "5199949c",
+        "size": [
+          32,
+          32
+        ]
+      },
+      "generated": {
+        "path": "exec-a2c24c01-9f42-494b-97a3-e3f6a0a34c49.png",
+        "crc32": "7b1e7dfc"
+      },
+      "export": {
+        "encoding": "WebP quality80 method6 exact alpha",
+        "target_size": [
+          512,
+          512
+        ],
+        "generated_content_crop": [
+          24,
+          8,
+          1231,
+          1245
+        ],
+        "original_occupied_bounds": [
+          0,
+          0,
+          32,
+          32
+        ],
+        "target_occupied_bounds": [
+          0,
+          0,
+          512,
+          512
+        ],
+        "alpha": "True generated alpha retained; normalized occupied bounds follow original black-key silhouette envelope, no opaque black fill."
+      },
+      "output": {
+        "path": "assets/models/mega/textures/dgp-mt03-bbfront.webp",
+        "crc32": "664436f2",
+        "bytes": 35200,
+        "size": [
+          512,
+          512
+        ]
+      },
+      "mapping": {
+        "names": [
+          "BBFRONT"
+        ],
+        "source_size": [
+          32,
+          32
+        ],
+        "source_crc32": [
+          "5199949c"
+        ],
+        "image": "textures/dgp-mt03-bbfront.webp"
+      }
+    },
+    {
+      "name": "DA11WEL3",
+      "source": {
+        "file": "DA11WEL3-8071e073-original.png",
+        "crc32": "48182df6",
+        "bmp_crc32": "8071e073",
+        "size": [
+          32,
+          32
+        ]
+      },
+      "generated": {
+        "path": "build/donington-cherv/DA11WEL3-opaque-generated.png",
+        "crc32": "ac1914e2"
+      },
+      "export": {
+        "encoding": "Opaque RGB WebP quality80 method6",
+        "target_size": [
+          512,
+          512
+        ],
+        "processing": "Whole-canvas Lanczos resize; no UV, slot or motif changes.",
+        "alpha": "Canonical32x32 source contains zero RGB-black texels; all1024sourcepixels and entire replacement are opaque."
+      },
+      "output": {
+        "path": "assets/models/mega/textures/dgp-mt03-da11wel3.webp",
+        "crc32": "4fe57ced",
+        "bytes": 7826,
+        "size": [
+          512,
+          512
+        ]
+      },
+      "mapping": {
+        "names": [
+          "DA11WEL3"
+        ],
+        "source_size": [
+          32,
+          32
+        ],
+        "source_crc32": [
+          "8071e073"
+        ],
+        "image": "textures/dgp-mt03-da11wel3.webp"
+      }
+    },
+    {
+      "name": "DA13DUC1",
+      "source": {
+        "file": "DA13DUC1-0949209c-original.png",
+        "crc32": "bc64b240",
+        "bmp_crc32": "0949209c",
+        "size": [
+          32,
+          32
+        ]
+      },
+      "generated": {
+        "path": "exec-bea0b5b8-59ad-4b31-8a15-0b2e20b3f6da.png",
+        "crc32": "54c1ab1a"
+      },
+      "export": {
+        "encoding": "WebP quality80 method6 exact alpha",
+        "target_size": [
+          512,
+          512
+        ]
+      },
+      "output": {
+        "path": "assets/models/mega/textures/dgp-mt03-da13duc1.webp",
+        "crc32": "0e91b632",
+        "bytes": 1238,
+        "size": [
+          512,
+          512
+        ]
+      },
+      "mapping": {
+        "names": [
+          "DA13DUC1"
+        ],
+        "source_size": [
+          32,
+          32
+        ],
+        "source_crc32": [
+          "0949209c"
+        ],
+        "image": "textures/dgp-mt03-da13duc1.webp"
+      }
+    },
+    {
+      "name": "LIFLAG1",
+      "source": {
+        "file": "LIFLAG1-c1251d37-original.png",
+        "crc32": "343c6672",
+        "bmp_crc32": "c1251d37",
+        "size": [
+          32,
+          32
+        ]
+      },
+      "generated": {
+        "path": "exec-b9c9113d-2f66-478e-a625-9f078e0b978e.png",
+        "crc32": "6a02f724"
+      },
+      "export": {
+        "encoding": "WebP quality80 method6 exact alpha",
+        "target_size": [
+          512,
+          512
+        ],
+        "generated_content_crop": [
+          49,
+          172,
+          1215,
+          1126
+        ],
+        "original_occupied_bounds": [
+          0,
+          2,
+          31,
+          31
+        ],
+        "target_occupied_bounds": [
+          0,
+          32,
+          496,
+          496
+        ],
+        "alpha": "True generated alpha retained; normalized occupied bounds follow original black-key silhouette envelope, no opaque black fill."
+      },
+      "output": {
+        "path": "assets/models/mega/textures/dgp-mt03-liflag1.webp",
+        "crc32": "94450d7e",
+        "bytes": 25756,
+        "size": [
+          512,
+          512
+        ]
+      },
+      "mapping": {
+        "names": [
+          "LIFLAG1"
+        ],
+        "source_size": [
+          32,
+          32
+        ],
+        "source_crc32": [
+          "c1251d37"
+        ],
+        "image": "textures/dgp-mt03-liflag1.webp"
+      }
+    },
+    {
+      "name": "LIFLAG2",
+      "source": {
+        "file": "LIFLAG2-ce5e8efb-original.png",
+        "crc32": "04332034",
+        "bmp_crc32": "ce5e8efb",
+        "size": [
+          32,
+          32
+        ]
+      },
+      "generated": {
+        "path": "exec-0b5f4acd-a42a-4560-a6bb-4837183bfaea.png",
+        "crc32": "3e1b7887"
+      },
+      "export": {
+        "encoding": "WebP quality80 method6 exact alpha",
+        "target_size": [
+          512,
+          512
+        ],
+        "generated_content_crop": [
+          7,
+          96,
+          1245,
+          1127
+        ],
+        "original_occupied_bounds": [
+          0,
+          1,
+          31,
+          31
+        ],
+        "target_occupied_bounds": [
+          0,
+          16,
+          496,
+          496
+        ],
+        "alpha": "True generated alpha retained; normalized occupied bounds follow original black-key silhouette envelope, no opaque black fill."
+      },
+      "output": {
+        "path": "assets/models/mega/textures/dgp-mt03-liflag2.webp",
+        "crc32": "657b0788",
+        "bytes": 26220,
+        "size": [
+          512,
+          512
+        ]
+      },
+      "mapping": {
+        "names": [
+          "LIFLAG2"
+        ],
+        "source_size": [
+          32,
+          32
+        ],
+        "source_crc32": [
+          "ce5e8efb"
+        ],
+        "image": "textures/dgp-mt03-liflag2.webp"
+      }
+    },
+    {
+      "name": "LIFLAG3",
+      "source": {
+        "file": "LIFLAG3-3fb588ce-original.png",
+        "crc32": "8c4004dc",
+        "bmp_crc32": "3fb588ce",
+        "size": [
+          32,
+          32
+        ]
+      },
+      "generated": {
+        "path": "exec-b9c7ece2-74cb-4cec-8b19-d1f834412368.png",
+        "crc32": "2067cb8c"
+      },
+      "export": {
+        "encoding": "WebP quality80 method6 exact alpha",
+        "target_size": [
+          512,
+          512
+        ],
+        "generated_content_crop": [
+          21,
+          160,
+          1234,
+          1099
+        ],
+        "original_occupied_bounds": [
+          0,
+          1,
+          31,
+          31
+        ],
+        "target_occupied_bounds": [
+          0,
+          16,
+          496,
+          496
+        ],
+        "alpha": "True generated alpha retained; normalized occupied bounds follow original black-key silhouette envelope, no opaque black fill."
+      },
+      "output": {
+        "path": "assets/models/mega/textures/dgp-mt03-liflag3.webp",
+        "crc32": "031c7768",
+        "bytes": 36114,
+        "size": [
+          512,
+          512
+        ]
+      },
+      "mapping": {
+        "names": [
+          "LIFLAG3"
+        ],
+        "source_size": [
+          32,
+          32
+        ],
+        "source_crc32": [
+          "3fb588ce"
+        ],
+        "image": "textures/dgp-mt03-liflag3.webp"
+      }
+    },
+    {
+      "name": "LIFLAGB1",
+      "source": {
+        "file": "LIFLAGB1-69dc0491-original.png",
+        "crc32": "3537e83f",
+        "bmp_crc32": "69dc0491",
+        "size": [
+          32,
+          32
+        ]
+      },
+      "generated": {
+        "path": "exec-c1ee1623-61ba-459e-93b1-b8227914438d.png",
+        "crc32": "097e9806"
+      },
+      "export": {
+        "encoding": "WebP quality80 method6 exact alpha",
+        "target_size": [
+          512,
+          512
+        ],
+        "generated_content_crop": [
+          8,
+          177,
+          1251,
+          1135
+        ],
+        "original_occupied_bounds": [
+          0,
+          1,
+          31,
+          30
+        ],
+        "target_occupied_bounds": [
+          0,
+          16,
+          496,
+          480
+        ],
+        "alpha": "True generated alpha retained; normalized occupied bounds follow original black-key silhouette envelope, no opaque black fill."
+      },
+      "output": {
+        "path": "assets/models/mega/textures/dgp-mt03-liflagb1.webp",
+        "crc32": "72860787",
+        "bytes": 33546,
+        "size": [
+          512,
+          512
+        ]
+      },
+      "mapping": {
+        "names": [
+          "LIFLAGB1"
+        ],
+        "source_size": [
+          32,
+          32
+        ],
+        "source_crc32": [
+          "69dc0491"
+        ],
+        "image": "textures/dgp-mt03-liflagb1.webp"
+      }
+    },
+    {
+      "name": "LIFLAGB2",
+      "source": {
+        "file": "LIFLAGB2-34d6b138-original.png",
+        "crc32": "6d64ccbe",
+        "bmp_crc32": "34d6b138",
+        "size": [
+          32,
+          32
+        ]
+      },
+      "generated": {
+        "path": "exec-10d58532-3046-4210-a3ff-6e8966e1f4e6.png",
+        "crc32": "0aeab4d4"
+      },
+      "export": {
+        "encoding": "WebP quality80 method6 exact alpha",
+        "target_size": [
+          512,
+          512
+        ],
+        "generated_content_crop": [
+          3,
+          113,
+          1254,
+          1126
+        ],
+        "original_occupied_bounds": [
+          0,
+          1,
+          31,
+          30
+        ],
+        "target_occupied_bounds": [
+          0,
+          16,
+          496,
+          480
+        ],
+        "alpha": "True generated alpha retained; normalized occupied bounds follow original black-key silhouette envelope, no opaque black fill."
+      },
+      "output": {
+        "path": "assets/models/mega/textures/dgp-mt03-liflagb2.webp",
+        "crc32": "6c36ceaa",
+        "bytes": 37398,
+        "size": [
+          512,
+          512
+        ]
+      },
+      "mapping": {
+        "names": [
+          "LIFLAGB2"
+        ],
+        "source_size": [
+          32,
+          32
+        ],
+        "source_crc32": [
+          "34d6b138"
+        ],
+        "image": "textures/dgp-mt03-liflagb2.webp"
+      }
+    },
+    {
+      "name": "LIFLAGB3",
+      "source": {
+        "file": "LIFLAGB3-8c68e79a-original.png",
+        "crc32": "001f6d5a",
+        "bmp_crc32": "8c68e79a",
+        "size": [
+          32,
+          32
+        ]
+      },
+      "generated": {
+        "path": "exec-57227986-90bd-4b6c-80d9-537436d1967b.png",
+        "crc32": "66d6ed47"
+      },
+      "export": {
+        "encoding": "WebP quality80 method6 exact alpha",
+        "target_size": [
+          512,
+          512
+        ],
+        "generated_content_crop": [
+          15,
+          170,
+          1242,
+          1105
+        ],
+        "original_occupied_bounds": [
+          0,
+          2,
+          31,
+          30
+        ],
+        "target_occupied_bounds": [
+          0,
+          32,
+          496,
+          480
+        ],
+        "alpha": "True generated alpha retained; normalized occupied bounds follow original black-key silhouette envelope, no opaque black fill."
+      },
+      "output": {
+        "path": "assets/models/mega/textures/dgp-mt03-liflagb3.webp",
+        "crc32": "a5569f03",
+        "bytes": 48740,
+        "size": [
+          512,
+          512
+        ]
+      },
+      "mapping": {
+        "names": [
+          "LIFLAGB3"
+        ],
+        "source_size": [
+          32,
+          32
+        ],
+        "source_crc32": [
+          "8c68e79a"
+        ],
+        "image": "textures/dgp-mt03-liflagb3.webp"
+      }
+    },
+    {
+      "name": "LIFLAGA1",
+      "source": {
+        "file": "LIFLAGA1-c0066846-original.png",
+        "crc32": "34a9c53a",
+        "bmp_crc32": "c0066846",
+        "size": [
+          32,
+          32
+        ]
+      },
+      "generated": {
+        "path": "exec-74fcf05c-f3f5-46bc-bb32-1dc554cca1dd.png",
+        "crc32": "4973c731"
+      },
+      "export": {
+        "encoding": "WebP quality80 method6 exact alpha",
+        "target_size": [
+          512,
+          512
+        ],
+        "generated_content_crop": [
+          9,
+          199,
+          1246,
+          1045
+        ],
+        "original_occupied_bounds": [
+          1,
+          1,
+          31,
+          30
+        ],
+        "target_occupied_bounds": [
+          16,
+          16,
+          496,
+          480
+        ],
+        "alpha": "True generated alpha retained; normalized occupied bounds follow original black-key silhouette envelope, no opaque black fill."
+      },
+      "output": {
+        "path": "assets/models/mega/textures/dgp-mt03-liflaga1.webp",
+        "crc32": "6722a8ad",
+        "bytes": 39432,
+        "size": [
+          512,
+          512
+        ]
+      },
+      "mapping": {
+        "names": [
+          "LIFLAGA1"
+        ],
+        "source_size": [
+          32,
+          32
+        ],
+        "source_crc32": [
+          "c0066846"
+        ],
+        "image": "textures/dgp-mt03-liflaga1.webp"
+      }
+    },
+    {
+      "name": "LIFLAGA2",
+      "source": {
+        "file": "LIFLAGA2-6cd16da1-original.png",
+        "crc32": "924f4cc5",
+        "bmp_crc32": "6cd16da1",
+        "size": [
+          32,
+          32
+        ]
+      },
+      "generated": {
+        "path": "exec-2998a98c-7021-4bfa-bb14-ddc59d44921f.png",
+        "crc32": "8b31c4bc"
+      },
+      "export": {
+        "encoding": "WebP quality80 method6 exact alpha",
+        "target_size": [
+          512,
+          512
+        ],
+        "generated_content_crop": [
+          9,
+          149,
+          1244,
+          1081
+        ],
+        "original_occupied_bounds": [
+          0,
+          1,
+          31,
+          29
+        ],
+        "target_occupied_bounds": [
+          0,
+          16,
+          496,
+          464
+        ],
+        "alpha": "True generated alpha retained; normalized occupied bounds follow original black-key silhouette envelope, no opaque black fill."
+      },
+      "output": {
+        "path": "assets/models/mega/textures/dgp-mt03-liflaga2.webp",
+        "crc32": "2a570c6e",
+        "bytes": 39376,
+        "size": [
+          512,
+          512
+        ]
+      },
+      "mapping": {
+        "names": [
+          "LIFLAGA2"
+        ],
+        "source_size": [
+          32,
+          32
+        ],
+        "source_crc32": [
+          "6cd16da1"
+        ],
+        "image": "textures/dgp-mt03-liflaga2.webp"
+      }
+    },
+    {
+      "name": "LIFLAGA3",
+      "source": {
+        "file": "LIFLAGA3-e53a5066-original.png",
+        "crc32": "784bb984",
+        "bmp_crc32": "e53a5066",
+        "size": [
+          32,
+          32
+        ]
+      },
+      "generated": {
+        "path": "exec-af3d5ce1-f4bf-49f2-baf1-714bd8944f82.png",
+        "crc32": "427b6664"
+      },
+      "export": {
+        "encoding": "WebP quality80 method6 exact alpha",
+        "target_size": [
+          512,
+          512
+        ],
+        "generated_content_crop": [
+          20,
+          166,
+          1234,
+          1080
+        ],
+        "original_occupied_bounds": [
+          1,
+          1,
+          31,
+          30
+        ],
+        "target_occupied_bounds": [
+          16,
+          16,
+          496,
+          480
+        ],
+        "alpha": "True generated alpha retained; normalized occupied bounds follow original black-key silhouette envelope, no opaque black fill."
+      },
+      "output": {
+        "path": "assets/models/mega/textures/dgp-mt03-liflaga3.webp",
+        "crc32": "10da720b",
+        "bytes": 35278,
+        "size": [
+          512,
+          512
+        ]
+      },
+      "mapping": {
+        "names": [
+          "LIFLAGA3"
+        ],
+        "source_size": [
+          32,
+          32
+        ],
+        "source_crc32": [
+          "e53a5066"
+        ],
+        "image": "textures/dgp-mt03-liflaga3.webp"
+      }
+    },
+    {
+      "name": "BBSIDE",
+      "source": {
+        "file": "BBSIDE-7d7840d2-original.png",
+        "crc32": "d6e6a3a4",
+        "bmp_crc32": "7d7840d2",
+        "size": [
+          32,
+          64
+        ]
+      },
+      "generated": {
+        "path": "exec-ce576b5e-8b35-4e80-b72d-da79b7f728da.png",
+        "crc32": "5e2e9a58"
+      },
+      "export": {
+        "encoding": "WebP quality80 method6 exact alpha",
+        "target_size": [
+          256,
+          512
+        ],
+        "generated_content_crop": [
+          3,
+          3,
+          883,
+          1771
+        ],
+        "original_occupied_bounds": [
+          0,
+          0,
+          32,
+          64
+        ],
+        "target_occupied_bounds": [
+          0,
+          0,
+          256,
+          512
+        ],
+        "alpha": "True generated alpha retained; normalized occupied bounds follow original black-key silhouette envelope, no opaque black fill."
+      },
+      "output": {
+        "path": "assets/models/mega/textures/dgp-mt03-bbside.webp",
+        "crc32": "9211a410",
+        "bytes": 13016,
+        "size": [
+          256,
+          512
+        ]
+      },
+      "mapping": {
+        "names": [
+          "BBSIDE"
+        ],
+        "source_size": [
+          32,
+          64
+        ],
+        "source_crc32": [
+          "7d7840d2"
+        ],
+        "image": "textures/dgp-mt03-bbside.webp"
+      }
+    },
+    {
+      "name": "CHEV",
+      "source": {
+        "file": "CHEV-6dd63161-original.png",
+        "crc32": "100af3b9",
+        "bmp_crc32": "6dd63161",
+        "size": [
+          64,
+          64
+        ]
+      },
+      "generated": {
+        "path": "exec-32b3a5da-88b7-4564-b110-cbde8e696c0e.png",
+        "crc32": "8dc53419"
+      },
+      "export": {
+        "encoding": "WebP quality80 method6 exact alpha",
+        "target_size": [
+          512,
+          512
+        ],
+        "repeat_packing": "Generated single stripe period packed4x;128pxperiod=source16px; rowphase -.5sourcepx at top/bottom to6.5sourcepx atmiddle. No new originalRGB copied, opaque nearblackbackground retained."
+      },
+      "output": {
+        "path": "assets/models/mega/textures/dgp-mt03-chev.webp",
+        "crc32": "5e5c95df",
+        "bytes": 7200,
+        "size": [
+          512,
+          512
+        ]
+      },
+      "mapping": {
+        "names": [
+          "CHEV"
+        ],
+        "source_size": [
+          64,
+          64
+        ],
+        "source_crc32": [
+          "6dd63161"
+        ],
+        "image": "textures/dgp-mt03-chev.webp"
+      }
+    },
+    {
+      "name": "SIGNDES",
+      "source": {
+        "file": "SIGNDES-2b650dae-original.png",
+        "crc32": "a650c01e",
+        "bmp_crc32": "2b650dae",
+        "size": [
+          64,
+          32
+        ]
+      },
+      "generated": {
+        "path": "exec-8dd0decc-f053-49cb-824e-ff512f80bdaa.png",
+        "crc32": "a38e8abf"
+      },
+      "export": {
+        "encoding": "WebP quality80 method6 exact alpha",
+        "target_size": [
+          512,
+          256
+        ]
+      },
+      "output": {
+        "path": "assets/models/mega/textures/dgp-mt03-signdes.webp",
+        "crc32": "497b87d9",
+        "bytes": 8096,
+        "size": [
+          512,
+          256
+        ]
+      },
+      "mapping": {
+        "names": [
+          "SIGNDES"
+        ],
+        "source_size": [
+          64,
+          32
+        ],
+        "source_crc32": [
+          "2b650dae"
+        ],
+        "image": "textures/dgp-mt03-signdes.webp"
+      }
+    },
+    {
+      "name": "DA17SHS1",
+      "source": {
+        "file": "DA17SHS1-116a489c-original.png",
+        "crc32": "89d24073",
+        "bmp_crc32": "116a489c",
+        "size": [
+          64,
+          64
+        ]
+      },
+      "generated": {
+        "path": "exec-78a95229-3aa3-42df-a7e3-ea043ae9f580.png",
+        "crc32": "b31cf56f"
+      },
+      "export": {
+        "encoding": "WebP quality80 method6 exact alpha",
+        "target_size": [
+          512,
+          512
+        ]
+      },
+      "output": {
+        "path": "assets/models/mega/textures/dgp-mt03-da17shs1.webp",
+        "crc32": "4631d8c3",
+        "bytes": 20714,
+        "size": [
+          512,
+          512
+        ]
+      },
+      "mapping": {
+        "names": [
+          "DA17SHS1"
+        ],
+        "source_size": [
+          64,
+          64
+        ],
+        "source_crc32": [
+          "116a489c"
+        ],
+        "image": "textures/dgp-mt03-da17shs1.webp"
+      },
+      "reconstruction": "Tiny curvedovaltext notlegible in DA17SHS1 or related DA02GSD5. VerifiedrelatedDA27STB9 provides THE HOME OF MOTOR SPORT, usedconservativelyinoriginalcurvedband; reconstructionauthorizedanddocumented, no claimexactovalwordingproved."
+    },
+    {
+      "name": "POST",
+      "source": {
+        "file": "POST-bacca98b-original.png",
+        "crc32": "61a9dce1",
+        "bmp_crc32": "bacca98b",
+        "size": [
+          8,
+          16
+        ]
+      },
+      "generated": {
+        "path": "exec-d399f04f-934e-4246-8eef-674908f74708.png",
+        "crc32": "8ba017da"
+      },
+      "export": {
+        "encoding": "WebP quality80 method6 exact alpha",
+        "target_size": [
+          256,
+          512
+        ]
+      },
+      "output": {
+        "path": "assets/models/mega/textures/dgp-mt03-post.webp",
+        "crc32": "29fe6f4a",
+        "bytes": 654,
+        "size": [
+          256,
+          512
+        ]
+      },
+      "mapping": {
+        "names": [
+          "POST"
+        ],
+        "source_size": [
+          8,
+          16
+        ],
+        "source_crc32": [
+          "bacca98b"
+        ],
+        "image": "textures/dgp-mt03-post.webp"
+      }
+    },
+    {
+      "name": "LTYRTOP",
+      "source": {
+        "file": "LTYRTOP-6eab5a04-original.png",
+        "crc32": "036bdf80",
+        "bmp_crc32": "6eab5a04",
+        "size": [
+          128,
+          32
+        ]
+      },
+      "generated": {
+        "path": "exec-0d8bfb62-b63c-45b6-9ea9-f9f7d57c6ea9.png",
+        "crc32": "0e08435a"
+      },
+      "export": {
+        "encoding": "WebP quality80 method6 exact alpha",
+        "target_size": [
+          512,
+          128
+        ],
+        "repeat_packing": "Exactly8horizontalperiods and2rows, source16x16pxperiod scaled4x. Ringcentersx0,64,...512 andy32,96; half-ringedges wrap asoriginal. Hole/background remainsopaque asoriginal."
+      },
+      "output": {
+        "path": "assets/models/mega/textures/dgp-mt03-ltyrtop.webp",
+        "crc32": "6908bb74",
+        "bytes": 3734,
+        "size": [
+          512,
+          128
+        ]
+      },
+      "mapping": {
+        "names": [
+          "LTYRTOP"
+        ],
+        "source_size": [
+          128,
+          32
+        ],
+        "source_crc32": [
+          "6eab5a04"
+        ],
+        "image": "textures/dgp-mt03-ltyrtop.webp"
+      }
+    },
+    {
+      "name": "TYRES",
+      "source": {
+        "file": "TYRES-3b809473-original.png",
+        "crc32": "31d6e9fc",
+        "bmp_crc32": "3b809473",
+        "size": [
+          128,
+          32
+        ]
+      },
+      "generated": {
+        "path": "exec-d9f23e27-7dac-45c5-beb7-3fc0c9bb4fa7.png",
+        "crc32": "827c86a2"
+      },
+      "export": {
+        "encoding": "WebP quality80 method6 exact alpha",
+        "target_size": [
+          512,
+          128
+        ],
+        "source_rows_crop": [
+          0,
+          0,
+          1983,
+          529
+        ],
+        "repeat_packing": "Original8stackcolumns with fourtyrebands; cropfirst4of6generatedrows, keeporiginalhorizontalphase. Originalsingleblack-keycornerpixelalpharetained."
+      },
+      "output": {
+        "path": "assets/models/mega/textures/dgp-mt03-tyres.webp",
+        "crc32": "68a79622",
+        "bytes": 11126,
+        "size": [
+          512,
+          128
+        ]
+      },
+      "mapping": {
+        "names": [
+          "TYRES"
+        ],
+        "source_size": [
+          128,
+          32
+        ],
+        "source_crc32": [
+          "3b809473"
+        ],
+        "image": "textures/dgp-mt03-tyres.webp"
+      }
+    },
+    {
+      "name": "HANKOOK",
+      "source": {
+        "file": "HANKOOK-956e99e4-original.png",
+        "crc32": "eb6c67b3",
+        "bmp_crc32": "956e99e4",
+        "size": [
+          64,
+          32
+        ]
+      },
+      "generated": {
+        "path": "exec-d8647117-7ad1-4e96-a208-bab5479fbd31.png",
+        "crc32": "617fe229"
+      },
+      "export": {
+        "encoding": "WebP quality80 method6 exact alpha",
+        "target_size": [
+          512,
+          256
+        ]
+      },
+      "output": {
+        "path": "assets/models/mega/textures/dgp-mt03-hankook.webp",
+        "crc32": "79d6ac5f",
+        "bytes": 10342,
+        "size": [
+          512,
+          256
+        ]
+      },
+      "mapping": {
+        "names": [
+          "HANKOOK"
+        ],
+        "source_size": [
+          64,
+          32
+        ],
+        "source_crc32": [
+          "956e99e4"
+        ],
+        "image": "textures/dgp-mt03-hankook.webp"
+      }
+    },
+    {
+      "name": "LDHL",
+      "source": {
+        "file": "LDHL-0713dfa8-original.png",
+        "crc32": "c6e486da",
+        "bmp_crc32": "0713dfa8",
+        "size": [
+          64,
+          16
+        ]
+      },
+      "existing_provenance": [
+        "assets/models/mega/donington-dynamic-props-generation.json"
+      ],
+      "output": {
+        "path": "assets/models/mega/textures/donington-dhl.webp",
+        "crc32": "9078e0b0",
+        "bytes": 3544,
+        "size": [
+          512,
+          128
+        ]
+      }
+    },
+    {
+      "name": "LREDCON",
+      "source": {
+        "file": "LREDCON-6c701962-original.png",
+        "crc32": "85c132ee",
+        "bmp_crc32": "6c701962",
+        "size": [
+          64,
+          64
+        ]
+      },
+      "existing_provenance": [
+        "assets/models/mega/donington-dynamic-props-generation.json"
+      ],
+      "output": {
+        "path": "assets/models/mega/textures/donington-cone-bands.webp",
+        "crc32": "e5fa1889",
+        "bytes": 11342,
+        "size": [
+          512,
+          512
+        ]
+      }
+    }
+  ],
+  "webp_quality": 80,
+  "max_texture_edge": 512,
+  "artwork_tool": "Built-in image_gen.imagegen; one call per material or flag phase, with separate source-guided corrections where documented.",
+  "source_policy": "Only TOCA 1.1a original images were used as game evidence; original PNGs and generated working drafts remain under build/. No original game media is added to assets."
+}

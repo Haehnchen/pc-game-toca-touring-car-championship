@@ -1,0 +1,104 @@
+{
+  "version": 1,
+  "policy": "New reference-based Donington gravel and grass/gravel transition artwork, opaque WebP80. Left grass/right gravel layout follows the original G&G UV mask. Original references unchanged; Main owns exact CRC32 replacement registration for GP/Short only.",
+  "processing": "Selected built-in Imagegen outputs copied into ignored build/ground-texture-pilot/artwork; full-image Lanczos downsample to128x128 and64x128, then Pillow WebP quality80 method6 alpha_quality100. No procedural replacement artwork or material compositing. The nearest-enlarged original is only an input layout reference.",
+  "sources": [
+    {
+      "id": "GRAVEL",
+      "file": "exec-83dc0d53-22eb-44fe-b030-64d0ce1d5e2d.png",
+      "size": [
+        1254,
+        1254
+      ],
+      "crc32": "0106a6f6",
+      "reference": {
+        "archive": "data/donlfree.bfp",
+        "archive_crc32": "46885a20",
+        "member": 1,
+        "member_name": "GROUND.C3D",
+        "member_crc32": "15e24c5f",
+        "material_slot": 10,
+        "material": "GRAVEL",
+        "bmp_crc32": "158c84e7",
+        "size": [
+          64,
+          64
+        ]
+      }
+    },
+    {
+      "id": "G&G",
+      "file": "exec-dd82c836-8dd4-404e-b878-fb8e22640551.png",
+      "size": [
+        887,
+        1774
+      ],
+      "crc32": "dc1dd958",
+      "reference": {
+        "archive": "data/donlfree.bfp",
+        "archive_crc32": "46885a20",
+        "member": 1,
+        "member_name": "GROUND.C3D",
+        "member_crc32": "15e24c5f",
+        "material_slot": 7,
+        "material": "G&G",
+        "bmp_crc32": "e1616322",
+        "size": [
+          32,
+          64
+        ]
+      }
+    }
+  ],
+  "outputs": [
+    {
+      "image": "textures/ground-donington-gravel.webp",
+      "source": "GRAVEL",
+      "crop": [
+        1254,
+        1254,
+        0,
+        0
+      ],
+      "size": [
+        128,
+        128
+      ],
+      "alpha": "opaque",
+      "webp_quality": 80,
+      "method": 6,
+      "crc32": "828ff206",
+      "bytes": 4462,
+      "mean_rgb": [
+        131.757,
+        91.327,
+        51.095
+      ]
+    },
+    {
+      "image": "textures/ground-donington-gravel-transition.webp",
+      "source": "G&G",
+      "crop": [
+        887,
+        1774,
+        0,
+        0
+      ],
+      "size": [
+        64,
+        128
+      ],
+      "alpha": "opaque",
+      "webp_quality": 80,
+      "method": 6,
+      "crc32": "ceccf6f0",
+      "bytes": 1642,
+      "mean_rgb": [
+        113.461,
+        96.182,
+        31.613
+      ]
+    }
+  ],
+  "webp_quality": 80
+}

@@ -1,0 +1,284 @@
+{
+  "version": 1,
+  "package": "T09",
+  "source": {
+    "archive": "data/donlfree.bfp",
+    "archive_crc32": "46885a20",
+    "member": 5,
+    "member_crc32": "5f670bb9",
+    "mesh": "DA12SPTF_1",
+    "mesh_crc32": "990a1917",
+    "vertices": 112,
+    "triangles": 76
+  },
+  "shared_consumers": [
+    {
+      "track": 0,
+      "member": 5,
+      "mesh": 2,
+      "node": 5,
+      "root": 4
+    },
+    {
+      "track": 5,
+      "member": 5,
+      "mesh": 2,
+      "node": 5,
+      "root": 4
+    },
+    {
+      "track": 0,
+      "member": 6,
+      "mesh": 53,
+      "node": 289,
+      "root": 288
+    },
+    {
+      "track": 5,
+      "member": 6,
+      "mesh": 48,
+      "node": 253,
+      "root": 252
+    }
+  ],
+  "outputs": [
+    {
+      "name": "DA12SPT6",
+      "source_bmp_crc32": "1f449e9a",
+      "source_size": [
+        32,
+        32
+      ],
+      "source_slot": 5,
+      "triangles": 2,
+      "source_uv_fixed": {
+        "u": [
+          0,
+          65536
+        ],
+        "v": [
+          -65535,
+          1
+        ]
+      },
+      "generator_file": "exec-eecd0952-de64-442e-b4e7-cbe054efbb13.png",
+      "generator_crc32": "967e8d66",
+      "crop": [
+        0,
+        0,
+        1254,
+        1254
+      ],
+      "processing": "Only remove specified white presentation padding for SPT1 when present, resize whole original-aspect tile with Lanczos; preserve generatedalpha for SPT5/6; keep SPT1/2/4 fullyopaque; WebPquality80 method6. No source RGB or raster masks copied.",
+      "image": "textures/donington-static-da12spt6.webp",
+      "size": [
+        512,
+        512
+      ],
+      "crc32": "6261fb1d",
+      "bytes": 17132,
+      "alpha": [
+        0,
+        255
+      ],
+      "source_slots": {
+        "gp_high": 5,
+        "short_high": 5,
+        "gp_low": 110,
+        "short_low": 98
+      }
+    },
+    {
+      "name": "DA12SPT2",
+      "source_bmp_crc32": "29561385",
+      "source_size": [
+        64,
+        64
+      ],
+      "source_slot": 6,
+      "triangles": 12,
+      "source_uv_fixed": {
+        "u": [
+          0,
+          65536
+        ],
+        "v": [
+          -65535,
+          -2113
+        ]
+      },
+      "generator_file": "exec-8eccd8f0-f04e-4088-a35e-3eb68083c9fb.png",
+      "generator_crc32": "b380e31f",
+      "crop": [
+        0,
+        0,
+        1254,
+        1254
+      ],
+      "processing": "Only remove specified white presentation padding for SPT1 when present, resize whole original-aspect tile with Lanczos; preserve generatedalpha for SPT5/6; keep SPT1/2/4 fullyopaque; WebPquality80 method6. No source RGB or raster masks copied.",
+      "image": "textures/donington-static-da12spt2.webp",
+      "size": [
+        512,
+        512
+      ],
+      "crc32": "b79ee0d2",
+      "bytes": 8284,
+      "alpha": [
+        255,
+        255
+      ],
+      "source_slots": {
+        "gp_high": 6,
+        "short_high": 6,
+        "gp_low": 111,
+        "short_low": 99
+      }
+    },
+    {
+      "name": "DA12SPT1",
+      "source_bmp_crc32": "6b84330e",
+      "source_size": [
+        128,
+        32
+      ],
+      "source_slot": 7,
+      "triangles": 39,
+      "source_uv_fixed": {
+        "u": [
+          0,
+          65536
+        ],
+        "v": [
+          -61306,
+          1
+        ]
+      },
+      "generator_file": "exec-d9c11965-f3b6-447c-ab34-a2cd0a752268.png",
+      "generator_crc32": "3bab3aee",
+      "crop": [
+        0,
+        90,
+        2172,
+        634
+      ],
+      "processing": "Only remove specified white presentation padding for SPT1 when present, resize whole original-aspect tile with Lanczos; preserve generatedalpha for SPT5/6; keep SPT1/2/4 fullyopaque; WebPquality80 method6. No source RGB or raster masks copied.",
+      "image": "textures/donington-static-da12spt1.webp",
+      "size": [
+        512,
+        128
+      ],
+      "crc32": "00827007",
+      "bytes": 4618,
+      "alpha": [
+        255,
+        255
+      ],
+      "source_slots": {
+        "gp_high": 7,
+        "short_high": 7,
+        "gp_low": 112,
+        "short_low": 100
+      }
+    },
+    {
+      "name": "DA12SPT4",
+      "source_bmp_crc32": "ac3d8b84",
+      "source_size": [
+        16,
+        32
+      ],
+      "source_slot": 8,
+      "triangles": 19,
+      "source_uv_fixed": {
+        "u": [
+          0,
+          65536
+        ],
+        "v": [
+          -65535,
+          1
+        ]
+      },
+      "generator_file": "exec-632a0215-aa9f-4e82-9709-01d4d07ed5ae.png",
+      "generator_crc32": "8b8211ae",
+      "crop": [
+        0,
+        0,
+        887,
+        1774
+      ],
+      "processing": "Only remove specified white presentation padding for SPT1 when present, resize whole original-aspect tile with Lanczos; preserve generatedalpha for SPT5/6; keep SPT1/2/4 fullyopaque; WebPquality80 method6. No source RGB or raster masks copied.",
+      "image": "textures/donington-static-da12spt4.webp",
+      "size": [
+        256,
+        512
+      ],
+      "crc32": "2e06dfaf",
+      "bytes": 3786,
+      "alpha": [
+        255,
+        255
+      ],
+      "source_slots": {
+        "gp_high": 8,
+        "short_high": 8,
+        "gp_low": 113,
+        "short_low": 101
+      }
+    },
+    {
+      "name": "DA12SPT5",
+      "source_bmp_crc32": "12220fd2",
+      "source_size": [
+        32,
+        32
+      ],
+      "source_slot": 9,
+      "triangles": 4,
+      "source_uv_fixed": {
+        "u": [
+          0,
+          65536
+        ],
+        "v": [
+          -65535,
+          -2113
+        ]
+      },
+      "generator_file": "exec-3142e555-68f2-44f5-b89f-bbe96c94ff43.png",
+      "generator_crc32": "e4db4ddc",
+      "crop": [
+        0,
+        0,
+        1254,
+        1254
+      ],
+      "processing": "Only remove specified white presentation padding for SPT1 when present, resize whole original-aspect tile with Lanczos; preserve generatedalpha for SPT5/6; keep SPT1/2/4 fullyopaque; WebPquality80 method6. No source RGB or raster masks copied.",
+      "image": "textures/donington-static-da12spt5.webp",
+      "size": [
+        512,
+        512
+      ],
+      "crc32": "92126a57",
+      "bytes": 14110,
+      "alpha": [
+        0,
+        255
+      ],
+      "source_slots": {
+        "gp_high": 9,
+        "short_high": 9,
+        "gp_low": 114,
+        "short_low": 102
+      }
+    }
+  ],
+  "scope": "Static Donington GP/Short vehicle: new source-faithful artwork on the original simple3D model; completed HOR actors remain separate.",
+  "source_shape": {
+    "vertices": 112,
+    "triangles": 76,
+    "type": "e8a3b83b",
+    "contract": "Retain original ordered positions/normals/UVs/face slots, all local nodes/root transforms and static registrations. No actor, collision, route or original detail0-3 change.",
+    "static_exception": "Scenery placement rather than a selectable Car actor: no steering, wheel animation or damage variants. Original dimensions/presentation retained."
+  }
+}

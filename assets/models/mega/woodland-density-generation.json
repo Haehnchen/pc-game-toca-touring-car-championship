@@ -1,0 +1,302 @@
+{
+  "version": 1,
+  "scope": "M02b shared LLRTS1/2 canopy density correction; geometry unchanged",
+  "webp_quality": 80,
+  "processing": "Crop only transparent canvas margins/straight base, resize to512x128, WebP80 method6/alpha-quality100. Preserve generated alpha; no copied source pixels or masks.",
+  "sources": [
+    {
+      "id": "llrts1",
+      "file": "llrts1-generated-v1.png",
+      "crc32": "cfe33a90",
+      "size": [
+        2164,
+        727
+      ]
+    },
+    {
+      "id": "llrts2",
+      "file": "llrts2-generated-v1.png",
+      "crc32": "3ac37873",
+      "size": [
+        2172,
+        724
+      ]
+    }
+  ],
+  "outputs": [
+    {
+      "source": "llrts1",
+      "image": "textures/hedge-a.webp",
+      "crop": [
+        2164,
+        617,
+        0,
+        110
+      ],
+      "size": [
+        512,
+        128
+      ],
+      "alpha": "preserve",
+      "crc32": "853b596e",
+      "bytes": 22724
+    },
+    {
+      "source": "llrts2",
+      "image": "textures/hedge-b.webp",
+      "crop": [
+        2172,
+        502,
+        0,
+        138
+      ],
+      "size": [
+        512,
+        128
+      ],
+      "alpha": "preserve",
+      "crc32": "d16909b2",
+      "bytes": 24168
+    }
+  ],
+  "canonical_sources": [
+    {
+      "name": "LLRTS2",
+      "bmp_crc32": "d546b0c4",
+      "size": [
+        128,
+        32
+      ],
+      "palette_crc32": "a48fd582",
+      "pixel_indices_crc32": "806f347b",
+      "alpha_crc32": "4c90e00c",
+      "opaque_fraction": 0.82006836,
+      "png_crc32": "1636d4af",
+      "bindings": [
+        {
+          "track": 0,
+          "archive": "data/donlfree.bfp",
+          "archive_crc32": "46885a20",
+          "member": 2,
+          "member_crc32": "0e4e8cd8",
+          "material_slot": 0
+        },
+        {
+          "track": 5,
+          "archive": "data/donsfree.bfp",
+          "archive_crc32": "f07db8b7",
+          "member": 2,
+          "member_crc32": "0e4e8cd8",
+          "material_slot": 0
+        }
+      ]
+    },
+    {
+      "name": "LLRTS1",
+      "bmp_crc32": "075bd9c8",
+      "size": [
+        128,
+        32
+      ],
+      "palette_crc32": "6e1761ee",
+      "pixel_indices_crc32": "eead18c4",
+      "alpha_crc32": "f6c88b91",
+      "opaque_fraction": 0.87890625,
+      "png_crc32": "46758015",
+      "bindings": [
+        {
+          "track": 1,
+          "archive": "data/silvfree.bfp",
+          "archive_crc32": "960a335c",
+          "member": 2,
+          "member_crc32": "6b65e4c4",
+          "material_slot": 0
+        }
+      ]
+    },
+    {
+      "name": "LLRTS1",
+      "bmp_crc32": "b202f15b",
+      "size": [
+        128,
+        32
+      ],
+      "palette_crc32": "cb877547",
+      "pixel_indices_crc32": "4b6eea5e",
+      "alpha_crc32": "a3315eb3",
+      "opaque_fraction": 0.83618164,
+      "png_crc32": "33b58562",
+      "bindings": [
+        {
+          "track": 2,
+          "archive": "data/thrufree.bfp",
+          "archive_crc32": "473c8fe8",
+          "member": 2,
+          "member_crc32": "fc00e5ad",
+          "material_slot": 0
+        }
+      ]
+    },
+    {
+      "name": "LLRTS2",
+      "bmp_crc32": "c1dee425",
+      "size": [
+        128,
+        32
+      ],
+      "palette_crc32": "cb877547",
+      "pixel_indices_crc32": "87c20dd5",
+      "alpha_crc32": "81f76592",
+      "opaque_fraction": 0.82617188,
+      "png_crc32": "ef6d7e5f",
+      "bindings": [
+        {
+          "track": 2,
+          "archive": "data/thrufree.bfp",
+          "archive_crc32": "473c8fe8",
+          "member": 2,
+          "member_crc32": "fc00e5ad",
+          "material_slot": 1
+        }
+      ]
+    },
+    {
+      "name": "LLRTS1",
+      "bmp_crc32": "c2bf9d3b",
+      "size": [
+        128,
+        32
+      ],
+      "palette_crc32": "4f1deb08",
+      "pixel_indices_crc32": "96307b3a",
+      "alpha_crc32": "1de09bf9",
+      "opaque_fraction": 0.8503418,
+      "png_crc32": "79b61d96",
+      "bindings": [
+        {
+          "track": 3,
+          "archive": "data/branfree.bfp",
+          "archive_crc32": "ecc577c7",
+          "member": 2,
+          "member_crc32": "55003579",
+          "material_slot": 0
+        }
+      ]
+    },
+    {
+      "name": "LLRTS2",
+      "bmp_crc32": "bec80580",
+      "size": [
+        128,
+        32
+      ],
+      "palette_crc32": "4f1deb08",
+      "pixel_indices_crc32": "f6b233b0",
+      "alpha_crc32": "0d26b140",
+      "opaque_fraction": 0.83154297,
+      "png_crc32": "7fcd535c",
+      "bindings": [
+        {
+          "track": 3,
+          "archive": "data/branfree.bfp",
+          "archive_crc32": "ecc577c7",
+          "member": 2,
+          "member_crc32": "55003579",
+          "material_slot": 1
+        }
+      ]
+    },
+    {
+      "name": "LLRTS1",
+      "bmp_crc32": "6f02e8d1",
+      "size": [
+        256,
+        64
+      ],
+      "palette_crc32": "cbb9f913",
+      "pixel_indices_crc32": "3db643c6",
+      "alpha_crc32": "1e7d519f",
+      "opaque_fraction": 0.83624268,
+      "png_crc32": "a29cd496",
+      "bindings": [
+        {
+          "track": 4,
+          "archive": "data/oultfree.bfp",
+          "archive_crc32": "e6e258cb",
+          "member": 2,
+          "member_crc32": "cf058247",
+          "material_slot": 0
+        }
+      ]
+    },
+    {
+      "name": "LLRTS2",
+      "bmp_crc32": "95df9a74",
+      "size": [
+        256,
+        64
+      ],
+      "palette_crc32": "cbb9f913",
+      "pixel_indices_crc32": "d3aa9000",
+      "alpha_crc32": "c0dd7818",
+      "opaque_fraction": 0.82391357,
+      "png_crc32": "40284622",
+      "bindings": [
+        {
+          "track": 4,
+          "archive": "data/oultfree.bfp",
+          "archive_crc32": "e6e258cb",
+          "member": 2,
+          "member_crc32": "cf058247",
+          "material_slot": 1
+        }
+      ]
+    },
+    {
+      "name": "LLRTS1",
+      "bmp_crc32": "7d89443a",
+      "size": [
+        128,
+        32
+      ],
+      "palette_crc32": "27d959fb",
+      "pixel_indices_crc32": "5add4d26",
+      "alpha_crc32": "a3315eb3",
+      "opaque_fraction": 0.83618164,
+      "png_crc32": "e9324c01",
+      "bindings": [
+        {
+          "track": 6,
+          "archive": "data/croffree.bfp",
+          "archive_crc32": "e4399113",
+          "member": 2,
+          "member_crc32": "ae8126bd",
+          "material_slot": 0
+        }
+      ]
+    },
+    {
+      "name": "LLRTS1",
+      "bmp_crc32": "4bdfc08a",
+      "size": [
+        128,
+        32
+      ],
+      "palette_crc32": "ae1f1c68",
+      "pixel_indices_crc32": "5d2777eb",
+      "alpha_crc32": "c04d3415",
+      "opaque_fraction": 0.85107422,
+      "png_crc32": "8b9c6731",
+      "bindings": [
+        {
+          "track": 8,
+          "archive": "data/snetfree.bfp",
+          "archive_crc32": "4111866a",
+          "member": 2,
+          "member_crc32": "362bcf3f",
+          "material_slot": 0
+        }
+      ]
+    }
+  ]
+}

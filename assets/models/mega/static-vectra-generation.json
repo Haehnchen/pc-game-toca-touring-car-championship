@@ -1,0 +1,2461 @@
+{
+  "version": 1,
+  "package": "T01",
+  "scope": "Static white Vectra-advertising box truck LVECTRA_1, Brands Hatch/Croft/Knockhill/Snetterton. Six source motif roles,22 BMP identities,21 authored images. No ALLCARS vehicle livery substitution.",
+  "source_family": {
+    "source_version": "TOCA 1.1a",
+    "uv_role_faces": {
+      "LVECTR1": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "LVECTR2": [
+        4,
+        5,
+        6,
+        7
+      ],
+      "LVECTR3": [
+        8,
+        9
+      ],
+      "LVECTR4": [
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24
+      ],
+      "LVECTR5": [
+        25,
+        26,
+        27,
+        28
+      ],
+      "LVOLVO4": [
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        39,
+        40,
+        41,
+        42
+      ]
+    },
+    "uv_orientation": "LVECTR2 U0 is long box rear end localY10.64; U1 is cab end localY-1.977. Preserve printed/photo wheel placement near cab; do not mirror advertisement."
+  },
+  "artwork_contract": {
+    "motifs": "White/blue truck, exactly one printed yellow road-going Vectra,3 stackedVECTRA words,red Vauxhall roundel+VAUXHALL,Mobil1,plain unlettered yellow underline. Quiet unbranded body skins and original gold lower trim.",
+    "alpha": "Exact canonical RGB-black-key alpha normalized1:1 and nearest-scaled to output; source-white opaque. Newly source-opaque generator gaps receive valid generated RGB continuation and source dark ink protection.",
+    "flat_sampler": "LVOLVO4 original pixel30,16 → C3DUV(.953125,-.484375) → imageUV(.953125,.515625). SourceRGBA16,24,41,255 exceptSnet16,16,66,255; final decoded bilinear footprints per output.",
+    "basis_freeze": "All6 Brands bases actually supplied to the15 local variant calls are preserved under ignored artwork/*-basis-at-variant-call.webp. Actual input paths and then-current CRCs remain in each call record. Final hub/grille changes are separate registration/correction stages."
+  },
+  "outputs": [
+    {
+      "name": "LVECTR1",
+      "source_bmp_crc32": "427fcff4",
+      "source_size": [
+        32,
+        64
+      ],
+      "image": "textures/static-vectra-brands-lvectr1.webp",
+      "crc32": "c7f9ef49",
+      "bytes": 8586,
+      "size": [
+        256,
+        512
+      ],
+      "trackslug": "brands",
+      "source_tracks": [
+        3
+      ],
+      "encoding": {
+        "format": "WebP",
+        "quality": 80,
+        "method": 6,
+        "alpha": "lossless exact source RGB-black-key alpha nearest scaled; white opaque"
+      },
+      "registration": {
+        "crop": [
+          0,
+          0,
+          887,
+          1774
+        ],
+        "resample": "bilinear premultiplied RGB/alpha",
+        "paint_palette_calibration": {
+          "normalized_roi": [
+            0.05,
+            0.32,
+            0.35,
+            0.62
+          ],
+          "source_median": [
+            148.0,
+            173.0,
+            198.0
+          ],
+          "generated_median": [
+            167.0,
+            198.0,
+            234.0
+          ],
+          "channel_ratio": [
+            0.8862275449101796,
+            0.8737373737373737,
+            0.8461538461538461
+          ]
+        },
+        "upper_quiet_field_continuation": {
+          "pixels": 18531,
+          "rgb": [
+            214,
+            214,
+            231
+          ],
+          "reason": "generator cut the original opaque pale field above the cab fairing; restore its flat source palette without hidden RGB streaks"
+        },
+        "native_dark_rgb_continuation": {
+          "pixels": 88,
+          "rgb": [
+            8,
+            8,
+            8
+          ],
+          "reason": "source near-black ink stays opaque/dark in newly source-opaque generator gaps; no exposed pale hidden RGB"
+        },
+        "newly_source_opaque_rgb_continuation_pixels": 18743,
+        "method": "local premultiplied generated-RGB box-average continuation at increasing radii; Gaussian3 only on missing RGB; no original pixel artwork copied"
+      },
+      "generation": {
+        "generator_path": "exec-6277e24b-0e6b-494d-a01c-a9c8d0c17ba1.png",
+        "generator_crc32": "de67a1e0",
+        "generator_size": [
+          887,
+          1774
+        ]
+      }
+    },
+    {
+      "name": "LVECTR2",
+      "source_bmp_crc32": "0e9c5016",
+      "source_size": [
+        128,
+        32
+      ],
+      "image": "textures/static-vectra-brands-lvectr2.webp",
+      "crc32": "a2ec06a9",
+      "bytes": 10888,
+      "size": [
+        512,
+        128
+      ],
+      "trackslug": "brands",
+      "source_tracks": [
+        3
+      ],
+      "encoding": {
+        "format": "WebP",
+        "quality": 80,
+        "method": 6,
+        "alpha": "lossless exact source RGB-black-key alpha nearest scaled; white opaque"
+      },
+      "registration": {
+        "crop": [
+          0,
+          146,
+          2172,
+          644
+        ],
+        "resample": "bilinear premultiplied RGB/alpha",
+        "paint_palette_calibration": {
+          "normalized_roi": [
+            0.06,
+            0.71,
+            0.5,
+            0.78
+          ],
+          "source_median": [
+            181.0,
+            198.0,
+            214.0
+          ],
+          "generated_median": [
+            201.0,
+            216.0,
+            235.0
+          ],
+          "channel_ratio": [
+            0.900497512437811,
+            0.9166666666666666,
+            0.9106382978723404
+          ]
+        },
+        "native_dark_rgb_continuation": {
+          "pixels": 110,
+          "rgb": [
+            8,
+            8,
+            8
+          ],
+          "reason": "source near-black ink stays opaque/dark in newly source-opaque generator gaps; no exposed pale hidden RGB"
+        },
+        "final_photo_wheel_hub_registration": {
+          "source_image_uv": [
+            0.8828125,
+            0.875
+          ],
+          "source_pixel_anchor": [
+            113,
+            28
+          ],
+          "measured_fresh_rim_centroid_pixels": [
+            455.8814432989691,
+            112.36082474226804
+          ],
+          "target_rim_center_pixels": [
+            451.5,
+            111.5
+          ],
+          "rgb_translation_pixels": [
+            -4.381443298969089,
+            -0.8608247422680364
+          ],
+          "scope": "lower photo wheel/footer only; native alpha, copy and upper car motif unchanged",
+          "basis": "canonical isolated photo tire x108..117/y23..31, pale rim x110..115/y25..29; initial key-bay anchor superseded",
+          "decoded_rim_grayscale_centroid_pixels": [
+            451.9312169312169,
+            111.91005291005291
+          ]
+        },
+        "newly_source_opaque_rgb_continuation_pixels": 673,
+        "method": "local premultiplied generated-RGB box-average continuation at increasing radii; Gaussian3 only on missing RGB; no original pixel artwork copied",
+        "initial_footer_registration": {
+          "scope": "bottom footer/wheel only; advertising upper78% unchanged",
+          "note": "initial key-bay anchor discarded; final canonical photo hub113/28 below is authoritative"
+        }
+      },
+      "generation": {
+        "generator_path": "exec-f2f1aa07-e3a8-4832-a33e-3b6eed84b7d4.png",
+        "generator_crc32": "e8a1b910",
+        "generator_size": [
+          2172,
+          724
+        ]
+      }
+    },
+    {
+      "name": "LVECTR3",
+      "source_bmp_crc32": "43276baa",
+      "source_size": [
+        64,
+        32
+      ],
+      "image": "textures/static-vectra-brands-lvectr3.webp",
+      "crc32": "e32bf043",
+      "bytes": 1574,
+      "size": [
+        512,
+        256
+      ],
+      "trackslug": "brands",
+      "source_tracks": [
+        3,
+        6
+      ],
+      "encoding": {
+        "format": "WebP",
+        "quality": 80,
+        "method": 6,
+        "alpha": "lossless exact source RGB-black-key alpha nearest scaled; white opaque"
+      },
+      "registration": {
+        "crop": [
+          0,
+          0,
+          1774,
+          887
+        ],
+        "resample": "bilinear premultiplied RGB/alpha",
+        "gold_band_registration": {
+          "generated": [
+            0.8996617812852311,
+            0.9605411499436303
+          ],
+          "source": [
+            0.90625,
+            0.96875
+          ]
+        },
+        "paint_palette_calibration": {
+          "normalized_roi": [
+            0.1,
+            0.1,
+            0.85,
+            0.85
+          ],
+          "source_median": [
+            181.0,
+            198.0,
+            206.0
+          ],
+          "generated_median": [
+            184.0,
+            202.0,
+            226.0
+          ],
+          "channel_ratio": [
+            0.9836956521739131,
+            0.9801980198019802,
+            0.911504424778761
+          ]
+        },
+        "native_dark_rgb_continuation": {
+          "pixels": 0,
+          "rgb": [
+            8,
+            8,
+            8
+          ],
+          "reason": "source near-black ink stays opaque/dark in newly source-opaque generator gaps; no exposed pale hidden RGB"
+        },
+        "newly_source_opaque_rgb_continuation_pixels": 0,
+        "method": "local premultiplied generated-RGB box-average continuation at increasing radii; Gaussian3 only on missing RGB; no original pixel artwork copied"
+      },
+      "generation": {
+        "generator_path": "exec-36d6f312-2068-4f89-92ce-feeaad371462.png",
+        "generator_crc32": "6c00c717",
+        "generator_size": [
+          1774,
+          887
+        ]
+      }
+    },
+    {
+      "name": "LVECTR4",
+      "source_bmp_crc32": "88895cee",
+      "source_size": [
+        32,
+        32
+      ],
+      "image": "textures/static-vectra-brands-lvectr4.webp",
+      "crc32": "4ae1ce11",
+      "bytes": 2116,
+      "size": [
+        512,
+        512
+      ],
+      "trackslug": "brands",
+      "source_tracks": [
+        3,
+        6
+      ],
+      "encoding": {
+        "format": "WebP",
+        "quality": 80,
+        "method": 6,
+        "alpha": "lossless exact source RGB-black-key alpha nearest scaled; white opaque"
+      },
+      "registration": {
+        "crop": [
+          0,
+          0,
+          1254,
+          1254
+        ],
+        "resample": "bilinear premultiplied RGB/alpha",
+        "gold_band_registration": {
+          "generated": [
+            0.9059011164274322,
+            0.967304625199362
+          ],
+          "source": [
+            0.90625,
+            0.96875
+          ]
+        },
+        "paint_palette_calibration": {
+          "normalized_roi": [
+            0.1,
+            0.1,
+            0.85,
+            0.85
+          ],
+          "source_median": [
+            181.0,
+            198.0,
+            214.0
+          ],
+          "generated_median": [
+            181.0,
+            205.0,
+            232.0
+          ],
+          "channel_ratio": [
+            1.0,
+            0.9658536585365853,
+            0.9224137931034483
+          ]
+        },
+        "native_dark_rgb_continuation": {
+          "pixels": 0,
+          "rgb": [
+            8,
+            8,
+            8
+          ],
+          "reason": "source near-black ink stays opaque/dark in newly source-opaque generator gaps; no exposed pale hidden RGB"
+        },
+        "newly_source_opaque_rgb_continuation_pixels": 0,
+        "method": "local premultiplied generated-RGB box-average continuation at increasing radii; Gaussian3 only on missing RGB; no original pixel artwork copied"
+      },
+      "generation": {
+        "generator_path": "exec-5fd76f5f-dc00-47a6-a253-b0bb6e5c8fe8.png",
+        "generator_crc32": "2c091a10",
+        "generator_size": [
+          1254,
+          1254
+        ]
+      }
+    },
+    {
+      "name": "LVECTR5",
+      "source_bmp_crc32": "192c5939",
+      "source_size": [
+        64,
+        64
+      ],
+      "image": "textures/static-vectra-brands-lvectr5.webp",
+      "crc32": "ff5dc889",
+      "bytes": 12966,
+      "size": [
+        512,
+        512
+      ],
+      "trackslug": "brands",
+      "source_tracks": [
+        3
+      ],
+      "encoding": {
+        "format": "WebP",
+        "quality": 80,
+        "method": 6,
+        "alpha": "lossless exact source RGB-black-key alpha nearest scaled; white opaque"
+      },
+      "registration": {
+        "crop": [
+          0,
+          0,
+          1254,
+          1254
+        ],
+        "resample": "bilinear premultiplied RGB/alpha",
+        "paint_palette_calibration": {
+          "normalized_roi": [
+            0.2,
+            0.05,
+            0.8,
+            0.13
+          ],
+          "source_median": [
+            214.0,
+            214.0,
+            231.0
+          ],
+          "generated_median": [
+            197.0,
+            213.0,
+            236.0
+          ],
+          "channel_ratio": [
+            1.0862944162436547,
+            1.0046948356807512,
+            0.9788135593220338
+          ]
+        },
+        "native_dark_rgb_continuation": {
+          "pixels": 485,
+          "rgb": [
+            8,
+            8,
+            8
+          ],
+          "reason": "source near-black ink stays opaque/dark in newly source-opaque generator gaps; no exposed pale hidden RGB"
+        },
+        "newly_source_opaque_rgb_continuation_pixels": 4176,
+        "method": "local premultiplied generated-RGB box-average continuation at increasing radii; Gaussian3 only on missing RGB; no original pixel artwork copied",
+        "localized_corrective_composite": {
+          "normalized_roi": [
+            0.3,
+            0.64,
+            0.72,
+            0.79
+          ],
+          "feather_output_pixels": 4,
+          "preserve": "all first-artwork RGB outside ROI; exact source alpha everywhere",
+          "encoding": "final composed unencoded RGBA → single WebP80 encode; no whole-image second lossy input"
+        }
+      },
+      "generation": {}
+    },
+    {
+      "name": "LVOLVO4",
+      "source_bmp_crc32": "53d3be16",
+      "source_size": [
+        32,
+        32
+      ],
+      "image": "textures/static-vectra-brands-lvolvo4.webp",
+      "crc32": "da91be78",
+      "bytes": 882,
+      "size": [
+        512,
+        512
+      ],
+      "trackslug": "brands",
+      "source_tracks": [
+        3
+      ],
+      "encoding": {
+        "format": "WebP",
+        "quality": 80,
+        "method": 6,
+        "alpha": "lossless exact source RGB-black-key alpha nearest scaled; white opaque"
+      },
+      "registration": {
+        "crop": [
+          0,
+          0,
+          1254,
+          1254
+        ],
+        "resample": "bilinear premultiplied RGB/alpha",
+        "flat_source_palette_guard": {
+          "color": [
+            16,
+            24,
+            41
+          ],
+          "scope": "whole original flat opaque strip domain, also source pixel30,16 sampler"
+        },
+        "native_dark_rgb_continuation": {
+          "pixels": 0,
+          "rgb": [
+            8,
+            8,
+            8
+          ],
+          "reason": "source near-black ink stays opaque/dark in newly source-opaque generator gaps; no exposed pale hidden RGB"
+        },
+        "newly_source_opaque_rgb_continuation_pixels": 49152,
+        "method": "local premultiplied generated-RGB box-average continuation at increasing radii; Gaussian3 only on missing RGB; no original pixel artwork copied"
+      },
+      "generation": {
+        "generator_path": "exec-a1d03ab1-01f6-4a16-9571-5eb74da619d6.png",
+        "generator_crc32": "bb82a29d",
+        "generator_size": [
+          1254,
+          1254
+        ]
+      },
+      "constant_sampler": {
+        "source_pixel": [
+          30,
+          16
+        ],
+        "c3d_uv": [
+          0.953125,
+          -0.484375
+        ],
+        "image_uv": [
+          0.953125,
+          0.515625
+        ],
+        "source_rgba": [
+          16,
+          24,
+          41,
+          255
+        ],
+        "decoded_bilinear_rgba": [
+          15.0,
+          24.0,
+          41.0,
+          255.0
+        ],
+        "decoded_footprint": [
+          {
+            "pixel": [
+              487,
+              263
+            ],
+            "rgba": [
+              15,
+              24,
+              41,
+              255
+            ]
+          },
+          {
+            "pixel": [
+              488,
+              263
+            ],
+            "rgba": [
+              15,
+              24,
+              41,
+              255
+            ]
+          },
+          {
+            "pixel": [
+              487,
+              264
+            ],
+            "rgba": [
+              15,
+              24,
+              41,
+              255
+            ]
+          },
+          {
+            "pixel": [
+              488,
+              264
+            ],
+            "rgba": [
+              15,
+              24,
+              41,
+              255
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "LVECTR1",
+      "source_bmp_crc32": "4efc5c5d",
+      "source_size": [
+        32,
+        64
+      ],
+      "image": "textures/static-vectra-croft-lvectr1.webp",
+      "crc32": "13528eb0",
+      "bytes": 9084,
+      "size": [
+        256,
+        512
+      ],
+      "trackslug": "croft",
+      "source_tracks": [
+        6
+      ],
+      "encoding": {
+        "format": "WebP",
+        "quality": 80,
+        "method": 6,
+        "alpha": "lossless exact source RGB-black-key alpha nearest scaled; white opaque"
+      },
+      "registration": {
+        "crop": [
+          0,
+          0,
+          887,
+          1774
+        ],
+        "resample": "bilinear premultiplied RGB/alpha",
+        "paint_palette_calibration": {
+          "normalized_roi": [
+            0.05,
+            0.32,
+            0.35,
+            0.62
+          ],
+          "source_median": [
+            148.0,
+            173.0,
+            198.0
+          ],
+          "generated_median": [
+            146.0,
+            180.0,
+            219.0
+          ],
+          "channel_ratio": [
+            1.0136986301369864,
+            0.9611111111111111,
+            0.9041095890410958
+          ]
+        },
+        "upper_quiet_field_continuation": {
+          "pixels": 18599,
+          "rgb": [
+            214,
+            214,
+            231
+          ],
+          "reason": "generator cut the original opaque pale field above the cab fairing; restore its flat source palette without hidden RGB streaks"
+        },
+        "native_dark_rgb_continuation": {
+          "pixels": 53,
+          "rgb": [
+            8,
+            8,
+            8
+          ],
+          "reason": "source near-black ink stays opaque/dark in newly source-opaque generator gaps; no exposed pale hidden RGB"
+        },
+        "newly_source_opaque_rgb_continuation_pixels": 18792,
+        "method": "local premultiplied generated-RGB box-average continuation at increasing radii; Gaussian3 only on missing RGB; no original pixel artwork copied"
+      },
+      "generation": {
+        "generator_path": "exec-7bcea02c-6215-4772-8476-3b8ffdf4f7df.png",
+        "generator_crc32": "dbdcb30a",
+        "generator_size": [
+          887,
+          1774
+        ]
+      }
+    },
+    {
+      "name": "LVECTR2",
+      "source_bmp_crc32": "999dbe94",
+      "source_size": [
+        128,
+        32
+      ],
+      "image": "textures/static-vectra-croft-lvectr2.webp",
+      "crc32": "98d33cc2",
+      "bytes": 10794,
+      "size": [
+        512,
+        128
+      ],
+      "trackslug": "croft",
+      "source_tracks": [
+        6
+      ],
+      "encoding": {
+        "format": "WebP",
+        "quality": 80,
+        "method": 6,
+        "alpha": "lossless exact source RGB-black-key alpha nearest scaled; white opaque"
+      },
+      "registration": {
+        "crop": [
+          0,
+          108,
+          2172,
+          659
+        ],
+        "resample": "bilinear premultiplied RGB/alpha",
+        "paint_palette_calibration": {
+          "normalized_roi": [
+            0.06,
+            0.71,
+            0.5,
+            0.78
+          ],
+          "source_median": [
+            181.0,
+            198.0,
+            214.0
+          ],
+          "generated_median": [
+            182.0,
+            205.0,
+            229.0
+          ],
+          "channel_ratio": [
+            0.9945054945054945,
+            0.9658536585365853,
+            0.9344978165938864
+          ]
+        },
+        "native_dark_rgb_continuation": {
+          "pixels": 1963,
+          "rgb": [
+            8,
+            8,
+            8
+          ],
+          "reason": "source near-black ink stays opaque/dark in newly source-opaque generator gaps; no exposed pale hidden RGB"
+        },
+        "final_photo_wheel_hub_registration": {
+          "source_image_uv": [
+            0.8828125,
+            0.875
+          ],
+          "source_pixel_anchor": [
+            113,
+            28
+          ],
+          "measured_fresh_rim_centroid_pixels": [
+            455.77560975609754,
+            111.8048780487805
+          ],
+          "target_rim_center_pixels": [
+            451.5,
+            111.5
+          ],
+          "rgb_translation_pixels": [
+            -4.275609756097538,
+            -0.30487804878049474
+          ],
+          "scope": "lower photo wheel/footer only; native alpha, copy and upper car motif unchanged",
+          "basis": "canonical isolated photo tire x108..117/y23..31, pale rim x110..115/y25..29; initial key-bay anchor superseded",
+          "decoded_rim_grayscale_centroid_pixels": [
+            451.52403846153845,
+            111.95192307692308
+          ]
+        },
+        "newly_source_opaque_rgb_continuation_pixels": 3945,
+        "method": "local premultiplied generated-RGB box-average continuation at increasing radii; Gaussian3 only on missing RGB; no original pixel artwork copied"
+      },
+      "generation": {
+        "generator_path": "exec-861983b0-1c10-44aa-b16f-4ca8facef376.png",
+        "generator_crc32": "a7e1d31c",
+        "generator_size": [
+          2172,
+          724
+        ]
+      }
+    },
+    {
+      "name": "LVECTR5",
+      "source_bmp_crc32": "cea8b391",
+      "source_size": [
+        64,
+        64
+      ],
+      "image": "textures/static-vectra-croft-lvectr5.webp",
+      "crc32": "a853143b",
+      "bytes": 14298,
+      "size": [
+        512,
+        512
+      ],
+      "trackslug": "croft",
+      "source_tracks": [
+        6
+      ],
+      "encoding": {
+        "format": "WebP",
+        "quality": 80,
+        "method": 6,
+        "alpha": "lossless exact source RGB-black-key alpha nearest scaled; white opaque"
+      },
+      "registration": {
+        "crop": [
+          0,
+          0,
+          1254,
+          1254
+        ],
+        "resample": "bilinear premultiplied RGB/alpha",
+        "paint_palette_calibration": {
+          "normalized_roi": [
+            0.2,
+            0.05,
+            0.8,
+            0.13
+          ],
+          "source_median": [
+            214.0,
+            214.0,
+            231.0
+          ],
+          "generated_median": [
+            195.0,
+            210.0,
+            233.0
+          ],
+          "channel_ratio": [
+            1.0974358974358975,
+            1.019047619047619,
+            0.9914163090128756
+          ]
+        },
+        "native_dark_rgb_continuation": {
+          "pixels": 0,
+          "rgb": [
+            8,
+            8,
+            8
+          ],
+          "reason": "source near-black ink stays opaque/dark in newly source-opaque generator gaps; no exposed pale hidden RGB"
+        },
+        "newly_source_opaque_rgb_continuation_pixels": 0,
+        "method": "local premultiplied generated-RGB box-average continuation at increasing radii; Gaussian3 only on missing RGB; no original pixel artwork copied",
+        "localized_corrective_composite": {
+          "normalized_roi": [
+            0.3,
+            0.64,
+            0.72,
+            0.79
+          ],
+          "feather_output_pixels": 4,
+          "preserve": "all first-artwork RGB outside ROI; exact source alpha everywhere",
+          "encoding": "final composed unencoded RGBA → single WebP80 encode; no whole-image second lossy input"
+        }
+      },
+      "generation": {}
+    },
+    {
+      "name": "LVOLVO4",
+      "source_bmp_crc32": "9267e144",
+      "source_size": [
+        32,
+        32
+      ],
+      "image": "textures/static-vectra-croft-knockhill-lvolvo4.webp",
+      "crc32": "91a03259",
+      "bytes": 840,
+      "size": [
+        512,
+        512
+      ],
+      "trackslug": "croft-knockhill",
+      "source_tracks": [
+        6,
+        7
+      ],
+      "encoding": {
+        "format": "WebP",
+        "quality": 80,
+        "method": 6,
+        "alpha": "lossless exact source RGB-black-key alpha nearest scaled; white opaque"
+      },
+      "registration": {
+        "crop": [
+          0,
+          0,
+          1254,
+          1254
+        ],
+        "resample": "bilinear premultiplied RGB/alpha",
+        "flat_source_palette_guard": {
+          "color": [
+            16,
+            24,
+            41
+          ],
+          "scope": "whole original flat opaque strip domain, also source pixel30,16 sampler"
+        },
+        "native_dark_rgb_continuation": {
+          "pixels": 0,
+          "rgb": [
+            8,
+            8,
+            8
+          ],
+          "reason": "source near-black ink stays opaque/dark in newly source-opaque generator gaps; no exposed pale hidden RGB"
+        },
+        "newly_source_opaque_rgb_continuation_pixels": 25604,
+        "method": "local premultiplied generated-RGB box-average continuation at increasing radii; Gaussian3 only on missing RGB; no original pixel artwork copied"
+      },
+      "generation": {
+        "generator_path": "exec-0c7953b8-c802-4e13-ac96-fa053b814fa4.png",
+        "generator_crc32": "03f156ec",
+        "generator_size": [
+          1254,
+          1254
+        ]
+      },
+      "source_bmp_crc32_aliases": [
+        "d27b6b01"
+      ],
+      "constant_sampler": {
+        "source_pixel": [
+          30,
+          16
+        ],
+        "c3d_uv": [
+          0.953125,
+          -0.484375
+        ],
+        "image_uv": [
+          0.953125,
+          0.515625
+        ],
+        "source_rgba": [
+          16,
+          24,
+          41,
+          255
+        ],
+        "decoded_bilinear_rgba": [
+          15.0,
+          24.0,
+          41.0,
+          255.0
+        ],
+        "decoded_footprint": [
+          {
+            "pixel": [
+              487,
+              263
+            ],
+            "rgba": [
+              15,
+              24,
+              41,
+              255
+            ]
+          },
+          {
+            "pixel": [
+              488,
+              263
+            ],
+            "rgba": [
+              15,
+              24,
+              41,
+              255
+            ]
+          },
+          {
+            "pixel": [
+              487,
+              264
+            ],
+            "rgba": [
+              15,
+              24,
+              41,
+              255
+            ]
+          },
+          {
+            "pixel": [
+              488,
+              264
+            ],
+            "rgba": [
+              15,
+              24,
+              41,
+              255
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "LVECTR1",
+      "source_bmp_crc32": "ed0bf6ae",
+      "source_size": [
+        32,
+        64
+      ],
+      "image": "textures/static-vectra-knockhill-lvectr1.webp",
+      "crc32": "abd83559",
+      "bytes": 9080,
+      "size": [
+        256,
+        512
+      ],
+      "trackslug": "knockhill",
+      "source_tracks": [
+        7
+      ],
+      "encoding": {
+        "format": "WebP",
+        "quality": 80,
+        "method": 6,
+        "alpha": "lossless exact source RGB-black-key alpha nearest scaled; white opaque"
+      },
+      "registration": {
+        "crop": [
+          0,
+          0,
+          887,
+          1774
+        ],
+        "resample": "bilinear premultiplied RGB/alpha",
+        "paint_palette_calibration": {
+          "normalized_roi": [
+            0.05,
+            0.32,
+            0.35,
+            0.62
+          ],
+          "source_median": [
+            165.0,
+            173.0,
+            198.0
+          ],
+          "generated_median": [
+            156.0,
+            187.0,
+            226.0
+          ],
+          "channel_ratio": [
+            1.0576923076923077,
+            0.9251336898395722,
+            0.8761061946902655
+          ]
+        },
+        "upper_quiet_field_continuation": {
+          "pixels": 18661,
+          "rgb": [
+            198,
+            214,
+            239
+          ],
+          "reason": "generator cut the original opaque pale field above the cab fairing; restore its flat source palette without hidden RGB streaks"
+        },
+        "native_dark_rgb_continuation": {
+          "pixels": 724,
+          "rgb": [
+            8,
+            8,
+            8
+          ],
+          "reason": "source near-black ink stays opaque/dark in newly source-opaque generator gaps; no exposed pale hidden RGB"
+        },
+        "newly_source_opaque_rgb_continuation_pixels": 19429,
+        "method": "local premultiplied generated-RGB box-average continuation at increasing radii; Gaussian3 only on missing RGB; no original pixel artwork copied"
+      },
+      "generation": {
+        "generator_path": "exec-504a1eee-2c22-43b0-86da-41881d392af0.png",
+        "generator_crc32": "240cb885",
+        "generator_size": [
+          887,
+          1774
+        ]
+      }
+    },
+    {
+      "name": "LVECTR2",
+      "source_bmp_crc32": "06e1367c",
+      "source_size": [
+        128,
+        32
+      ],
+      "image": "textures/static-vectra-knockhill-lvectr2.webp",
+      "crc32": "3bf1b2c2",
+      "bytes": 10916,
+      "size": [
+        512,
+        128
+      ],
+      "trackslug": "knockhill",
+      "source_tracks": [
+        7
+      ],
+      "encoding": {
+        "format": "WebP",
+        "quality": 80,
+        "method": 6,
+        "alpha": "lossless exact source RGB-black-key alpha nearest scaled; white opaque"
+      },
+      "registration": {
+        "crop": [
+          0,
+          86,
+          2172,
+          638
+        ],
+        "resample": "bilinear premultiplied RGB/alpha",
+        "paint_palette_calibration": {
+          "normalized_roi": [
+            0.06,
+            0.71,
+            0.5,
+            0.78
+          ],
+          "source_median": [
+            173.0,
+            198.0,
+            214.0
+          ],
+          "generated_median": [
+            188.0,
+            213.0,
+            233.0
+          ],
+          "channel_ratio": [
+            0.9202127659574468,
+            0.9295774647887324,
+            0.9184549356223176
+          ]
+        },
+        "native_dark_rgb_continuation": {
+          "pixels": 346,
+          "rgb": [
+            8,
+            8,
+            8
+          ],
+          "reason": "source near-black ink stays opaque/dark in newly source-opaque generator gaps; no exposed pale hidden RGB"
+        },
+        "final_photo_wheel_hub_registration": {
+          "source_image_uv": [
+            0.8828125,
+            0.875
+          ],
+          "source_pixel_anchor": [
+            113,
+            28
+          ],
+          "measured_fresh_rim_centroid_pixels": [
+            454.36614173228344,
+            112.05118110236221
+          ],
+          "target_rim_center_pixels": [
+            451.5,
+            111.5
+          ],
+          "rgb_translation_pixels": [
+            -2.866141732283438,
+            -0.5511811023622073
+          ],
+          "scope": "lower photo wheel/footer only; native alpha, copy and upper car motif unchanged",
+          "basis": "canonical isolated photo tire x108..117/y23..31, pale rim x110..115/y25..29; initial key-bay anchor superseded",
+          "decoded_rim_grayscale_centroid_pixels": [
+            451.66379310344826,
+            112.23275862068965
+          ]
+        },
+        "newly_source_opaque_rgb_continuation_pixels": 1548,
+        "method": "local premultiplied generated-RGB box-average continuation at increasing radii; Gaussian3 only on missing RGB; no original pixel artwork copied"
+      },
+      "generation": {
+        "generator_path": "exec-fe495649-cb35-4bbb-9208-f810432d6f25.png",
+        "generator_crc32": "f140d4f4",
+        "generator_size": [
+          2172,
+          724
+        ]
+      }
+    },
+    {
+      "name": "LVECTR3",
+      "source_bmp_crc32": "47f48b68",
+      "source_size": [
+        64,
+        32
+      ],
+      "image": "textures/static-vectra-knockhill-lvectr3.webp",
+      "crc32": "ba088cb8",
+      "bytes": 3056,
+      "size": [
+        512,
+        256
+      ],
+      "trackslug": "knockhill",
+      "source_tracks": [
+        7
+      ],
+      "encoding": {
+        "format": "WebP",
+        "quality": 80,
+        "method": 6,
+        "alpha": "lossless exact source RGB-black-key alpha nearest scaled; white opaque"
+      },
+      "registration": {
+        "crop": [
+          0,
+          0,
+          1774,
+          887
+        ],
+        "resample": "bilinear premultiplied RGB/alpha",
+        "gold_band_registration": {
+          "generated": [
+            0.9064261555806088,
+            0.9605411499436303
+          ],
+          "source": [
+            0.90625,
+            0.96875
+          ]
+        },
+        "paint_palette_calibration": {
+          "normalized_roi": [
+            0.1,
+            0.1,
+            0.85,
+            0.85
+          ],
+          "source_median": [
+            173.0,
+            189.0,
+            214.0
+          ],
+          "generated_median": [
+            182.0,
+            204.0,
+            228.0
+          ],
+          "channel_ratio": [
+            0.9505494505494505,
+            0.9264705882352942,
+            0.9385964912280702
+          ]
+        },
+        "native_dark_rgb_continuation": {
+          "pixels": 0,
+          "rgb": [
+            8,
+            8,
+            8
+          ],
+          "reason": "source near-black ink stays opaque/dark in newly source-opaque generator gaps; no exposed pale hidden RGB"
+        },
+        "newly_source_opaque_rgb_continuation_pixels": 0,
+        "method": "local premultiplied generated-RGB box-average continuation at increasing radii; Gaussian3 only on missing RGB; no original pixel artwork copied"
+      },
+      "generation": {
+        "generator_path": "exec-d676af0c-7225-4e3c-9f33-ab6b9c8c546a.png",
+        "generator_crc32": "cb0fe242",
+        "generator_size": [
+          1774,
+          887
+        ]
+      }
+    },
+    {
+      "name": "LVECTR4",
+      "source_bmp_crc32": "9f258b96",
+      "source_size": [
+        32,
+        32
+      ],
+      "image": "textures/static-vectra-knockhill-lvectr4.webp",
+      "crc32": "2f77d1f0",
+      "bytes": 2156,
+      "size": [
+        512,
+        512
+      ],
+      "trackslug": "knockhill",
+      "source_tracks": [
+        7
+      ],
+      "encoding": {
+        "format": "WebP",
+        "quality": 80,
+        "method": 6,
+        "alpha": "lossless exact source RGB-black-key alpha nearest scaled; white opaque"
+      },
+      "registration": {
+        "crop": [
+          0,
+          0,
+          1254,
+          1254
+        ],
+        "resample": "bilinear premultiplied RGB/alpha",
+        "gold_band_registration": {
+          "generated": [
+            0.9059011164274322,
+            0.9681020733652312
+          ],
+          "source": [
+            0.90625,
+            0.96875
+          ]
+        },
+        "paint_palette_calibration": {
+          "normalized_roi": [
+            0.1,
+            0.1,
+            0.85,
+            0.85
+          ],
+          "source_median": [
+            173.0,
+            189.0,
+            214.0
+          ],
+          "generated_median": [
+            178.0,
+            205.0,
+            232.0
+          ],
+          "channel_ratio": [
+            0.9719101123595506,
+            0.9219512195121952,
+            0.9224137931034483
+          ]
+        },
+        "native_dark_rgb_continuation": {
+          "pixels": 0,
+          "rgb": [
+            8,
+            8,
+            8
+          ],
+          "reason": "source near-black ink stays opaque/dark in newly source-opaque generator gaps; no exposed pale hidden RGB"
+        },
+        "newly_source_opaque_rgb_continuation_pixels": 0,
+        "method": "local premultiplied generated-RGB box-average continuation at increasing radii; Gaussian3 only on missing RGB; no original pixel artwork copied"
+      },
+      "generation": {
+        "generator_path": "exec-b98369b0-f9cd-445b-9a61-21004a61fd30.png",
+        "generator_crc32": "7c2ae9ac",
+        "generator_size": [
+          1254,
+          1254
+        ]
+      }
+    },
+    {
+      "name": "LVECTR5",
+      "source_bmp_crc32": "03c9c1bb",
+      "source_size": [
+        64,
+        64
+      ],
+      "image": "textures/static-vectra-knockhill-lvectr5.webp",
+      "crc32": "4bf7247e",
+      "bytes": 13706,
+      "size": [
+        512,
+        512
+      ],
+      "trackslug": "knockhill",
+      "source_tracks": [
+        7
+      ],
+      "encoding": {
+        "format": "WebP",
+        "quality": 80,
+        "method": 6,
+        "alpha": "lossless exact source RGB-black-key alpha nearest scaled; white opaque"
+      },
+      "registration": {
+        "crop": [
+          0,
+          0,
+          1254,
+          1254
+        ],
+        "resample": "bilinear premultiplied RGB/alpha",
+        "paint_palette_calibration": {
+          "normalized_roi": [
+            0.2,
+            0.05,
+            0.8,
+            0.13
+          ],
+          "source_median": [
+            198.0,
+            214.0,
+            239.0
+          ],
+          "generated_median": [
+            196.0,
+            219.0,
+            247.0
+          ],
+          "channel_ratio": [
+            1.010204081632653,
+            0.9771689497716894,
+            0.9676113360323887
+          ]
+        },
+        "native_dark_rgb_continuation": {
+          "pixels": 0,
+          "rgb": [
+            8,
+            8,
+            8
+          ],
+          "reason": "source near-black ink stays opaque/dark in newly source-opaque generator gaps; no exposed pale hidden RGB"
+        },
+        "newly_source_opaque_rgb_continuation_pixels": 0,
+        "method": "local premultiplied generated-RGB box-average continuation at increasing radii; Gaussian3 only on missing RGB; no original pixel artwork copied",
+        "localized_corrective_composite": {
+          "normalized_roi": [
+            0.3,
+            0.64,
+            0.72,
+            0.79
+          ],
+          "feather_output_pixels": 4,
+          "preserve": "all first-artwork RGB outside ROI; exact source alpha everywhere",
+          "encoding": "final composed unencoded RGBA → single WebP80 encode; no whole-image second lossy input"
+        }
+      },
+      "generation": {}
+    },
+    {
+      "name": "LVOLVO4",
+      "source_bmp_crc32": "74ec0ff8",
+      "source_size": [
+        32,
+        32
+      ],
+      "image": "textures/static-vectra-snetterton-lvolvo4.webp",
+      "crc32": "325c5006",
+      "bytes": 918,
+      "size": [
+        512,
+        512
+      ],
+      "trackslug": "snetterton",
+      "source_tracks": [
+        8
+      ],
+      "encoding": {
+        "format": "WebP",
+        "quality": 80,
+        "method": 6,
+        "alpha": "lossless exact source RGB-black-key alpha nearest scaled; white opaque"
+      },
+      "registration": {
+        "crop": [
+          0,
+          0,
+          1254,
+          1254
+        ],
+        "resample": "bilinear premultiplied RGB/alpha",
+        "flat_source_palette_guard": {
+          "color": [
+            16,
+            16,
+            66
+          ],
+          "scope": "whole original flat opaque strip domain, also source pixel30,16 sampler"
+        },
+        "native_dark_rgb_continuation": {
+          "pixels": 0,
+          "rgb": [
+            8,
+            8,
+            8
+          ],
+          "reason": "source near-black ink stays opaque/dark in newly source-opaque generator gaps; no exposed pale hidden RGB"
+        },
+        "newly_source_opaque_rgb_continuation_pixels": 0,
+        "method": "local premultiplied generated-RGB box-average continuation at increasing radii; Gaussian3 only on missing RGB; no original pixel artwork copied"
+      },
+      "generation": {
+        "generator_path": "exec-f76d9d33-7485-43e1-8c67-651a94589452.png",
+        "generator_crc32": "f471d467",
+        "generator_size": [
+          1254,
+          1254
+        ]
+      },
+      "constant_sampler": {
+        "source_pixel": [
+          30,
+          16
+        ],
+        "c3d_uv": [
+          0.953125,
+          -0.484375
+        ],
+        "image_uv": [
+          0.953125,
+          0.515625
+        ],
+        "source_rgba": [
+          16,
+          16,
+          66,
+          255
+        ],
+        "decoded_bilinear_rgba": [
+          16.0,
+          17.0,
+          67.0,
+          255.0
+        ],
+        "decoded_footprint": [
+          {
+            "pixel": [
+              487,
+              263
+            ],
+            "rgba": [
+              16,
+              17,
+              67,
+              255
+            ]
+          },
+          {
+            "pixel": [
+              488,
+              263
+            ],
+            "rgba": [
+              16,
+              17,
+              67,
+              255
+            ]
+          },
+          {
+            "pixel": [
+              487,
+              264
+            ],
+            "rgba": [
+              16,
+              17,
+              67,
+              255
+            ]
+          },
+          {
+            "pixel": [
+              488,
+              264
+            ],
+            "rgba": [
+              16,
+              17,
+              67,
+              255
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "LVECTR1",
+      "source_bmp_crc32": "1218124a",
+      "source_size": [
+        32,
+        64
+      ],
+      "image": "textures/static-vectra-snetterton-lvectr1.webp",
+      "crc32": "b3c21f30",
+      "bytes": 8746,
+      "size": [
+        256,
+        512
+      ],
+      "trackslug": "snetterton",
+      "source_tracks": [
+        8
+      ],
+      "encoding": {
+        "format": "WebP",
+        "quality": 80,
+        "method": 6,
+        "alpha": "lossless exact source RGB-black-key alpha nearest scaled; white opaque"
+      },
+      "registration": {
+        "crop": [
+          0,
+          0,
+          887,
+          1774
+        ],
+        "resample": "bilinear premultiplied RGB/alpha",
+        "paint_palette_calibration": {
+          "normalized_roi": [
+            0.05,
+            0.32,
+            0.35,
+            0.62
+          ],
+          "source_median": [
+            148.0,
+            173.0,
+            198.0
+          ],
+          "generated_median": [
+            162.0,
+            196.0,
+            230.0
+          ],
+          "channel_ratio": [
+            0.9135802469135802,
+            0.8826530612244898,
+            0.8608695652173913
+          ]
+        },
+        "upper_quiet_field_continuation": {
+          "pixels": 18658,
+          "rgb": [
+            198,
+            214,
+            231
+          ],
+          "reason": "generator cut the original opaque pale field above the cab fairing; restore its flat source palette without hidden RGB streaks"
+        },
+        "native_dark_rgb_continuation": {
+          "pixels": 781,
+          "rgb": [
+            8,
+            8,
+            8
+          ],
+          "reason": "source near-black ink stays opaque/dark in newly source-opaque generator gaps; no exposed pale hidden RGB"
+        },
+        "newly_source_opaque_rgb_continuation_pixels": 19489,
+        "method": "local premultiplied generated-RGB box-average continuation at increasing radii; Gaussian3 only on missing RGB; no original pixel artwork copied"
+      },
+      "generation": {
+        "generator_path": "exec-b73fd6d7-94b5-4f7b-8a84-bc378328f31d.png",
+        "generator_crc32": "ea3b8d7e",
+        "generator_size": [
+          887,
+          1774
+        ]
+      }
+    },
+    {
+      "name": "LVECTR2",
+      "source_bmp_crc32": "77bf1af4",
+      "source_size": [
+        128,
+        32
+      ],
+      "image": "textures/static-vectra-snetterton-lvectr2.webp",
+      "crc32": "1f30b917",
+      "bytes": 11160,
+      "size": [
+        512,
+        128
+      ],
+      "trackslug": "snetterton",
+      "source_tracks": [
+        8
+      ],
+      "encoding": {
+        "format": "WebP",
+        "quality": 80,
+        "method": 6,
+        "alpha": "lossless exact source RGB-black-key alpha nearest scaled; white opaque"
+      },
+      "registration": {
+        "crop": [
+          0,
+          184,
+          2172,
+          714
+        ],
+        "resample": "bilinear premultiplied RGB/alpha",
+        "paint_palette_calibration": {
+          "normalized_roi": [
+            0.06,
+            0.71,
+            0.5,
+            0.78
+          ],
+          "source_median": [
+            173.0,
+            198.0,
+            214.0
+          ],
+          "generated_median": [
+            176.0,
+            197.0,
+            219.0
+          ],
+          "channel_ratio": [
+            0.9829545454545454,
+            1.0050761421319796,
+            0.9771689497716894
+          ]
+        },
+        "native_dark_rgb_continuation": {
+          "pixels": 312,
+          "rgb": [
+            8,
+            8,
+            8
+          ],
+          "reason": "source near-black ink stays opaque/dark in newly source-opaque generator gaps; no exposed pale hidden RGB"
+        },
+        "final_photo_wheel_hub_registration": {
+          "source_image_uv": [
+            0.8828125,
+            0.875
+          ],
+          "source_pixel_anchor": [
+            113,
+            28
+          ],
+          "measured_fresh_rim_centroid_pixels": [
+            454.50704225352115,
+            111.44600938967136
+          ],
+          "target_rim_center_pixels": [
+            451.5,
+            111.5
+          ],
+          "rgb_translation_pixels": [
+            -3.007042253521149,
+            0.05399061032863983
+          ],
+          "scope": "lower photo wheel/footer only; native alpha, copy and upper car motif unchanged",
+          "basis": "canonical isolated photo tire x108..117/y23..31, pale rim x110..115/y25..29; initial key-bay anchor superseded",
+          "decoded_rim_grayscale_centroid_pixels": [
+            451.4056603773585,
+            111.59905660377359
+          ]
+        },
+        "newly_source_opaque_rgb_continuation_pixels": 2849,
+        "method": "local premultiplied generated-RGB box-average continuation at increasing radii; Gaussian3 only on missing RGB; no original pixel artwork copied"
+      },
+      "generation": {
+        "generator_path": "exec-e54b6b84-e051-4da7-b260-943d88b12aee.png",
+        "generator_crc32": "782e8d25",
+        "generator_size": [
+          2172,
+          724
+        ]
+      }
+    },
+    {
+      "name": "LVECTR3",
+      "source_bmp_crc32": "9850ebf1",
+      "source_size": [
+        64,
+        32
+      ],
+      "image": "textures/static-vectra-snetterton-lvectr3.webp",
+      "crc32": "cb44b150",
+      "bytes": 2246,
+      "size": [
+        512,
+        256
+      ],
+      "trackslug": "snetterton",
+      "source_tracks": [
+        8
+      ],
+      "encoding": {
+        "format": "WebP",
+        "quality": 80,
+        "method": 6,
+        "alpha": "lossless exact source RGB-black-key alpha nearest scaled; white opaque"
+      },
+      "registration": {
+        "crop": [
+          0,
+          0,
+          1774,
+          887
+        ],
+        "resample": "bilinear premultiplied RGB/alpha",
+        "gold_band_registration": {
+          "generated": [
+            0.90304396843292,
+            0.9661781285231116
+          ],
+          "source": [
+            0.90625,
+            0.96875
+          ]
+        },
+        "paint_palette_calibration": {
+          "normalized_roi": [
+            0.1,
+            0.1,
+            0.85,
+            0.85
+          ],
+          "source_median": [
+            173.0,
+            198.0,
+            206.0
+          ],
+          "generated_median": [
+            169.0,
+            197.0,
+            216.0
+          ],
+          "channel_ratio": [
+            1.0236686390532543,
+            1.0050761421319796,
+            0.9537037037037037
+          ]
+        },
+        "native_dark_rgb_continuation": {
+          "pixels": 0,
+          "rgb": [
+            8,
+            8,
+            8
+          ],
+          "reason": "source near-black ink stays opaque/dark in newly source-opaque generator gaps; no exposed pale hidden RGB"
+        },
+        "newly_source_opaque_rgb_continuation_pixels": 0,
+        "method": "local premultiplied generated-RGB box-average continuation at increasing radii; Gaussian3 only on missing RGB; no original pixel artwork copied"
+      },
+      "generation": {
+        "generator_path": "exec-db78a45d-421d-4592-a8e0-5ec1c04659f0.png",
+        "generator_crc32": "45598c47",
+        "generator_size": [
+          1774,
+          887
+        ]
+      }
+    },
+    {
+      "name": "LVECTR4",
+      "source_bmp_crc32": "6f3b3185",
+      "source_size": [
+        32,
+        32
+      ],
+      "image": "textures/static-vectra-snetterton-lvectr4.webp",
+      "crc32": "cb6c818c",
+      "bytes": 2038,
+      "size": [
+        512,
+        512
+      ],
+      "trackslug": "snetterton",
+      "source_tracks": [
+        8
+      ],
+      "encoding": {
+        "format": "WebP",
+        "quality": 80,
+        "method": 6,
+        "alpha": "lossless exact source RGB-black-key alpha nearest scaled; white opaque"
+      },
+      "registration": {
+        "crop": [
+          0,
+          0,
+          1254,
+          1254
+        ],
+        "resample": "bilinear premultiplied RGB/alpha",
+        "gold_band_registration": {
+          "generated": [
+            0.9066985645933014,
+            0.9681020733652312
+          ],
+          "source": [
+            0.90625,
+            0.96875
+          ]
+        },
+        "paint_palette_calibration": {
+          "normalized_roi": [
+            0.1,
+            0.1,
+            0.85,
+            0.85
+          ],
+          "source_median": [
+            173.0,
+            198.0,
+            206.0
+          ],
+          "generated_median": [
+            174.0,
+            202.0,
+            226.0
+          ],
+          "channel_ratio": [
+            0.9942528735632183,
+            0.9801980198019802,
+            0.911504424778761
+          ]
+        },
+        "native_dark_rgb_continuation": {
+          "pixels": 0,
+          "rgb": [
+            8,
+            8,
+            8
+          ],
+          "reason": "source near-black ink stays opaque/dark in newly source-opaque generator gaps; no exposed pale hidden RGB"
+        },
+        "newly_source_opaque_rgb_continuation_pixels": 0,
+        "method": "local premultiplied generated-RGB box-average continuation at increasing radii; Gaussian3 only on missing RGB; no original pixel artwork copied"
+      },
+      "generation": {
+        "generator_path": "exec-ba6a23e8-7bc9-4a5b-801f-e4d9d687c528.png",
+        "generator_crc32": "9b07aea0",
+        "generator_size": [
+          1254,
+          1254
+        ]
+      }
+    },
+    {
+      "name": "LVECTR5",
+      "source_bmp_crc32": "31440670",
+      "source_size": [
+        64,
+        64
+      ],
+      "image": "textures/static-vectra-snetterton-lvectr5.webp",
+      "crc32": "0888fe51",
+      "bytes": 12606,
+      "size": [
+        512,
+        512
+      ],
+      "trackslug": "snetterton",
+      "source_tracks": [
+        8
+      ],
+      "encoding": {
+        "format": "WebP",
+        "quality": 80,
+        "method": 6,
+        "alpha": "lossless exact source RGB-black-key alpha nearest scaled; white opaque"
+      },
+      "registration": {
+        "crop": [
+          0,
+          0,
+          1254,
+          1254
+        ],
+        "resample": "bilinear premultiplied RGB/alpha",
+        "paint_palette_calibration": {
+          "normalized_roi": [
+            0.2,
+            0.05,
+            0.8,
+            0.13
+          ],
+          "source_median": [
+            198.0,
+            214.0,
+            231.0
+          ],
+          "generated_median": [
+            190.0,
+            211.0,
+            236.0
+          ],
+          "channel_ratio": [
+            1.0421052631578946,
+            1.014218009478673,
+            0.9788135593220338
+          ]
+        },
+        "native_dark_rgb_continuation": {
+          "pixels": 0,
+          "rgb": [
+            8,
+            8,
+            8
+          ],
+          "reason": "source near-black ink stays opaque/dark in newly source-opaque generator gaps; no exposed pale hidden RGB"
+        },
+        "newly_source_opaque_rgb_continuation_pixels": 0,
+        "method": "local premultiplied generated-RGB box-average continuation at increasing radii; Gaussian3 only on missing RGB; no original pixel artwork copied",
+        "localized_corrective_composite": {
+          "normalized_roi": [
+            0.3,
+            0.64,
+            0.72,
+            0.79
+          ],
+          "feather_output_pixels": 4,
+          "preserve": "all first-artwork RGB outside ROI; exact source alpha everywhere",
+          "encoding": "final composed unencoded RGBA → single WebP80 encode; no whole-image second lossy input"
+        }
+      },
+      "generation": {}
+    }
+  ],
+  "source_models": [
+    {
+      "track": 3,
+      "archive": "data/branfree.bfp",
+      "archive_crc32": "ecc577c7",
+      "member": 5,
+      "member_crc32": "90ddbd12",
+      "mesh": 31,
+      "type": "00b00108",
+      "source_mesh_crc32": "77b30d70",
+      "vertices": 71,
+      "triangles": 43,
+      "nodes": [
+        89,
+        371,
+        373,
+        377
+      ],
+      "roots": [
+        88,
+        370,
+        372,
+        376
+      ],
+      "materials": [
+        {
+          "slot": 114,
+          "name": "LVECTR1",
+          "source_bmp_crc32": "427fcff4"
+        },
+        {
+          "slot": 115,
+          "name": "LVECTR2",
+          "source_bmp_crc32": "0e9c5016"
+        },
+        {
+          "slot": 116,
+          "name": "LVECTR3",
+          "source_bmp_crc32": "43276baa"
+        },
+        {
+          "slot": 117,
+          "name": "LVECTR4",
+          "source_bmp_crc32": "88895cee"
+        },
+        {
+          "slot": 118,
+          "name": "LVECTR5",
+          "source_bmp_crc32": "192c5939"
+        },
+        {
+          "slot": 119,
+          "name": "LVOLVO4",
+          "source_bmp_crc32": "53d3be16"
+        }
+      ]
+    },
+    {
+      "track": 3,
+      "archive": "data/branfree.bfp",
+      "archive_crc32": "ecc577c7",
+      "member": 6,
+      "member_crc32": "09163ac2",
+      "mesh": 24,
+      "type": "00b00108",
+      "source_mesh_crc32": "a81a0086",
+      "vertices": 71,
+      "triangles": 43,
+      "nodes": [
+        67,
+        441
+      ],
+      "roots": [
+        66,
+        440
+      ],
+      "materials": [
+        {
+          "slot": 92,
+          "name": "LVECTR1",
+          "source_bmp_crc32": "427fcff4"
+        },
+        {
+          "slot": 93,
+          "name": "LVECTR2",
+          "source_bmp_crc32": "0e9c5016"
+        },
+        {
+          "slot": 94,
+          "name": "LVECTR3",
+          "source_bmp_crc32": "43276baa"
+        },
+        {
+          "slot": 95,
+          "name": "LVECTR4",
+          "source_bmp_crc32": "88895cee"
+        },
+        {
+          "slot": 96,
+          "name": "LVECTR5",
+          "source_bmp_crc32": "192c5939"
+        },
+        {
+          "slot": 97,
+          "name": "LVOLVO4",
+          "source_bmp_crc32": "53d3be16"
+        }
+      ]
+    },
+    {
+      "track": 6,
+      "archive": "data/croffree.bfp",
+      "archive_crc32": "e4399113",
+      "member": 5,
+      "member_crc32": "93406c70",
+      "mesh": 18,
+      "type": "63997aff",
+      "source_mesh_crc32": "c13944c1",
+      "vertices": 71,
+      "triangles": 43,
+      "nodes": [
+        135,
+        137,
+        139
+      ],
+      "roots": [
+        134,
+        136,
+        138
+      ],
+      "materials": [
+        {
+          "slot": 56,
+          "name": "LVECTR1",
+          "source_bmp_crc32": "4efc5c5d"
+        },
+        {
+          "slot": 57,
+          "name": "LVECTR2",
+          "source_bmp_crc32": "999dbe94"
+        },
+        {
+          "slot": 58,
+          "name": "LVECTR3",
+          "source_bmp_crc32": "43276baa"
+        },
+        {
+          "slot": 59,
+          "name": "LVECTR4",
+          "source_bmp_crc32": "88895cee"
+        },
+        {
+          "slot": 60,
+          "name": "LVECTR5",
+          "source_bmp_crc32": "cea8b391"
+        },
+        {
+          "slot": 61,
+          "name": "LVOLVO4",
+          "source_bmp_crc32": "9267e144"
+        }
+      ]
+    },
+    {
+      "track": 7,
+      "archive": "data/knocfree.bfp",
+      "archive_crc32": "7e00bade",
+      "member": 5,
+      "member_crc32": "24a4dac8",
+      "mesh": 32,
+      "type": "0208498d",
+      "source_mesh_crc32": "c0bd5813",
+      "vertices": 71,
+      "triangles": 43,
+      "nodes": [
+        423,
+        425
+      ],
+      "roots": [
+        422,
+        424
+      ],
+      "materials": [
+        {
+          "slot": 70,
+          "name": "LVOLVO4",
+          "source_bmp_crc32": "d27b6b01"
+        },
+        {
+          "slot": 82,
+          "name": "LVECTR1",
+          "source_bmp_crc32": "ed0bf6ae"
+        },
+        {
+          "slot": 83,
+          "name": "LVECTR2",
+          "source_bmp_crc32": "06e1367c"
+        },
+        {
+          "slot": 84,
+          "name": "LVECTR3",
+          "source_bmp_crc32": "47f48b68"
+        },
+        {
+          "slot": 85,
+          "name": "LVECTR4",
+          "source_bmp_crc32": "9f258b96"
+        },
+        {
+          "slot": 86,
+          "name": "LVECTR5",
+          "source_bmp_crc32": "03c9c1bb"
+        }
+      ]
+    },
+    {
+      "track": 7,
+      "archive": "data/knocfree.bfp",
+      "archive_crc32": "7e00bade",
+      "member": 6,
+      "member_crc32": "10de37e5",
+      "mesh": 28,
+      "type": "0208498d",
+      "source_mesh_crc32": "0bc3e24c",
+      "vertices": 71,
+      "triangles": 43,
+      "nodes": [
+        305
+      ],
+      "roots": [
+        304
+      ],
+      "materials": [
+        {
+          "slot": 76,
+          "name": "LVOLVO4",
+          "source_bmp_crc32": "d27b6b01"
+        },
+        {
+          "slot": 83,
+          "name": "LVECTR1",
+          "source_bmp_crc32": "ed0bf6ae"
+        },
+        {
+          "slot": 84,
+          "name": "LVECTR2",
+          "source_bmp_crc32": "06e1367c"
+        },
+        {
+          "slot": 85,
+          "name": "LVECTR3",
+          "source_bmp_crc32": "47f48b68"
+        },
+        {
+          "slot": 86,
+          "name": "LVECTR4",
+          "source_bmp_crc32": "9f258b96"
+        },
+        {
+          "slot": 87,
+          "name": "LVECTR5",
+          "source_bmp_crc32": "03c9c1bb"
+        }
+      ]
+    },
+    {
+      "track": 8,
+      "archive": "data/snetfree.bfp",
+      "archive_crc32": "4111866a",
+      "member": 5,
+      "member_crc32": "d5bdef63",
+      "mesh": 42,
+      "type": "1cd05fe5",
+      "source_mesh_crc32": "967f1bef",
+      "vertices": 71,
+      "triangles": 43,
+      "nodes": [
+        247,
+        251,
+        255
+      ],
+      "roots": [
+        246,
+        250,
+        254
+      ],
+      "materials": [
+        {
+          "slot": 137,
+          "name": "LVOLVO4",
+          "source_bmp_crc32": "74ec0ff8"
+        },
+        {
+          "slot": 138,
+          "name": "LVECTR1",
+          "source_bmp_crc32": "1218124a"
+        },
+        {
+          "slot": 139,
+          "name": "LVECTR2",
+          "source_bmp_crc32": "77bf1af4"
+        },
+        {
+          "slot": 140,
+          "name": "LVECTR3",
+          "source_bmp_crc32": "9850ebf1"
+        },
+        {
+          "slot": 141,
+          "name": "LVECTR4",
+          "source_bmp_crc32": "6f3b3185"
+        },
+        {
+          "slot": 142,
+          "name": "LVECTR5",
+          "source_bmp_crc32": "31440670"
+        }
+      ]
+    },
+    {
+      "track": 8,
+      "archive": "data/snetfree.bfp",
+      "archive_crc32": "4111866a",
+      "member": 6,
+      "member_crc32": "19d8ccf4",
+      "mesh": 29,
+      "type": "1cd05fe5",
+      "source_mesh_crc32": "bb66f40a",
+      "vertices": 71,
+      "triangles": 43,
+      "nodes": [
+        169,
+        173
+      ],
+      "roots": [
+        168,
+        172
+      ],
+      "materials": [
+        {
+          "slot": 91,
+          "name": "LVECTR1",
+          "source_bmp_crc32": "1218124a"
+        },
+        {
+          "slot": 92,
+          "name": "LVECTR2",
+          "source_bmp_crc32": "77bf1af4"
+        },
+        {
+          "slot": 93,
+          "name": "LVECTR3",
+          "source_bmp_crc32": "9850ebf1"
+        },
+        {
+          "slot": 94,
+          "name": "LVECTR4",
+          "source_bmp_crc32": "6f3b3185"
+        },
+        {
+          "slot": 95,
+          "name": "LVECTR5",
+          "source_bmp_crc32": "31440670"
+        },
+        {
+          "slot": 96,
+          "name": "LVOLVO4",
+          "source_bmp_crc32": "74ec0ff8"
+        }
+      ]
+    }
+  ],
+  "source_lod_contract": "Twelve original HIGH placements: Brands4/Croft3/Knockhill2/Snetterton3. Original LOW has Brands2/Knockhill1/Snetterton2; Croft LOW has no matching model or alias. ZERO omits the model everywhere. Improve Mega HIGH only; original lower-detail models and selection remain unchanged.",
+  "static_exception": "Stationary FREE promotional box truck, without Car actor, steering, wheel rotation or damage. Preserve original roots, pivots, collision and asymmetric cab/box dimensions. Source-photo tyre positions and contact edges govern this static model; touring-car wheel dimensions do not apply."
+}

@@ -1,0 +1,78 @@
+Mega HUD vector artwork
+
+primary-km.webp, primary-miles.webp, secondary.webp, caption-big.webp,
+caption-small.webp, menufont-0..3.webp and car-name.webp are newly drawn artwork.
+The authoring recipe is tools/build-hud-assets.py. Its specified numeral
+contours, letter outlines, bevel ramps, backgrounds and smooth tachometer curves
+follow the appearance and layout of TOCA1.1a's original HUD. No installed font,
+enlarged original bitmap or original bitmap pixels are used in the output.
+
+The reference is the unchanged data/image640.bfp,
+CRC32 1060ace3, and the original executable's sprite rectangle tables.
+Car names use ALLCARS.BFP (CRC32 92273ec9), member0 fonts\win3.fon
+(CRC32 afa81da8), as their sole source for cells, metrics and visual design.
+Read-only visual exports can be generated beneath build/hud-art-original/.
+They are authoring references and must not be committed as game assets.
+
+Regenerate the ten vector atlases with Pillow:
+  python3 tools/build-hud-assets.py
+
+Generate the same runtime files, a complete labelled overview and reusable
+individual sprite cutouts with their source-rectangle/CRC32 manifest:
+  python3 tools/build-hud-assets.py --sprites build/hud-art/sprites --preview build/hud-art/overview.png
+
+Use --output DIR for a separate atlas destination. Normal generation reads only
+the saved geometry scripts; it does not need extracted reference images.
+Large numeral Bezier paths and the small font live in tools/hud_font_geometry.py.
+The46 BIG640 caption glyphs live in tools/hud_caption_geometry.py; the original
+member23 reference checksum is399cab32.
+The61 upright LIL640 glyphs live in tools/hud_small_caption_geometry.py;
+the original member24 checksum is29d0f179. Frontend OPTION3/OPTION3S/HELP3/TITLE3
+live in tools/hud_menu_font_geometry.py, including the native added parentheses.
+The38 WIN3 car-name glyphs live in tools/car_name_font_geometry.py. Its native
+upright contours retain the heavy stems, narrow counters and shallow rounded
+bowls of WIN3, with the original untailed Q and no invented characters.
+Labels, colors and the RPM curves live in tools/build-hud-assets.py; named
+cutouts and the contact sheet are handled by tools/hud_art_exports.py.
+
+HUD, caption and frontend atlases are four times their original coordinates.
+Car-name artwork alone is exactly twice its original coordinates: a512x512
+atlas, with unchanged normalized glyph cells and original ink bounds. The
+runtime name strip is256x32. White RGB and antialiased alpha supply clean
+edges without an outline, shadow, tint or enlargement of original pixels.
+HUD and game fonts are1024x1024. The four smaller frontend atlases retain their
+original dimensions, including OPTION3/OPTION3S's appended parentheses row.
+Supersampling antialiases new vector geometry at that target resolution.
+Colors preserve the cyan/red/yellow numerals, pale bevels, white labels,
+near-black original strips and original tachometer sequence. Gear and the MpH/
+KpH units use separately measured original contours and baselines, including
+the lowercase p's complete descender. Small12-pixel digits use their own
+upright masters with shared rounded bowls, stroke widths and one common italic
+shear, with upright punctuation and the original cap height/advances. English MpH and
+the other languages' KpH differ only in the original speed-unit region.
+Small red/yellow digits and punctuation retain the original one-pixel gray8
+outline inside each source cell, shared by times, speed, lap limits and splits.
+All rectangles used by the current HUD are included; unused brand logos and
+non-HUD sprites are excluded. Original source rectangles, destinations,
+value formatting and simulation logic are handled by the unchanged HUD rules.
+The RPM band uses an analytic ellipse and a constant12-unit inward normal
+offset. Twelve sectors are cut from that regular band into the original atlas
+cells; idle and illuminated states use the same silhouette and uniformly thin
+dividers. Generation rejects a sector that would be cropped by its source cell.
+The lap-limit separator is visibly pale with a thin dark outline in its original
+source rectangle, as requested; the original lap backing remains complete.
+
+caption-big.webp and caption-small.webp use a neutral white face and gray8
+outline. The common font loader restores each caller's original face/edge palette:
+red race/pause titles, white ESC-menu/result rows and white/black honors/credits.
+The first three frontend fonts are neutral white alpha masks for the original
+menu palette; TITLE3 retains its dark metallic bevel. Every original cell and
+text metric remains unchanged, including accented letters, Spanish inverted
+punctuation and the underlined ordinal. Glyphs are antialiased independently
+before packing, with a transparent texel border against neighboring shadows.
+Only graphics profile Mega selects these atlases; other profiles retain all
+original fonts.
+
+New output uses WebP quality70, method6 and alpha quality100. vector-art.json records the
+recipe and output CRC32 checksums. The other three start-light assets and their
+provenance are authored separately; this tool does not read or modify them.

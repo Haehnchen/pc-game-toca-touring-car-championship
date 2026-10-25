@@ -1,0 +1,35 @@
+{
+  "assets": [
+    {
+      "file": "work/HONDA.webp",
+      "crc32": "2cabc9c0"
+    },
+    {
+      "file": "work/ListA.webp",
+      "crc32": "df18e70b"
+    },
+    {
+      "file": "work/ListB.webp",
+      "crc32": "739d6e8b"
+    },
+    {
+      "file": "work/Num10.webp",
+      "crc32": "18bde52f"
+    },
+    {
+      "file": "work/Num20.webp",
+      "crc32": "05c4ce9a"
+    },
+    {
+      "file": "work/SIDEG.webp",
+      "crc32": "450f82c6"
+    },
+    {
+      "file": "work/WSCRN.webp",
+      "crc32": "d4fa53e1"
+    }
+  ],
+  "finalization": {
+    "quality": 80
+  }
+}

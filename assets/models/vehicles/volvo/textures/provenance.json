@@ -1,0 +1,35 @@
+{
+  "assets": [
+    {
+      "file": "work/S40.webp",
+      "crc32": "a6820b27"
+    },
+    {
+      "file": "work/ListA.webp",
+      "crc32": "35d12f67"
+    },
+    {
+      "file": "work/ListB.webp",
+      "crc32": "d8d035ca"
+    },
+    {
+      "file": "work/NUM3.webp",
+      "crc32": "03f409d6"
+    },
+    {
+      "file": "work/Num11.webp",
+      "crc32": "b262047c"
+    },
+    {
+      "file": "work/WSCRN.webp",
+      "crc32": "e56bf7aa"
+    },
+    {
+      "file": "work/SIDEG.webp",
+      "crc32": "82a2efd1"
+    }
+  ],
+  "finalization": {
+    "quality": 80
+  }
+}

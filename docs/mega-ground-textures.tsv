@@ -1,0 +1,136 @@
+track_id	track	archive	archive_crc32	member_index	member_crc32	slot	name	source_size	planned_size	bmp_crc32	referenced_mesh_faces	existing_mega_image	status
+0	Donington	data/donlfree.bfp	46885a20	1	15e24c5f	0	TRACK	128x64	256x128	0a34acb9	1159	textures/ground-donington-track.webp	vorhanden
+0	Donington	data/donlfree.bfp	46885a20	1	15e24c5f	1	RUMBLE2	128x32	256x64	48d708b7	399	textures/ground-donington-rumble2.webp	vorhanden
+0	Donington	data/donlfree.bfp	46885a20	1	15e24c5f	2	PIT2	64x64	128x128	4e035c14	85	textures/ground-donington-pit2.webp	vorhanden
+0	Donington	data/donlfree.bfp	46885a20	1	15e24c5f	3	SCRUBOLD	64x64	128x128	035fe8da	147	textures/ground-donington-scrubold.webp	vorhanden
+0	Donington	data/donlfree.bfp	46885a20	1	15e24c5f	4	STRIP	64x64	128x128	c2329025	1007	textures/ground-donington-strip.webp	vorhanden
+0	Donington	data/donlfree.bfp	46885a20	1	15e24c5f	5	TRAK2	32x64	64x128	664ed722	132	textures/ground-donington-trak2.webp	vorhanden
+0	Donington	data/donlfree.bfp	46885a20	1	15e24c5f	6	GRASS	128x128	256x256	5d240fdc	2357	textures/ground-donington-grass.webp	vorhanden
+0	Donington	data/donlfree.bfp	46885a20	1	15e24c5f	7	G&G	32x64	64x128	e1616322	196	textures/ground-donington-gravel-transition.webp	vorhanden
+0	Donington	data/donlfree.bfp	46885a20	1	15e24c5f	8	START_L	32x64	64x128	f560f1bd	12	textures/ground-donington-start-l.webp	vorhanden
+0	Donington	data/donlfree.bfp	46885a20	1	15e24c5f	9	GRID_L	32x64	64x128	48f066ac	48	textures/ground-donington-grid-l.webp	vorhanden
+0	Donington	data/donlfree.bfp	46885a20	1	15e24c5f	10	GRAVEL	64x64	128x128	158c84e7	83	textures/ground-donington-gravel.webp	vorhanden
+0	Donington	data/donlfree.bfp	46885a20	1	15e24c5f	11	GRID_R	32x64	64x128	37ca66ec	48	textures/ground-donington-grid-r.webp	vorhanden
+0	Donington	data/donlfree.bfp	46885a20	1	15e24c5f	12	CHEVRONS	128x128	256x256	3cda580e	3	textures/ground-donington-chevrons.webp	vorhanden
+0	Donington	data/donlfree.bfp	46885a20	1	15e24c5f	13	PIT_STIP	128x128	256x256	51d90520	5	textures/ground-donington-pit-stip.webp	vorhanden
+0	Donington	data/donlfree.bfp	46885a20	1	15e24c5f	14	DLINE	64x16	128x32	e874a492	8	textures/ground-donington-dline.webp	vorhanden
+1	Silverstone	data/silvfree.bfp	960a335c	1	158558eb	0	TRACK2	64x64	128x128	a65c40a1	377	textures/ground-silverstone-track2.webp	vorhanden
+1	Silverstone	data/silvfree.bfp	960a335c	1	158558eb	1	GRASS2	64x64	128x128	175151aa	1884	textures/ground-silverstone-grass2.webp	vorhanden
+1	Silverstone	data/silvfree.bfp	960a335c	1	158558eb	2	NUTRAK2	128x64	256x128	f45116cb	772	textures/ground-silverstone-nutrak2.webp	vorhanden
+1	Silverstone	data/silvfree.bfp	960a335c	1	158558eb	3	WLINE	64x16	128x32	c9555193	1178	textures/ground-silverstone-wline.webp	vorhanden
+1	Silverstone	data/silvfree.bfp	960a335c	1	158558eb	4	RUMBW	128x32	256x64	870dd507	114	textures/ground-silverstone-rumbw.webp	vorhanden
+1	Silverstone	data/silvfree.bfp	960a335c	1	158558eb	5	RUMB	64x32	128x64	520889f9	46	textures/ground-silverstone-rumb.webp	vorhanden
+1	Silverstone	data/silvfree.bfp	960a335c	1	158558eb	6	RUMW	64x32	128x64	1f0ea2a1	48	textures/ground-silverstone-rumw.webp	vorhanden
+1	Silverstone	data/silvfree.bfp	960a335c	1	158558eb	7	NUTRAK	128x64	256x128	cc3ced6d	354	textures/ground-silverstone-nutrak.webp	vorhanden
+1	Silverstone	data/silvfree.bfp	960a335c	1	158558eb	8	FLATRUM	128x32	256x64	ef16aebc	30	textures/ground-silverstone-flatrum.webp	vorhanden
+1	Silverstone	data/silvfree.bfp	960a335c	1	158558eb	9	GG	32x64	64x128	f351a508	162	textures/ground-silverstone-gg.webp	vorhanden
+1	Silverstone	data/silvfree.bfp	960a335c	1	158558eb	10	GRAVEL	64x64	128x128	33e4f2fc	130	textures/ground-silverstone-gravel.webp	vorhanden
+1	Silverstone	data/silvfree.bfp	960a335c	1	158558eb	11	PITROAD	64x64	128x128	76c5663d	154	textures/ground-silverstone-pitroad.webp	vorhanden
+1	Silverstone	data/silvfree.bfp	960a335c	1	158558eb	12	TRAK_X	32x64	64x128	23ea13c9	52	textures/ground-silverstone-trak-x.webp	vorhanden
+1	Silverstone	data/silvfree.bfp	960a335c	1	158558eb	13	START_X	32x64	64x128	032f4cae	4	textures/ground-silverstone-start-x.webp	vorhanden
+1	Silverstone	data/silvfree.bfp	960a335c	1	158558eb	14	GRID_X	32x64	64x128	c7a843ac	32	textures/ground-silverstone-grid-x.webp	vorhanden
+2	Thruxton	data/thrufree.bfp	473c8fe8	1	b4905f2f	0	NUGRASS	128x128	256x256	068940dc	2433	textures/ground-thruxton-nugrass.webp	vorhanden
+2	Thruxton	data/thrufree.bfp	473c8fe8	1	b4905f2f	1	PIT	64x64	128x128	0c6b8d5c	35	textures/ground-thruxton-pit.webp	vorhanden
+2	Thruxton	data/thrufree.bfp	473c8fe8	1	b4905f2f	2	THWLINE	64x32	128x64	922ae7ee	1052	textures/ground-thruxton-thwline.webp	vorhanden
+2	Thruxton	data/thrufree.bfp	473c8fe8	1	b4905f2f	3	NUTRAK	128x64	256x128	d398c4bb	500	textures/ground-thruxton-nutrak.webp	vorhanden
+2	Thruxton	data/thrufree.bfp	473c8fe8	1	b4905f2f	4	RUMBLE	128x32	256x64	ed072933	224	textures/ground-thruxton-rumble.webp	vorhanden
+2	Thruxton	data/thrufree.bfp	473c8fe8	1	b4905f2f	5	NUTRAK2	128x64	256x128	3bb12dda	500	textures/ground-thruxton-nutrak2.webp	vorhanden
+2	Thruxton	data/thrufree.bfp	473c8fe8	1	b4905f2f	6	GRAVEL	64x64	128x128	8a5ca97f	40	textures/ground-thruxton-gravel.webp	vorhanden
+2	Thruxton	data/thrufree.bfp	473c8fe8	1	b4905f2f	7	DARKGRS	64x64	128x128	9fe85b3b	171	textures/ground-thruxton-darkgrs.webp	vorhanden
+2	Thruxton	data/thrufree.bfp	473c8fe8	1	b4905f2f	8	SCRUB	64x64	128x128	5c56ff86	102	textures/ground-thruxton-scrub.webp	vorhanden
+2	Thruxton	data/thrufree.bfp	473c8fe8	1	b4905f2f	9	START_X	32x64	64x128	10970696	4	textures/ground-thruxton-start-x.webp	vorhanden
+2	Thruxton	data/thrufree.bfp	473c8fe8	1	b4905f2f	10	TRAK_X	32x64	64x128	f4a98373	54	textures/ground-thruxton-trak-x.webp	vorhanden
+2	Thruxton	data/thrufree.bfp	473c8fe8	1	b4905f2f	11	GRID_X	32x64	64x128	cadd6276	34	textures/ground-thruxton-grid-x.webp	vorhanden
+2	Thruxton	data/thrufree.bfp	473c8fe8	1	b4905f2f	12	PITCHEVR	128x32	256x64	bfdcb654	5	textures/ground-thruxton-pitchevr.webp	vorhanden
+3	Brands Hatch	data/branfree.bfp	ecc577c7	1	4152e50d	0	GRASS2	128x128	256x256	64d79b84	1224	textures/ground-brands-hatch-grass2.webp	vorhanden
+3	Brands Hatch	data/branfree.bfp	ecc577c7	1	4152e50d	1	SCRUB	64x64	128x128	3b85dc35	242	textures/ground-brands-hatch-scrub.webp	vorhanden
+3	Brands Hatch	data/branfree.bfp	ecc577c7	1	4152e50d	2	TRACK	128x64	256x128	115f0189	680	textures/ground-brands-hatch-track.webp	vorhanden
+3	Brands Hatch	data/branfree.bfp	ecc577c7	1	4152e50d	3	RUM2	128x32	256x64	54925653	101	textures/ground-brands-hatch-rum2.webp	vorhanden
+3	Brands Hatch	data/branfree.bfp	ecc577c7	1	4152e50d	4	WHITEL	64x16	128x32	c41a31c1	642	textures/ground-brands-hatch-whitel.webp	vorhanden
+3	Brands Hatch	data/branfree.bfp	ecc577c7	1	4152e50d	5	TRACK_X	32x64	64x128	c2ddcd7f	52	textures/ground-brands-hatch-track-x.webp	vorhanden
+3	Brands Hatch	data/branfree.bfp	ecc577c7	1	4152e50d	6	START_X	32x64	64x128	baa88f54	4	textures/ground-brands-hatch-start-x.webp	vorhanden
+3	Brands Hatch	data/branfree.bfp	ecc577c7	1	4152e50d	7	NLSAND	64x64	128x128	cb894113	85	textures/ground-brands-hatch-nlsand.webp	vorhanden
+3	Brands Hatch	data/branfree.bfp	ecc577c7	1	4152e50d	8	NGG	64x16	128x32	ff25f7d0	70	textures/ground-brands-hatch-ngg.webp	vorhanden
+3	Brands Hatch	data/branfree.bfp	ecc577c7	1	4152e50d	9	GRID_X	32x64	64x128	ea285560	32	textures/ground-brands-hatch-grid-x.webp	vorhanden
+3	Brands Hatch	data/branfree.bfp	ecc577c7	1	4152e50d	10	SNAPON	128x32	beibehalten	ed9c27e9	4	textures/snap-on-wide.webp	vorhanden
+3	Brands Hatch	data/branfree.bfp	ecc577c7	1	4152e50d	11	RUM1	64x32	128x64	8a8cb182	100	textures/ground-brands-hatch-rum1.webp	vorhanden
+3	Brands Hatch	data/branfree.bfp	ecc577c7	1	4152e50d	12	DLINE	64x16	128x32	d8699caa	12	textures/ground-brands-hatch-dline.webp	vorhanden
+4	Oulton Park	data/oultfree.bfp	e6e258cb	1	1a659c43	0	GRID_X	32x64	64x128	a7036ca1	32	textures/ground-oulton-park-grid-x.webp	vorhanden
+4	Oulton Park	data/oultfree.bfp	e6e258cb	1	1a659c43	1	TRAK_X	32x64	64x128	63641c8c	52	textures/ground-oulton-park-trak-x.webp	vorhanden
+4	Oulton Park	data/oultfree.bfp	e6e258cb	1	1a659c43	2	START_X	32x64	64x128	d0734252	4	textures/ground-oulton-park-start-x.webp	vorhanden
+4	Oulton Park	data/oultfree.bfp	e6e258cb	1	1a659c43	3	GRASS	128x128	256x256	293f24c1	2790	textures/ground-oulton-park-grass.webp	vorhanden
+4	Oulton Park	data/oultfree.bfp	e6e258cb	1	1a659c43	4	GRAVEL	64x64	128x128	25f693e1	34	textures/ground-oulton-park-gravel.webp	vorhanden
+4	Oulton Park	data/oultfree.bfp	e6e258cb	1	1a659c43	5	G&G	32x64	64x128	77248025	46	textures/ground-oulton-park-gg.webp	vorhanden
+4	Oulton Park	data/oultfree.bfp	e6e258cb	1	1a659c43	6	TRACK2	128x64	256x128	9595a564	1148	textures/ground-oulton-park-track2.webp	vorhanden
+4	Oulton Park	data/oultfree.bfp	e6e258cb	1	1a659c43	7	WITEL	64x32	128x64	cc0384b9	920	textures/ground-oulton-park-witel.webp	vorhanden
+4	Oulton Park	data/oultfree.bfp	e6e258cb	1	1a659c43	8	BIGR1	128x32	256x64	f32addcd	192	textures/ground-oulton-park-bigr1.webp	vorhanden
+4	Oulton Park	data/oultfree.bfp	e6e258cb	1	1a659c43	9	DLINE	64x32	128x64	cc65b39c	4	textures/ground-oulton-park-dline.webp	vorhanden
+4	Oulton Park	data/oultfree.bfp	e6e258cb	1	1a659c43	10	SCRUB	64x64	128x128	ce7e336c	60	textures/ground-oulton-park-scrub.webp	vorhanden
+4	Oulton Park	data/oultfree.bfp	e6e258cb	1	1a659c43	11	PIT	64x64	128x128	efd2172a	54	textures/ground-oulton-park-pit.webp	vorhanden
+4	Oulton Park	data/oultfree.bfp	e6e258cb	1	1a659c43	12	BIGR2	128x32	256x64	fb6340f1	24	textures/ground-oulton-park-bigr2.webp	vorhanden
+4	Oulton Park	data/oultfree.bfp	e6e258cb	1	1a659c43	13	RUMBLE	64x32	128x64	3aa03cc2	76	textures/ground-oulton-park-rumble.webp	vorhanden
+4	Oulton Park	data/oultfree.bfp	e6e258cb	1	1a659c43	14	RUMBLE2	64x32	128x64	4b6c399d	4	textures/ground-oulton-park-rumble2.webp	vorhanden
+4	Oulton Park	data/oultfree.bfp	e6e258cb	1	1a659c43	15	WATERX	64x64	128x128	17e718bf	42	textures/ground-oulton-park-waterx.webp	vorhanden
+5	Donington Short	data/donsfree.bfp	f07db8b7	1	ca08371b	0	TRACK	128x64	256x128	0a34acb9	1159	textures/ground-donington-track.webp	vorhanden
+5	Donington Short	data/donsfree.bfp	f07db8b7	1	ca08371b	1	RUMBLE2	128x32	256x64	48d708b7	399	textures/ground-donington-rumble2.webp	vorhanden
+5	Donington Short	data/donsfree.bfp	f07db8b7	1	ca08371b	2	PIT2	64x64	128x128	4e035c14	85	textures/ground-donington-pit2.webp	vorhanden
+5	Donington Short	data/donsfree.bfp	f07db8b7	1	ca08371b	3	SCRUBOLD	64x64	128x128	035fe8da	147	textures/ground-donington-scrubold.webp	vorhanden
+5	Donington Short	data/donsfree.bfp	f07db8b7	1	ca08371b	4	STRIP	64x64	128x128	c2329025	1007	textures/ground-donington-strip.webp	vorhanden
+5	Donington Short	data/donsfree.bfp	f07db8b7	1	ca08371b	5	TRAK2	32x64	64x128	664ed722	132	textures/ground-donington-trak2.webp	vorhanden
+5	Donington Short	data/donsfree.bfp	f07db8b7	1	ca08371b	6	GRASS	128x128	256x256	5d240fdc	2357	textures/ground-donington-grass.webp	vorhanden
+5	Donington Short	data/donsfree.bfp	f07db8b7	1	ca08371b	7	G&G	32x64	64x128	e1616322	196	textures/ground-donington-gravel-transition.webp	vorhanden
+5	Donington Short	data/donsfree.bfp	f07db8b7	1	ca08371b	8	START_L	32x64	64x128	f560f1bd	12	textures/ground-donington-start-l.webp	vorhanden
+5	Donington Short	data/donsfree.bfp	f07db8b7	1	ca08371b	9	GRID_L	32x64	64x128	48f066ac	48	textures/ground-donington-grid-l.webp	vorhanden
+5	Donington Short	data/donsfree.bfp	f07db8b7	1	ca08371b	10	GRAVEL	64x64	128x128	158c84e7	83	textures/ground-donington-gravel.webp	vorhanden
+5	Donington Short	data/donsfree.bfp	f07db8b7	1	ca08371b	11	GRID_R	32x64	64x128	37ca66ec	48	textures/ground-donington-grid-r.webp	vorhanden
+5	Donington Short	data/donsfree.bfp	f07db8b7	1	ca08371b	12	CHEVRONS	128x128	256x256	3cda580e	3	textures/ground-donington-chevrons.webp	vorhanden
+5	Donington Short	data/donsfree.bfp	f07db8b7	1	ca08371b	13	PIT_STIP	128x128	256x256	51d90520	5	textures/ground-donington-pit-stip.webp	vorhanden
+5	Donington Short	data/donsfree.bfp	f07db8b7	1	ca08371b	14	DLINE	64x16	128x32	e874a492	8	textures/ground-donington-dline.webp	vorhanden
+6	Croft	data/croffree.bfp	e4399113	1	a33ff2d6	0	GRASS2	128x128	256x256	dae32e54	2239	textures/ground-croft-grass2.webp	vorhanden
+6	Croft	data/croffree.bfp	e4399113	1	a33ff2d6	1	WITELINE	64x16	128x32	46fa3da9	1096	textures/ground-croft-witeline.webp	vorhanden
+6	Croft	data/croffree.bfp	e4399113	1	a33ff2d6	2	TRACK	128x64	256x128	5e196d1f	1112	textures/ground-croft-track.webp	vorhanden
+6	Croft	data/croffree.bfp	e4399113	1	a33ff2d6	3	START_X	32x64	64x128	0b990e74	4	textures/ground-croft-start-x.webp	vorhanden
+6	Croft	data/croffree.bfp	e4399113	1	a33ff2d6	4	RUMBLE	64x16	128x32	29473fce	106	textures/ground-croft-rumble.webp	vorhanden
+6	Croft	data/croffree.bfp	e4399113	1	a33ff2d6	5	SCRUB	64x64	128x128	9c527339	89	textures/ground-croft-scrub.webp	vorhanden
+6	Croft	data/croffree.bfp	e4399113	1	a33ff2d6	6	PIT	64x64	128x128	e7e80a42	196	textures/ground-croft-pit.webp	vorhanden
+6	Croft	data/croffree.bfp	e4399113	1	a33ff2d6	7	TRAK_X	32x64	64x128	42e44b4f	52	textures/ground-croft-trak-x.webp	vorhanden
+6	Croft	data/croffree.bfp	e4399113	1	a33ff2d6	8	RUMBLE2	128x16	256x32	723ba6a4	39	textures/ground-croft-rumble2.webp	vorhanden
+6	Croft	data/croffree.bfp	e4399113	1	a33ff2d6	9	GRID_X	32x64	64x128	59529261	32	textures/ground-croft-grid-x.webp	vorhanden
+6	Croft	data/croffree.bfp	e4399113	1	a33ff2d6	10	DOTDLINE	64x16	128x32	a8866487	10	textures/ground-croft-dotdline.webp	vorhanden
+7	Knockhill	data/knocfree.bfp	7e00bade	1	b04927f8	0	TYRES	128x32	-	4a52ed3e	0	textures/tyres-side.webp	unbenutzt
+7	Knockhill	data/knocfree.bfp	7e00bade	1	b04927f8	1	GRASS2	128x128	256x256	698762a2	1636	textures/ground-knockhill-grass2.webp	vorhanden
+7	Knockhill	data/knocfree.bfp	7e00bade	1	b04927f8	2	pit	64x64	128x128	6cd7dedb	51	textures/ground-knockhill-pit.webp	vorhanden
+7	Knockhill	data/knocfree.bfp	7e00bade	1	b04927f8	3	scrub	64x64	128x128	876493ee	109	textures/ground-knockhill-scrub.webp	vorhanden
+7	Knockhill	data/knocfree.bfp	7e00bade	1	b04927f8	4	TRACK	128x64	256x128	f5faaf18	604	textures/ground-knockhill-track.webp	vorhanden
+7	Knockhill	data/knocfree.bfp	7e00bade	1	b04927f8	5	WHITEL	16x64	32x128	828875f9	686	textures/ground-knockhill-whitel.webp	vorhanden
+7	Knockhill	data/knocfree.bfp	7e00bade	1	b04927f8	6	TRAK_X	32x64	64x128	e3c1564b	52	textures/ground-knockhill-trak-x.webp	vorhanden
+7	Knockhill	data/knocfree.bfp	7e00bade	1	b04927f8	7	START_X	32x64	64x128	d2865e5f	4	textures/ground-knockhill-start-x.webp	vorhanden
+7	Knockhill	data/knocfree.bfp	7e00bade	1	b04927f8	8	rumble	64x32	128x64	6d05b433	130	textures/ground-knockhill-rumble.webp	vorhanden
+7	Knockhill	data/knocfree.bfp	7e00bade	1	b04927f8	9	g&g	32x64	64x128	2890fd36	102	textures/ground-knockhill-gg.webp	vorhanden
+7	Knockhill	data/knocfree.bfp	7e00bade	1	b04927f8	10	gravel	64x64	128x128	b0db5854	51	textures/ground-knockhill-gravel.webp	vorhanden
+7	Knockhill	data/knocfree.bfp	7e00bade	1	b04927f8	11	GRID_X	32x64	64x128	e2c5e282	32	textures/ground-knockhill-grid-x.webp	vorhanden
+7	Knockhill	data/knocfree.bfp	7e00bade	1	b04927f8	12	CHEVRONS	64x64	128x128	f0dc1699	21	textures/ground-knockhill-chevrons.webp	vorhanden
+7	Knockhill	data/knocfree.bfp	7e00bade	1	b04927f8	13	DLINE	16x64	32x128	81eaafef	12	textures/ground-knockhill-dline.webp	vorhanden
+8	Snetterton	data/snetfree.bfp	4111866a	1	5181cae9	0	GRASS3	128x128	256x256	6846b068	1858	textures/ground-snetterton-grass3.webp	vorhanden
+8	Snetterton	data/snetfree.bfp	4111866a	1	5181cae9	1	TRACKL	128x64	256x128	119c1360	558	textures/ground-snetterton-trackl.webp	vorhanden
+8	Snetterton	data/snetfree.bfp	4111866a	1	5181cae9	2	W_LINE	64x32	128x64	b43637cc	896	textures/ground-snetterton-w-line.webp	vorhanden
+8	Snetterton	data/snetfree.bfp	4111866a	1	5181cae9	3	RUMSTRIP	128x32	256x64	3ad8e30b	60	textures/ground-snetterton-rumstrip.webp	vorhanden
+8	Snetterton	data/snetfree.bfp	4111866a	1	5181cae9	4	PIT	64x64	128x128	108104fb	65	textures/ground-snetterton-pit.webp	vorhanden
+8	Snetterton	data/snetfree.bfp	4111866a	1	5181cae9	5	RUMDOTS	128x32	256x64	5acb6a4f	28	textures/ground-snetterton-rumdots.webp	vorhanden
+8	Snetterton	data/snetfree.bfp	4111866a	1	5181cae9	6	GRAVEL	64x64	128x128	36c27e29	75	textures/ground-snetterton-gravel.webp	vorhanden
+8	Snetterton	data/snetfree.bfp	4111866a	1	5181cae9	7	G&G2	32x64	64x128	fcea437a	124	textures/ground-snetterton-gg2.webp	vorhanden
+8	Snetterton	data/snetfree.bfp	4111866a	1	5181cae9	8	TRAK_X	32x64	64x128	33c5bcaf	52	textures/ground-snetterton-trak-x.webp	vorhanden
+8	Snetterton	data/snetfree.bfp	4111866a	1	5181cae9	9	START_X	32x64	64x128	4388bd25	4	textures/ground-snetterton-start-x.webp	vorhanden
+8	Snetterton	data/snetfree.bfp	4111866a	1	5181cae9	10	GRID_X	32x64	64x128	3146ad99	32	textures/ground-snetterton-grid-x.webp	vorhanden
+8	Snetterton	data/snetfree.bfp	4111866a	1	5181cae9	11	SCRUB	64x64	128x128	79a716c6	124	textures/ground-snetterton-scrub.webp	vorhanden
+8	Snetterton	data/snetfree.bfp	4111866a	1	5181cae9	12	TRACKD	128x64	256x128	2eb96032	294	textures/ground-snetterton-trackd.webp	vorhanden
+8	Snetterton	data/snetfree.bfp	4111866a	1	5181cae9	13	DLINE	64x32	128x64	f5ed3050	22	textures/ground-snetterton-dline.webp	vorhanden
+9	Lavaland	data/landfree.bfp	dba52c51	1	2c324d11	0	LAVA03	128x128	256x256	a2ff4660	751	textures/ground-lavaland-lava03.webp	vorhanden
+9	Lavaland	data/landfree.bfp	dba52c51	1	2c324d11	1	WALL04B	128x128	256x256	2dff12c4	647	textures/ground-lavaland-wall04b.webp	vorhanden
+9	Lavaland	data/landfree.bfp	dba52c51	1	2c324d11	2	WALL04A	128x128	256x256	b3723018	260	textures/ground-lavaland-wall04a.webp	vorhanden
+9	Lavaland	data/landfree.bfp	dba52c51	1	2c324d11	3	TRACK05	128x128	256x256	e0014325	2231	textures/ground-lavaland-track05.webp	vorhanden
+9	Lavaland	data/landfree.bfp	dba52c51	1	2c324d11	4	WALL04	128x128	256x256	e2e1e3b9	257	textures/ground-lavaland-wall04.webp	vorhanden
+9	Lavaland	data/landfree.bfp	dba52c51	1	2c324d11	5	WALL09	128x128	256x256	3ecd7de3	2	textures/ground-lavaland-wall09.webp	vorhanden
+9	Lavaland	data/landfree.bfp	dba52c51	1	2c324d11	6	WALL10	128x128	256x256	85dcaf58	4	textures/ground-lavaland-wall10.webp	vorhanden
+9	Lavaland	data/landfree.bfp	dba52c51	1	2c324d11	7	WALL09A	128x128	256x256	b9ce4f5d	6	textures/ground-lavaland-wall09a.webp	vorhanden
+9	Lavaland	data/landfree.bfp	dba52c51	1	2c324d11	8	WALL10A	128x128	256x256	a1cd40b3	2	textures/ground-lavaland-wall10a.webp	vorhanden

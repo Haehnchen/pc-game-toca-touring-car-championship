@@ -1,0 +1,129 @@
+{
+  "version": 1,
+  "package": "R09-M06",
+  "source": {
+    "original_version": "1.1a",
+    "path": "data/landfree.bfp",
+    "crc32": "dba52c51",
+    "member": 11,
+    "member_name": "FLAGS.C3D",
+    "member_crc32": "bf4e31c4"
+  },
+  "scope": {
+    "mesh_rows": 96,
+    "types": 17,
+    "raw_bindings": 142,
+    "material_slots": 96,
+    "unique_bmp": 16,
+    "cloth_images": 15,
+    "new_images": 0,
+    "reused_images": 15,
+    "new_crc32_mappings": 12,
+    "controllers": 24,
+    "nodes": 72
+  },
+  "geometry_uv_slots_nodes": "Original bytes and full three-phase mesh variants retained; builder flag-node materialization is byte-identical for this member.",
+  "animation": {
+    "target_id": 1,
+    "countdown": 3,
+    "period_active_updates": 4,
+    "phase_count": 3,
+    "pole_variant": 0,
+    "detail0": "family skipped",
+    "pause": "no state advancement",
+    "grid_restart": "same controllers; no fresh initialization RNG",
+    "source_contract": "docs/scene-resources.md#track-props-and-starting-cameras",
+    "root_group_counts": {
+      "UK": 11,
+      "Italy": 4,
+      "Sweden": 3,
+      "Denmark": 3,
+      "Finland": 3
+    },
+    "controllers": [
+      {"root":0,"target":1,"pole_node":2,"phase_meshes":[1,2,3]},
+      {"root":3,"target":4,"pole_node":5,"phase_meshes":[5,6,7]},
+      {"root":6,"target":7,"pole_node":8,"phase_meshes":[9,10,11]},
+      {"root":9,"target":10,"pole_node":11,"phase_meshes":[13,14,15]},
+      {"root":12,"target":13,"pole_node":14,"phase_meshes":[17,18,19]},
+      {"root":15,"target":16,"pole_node":17,"phase_meshes":[21,22,23]},
+      {"root":18,"target":19,"pole_node":20,"phase_meshes":[25,26,27]},
+      {"root":21,"target":22,"pole_node":23,"phase_meshes":[29,30,31]},
+      {"root":24,"target":25,"pole_node":26,"phase_meshes":[33,34,35]},
+      {"root":27,"target":28,"pole_node":29,"phase_meshes":[37,38,39]},
+      {"root":30,"target":31,"pole_node":32,"phase_meshes":[41,42,43]},
+      {"root":33,"target":34,"pole_node":35,"phase_meshes":[45,46,47]},
+      {"root":36,"target":37,"pole_node":38,"phase_meshes":[49,50,51]},
+      {"root":39,"target":40,"pole_node":41,"phase_meshes":[53,54,55]},
+      {"root":42,"target":43,"pole_node":44,"phase_meshes":[57,58,59]},
+      {"root":45,"target":46,"pole_node":47,"phase_meshes":[61,62,63]},
+      {"root":48,"target":49,"pole_node":50,"phase_meshes":[65,66,67]},
+      {"root":51,"target":52,"pole_node":53,"phase_meshes":[69,70,71]},
+      {"root":54,"target":55,"pole_node":56,"phase_meshes":[73,74,75]},
+      {"root":57,"target":58,"pole_node":59,"phase_meshes":[77,78,79]},
+      {"root":60,"target":61,"pole_node":62,"phase_meshes":[81,82,83]},
+      {"root":63,"target":64,"pole_node":65,"phase_meshes":[85,86,87]},
+      {"root":66,"target":67,"pole_node":68,"phase_meshes":[89,90,91]},
+      {"root":69,"target":70,"pole_node":71,"phase_meshes":[93,94,95]}
+    ]
+  },
+  "types": [
+    {"type":"11e18d37","rows":[3,7,11,15,19,23,27,31,35,39,43],"source_crc32":["0c2a7909","0cf623ef","2d15b7c9","55439a5c","747c549c","84d00fb6","a5339b90","a5efc176","bef9bfa3","ddb9ece3","fc862223"],"names":["UK_FLG14","UK_FLG24"],"raw_bindings":33,"already_accepted":true},
+    {"type":"267abaef","rows":[73,77,89],"source_crc32":["633c6467","70e36cbc","a170f956"],"names":["DEN_FLG12","DEN_FLG22"],"raw_bindings":3,"already_accepted":false},
+    {"type":"51a21175","rows":[63,67,71],"source_crc32":["24446d7c","d0240de7","f5d7f896"],"names":["SWD_FLG14","SWD_FLG24"],"raw_bindings":9,"already_accepted":false},
+    {"type":"718e88e9","rows":[74,78,90],"source_crc32":["4860fa1a","5bbff2c1","99f36ff0"],"names":["DEN_FLG13","DEN_FLG23"],"raw_bindings":3,"already_accepted":false},
+    {"type":"7a4a6f71","rows":[62,66,70],"source_crc32":["1fba291e","3a49dc6f","ce29bcf4"],"names":["SWD_FLG13","SWD_FLG23"],"raw_bindings":3,"already_accepted":false},
+    {"type":"7b752860","rows":[1,5,9,13,17,21,25,29,33,37,41],"source_crc32":["134e03be","3271cd7e","4a27e0eb","4afbba0d","51319e3e","6b182e2b","9bb47501","ba8bbbc1","c2dd9654","e33e0272","e3e25894"],"names":["UK_FLG12","UK_FLG22"],"raw_bindings":11,"already_accepted":false},
+    {"type":"7d29b1ab","rows":[61,65,69],"source_crc32":["02ca4ac9","2739bfb8","f6aa2a52"],"names":["SWD_FLG12","SWD_FLG22"],"raw_bindings":3,"already_accepted":false},
+    {"type":"88d13845","rows":[75,79,91],"source_crc32":["739ebe78","a20d2b92","b1d22349"],"names":["DEN_FLG14","DEN_FLG24"],"raw_bindings":9,"already_accepted":false},
+    {"type":"940e854c","rows":[82,86,94],"source_crc32":["09f3ceb3","4345253d","92d6b0d7"],"names":["FIN_FLG13","FIN_FLG23"],"raw_bindings":3,"already_accepted":false},
+    {"type":"9aadc673","rows":[46,50,54,58],"source_crc32":["22625e03","8ba7e67c","b9472067","e02ec332"],"names":["ITL_FLG13","ITL_FLG23"],"raw_bindings":4,"already_accepted":false},
+    {"type":"9fc58a5a","rows":[83,87,95],"source_crc32":["78bb615f","a928f4b5","e39e1f3b"],"names":["FIN_FLG14","FIN_FLG24"],"raw_bindings":7,"already_accepted":false},
+    {"type":"b72a1405","rows":[45,49,53,57],"source_crc32":["1ae1c8a5","81c4b6c1","b32470da","d8ad5594"],"names":["ITL_FLG12","ITL_FLG22"],"raw_bindings":4,"already_accepted":false},
+    {"type":"c7af0fac","rows":[36,40,52,56,60,88,92],"source_crc32":["09537f37","22e4fa53","5084ad3d","b2ca09f0","c01a83a5","c40de110","efba6474"],"names":["DEN_FLG21","FIN_FLG21","ITL_FLG21","SWD_FLG21","UK_FLG21"],"raw_bindings":7,"already_accepted":false},
+    {"type":"d15a9e57","rows":[81,85,93],"source_crc32":["31705815","7bc6b39b","aa552671"],"names":["FIN_FLG12","FIN_FLG22"],"raw_bindings":3,"already_accepted":false},
+    {"type":"dc8b315c","rows":[2,6,10,14,18,22,26,30,34,38,42],"source_crc32":["0282d75a","2361437c","23bd199a","38ab674f","5beb340f","7ad4facf","8a78a1e5","8aa4fb03","ab476f25","d31142b0","f22e8c70"],"names":["UK_FLG13","UK_FLG23"],"raw_bindings":11,"already_accepted":true},
+    {"type":"e9792a6d","rows":[0,4,8,12,16,20,24,28,32,44,48,64,68,72,76,80,84],"source_crc32":["290096ed","44efda69","44faa177","497135d4","4d732c7f","524ceaae","5fd20513","6188dab8","69a9bbe7","8aff2e46","a206c12a","a604d881","af982e97","b4a5f1ed","b92e654e","b93b1e50","c2776213"],"names":["DEN_FLG11","FIN_FLG11","ITL_FLG11","SWD_FLG11","UK_FLG11"],"raw_bindings":17,"already_accepted":false},
+    {"type":"f1c2cb03","rows":[47,51,55,59],"source_crc32":["0a4312ba","532af1ef","61ca37f4","c80f8f8b"],"names":["ITL_FLG14","ITL_FLG24"],"raw_bindings":12,"already_accepted":false}
+  ],
+  "reused_materials": [
+    {"name":"LIFLAGA1","source_crc32":"2dc93a9b","image":"textures/thruxton-rest-liflaga1.webp","output_crc32":"5b2b47e0","size":[512,512],"donor":{"path":"data/thrufree.bfp","member":11,"bmp_crc32":"38e7c836"},"alpha_exact_source_black_key":true,"webp_quality":70,"webp_method":6,"bytes":16740},
+    {"name":"LIFLAGA2","source_crc32":"b221c277","image":"textures/thruxton-rest-liflaga2.webp","output_crc32":"944a88dc","size":[512,512],"donor":{"path":"data/thrufree.bfp","member":11,"bmp_crc32":"e0c481ca"},"alpha_exact_source_black_key":true,"webp_quality":70,"webp_method":6,"bytes":16580},
+    {"name":"LIFLAGA3","source_crc32":"f55e164d","image":"textures/thruxton-rest-liflaga3.webp","output_crc32":"680d12e3","size":[512,512],"donor":{"path":"data/thrufree.bfp","member":11,"bmp_crc32":"47feb733"},"alpha_exact_source_black_key":true,"webp_quality":70,"webp_method":6,"bytes":17228},
+    {"name":"LIFLAGF1","source_crc32":"969ab46c","image":"textures/thruxton-rest-liflagf1.webp","output_crc32":"66c39497","size":[512,512],"donor":{"path":"data/thrufree.bfp","member":11,"bmp_crc32":"b58d74d3"},"alpha_exact_source_black_key":true,"webp_quality":70,"webp_method":6,"bytes":6368},
+    {"name":"LIFLAGF2","source_crc32":"c3807433","image":"textures/thruxton-rest-liflagf2.webp","output_crc32":"5aaa9a41","size":[512,512],"donor":{"path":"data/thrufree.bfp","member":11,"bmp_crc32":"f9cf7d63"},"alpha_exact_source_black_key":true,"webp_quality":70,"webp_method":6,"bytes":6202},
+    {"name":"LIFLAGF3","source_crc32":"d2070cae","image":"textures/thruxton-rest-liflagf3.webp","output_crc32":"1ff62a46","size":[512,512],"donor":{"path":"data/thrufree.bfp","member":11,"bmp_crc32":"3e2f99e5"},"alpha_exact_source_black_key":true,"webp_quality":70,"webp_method":6,"bytes":8624},
+    {"name":"LIFLAGK1","source_crc32":"249a2ff6","image":"textures/thruxton-rest-liflagk1.webp","output_crc32":"98fd036c","size":[512,512],"donor":{"path":"data/thrufree.bfp","member":11,"bmp_crc32":"dbd9345c"},"alpha_exact_source_black_key":true,"webp_quality":70,"webp_method":6,"bytes":8944},
+    {"name":"LIFLAGK2","source_crc32":"546572c1","image":"textures/thruxton-rest-liflagk2.webp","output_crc32":"03c055b6","size":[512,512],"donor":{"path":"data/thrufree.bfp","member":11,"bmp_crc32":"ad1fafbc"},"alpha_exact_source_black_key":true,"webp_quality":70,"webp_method":6,"bytes":8694},
+    {"name":"LIFLAGK3","source_crc32":"3e5955df","image":"textures/thruxton-rest-liflagk3.webp","output_crc32":"7ef504c3","size":[512,512],"donor":{"path":"data/thrufree.bfp","member":11,"bmp_crc32":"ac1c8f22"},"alpha_exact_source_black_key":true,"webp_quality":70,"webp_method":6,"bytes":8950},
+    {"name":"LIFLAGL1","source_crc32":"0c4c5a07","image":"textures/thruxton-rest-liflagl1.webp","output_crc32":"29c2b0c1","size":[512,512],"donor":{"path":"data/thrufree.bfp","member":11,"bmp_crc32":"eb8452dc"},"alpha_exact_source_black_key":true,"webp_quality":70,"webp_method":6,"bytes":8236},
+    {"name":"LIFLAGL2","source_crc32":"560492b1","image":"textures/thruxton-rest-liflagl2.webp","output_crc32":"022857c7","size":[512,512],"donor":{"path":"data/thrufree.bfp","member":11,"bmp_crc32":"0a9957dd"},"alpha_exact_source_black_key":true,"webp_quality":70,"webp_method":6,"bytes":7986},
+    {"name":"LIFLAGL3","source_crc32":"90a3ebaa","image":"textures/thruxton-rest-liflagl3.webp","output_crc32":"ff284f66","size":[512,512],"donor":{"path":"data/thrufree.bfp","member":11,"bmp_crc32":"5ffa2dda"},"alpha_exact_source_black_key":true,"webp_quality":70,"webp_method":6,"bytes":8820},
+    {"name":"LIFLAGM1","source_crc32":"7f152fbb","image":"textures/thruxton-rest-liflagm1.webp","output_crc32":"10110dac","size":[512,512],"donor":{"path":"data/thrufree.bfp","member":11,"bmp_crc32":"ed1c0f03"},"alpha_exact_source_black_key":true,"webp_quality":70,"webp_method":6,"bytes":7966},
+    {"name":"LIFLAGM2","source_crc32":"a0806691","image":"textures/thruxton-rest-liflagm2.webp","output_crc32":"dc9b0c0b","size":[512,512],"donor":{"path":"data/thrufree.bfp","member":11,"bmp_crc32":"fb584b65"},"alpha_exact_source_black_key":true,"webp_quality":70,"webp_method":6,"bytes":7900},
+    {"name":"LIFLAGM3","source_crc32":"bdde0292","image":"textures/thruxton-rest-liflagm3.webp","output_crc32":"f835c8e6","size":[512,512],"donor":{"path":"data/thrufree.bfp","member":11,"bmp_crc32":"8d616308"},"alpha_exact_source_black_key":true,"webp_quality":70,"webp_method":6,"bytes":8848}
+  ],
+  "native_constants": [
+    {
+      "name": "POST",
+      "source_crc32": "22d32fc3",
+      "size": [
+        8,
+        16
+      ],
+      "rgb": [
+        189,
+        214,
+        222
+      ],
+      "review": "All128 source pixels are identical opaque colour; retain native source sampler, no artwork needed."
+    }
+  ],
+  "review": {
+    "alpha": "All15 authored image alpha planes equal nearest-neighbor original exact-black key at512x512; all15 source/donor alpha masks equal at32x32.",
+    "motifs": "UK Union Jack, Italian green/white/red tricolour, Swedish yellow Nordic cross on blue, Danish white Nordic cross on red, Finnish blue Nordic cross on white; all three original cloth phases reviewed against same-named Thruxton sources and authored images.",
+    "uv": "Original ordered signed16.16 UVs, material slots, faces, nodes and transforms preserved. Cloth spans U0..1 / V-65535..0. Two pole types retain original lower edge V1 vs V0 distinction.",
+    "raw_binding_limit": "142 includes unused alternative mesh references on ID5 pole nodes. Runtime animates only each ID1 cloth node; ID5 poles remain variant0. All96 mesh rows are used by24 live groups (72 cloth phases plus24 poles).",
+    "encoding": "Reused WebP70/method6 files preserved byte-for-byte; no new images or re-encoding."
+  }
+}

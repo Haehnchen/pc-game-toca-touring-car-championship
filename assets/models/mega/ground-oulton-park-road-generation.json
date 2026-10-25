@@ -1,0 +1,329 @@
+{
+  "version": 1,
+  "policy": "New original-reference-based Oulton Park road artwork. Mega only, opaque WebP quality80. Whole-image Lanczos resize; no procedural painting or mask composition.",
+  "sources": [
+    {
+      "id": "TRACK2",
+      "file": "exec-72ad1706-ebfe-4c62-af8f-bb71e23464a3.png",
+      "size": [
+        1774,
+        887
+      ],
+      "crc32": "b5e769d4",
+      "reference": {
+        "archive": "data/oultfree.bfp",
+        "archive_crc32": "e6e258cb",
+        "member": 1,
+        "member_name": "GROUND.C3D",
+        "member_crc32": "1a659c43",
+        "material_slot": 6,
+        "material": "TRACK2",
+        "bmp_crc32": "9595a564",
+        "size": [
+          128,
+          64
+        ]
+      }
+    },
+    {
+      "id": "SCRUB",
+      "file": "exec-c33a4e98-b865-49cd-b4f3-ca22e0843258.png",
+      "size": [
+        1254,
+        1254
+      ],
+      "crc32": "2ce3433c",
+      "reference": {
+        "archive": "data/oultfree.bfp",
+        "archive_crc32": "e6e258cb",
+        "member": 1,
+        "member_name": "GROUND.C3D",
+        "member_crc32": "1a659c43",
+        "material_slot": 10,
+        "material": "SCRUB",
+        "bmp_crc32": "ce7e336c",
+        "size": [
+          64,
+          64
+        ]
+      }
+    },
+    {
+      "id": "PIT",
+      "file": "exec-968876ef-71b4-4edc-b3fc-a45da3b5ae88.png",
+      "size": [
+        1254,
+        1254
+      ],
+      "crc32": "11c388f6",
+      "reference": {
+        "archive": "data/oultfree.bfp",
+        "archive_crc32": "e6e258cb",
+        "member": 1,
+        "member_name": "GROUND.C3D",
+        "member_crc32": "1a659c43",
+        "material_slot": 11,
+        "material": "PIT",
+        "bmp_crc32": "efd2172a",
+        "size": [
+          64,
+          64
+        ]
+      }
+    },
+    {
+      "id": "GRID_X",
+      "file": "exec-8a04db41-bf8b-4084-99ec-ae5168b99d11.png",
+      "size": [
+        887,
+        1774
+      ],
+      "crc32": "96f2ac93",
+      "reference": {
+        "archive": "data/oultfree.bfp",
+        "archive_crc32": "e6e258cb",
+        "member": 1,
+        "member_name": "GROUND.C3D",
+        "member_crc32": "1a659c43",
+        "material_slot": 0,
+        "material": "GRID_X",
+        "bmp_crc32": "a7036ca1",
+        "size": [
+          32,
+          64
+        ]
+      }
+    },
+    {
+      "id": "TRAK_X",
+      "file": "exec-e47b6de4-17df-491c-b178-929c80f42971.png",
+      "size": [
+        887,
+        1774
+      ],
+      "crc32": "ed624694",
+      "reference": {
+        "archive": "data/oultfree.bfp",
+        "archive_crc32": "e6e258cb",
+        "member": 1,
+        "member_name": "GROUND.C3D",
+        "member_crc32": "1a659c43",
+        "material_slot": 1,
+        "material": "TRAK_X",
+        "bmp_crc32": "63641c8c",
+        "size": [
+          32,
+          64
+        ]
+      }
+    },
+    {
+      "id": "START_X",
+      "file": "exec-52fc994f-fec2-4bee-bfbf-836d6485a28e.png",
+      "size": [
+        887,
+        1774
+      ],
+      "crc32": "0d63fbb5",
+      "reference": {
+        "archive": "data/oultfree.bfp",
+        "archive_crc32": "e6e258cb",
+        "member": 1,
+        "member_name": "GROUND.C3D",
+        "member_crc32": "1a659c43",
+        "material_slot": 2,
+        "material": "START_X",
+        "bmp_crc32": "d0734252",
+        "size": [
+          32,
+          64
+        ]
+      }
+    },
+    {
+      "id": "DLINE",
+      "file": "exec-7b14cebc-504f-4ca5-9e21-ce51d928ded0.png",
+      "size": [
+        1774,
+        887
+      ],
+      "crc32": "7eb67ac5",
+      "reference": {
+        "archive": "data/oultfree.bfp",
+        "archive_crc32": "e6e258cb",
+        "member": 1,
+        "member_name": "GROUND.C3D",
+        "member_crc32": "1a659c43",
+        "material_slot": 9,
+        "material": "DLINE",
+        "bmp_crc32": "cc65b39c",
+        "size": [
+          64,
+          32
+        ]
+      }
+    },
+    {
+      "id": "WATERX",
+      "file": "exec-68aa845e-05a7-4f7b-8d4a-a1949c5141e8.png",
+      "size": [
+        1254,
+        1254
+      ],
+      "crc32": "d38d96a9",
+      "reference": {
+        "archive": "data/oultfree.bfp",
+        "archive_crc32": "e6e258cb",
+        "member": 1,
+        "member_name": "GROUND.C3D",
+        "member_crc32": "1a659c43",
+        "material_slot": 15,
+        "material": "WATERX",
+        "bmp_crc32": "17e718bf",
+        "size": [
+          64,
+          64
+        ]
+      }
+    }
+  ],
+  "outputs": [
+    {
+      "image": "textures/ground-oulton-park-track2.webp",
+      "source": "TRACK2",
+      "crop": [
+        1774,
+        887,
+        0,
+        0
+      ],
+      "size": [
+        256,
+        128
+      ],
+      "alpha": "opaque",
+      "crc32": "c24ba1c1",
+      "bytes": 5558
+    },
+    {
+      "image": "textures/ground-oulton-park-scrub.webp",
+      "source": "SCRUB",
+      "crop": [
+        1254,
+        1254,
+        0,
+        0
+      ],
+      "size": [
+        128,
+        128
+      ],
+      "alpha": "opaque",
+      "crc32": "882c64c2",
+      "bytes": 4196
+    },
+    {
+      "image": "textures/ground-oulton-park-pit.webp",
+      "source": "PIT",
+      "crop": [
+        1254,
+        1254,
+        0,
+        0
+      ],
+      "size": [
+        128,
+        128
+      ],
+      "alpha": "opaque",
+      "crc32": "bca103a0",
+      "bytes": 4604
+    },
+    {
+      "image": "textures/ground-oulton-park-grid-x.webp",
+      "source": "GRID_X",
+      "crop": [
+        887,
+        1774,
+        0,
+        0
+      ],
+      "size": [
+        64,
+        128
+      ],
+      "alpha": "opaque",
+      "crc32": "1e7ae6bc",
+      "bytes": 1340
+    },
+    {
+      "image": "textures/ground-oulton-park-trak-x.webp",
+      "source": "TRAK_X",
+      "crop": [
+        887,
+        1774,
+        0,
+        0
+      ],
+      "size": [
+        64,
+        128
+      ],
+      "alpha": "opaque",
+      "crc32": "633aaa6e",
+      "bytes": 1032
+    },
+    {
+      "image": "textures/ground-oulton-park-start-x.webp",
+      "source": "START_X",
+      "crop": [
+        887,
+        1774,
+        0,
+        0
+      ],
+      "size": [
+        64,
+        128
+      ],
+      "alpha": "opaque",
+      "crc32": "dd451519",
+      "bytes": 1536
+    },
+    {
+      "image": "textures/ground-oulton-park-dline.webp",
+      "source": "DLINE",
+      "crop": [
+        1774,
+        887,
+        0,
+        0
+      ],
+      "size": [
+        128,
+        64
+      ],
+      "alpha": "opaque",
+      "crc32": "084d8e1a",
+      "bytes": 540
+    },
+    {
+      "image": "textures/ground-oulton-park-waterx.webp",
+      "source": "WATERX",
+      "crop": [
+        1254,
+        1254,
+        0,
+        0
+      ],
+      "size": [
+        128,
+        128
+      ],
+      "alpha": "opaque",
+      "crc32": "4645949b",
+      "bytes": 2744
+    }
+  ],
+  "webp_quality": 80
+}

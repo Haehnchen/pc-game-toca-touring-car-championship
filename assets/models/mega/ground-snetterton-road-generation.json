@@ -1,0 +1,289 @@
+{
+  "version": 1,
+  "policy": "New original-reference-based Snetterton road artwork. Mega only, opaque WebP quality80. Whole-image Lanczos resize; no procedural painting or mask composition.",
+  "sources": [
+    {
+      "id": "TRACKL",
+      "file": "exec-73110ba3-1663-450a-be1d-c01112c2a7e3.png",
+      "size": [
+        1774,
+        887
+      ],
+      "crc32": "06e9334d",
+      "reference": {
+        "archive": "data/snetfree.bfp",
+        "archive_crc32": "4111866a",
+        "member": 1,
+        "member_name": "GROUND.C3D",
+        "member_crc32": "5181cae9",
+        "material_slot": 1,
+        "material": "TRACKL",
+        "bmp_crc32": "119c1360",
+        "size": [
+          128,
+          64
+        ]
+      }
+    },
+    {
+      "id": "TRACKD",
+      "file": "exec-baddf7a0-2b34-4a0d-99e3-5f018470c852.png",
+      "size": [
+        1774,
+        887
+      ],
+      "crc32": "940dc401",
+      "reference": {
+        "archive": "data/snetfree.bfp",
+        "archive_crc32": "4111866a",
+        "member": 1,
+        "member_name": "GROUND.C3D",
+        "member_crc32": "5181cae9",
+        "material_slot": 12,
+        "material": "TRACKD",
+        "bmp_crc32": "2eb96032",
+        "size": [
+          128,
+          64
+        ]
+      }
+    },
+    {
+      "id": "PIT",
+      "file": "exec-ba0f3807-6227-4403-9885-79a15487fbfd.png",
+      "size": [
+        1254,
+        1254
+      ],
+      "crc32": "f10c1fa0",
+      "reference": {
+        "archive": "data/snetfree.bfp",
+        "archive_crc32": "4111866a",
+        "member": 1,
+        "member_name": "GROUND.C3D",
+        "member_crc32": "5181cae9",
+        "material_slot": 4,
+        "material": "PIT",
+        "bmp_crc32": "108104fb",
+        "size": [
+          64,
+          64
+        ]
+      }
+    },
+    {
+      "id": "SCRUB",
+      "file": "exec-ee4c2849-598d-4377-96cf-de4ef13add2b.png",
+      "size": [
+        1254,
+        1254
+      ],
+      "crc32": "935c2c28",
+      "reference": {
+        "archive": "data/snetfree.bfp",
+        "archive_crc32": "4111866a",
+        "member": 1,
+        "member_name": "GROUND.C3D",
+        "member_crc32": "5181cae9",
+        "material_slot": 11,
+        "material": "SCRUB",
+        "bmp_crc32": "79a716c6",
+        "size": [
+          64,
+          64
+        ]
+      }
+    },
+    {
+      "id": "TRAK_X",
+      "file": "exec-3b3e2f84-37dd-44ec-84b6-84841c4a079d.png",
+      "size": [
+        887,
+        1774
+      ],
+      "crc32": "f80d554a",
+      "reference": {
+        "archive": "data/snetfree.bfp",
+        "archive_crc32": "4111866a",
+        "member": 1,
+        "member_name": "GROUND.C3D",
+        "member_crc32": "5181cae9",
+        "material_slot": 8,
+        "material": "TRAK_X",
+        "bmp_crc32": "33c5bcaf",
+        "size": [
+          32,
+          64
+        ]
+      }
+    },
+    {
+      "id": "START_X",
+      "file": "exec-adaec506-4823-4fc8-a0ac-edfe4bf1257d.png",
+      "size": [
+        887,
+        1774
+      ],
+      "crc32": "a1ff73ef",
+      "reference": {
+        "archive": "data/snetfree.bfp",
+        "archive_crc32": "4111866a",
+        "member": 1,
+        "member_name": "GROUND.C3D",
+        "member_crc32": "5181cae9",
+        "material_slot": 9,
+        "material": "START_X",
+        "bmp_crc32": "4388bd25",
+        "size": [
+          32,
+          64
+        ]
+      }
+    },
+    {
+      "id": "GRID_X",
+      "file": "exec-ddb2282c-827c-4bd0-a3b0-f22dc5dd949c.png",
+      "size": [
+        887,
+        1774
+      ],
+      "crc32": "10d5c422",
+      "reference": {
+        "archive": "data/snetfree.bfp",
+        "archive_crc32": "4111866a",
+        "member": 1,
+        "member_name": "GROUND.C3D",
+        "member_crc32": "5181cae9",
+        "material_slot": 10,
+        "material": "GRID_X",
+        "bmp_crc32": "3146ad99",
+        "size": [
+          32,
+          64
+        ]
+      }
+    }
+  ],
+  "outputs": [
+    {
+      "image": "textures/ground-snetterton-trackl.webp",
+      "source": "TRACKL",
+      "crop": [
+        1774,
+        887,
+        0,
+        0
+      ],
+      "size": [
+        256,
+        128
+      ],
+      "alpha": "opaque",
+      "crc32": "ad5d596e",
+      "bytes": 7766
+    },
+    {
+      "image": "textures/ground-snetterton-trackd.webp",
+      "source": "TRACKD",
+      "crop": [
+        1774,
+        887,
+        0,
+        0
+      ],
+      "size": [
+        256,
+        128
+      ],
+      "alpha": "opaque",
+      "crc32": "43df5186",
+      "bytes": 1966
+    },
+    {
+      "image": "textures/ground-snetterton-pit.webp",
+      "source": "PIT",
+      "crop": [
+        1254,
+        1254,
+        0,
+        0
+      ],
+      "size": [
+        128,
+        128
+      ],
+      "alpha": "opaque",
+      "crc32": "4dc99644",
+      "bytes": 2562
+    },
+    {
+      "image": "textures/ground-snetterton-scrub.webp",
+      "source": "SCRUB",
+      "crop": [
+        1254,
+        1254,
+        0,
+        0
+      ],
+      "size": [
+        128,
+        128
+      ],
+      "alpha": "opaque",
+      "crc32": "cb7cd38d",
+      "bytes": 1940
+    },
+    {
+      "image": "textures/ground-snetterton-trak-x.webp",
+      "source": "TRAK_X",
+      "crop": [
+        887,
+        1774,
+        0,
+        0
+      ],
+      "size": [
+        64,
+        128
+      ],
+      "alpha": "opaque",
+      "crc32": "386bbeaf",
+      "bytes": 1526
+    },
+    {
+      "image": "textures/ground-snetterton-start-x.webp",
+      "source": "START_X",
+      "crop": [
+        887,
+        1774,
+        0,
+        0
+      ],
+      "size": [
+        64,
+        128
+      ],
+      "alpha": "opaque",
+      "crc32": "d7546d02",
+      "bytes": 1382
+    },
+    {
+      "image": "textures/ground-snetterton-grid-x.webp",
+      "source": "GRID_X",
+      "crop": [
+        887,
+        1774,
+        0,
+        0
+      ],
+      "size": [
+        64,
+        128
+      ],
+      "alpha": "opaque",
+      "crc32": "ba1f9542",
+      "bytes": 1442
+    }
+  ],
+  "webp_quality": 80
+}

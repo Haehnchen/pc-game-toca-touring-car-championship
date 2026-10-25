@@ -1,0 +1,305 @@
+{
+  "version": 1,
+  "policy": "New original-reference-based Silverstone road artwork. Mega only, opaque WebP quality80. Whole-image Lanczos resize; no procedural painting or mask composition.",
+  "sources": [
+    {
+      "id": "TRACK2",
+      "file": "exec-c84ecae2-2f84-45c6-8c7a-09844130aaef.png",
+      "size": [
+        1254,
+        1254
+      ],
+      "crc32": "c2a732f0",
+      "reference": {
+        "archive": "data/silvfree.bfp",
+        "archive_crc32": "960a335c",
+        "member": 1,
+        "member_name": "GROUND.C3D",
+        "member_crc32": "158558eb",
+        "material_slot": 0,
+        "material": "TRACK2",
+        "bmp_crc32": "a65c40a1",
+        "size": [
+          64,
+          64
+        ]
+      }
+    },
+    {
+      "id": "NUTRAK2",
+      "file": "exec-41bdbec4-efad-4969-80b2-8fa64bfb480a.png",
+      "size": [
+        1774,
+        887
+      ],
+      "crc32": "5161f865",
+      "reference": {
+        "archive": "data/silvfree.bfp",
+        "archive_crc32": "960a335c",
+        "member": 1,
+        "member_name": "GROUND.C3D",
+        "member_crc32": "158558eb",
+        "material_slot": 2,
+        "material": "NUTRAK2",
+        "bmp_crc32": "f45116cb",
+        "size": [
+          128,
+          64
+        ]
+      }
+    },
+    {
+      "id": "NUTRAK",
+      "file": "exec-9f75d257-7d04-4d12-be99-442dad403d22.png",
+      "size": [
+        1774,
+        887
+      ],
+      "crc32": "3705711c",
+      "reference": {
+        "archive": "data/silvfree.bfp",
+        "archive_crc32": "960a335c",
+        "member": 1,
+        "member_name": "GROUND.C3D",
+        "member_crc32": "158558eb",
+        "material_slot": 7,
+        "material": "NUTRAK",
+        "bmp_crc32": "cc3ced6d",
+        "size": [
+          128,
+          64
+        ]
+      }
+    },
+    {
+      "id": "PITROAD",
+      "file": "exec-a9ee5145-ae78-4d4f-923a-2ef72dfb0a93.png",
+      "size": [
+        1254,
+        1254
+      ],
+      "crc32": "59dc041f",
+      "reference": {
+        "archive": "data/silvfree.bfp",
+        "archive_crc32": "960a335c",
+        "member": 1,
+        "member_name": "GROUND.C3D",
+        "member_crc32": "158558eb",
+        "material_slot": 11,
+        "material": "PITROAD",
+        "bmp_crc32": "76c5663d",
+        "size": [
+          64,
+          64
+        ]
+      }
+    },
+    {
+      "id": "TRAK_X",
+      "file": "exec-0ab9ab43-dabe-40f3-9018-35c62172d1da.png",
+      "size": [
+        887,
+        1774
+      ],
+      "crc32": "efac8a97",
+      "reference": {
+        "archive": "data/silvfree.bfp",
+        "archive_crc32": "960a335c",
+        "member": 1,
+        "member_name": "GROUND.C3D",
+        "member_crc32": "158558eb",
+        "material_slot": 12,
+        "material": "TRAK_X",
+        "bmp_crc32": "23ea13c9",
+        "size": [
+          32,
+          64
+        ]
+      },
+      "polish_reason": "Match approved companion material brightness/grain while preserving existing marking or transition geometry."
+    },
+    {
+      "id": "START_X",
+      "file": "exec-dfe6e605-6f62-46e4-911f-20ee1f2d40bb.png",
+      "size": [
+        887,
+        1774
+      ],
+      "crc32": "c404da30",
+      "reference": {
+        "archive": "data/silvfree.bfp",
+        "archive_crc32": "960a335c",
+        "member": 1,
+        "member_name": "GROUND.C3D",
+        "member_crc32": "158558eb",
+        "material_slot": 13,
+        "material": "START_X",
+        "bmp_crc32": "032f4cae",
+        "size": [
+          32,
+          64
+        ]
+      },
+      "polish_reason": "Match approved companion material brightness/grain while preserving existing marking or transition geometry."
+    },
+    {
+      "id": "GRID_X",
+      "file": "exec-60f71d24-e45d-43ee-8c19-91aa0451dd4d.png",
+      "size": [
+        887,
+        1774
+      ],
+      "crc32": "251115b7",
+      "reference": {
+        "archive": "data/silvfree.bfp",
+        "archive_crc32": "960a335c",
+        "member": 1,
+        "member_name": "GROUND.C3D",
+        "member_crc32": "158558eb",
+        "material_slot": 14,
+        "material": "GRID_X",
+        "bmp_crc32": "c7a843ac",
+        "size": [
+          32,
+          64
+        ]
+      }
+    }
+  ],
+  "outputs": [
+    {
+      "image": "textures/ground-silverstone-track2.webp",
+      "source": "TRACK2",
+      "crop": [
+        1254,
+        1254,
+        0,
+        0
+      ],
+      "size": [
+        128,
+        128
+      ],
+      "alpha": "opaque",
+      "crc32": "cd3eaccf",
+      "bytes": 432
+    },
+    {
+      "image": "textures/ground-silverstone-nutrak2.webp",
+      "source": "NUTRAK2",
+      "crop": [
+        1774,
+        887,
+        0,
+        0
+      ],
+      "size": [
+        256,
+        128
+      ],
+      "alpha": "opaque",
+      "crc32": "01334fc3",
+      "bytes": 6636
+    },
+    {
+      "image": "textures/ground-silverstone-nutrak.webp",
+      "source": "NUTRAK",
+      "crop": [
+        1774,
+        887,
+        0,
+        0
+      ],
+      "size": [
+        256,
+        128
+      ],
+      "alpha": "opaque",
+      "crc32": "dd602236",
+      "bytes": 2654
+    },
+    {
+      "image": "textures/ground-silverstone-pitroad.webp",
+      "source": "PITROAD",
+      "crop": [
+        1254,
+        1254,
+        0,
+        0
+      ],
+      "size": [
+        128,
+        128
+      ],
+      "alpha": "opaque",
+      "crc32": "8910804d",
+      "bytes": 1964
+    },
+    {
+      "image": "textures/ground-silverstone-trak-x.webp",
+      "source": "TRAK_X",
+      "crop": [
+        887,
+        1774,
+        0,
+        0
+      ],
+      "size": [
+        64,
+        128
+      ],
+      "alpha": "opaque",
+      "crc32": "4a993910",
+      "bytes": 1176,
+      "method": 6,
+      "resize": "Whole generated image resized with Lanczos; no painting, mask composition or color postprocessing.",
+      "mean_rgb": [
+        50.63,
+        50.675,
+        50.363
+      ]
+    },
+    {
+      "image": "textures/ground-silverstone-start-x.webp",
+      "source": "START_X",
+      "crop": [
+        887,
+        1774,
+        0,
+        0
+      ],
+      "size": [
+        64,
+        128
+      ],
+      "alpha": "opaque",
+      "crc32": "1acb65bb",
+      "bytes": 1490,
+      "method": 6,
+      "resize": "Whole generated image resized with Lanczos; no painting, mask composition or color postprocessing.",
+      "mean_rgb": [
+        54.58,
+        55.059,
+        55.004
+      ]
+    },
+    {
+      "image": "textures/ground-silverstone-grid-x.webp",
+      "source": "GRID_X",
+      "crop": [
+        887,
+        1774,
+        0,
+        0
+      ],
+      "size": [
+        64,
+        128
+      ],
+      "alpha": "opaque",
+      "crc32": "3e565f19",
+      "bytes": 1050
+    }
+  ],
+  "webp_quality": 80
+}

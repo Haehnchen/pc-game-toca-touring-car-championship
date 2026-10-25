@@ -1,0 +1,419 @@
+{
+  "version": 1,
+  "processing": "Each material generated separately with built-in Imagegen using its enlarged original layout. Portrait WHITEL and DLINE references were resized as whole images to 1:3 for generation; each full generated canvas was resized with Lanczos to the exact planned size. Encoded WebP quality80 method6; opaque RGB except keyed rumble retains generated alpha. No programmatic painting, masks, alpha quantization or material composition.",
+  "sources": [
+    {
+      "id": "GRASS2",
+      "file": "exec-53fd6699-ad4c-4669-88ae-9719bbaa87f1.png",
+      "crc32": "dc0845a2",
+      "size": [
+        1254,
+        1254
+      ],
+      "reference": {
+        "archive": "data/knocfree.bfp",
+        "archive_crc32": "7e00bade",
+        "member": 1,
+        "member_name": "GROUND.C3D",
+        "member_crc32": "b04927f8",
+        "material_slot": 1,
+        "material": "GRASS2",
+        "bmp_crc32": "698762a2",
+        "size": [
+          128,
+          128
+        ]
+      }
+    },
+    {
+      "id": "WHITEL",
+      "file": "exec-46dca326-8e6a-49a6-8fd8-6145e12e87fd.png",
+      "crc32": "5987b881",
+      "size": [
+        1086,
+        1448
+      ],
+      "reference": {
+        "archive": "data/knocfree.bfp",
+        "archive_crc32": "7e00bade",
+        "member": 1,
+        "member_name": "GROUND.C3D",
+        "member_crc32": "b04927f8",
+        "material_slot": 5,
+        "material": "WHITEL",
+        "bmp_crc32": "828875f9",
+        "size": [
+          16,
+          64
+        ]
+      }
+    },
+    {
+      "id": "rumble",
+      "file": "exec-eb0aaede-61bb-4491-b273-aefcbdd922b9.png",
+      "crc32": "b7acf5db",
+      "size": [
+        1774,
+        887
+      ],
+      "reference": {
+        "archive": "data/knocfree.bfp",
+        "archive_crc32": "7e00bade",
+        "member": 1,
+        "member_name": "GROUND.C3D",
+        "member_crc32": "b04927f8",
+        "material_slot": 8,
+        "material": "rumble",
+        "bmp_crc32": "6d05b433",
+        "size": [
+          64,
+          32
+        ]
+      }
+    },
+    {
+      "id": "g&g",
+      "file": "exec-143ddffe-aaee-4cfe-aa26-71fa3ea39510.png",
+      "crc32": "b35e3cd5",
+      "size": [
+        887,
+        1774
+      ],
+      "reference": {
+        "archive": "data/knocfree.bfp",
+        "archive_crc32": "7e00bade",
+        "member": 1,
+        "member_name": "GROUND.C3D",
+        "member_crc32": "b04927f8",
+        "material_slot": 9,
+        "material": "g&g",
+        "bmp_crc32": "2890fd36",
+        "size": [
+          32,
+          64
+        ]
+      }
+    },
+    {
+      "id": "gravel",
+      "file": "exec-211b2fc9-3104-401f-a646-7060db0ef623.png",
+      "crc32": "bf7ad940",
+      "size": [
+        1254,
+        1254
+      ],
+      "reference": {
+        "archive": "data/knocfree.bfp",
+        "archive_crc32": "7e00bade",
+        "member": 1,
+        "member_name": "GROUND.C3D",
+        "member_crc32": "b04927f8",
+        "material_slot": 10,
+        "material": "gravel",
+        "bmp_crc32": "b0db5854",
+        "size": [
+          64,
+          64
+        ]
+      }
+    },
+    {
+      "id": "CHEVRONS",
+      "file": "exec-0bc621a9-e986-459f-81ad-fc68a89507bd.png",
+      "crc32": "145bb198",
+      "size": [
+        1254,
+        1254
+      ],
+      "reference": {
+        "archive": "data/knocfree.bfp",
+        "archive_crc32": "7e00bade",
+        "member": 1,
+        "member_name": "GROUND.C3D",
+        "member_crc32": "b04927f8",
+        "material_slot": 12,
+        "material": "CHEVRONS",
+        "bmp_crc32": "f0dc1699",
+        "size": [
+          64,
+          64
+        ]
+      }
+    },
+    {
+      "id": "DLINE",
+      "file": "exec-6dd5b91b-ba9e-4e88-ac7c-c6ce421bd2db.png",
+      "crc32": "3cc7a98d",
+      "size": [
+        725,
+        2170
+      ],
+      "reference": {
+        "archive": "data/knocfree.bfp",
+        "archive_crc32": "7e00bade",
+        "member": 1,
+        "member_name": "GROUND.C3D",
+        "member_crc32": "b04927f8",
+        "material_slot": 13,
+        "material": "DLINE",
+        "bmp_crc32": "81eaafef",
+        "size": [
+          16,
+          64
+        ]
+      }
+    }
+  ],
+  "outputs": [
+    {
+      "image": "textures/ground-knockhill-grass2.webp",
+      "source": "GRASS2",
+      "size": [
+        256,
+        256
+      ],
+      "alpha": "opaque",
+      "webp_quality": 80,
+      "method": 6,
+      "crc32": "efc73712",
+      "bytes": 16140,
+      "mean_rgb": [
+        65.524,
+        65.703,
+        10.838
+      ]
+    },
+    {
+      "image": "textures/ground-knockhill-whitel.webp",
+      "source": "WHITEL",
+      "size": [
+        32,
+        128
+      ],
+      "alpha": "opaque",
+      "webp_quality": 80,
+      "method": 6,
+      "crc32": "166f3f8a",
+      "bytes": 294,
+      "mean_rgb": [
+        153.414,
+        150.412,
+        148.168
+      ]
+    },
+    {
+      "image": "textures/ground-knockhill-rumble.webp",
+      "source": "rumble",
+      "size": [
+        128,
+        64
+      ],
+      "alpha": "preserved generated top-edge notch transparency",
+      "webp_quality": 80,
+      "method": 6,
+      "crc32": "276a3d2f",
+      "bytes": 3494,
+      "mean_rgb": [
+        118.092,
+        76.707,
+        44.244
+      ],
+      "alpha_qa": {
+        "source_key_pixels": 8,
+        "source_expected_target_notches": [
+          [
+            48,
+            0,
+            50,
+            4
+          ],
+          [
+            56,
+            0,
+            58,
+            4
+          ],
+          [
+            64,
+            0,
+            66,
+            4
+          ],
+          [
+            72,
+            0,
+            74,
+            4
+          ]
+        ],
+        "generated_cutout_pixels_below128": 24,
+        "generated_cutout_bbox": [
+          48,
+          0,
+          74,
+          3
+        ],
+        "generated_cutout_x_columns": [
+          48,
+          49,
+          56,
+          57,
+          64,
+          65,
+          72,
+          73
+        ],
+        "generated_cutout_y_rows": [
+          0,
+          1,
+          2
+        ],
+        "main_surface_alpha_note": "Built-in transparent output has near-opaque alpha mostly 247–252 across painted surface, retained unmodified. TerrainView alpha_cutoff=0.5 with blend=false discards only cutouts and renders accepted surface RGB fully opaque. Four cutouts are 2×3 target pixels with a partial fourth row, versus the original target 2×4; accepted one-pixel edge tolerance. No other pixels have alpha<128.",
+        "alpha_histogram": {
+          "0": 3,
+          "3": 1,
+          "10": 1,
+          "11": 2,
+          "22": 1,
+          "23": 1,
+          "24": 1,
+          "31": 1,
+          "35": 2,
+          "41": 1,
+          "44": 1,
+          "47": 1,
+          "53": 1,
+          "55": 1,
+          "62": 1,
+          "68": 1,
+          "72": 1,
+          "83": 1,
+          "88": 1,
+          "90": 1,
+          "177": 1,
+          "180": 1,
+          "183": 1,
+          "187": 1,
+          "189": 1,
+          "194": 1,
+          "198": 1,
+          "206": 1,
+          "230": 1,
+          "231": 1,
+          "232": 1,
+          "241": 3,
+          "244": 1,
+          "245": 5,
+          "246": 42,
+          "247": 136,
+          "248": 486,
+          "249": 1701,
+          "250": 3804,
+          "251": 1911,
+          "252": 39,
+          "254": 4,
+          "255": 25
+        },
+        "generated_cutout_notches_below128": [
+          [
+            48,
+            0,
+            50,
+            3
+          ],
+          [
+            56,
+            0,
+            58,
+            3
+          ],
+          [
+            64,
+            0,
+            66,
+            3
+          ],
+          [
+            72,
+            0,
+            74,
+            3
+          ]
+        ]
+      }
+    },
+    {
+      "image": "textures/ground-knockhill-gg.webp",
+      "source": "g&g",
+      "size": [
+        64,
+        128
+      ],
+      "alpha": "opaque",
+      "webp_quality": 80,
+      "method": 6,
+      "crc32": "283dd1cb",
+      "bytes": 1830,
+      "mean_rgb": [
+        91.469,
+        76.022,
+        34.993
+      ]
+    },
+    {
+      "image": "textures/ground-knockhill-gravel.webp",
+      "source": "gravel",
+      "size": [
+        128,
+        128
+      ],
+      "alpha": "opaque",
+      "webp_quality": 80,
+      "method": 6,
+      "crc32": "9936eec9",
+      "bytes": 4304,
+      "mean_rgb": [
+        117.52,
+        89.917,
+        59.139
+      ]
+    },
+    {
+      "image": "textures/ground-knockhill-chevrons.webp",
+      "source": "CHEVRONS",
+      "size": [
+        128,
+        128
+      ],
+      "alpha": "opaque",
+      "webp_quality": 80,
+      "method": 6,
+      "crc32": "d4b2bd20",
+      "bytes": 3666,
+      "mean_rgb": [
+        79.656,
+        79.727,
+        77.476
+      ]
+    },
+    {
+      "image": "textures/ground-knockhill-dline.webp",
+      "source": "DLINE",
+      "size": [
+        32,
+        128
+      ],
+      "alpha": "opaque",
+      "webp_quality": 80,
+      "method": 6,
+      "crc32": "a46041f6",
+      "bytes": 404,
+      "mean_rgb": [
+        107.033,
+        105.878,
+        104.399
+      ]
+    }
+  ],
+  "webp_quality": 80
+}

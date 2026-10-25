@@ -1,0 +1,306 @@
+{
+  "version": 1,
+  "package": "T10",
+  "source": {
+    "archive": "data/donlfree.bfp",
+    "archive_crc32": "46885a20",
+    "member": 5,
+    "member_crc32": "5f670bb9",
+    "mesh": "DA41TRA_1",
+    "mesh_index": 34,
+    "mesh_crc32": "1e154756",
+    "type": "7653b1bc",
+    "vertices": 99,
+    "triangles": 64
+  },
+  "shared_consumers": [
+    {
+      "track": 0,
+      "member": 5,
+      "mesh": 34,
+      "node": 127,
+      "root": 126
+    },
+    {
+      "track": 0,
+      "member": 5,
+      "mesh": 34,
+      "node": 129,
+      "root": 128
+    },
+    {
+      "track": 5,
+      "member": 5,
+      "mesh": 34,
+      "node": 131,
+      "root": 130
+    },
+    {
+      "track": 5,
+      "member": 5,
+      "mesh": 34,
+      "node": 133,
+      "root": 132
+    }
+  ],
+  "lod": "DA41TRA_1 absent from originalFREE6/7 inGP/Short; retain source absence. Artwork package changes Mega detail4 only.",
+  "outputs": [
+    {
+      "name": "DA41TRA1",
+      "source_bmp_crc32": "194d6ca3",
+      "source_size": [
+        32,
+        32
+      ],
+      "source_slot_gp_short": 68,
+      "image": "textures/donington-static-da41tra1.webp",
+      "crc32": "d82be63c",
+      "bytes": 7042,
+      "size": [
+        512,
+        512
+      ],
+      "provenance": {
+        "source_reference": {
+          "path": "build/donington-gp-texture-review/audit/exclusion-evidence/DA41TRA1-original.png",
+          "crc32": "83d756a8"
+        },
+        "generator_file": "exec-fa00ac3c-a835-44d2-9167-25119640ae93.png",
+        "generator_crc32": "0de16dac",
+        "source_role": "Rear face of tall box body: pale cool-grey upper panels, olive/grey lower metal doors and bumper, red tail-light blocks near lower left/right. Source crop is used over complete rear face; preserve horizontal panel transitions and source perspective.",
+        "export": {
+          "encoding": "WebPquality80 method6 exact alpha",
+          "crop": "whole original-aspect generated canvas; no margin crop, UV warping, or source RGB copying",
+          "resize": "Lanczos to exact source aspect, maximumedge512",
+          "alpha": "Native exact-RGB-black source cutout mask mapped at integer16x resolution with nearest sampling. Source alpha only, never source RGB. TRA1/2 fullyopaque. For accidental generator holes outside original cutout, nearest opaque generated RGB extended by four-neighbour breadth-first fill before assigning canonical alpha; no original RGB used.",
+          "source_black_pixel_count": 0,
+          "resized_generator_hole_pixels_filled": 0,
+          "output_alpha_extrema": [
+            255,
+            255
+          ],
+          "output_alpha_matches_native_source_mask": true
+        },
+        "source_band_correction": "Source rows0–10 bluegrey,11–12 transition,remainingolivegrey; final maintransition~35%. Earlier draft had overly tall50%upperfield."
+      }
+    },
+    {
+      "name": "DA41TRA2",
+      "source_bmp_crc32": "08b3e60b",
+      "source_size": [
+        32,
+        32
+      ],
+      "source_slot_gp_short": 69,
+      "image": "textures/donington-static-da41tra2.webp",
+      "crc32": "6a89d5d1",
+      "bytes": 6384,
+      "size": [
+        512,
+        512
+      ],
+      "provenance": {
+        "source_reference": {
+          "path": "build/donington-gp-texture-review/audit/exclusion-evidence/DA41TRA2-original.png",
+          "crc32": "28bdbb8b"
+        },
+        "generator_file": "exec-860baabb-55f5-4151-84d3-5db62be8a95d.png",
+        "generator_crc32": "4b80e49a",
+        "source_role": "Forward face of box behind cab, also opposite-facing inset: pale lavender/grey upper band, dark rusty-brown horizontally ribbed lower field, thin light horizontal rail near lower quarter. Not the cab front; do not add windscreen or brand.",
+        "export": {
+          "encoding": "WebPquality80 method6 exact alpha",
+          "crop": "whole original-aspect generated canvas; no margin crop, UV warping, or source RGB copying",
+          "resize": "Lanczos to exact source aspect, maximumedge512",
+          "alpha": "Native exact-RGB-black source cutout mask mapped at integer16x resolution with nearest sampling. Source alpha only, never source RGB. TRA1/2 fullyopaque. For accidental generator holes outside original cutout, nearest opaque generated RGB extended by four-neighbour breadth-first fill before assigning canonical alpha; no original RGB used.",
+          "source_black_pixel_count": 0,
+          "resized_generator_hole_pixels_filled": 0,
+          "output_alpha_extrema": [
+            255,
+            255
+          ],
+          "output_alpha_matches_native_source_mask": true
+        },
+        "source_band_correction": "Grey header source rows0–7≈25%, darkbrown startsrow8; pale rail source row25≈78.125%; rust/decorativehardware reduced."
+      }
+    },
+    {
+      "name": "DA41TRA3",
+      "source_bmp_crc32": "a778595b",
+      "source_size": [
+        16,
+        32
+      ],
+      "source_slot_gp_short": 70,
+      "image": "textures/donington-static-da41tra3.webp",
+      "crc32": "d8760e29",
+      "bytes": 8058,
+      "size": [
+        256,
+        512
+      ],
+      "provenance": {
+        "source_reference": {
+          "path": "build/donington-gp-texture-review/audit/exclusion-evidence/DA41TRA3-original.png",
+          "crc32": "2e49444c"
+        },
+        "generator_file": "exec-5d2192d9-7911-494e-96c8-87d35a6d6c56.png",
+        "generator_crc32": "6d1d085a",
+        "source_role": "Narrow cab side profile shared on both sides: pale grey-white cab, dark window at upper-left, small warm/grey door details, dark wheel arch and pale hub low in the canvas. Source profile faces left in the image. Native model applies the same image to opposite flanks; do not create a separately mirrored asset.",
+        "export": {
+          "encoding": "WebPquality80 method6 exact alpha",
+          "crop": "whole original-aspect generated canvas; no margin crop, UV warping, or source RGB copying",
+          "resize": "Lanczos to exact source aspect, maximumedge512",
+          "alpha": "Native exact-RGB-black source cutout mask mapped at integer16x resolution with nearest sampling. Source alpha only, never source RGB. TRA1/2 fullyopaque. For accidental generator holes outside original cutout, nearest opaque generated RGB extended by four-neighbour breadth-first fill before assigning canonical alpha; no original RGB used.",
+          "source_black_pixel_count": 27,
+          "resized_generator_hole_pixels_filled": 7380,
+          "output_alpha_extrema": [
+            0,
+            255
+          ],
+          "output_alpha_matches_native_source_mask": true
+        }
+      }
+    },
+    {
+      "name": "DA41TRA4",
+      "source_bmp_crc32": "5b3e8fb4",
+      "source_size": [
+        32,
+        32
+      ],
+      "source_slot_gp_short": 71,
+      "image": "textures/donington-static-da41tra4.webp",
+      "crc32": "8833d9bf",
+      "bytes": 8184,
+      "size": [
+        512,
+        512
+      ],
+      "provenance": {
+        "source_reference": {
+          "path": "build/donington-gp-texture-review/audit/exclusion-evidence/DA41TRA4-original.png",
+          "crc32": "0744733c"
+        },
+        "generator_file": "exec-2fe5274f-30bb-4f83-aea7-6a026e426acf.png",
+        "generator_crc32": "5d1abfd1",
+        "source_role": "Forward half of tall box-body side, nearest cab. Full square retains pale cool-grey body, small red vertical abstract marking near upper-left, subtle grey/green cropped motif at right edge, wheel low at left and dark lower sill. Joins DA41TRA5 across long side; do not invent lettering or logo.",
+        "export": {
+          "encoding": "WebPquality80 method6 exact alpha",
+          "crop": "whole original-aspect generated canvas; no margin crop, UV warping, or source RGB copying",
+          "resize": "Lanczos to exact source aspect, maximumedge512",
+          "alpha": "Native exact-RGB-black source cutout mask mapped at integer16x resolution with nearest sampling. Source alpha only, never source RGB. TRA1/2 fullyopaque. For accidental generator holes outside original cutout, nearest opaque generated RGB extended by four-neighbour breadth-first fill before assigning canonical alpha; no original RGB used.",
+          "source_black_pixel_count": 41,
+          "resized_generator_hole_pixels_filled": 25929,
+          "output_alpha_extrema": [
+            0,
+            255
+          ],
+          "output_alpha_matches_native_source_mask": true
+        }
+      }
+    },
+    {
+      "name": "DA41TRA5",
+      "source_bmp_crc32": "20348e9f",
+      "source_size": [
+        32,
+        32
+      ],
+      "source_slot_gp_short": 72,
+      "image": "textures/donington-static-da41tra5.webp",
+      "crc32": "abe8e9b5",
+      "bytes": 11590,
+      "size": [
+        512,
+        512
+      ],
+      "provenance": {
+        "source_reference": {
+          "path": "build/donington-gp-texture-review/audit/exclusion-evidence/DA41TRA5-original.png",
+          "crc32": "7f2e854b"
+        },
+        "generator_file": "exec-94dce0a5-af07-49be-9550-76f3a424ac85.png",
+        "generator_crc32": "ffe6838c",
+        "source_role": "Rear half of tall box-body side, shared on both flanks. Preserve pale grey-white metal body, subdued diagonal dark marks/indistinct source lettering across upper-middle, lower dark horizontal rail/grille, small red vertical marks at right, and original perspective/crop. Also supplies tiny pale roof sample; protected roof patch must remain quiet light grey.",
+        "export": {
+          "encoding": "WebPquality80 method6 exact alpha",
+          "crop": "whole original-aspect generated canvas; no margin crop, UV warping, or source RGB copying",
+          "resize": "Lanczos to exact source aspect, maximumedge512",
+          "alpha": "Native exact-RGB-black source cutout mask mapped at integer16x resolution with nearest sampling. Source alpha only, never source RGB. TRA1/2 fullyopaque. For accidental generator holes outside original cutout, nearest opaque generated RGB extended by four-neighbour breadth-first fill before assigning canonical alpha; no original RGB used.",
+          "source_black_pixel_count": 43,
+          "resized_generator_hole_pixels_filled": 23135,
+          "output_alpha_extrema": [
+            0,
+            255
+          ],
+          "output_alpha_matches_native_source_mask": true
+        },
+        "user_authorized_reconstruction": {
+          "authorization": "After discussion of unreadable original truck brand, user explicitly invited a suitable invented name: gerne einen sinnvollen namen finden was vielleicht farblich dazu passt ;)",
+          "chosen_name": "SILVERLINE MOTORSPORT",
+          "scope": "Whole two-line darkgrey lightly slanted wordgroup replaces original unreadable side wording in TRA5. No claim of original text or manufacturer. No added logo, stripe, flag or new livery area. Earlier no-wording drafts retained in iterations.",
+          "roof_sample": {
+            "u": [
+              0.548386,
+              0.709671
+            ],
+            "y": [
+              0.22583,
+              0.290344
+            ],
+            "invariant": "plain light generated paint, no text/red/darkmotif"
+          }
+        },
+        "source_uv_limitation": "Both box flanks use u1 at rear, u0 at forward seam, with unchanged V orientation. Therefore wordgroup reads normally on local +X flank and appears horizontally mirrored on local -X flank. Existing source limitation; no image/UV/material workaround.",
+        "side_join": "TRA5 leftedgeu0 meets TRA4 rightedgeu1 at localY−2.8598. Wordgroup remains whole within TRA5; no partial words across seam."
+      }
+    },
+    {
+      "name": "DA41TRA6",
+      "source_bmp_crc32": "b3115cc1",
+      "source_size": [
+        32,
+        32
+      ],
+      "source_slot_gp_short": 73,
+      "image": "textures/donington-static-da41tra6.webp",
+      "crc32": "744631be",
+      "bytes": 12164,
+      "size": [
+        512,
+        512
+      ],
+      "provenance": {
+        "source_reference": {
+          "path": "build/donington-gp-texture-review/audit/exclusion-evidence/DA41TRA6-original.png",
+          "crc32": "c765219b"
+        },
+        "generator_file": "exec-921d3c79-ac16-4e32-9327-d4fc3078a50b.png",
+        "generator_crc32": "82cd7765",
+        "source_role": "Cab multi-surface atlas, not one full vehicle view. Top rows contain quiet pale roof-edge/short upper-side patches; dark grey-blue windscreen/interior band in middle-upper canvas; muted grey/olive front panel and grille below; warm dark sill low. Preserve all source bands, small details and original black-key bottom mask. No invented manufacturer badge.",
+        "export": {
+          "encoding": "WebPquality80 method6 exact alpha",
+          "crop": "whole original-aspect generated canvas; no margin crop, UV warping, or source RGB copying",
+          "resize": "Lanczos to exact source aspect, maximumedge512",
+          "alpha": "Native exact-RGB-black source cutout mask mapped at integer16x resolution with nearest sampling. Source alpha only, never source RGB. TRA1/2 fullyopaque. For accidental generator holes outside original cutout, nearest opaque generated RGB extended by four-neighbour breadth-first fill before assigning canonical alpha; no original RGB used.",
+          "source_black_pixel_count": 96,
+          "resized_generator_hole_pixels_filled": 17826,
+          "output_alpha_extrema": [
+            0,
+            255
+          ],
+          "output_alpha_matches_native_source_mask": true
+        },
+        "source_palette_correction": "Existing windscreen shape retained but glass repainted source light greyblue(~140,145,170) and front panel mutedolivegrey; no modern darknavyglass. Exact bottomthree source rows29–31 transparent; interior/new corner holes closed with generated RGB."
+      }
+    }
+  ],
+  "scope": "Static Donington GP/Short vehicle: new source-faithful artwork on the original simple3D model; completed HOR actors remain separate.",
+  "source_shape": {
+    "vertices": 99,
+    "triangles": 64,
+    "type": "7653b1bc",
+    "contract": "Retain original ordered positions/normals/UVs/face slots, all local nodes/root transforms and static registrations. No actor, collision, route or original detail0-3 change.",
+    "static_exception": "Scenery placement rather than a selectable Car actor: no steering, wheel animation or damage variants. Original dimensions/presentation retained."
+  }
+}

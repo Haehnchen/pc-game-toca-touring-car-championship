@@ -1,0 +1,2341 @@
+{
+  "version": 1,
+  "package": "R01-Silverstone-grandstands-TV-shared-spectators",
+  "source": {
+    "path": "data/silvfree.bfp",
+    "crc32": "960a335c",
+    "member": 5,
+    "member_crc32": "a92b3b70"
+  },
+  "scope": {
+    "accepted_types": 9,
+    "accepted_placements": 127,
+    "grandstand_types": 7,
+    "grandstand_placements": 33,
+    "TV_types": 1,
+    "TV_placements": 4,
+    "shared_crowd_types": 1,
+    "shared_crowd_placements": 90,
+    "new_source_images": 15,
+    "new_material_slots": 20,
+    "reused_source_images": 7,
+    "reused_material_slots": 8,
+    "new_exact_alpha_masks": 7,
+    "new_opaque_images": 8,
+    "types": [
+      {
+        "mesh": 13,
+        "name": "SI20OGSB_1",
+        "type": "f4fc0851",
+        "source_crc32": "4bfd3d00",
+        "vertices": 98,
+        "triangles": 40,
+        "nodes": [
+          35,
+          37,
+          43
+        ],
+        "package": "M07-1"
+      },
+      {
+        "mesh": 14,
+        "name": "SI20OGSA_1",
+        "type": "a8b1f03b",
+        "source_crc32": "58fe07f3",
+        "vertices": 99,
+        "triangles": 40,
+        "nodes": [
+          39,
+          41,
+          165
+        ],
+        "package": "M07-1"
+      },
+      {
+        "mesh": 21,
+        "name": "SI20GSD2_1",
+        "type": "bc34846e",
+        "source_crc32": "b805a5ab",
+        "vertices": 147,
+        "triangles": 70,
+        "nodes": [
+          85,
+          99,
+          101,
+          103,
+          121,
+          123,
+          131,
+          133
+        ],
+        "package": "M07-1"
+      },
+      {
+        "mesh": 22,
+        "name": "SI20GS3A_1",
+        "type": "9b5b256e",
+        "source_crc32": "b52c7b34",
+        "vertices": 96,
+        "triangles": 58,
+        "nodes": [
+          87,
+          105,
+          109,
+          113,
+          115
+        ],
+        "package": "M07-1"
+      },
+      {
+        "mesh": 23,
+        "name": "SI20GS3B_1",
+        "type": "1d831ff3",
+        "source_crc32": "8882059c",
+        "vertices": 93,
+        "triangles": 54,
+        "nodes": [
+          89,
+          107,
+          111,
+          117,
+          119
+        ],
+        "package": "M07-1"
+      },
+      {
+        "mesh": 24,
+        "name": "SI20GSRW_1",
+        "type": "ed832f32",
+        "source_crc32": "49393f38",
+        "vertices": 116,
+        "triangles": 56,
+        "nodes": [
+          91,
+          93,
+          95,
+          97,
+          125
+        ],
+        "package": "M07-1"
+      },
+      {
+        "mesh": 31,
+        "name": "SI20GSBW_1",
+        "type": "fd39f6e4",
+        "source_crc32": "113223b6",
+        "vertices": 105,
+        "triangles": 56,
+        "nodes": [
+          167,
+          169,
+          171,
+          173
+        ],
+        "package": "M07-1"
+      },
+      {
+        "mesh": 32,
+        "name": "TV_1",
+        "type": "4db5016b",
+        "source_crc32": "1ee3b4e5",
+        "vertices": 41,
+        "triangles": 21,
+        "nodes": [
+          185,
+          187,
+          189,
+          209
+        ],
+        "package": "M07-1"
+      },
+      {
+        "mesh": 35,
+        "name": "LCROWDS3_1",
+        "type": "5774c9a0",
+        "source_crc32": "c45b124e",
+        "vertices": 4,
+        "triangles": 2,
+        "nodes": [
+          211,
+          213,
+          215,
+          217,
+          219,
+          221,
+          223,
+          225,
+          227,
+          229,
+          231,
+          233,
+          235,
+          237,
+          239,
+          241,
+          243,
+          245,
+          247,
+          249,
+          251,
+          253,
+          255,
+          257,
+          259,
+          261,
+          263,
+          265,
+          267,
+          269,
+          271,
+          273,
+          275,
+          277,
+          283,
+          285,
+          397,
+          399,
+          403,
+          405,
+          407,
+          409,
+          411,
+          413,
+          415,
+          417,
+          419,
+          421,
+          423,
+          425,
+          427,
+          429,
+          431,
+          433,
+          435,
+          437,
+          439,
+          443,
+          445,
+          447,
+          449,
+          451,
+          453,
+          455,
+          457,
+          459,
+          461,
+          463,
+          465,
+          467,
+          469,
+          471,
+          473,
+          475,
+          477,
+          479,
+          481,
+          483,
+          485,
+          487,
+          489,
+          491,
+          493,
+          495,
+          497,
+          499,
+          501,
+          503,
+          505,
+          507
+        ],
+        "package": "M04a"
+      }
+    ]
+  },
+  "geometry": "All nine simple original bodies retained: seven stands754V/374T, TV41V/21T, crowd4V/2T. No added supports, slats, bolts or individual spectator geometry. Original open cards/backs, silhouettes, positions/normals/UVs/ordered corners/material slots/colours preserved. All512 hierarchy nodes and127 local bindings unchanged.",
+  "uv_contract": "Each original BMP replaced1:1 by exact names, source size and BMP CRC32. Five alias pairs embed byte-identical output: B29/70,G32/75,Crowd736/104,I72/96,GSF1A77/82. No cross-track exact-CRC match. Preserve static .02..99 vertex clamps, all cropped crowd/brace charts and both26-stripe repeats. No extra texture slots or UV remap.",
+  "export": "Fresh Imagegen artwork; no original upscale, copied RGB or pixelblock tracing. Recorded crops remove only generated presentation padding; entire artwork resized to original aspect, longest edge512, Lanczos, WebP quality80 method6. Seven exact source black-key masks restored nearest; eight images fully opaque. Targeted Imagegen edits correct crowd density, block-like patch and header fit.",
+  "materials": [
+    {
+      "name": "Crowd7",
+      "aliases": [
+        "CROWD7",
+        "Crowd7"
+      ],
+      "source": {
+        "crc32": "4e3c74fd",
+        "size": [
+          128,
+          32
+        ],
+        "slots": [
+          36,
+          104
+        ],
+        "black_key_pixels": 1569
+      },
+      "consumers": [
+        {
+          "slot": 36,
+          "mesh": 14,
+          "name": "SI20OGSA_1",
+          "nodes": [
+            39,
+            41,
+            165
+          ],
+          "faces": 6,
+          "uv_bounds": [
+            [
+              0.0,
+              1.0
+            ],
+            [
+              -0.9999847412109375,
+              -0.3548126220703125
+            ]
+          ]
+        },
+        {
+          "slot": 104,
+          "mesh": 35,
+          "name": "LCROWDS3_1",
+          "nodes": [
+            211,
+            213,
+            215,
+            217,
+            219,
+            221,
+            223,
+            225,
+            227,
+            229,
+            231,
+            233,
+            235,
+            237,
+            239,
+            241,
+            243,
+            245,
+            247,
+            249,
+            251,
+            253,
+            255,
+            257,
+            259,
+            261,
+            263,
+            265,
+            267,
+            269,
+            271,
+            273,
+            275,
+            277,
+            283,
+            285,
+            397,
+            399,
+            403,
+            405,
+            407,
+            409,
+            411,
+            413,
+            415,
+            417,
+            419,
+            421,
+            423,
+            425,
+            427,
+            429,
+            431,
+            433,
+            435,
+            437,
+            439,
+            443,
+            445,
+            447,
+            449,
+            451,
+            453,
+            455,
+            457,
+            459,
+            461,
+            463,
+            465,
+            467,
+            469,
+            471,
+            473,
+            475,
+            477,
+            479,
+            481,
+            483,
+            485,
+            487,
+            489,
+            491,
+            493,
+            495,
+            497,
+            499,
+            501,
+            503,
+            505,
+            507
+          ],
+          "faces": 2,
+          "uv_bounds": [
+            [
+              0.0,
+              1.0
+            ],
+            [
+              -0.9999847412109375,
+              1.52587890625e-05
+            ]
+          ]
+        }
+      ],
+      "generated": {
+        "path": "build/silverstone-stands/Crowd7-generated.png",
+        "crc32": "8dbfe421",
+        "bytes": 1503729,
+        "size": [
+          2170,
+          725
+        ]
+      },
+      "output": {
+        "path": "assets/models/mega/textures/silverstone-stands-crowd7.webp",
+        "crc32": "43c203bc",
+        "bytes": 15090,
+        "size": [
+          512,
+          128
+        ]
+      },
+      "processing_crop": [
+        0,
+        79,
+        2170,
+        622
+      ],
+      "alpha": "Exact source RGB-black mask, nearest-scaled without shape changes; opaque generated colour plate beneath."
+    },
+    {
+      "name": "Da02gsd2",
+      "aliases": [
+        "Da02gsd2"
+      ],
+      "source": {
+        "crc32": "02dbd3bb",
+        "size": [
+          64,
+          32
+        ],
+        "slots": [
+          31
+        ],
+        "black_key_pixels": 0
+      },
+      "consumers": [
+        {
+          "slot": 31,
+          "mesh": 13,
+          "name": "SI20OGSB_1",
+          "nodes": [
+            35,
+            37,
+            43
+          ],
+          "faces": 16,
+          "uv_bounds": [
+            [
+              0.0,
+              1.0
+            ],
+            [
+              -0.9999847412109375,
+              1.52587890625e-05
+            ]
+          ]
+        },
+        {
+          "slot": 31,
+          "mesh": 14,
+          "name": "SI20OGSA_1",
+          "nodes": [
+            39,
+            41,
+            165
+          ],
+          "faces": 16,
+          "uv_bounds": [
+            [
+              0.0,
+              1.0
+            ],
+            [
+              -0.84124755859375,
+              1.52587890625e-05
+            ]
+          ]
+        }
+      ],
+      "generated": {
+        "path": "build/silverstone-stands/Da02gsd2-generated.png",
+        "crc32": "da601ede",
+        "bytes": 2823060,
+        "size": [
+          1774,
+          887
+        ]
+      },
+      "output": {
+        "path": "assets/models/mega/textures/silverstone-stands-da02gsd2.webp",
+        "crc32": "c1a37b14",
+        "bytes": 40514,
+        "size": [
+          512,
+          256
+        ]
+      },
+      "processing_crop": [
+        0,
+        0,
+        1774,
+        887
+      ],
+      "alpha": "Fully opaque including original dark fields.",
+      "edits": [
+        {
+          "references": [
+            {
+              "path": "exec-27fea782-8043-48b0-8d51-2da567c63209.png",
+              "crc32": "1cea82a7",
+              "bytes": 3369482,
+              "size": [
+                1774,
+                887
+              ]
+            },
+            {
+              "path": "build/silverstone-stands/Da02gsd2-source6x.png",
+              "crc32": "c10358e6",
+              "bytes": 7361,
+              "size": [
+                384,
+                192
+              ]
+            }
+          ],
+          "generated": {
+            "path": "exec-c89d9868-a708-4634-a146-515272a8b357.png",
+            "crc32": "37f65f21",
+            "bytes": 3116514,
+            "size": [
+              1774,
+              887
+            ]
+          }
+        },
+        {
+          "references": [
+            {
+              "path": "exec-c89d9868-a708-4634-a146-515272a8b357.png",
+              "crc32": "37f65f21",
+              "bytes": 3116514,
+              "size": [
+                1774,
+                887
+              ]
+            },
+            {
+              "path": "build/silverstone-stands/Da02gsd2-source6x.png",
+              "crc32": "c10358e6",
+              "bytes": 7361,
+              "size": [
+                384,
+                192
+              ]
+            }
+          ],
+          "generated": {
+            "path": "exec-a18c98ec-b2c1-4a62-9fb1-def21a7ea382.png",
+            "crc32": "da601ede",
+            "bytes": 2823060,
+            "size": [
+              1774,
+              887
+            ]
+          }
+        }
+      ],
+      "reconstruction": "Source-specific Silverstone palette; BMP differs from Donington. Excess crowd density in initial drafts corrected with Imagegen to about five seated tiers/~18 heads across."
+    },
+    {
+      "name": "N04gsf1a",
+      "aliases": [
+        "N04GSF1A",
+        "N04gsf1a"
+      ],
+      "source": {
+        "crc32": "59413d98",
+        "size": [
+          64,
+          64
+        ],
+        "slots": [
+          77,
+          82
+        ],
+        "black_key_pixels": 0
+      },
+      "consumers": [
+        {
+          "slot": 77,
+          "mesh": 21,
+          "name": "SI20GSD2_1",
+          "nodes": [
+            85,
+            99,
+            101,
+            103,
+            121,
+            123,
+            131,
+            133
+          ],
+          "faces": 4,
+          "uv_bounds": [
+            [
+              0.0,
+              1.0
+            ],
+            [
+              -0.9999847412109375,
+              1.52587890625e-05
+            ]
+          ]
+        },
+        {
+          "slot": 77,
+          "mesh": 24,
+          "name": "SI20GSRW_1",
+          "nodes": [
+            91,
+            93,
+            95,
+            97,
+            125
+          ],
+          "faces": 2,
+          "uv_bounds": [
+            [
+              0.0,
+              1.0
+            ],
+            [
+              -0.9999847412109375,
+              1.52587890625e-05
+            ]
+          ]
+        },
+        {
+          "slot": 82,
+          "mesh": 23,
+          "name": "SI20GS3B_1",
+          "nodes": [
+            89,
+            107,
+            111,
+            117,
+            119
+          ],
+          "faces": 2,
+          "uv_bounds": [
+            [
+              0.0,
+              0.9841156005859375
+            ],
+            [
+              -0.9999847412109375,
+              -0.0158538818359375
+            ]
+          ]
+        },
+        {
+          "slot": 82,
+          "mesh": 24,
+          "name": "SI20GSRW_1",
+          "nodes": [
+            91,
+            93,
+            95,
+            97,
+            125
+          ],
+          "faces": 2,
+          "uv_bounds": [
+            [
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0
+            ]
+          ]
+        },
+        {
+          "slot": 82,
+          "mesh": 31,
+          "name": "SI20GSBW_1",
+          "nodes": [
+            167,
+            169,
+            171,
+            173
+          ],
+          "faces": 2,
+          "uv_bounds": [
+            [
+              0.0,
+              0.9841156005859375
+            ],
+            [
+              -0.9999847412109375,
+              -0.111083984375
+            ]
+          ]
+        }
+      ],
+      "generated": {
+        "path": "build/silverstone-stands/N04gsf1a-generated.png",
+        "crc32": "97446115",
+        "bytes": 2245053,
+        "size": [
+          1254,
+          1254
+        ]
+      },
+      "output": {
+        "path": "assets/models/mega/textures/silverstone-stands-n04gsf1a.webp",
+        "crc32": "e900ea67",
+        "bytes": 49986,
+        "size": [
+          512,
+          512
+        ]
+      },
+      "processing_crop": [
+        0,
+        0,
+        1254,
+        1254
+      ],
+      "alpha": "Fully opaque including original dark fields."
+    },
+    {
+      "name": "SI20A",
+      "aliases": [
+        "SI20A"
+      ],
+      "source": {
+        "crc32": "1543e2ff",
+        "size": [
+          128,
+          16
+        ],
+        "slots": [
+          81
+        ],
+        "black_key_pixels": 0
+      },
+      "consumers": [
+        {
+          "slot": 81,
+          "mesh": 22,
+          "name": "SI20GS3A_1",
+          "nodes": [
+            87,
+            105,
+            109,
+            113,
+            115
+          ],
+          "faces": 12,
+          "uv_bounds": [
+            [
+              0.0,
+              1.0
+            ],
+            [
+              -0.9999847412109375,
+              1.52587890625e-05
+            ]
+          ]
+        },
+        {
+          "slot": 81,
+          "mesh": 23,
+          "name": "SI20GS3B_1",
+          "nodes": [
+            89,
+            107,
+            111,
+            117,
+            119
+          ],
+          "faces": 12,
+          "uv_bounds": [
+            [
+              0.0,
+              1.0
+            ],
+            [
+              -0.9999847412109375,
+              1.52587890625e-05
+            ]
+          ]
+        },
+        {
+          "slot": 81,
+          "mesh": 31,
+          "name": "SI20GSBW_1",
+          "nodes": [
+            167,
+            169,
+            171,
+            173
+          ],
+          "faces": 10,
+          "uv_bounds": [
+            [
+              0.0,
+              0.9921112060546875
+            ],
+            [
+              -0.9999847412109375,
+              1.52587890625e-05
+            ]
+          ]
+        }
+      ],
+      "generated": {
+        "path": "build/silverstone-stands/SI20A-generated.png",
+        "crc32": "e2b5e48f",
+        "bytes": 1156554,
+        "size": [
+          2170,
+          725
+        ]
+      },
+      "output": {
+        "path": "assets/models/mega/textures/silverstone-stands-si20a.webp",
+        "crc32": "34f5a97e",
+        "bytes": 2076,
+        "size": [
+          512,
+          64
+        ]
+      },
+      "processing_crop": [
+        0,
+        228,
+        2170,
+        497
+      ],
+      "alpha": "Fully opaque including original dark fields."
+    },
+    {
+      "name": "SI20F",
+      "aliases": [
+        "SI20F"
+      ],
+      "source": {
+        "crc32": "3c3f5ae1",
+        "size": [
+          64,
+          16
+        ],
+        "slots": [
+          74
+        ],
+        "black_key_pixels": 202
+      },
+      "consumers": [
+        {
+          "slot": 74,
+          "mesh": 21,
+          "name": "SI20GSD2_1",
+          "nodes": [
+            85,
+            99,
+            101,
+            103,
+            121,
+            123,
+            131,
+            133
+          ],
+          "faces": 8,
+          "uv_bounds": [
+            [
+              0.0,
+              1.0
+            ],
+            [
+              -0.9999847412109375,
+              1.52587890625e-05
+            ]
+          ]
+        },
+        {
+          "slot": 74,
+          "mesh": 24,
+          "name": "SI20GSRW_1",
+          "nodes": [
+            91,
+            93,
+            95,
+            97,
+            125
+          ],
+          "faces": 6,
+          "uv_bounds": [
+            [
+              0.0,
+              1.0
+            ],
+            [
+              -0.9999847412109375,
+              -0.066650390625
+            ]
+          ]
+        },
+        {
+          "slot": 74,
+          "mesh": 31,
+          "name": "SI20GSBW_1",
+          "nodes": [
+            167,
+            169,
+            171,
+            173
+          ],
+          "faces": 6,
+          "uv_bounds": [
+            [
+              0.0,
+              1.0
+            ],
+            [
+              -0.9999847412109375,
+              -0.1333160400390625
+            ]
+          ]
+        }
+      ],
+      "generated": {
+        "path": "build/silverstone-stands/SI20F-generated.png",
+        "crc32": "0af2b07f",
+        "bytes": 993708,
+        "size": [
+          2172,
+          724
+        ]
+      },
+      "output": {
+        "path": "assets/models/mega/textures/silverstone-stands-si20f.webp",
+        "crc32": "f5b70b39",
+        "bytes": 4100,
+        "size": [
+          512,
+          128
+        ]
+      },
+      "processing_crop": [
+        0,
+        85,
+        2172,
+        639
+      ],
+      "alpha": "Exact source RGB-black mask, nearest-scaled without shape changes; opaque generated colour plate beneath."
+    },
+    {
+      "name": "SI20GS3B",
+      "aliases": [
+        "SI20GS3B"
+      ],
+      "source": {
+        "crc32": "dff57f29",
+        "size": [
+          128,
+          32
+        ],
+        "slots": [
+          78
+        ],
+        "black_key_pixels": 3539
+      },
+      "consumers": [
+        {
+          "slot": 78,
+          "mesh": 22,
+          "name": "SI20GS3A_1",
+          "nodes": [
+            87,
+            105,
+            109,
+            113,
+            115
+          ],
+          "faces": 6,
+          "uv_bounds": [
+            [
+              0.0,
+              0.9842376708984375
+            ],
+            [
+              -0.9999847412109375,
+              -0.0322418212890625
+            ]
+          ]
+        },
+        {
+          "slot": 78,
+          "mesh": 23,
+          "name": "SI20GS3B_1",
+          "nodes": [
+            89,
+            107,
+            111,
+            117,
+            119
+          ],
+          "faces": 6,
+          "uv_bounds": [
+            [
+              0.0,
+              0.9684906005859375
+            ],
+            [
+              -0.9999847412109375,
+              -0.774169921875
+            ]
+          ]
+        }
+      ],
+      "generated": {
+        "path": "build/silverstone-stands/SI20GS3B-generated.png",
+        "crc32": "1d5abe0f",
+        "bytes": 677807,
+        "size": [
+          2170,
+          725
+        ]
+      },
+      "output": {
+        "path": "assets/models/mega/textures/silverstone-stands-si20gs3b.webp",
+        "crc32": "a10ab46a",
+        "bytes": 3370,
+        "size": [
+          512,
+          128
+        ]
+      },
+      "processing_crop": [
+        0,
+        0,
+        2170,
+        582
+      ],
+      "alpha": "Exact source RGB-black mask, nearest-scaled without shape changes; opaque generated colour plate beneath."
+    },
+    {
+      "name": "SI20GS3C",
+      "aliases": [
+        "SI20GS3C"
+      ],
+      "source": {
+        "crc32": "194c4ed7",
+        "size": [
+          64,
+          64
+        ],
+        "slots": [
+          79
+        ],
+        "black_key_pixels": 0
+      },
+      "consumers": [
+        {
+          "slot": 79,
+          "mesh": 22,
+          "name": "SI20GS3A_1",
+          "nodes": [
+            87,
+            105,
+            109,
+            113,
+            115
+          ],
+          "faces": 16,
+          "uv_bounds": [
+            [
+              0.0,
+              0.9841156005859375
+            ],
+            [
+              -0.9999847412109375,
+              -0.0158538818359375
+            ]
+          ]
+        },
+        {
+          "slot": 79,
+          "mesh": 23,
+          "name": "SI20GS3B_1",
+          "nodes": [
+            89,
+            107,
+            111,
+            117,
+            119
+          ],
+          "faces": 16,
+          "uv_bounds": [
+            [
+              0.0,
+              0.9841156005859375
+            ],
+            [
+              -0.9999847412109375,
+              -0.0158538818359375
+            ]
+          ]
+        }
+      ],
+      "generated": {
+        "path": "build/silverstone-stands/SI20GS3C-generated.png",
+        "crc32": "2a95f7ae",
+        "bytes": 2792235,
+        "size": [
+          1254,
+          1254
+        ]
+      },
+      "output": {
+        "path": "assets/models/mega/textures/silverstone-stands-si20gs3c.webp",
+        "crc32": "18723815",
+        "bytes": 13922,
+        "size": [
+          512,
+          512
+        ]
+      },
+      "processing_crop": [
+        0,
+        0,
+        1254,
+        1254
+      ],
+      "alpha": "Fully opaque including original dark fields."
+    },
+    {
+      "name": "SI20GS3D",
+      "aliases": [
+        "SI20GS3D"
+      ],
+      "source": {
+        "crc32": "c68e9443",
+        "size": [
+          128,
+          32
+        ],
+        "slots": [
+          80
+        ],
+        "black_key_pixels": 2817
+      },
+      "consumers": [
+        {
+          "slot": 80,
+          "mesh": 22,
+          "name": "SI20GS3A_1",
+          "nodes": [
+            87,
+            105,
+            109,
+            113,
+            115
+          ],
+          "faces": 6,
+          "uv_bounds": [
+            [
+              0.0,
+              0.9842376708984375
+            ],
+            [
+              -0.9999847412109375,
+              -0.0322418212890625
+            ]
+          ]
+        }
+      ],
+      "generated": {
+        "path": "build/silverstone-stands/SI20GS3D-generated.png",
+        "crc32": "029c0e3b",
+        "bytes": 1046471,
+        "size": [
+          2170,
+          725
+        ]
+      },
+      "output": {
+        "path": "assets/models/mega/textures/silverstone-stands-si20gs3d.webp",
+        "crc32": "8858bf95",
+        "bytes": 6222,
+        "size": [
+          512,
+          128
+        ]
+      },
+      "processing_crop": [
+        0,
+        66,
+        2170,
+        629
+      ],
+      "alpha": "Exact source RGB-black mask, nearest-scaled without shape changes; opaque generated colour plate beneath."
+    },
+    {
+      "name": "SI20H",
+      "aliases": [
+        "SI20H"
+      ],
+      "source": {
+        "crc32": "052642ec",
+        "size": [
+          128,
+          16
+        ],
+        "slots": [
+          83
+        ],
+        "black_key_pixels": 0
+      },
+      "consumers": [
+        {
+          "slot": 83,
+          "mesh": 24,
+          "name": "SI20GSRW_1",
+          "nodes": [
+            91,
+            93,
+            95,
+            97,
+            125
+          ],
+          "faces": 10,
+          "uv_bounds": [
+            [
+              0.0,
+              0.9921112060546875
+            ],
+            [
+              -0.9999847412109375,
+              1.52587890625e-05
+            ]
+          ]
+        }
+      ],
+      "generated": {
+        "path": "build/silverstone-stands/SI20H-generated.png",
+        "crc32": "cf010472",
+        "bytes": 1088813,
+        "size": [
+          2170,
+          725
+        ]
+      },
+      "output": {
+        "path": "assets/models/mega/textures/silverstone-stands-si20h.webp",
+        "crc32": "d9641bfc",
+        "bytes": 1920,
+        "size": [
+          512,
+          64
+        ]
+      },
+      "processing_crop": [
+        0,
+        226,
+        2170,
+        496
+      ],
+      "alpha": "Fully opaque including original dark fields."
+    },
+    {
+      "name": "SI20I",
+      "aliases": [
+        "SI20I",
+        "Si20i"
+      ],
+      "source": {
+        "crc32": "0d783bab",
+        "size": [
+          64,
+          64
+        ],
+        "slots": [
+          72,
+          96
+        ],
+        "black_key_pixels": 0
+      },
+      "consumers": [
+        {
+          "slot": 72,
+          "mesh": 21,
+          "name": "SI20GSD2_1",
+          "nodes": [
+            85,
+            99,
+            101,
+            103,
+            121,
+            123,
+            131,
+            133
+          ],
+          "faces": 8,
+          "uv_bounds": [
+            [
+              0.0,
+              1.0
+            ],
+            [
+              -0.9999847412109375,
+              1.52587890625e-05
+            ]
+          ]
+        },
+        {
+          "slot": 72,
+          "mesh": 22,
+          "name": "SI20GS3A_1",
+          "nodes": [
+            87,
+            105,
+            109,
+            113,
+            115
+          ],
+          "faces": 6,
+          "uv_bounds": [
+            [
+              0.0,
+              1.0
+            ],
+            [
+              -0.9999847412109375,
+              1.52587890625e-05
+            ]
+          ]
+        },
+        {
+          "slot": 72,
+          "mesh": 24,
+          "name": "SI20GSRW_1",
+          "nodes": [
+            91,
+            93,
+            95,
+            97,
+            125
+          ],
+          "faces": 6,
+          "uv_bounds": [
+            [
+              0.0,
+              1.0
+            ],
+            [
+              -0.9999847412109375,
+              1.52587890625e-05
+            ]
+          ]
+        },
+        {
+          "slot": 96,
+          "mesh": 31,
+          "name": "SI20GSBW_1",
+          "nodes": [
+            167,
+            169,
+            171,
+            173
+          ],
+          "faces": 6,
+          "uv_bounds": [
+            [
+              0.0,
+              1.0
+            ],
+            [
+              -0.9999847412109375,
+              1.52587890625e-05
+            ]
+          ]
+        }
+      ],
+      "generated": {
+        "path": "build/silverstone-stands/SI20I-generated.png",
+        "crc32": "f072138f",
+        "bytes": 2674843,
+        "size": [
+          1254,
+          1254
+        ]
+      },
+      "output": {
+        "path": "assets/models/mega/textures/silverstone-stands-si20i.webp",
+        "crc32": "f4f0855d",
+        "bytes": 13300,
+        "size": [
+          512,
+          512
+        ]
+      },
+      "processing_crop": [
+        0,
+        0,
+        1254,
+        1254
+      ],
+      "alpha": "Fully opaque including original dark fields."
+    },
+    {
+      "name": "SI20J",
+      "aliases": [
+        "SI20J"
+      ],
+      "source": {
+        "crc32": "bfcba479",
+        "size": [
+          32,
+          32
+        ],
+        "slots": [
+          73
+        ],
+        "black_key_pixels": 0
+      },
+      "consumers": [
+        {
+          "slot": 73,
+          "mesh": 21,
+          "name": "SI20GSD2_1",
+          "nodes": [
+            85,
+            99,
+            101,
+            103,
+            121,
+            123,
+            131,
+            133
+          ],
+          "faces": 18,
+          "uv_bounds": [
+            [
+              0.0,
+              1.0
+            ],
+            [
+              -0.9999847412109375,
+              1.52587890625e-05
+            ]
+          ]
+        },
+        {
+          "slot": 73,
+          "mesh": 22,
+          "name": "SI20GS3A_1",
+          "nodes": [
+            87,
+            105,
+            109,
+            113,
+            115
+          ],
+          "faces": 12,
+          "uv_bounds": [
+            [
+              0.0,
+              1.0
+            ],
+            [
+              -0.9999847412109375,
+              -0.0322418212890625
+            ]
+          ]
+        },
+        {
+          "slot": 73,
+          "mesh": 23,
+          "name": "SI20GS3B_1",
+          "nodes": [
+            89,
+            107,
+            111,
+            117,
+            119
+          ],
+          "faces": 12,
+          "uv_bounds": [
+            [
+              0.0,
+              1.0
+            ],
+            [
+              -0.9999847412109375,
+              -0.0322418212890625
+            ]
+          ]
+        },
+        {
+          "slot": 73,
+          "mesh": 24,
+          "name": "SI20GSRW_1",
+          "nodes": [
+            91,
+            93,
+            95,
+            97,
+            125
+          ],
+          "faces": 14,
+          "uv_bounds": [
+            [
+              0.0,
+              1.0
+            ],
+            [
+              -0.9999847412109375,
+              -0.0322418212890625
+            ]
+          ]
+        },
+        {
+          "slot": 73,
+          "mesh": 31,
+          "name": "SI20GSBW_1",
+          "nodes": [
+            167,
+            169,
+            171,
+            173
+          ],
+          "faces": 14,
+          "uv_bounds": [
+            [
+              0.0,
+              1.0
+            ],
+            [
+              -0.9999847412109375,
+              1.52587890625e-05
+            ]
+          ]
+        }
+      ],
+      "generated": {
+        "path": "build/silverstone-stands/SI20J-generated.png",
+        "crc32": "11fdf33e",
+        "bytes": 2213384,
+        "size": [
+          1254,
+          1254
+        ]
+      },
+      "output": {
+        "path": "assets/models/mega/textures/silverstone-stands-si20j.webp",
+        "crc32": "fec93c8d",
+        "bytes": 11594,
+        "size": [
+          512,
+          512
+        ]
+      },
+      "processing_crop": [
+        0,
+        0,
+        1254,
+        1254
+      ],
+      "alpha": "Fully opaque including original dark fields."
+    },
+    {
+      "name": "SI20K",
+      "aliases": [
+        "SI20K"
+      ],
+      "source": {
+        "crc32": "6db88187",
+        "size": [
+          128,
+          16
+        ],
+        "slots": [
+          71
+        ],
+        "black_key_pixels": 0
+      },
+      "consumers": [
+        {
+          "slot": 71,
+          "mesh": 21,
+          "name": "SI20GSD2_1",
+          "nodes": [
+            85,
+            99,
+            101,
+            103,
+            121,
+            123,
+            131,
+            133
+          ],
+          "faces": 12,
+          "uv_bounds": [
+            [
+              0.0,
+              1.0
+            ],
+            [
+              -0.9999847412109375,
+              -0.1428375244140625
+            ]
+          ]
+        }
+      ],
+      "generated": {
+        "path": "build/silverstone-stands/SI20K-generated.png",
+        "crc32": "2fbcdacd",
+        "bytes": 1125439,
+        "size": [
+          2170,
+          725
+        ]
+      },
+      "output": {
+        "path": "assets/models/mega/textures/silverstone-stands-si20k.webp",
+        "crc32": "d46dd31f",
+        "bytes": 6102,
+        "size": [
+          512,
+          64
+        ]
+      },
+      "processing_crop": [
+        0,
+        231,
+        2170,
+        504
+      ],
+      "alpha": "Fully opaque including original dark fields."
+    },
+    {
+      "name": "Si20b",
+      "aliases": [
+        "SI20B",
+        "Si20b"
+      ],
+      "source": {
+        "crc32": "13c3c719",
+        "size": [
+          128,
+          16
+        ],
+        "slots": [
+          29,
+          70
+        ],
+        "black_key_pixels": 908
+      },
+      "consumers": [
+        {
+          "slot": 29,
+          "mesh": 13,
+          "name": "SI20OGSB_1",
+          "nodes": [
+            35,
+            37,
+            43
+          ],
+          "faces": 4,
+          "uv_bounds": [
+            [
+              0.0,
+              1.0
+            ],
+            [
+              -0.9999847412109375,
+              1.52587890625e-05
+            ]
+          ]
+        },
+        {
+          "slot": 29,
+          "mesh": 14,
+          "name": "SI20OGSA_1",
+          "nodes": [
+            39,
+            41,
+            165
+          ],
+          "faces": 4,
+          "uv_bounds": [
+            [
+              0.0,
+              1.0
+            ],
+            [
+              -0.9999847412109375,
+              1.52587890625e-05
+            ]
+          ]
+        },
+        {
+          "slot": 70,
+          "mesh": 21,
+          "name": "SI20GSD2_1",
+          "nodes": [
+            85,
+            99,
+            101,
+            103,
+            121,
+            123,
+            131,
+            133
+          ],
+          "faces": 8,
+          "uv_bounds": [
+            [
+              0.0,
+              0.9921112060546875
+            ],
+            [
+              -0.9999847412109375,
+              -0.066650390625
+            ]
+          ]
+        },
+        {
+          "slot": 70,
+          "mesh": 24,
+          "name": "SI20GSRW_1",
+          "nodes": [
+            91,
+            93,
+            95,
+            97,
+            125
+          ],
+          "faces": 6,
+          "uv_bounds": [
+            [
+              0.0,
+              0.9842376708984375
+            ],
+            [
+              -0.9999847412109375,
+              -0.1333160400390625
+            ]
+          ]
+        },
+        {
+          "slot": 70,
+          "mesh": 31,
+          "name": "SI20GSBW_1",
+          "nodes": [
+            167,
+            169,
+            171,
+            173
+          ],
+          "faces": 6,
+          "uv_bounds": [
+            [
+              0.0,
+              0.9842376708984375
+            ],
+            [
+              -0.9999847412109375,
+              -0.066650390625
+            ]
+          ]
+        }
+      ],
+      "generated": {
+        "path": "build/silverstone-stands/Si20b-generated.png",
+        "crc32": "0346317c",
+        "bytes": 1575231,
+        "size": [
+          2169,
+          725
+        ]
+      },
+      "output": {
+        "path": "assets/models/mega/textures/silverstone-stands-si20b.webp",
+        "crc32": "7adc070d",
+        "bytes": 3748,
+        "size": [
+          512,
+          64
+        ]
+      },
+      "processing_crop": [
+        0,
+        226,
+        2169,
+        498
+      ],
+      "alpha": "Exact source RGB-black mask, nearest-scaled without shape changes; opaque generated colour plate beneath.",
+      "edits": [
+        {
+          "references": [
+            {
+              "path": "exec-8f84e713-b7d9-4d40-b68a-397d6870ee48.png",
+              "crc32": "de607518",
+              "bytes": 1205872,
+              "size": [
+                2170,
+                725
+              ]
+            }
+          ],
+          "generated": {
+            "path": "exec-274b3c8b-2531-4b03-9fd9-d0e916ee8c61.png",
+            "crc32": "0346317c",
+            "bytes": 1575231,
+            "size": [
+              2169,
+              725
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "name": "Si20g",
+      "aliases": [
+        "SI20G",
+        "Si20g"
+      ],
+      "source": {
+        "crc32": "6f708c97",
+        "size": [
+          64,
+          64
+        ],
+        "slots": [
+          32,
+          75
+        ],
+        "black_key_pixels": 2554
+      },
+      "consumers": [
+        {
+          "slot": 32,
+          "mesh": 13,
+          "name": "SI20OGSB_1",
+          "nodes": [
+            35,
+            37,
+            43
+          ],
+          "faces": 2,
+          "uv_bounds": [
+            [
+              0.0,
+              1.0
+            ],
+            [
+              -0.6031494140625,
+              1.52587890625e-05
+            ]
+          ]
+        },
+        {
+          "slot": 32,
+          "mesh": 14,
+          "name": "SI20OGSA_1",
+          "nodes": [
+            39,
+            41,
+            165
+          ],
+          "faces": 2,
+          "uv_bounds": [
+            [
+              0.0,
+              1.0
+            ],
+            [
+              -0.6031494140625,
+              1.52587890625e-05
+            ]
+          ]
+        },
+        {
+          "slot": 75,
+          "mesh": 21,
+          "name": "SI20GSD2_1",
+          "nodes": [
+            85,
+            99,
+            101,
+            103,
+            121,
+            123,
+            131,
+            133
+          ],
+          "faces": 6,
+          "uv_bounds": [
+            [
+              0.0,
+              1.0
+            ],
+            [
+              -0.9999847412109375,
+              1.52587890625e-05
+            ]
+          ]
+        },
+        {
+          "slot": 75,
+          "mesh": 23,
+          "name": "SI20GS3B_1",
+          "nodes": [
+            89,
+            107,
+            111,
+            117,
+            119
+          ],
+          "faces": 2,
+          "uv_bounds": [
+            [
+              0.0,
+              0.77777099609375
+            ],
+            [
+              -0.476165771484375,
+              -0.1587066650390625
+            ]
+          ]
+        },
+        {
+          "slot": 75,
+          "mesh": 24,
+          "name": "SI20GSRW_1",
+          "nodes": [
+            91,
+            93,
+            95,
+            97,
+            125
+          ],
+          "faces": 6,
+          "uv_bounds": [
+            [
+              0.0,
+              1.0
+            ],
+            [
+              -0.8094940185546875,
+              1.52587890625e-05
+            ]
+          ]
+        },
+        {
+          "slot": 75,
+          "mesh": 31,
+          "name": "SI20GSBW_1",
+          "nodes": [
+            167,
+            169,
+            171,
+            173
+          ],
+          "faces": 8,
+          "uv_bounds": [
+            [
+              0.0,
+              1.0
+            ],
+            [
+              -0.968231201171875,
+              1.52587890625e-05
+            ]
+          ]
+        }
+      ],
+      "generated": {
+        "path": "build/silverstone-stands/Si20g-generated.png",
+        "crc32": "4eacaf9a",
+        "bytes": 1253802,
+        "size": [
+          1254,
+          1254
+        ]
+      },
+      "output": {
+        "path": "assets/models/mega/textures/silverstone-stands-si20g.webp",
+        "crc32": "d333ab0f",
+        "bytes": 14824,
+        "size": [
+          512,
+          512
+        ]
+      },
+      "processing_crop": [
+        0,
+        0,
+        1254,
+        1254
+      ],
+      "alpha": "Exact source RGB-black mask, nearest-scaled without shape changes; opaque generated colour plate beneath."
+    },
+    {
+      "name": "TV2",
+      "aliases": [
+        "TV2"
+      ],
+      "source": {
+        "crc32": "33410612",
+        "size": [
+          128,
+          32
+        ],
+        "slots": [
+          98
+        ],
+        "black_key_pixels": 454
+      },
+      "consumers": [
+        {
+          "slot": 98,
+          "mesh": 32,
+          "name": "TV_1",
+          "nodes": [
+            185,
+            187,
+            189,
+            209
+          ],
+          "faces": 5,
+          "uv_bounds": [
+            [
+              0.0,
+              1.0
+            ],
+            [
+              -0.9999847412109375,
+              -0.0322418212890625
+            ]
+          ]
+        }
+      ],
+      "generated": {
+        "path": "build/silverstone-stands/TV2-generated.png",
+        "crc32": "d7d5cfb4",
+        "bytes": 1620631,
+        "size": [
+          2169,
+          725
+        ]
+      },
+      "output": {
+        "path": "assets/models/mega/textures/silverstone-stands-tv2.webp",
+        "crc32": "1bc342c7",
+        "bytes": 8800,
+        "size": [
+          512,
+          128
+        ]
+      },
+      "processing_crop": [
+        0,
+        74,
+        2169,
+        617
+      ],
+      "alpha": "Exact source RGB-black mask, nearest-scaled without shape changes; opaque generated colour plate beneath.",
+      "edits": [
+        {
+          "references": [
+            {
+              "path": "exec-815282d6-1f72-414f-ad20-e821f306ba95.png",
+              "crc32": "b3c6e416",
+              "bytes": 1638273,
+              "size": [
+                2170,
+                725
+              ]
+            }
+          ],
+          "generated": {
+            "path": "exec-f508fd85-6016-4479-963a-436ae47d2349.png",
+            "crc32": "d7d5cfb4",
+            "bytes": 1620631,
+            "size": [
+              2169,
+              725
+            ]
+          }
+        }
+      ],
+      "reconstruction": "VECTRA and automotive badge confirmed by canonical source. BBC TOURING CAR is a readable source-guided reconstruction of the red upper band. Related canonical Thruxton/Croft/Snetterton variants contain the same coarse glyphs; the trailing source word is unresolved and is not asserted or expanded. User-requested builtin retry succeeded; no fallback or procedural lettering."
+    }
+  ],
+  "reused_materials": [
+    {
+      "name": "IL09PIT",
+      "source_crc32": "3770586a",
+      "source_slots": [
+        0
+      ],
+      "output": {
+        "path": "assets/models/mega/textures/silverstone-pit-il09pit.webp",
+        "crc32": "efed70f2",
+        "bytes": 14536,
+        "size": [
+          512,
+          512
+        ]
+      },
+      "provenance": "assets/models/mega/silverstone-pits-generation.json",
+      "contract": "Byte-identical accepted image retained and reviewed in its source-bound stand/TV consumer."
+    },
+    {
+      "name": "Crowd1",
+      "source_crc32": "0ef3ad96",
+      "source_slots": [
+        34
+      ],
+      "output": {
+        "path": "assets/models/mega/textures/silverstone-tra-crowd1.webp",
+        "crc32": "a2d6efe8",
+        "bytes": 20266,
+        "size": [
+          512,
+          128
+        ]
+      },
+      "provenance": "assets/models/mega/silverstone-tra-buildings-generation.json",
+      "contract": "Byte-identical accepted image retained and reviewed in its source-bound stand/TV consumer."
+    },
+    {
+      "name": "SI19MBX1",
+      "source_crc32": "034593e6",
+      "source_slots": [
+        52
+      ],
+      "output": {
+        "path": "assets/models/mega/textures/silverstone-structures-si19mbx1.webp",
+        "crc32": "9845a74f",
+        "bytes": 12530,
+        "size": [
+          512,
+          512
+        ]
+      },
+      "provenance": "assets/models/mega/silverstone-structures-generation.json",
+      "contract": "Byte-identical accepted image retained and reviewed in its source-bound stand/TV consumer."
+    },
+    {
+      "name": "N04GSF1",
+      "source_crc32": "18273e0e",
+      "source_slots": [
+        67,
+        76
+      ],
+      "output": {
+        "path": "assets/models/mega/textures/silverstone-controltower-n04gsf1.webp",
+        "crc32": "ec918490",
+        "bytes": 47040,
+        "size": [
+          512,
+          512
+        ]
+      },
+      "provenance": "assets/models/mega/silverstone-controltower-generation.json",
+      "contract": "Byte-identical accepted image retained and reviewed in its source-bound stand/TV consumer."
+    },
+    {
+      "name": "IL01CON",
+      "source_crc32": "0c2f395c",
+      "source_slots": [
+        69
+      ],
+      "output": {
+        "path": "assets/models/mega/textures/silverstone-controltower-il01con.webp",
+        "crc32": "7417fea3",
+        "bytes": 4198,
+        "size": [
+          512,
+          256
+        ]
+      },
+      "provenance": "assets/models/mega/silverstone-controltower-generation.json",
+      "contract": "Byte-identical accepted image retained and reviewed in its source-bound stand/TV consumer."
+    },
+    {
+      "name": "TV1",
+      "source_crc32": "80138445",
+      "source_slots": [
+        97
+      ],
+      "output": {
+        "path": "assets/models/mega/textures/silverstone-structures-tv1.webp",
+        "crc32": "2ab79fdb",
+        "bytes": 742,
+        "size": [
+          64,
+          512
+        ]
+      },
+      "provenance": "assets/models/mega/silverstone-structures-generation.json",
+      "contract": "Byte-identical accepted image retained and reviewed in its source-bound stand/TV consumer."
+    },
+    {
+      "name": "TV3",
+      "source_crc32": "682f68ad",
+      "source_slots": [
+        99
+      ],
+      "output": {
+        "path": "assets/models/mega/textures/silverstone-structures-tv3.webp",
+        "crc32": "4b3dc263",
+        "bytes": 284,
+        "size": [
+          512,
+          32
+        ]
+      },
+      "provenance": "assets/models/mega/silverstone-structures-generation.json",
+      "contract": "Byte-identical accepted image retained and reviewed in its source-bound stand/TV consumer."
+    }
+  ],
+  "protected_samples": [
+    {
+      "name": "N04GSF1A",
+      "mesh": 24,
+      "faces": [
+        54,
+        55
+      ],
+      "effective_uv": [
+        0.02,
+        0.99
+      ],
+      "source_rgba": [
+        66,
+        66,
+        49,
+        255
+      ],
+      "output_rgba": [
+        67,
+        65,
+        50,
+        255
+      ],
+      "role": "Quiet opaque olive corner for the source cap."
+    },
+    {
+      "name": "IL01CON",
+      "mesh": 21,
+      "faces": [
+        68,
+        69
+      ],
+      "effective_uv": [
+        0.02,
+        0.99
+      ],
+      "source_rgba": [
+        90,
+        90,
+        82,
+        255
+      ],
+      "role": "Accepted image remains unchanged."
+    },
+    {
+      "name": "SI20K",
+      "mesh": 21,
+      "faces": [
+        10,
+        11,
+        12,
+        13
+      ],
+      "image_v": 0.02,
+      "u_ranges": [
+        [
+          0.338577,
+          0.488174
+        ],
+        [
+          0.834641,
+          0.992111
+        ]
+      ],
+      "role": "Distinct quiet pale/dark top-edge samples retained; two sponsor halves only."
+    },
+    {
+      "name": "SI20J",
+      "meshes": [
+        21,
+        31
+      ],
+      "u": [
+        0,
+        1,
+        0.322571,
+        0.677414,
+        0.806442
+      ],
+      "role": "Dark opaque narrow structural samples retained."
+    }
+  ],
+  "repeat_phase": {
+    "SI20A": {
+      "source_bands": 26,
+      "output_bands": 26,
+      "max_centre_delta_source_pixels": 0.225
+    },
+    "SI20H": {
+      "source_bands": 26,
+      "output_bands": 26,
+      "max_centre_delta_source_pixels": 0.264
+    }
+  },
+  "limits": "This package completes all remaining Silverstone M07 types and the shared LCROWDS3 spectator subtype. Barriers, marshal, tent and remaining shared-material review stay in R01. No original game media committed or canonical reference changes; no performance measurements."
+}

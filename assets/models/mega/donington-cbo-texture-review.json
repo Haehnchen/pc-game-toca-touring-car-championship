@@ -1,0 +1,198 @@
+{
+  "version": 1,
+  "package": "MT01 Donington CBO shared facade texture review",
+  "images": [
+    {
+      "id": "DA28COM4",
+      "generated_crc32": "152e4f42",
+      "generated_size": [
+        2172,
+        724
+      ],
+      "output": "assets/models/mega/textures/donington-cbo4-da28com4.webp",
+      "output_crc32": "570d0e5c",
+      "output_bytes": 3762,
+      "output_size": [
+        512,
+        128
+      ],
+      "reference": {
+        "name": "DA28COM4",
+        "slot": 37,
+        "bmp_crc32": "0c68325a",
+        "size": [
+          64,
+          16
+        ]
+      },
+      "guide": "build/donington-texture-review/DA28COM4-uv-guide.png",
+      "generated_file": "exec-80e09291-b5cc-4c9e-ac06-1fa58f582b3a.png",
+      "guide_crc32": "00c186dd",
+      "processing": "Whole opaque image resized with Lanczos to 512x128, WebP quality80 method6; no crop, sharpening, paint-over or original pixels in output."
+    },
+    {
+      "id": "DA28COMA",
+      "generated_crc32": "978efaf6",
+      "generated_size": [
+        2172,
+        724
+      ],
+      "output": "assets/models/mega/textures/donington-cbo4-da28coma.webp",
+      "output_crc32": "0b9522ce",
+      "output_bytes": 3500,
+      "output_size": [
+        512,
+        128
+      ],
+      "reference": {
+        "name": "DA28COMA",
+        "slot": 35,
+        "bmp_crc32": "559b67cc",
+        "size": [
+          64,
+          16
+        ]
+      },
+      "guide": "build/donington-texture-review/DA28COMA-uv-guide.png",
+      "generated_file": "exec-b1b25f89-0821-4b91-8d00-cac6558d8ee8.png",
+      "guide_crc32": "667c3a9c",
+      "processing": "Whole opaque image resized with Lanczos to 512x128, WebP quality80 method6; no crop, sharpening, paint-over or original pixels in output."
+    },
+    {
+      "id": "DA28COM9",
+      "source_bmp_crc32": "2f737a83",
+      "source_size": [
+        128,
+        32
+      ],
+      "reference": "build/donington-roof-rear-review/source-roof/DA28COM9-original.png",
+      "reference_crc32": "4835df79",
+      "tool": "built-in image_gen.imagegen",
+      "generated_file": "exec-65736ed9-8fa7-467d-a39c-fe3158e51cb5.png",
+      "generated_crc32": "333a892c",
+      "generated_size": [
+        2172,
+        724
+      ],
+      "crop": [
+        0,
+        88,
+        2172,
+        633
+      ],
+      "processing": "Opaque RGB; reviewed crop only, Lanczos to original aspect, WebP quality80 method6; no original pixels copied.",
+      "output": "assets/models/mega/textures/donington-grandstand-da28com9.webp",
+      "output_size": [
+        512,
+        128
+      ],
+      "output_crc32": "a85e9232",
+      "output_bytes": 3118
+    },
+    {
+      "id": "DA02GSD9",
+      "source_bmp_crc32": "9152b7db",
+      "source_size": [
+        64,
+        64
+      ],
+      "reference": "build/donington-roof-rear-review/source-rear/DA02GSD9-original.png",
+      "reference_crc32": "81efc12a",
+      "tool": "built-in image_gen.imagegen",
+      "generated_file": "exec-47312c22-362a-4fcd-a682-32e6e2e529b6.png",
+      "generated_crc32": "f47faf68",
+      "generated_size": [
+        1254,
+        1254
+      ],
+      "crop": [
+        0,
+        0,
+        1254,
+        1254
+      ],
+      "processing": "Opaque RGB; reviewed crop only, Lanczos to original aspect, WebP quality80 method6; no original pixels copied.",
+      "output": "assets/models/mega/textures/donington-grandstand-da02gsd9.webp",
+      "output_size": [
+        512,
+        512
+      ],
+      "output_crc32": "aa26a999",
+      "output_bytes": 12174
+    }
+  ],
+  "consumers": [
+    {
+      "track": 0,
+      "mesh": 10,
+      "name": "DA28CBO4_1",
+      "type": "dcb96e70"
+    },
+    {
+      "track": 0,
+      "mesh": 11,
+      "name": "DA28CBO5_1",
+      "type": "48f9bf63"
+    },
+    {
+      "track": 0,
+      "mesh": 12,
+      "name": "DA28CBO6_1",
+      "type": "d31dc50d"
+    },
+    {
+      "track": 0,
+      "mesh": 48,
+      "name": "DA28CBO1_1",
+      "type": "e4792759"
+    },
+    {
+      "track": 0,
+      "mesh": 51,
+      "name": "DA28CBO3_1",
+      "type": "433a382b"
+    },
+    {
+      "track": 0,
+      "mesh": 52,
+      "name": "DA28CBO2_1",
+      "type": "7c0884d1"
+    },
+    {
+      "track": 5,
+      "mesh": 9,
+      "name": "DA28CBO4_1",
+      "type": "dcb96e70"
+    },
+    {
+      "track": 5,
+      "mesh": 10,
+      "name": "DA28CBO5_1",
+      "type": "48f9bf63"
+    },
+    {
+      "track": 5,
+      "mesh": 11,
+      "name": "DA28CBO6_1",
+      "type": "d31dc50d"
+    },
+    {
+      "track": 5,
+      "mesh": 50,
+      "name": "DA28CBO1_1",
+      "type": "e4792759"
+    },
+    {
+      "track": 5,
+      "mesh": 53,
+      "name": "DA28CBO3_1",
+      "type": "433a382b"
+    },
+    {
+      "track": 5,
+      "mesh": 54,
+      "name": "DA28CBO2_1",
+      "type": "7c0884d1"
+    }
+  ]
+}

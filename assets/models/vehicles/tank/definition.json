@@ -1,0 +1,16 @@
+{
+  "geometry": "tank",
+  "source_model_crc32": "3d3ea7c9",
+  "fitting_edge_segments": 4,
+  "armor_thickness": 0.012,
+  "hatch_depth": 0.18,
+  "tire_clearance_cut": 0.028,
+  "tire_color": [0, 8, 8, 255],
+  "wheel_segments": 32,
+  "wheel_radius": 0.53759765625,
+  "wheel_half_width": 0.16949462890625,
+  "wheel_bevel": 0.045,
+  "wheel_disc_radius": 0.5,
+  "wheel_patch_center": [0.93515, -0.39827],
+  "wheel_patch_half": 0.0625
+}

@@ -1,0 +1,47 @@
+{
+  "version": 6,
+  "cmakeMinimumRequired": {"major": 3, "minor": 25, "patch": 0},
+  "configurePresets": [
+    {
+      "name": "debug",
+      "generator": "Ninja",
+      "binaryDir": "${sourceDir}/build/dev",
+      "cacheVariables": {"CMAKE_BUILD_TYPE": "Debug", "BUILD_TESTING": "ON", "TOCA_SANITIZERS": "OFF"}
+    },
+    {
+      "name": "release",
+      "generator": "Ninja",
+      "binaryDir": "${sourceDir}/build/release",
+      "cacheVariables": {"CMAKE_BUILD_TYPE": "Release", "BUILD_TESTING": "OFF", "TOCA_SANITIZERS": "OFF"}
+    },
+    {
+      "name": "sanitized",
+      "inherits": "debug",
+      "binaryDir": "${sourceDir}/build/sanitized",
+      "cacheVariables": {"TOCA_SANITIZERS": "ON"}
+    },
+    {
+      "name": "distribution",
+      "inherits": "release",
+      "binaryDir": "${sourceDir}/build/dist",
+      "cacheVariables": {
+        "TOCA_DISTRIBUTION": "ON",
+        "TOCA_USE_SYSTEM_SDL3": "OFF",
+        "TOCA_USE_SYSTEM_GLM": "OFF",
+        "TOCA_BUILD_SHADERCROSS": "ON"
+      }
+    }
+  ],
+  "buildPresets": [
+    {"name": "debug", "configurePreset": "debug", "jobs": 6},
+    {"name": "release", "configurePreset": "release", "jobs": 6},
+    {"name": "sanitized", "configurePreset": "sanitized", "jobs": 6},
+    {"name": "distribution", "configurePreset": "distribution", "targets": ["toca-game"], "jobs": 6}
+  ],
+  "testPresets": [
+    {"name": "debug", "inherits": "debug-full", "description": "Component checks; native flows and extended acceptance are opt-in", "filter": {"exclude": {"label": "^(integration|extended)$"}}},
+    {"name": "sanitized", "inherits": "sanitized-full", "filter": {"exclude": {"label": "^(integration|extended)$"}}},
+    {"name": "debug-full", "configurePreset": "debug", "output": {"outputOnFailure": true}, "execution": {"jobs": 6, "noTestsAction": "error"}},
+    {"name": "sanitized-full", "inherits": "debug-full", "configurePreset": "sanitized", "environment": {"ASAN_OPTIONS": "detect_leaks=1", "UBSAN_OPTIONS": "halt_on_error=1:print_stacktrace=1"}}
+  ]
+}

@@ -1,0 +1,209 @@
+{
+  "version": 1,
+  "policy": "New original-reference-based Brands Hatch road artwork. Mega only, opaque WebP quality80. Whole-image Lanczos resize; no procedural painting or mask composition.",
+  "sources": [
+    {
+      "id": "SCRUB",
+      "file": "exec-157e9142-9238-4383-879b-dd1205115bea.png",
+      "size": [
+        1254,
+        1254
+      ],
+      "crc32": "0a99b92e",
+      "reference": {
+        "archive": "data/branfree.bfp",
+        "archive_crc32": "ecc577c7",
+        "member": 1,
+        "member_name": "GROUND.C3D",
+        "member_crc32": "4152e50d",
+        "material_slot": 1,
+        "material": "SCRUB",
+        "bmp_crc32": "3b85dc35",
+        "size": [
+          64,
+          64
+        ]
+      }
+    },
+    {
+      "id": "TRACK",
+      "file": "exec-adfd6cff-ab75-420c-aa53-8c2a5eeb890e.png",
+      "size": [
+        1774,
+        887
+      ],
+      "crc32": "8ccb0e5e",
+      "reference": {
+        "archive": "data/branfree.bfp",
+        "archive_crc32": "ecc577c7",
+        "member": 1,
+        "member_name": "GROUND.C3D",
+        "member_crc32": "4152e50d",
+        "material_slot": 2,
+        "material": "TRACK",
+        "bmp_crc32": "115f0189",
+        "size": [
+          128,
+          64
+        ]
+      }
+    },
+    {
+      "id": "TRACK_X",
+      "file": "exec-76bfddf3-0f5b-4b43-9151-9c8d42318b18.png",
+      "size": [
+        887,
+        1774
+      ],
+      "crc32": "4f408b4a",
+      "reference": {
+        "archive": "data/branfree.bfp",
+        "archive_crc32": "ecc577c7",
+        "member": 1,
+        "member_name": "GROUND.C3D",
+        "member_crc32": "4152e50d",
+        "material_slot": 5,
+        "material": "TRACK_X",
+        "bmp_crc32": "c2ddcd7f",
+        "size": [
+          32,
+          64
+        ]
+      }
+    },
+    {
+      "id": "START_X",
+      "file": "exec-60c5d3cc-6831-4195-af72-7612dc3bac7a.png",
+      "size": [
+        887,
+        1774
+      ],
+      "crc32": "c537d779",
+      "reference": {
+        "archive": "data/branfree.bfp",
+        "archive_crc32": "ecc577c7",
+        "member": 1,
+        "member_name": "GROUND.C3D",
+        "member_crc32": "4152e50d",
+        "material_slot": 6,
+        "material": "START_X",
+        "bmp_crc32": "baa88f54",
+        "size": [
+          32,
+          64
+        ]
+      }
+    },
+    {
+      "id": "GRID_X",
+      "file": "exec-4c372f6d-5ddc-474d-8f48-ece967324600.png",
+      "size": [
+        887,
+        1774
+      ],
+      "crc32": "1391a635",
+      "reference": {
+        "archive": "data/branfree.bfp",
+        "archive_crc32": "ecc577c7",
+        "member": 1,
+        "member_name": "GROUND.C3D",
+        "member_crc32": "4152e50d",
+        "material_slot": 9,
+        "material": "GRID_X",
+        "bmp_crc32": "ea285560",
+        "size": [
+          32,
+          64
+        ]
+      }
+    }
+  ],
+  "outputs": [
+    {
+      "image": "textures/ground-brands-hatch-scrub.webp",
+      "source": "SCRUB",
+      "crop": [
+        1254,
+        1254,
+        0,
+        0
+      ],
+      "size": [
+        128,
+        128
+      ],
+      "alpha": "opaque",
+      "crc32": "43fa83c6",
+      "bytes": 3540
+    },
+    {
+      "image": "textures/ground-brands-hatch-track.webp",
+      "source": "TRACK",
+      "crop": [
+        1774,
+        887,
+        0,
+        0
+      ],
+      "size": [
+        256,
+        128
+      ],
+      "alpha": "opaque",
+      "crc32": "3e4b9965",
+      "bytes": 3932
+    },
+    {
+      "image": "textures/ground-brands-hatch-track-x.webp",
+      "source": "TRACK_X",
+      "crop": [
+        887,
+        1774,
+        0,
+        0
+      ],
+      "size": [
+        64,
+        128
+      ],
+      "alpha": "opaque",
+      "crc32": "1087b4aa",
+      "bytes": 568
+    },
+    {
+      "image": "textures/ground-brands-hatch-start-x.webp",
+      "source": "START_X",
+      "crop": [
+        887,
+        1774,
+        0,
+        0
+      ],
+      "size": [
+        64,
+        128
+      ],
+      "alpha": "opaque",
+      "crc32": "fecafb12",
+      "bytes": 532
+    },
+    {
+      "image": "textures/ground-brands-hatch-grid-x.webp",
+      "source": "GRID_X",
+      "crop": [
+        887,
+        1774,
+        0,
+        0
+      ],
+      "size": [
+        64,
+        128
+      ],
+      "alpha": "opaque",
+      "crc32": "c09b9b70",
+      "bytes": 840
+    }
+  ],
+  "webp_quality": 80
+}

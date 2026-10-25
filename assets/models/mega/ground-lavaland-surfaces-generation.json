@@ -1,0 +1,173 @@
+{
+  "version": 1,
+  "processing": "Each material generated separately with built-in Imagegen using its enlarged original layout. Full generated square canvas resized with Lanczos to the exact planned size. Encoded opaque RGB WebP quality80 method6. No programmatic painting, masking or material composition.",
+  "sources": [
+    {
+      "id": "WALL09",
+      "file": "exec-87ab2e4c-5d0e-46e7-9d60-b6126ff5af01.png",
+      "crc32": "8c7b1b5f",
+      "size": [
+        1254,
+        1254
+      ],
+      "reference": {
+        "archive": "data/landfree.bfp",
+        "archive_crc32": "dba52c51",
+        "member": 1,
+        "member_name": "GROUND.C3D",
+        "member_crc32": "2c324d11",
+        "material_slot": 5,
+        "material": "WALL09",
+        "bmp_crc32": "3ecd7de3",
+        "size": [
+          128,
+          128
+        ]
+      }
+    },
+    {
+      "id": "WALL10",
+      "file": "exec-38e713e9-520c-4b2c-b232-b1f8d6280559.png",
+      "crc32": "204fdd6b",
+      "size": [
+        1254,
+        1254
+      ],
+      "reference": {
+        "archive": "data/landfree.bfp",
+        "archive_crc32": "dba52c51",
+        "member": 1,
+        "member_name": "GROUND.C3D",
+        "member_crc32": "2c324d11",
+        "material_slot": 6,
+        "material": "WALL10",
+        "bmp_crc32": "85dcaf58",
+        "size": [
+          128,
+          128
+        ]
+      }
+    },
+    {
+      "id": "WALL09A",
+      "file": "exec-a547fe50-f0e3-4099-979f-d9c047e74c2a.png",
+      "crc32": "bfc1e3a2",
+      "size": [
+        1254,
+        1254
+      ],
+      "reference": {
+        "archive": "data/landfree.bfp",
+        "archive_crc32": "dba52c51",
+        "member": 1,
+        "member_name": "GROUND.C3D",
+        "member_crc32": "2c324d11",
+        "material_slot": 7,
+        "material": "WALL09A",
+        "bmp_crc32": "b9ce4f5d",
+        "size": [
+          128,
+          128
+        ]
+      }
+    },
+    {
+      "id": "WALL10A",
+      "file": "exec-00d5fbb6-08a8-4aed-8d2f-f8459dfb9d88.png",
+      "crc32": "913d4337",
+      "size": [
+        1254,
+        1254
+      ],
+      "reference": {
+        "archive": "data/landfree.bfp",
+        "archive_crc32": "dba52c51",
+        "member": 1,
+        "member_name": "GROUND.C3D",
+        "member_crc32": "2c324d11",
+        "material_slot": 8,
+        "material": "WALL10A",
+        "bmp_crc32": "a1cd40b3",
+        "size": [
+          128,
+          128
+        ]
+      }
+    }
+  ],
+  "outputs": [
+    {
+      "image": "textures/ground-lavaland-wall09.webp",
+      "source": "WALL09",
+      "size": [
+        256,
+        256
+      ],
+      "alpha": "opaque",
+      "webp_quality": 80,
+      "method": 6,
+      "crc32": "8690a3f8",
+      "bytes": 17312,
+      "mean_rgb": [
+        109.495,
+        32.193,
+        10.156
+      ]
+    },
+    {
+      "image": "textures/ground-lavaland-wall10.webp",
+      "source": "WALL10",
+      "size": [
+        256,
+        256
+      ],
+      "alpha": "opaque",
+      "webp_quality": 80,
+      "method": 6,
+      "crc32": "dcd28b1d",
+      "bytes": 16526,
+      "mean_rgb": [
+        109.286,
+        31.139,
+        9.831
+      ]
+    },
+    {
+      "image": "textures/ground-lavaland-wall09a.webp",
+      "source": "WALL09A",
+      "size": [
+        256,
+        256
+      ],
+      "alpha": "opaque",
+      "webp_quality": 80,
+      "method": 6,
+      "crc32": "479ba536",
+      "bytes": 16172,
+      "mean_rgb": [
+        114.162,
+        29.513,
+        9.124
+      ]
+    },
+    {
+      "image": "textures/ground-lavaland-wall10a.webp",
+      "source": "WALL10A",
+      "size": [
+        256,
+        256
+      ],
+      "alpha": "opaque",
+      "webp_quality": 80,
+      "method": 6,
+      "crc32": "007b170d",
+      "bytes": 18278,
+      "mean_rgb": [
+        113.419,
+        32.261,
+        11.267
+      ]
+    }
+  ],
+  "webp_quality": 80
+}

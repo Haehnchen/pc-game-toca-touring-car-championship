@@ -1,0 +1,32 @@
+{
+  "schema": 1,
+  "webp_quality": 80,
+  "sources": [
+    {
+      "id": "wheel",
+      "generated_file": "build/cockpit-texture-generation/wheel-source.png",
+      "crc32": "247902e2"
+    },
+    {
+      "id": "wiper",
+      "generated_file": "build/cockpit-texture-generation/wiper-source.png",
+      "crc32": "d2c0d3fe"
+    }
+  ],
+  "outputs": [
+    {
+      "image": "textures/wheel01.webp",
+      "source": "wheel",
+      "crop": [1254, 1254, 0, 0],
+      "size": [512, 512],
+      "alpha": "preserve-generated"
+    },
+    {
+      "image": "textures/wiper.webp",
+      "source": "wiper",
+      "crop": [1584, 99, 0, 468],
+      "size": [512, 32],
+      "alpha": "preserve-generated"
+    }
+  ]
+}

@@ -1,0 +1,337 @@
+{
+  "version": 1,
+  "processing": "Each material generated separately with built-in Imagegen using its enlarged original layout. Full generated canvas resized with Lanczos and encoded as opaque RGB WebP quality80 method6. No programmatic painting, masking or material composition.",
+  "sources": [
+    {
+      "id": "GRASS2",
+      "file": "exec-7fdffae6-c11b-4938-b291-3969e1a4fa68.png",
+      "crc32": "3f24ebdf",
+      "size": [
+        1254,
+        1254
+      ],
+      "reference": {
+        "archive": "data/silvfree.bfp",
+        "archive_crc32": "960a335c",
+        "member": 1,
+        "member_name": "GROUND.C3D",
+        "member_crc32": "158558eb",
+        "material_slot": 1,
+        "material": "GRASS2",
+        "bmp_crc32": "175151aa",
+        "size": [
+          64,
+          64
+        ]
+      }
+    },
+    {
+      "id": "GRAVEL",
+      "file": "exec-a51a7946-0cfd-4318-a054-729cf33cf659.png",
+      "crc32": "2ae719a1",
+      "size": [
+        1254,
+        1254
+      ],
+      "reference": {
+        "archive": "data/silvfree.bfp",
+        "archive_crc32": "960a335c",
+        "member": 1,
+        "member_name": "GROUND.C3D",
+        "member_crc32": "158558eb",
+        "material_slot": 10,
+        "material": "GRAVEL",
+        "bmp_crc32": "33e4f2fc",
+        "size": [
+          64,
+          64
+        ]
+      }
+    },
+    {
+      "id": "GG",
+      "file": "exec-7a9c096b-847d-4dec-8ec8-497000860588.png",
+      "crc32": "2035587e",
+      "size": [
+        887,
+        1774
+      ],
+      "reference": {
+        "archive": "data/silvfree.bfp",
+        "archive_crc32": "960a335c",
+        "member": 1,
+        "member_name": "GROUND.C3D",
+        "member_crc32": "158558eb",
+        "material_slot": 9,
+        "material": "GG",
+        "bmp_crc32": "f351a508",
+        "size": [
+          32,
+          64
+        ]
+      }
+    },
+    {
+      "id": "WLINE",
+      "file": "exec-106c0911-3e79-4f06-9ade-4805d8d1769d.png",
+      "crc32": "65c4fdc9",
+      "size": [
+        2172,
+        724
+      ],
+      "reference": {
+        "archive": "data/silvfree.bfp",
+        "archive_crc32": "960a335c",
+        "member": 1,
+        "member_name": "GROUND.C3D",
+        "member_crc32": "158558eb",
+        "material_slot": 3,
+        "material": "WLINE",
+        "bmp_crc32": "c9555193",
+        "size": [
+          64,
+          16
+        ]
+      }
+    },
+    {
+      "id": "RUMBW",
+      "file": "exec-19d65dd2-f796-4429-b037-0b2b3e59aa19.png",
+      "crc32": "9b541c4f",
+      "size": [
+        2172,
+        724
+      ],
+      "reference": {
+        "archive": "data/silvfree.bfp",
+        "archive_crc32": "960a335c",
+        "member": 1,
+        "member_name": "GROUND.C3D",
+        "member_crc32": "158558eb",
+        "material_slot": 4,
+        "material": "RUMBW",
+        "bmp_crc32": "870dd507",
+        "size": [
+          128,
+          32
+        ]
+      }
+    },
+    {
+      "id": "RUMB",
+      "file": "exec-27067a21-18e1-4363-b248-755d6b1dc682.png",
+      "crc32": "4abe9f31",
+      "size": [
+        1774,
+        887
+      ],
+      "reference": {
+        "archive": "data/silvfree.bfp",
+        "archive_crc32": "960a335c",
+        "member": 1,
+        "member_name": "GROUND.C3D",
+        "member_crc32": "158558eb",
+        "material_slot": 5,
+        "material": "RUMB",
+        "bmp_crc32": "520889f9",
+        "size": [
+          64,
+          32
+        ]
+      }
+    },
+    {
+      "id": "RUMW",
+      "file": "exec-2456e5fa-9068-4598-baa3-d184c280149c.png",
+      "crc32": "7780d02c",
+      "size": [
+        1774,
+        887
+      ],
+      "reference": {
+        "archive": "data/silvfree.bfp",
+        "archive_crc32": "960a335c",
+        "member": 1,
+        "member_name": "GROUND.C3D",
+        "member_crc32": "158558eb",
+        "material_slot": 6,
+        "material": "RUMW",
+        "bmp_crc32": "1f0ea2a1",
+        "size": [
+          64,
+          32
+        ]
+      }
+    },
+    {
+      "id": "FLATRUM",
+      "file": "exec-01af37f7-fb08-4235-9d41-c6d230863930.png",
+      "crc32": "926f2543",
+      "size": [
+        2168,
+        725
+      ],
+      "reference": {
+        "archive": "data/silvfree.bfp",
+        "archive_crc32": "960a335c",
+        "member": 1,
+        "member_name": "GROUND.C3D",
+        "member_crc32": "158558eb",
+        "material_slot": 8,
+        "material": "FLATRUM",
+        "bmp_crc32": "ef16aebc",
+        "size": [
+          128,
+          32
+        ]
+      }
+    }
+  ],
+  "outputs": [
+    {
+      "image": "textures/ground-silverstone-grass2.webp",
+      "source": "GRASS2",
+      "size": [
+        128,
+        128
+      ],
+      "alpha": "opaque",
+      "webp_quality": 80,
+      "method": 6,
+      "crc32": "c69e8623",
+      "bytes": 5150,
+      "mean_rgb": [
+        87.793,
+        95.746,
+        9.147
+      ]
+    },
+    {
+      "image": "textures/ground-silverstone-gravel.webp",
+      "source": "GRAVEL",
+      "size": [
+        128,
+        128
+      ],
+      "alpha": "opaque",
+      "webp_quality": 80,
+      "method": 6,
+      "crc32": "008ade66",
+      "bytes": 7204,
+      "mean_rgb": [
+        204.116,
+        135.811,
+        96.46
+      ]
+    },
+    {
+      "image": "textures/ground-silverstone-gg.webp",
+      "source": "GG",
+      "size": [
+        64,
+        128
+      ],
+      "alpha": "opaque",
+      "webp_quality": 80,
+      "method": 6,
+      "crc32": "b50c9015",
+      "bytes": 2838,
+      "mean_rgb": [
+        152.773,
+        117.598,
+        62.583
+      ]
+    },
+    {
+      "image": "textures/ground-silverstone-wline.webp",
+      "source": "WLINE",
+      "size": [
+        128,
+        32
+      ],
+      "alpha": "opaque",
+      "webp_quality": 80,
+      "method": 6,
+      "crc32": "137cb1c5",
+      "bytes": 372,
+      "mean_rgb": [
+        146.474,
+        144.967,
+        140.304
+      ]
+    },
+    {
+      "image": "textures/ground-silverstone-rumbw.webp",
+      "source": "RUMBW",
+      "size": [
+        256,
+        64
+      ],
+      "alpha": "opaque",
+      "webp_quality": 80,
+      "method": 6,
+      "crc32": "853c019a",
+      "bytes": 3432,
+      "mean_rgb": [
+        103.569,
+        126.307,
+        136.635
+      ]
+    },
+    {
+      "image": "textures/ground-silverstone-rumb.webp",
+      "source": "RUMB",
+      "size": [
+        128,
+        64
+      ],
+      "alpha": "opaque",
+      "webp_quality": 80,
+      "method": 6,
+      "crc32": "f3c2ece8",
+      "bytes": 1312,
+      "mean_rgb": [
+        39.003,
+        89.285,
+        124.539
+      ]
+    },
+    {
+      "image": "textures/ground-silverstone-rumw.webp",
+      "source": "RUMW",
+      "size": [
+        128,
+        64
+      ],
+      "alpha": "opaque",
+      "webp_quality": 80,
+      "method": 6,
+      "crc32": "9330c618",
+      "bytes": 1304,
+      "mean_rgb": [
+        176.603,
+        176.736,
+        165.941
+      ]
+    },
+    {
+      "image": "textures/ground-silverstone-flatrum.webp",
+      "source": "FLATRUM",
+      "size": [
+        256,
+        64
+      ],
+      "alpha": "opaque",
+      "webp_quality": 80,
+      "method": 6,
+      "crc32": "ce4d17cf",
+      "bytes": 2760,
+      "mean_rgb": [
+        164.183,
+        159.262,
+        148.11
+      ]
+    }
+  ],
+  "webp_quality": 80
+}

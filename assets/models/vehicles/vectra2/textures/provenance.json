@@ -1,0 +1,27 @@
+{
+  "assets": [
+    {
+      "file": "work/VECTRA2.webp",
+      "crc32": "b92d20fd"
+    },
+    {
+      "file": "work/ListB.webp",
+      "crc32": "3710e1c2"
+    },
+    {
+      "file": "work/Num88.webp",
+      "crc32": "b958b152"
+    },
+    {
+      "file": "work/WSCRN.webp",
+      "crc32": "9d017db3"
+    },
+    {
+      "file": "work/SIDEG.webp",
+      "crc32": "071d08a8"
+    }
+  ],
+  "finalization": {
+    "quality": 80
+  }
+}

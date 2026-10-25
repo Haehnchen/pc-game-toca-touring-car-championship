@@ -1,0 +1,1016 @@
+{
+  "version": 1,
+  "package": "M07-4-buildings-bridges",
+  "source": {
+    "track": 4,
+    "path": "data/oultfree.bfp",
+    "crc32": "e6e258cb",
+    "bytes": 2887479,
+    "member": 5,
+    "member_name": "OBJECTS.C3D",
+    "member_crc32": "5ad0e21a"
+  },
+  "scope": {
+    "types": 12,
+    "bindings": 12,
+    "new_images": 49,
+    "unchanged_shared_images": 1,
+    "geometry_uv_slots_nodes": "source-exact"
+  },
+  "export": {
+    "generator": "imagegen",
+    "format": "WebP",
+    "quality": 70,
+    "method": 6,
+    "max_edge": 512,
+    "source_aspect": true,
+    "presentation_padding": "removed before export",
+    "generated_alpha_composite": "black",
+    "alpha": "Exact original RGB-black key; nearest source mask at output size"
+  },
+  "models": [
+    {
+      "mesh": 5,
+      "name": "OP11GHSE_1",
+      "source_crc32": "f25d065f",
+      "type": "0a6db1dc",
+      "nodes": [
+        [
+          43,
+          0
+        ]
+      ]
+    },
+    {
+      "mesh": 7,
+      "name": "OP14STLT_1",
+      "source_crc32": "74205042",
+      "type": "50f7b3b7",
+      "nodes": [
+        [
+          49,
+          0
+        ]
+      ]
+    },
+    {
+      "mesh": 8,
+      "name": "OP15PRHS_1",
+      "source_crc32": "9836d6dc",
+      "type": "bca6da93",
+      "nodes": [
+        [
+          51,
+          0
+        ]
+      ]
+    },
+    {
+      "mesh": 9,
+      "name": "OP16CNV_1",
+      "source_crc32": "a0263d48",
+      "type": "5fb699a8",
+      "nodes": [
+        [
+          53,
+          0
+        ]
+      ]
+    },
+    {
+      "mesh": 10,
+      "name": "OP20AFM_1",
+      "source_crc32": "f4eec684",
+      "type": "dc748dda",
+      "nodes": [
+        [
+          55,
+          0
+        ]
+      ]
+    },
+    {
+      "mesh": 11,
+      "name": "OP20BMPB_1",
+      "source_crc32": "618bc06a",
+      "type": "7e111184",
+      "nodes": [
+        [
+          57,
+          0
+        ]
+      ]
+    },
+    {
+      "mesh": 12,
+      "name": "OP20DTB_1",
+      "source_crc32": "a849ed77",
+      "type": "1b89c781",
+      "nodes": [
+        [
+          59,
+          0
+        ]
+      ]
+    },
+    {
+      "mesh": 13,
+      "name": "OP20FLH_1",
+      "source_crc32": "26324ee4",
+      "type": "63677453",
+      "nodes": [
+        [
+          61,
+          0
+        ]
+      ]
+    },
+    {
+      "mesh": 14,
+      "name": "OP21OFBL_1",
+      "source_crc32": "432b57d4",
+      "type": "9860b54e",
+      "nodes": [
+        [
+          63,
+          0
+        ]
+      ]
+    },
+    {
+      "mesh": 15,
+      "name": "OP22TMBX_1",
+      "source_crc32": "b0150675",
+      "type": "6b5a0073",
+      "nodes": [
+        [
+          65,
+          0
+        ]
+      ]
+    },
+    {
+      "mesh": 16,
+      "name": "OP13YOKB_1",
+      "source_crc32": "cbfd1e3f",
+      "type": "bebfa456",
+      "nodes": [
+        [
+          69,
+          0
+        ]
+      ]
+    },
+    {
+      "mesh": 17,
+      "name": "OP12RDBR_1",
+      "source_crc32": "c1b0c558",
+      "type": "7dcdc309",
+      "nodes": [
+        [
+          71,
+          0
+        ]
+      ]
+    }
+  ],
+  "shared_chart_consumers": [
+    {
+      "name": "OP05SDE",
+      "consumers": [
+        "HIGH/LOW OP11GHSE_1"
+      ],
+      "point_baked_uv": [
+        0.02,
+        0.99
+      ],
+      "point_source_rgb": [
+        8,
+        8,
+        8
+      ],
+      "unchanged_crc32": "35027b34"
+    },
+    {
+      "name": "OP12RBG8",
+      "consumers": [
+        "HIGH/LOW/ZERO CHERV_1"
+      ],
+      "line_baked_u": 0.6031646728515625,
+      "line_baked_v": [
+        0.7143096923828125,
+        0.7460479736328125
+      ],
+      "line_source_rgb": [
+        140,
+        140,
+        140
+      ],
+      "field": "Original mild lighter grey band and surrounding grey area crops; CHERV_1 remains unaccepted in M08"
+    }
+  ],
+  "lettering": {
+    "OP15MC1": {
+      "text": "MEDICAL CENTRE",
+      "note": "Two-line source-aligned contextual reconstruction; exact tiny source glyphs remain uncertain. Original black medical cross retained."
+    }
+  },
+  "textures": [
+    {
+      "name": "OP05SDE",
+      "slot": 10,
+      "source_crc32": "6a3c0cf9",
+      "source_size": [
+        64,
+        64
+      ],
+      "image": "textures/oulton-pits-op05sde.webp",
+      "crc32": "35027b34",
+      "reuse": "oulton-pits-generation.json"
+    },
+    {
+      "name": "OP11HSE2",
+      "slot": 25,
+      "source_crc32": "f7fe1977",
+      "source_size": [
+        32,
+        128
+      ],
+      "image": "textures/oulton-building-op11hse2.webp",
+      "crc32": "98eea63a",
+      "bytes": 1322,
+      "size": [
+        128,
+        512
+      ]
+    },
+    {
+      "name": "OP11HSE3",
+      "slot": 26,
+      "source_crc32": "25b10b84",
+      "source_size": [
+        32,
+        128
+      ],
+      "image": "textures/oulton-building-op11hse3.webp",
+      "crc32": "f5465881",
+      "bytes": 3668,
+      "size": [
+        128,
+        512
+      ]
+    },
+    {
+      "name": "OP11HSE4",
+      "slot": 27,
+      "source_crc32": "7ac02378",
+      "source_size": [
+        64,
+        64
+      ],
+      "image": "textures/oulton-building-op11hse4.webp",
+      "crc32": "ff742356",
+      "bytes": 10500,
+      "size": [
+        512,
+        512
+      ]
+    },
+    {
+      "name": "OP11HSE7",
+      "slot": 28,
+      "source_crc32": "013cd9a2",
+      "source_size": [
+        64,
+        32
+      ],
+      "image": "textures/oulton-building-op11hse7.webp",
+      "crc32": "abf79337",
+      "bytes": 10930,
+      "size": [
+        512,
+        256
+      ]
+    },
+    {
+      "name": "OP11HSE1",
+      "slot": 29,
+      "source_crc32": "bdfe24ae",
+      "source_size": [
+        32,
+        128
+      ],
+      "image": "textures/oulton-building-op11hse1.webp",
+      "crc32": "e6e07bfe",
+      "bytes": 3828,
+      "size": [
+        128,
+        512
+      ]
+    },
+    {
+      "name": "OP11HSE6",
+      "slot": 30,
+      "source_crc32": "e6c296fd",
+      "source_size": [
+        32,
+        128
+      ],
+      "image": "textures/oulton-building-op11hse6.webp",
+      "crc32": "32034256",
+      "bytes": 1604,
+      "size": [
+        128,
+        512
+      ]
+    },
+    {
+      "name": "OP14SL1",
+      "slot": 35,
+      "source_crc32": "84ec5b34",
+      "source_size": [
+        64,
+        64
+      ],
+      "image": "textures/oulton-building-op14sl1.webp",
+      "crc32": "c17e5413",
+      "bytes": 16066,
+      "size": [
+        512,
+        512
+      ]
+    },
+    {
+      "name": "OP14SL3",
+      "slot": 36,
+      "source_crc32": "59d3de6c",
+      "source_size": [
+        16,
+        256
+      ],
+      "image": "textures/oulton-building-op14sl3.webp",
+      "crc32": "4f7b5ead",
+      "bytes": 2118,
+      "size": [
+        32,
+        512
+      ]
+    },
+    {
+      "name": "OP14SL4",
+      "slot": 37,
+      "source_crc32": "feb63df8",
+      "source_size": [
+        16,
+        256
+      ],
+      "image": "textures/oulton-building-op14sl4.webp",
+      "crc32": "742f983d",
+      "bytes": 1114,
+      "size": [
+        32,
+        512
+      ]
+    },
+    {
+      "name": "OP15MC1",
+      "slot": 38,
+      "source_crc32": "90171a87",
+      "source_size": [
+        128,
+        32
+      ],
+      "image": "textures/oulton-building-op15mc1.webp",
+      "crc32": "29f57535",
+      "bytes": 8318,
+      "size": [
+        512,
+        128
+      ]
+    },
+    {
+      "name": "OP15MC2",
+      "slot": 39,
+      "source_crc32": "1f0b9a52",
+      "source_size": [
+        128,
+        32
+      ],
+      "image": "textures/oulton-building-op15mc2.webp",
+      "crc32": "33501404",
+      "bytes": 5740,
+      "size": [
+        512,
+        128
+      ]
+    },
+    {
+      "name": "OP15MC4",
+      "slot": 40,
+      "source_crc32": "6de39c53",
+      "source_size": [
+        128,
+        32
+      ],
+      "image": "textures/oulton-building-op15mc4.webp",
+      "crc32": "87732d09",
+      "bytes": 4402,
+      "size": [
+        512,
+        128
+      ]
+    },
+    {
+      "name": "BH12FNT",
+      "slot": 41,
+      "source_crc32": "968d5099",
+      "source_size": [
+        64,
+        32
+      ],
+      "image": "textures/oulton-building-bh12fnt.webp",
+      "crc32": "5bae80a8",
+      "bytes": 3448,
+      "size": [
+        512,
+        256
+      ]
+    },
+    {
+      "name": "BH12SDE",
+      "slot": 42,
+      "source_crc32": "d37a9273",
+      "source_size": [
+        128,
+        32
+      ],
+      "image": "textures/oulton-building-bh12sde.webp",
+      "crc32": "4f668907",
+      "bytes": 1894,
+      "size": [
+        512,
+        128
+      ]
+    },
+    {
+      "name": "OP20A1",
+      "slot": 43,
+      "source_crc32": "e1189530",
+      "source_size": [
+        32,
+        16
+      ],
+      "image": "textures/oulton-building-op20a1.webp",
+      "crc32": "600da8c1",
+      "bytes": 4772,
+      "size": [
+        512,
+        256
+      ]
+    },
+    {
+      "name": "OP20A2",
+      "slot": 44,
+      "source_crc32": "3f26dd3a",
+      "source_size": [
+        32,
+        32
+      ],
+      "image": "textures/oulton-building-op20a2.webp",
+      "crc32": "f9f2a6a2",
+      "bytes": 21886,
+      "size": [
+        512,
+        512
+      ]
+    },
+    {
+      "name": "OP20A3",
+      "slot": 45,
+      "source_crc32": "40ae9fe0",
+      "source_size": [
+        64,
+        16
+      ],
+      "image": "textures/oulton-building-op20a3.webp",
+      "crc32": "088f21b4",
+      "bytes": 1596,
+      "size": [
+        512,
+        128
+      ]
+    },
+    {
+      "name": "OP20A4",
+      "slot": 46,
+      "source_crc32": "fc71b3b0",
+      "source_size": [
+        32,
+        32
+      ],
+      "image": "textures/oulton-building-op20a4.webp",
+      "crc32": "f45c87c5",
+      "bytes": 26740,
+      "size": [
+        512,
+        512
+      ]
+    },
+    {
+      "name": "OP20A7",
+      "slot": 47,
+      "source_crc32": "de421228",
+      "source_size": [
+        32,
+        16
+      ],
+      "image": "textures/oulton-building-op20a7.webp",
+      "crc32": "3856b00a",
+      "bytes": 4966,
+      "size": [
+        512,
+        256
+      ]
+    },
+    {
+      "name": "OP20A8",
+      "slot": 48,
+      "source_crc32": "a45ef111",
+      "source_size": [
+        32,
+        32
+      ],
+      "image": "textures/oulton-building-op20a8.webp",
+      "crc32": "e1bba354",
+      "bytes": 15220,
+      "size": [
+        512,
+        512
+      ]
+    },
+    {
+      "name": "OP20A5",
+      "slot": 49,
+      "source_crc32": "733281c9",
+      "source_size": [
+        32,
+        32
+      ],
+      "image": "textures/oulton-building-op20a5.webp",
+      "crc32": "219e01e5",
+      "bytes": 8520,
+      "size": [
+        512,
+        512
+      ]
+    },
+    {
+      "name": "OP20A6",
+      "slot": 50,
+      "source_crc32": "4b778613",
+      "source_size": [
+        32,
+        16
+      ],
+      "image": "textures/oulton-building-op20a6.webp",
+      "crc32": "68c1ea5e",
+      "bytes": 13268,
+      "size": [
+        512,
+        256
+      ]
+    },
+    {
+      "name": "OP20B1",
+      "slot": 51,
+      "source_crc32": "cedf13b0",
+      "source_size": [
+        32,
+        16
+      ],
+      "image": "textures/oulton-building-op20b1.webp",
+      "crc32": "3892e394",
+      "bytes": 13936,
+      "size": [
+        512,
+        256
+      ]
+    },
+    {
+      "name": "OP20B3",
+      "slot": 52,
+      "source_crc32": "cac85a0b",
+      "source_size": [
+        32,
+        16
+      ],
+      "image": "textures/oulton-building-op20b3.webp",
+      "crc32": "3dd86375",
+      "bytes": 24288,
+      "size": [
+        512,
+        256
+      ]
+    },
+    {
+      "name": "OP20B4",
+      "slot": 53,
+      "source_crc32": "0fad9b4e",
+      "source_size": [
+        64,
+        32
+      ],
+      "image": "textures/oulton-building-op20b4.webp",
+      "crc32": "f59dcf59",
+      "bytes": 27222,
+      "size": [
+        512,
+        256
+      ]
+    },
+    {
+      "name": "OP20B5",
+      "slot": 54,
+      "source_crc32": "27d37259",
+      "source_size": [
+        32,
+        16
+      ],
+      "image": "textures/oulton-building-op20b5.webp",
+      "crc32": "5ed7519b",
+      "bytes": 9708,
+      "size": [
+        512,
+        256
+      ]
+    },
+    {
+      "name": "OP20B6",
+      "slot": 55,
+      "source_crc32": "3ad50a6d",
+      "source_size": [
+        32,
+        16
+      ],
+      "image": "textures/oulton-building-op20b6.webp",
+      "crc32": "2c8761a2",
+      "bytes": 15360,
+      "size": [
+        512,
+        256
+      ]
+    },
+    {
+      "name": "OP20B8",
+      "slot": 56,
+      "source_crc32": "fa55ff63",
+      "source_size": [
+        64,
+        32
+      ],
+      "image": "textures/oulton-building-op20b8.webp",
+      "crc32": "f21efbab",
+      "bytes": 12226,
+      "size": [
+        512,
+        256
+      ]
+    },
+    {
+      "name": "OP20B9",
+      "slot": 57,
+      "source_crc32": "2d5d5530",
+      "source_size": [
+        64,
+        32
+      ],
+      "image": "textures/oulton-building-op20b9.webp",
+      "crc32": "050d907b",
+      "bytes": 8790,
+      "size": [
+        512,
+        256
+      ]
+    },
+    {
+      "name": "OP21OB1",
+      "slot": 58,
+      "source_crc32": "b4f67336",
+      "source_size": [
+        64,
+        32
+      ],
+      "image": "textures/oulton-building-op21ob1.webp",
+      "crc32": "79e93c82",
+      "bytes": 3876,
+      "size": [
+        512,
+        256
+      ]
+    },
+    {
+      "name": "OP21OB2",
+      "slot": 59,
+      "source_crc32": "a0972a10",
+      "source_size": [
+        64,
+        32
+      ],
+      "image": "textures/oulton-building-op21ob2.webp",
+      "crc32": "04fdcbe0",
+      "bytes": 11272,
+      "size": [
+        512,
+        256
+      ]
+    },
+    {
+      "name": "OP21OB3",
+      "slot": 60,
+      "source_crc32": "f1b73b40",
+      "source_size": [
+        64,
+        32
+      ],
+      "image": "textures/oulton-building-op21ob3.webp",
+      "crc32": "569deed6",
+      "bytes": 10924,
+      "size": [
+        512,
+        256
+      ]
+    },
+    {
+      "name": "OP21OB6",
+      "slot": 61,
+      "source_crc32": "8a176d3f",
+      "source_size": [
+        64,
+        32
+      ],
+      "image": "textures/oulton-building-op21ob6.webp",
+      "crc32": "0bec0187",
+      "bytes": 9022,
+      "size": [
+        512,
+        256
+      ]
+    },
+    {
+      "name": "OP22MX1",
+      "slot": 62,
+      "source_crc32": "cdd1b856",
+      "source_size": [
+        64,
+        64
+      ],
+      "image": "textures/oulton-building-op22mx1.webp",
+      "crc32": "8b50b240",
+      "bytes": 4686,
+      "size": [
+        512,
+        512
+      ]
+    },
+    {
+      "name": "OP22MX2",
+      "slot": 63,
+      "source_crc32": "5440ac35",
+      "source_size": [
+        64,
+        64
+      ],
+      "image": "textures/oulton-building-op22mx2.webp",
+      "crc32": "e26fdc35",
+      "bytes": 5936,
+      "size": [
+        512,
+        512
+      ]
+    },
+    {
+      "name": "OP22MX3",
+      "slot": 64,
+      "source_crc32": "28e19929",
+      "source_size": [
+        64,
+        64
+      ],
+      "image": "textures/oulton-building-op22mx3.webp",
+      "crc32": "1ee13bd4",
+      "bytes": 5690,
+      "size": [
+        512,
+        512
+      ]
+    },
+    {
+      "name": "OP22MX4",
+      "slot": 65,
+      "source_crc32": "e65619e3",
+      "source_size": [
+        64,
+        64
+      ],
+      "image": "textures/oulton-building-op22mx4.webp",
+      "crc32": "d7c76817",
+      "bytes": 8510,
+      "size": [
+        512,
+        512
+      ]
+    },
+    {
+      "name": "OP22MX5",
+      "slot": 66,
+      "source_crc32": "9379457e",
+      "source_size": [
+        64,
+        32
+      ],
+      "image": "textures/oulton-building-op22mx5.webp",
+      "crc32": "3d3cedfc",
+      "bytes": 6092,
+      "size": [
+        512,
+        256
+      ]
+    },
+    {
+      "name": "OP13YOB1",
+      "slot": 67,
+      "source_crc32": "5d4498a3",
+      "source_size": [
+        128,
+        64
+      ],
+      "image": "textures/oulton-building-op13yob1.webp",
+      "crc32": "dbd0da54",
+      "bytes": 6760,
+      "size": [
+        512,
+        256
+      ]
+    },
+    {
+      "name": "OP13YOBB",
+      "slot": 68,
+      "source_crc32": "7b995842",
+      "source_size": [
+        128,
+        16
+      ],
+      "image": "textures/oulton-building-op13yobb.webp",
+      "crc32": "848133ea",
+      "bytes": 2758,
+      "size": [
+        512,
+        64
+      ]
+    },
+    {
+      "name": "OP13YOBF",
+      "slot": 69,
+      "source_crc32": "2510bdbe",
+      "source_size": [
+        128,
+        64
+      ],
+      "image": "textures/oulton-building-op13yobf.webp",
+      "crc32": "c3b1ec5c",
+      "bytes": 7220,
+      "size": [
+        512,
+        256
+      ]
+    },
+    {
+      "name": "OP13YOBS",
+      "slot": 70,
+      "source_crc32": "51a991a2",
+      "source_size": [
+        64,
+        32
+      ],
+      "image": "textures/oulton-building-op13yobs.webp",
+      "crc32": "be805869",
+      "bytes": 5956,
+      "size": [
+        512,
+        256
+      ]
+    },
+    {
+      "name": "OP13YOBT",
+      "slot": 71,
+      "source_crc32": "256ccb5d",
+      "source_size": [
+        32,
+        16
+      ],
+      "image": "textures/oulton-building-op13yobt.webp",
+      "crc32": "5128918b",
+      "bytes": 3102,
+      "size": [
+        512,
+        256
+      ]
+    },
+    {
+      "name": "OP12RBG1",
+      "slot": 72,
+      "source_crc32": "42e80c65",
+      "source_size": [
+        64,
+        32
+      ],
+      "image": "textures/oulton-building-op12rbg1.webp",
+      "crc32": "fe85ebfb",
+      "bytes": 7958,
+      "size": [
+        512,
+        256
+      ]
+    },
+    {
+      "name": "OP12RBG4",
+      "slot": 73,
+      "source_crc32": "11f59cd6",
+      "source_size": [
+        128,
+        32
+      ],
+      "image": "textures/oulton-building-op12rbg4.webp",
+      "crc32": "e02bf86e",
+      "bytes": 5546,
+      "size": [
+        512,
+        128
+      ]
+    },
+    {
+      "name": "OP12RBG2",
+      "slot": 74,
+      "source_crc32": "2ed820ac",
+      "source_size": [
+        32,
+        32
+      ],
+      "image": "textures/oulton-building-op12rbg2.webp",
+      "crc32": "235caff5",
+      "bytes": 20084,
+      "size": [
+        512,
+        512
+      ]
+    },
+    {
+      "name": "OP12RBG3",
+      "slot": 75,
+      "source_crc32": "664ed00b",
+      "source_size": [
+        64,
+        64
+      ],
+      "image": "textures/oulton-building-op12rbg3.webp",
+      "crc32": "d605e350",
+      "bytes": 22048,
+      "size": [
+        512,
+        512
+      ]
+    },
+    {
+      "name": "OP12RBG7",
+      "slot": 76,
+      "source_crc32": "fa7930c9",
+      "source_size": [
+        64,
+        32
+      ],
+      "image": "textures/oulton-building-op12rbg7.webp",
+      "crc32": "72e2b1ab",
+      "bytes": 21604,
+      "size": [
+        512,
+        256
+      ]
+    },
+    {
+      "name": "OP12RBG8",
+      "slot": 77,
+      "source_crc32": "487f93b3",
+      "source_size": [
+        64,
+        64
+      ],
+      "image": "textures/oulton-building-op12rbg8.webp",
+      "crc32": "96cc7ec2",
+      "bytes": 4550,
+      "size": [
+        512,
+        512
+      ]
+    }
+  ]
+}

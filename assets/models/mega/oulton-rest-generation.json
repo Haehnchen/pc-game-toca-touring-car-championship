@@ -1,0 +1,2814 @@
+{
+  "version": 1,
+  "package": "R04-M04-M05-M06-M08",
+  "source": {
+    "original_version": "1.1a",
+    "path": "data/oultfree.bfp",
+    "crc32": "e6e258cb",
+    "bytes": 2887479,
+    "members": [
+      {
+        "index": 5,
+        "name": "OBJECTS.C3D",
+        "crc32": "5ad0e21a"
+      },
+      {
+        "index": 8,
+        "name": "CONES.C3D",
+        "crc32": "72333773"
+      },
+      {
+        "index": 9,
+        "name": "POSTS.C3D",
+        "crc32": "faff6b08"
+      },
+      {
+        "index": 10,
+        "name": "SIGNS.C3D",
+        "crc32": "067cf3ed"
+      },
+      {
+        "index": 11,
+        "name": "FLAGS.C3D",
+        "crc32": "1db4fb62"
+      }
+    ]
+  },
+  "scope": {
+    "mesh_rows": 42,
+    "types": 36,
+    "raw_bindings": 310,
+    "source_images": 46,
+    "new_images": 40,
+    "new_source_mappings": 27,
+    "local_source_remaps": 13,
+    "new_acceptance_pairs": 36,
+    "geometry_uv_slots_nodes": "unchanged-installed"
+  },
+  "meshes": [
+    {
+      "member": 5,
+      "mesh": 18,
+      "name": "DA09AD7_1",
+      "source_crc32": "3f6c0f20",
+      "type": "eb81c83a",
+      "nodes": [
+        [
+          73,
+          0
+        ],
+        [
+          75,
+          0
+        ],
+        [
+          77,
+          0
+        ],
+        [
+          95,
+          0
+        ],
+        [
+          119,
+          0
+        ],
+        [
+          121,
+          0
+        ],
+        [
+          123,
+          0
+        ],
+        [
+          125,
+          0
+        ],
+        [
+          127,
+          0
+        ],
+        [
+          129,
+          0
+        ],
+        [
+          131,
+          0
+        ]
+      ],
+      "package": "M08"
+    },
+    {
+      "member": 5,
+      "mesh": 19,
+      "name": "DA09AD8_1",
+      "source_crc32": "48d3080b",
+      "type": "df08ed56",
+      "nodes": [
+        [
+          79,
+          0
+        ],
+        [
+          101,
+          0
+        ],
+        [
+          103,
+          0
+        ],
+        [
+          109,
+          0
+        ]
+      ],
+      "package": "M08"
+    },
+    {
+      "member": 5,
+      "mesh": 20,
+      "name": "DA09AD6_1",
+      "source_crc32": "100a1f23",
+      "type": "f294b6ae",
+      "nodes": [
+        [
+          81,
+          0
+        ],
+        [
+          97,
+          0
+        ],
+        [
+          99,
+          0
+        ]
+      ],
+      "package": "M08"
+    },
+    {
+      "member": 5,
+      "mesh": 21,
+      "name": "DA09AD4_1",
+      "source_crc32": "f45a0a3f",
+      "type": "93220e52",
+      "nodes": [
+        [
+          83,
+          0
+        ],
+        [
+          111,
+          0
+        ],
+        [
+          113,
+          0
+        ]
+      ],
+      "package": "M08"
+    },
+    {
+      "member": 5,
+      "mesh": 22,
+      "name": "DA09AD2_1",
+      "source_crc32": "c8266209",
+      "type": "082d82c5",
+      "nodes": [
+        [
+          85,
+          0
+        ],
+        [
+          117,
+          0
+        ]
+      ],
+      "package": "M08"
+    },
+    {
+      "member": 5,
+      "mesh": 23,
+      "name": "DA09AD1_1",
+      "source_crc32": "cc656685",
+      "type": "44d494cd",
+      "nodes": [
+        [
+          87,
+          0
+        ],
+        [
+          115,
+          0
+        ]
+      ],
+      "package": "M08"
+    },
+    {
+      "member": 5,
+      "mesh": 24,
+      "name": "DA09ADB_1",
+      "source_crc32": "e6555c76",
+      "type": "64b750d4",
+      "nodes": [
+        [
+          89,
+          0
+        ]
+      ],
+      "package": "M08"
+    },
+    {
+      "member": 5,
+      "mesh": 25,
+      "name": "DA09AD5_1",
+      "source_crc32": "3b0fa676",
+      "type": "9be6f4c7",
+      "nodes": [
+        [
+          91,
+          0
+        ]
+      ],
+      "package": "M08"
+    },
+    {
+      "member": 5,
+      "mesh": 26,
+      "name": "DA09ADC_1",
+      "source_crc32": "905aaf20",
+      "type": "fe4a839d",
+      "nodes": [
+        [
+          93,
+          0
+        ]
+      ],
+      "package": "M08"
+    },
+    {
+      "member": 5,
+      "mesh": 27,
+      "name": "DA09AD3_1",
+      "source_crc32": "1552f949",
+      "type": "410baad7",
+      "nodes": [
+        [
+          105,
+          0
+        ],
+        [
+          107,
+          0
+        ],
+        [
+          133,
+          0
+        ],
+        [
+          135,
+          0
+        ]
+      ],
+      "package": "M08"
+    },
+    {
+      "member": 5,
+      "mesh": 32,
+      "name": "BH24TSB_1",
+      "source_crc32": "a0bb6ba8",
+      "type": "736c2524",
+      "nodes": [
+        [
+          163,
+          0
+        ]
+      ],
+      "package": "M05c"
+    },
+    {
+      "member": 5,
+      "mesh": 33,
+      "name": "LPEOP4_1",
+      "source_crc32": "161614da",
+      "type": "c50b9bd7",
+      "nodes": [
+        [
+          165,
+          0
+        ],
+        [
+          167,
+          0
+        ],
+        [
+          169,
+          0
+        ],
+        [
+          171,
+          0
+        ],
+        [
+          173,
+          0
+        ],
+        [
+          175,
+          0
+        ],
+        [
+          177,
+          0
+        ],
+        [
+          179,
+          0
+        ],
+        [
+          181,
+          0
+        ],
+        [
+          183,
+          0
+        ],
+        [
+          185,
+          0
+        ],
+        [
+          187,
+          0
+        ],
+        [
+          189,
+          0
+        ],
+        [
+          191,
+          0
+        ],
+        [
+          193,
+          0
+        ],
+        [
+          195,
+          0
+        ],
+        [
+          197,
+          0
+        ],
+        [
+          199,
+          0
+        ],
+        [
+          201,
+          0
+        ],
+        [
+          203,
+          0
+        ],
+        [
+          205,
+          0
+        ],
+        [
+          207,
+          0
+        ],
+        [
+          209,
+          0
+        ],
+        [
+          211,
+          0
+        ],
+        [
+          213,
+          0
+        ],
+        [
+          215,
+          0
+        ],
+        [
+          217,
+          0
+        ],
+        [
+          219,
+          0
+        ],
+        [
+          221,
+          0
+        ],
+        [
+          223,
+          0
+        ],
+        [
+          225,
+          0
+        ],
+        [
+          227,
+          0
+        ],
+        [
+          229,
+          0
+        ],
+        [
+          231,
+          0
+        ],
+        [
+          233,
+          0
+        ],
+        [
+          235,
+          0
+        ],
+        [
+          237,
+          0
+        ],
+        [
+          239,
+          0
+        ],
+        [
+          241,
+          0
+        ],
+        [
+          243,
+          0
+        ],
+        [
+          245,
+          0
+        ],
+        [
+          247,
+          0
+        ],
+        [
+          249,
+          0
+        ],
+        [
+          251,
+          0
+        ],
+        [
+          253,
+          0
+        ],
+        [
+          255,
+          0
+        ],
+        [
+          257,
+          0
+        ],
+        [
+          259,
+          0
+        ],
+        [
+          261,
+          0
+        ],
+        [
+          263,
+          0
+        ],
+        [
+          265,
+          0
+        ],
+        [
+          267,
+          0
+        ],
+        [
+          269,
+          0
+        ],
+        [
+          271,
+          0
+        ],
+        [
+          273,
+          0
+        ],
+        [
+          275,
+          0
+        ],
+        [
+          277,
+          0
+        ],
+        [
+          279,
+          0
+        ],
+        [
+          281,
+          0
+        ],
+        [
+          283,
+          0
+        ],
+        [
+          285,
+          0
+        ],
+        [
+          287,
+          0
+        ],
+        [
+          289,
+          0
+        ],
+        [
+          291,
+          0
+        ],
+        [
+          293,
+          0
+        ],
+        [
+          295,
+          0
+        ],
+        [
+          299,
+          0
+        ],
+        [
+          301,
+          0
+        ],
+        [
+          303,
+          0
+        ],
+        [
+          305,
+          0
+        ],
+        [
+          307,
+          0
+        ],
+        [
+          309,
+          0
+        ],
+        [
+          311,
+          0
+        ],
+        [
+          313,
+          0
+        ],
+        [
+          315,
+          0
+        ],
+        [
+          317,
+          0
+        ],
+        [
+          319,
+          0
+        ],
+        [
+          321,
+          0
+        ],
+        [
+          323,
+          0
+        ],
+        [
+          325,
+          0
+        ],
+        [
+          327,
+          0
+        ],
+        [
+          329,
+          0
+        ],
+        [
+          331,
+          0
+        ],
+        [
+          333,
+          0
+        ],
+        [
+          335,
+          0
+        ],
+        [
+          337,
+          0
+        ],
+        [
+          339,
+          0
+        ],
+        [
+          341,
+          0
+        ],
+        [
+          343,
+          0
+        ],
+        [
+          345,
+          0
+        ],
+        [
+          347,
+          0
+        ],
+        [
+          349,
+          0
+        ],
+        [
+          351,
+          0
+        ],
+        [
+          353,
+          0
+        ],
+        [
+          355,
+          0
+        ],
+        [
+          357,
+          0
+        ],
+        [
+          359,
+          0
+        ],
+        [
+          361,
+          0
+        ],
+        [
+          363,
+          0
+        ],
+        [
+          365,
+          0
+        ],
+        [
+          367,
+          0
+        ],
+        [
+          369,
+          0
+        ],
+        [
+          371,
+          0
+        ],
+        [
+          373,
+          0
+        ],
+        [
+          375,
+          0
+        ],
+        [
+          377,
+          0
+        ],
+        [
+          379,
+          0
+        ],
+        [
+          381,
+          0
+        ],
+        [
+          383,
+          0
+        ],
+        [
+          385,
+          0
+        ],
+        [
+          387,
+          0
+        ],
+        [
+          389,
+          0
+        ],
+        [
+          391,
+          0
+        ],
+        [
+          393,
+          0
+        ],
+        [
+          395,
+          0
+        ],
+        [
+          397,
+          0
+        ],
+        [
+          399,
+          0
+        ],
+        [
+          401,
+          0
+        ],
+        [
+          403,
+          0
+        ],
+        [
+          405,
+          0
+        ]
+      ],
+      "package": "M04a"
+    },
+    {
+      "member": 5,
+      "mesh": 34,
+      "name": "LPEOP3_1",
+      "source_crc32": "aa352f19",
+      "type": "e3bb5e98",
+      "nodes": [
+        [
+          297,
+          0
+        ],
+        [
+          407,
+          0
+        ]
+      ],
+      "package": "M04a"
+    },
+    {
+      "member": 5,
+      "mesh": 35,
+      "name": "CHERV_1",
+      "source_crc32": "e1fe6ea4",
+      "type": "3ab8f271",
+      "nodes": [
+        [
+          425,
+          0
+        ],
+        [
+          427,
+          0
+        ]
+      ],
+      "package": "M08"
+    },
+    {
+      "member": 8,
+      "mesh": 0,
+      "name": "LRED_1",
+      "source_crc32": "c7f79a55",
+      "type": "e3f84b42",
+      "nodes": [
+        [
+          1,
+          0
+        ],
+        [
+          3,
+          0
+        ],
+        [
+          5,
+          0
+        ],
+        [
+          7,
+          0
+        ],
+        [
+          9,
+          0
+        ],
+        [
+          11,
+          0
+        ],
+        [
+          13,
+          0
+        ],
+        [
+          15,
+          0
+        ],
+        [
+          17,
+          0
+        ],
+        [
+          19,
+          0
+        ],
+        [
+          21,
+          0
+        ],
+        [
+          23,
+          0
+        ],
+        [
+          25,
+          0
+        ],
+        [
+          27,
+          0
+        ],
+        [
+          29,
+          0
+        ],
+        [
+          31,
+          0
+        ],
+        [
+          33,
+          0
+        ],
+        [
+          35,
+          0
+        ],
+        [
+          37,
+          0
+        ]
+      ],
+      "package": "M08"
+    },
+    {
+      "member": 9,
+      "mesh": 0,
+      "name": "LTALLCON_1",
+      "source_crc32": "e5576d2b",
+      "type": "70cbfe77",
+      "nodes": [
+        [
+          1,
+          0
+        ],
+        [
+          3,
+          0
+        ],
+        [
+          5,
+          0
+        ],
+        [
+          7,
+          0
+        ],
+        [
+          9,
+          0
+        ],
+        [
+          11,
+          0
+        ]
+      ],
+      "package": "M08"
+    },
+    {
+      "member": 10,
+      "mesh": 0,
+      "name": "L200_1",
+      "source_crc32": "de297544",
+      "type": "3356e8ab",
+      "nodes": [
+        [
+          1,
+          0
+        ],
+        [
+          3,
+          0
+        ],
+        [
+          29,
+          0
+        ],
+        [
+          37,
+          0
+        ]
+      ],
+      "package": "M08"
+    },
+    {
+      "member": 10,
+      "mesh": 1,
+      "name": "L100_1",
+      "source_crc32": "889d7d72",
+      "type": "48c1ac3f",
+      "nodes": [
+        [
+          5,
+          0
+        ],
+        [
+          7,
+          0
+        ],
+        [
+          9,
+          0
+        ],
+        [
+          11,
+          0
+        ],
+        [
+          13,
+          0
+        ]
+      ],
+      "package": "M08"
+    },
+    {
+      "member": 10,
+      "mesh": 2,
+      "name": "L50_1",
+      "source_crc32": "cdc007a7",
+      "type": "17bddc07",
+      "nodes": [
+        [
+          15,
+          0
+        ],
+        [
+          17,
+          0
+        ],
+        [
+          19,
+          0
+        ],
+        [
+          21,
+          0
+        ],
+        [
+          23,
+          0
+        ]
+      ],
+      "package": "M08"
+    },
+    {
+      "member": 10,
+      "mesh": 3,
+      "name": "LARROW4_1",
+      "source_crc32": "a6f4e1a4",
+      "type": "c91f8310",
+      "nodes": [
+        [
+          25,
+          0
+        ],
+        [
+          27,
+          0
+        ],
+        [
+          31,
+          0
+        ],
+        [
+          39,
+          0
+        ]
+      ],
+      "package": "M08"
+    },
+    {
+      "member": 10,
+      "mesh": 4,
+      "name": "LARROW5_1",
+      "source_crc32": "22276848",
+      "type": "17d735de",
+      "nodes": [
+        [
+          33,
+          0
+        ]
+      ],
+      "package": "M08"
+    },
+    {
+      "member": 10,
+      "mesh": 5,
+      "name": "LPIT_1",
+      "source_crc32": "719a3121",
+      "type": "5c7c62a1",
+      "nodes": [
+        [
+          35,
+          0
+        ]
+      ],
+      "package": "M08"
+    },
+    {
+      "member": 11,
+      "mesh": 0,
+      "name": "UK_FLG1_1",
+      "source_crc32": "eb4ba1c4",
+      "type": "ac20d416",
+      "nodes": [
+        [
+          2,
+          0
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          2,
+          2
+        ],
+        [
+          5,
+          0
+        ],
+        [
+          8,
+          0
+        ],
+        [
+          11,
+          0
+        ],
+        [
+          14,
+          0
+        ],
+        [
+          17,
+          0
+        ],
+        [
+          20,
+          0
+        ],
+        [
+          23,
+          0
+        ]
+      ],
+      "package": "M06"
+    },
+    {
+      "member": 11,
+      "mesh": 1,
+      "name": "UK_FLG1_2",
+      "source_crc32": "cd82c382",
+      "type": "9112d130",
+      "nodes": [
+        [
+          1,
+          0
+        ],
+        [
+          4,
+          0
+        ],
+        [
+          7,
+          0
+        ],
+        [
+          10,
+          0
+        ],
+        [
+          13,
+          0
+        ],
+        [
+          16,
+          0
+        ],
+        [
+          19,
+          0
+        ],
+        [
+          22,
+          0
+        ]
+      ],
+      "package": "M06"
+    },
+    {
+      "member": 11,
+      "mesh": 2,
+      "name": "UK_FLG1_3",
+      "source_crc32": "f5015524",
+      "type": "b8e9d1f0",
+      "nodes": [
+        [
+          1,
+          1
+        ],
+        [
+          4,
+          1
+        ],
+        [
+          7,
+          1
+        ],
+        [
+          10,
+          1
+        ],
+        [
+          13,
+          1
+        ],
+        [
+          16,
+          1
+        ],
+        [
+          19,
+          1
+        ],
+        [
+          22,
+          1
+        ]
+      ],
+      "package": "M06"
+    },
+    {
+      "member": 11,
+      "mesh": 3,
+      "name": "UK_FLG1_4",
+      "source_crc32": "1f6c84ac",
+      "type": "a766c17f",
+      "nodes": [
+        [
+          1,
+          2
+        ],
+        [
+          4,
+          2
+        ],
+        [
+          5,
+          1
+        ],
+        [
+          5,
+          2
+        ],
+        [
+          7,
+          2
+        ],
+        [
+          8,
+          1
+        ],
+        [
+          8,
+          2
+        ],
+        [
+          10,
+          2
+        ],
+        [
+          11,
+          1
+        ],
+        [
+          11,
+          2
+        ],
+        [
+          13,
+          2
+        ],
+        [
+          14,
+          1
+        ],
+        [
+          14,
+          2
+        ],
+        [
+          16,
+          2
+        ],
+        [
+          17,
+          1
+        ],
+        [
+          17,
+          2
+        ],
+        [
+          19,
+          2
+        ],
+        [
+          20,
+          1
+        ],
+        [
+          20,
+          2
+        ],
+        [
+          22,
+          2
+        ],
+        [
+          23,
+          1
+        ],
+        [
+          23,
+          2
+        ],
+        [
+          26,
+          1
+        ],
+        [
+          26,
+          2
+        ]
+      ],
+      "package": "M06"
+    },
+    {
+      "member": 11,
+      "mesh": 4,
+      "name": "UK_FLG2_1",
+      "source_crc32": "60c691ea",
+      "type": "82f6f1d7",
+      "nodes": [
+        [
+          26,
+          0
+        ],
+        [
+          38,
+          0
+        ],
+        [
+          47,
+          0
+        ]
+      ],
+      "package": "M06"
+    },
+    {
+      "member": 11,
+      "mesh": 5,
+      "name": "UK_FLG2_2",
+      "source_crc32": "07db725b",
+      "type": "9112d130",
+      "nodes": [
+        [
+          25,
+          0
+        ],
+        [
+          37,
+          0
+        ],
+        [
+          46,
+          0
+        ]
+      ],
+      "package": "M06"
+    },
+    {
+      "member": 11,
+      "mesh": 6,
+      "name": "UK_FLG2_3",
+      "source_crc32": "3f58e4fd",
+      "type": "b8e9d1f0",
+      "nodes": [
+        [
+          25,
+          1
+        ],
+        [
+          37,
+          1
+        ],
+        [
+          46,
+          1
+        ]
+      ],
+      "package": "M06"
+    },
+    {
+      "member": 11,
+      "mesh": 7,
+      "name": "UK_FLG2_4",
+      "source_crc32": "d5353575",
+      "type": "a766c17f",
+      "nodes": [
+        [
+          25,
+          2
+        ],
+        [
+          29,
+          1
+        ],
+        [
+          29,
+          2
+        ],
+        [
+          37,
+          2
+        ],
+        [
+          41,
+          1
+        ],
+        [
+          41,
+          2
+        ],
+        [
+          46,
+          2
+        ],
+        [
+          50,
+          1
+        ],
+        [
+          50,
+          2
+        ]
+      ],
+      "package": "M06"
+    },
+    {
+      "member": 11,
+      "mesh": 8,
+      "name": "IRL_FLG2_1",
+      "source_crc32": "1da98b18",
+      "type": "82f6f1d7",
+      "nodes": [
+        [
+          29,
+          0
+        ]
+      ],
+      "package": "M06"
+    },
+    {
+      "member": 11,
+      "mesh": 9,
+      "name": "IRL_FLG2_2",
+      "source_crc32": "b9bd6918",
+      "type": "920242bd",
+      "nodes": [
+        [
+          28,
+          0
+        ]
+      ],
+      "package": "M06"
+    },
+    {
+      "member": 11,
+      "mesh": 10,
+      "name": "IRL_FLG2_3",
+      "source_crc32": "f744be20",
+      "type": "335e5018",
+      "nodes": [
+        [
+          28,
+          1
+        ]
+      ],
+      "package": "M06"
+    },
+    {
+      "member": 11,
+      "mesh": 11,
+      "name": "IRL_FLG2_4",
+      "source_crc32": "4c7c2c09",
+      "type": "460b9fb1",
+      "nodes": [
+        [
+          28,
+          2
+        ],
+        [
+          32,
+          1
+        ],
+        [
+          32,
+          2
+        ]
+      ],
+      "package": "M06"
+    },
+    {
+      "member": 11,
+      "mesh": 12,
+      "name": "GER_FLG2_1",
+      "source_crc32": "606e270f",
+      "type": "82f6f1d7",
+      "nodes": [
+        [
+          32,
+          0
+        ],
+        [
+          41,
+          0
+        ],
+        [
+          50,
+          0
+        ]
+      ],
+      "package": "M06"
+    },
+    {
+      "member": 11,
+      "mesh": 13,
+      "name": "GER_FLG2_2",
+      "source_crc32": "78f140e4",
+      "type": "c7145f93",
+      "nodes": [
+        [
+          31,
+          0
+        ],
+        [
+          40,
+          0
+        ],
+        [
+          49,
+          0
+        ]
+      ],
+      "package": "M06"
+    },
+    {
+      "member": 11,
+      "mesh": 14,
+      "name": "GER_FLG2_3",
+      "source_crc32": "f704e556",
+      "type": "42b4ee05",
+      "nodes": [
+        [
+          31,
+          1
+        ],
+        [
+          40,
+          1
+        ],
+        [
+          49,
+          1
+        ]
+      ],
+      "package": "M06"
+    },
+    {
+      "member": 11,
+      "mesh": 15,
+      "name": "GER_FLG2_4",
+      "source_crc32": "24f5bd8a",
+      "type": "85e46f7c",
+      "nodes": [
+        [
+          31,
+          2
+        ],
+        [
+          35,
+          1
+        ],
+        [
+          35,
+          2
+        ],
+        [
+          40,
+          2
+        ],
+        [
+          44,
+          1
+        ],
+        [
+          44,
+          2
+        ],
+        [
+          49,
+          2
+        ],
+        [
+          53,
+          1
+        ],
+        [
+          53,
+          2
+        ]
+      ],
+      "package": "M06"
+    },
+    {
+      "member": 11,
+      "mesh": 16,
+      "name": "SWD_FLG2_1",
+      "source_crc32": "0931370c",
+      "type": "82f6f1d7",
+      "nodes": [
+        [
+          35,
+          0
+        ],
+        [
+          44,
+          0
+        ],
+        [
+          53,
+          0
+        ]
+      ],
+      "package": "M06"
+    },
+    {
+      "member": 11,
+      "mesh": 17,
+      "name": "SWD_FLG2_2",
+      "source_crc32": "57af304c",
+      "type": "fd8dbb0c",
+      "nodes": [
+        [
+          34,
+          0
+        ],
+        [
+          43,
+          0
+        ],
+        [
+          52,
+          0
+        ]
+      ],
+      "package": "M06"
+    },
+    {
+      "member": 11,
+      "mesh": 18,
+      "name": "SWD_FLG2_3",
+      "source_crc32": "1956e774",
+      "type": "49eaeee5",
+      "nodes": [
+        [
+          34,
+          1
+        ],
+        [
+          43,
+          1
+        ],
+        [
+          52,
+          1
+        ]
+      ],
+      "package": "M06"
+    },
+    {
+      "member": 11,
+      "mesh": 19,
+      "name": "SWD_FLG2_4",
+      "source_crc32": "73fde0b7",
+      "type": "29e77c4a",
+      "nodes": [
+        [
+          34,
+          2
+        ],
+        [
+          38,
+          1
+        ],
+        [
+          38,
+          2
+        ],
+        [
+          43,
+          2
+        ],
+        [
+          47,
+          1
+        ],
+        [
+          47,
+          2
+        ],
+        [
+          52,
+          2
+        ]
+      ],
+      "package": "M06"
+    }
+  ],
+  "export": {
+    "generator": "imagegen",
+    "format": "WebP",
+    "quality": 70,
+    "method": 6,
+    "max_edge": 512,
+    "source_aspect": true,
+    "presentation_padding": "removed before export",
+    "generated_alpha_composite": "black",
+    "alpha": "Exact original RGB-black key, nearest source mask at output size"
+  },
+  "material_contracts": {
+    "spectators": "Eight spectators; existing two halfcards and U split32509/65536 retained.",
+    "camera_operator": "One operator, raised arm, camera and support at left. Related LPEOPLE3 charts confirm equipment; fine equipment details reconstructed within original pose and mask.",
+    "stall": "Ten wall/roof charts; opaque cloth highlights retained; TEN3 left-edge cream-to-blue profile preserved for faces6/7 UV-line sampling.",
+    "flags": "Four nations, three separate source cloth phases each. Source masks, opaque dark bands and POST constant retained; 54 hierarchy nodes,18 roots and18 three-phase cloth controllers unchanged.",
+    "advertisements": "Original words, logos, colours and panel footprints retained. MCN lower-strip MOTOR CYCLE NEWS is contextual reconstruction after related source variants; tiny source glyphs remain ambiguous.",
+    "signs": "Original edge-filling glyphs and arrow directions; six canonical sign bodies/UVs and shared white LDHL structural field retained; see silverstone-small-props-generation.json.",
+    "chevrons": "Four right-pointing source chevrons over full CHEV chart; OP8PLG2/OP12RBG8 shared opening/line fields retained.",
+    "cones_posts": "Cone consumes unchanged appended MegaSurface; tall post also uses retained LREDCON source stripe chart."
+  },
+  "lettering_references": {
+    "MCN": [
+      {
+        "archive": "data/donlfree.bfp",
+        "member": 5,
+        "slot": 98,
+        "bmp_crc32": "faa9cb91"
+      },
+      {
+        "archive": "data/silvfree.bfp",
+        "member": 5,
+        "slot": 95,
+        "bmp_crc32": "5374b39b"
+      },
+      {
+        "archive": "data/branfree.bfp",
+        "member": 5,
+        "slot": 111,
+        "bmp_crc32": "fd6f4229"
+      },
+      {
+        "archive": "data/oultfree.bfp",
+        "member": 5,
+        "slot": 83,
+        "bmp_crc32": "2d02877c"
+      },
+      {
+        "archive": "data/snetfree.bfp",
+        "member": 5,
+        "slot": 56,
+        "bmp_crc32": "eea0c93c"
+      }
+    ],
+    "AVON": "Lower line WORLD TYRES MADE IN BRITAIN reconstructed after source comparison; see oulton-pits-generation.json."
+  },
+  "camera_reference": {
+    "archive": "data/donlfree.bfp",
+    "member": 5,
+    "slot": 130,
+    "bmp_crc32": "18bcdf80"
+  },
+  "textures": [
+    {
+      "names": [
+        "OP8PLG2"
+      ],
+      "source_crc32": "8d9b6bf5",
+      "source_size": [
+        64,
+        64
+      ],
+      "bindings": [
+        {
+          "member": 5,
+          "slot": 32
+        }
+      ],
+      "image": "textures/oulton-pits-op8plg2.webp",
+      "crc32": "ac16293a",
+      "reuse": true
+    },
+    {
+      "names": [
+        "OP12RBG8"
+      ],
+      "source_crc32": "487f93b3",
+      "source_size": [
+        64,
+        64
+      ],
+      "bindings": [
+        {
+          "member": 5,
+          "slot": 77
+        }
+      ],
+      "image": "textures/oulton-building-op12rbg8.webp",
+      "crc32": "96cc7ec2",
+      "reuse": true
+    },
+    {
+      "names": [
+        "AUTOTRAD"
+      ],
+      "source_crc32": "b19b99ce",
+      "source_size": [
+        128,
+        32
+      ],
+      "bindings": [
+        {
+          "member": 5,
+          "slot": 78
+        }
+      ],
+      "image": "textures/oulton-rest-autotrad.webp",
+      "crc32": "a9fa72ec",
+      "bytes": 3818,
+      "size": [
+        512,
+        128
+      ]
+    },
+    {
+      "names": [
+        "AUTOGLAS"
+      ],
+      "source_crc32": "e12c726d",
+      "source_size": [
+        128,
+        32
+      ],
+      "bindings": [
+        {
+          "member": 5,
+          "slot": 79
+        }
+      ],
+      "image": "textures/oulton-rest-autoglas.webp",
+      "crc32": "3277bbd4",
+      "bytes": 4996,
+      "size": [
+        512,
+        128
+      ]
+    },
+    {
+      "names": [
+        "AVON"
+      ],
+      "source_crc32": "ef412e2b",
+      "source_size": [
+        128,
+        32
+      ],
+      "bindings": [
+        {
+          "member": 5,
+          "slot": 80
+        }
+      ],
+      "image": "textures/oulton-rest-avon.webp",
+      "crc32": "3de49851",
+      "bytes": 6324,
+      "size": [
+        512,
+        128
+      ]
+    },
+    {
+      "names": [
+        "DUNLOP"
+      ],
+      "source_crc32": "deb9271f",
+      "source_size": [
+        128,
+        32
+      ],
+      "bindings": [
+        {
+          "member": 5,
+          "slot": 81
+        }
+      ],
+      "image": "textures/oulton-rest-dunlop.webp",
+      "crc32": "f09b7735",
+      "bytes": 4444,
+      "size": [
+        512,
+        128
+      ]
+    },
+    {
+      "names": [
+        "LDV"
+      ],
+      "source_crc32": "1be3d5a8",
+      "source_size": [
+        64,
+        32
+      ],
+      "bindings": [
+        {
+          "member": 5,
+          "slot": 82
+        }
+      ],
+      "image": "textures/oulton-rest-ldv.webp",
+      "crc32": "0e2d8061",
+      "bytes": 3386,
+      "size": [
+        512,
+        256
+      ]
+    },
+    {
+      "names": [
+        "MCN"
+      ],
+      "source_crc32": "2d02877c",
+      "source_size": [
+        64,
+        32
+      ],
+      "bindings": [
+        {
+          "member": 5,
+          "slot": 83
+        }
+      ],
+      "image": "textures/oulton-rest-mcn.webp",
+      "crc32": "da60d14f",
+      "bytes": 6814,
+      "size": [
+        512,
+        256
+      ]
+    },
+    {
+      "names": [
+        "OLDSPICE"
+      ],
+      "source_crc32": "3fca13ad",
+      "source_size": [
+        128,
+        32
+      ],
+      "bindings": [
+        {
+          "member": 5,
+          "slot": 84
+        }
+      ],
+      "image": "textures/oulton-rest-oldspice.webp",
+      "crc32": "f9b374a2",
+      "bytes": 8158,
+      "size": [
+        512,
+        128
+      ]
+    },
+    {
+      "names": [
+        "CASTROL"
+      ],
+      "source_crc32": "376e7b9f",
+      "source_size": [
+        128,
+        32
+      ],
+      "bindings": [
+        {
+          "member": 5,
+          "slot": 85
+        }
+      ],
+      "image": "textures/oulton-rest-castrol.webp",
+      "crc32": "4fa89787",
+      "bytes": 6174,
+      "size": [
+        512,
+        128
+      ]
+    },
+    {
+      "names": [
+        "PIRELLI"
+      ],
+      "source_crc32": "85029bfd",
+      "source_size": [
+        128,
+        32
+      ],
+      "bindings": [
+        {
+          "member": 5,
+          "slot": 86
+        }
+      ],
+      "image": "textures/pirelli.webp",
+      "crc32": "7663a28d",
+      "reuse": true
+    },
+    {
+      "names": [
+        "FERODO"
+      ],
+      "source_crc32": "79aee123",
+      "source_size": [
+        128,
+        32
+      ],
+      "bindings": [
+        {
+          "member": 5,
+          "slot": 87
+        }
+      ],
+      "image": "textures/oulton-rest-ferodo.webp",
+      "crc32": "64e45b8d",
+      "bytes": 2514,
+      "size": [
+        512,
+        128
+      ]
+    },
+    {
+      "names": [
+        "BH24TEN1"
+      ],
+      "source_crc32": "fbc479c8",
+      "source_size": [
+        64,
+        16
+      ],
+      "bindings": [
+        {
+          "member": 5,
+          "slot": 93
+        }
+      ],
+      "image": "textures/oulton-rest-bh24ten1.webp",
+      "crc32": "79f06b24",
+      "bytes": 6342,
+      "size": [
+        512,
+        128
+      ]
+    },
+    {
+      "names": [
+        "BH24TEN2"
+      ],
+      "source_crc32": "e5c27e1c",
+      "source_size": [
+        32,
+        16
+      ],
+      "bindings": [
+        {
+          "member": 5,
+          "slot": 94
+        }
+      ],
+      "image": "textures/oulton-rest-bh24ten2.webp",
+      "crc32": "a5ca6003",
+      "bytes": 4932,
+      "size": [
+        512,
+        256
+      ]
+    },
+    {
+      "names": [
+        "BH24TEN3"
+      ],
+      "source_crc32": "6bd9791c",
+      "source_size": [
+        32,
+        16
+      ],
+      "bindings": [
+        {
+          "member": 5,
+          "slot": 95
+        }
+      ],
+      "image": "textures/oulton-rest-bh24ten3.webp",
+      "crc32": "7d788e1f",
+      "bytes": 4834,
+      "size": [
+        512,
+        256
+      ]
+    },
+    {
+      "names": [
+        "BH24TEN4"
+      ],
+      "source_crc32": "9b80e4f0",
+      "source_size": [
+        32,
+        16
+      ],
+      "bindings": [
+        {
+          "member": 5,
+          "slot": 96
+        }
+      ],
+      "image": "textures/oulton-rest-bh24ten4.webp",
+      "crc32": "5d80a484",
+      "bytes": 6386,
+      "size": [
+        512,
+        256
+      ]
+    },
+    {
+      "names": [
+        "BH24TNT1"
+      ],
+      "source_crc32": "c0065237",
+      "source_size": [
+        32,
+        16
+      ],
+      "bindings": [
+        {
+          "member": 5,
+          "slot": 97
+        }
+      ],
+      "image": "textures/oulton-rest-bh24tnt1.webp",
+      "crc32": "eb671d8b",
+      "bytes": 6728,
+      "size": [
+        512,
+        256
+      ]
+    },
+    {
+      "names": [
+        "BH24TNT3"
+      ],
+      "source_crc32": "2f6e4192",
+      "source_size": [
+        32,
+        32
+      ],
+      "bindings": [
+        {
+          "member": 5,
+          "slot": 98
+        }
+      ],
+      "image": "textures/oulton-rest-bh24tnt3.webp",
+      "crc32": "610098ca",
+      "bytes": 4820,
+      "size": [
+        512,
+        512
+      ]
+    },
+    {
+      "names": [
+        "BH24TNT4"
+      ],
+      "source_crc32": "ffe21f96",
+      "source_size": [
+        64,
+        32
+      ],
+      "bindings": [
+        {
+          "member": 5,
+          "slot": 99
+        }
+      ],
+      "image": "textures/oulton-rest-bh24tnt4.webp",
+      "crc32": "eb3b12c9",
+      "bytes": 5360,
+      "size": [
+        512,
+        256
+      ]
+    },
+    {
+      "names": [
+        "BH24TNT6"
+      ],
+      "source_crc32": "cb4102ca",
+      "source_size": [
+        32,
+        16
+      ],
+      "bindings": [
+        {
+          "member": 5,
+          "slot": 100
+        }
+      ],
+      "image": "textures/oulton-rest-bh24tnt6.webp",
+      "crc32": "8409003e",
+      "bytes": 5246,
+      "size": [
+        512,
+        256
+      ]
+    },
+    {
+      "names": [
+        "BH24TNT5"
+      ],
+      "source_crc32": "57ea1a6a",
+      "source_size": [
+        64,
+        16
+      ],
+      "bindings": [
+        {
+          "member": 5,
+          "slot": 101
+        }
+      ],
+      "image": "textures/oulton-rest-bh24tnt5.webp",
+      "crc32": "22ae2b26",
+      "bytes": 3030,
+      "size": [
+        512,
+        128
+      ]
+    },
+    {
+      "names": [
+        "BH24TNT2"
+      ],
+      "source_crc32": "1adb976d",
+      "source_size": [
+        32,
+        16
+      ],
+      "bindings": [
+        {
+          "member": 5,
+          "slot": 102
+        }
+      ],
+      "image": "textures/oulton-rest-bh24tnt2.webp",
+      "crc32": "fefc9655",
+      "bytes": 6540,
+      "size": [
+        512,
+        256
+      ]
+    },
+    {
+      "names": [
+        "LPEOPLE4"
+      ],
+      "source_crc32": "5cca0577",
+      "source_size": [
+        128,
+        64
+      ],
+      "bindings": [
+        {
+          "member": 5,
+          "slot": 103
+        }
+      ],
+      "image": "textures/oulton-rest-lpeople4.webp",
+      "crc32": "19bd0490",
+      "bytes": 15898,
+      "size": [
+        512,
+        256
+      ]
+    },
+    {
+      "names": [
+        "LPEOPLE3"
+      ],
+      "source_crc32": "b327ac6c",
+      "source_size": [
+        32,
+        64
+      ],
+      "bindings": [
+        {
+          "member": 5,
+          "slot": 104
+        }
+      ],
+      "image": "textures/oulton-rest-lpeople3.webp",
+      "crc32": "37cc4d0d",
+      "bytes": 11128,
+      "size": [
+        256,
+        512
+      ]
+    },
+    {
+      "names": [
+        "CHEV"
+      ],
+      "source_crc32": "0a1a3488",
+      "source_size": [
+        64,
+        64
+      ],
+      "bindings": [
+        {
+          "member": 5,
+          "slot": 105
+        }
+      ],
+      "image": "textures/oulton-rest-chev.webp",
+      "crc32": "e3aaf4bd",
+      "bytes": 6984,
+      "size": [
+        512,
+        512
+      ]
+    },
+    {
+      "names": [
+        "LREDCON"
+      ],
+      "source_crc32": "f0aef61d",
+      "source_size": [
+        64,
+        64
+      ],
+      "bindings": [
+        {
+          "member": 8,
+          "slot": 0
+        },
+        {
+          "member": 9,
+          "slot": 0
+        }
+      ],
+      "image": "textures/cone-bands.webp",
+      "crc32": "45a2fec7",
+      "reuse": true
+    },
+    {
+      "names": [
+        "LDHL"
+      ],
+      "source_crc32": "7f08be18",
+      "source_size": [
+        64,
+        16
+      ],
+      "bindings": [
+        {
+          "member": 10,
+          "slot": 0
+        }
+      ],
+      "image": "textures/silverstone-prop-ldhl.webp",
+      "crc32": "b70927c5",
+      "reuse": true
+    },
+    {
+      "names": [
+        "L200"
+      ],
+      "source_crc32": "a4576cb7",
+      "source_size": [
+        32,
+        16
+      ],
+      "bindings": [
+        {
+          "member": 10,
+          "slot": 1
+        }
+      ],
+      "image": "textures/oulton-rest-l200.webp",
+      "crc32": "fc68e12c",
+      "bytes": 4654,
+      "size": [
+        512,
+        256
+      ]
+    },
+    {
+      "names": [
+        "L100"
+      ],
+      "source_crc32": "a14a9cd0",
+      "source_size": [
+        32,
+        16
+      ],
+      "bindings": [
+        {
+          "member": 10,
+          "slot": 2
+        }
+      ],
+      "image": "textures/oulton-rest-l100.webp",
+      "crc32": "90142cab",
+      "bytes": 3484,
+      "size": [
+        512,
+        256
+      ]
+    },
+    {
+      "names": [
+        "L50"
+      ],
+      "source_crc32": "c5828411",
+      "source_size": [
+        32,
+        16
+      ],
+      "bindings": [
+        {
+          "member": 10,
+          "slot": 3
+        }
+      ],
+      "image": "textures/oulton-rest-l50.webp",
+      "crc32": "b7fd7533",
+      "bytes": 2326,
+      "size": [
+        512,
+        256
+      ]
+    },
+    {
+      "names": [
+        "LARROW2"
+      ],
+      "source_crc32": "d2666145",
+      "source_size": [
+        32,
+        32
+      ],
+      "bindings": [
+        {
+          "member": 10,
+          "slot": 4
+        }
+      ],
+      "image": "textures/oulton-rest-larrow2.webp",
+      "crc32": "225b8527",
+      "bytes": 2550,
+      "size": [
+        512,
+        512
+      ]
+    },
+    {
+      "names": [
+        "LARROW5"
+      ],
+      "source_crc32": "a362532b",
+      "source_size": [
+        32,
+        32
+      ],
+      "bindings": [
+        {
+          "member": 10,
+          "slot": 5
+        }
+      ],
+      "image": "textures/oulton-rest-larrow5.webp",
+      "crc32": "3d267e3a",
+      "bytes": 2920,
+      "size": [
+        512,
+        512
+      ]
+    },
+    {
+      "names": [
+        "LPIT"
+      ],
+      "source_crc32": "dfd5df4f",
+      "source_size": [
+        32,
+        16
+      ],
+      "bindings": [
+        {
+          "member": 10,
+          "slot": 6
+        }
+      ],
+      "image": "textures/oulton-rest-lpit.webp",
+      "crc32": "43ad4bb1",
+      "bytes": 1400,
+      "size": [
+        512,
+        256
+      ]
+    },
+    {
+      "names": [
+        "LIFLAGA1"
+      ],
+      "source_crc32": "4815ec58",
+      "source_size": [
+        32,
+        32
+      ],
+      "bindings": [
+        {
+          "member": 11,
+          "slot": 0
+        }
+      ],
+      "image": "textures/oulton-rest-liflaga1.webp",
+      "crc32": "c89e6963",
+      "bytes": 19180,
+      "size": [
+        512,
+        512
+      ]
+    },
+    {
+      "names": [
+        "POST"
+      ],
+      "source_crc32": "42a1efc1",
+      "source_size": [
+        8,
+        16
+      ],
+      "bindings": [
+        {
+          "member": 11,
+          "slot": 1
+        }
+      ],
+      "native_constant_rgb": [
+        189,
+        206,
+        222
+      ]
+    },
+    {
+      "names": [
+        "LIFLAGA2"
+      ],
+      "source_crc32": "024f9577",
+      "source_size": [
+        32,
+        32
+      ],
+      "bindings": [
+        {
+          "member": 11,
+          "slot": 2
+        }
+      ],
+      "image": "textures/oulton-rest-liflaga2.webp",
+      "crc32": "4568fddc",
+      "bytes": 18874,
+      "size": [
+        512,
+        512
+      ]
+    },
+    {
+      "names": [
+        "LIFLAGA3"
+      ],
+      "source_crc32": "c2bede72",
+      "source_size": [
+        32,
+        32
+      ],
+      "bindings": [
+        {
+          "member": 11,
+          "slot": 3
+        }
+      ],
+      "image": "textures/oulton-rest-liflaga3.webp",
+      "crc32": "e0cd063c",
+      "bytes": 17058,
+      "size": [
+        512,
+        512
+      ]
+    },
+    {
+      "names": [
+        "LIFLAGC1"
+      ],
+      "source_crc32": "769e9dcc",
+      "source_size": [
+        32,
+        32
+      ],
+      "bindings": [
+        {
+          "member": 11,
+          "slot": 4
+        }
+      ],
+      "image": "textures/oulton-rest-liflagc1.webp",
+      "crc32": "e511bf50",
+      "bytes": 7782,
+      "size": [
+        512,
+        512
+      ]
+    },
+    {
+      "names": [
+        "LIFLAGC2"
+      ],
+      "source_crc32": "144702dd",
+      "source_size": [
+        32,
+        32
+      ],
+      "bindings": [
+        {
+          "member": 11,
+          "slot": 5
+        }
+      ],
+      "image": "textures/oulton-rest-liflagc2.webp",
+      "crc32": "b4a382be",
+      "bytes": 7110,
+      "size": [
+        512,
+        512
+      ]
+    },
+    {
+      "names": [
+        "LIFLAGC3"
+      ],
+      "source_crc32": "289d8ce0",
+      "source_size": [
+        32,
+        32
+      ],
+      "bindings": [
+        {
+          "member": 11,
+          "slot": 6
+        }
+      ],
+      "image": "textures/oulton-rest-liflagc3.webp",
+      "crc32": "759602a5",
+      "bytes": 9606,
+      "size": [
+        512,
+        512
+      ]
+    },
+    {
+      "names": [
+        "LIFLAGD1"
+      ],
+      "source_crc32": "536f6d51",
+      "source_size": [
+        32,
+        32
+      ],
+      "bindings": [
+        {
+          "member": 11,
+          "slot": 7
+        }
+      ],
+      "image": "textures/oulton-rest-liflagd1.webp",
+      "crc32": "7e405baf",
+      "bytes": 8482,
+      "size": [
+        512,
+        512
+      ]
+    },
+    {
+      "names": [
+        "LIFLAGD2"
+      ],
+      "source_crc32": "b8e6a8fb",
+      "source_size": [
+        32,
+        32
+      ],
+      "bindings": [
+        {
+          "member": 11,
+          "slot": 8
+        }
+      ],
+      "image": "textures/oulton-rest-liflagd2.webp",
+      "crc32": "927908ef",
+      "bytes": 7940,
+      "size": [
+        512,
+        512
+      ]
+    },
+    {
+      "names": [
+        "LIFLAGD3"
+      ],
+      "source_crc32": "1588607e",
+      "source_size": [
+        32,
+        32
+      ],
+      "bindings": [
+        {
+          "member": 11,
+          "slot": 9
+        }
+      ],
+      "image": "textures/oulton-rest-liflagd3.webp",
+      "crc32": "9af6a52a",
+      "bytes": 8158,
+      "size": [
+        512,
+        512
+      ]
+    },
+    {
+      "names": [
+        "LIFLAGK1"
+      ],
+      "source_crc32": "ed8df20a",
+      "source_size": [
+        32,
+        32
+      ],
+      "bindings": [
+        {
+          "member": 11,
+          "slot": 10
+        }
+      ],
+      "image": "textures/oulton-rest-liflagk1.webp",
+      "crc32": "96b65e85",
+      "bytes": 9966,
+      "size": [
+        512,
+        512
+      ]
+    },
+    {
+      "names": [
+        "LIFLAGK2"
+      ],
+      "source_crc32": "95045ce8",
+      "source_size": [
+        32,
+        32
+      ],
+      "bindings": [
+        {
+          "member": 11,
+          "slot": 11
+        }
+      ],
+      "image": "textures/oulton-rest-liflagk2.webp",
+      "crc32": "affadd00",
+      "bytes": 10598,
+      "size": [
+        512,
+        512
+      ]
+    },
+    {
+      "names": [
+        "LIFLAGK3"
+      ],
+      "source_crc32": "fa2b04e5",
+      "source_size": [
+        32,
+        32
+      ],
+      "bindings": [
+        {
+          "member": 11,
+          "slot": 12
+        }
+      ],
+      "image": "textures/oulton-rest-liflagk3.webp",
+      "crc32": "e89ea1f8",
+      "bytes": 11160,
+      "size": [
+        512,
+        512
+      ]
+    }
+  ]
+}

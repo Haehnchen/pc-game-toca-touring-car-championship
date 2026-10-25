@@ -1,0 +1,1013 @@
+{
+  "version": 1,
+  "package": "MT04 Donington huts, welcome sign, spectators, cafe, truss, venue signs and DENSO tower",
+  "webp_quality": 80,
+  "max_texture_edge": 512,
+  "policy": "Direct source-specific replacements; existing UVs, material slots, placements and silhouettes unchanged. Source pixels used only for review, never copied into new RGB art. Crop outer AI presentation padding then downsample with Lanczos and encode WebP80 method6.",
+  "sources": [
+    {
+      "id": "DA01MAR",
+      "file": "exec-f5beb886-72b6-4d5e-a7c3-0f5cf5620db6.png",
+      "crc32": "e9a98378",
+      "size": [
+        1254,
+        1254
+      ],
+      "reference_file": "DA01MAR-8db838a2-layout.png"
+    },
+    {
+      "id": "DA11WEL1",
+      "file": "exec-4d74dc2c-c672-4da6-955a-c4bdbda9a28b.png",
+      "crc32": "d2a046b3",
+      "size": [
+        1254,
+        1254
+      ],
+      "reference_file": "DA11WEL1-1919edd1-layout.png"
+    },
+    {
+      "id": "DA11WEL2",
+      "file": "exec-b153b60f-2ace-4936-88b1-048fdafa46ed.png",
+      "crc32": "db5a5063",
+      "size": [
+        1254,
+        1254
+      ],
+      "reference_file": "DA11WEL2-bb8207cc-layout.png"
+    },
+    {
+      "id": "TH19SB1",
+      "file": "exec-cc234449-5955-4f88-ac36-8ee911243de3.png",
+      "crc32": "13496f49",
+      "size": [
+        1774,
+        887
+      ],
+      "reference_file": "TH19SB1-f5e5f660-layout.png"
+    },
+    {
+      "id": "TH19SB2",
+      "file": "exec-29a9503e-1437-4b3e-81a3-226064f626e7.png",
+      "crc32": "d0957cd6",
+      "size": [
+        1774,
+        887
+      ],
+      "reference_file": "TH19SB2-a4f0478a-layout.png"
+    },
+    {
+      "id": "DA60PIS1",
+      "file": "exec-017ef13b-c46e-4864-ae78-907b6b245b5e.png",
+      "crc32": "f66bcf78",
+      "size": [
+        2172,
+        724
+      ],
+      "reference_file": "DA60PIS1-04eea3e4-layout.png",
+      "drafts": [
+        {
+          "path": "exec-cba252de-aea7-45e7-82a5-62a18c8095fa.png",
+          "spec": {
+            "name": "DA60PIS1",
+            "transparent": true,
+            "reference_file": "DA60PIS1-04eea3e4-layout.png",
+            "source_size": [
+              128,
+              32
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "DA60PIS2",
+      "file": "exec-83ce7aa9-fa62-4665-8bd1-4566d08162ce.png",
+      "crc32": "da1129e2",
+      "size": [
+        1254,
+        1254
+      ],
+      "reference_file": "DA60PIS2-b11d34f9-layout.png",
+      "drafts": [
+        {
+          "path": "exec-ecc6d89e-13ef-4c93-9da8-1c98649ab59d.png",
+          "spec": {
+            "name": "DA60PIS2",
+            "transparent": true,
+            "reference_file": "DA60PIS2-b11d34f9-layout.png",
+            "source_size": [
+              32,
+              32
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "DA26CO5",
+      "file": "exec-0ba335ff-57c6-48cd-83f0-2ee6a3e55450.png",
+      "crc32": "41de820f",
+      "size": [
+        2171,
+        724
+      ],
+      "reference_file": "DA26CO5-800c3723-layout.png"
+    },
+    {
+      "id": "DA26CON6",
+      "file": "exec-94d5b8c6-afc7-488d-bdce-f810863362d4.png",
+      "crc32": "40dc3883",
+      "size": [
+        1254,
+        1254
+      ],
+      "reference_file": "DA26CON6-2fd94713-layout.png"
+    },
+    {
+      "id": "DA26CO5A",
+      "file": "exec-a16b222e-b77b-433a-85aa-b95657538b03.png",
+      "crc32": "2b07dc6f",
+      "size": [
+        2172,
+        724
+      ],
+      "reference_file": "DA26CO5A-d035a613-layout.png"
+    },
+    {
+      "id": "DA26CO5B",
+      "file": "exec-ee341a84-a4ca-40aa-97ce-6e27e3db2e7b.png",
+      "crc32": "2949a356",
+      "size": [
+        2172,
+        724
+      ],
+      "reference_file": "DA26CO5B-8b53883d-layout.png"
+    },
+    {
+      "id": "DA26CO5C",
+      "file": "exec-7380f102-ce53-4647-9785-db589dd97bd9.png",
+      "crc32": "b01d4a6d",
+      "size": [
+        2172,
+        724
+      ],
+      "reference_file": "DA26CO5C-5b751bcf-layout.png"
+    },
+    {
+      "id": "DA14SPK3",
+      "file": "exec-a1ec7ce0-27b0-4bc6-bcb7-eeff7487d9f6.png",
+      "crc32": "f1ef4256",
+      "size": [
+        1774,
+        887
+      ],
+      "reference_file": "DA14SPK3-05b0fb4c-layout.png"
+    },
+    {
+      "id": "DA14SPK4",
+      "file": "exec-768d7276-badf-4939-b12d-89e484e133e1.png",
+      "crc32": "585325a8",
+      "size": [
+        2172,
+        724
+      ],
+      "reference_file": "DA14SPK4-c7d890c1-layout.png"
+    },
+    {
+      "id": "DA14SPK5",
+      "file": "exec-7a78c721-91ea-4f24-822d-c2b039db9478.png",
+      "crc32": "15c88ede",
+      "size": [
+        1254,
+        1254
+      ],
+      "reference_file": "DA14SPK5-22420526-layout.png"
+    },
+    {
+      "id": "DA14SPK6",
+      "file": "exec-c4ffa073-8db6-4f34-839b-783714f7bbbb.png",
+      "crc32": "b50542ee",
+      "size": [
+        2172,
+        724
+      ],
+      "reference_file": "DA14SPK6-50136c6c-layout.png"
+    },
+    {
+      "id": "DA14SPK7",
+      "file": "exec-a46fecfb-f125-48dd-81e5-1fffa0f2bc19.png",
+      "crc32": "7cedae7e",
+      "size": [
+        887,
+        1774
+      ],
+      "reference_file": "DA14SPK7-878e93bf-layout.png"
+    },
+    {
+      "id": "DA14SPK8",
+      "file": "exec-b66a443b-be98-4142-81ad-4f861c8247d1.png",
+      "crc32": "c492fd06",
+      "size": [
+        887,
+        1774
+      ],
+      "reference_file": "DA14SPK8-405c98f0-layout.png"
+    },
+    {
+      "id": "DA44TRN0",
+      "file": "exec-d69a93f1-c5cd-4eb8-86eb-05299b00d8d3.png",
+      "crc32": "25486677",
+      "size": [
+        2172,
+        724
+      ],
+      "reference_file": "DA44TRN0-77ac3fe6-layout.png"
+    },
+    {
+      "id": "DA44TRN2",
+      "file": "exec-520accf6-6298-41c9-94af-82b23cc6998f.png",
+      "crc32": "fd9c1bc7",
+      "size": [
+        1254,
+        1254
+      ],
+      "reference_file": "DA44TRN2-f6d76d59-layout.png"
+    },
+    {
+      "id": "DA44TRN4",
+      "file": "exec-d5de8852-29fa-496a-8b65-5574a7e12163.png",
+      "crc32": "c6fdb17f",
+      "size": [
+        1254,
+        1254
+      ],
+      "reference_file": "DA44TRN4-1772b01d-layout.png"
+    },
+    {
+      "id": "DA44TRN7",
+      "file": "exec-f07238f9-1280-48d2-b4b2-0edc93df1ac9.png",
+      "crc32": "c0fee4c7",
+      "size": [
+        2172,
+        724
+      ],
+      "reference_file": "DA44TRN7-a1042db2-layout.png"
+    },
+    {
+      "id": "DA44TRN8",
+      "file": "exec-35173cbf-0bfd-471b-a664-b5da3ae22765.png",
+      "crc32": "ebb4e452",
+      "size": [
+        1254,
+        1254
+      ],
+      "reference_file": "DA44TRN8-e64f98ee-layout.png"
+    },
+    {
+      "id": "DA44TRN9",
+      "file": "exec-aee3958a-95cc-4f2d-b308-6167d7ad98a8.png",
+      "crc32": "10dc95ef",
+      "size": [
+        1254,
+        1254
+      ],
+      "reference_file": "DA44TRN9-7ee51034-layout.png"
+    },
+    {
+      "id": "DA44TRNA",
+      "file": "exec-249bd43b-23ed-48ff-9414-7411a4d5ec33.png",
+      "crc32": "19a0d978",
+      "size": [
+        1774,
+        887
+      ],
+      "reference_file": "DA44TRNA-26fcd210-layout.png"
+    },
+    {
+      "id": "DA44TRN-WELCOME-WHOLE",
+      "file": "exec-63c5df4f-b7cf-4e5d-b6a1-a09de45fda55.png",
+      "crc32": "fafadbd7",
+      "size": [
+        2048,
+        768
+      ],
+      "reference_file": "DA44TRN6-df916c14-layout.png"
+    }
+  ],
+  "outputs": [
+    {
+      "image": "textures/dgp-props-da01mar.webp",
+      "source": "DA01MAR",
+      "crop": [
+        1254,
+        1254,
+        0,
+        0
+      ],
+      "size": [
+        512,
+        512
+      ],
+      "alpha": "opaque",
+      "source_names": [
+        "DA01MAR"
+      ],
+      "source_size": [
+        64,
+        64
+      ],
+      "source_crc32": "8db838a2",
+      "crc32": "eb9b9e63",
+      "bytes": 7834
+    },
+    {
+      "image": "textures/dgp-props-da11wel1.webp",
+      "source": "DA11WEL1",
+      "crop": [
+        1254,
+        1254,
+        0,
+        0
+      ],
+      "size": [
+        512,
+        512
+      ],
+      "alpha": "preserve",
+      "source_names": [
+        "DA11WEL1"
+      ],
+      "source_size": [
+        128,
+        128
+      ],
+      "source_crc32": "1919edd1",
+      "crc32": "7634dc88",
+      "bytes": 35334
+    },
+    {
+      "image": "textures/dgp-props-da11wel2.webp",
+      "source": "DA11WEL2",
+      "crop": [
+        1254,
+        1254,
+        0,
+        0
+      ],
+      "size": [
+        512,
+        512
+      ],
+      "alpha": "preserve",
+      "source_names": [
+        "DA11WEL2"
+      ],
+      "source_size": [
+        32,
+        32
+      ],
+      "source_crc32": "bb8207cc",
+      "crc32": "cad7cedf",
+      "bytes": 35628
+    },
+    {
+      "image": "textures/dgp-props-th19sb1.webp",
+      "source": "TH19SB1",
+      "crop": [
+        1774,
+        887,
+        0,
+        0
+      ],
+      "size": [
+        512,
+        256
+      ],
+      "alpha": "opaque",
+      "source_names": [
+        "TH19SB1"
+      ],
+      "source_size": [
+        64,
+        32
+      ],
+      "source_crc32": "f5e5f660",
+      "crc32": "ba24c1d8",
+      "bytes": 14770
+    },
+    {
+      "image": "textures/dgp-props-th19sb2.webp",
+      "source": "TH19SB2",
+      "crop": [
+        1774,
+        887,
+        0,
+        0
+      ],
+      "size": [
+        512,
+        256
+      ],
+      "alpha": "opaque",
+      "source_names": [
+        "TH19SB2"
+      ],
+      "source_size": [
+        64,
+        32
+      ],
+      "source_crc32": "a4f0478a",
+      "crc32": "5b2ae75d",
+      "bytes": 13014
+    },
+    {
+      "image": "textures/dgp-props-da60pis1.webp",
+      "source": "DA60PIS1",
+      "crop": [
+        2172,
+        543,
+        0,
+        90
+      ],
+      "size": [
+        512,
+        128
+      ],
+      "alpha": "preserve",
+      "source_names": [
+        "DA60PIS1"
+      ],
+      "source_size": [
+        128,
+        32
+      ],
+      "source_crc32": "04eea3e4",
+      "crc32": "ba87850e",
+      "bytes": 15312
+    },
+    {
+      "image": "textures/dgp-props-da60pis2.webp",
+      "source": "DA60PIS2",
+      "crop": [
+        1254,
+        1254,
+        0,
+        0
+      ],
+      "size": [
+        512,
+        512
+      ],
+      "alpha": "preserve",
+      "source_names": [
+        "DA60PIS2"
+      ],
+      "source_size": [
+        32,
+        32
+      ],
+      "source_crc32": "b11d34f9",
+      "crc32": "6faf25d7",
+      "bytes": 21480
+    },
+    {
+      "image": "textures/dgp-props-da26co5.webp",
+      "source": "DA26CO5",
+      "crop": [
+        2171,
+        473,
+        0,
+        126
+      ],
+      "size": [
+        512,
+        128
+      ],
+      "alpha": "opaque",
+      "source_names": [
+        "DA26CO5"
+      ],
+      "source_size": [
+        128,
+        32
+      ],
+      "source_crc32": "800c3723",
+      "crc32": "9a1f9cd4",
+      "bytes": 2688
+    },
+    {
+      "image": "textures/dgp-props-da26con6.webp",
+      "source": "DA26CON6",
+      "crop": [
+        1254,
+        1254,
+        0,
+        0
+      ],
+      "size": [
+        512,
+        512
+      ],
+      "alpha": "opaque",
+      "source_names": [
+        "DA26CON6"
+      ],
+      "source_size": [
+        16,
+        16
+      ],
+      "source_crc32": "2fd94713",
+      "crc32": "715e510c",
+      "bytes": 1460
+    },
+    {
+      "image": "textures/dgp-props-da26co5a.webp",
+      "source": "DA26CO5A",
+      "crop": [
+        2172,
+        68,
+        0,
+        325
+      ],
+      "size": [
+        512,
+        16
+      ],
+      "alpha": "opaque",
+      "source_names": [
+        "DA26CO5A"
+      ],
+      "source_size": [
+        256,
+        8
+      ],
+      "source_crc32": "d035a613",
+      "crc32": "3a7ddbc9",
+      "bytes": 1946
+    },
+    {
+      "image": "textures/dgp-props-da26co5b.webp",
+      "source": "DA26CO5B",
+      "crop": [
+        2172,
+        70,
+        0,
+        323
+      ],
+      "size": [
+        512,
+        16
+      ],
+      "alpha": "opaque",
+      "source_names": [
+        "DA26CO5B"
+      ],
+      "source_size": [
+        256,
+        8
+      ],
+      "source_crc32": "8b53883d",
+      "crc32": "8c230bcb",
+      "bytes": 2270
+    },
+    {
+      "image": "textures/dgp-props-da26co5c.webp",
+      "source": "DA26CO5C",
+      "crop": [
+        2172,
+        78,
+        0,
+        323
+      ],
+      "size": [
+        512,
+        16
+      ],
+      "alpha": "opaque",
+      "source_names": [
+        "DA26CO5C"
+      ],
+      "source_size": [
+        256,
+        8
+      ],
+      "source_crc32": "5b751bcf",
+      "crc32": "063ecc33",
+      "bytes": 2692
+    },
+    {
+      "image": "textures/dgp-props-da14spk3.webp",
+      "source": "DA14SPK3",
+      "crop": [
+        1774,
+        887,
+        0,
+        0
+      ],
+      "size": [
+        512,
+        256
+      ],
+      "alpha": "opaque",
+      "source_names": [
+        "DA14SPK3"
+      ],
+      "source_size": [
+        64,
+        32
+      ],
+      "source_crc32": "05b0fb4c",
+      "crc32": "720884c9",
+      "bytes": 2198
+    },
+    {
+      "image": "textures/dgp-props-da14spk4.webp",
+      "source": "DA14SPK4",
+      "crop": [
+        2172,
+        382,
+        0,
+        158
+      ],
+      "size": [
+        512,
+        128
+      ],
+      "alpha": "opaque",
+      "source_names": [
+        "DA14SPK4"
+      ],
+      "source_size": [
+        64,
+        16
+      ],
+      "source_crc32": "c7d890c1",
+      "crc32": "c80f5ce0",
+      "bytes": 1060
+    },
+    {
+      "image": "textures/dgp-props-da14spk5.webp",
+      "source": "DA14SPK5",
+      "crop": [
+        1254,
+        1254,
+        0,
+        0
+      ],
+      "size": [
+        512,
+        512
+      ],
+      "alpha": "opaque",
+      "source_names": [
+        "DA14SPK5"
+      ],
+      "source_size": [
+        64,
+        64
+      ],
+      "source_crc32": "22420526",
+      "crc32": "d8704547",
+      "bytes": 5968
+    },
+    {
+      "image": "textures/dgp-props-da14spk6.webp",
+      "source": "DA14SPK6",
+      "crop": [
+        2172,
+        390,
+        0,
+        166
+      ],
+      "size": [
+        512,
+        128
+      ],
+      "alpha": "opaque",
+      "source_names": [
+        "DA14SPK6"
+      ],
+      "source_size": [
+        64,
+        16
+      ],
+      "source_crc32": "50136c6c",
+      "crc32": "7f0dc70f",
+      "bytes": 2176
+    },
+    {
+      "image": "textures/dgp-props-da14spk7.webp",
+      "source": "DA14SPK7",
+      "crop": [
+        887,
+        1774,
+        0,
+        0
+      ],
+      "size": [
+        256,
+        512
+      ],
+      "alpha": "opaque",
+      "source_names": [
+        "DA14SPK7"
+      ],
+      "source_size": [
+        32,
+        64
+      ],
+      "source_crc32": "878e93bf",
+      "crc32": "6c42ae52",
+      "bytes": 2274
+    },
+    {
+      "image": "textures/dgp-props-da14spk8.webp",
+      "source": "DA14SPK8",
+      "crop": [
+        887,
+        1774,
+        0,
+        0
+      ],
+      "size": [
+        256,
+        512
+      ],
+      "alpha": "opaque",
+      "source_names": [
+        "DA14SPK8"
+      ],
+      "source_size": [
+        32,
+        64
+      ],
+      "source_crc32": "405c98f0",
+      "crc32": "bab73802",
+      "bytes": 3142
+    },
+    {
+      "image": "textures/dgp-props-da44trn0.webp",
+      "source": "DA44TRN0",
+      "crop": [
+        2172,
+        228,
+        0,
+        247
+      ],
+      "size": [
+        512,
+        64
+      ],
+      "alpha": "opaque",
+      "source_names": [
+        "DA44TRN0"
+      ],
+      "source_size": [
+        128,
+        16
+      ],
+      "source_crc32": "77ac3fe6",
+      "crc32": "2d949310",
+      "bytes": 5380
+    },
+    {
+      "image": "textures/dgp-props-da44trn2.webp",
+      "source": "DA44TRN2",
+      "crop": [
+        1254,
+        1254,
+        0,
+        0
+      ],
+      "size": [
+        512,
+        512
+      ],
+      "alpha": "opaque",
+      "source_names": [
+        "DA44TRN2"
+      ],
+      "source_size": [
+        64,
+        64
+      ],
+      "source_crc32": "f6d76d59",
+      "crc32": "24a7ef5e",
+      "bytes": 11890
+    },
+    {
+      "image": "textures/dgp-props-da44trn4.webp",
+      "source": "DA44TRN4",
+      "crop": [
+        1254,
+        1254,
+        0,
+        0
+      ],
+      "size": [
+        512,
+        512
+      ],
+      "alpha": "opaque",
+      "source_names": [
+        "DA44TRN4"
+      ],
+      "source_size": [
+        64,
+        64
+      ],
+      "source_crc32": "1772b01d",
+      "crc32": "7970ea37",
+      "bytes": 2812
+    },
+    {
+      "image": "textures/dgp-props-da44trn7.webp",
+      "source": "DA44TRN7",
+      "crop": [
+        2172,
+        375,
+        0,
+        171
+      ],
+      "size": [
+        512,
+        128
+      ],
+      "alpha": "opaque",
+      "source_names": [
+        "DA44TRN7"
+      ],
+      "source_size": [
+        128,
+        32
+      ],
+      "source_crc32": "a1042db2",
+      "crc32": "d5e94f61",
+      "bytes": 1404
+    },
+    {
+      "image": "textures/dgp-props-da44trn8.webp",
+      "source": "DA44TRN8",
+      "crop": [
+        1254,
+        1254,
+        0,
+        0
+      ],
+      "size": [
+        512,
+        512
+      ],
+      "alpha": "opaque",
+      "source_names": [
+        "DA44TRN8"
+      ],
+      "source_size": [
+        64,
+        64
+      ],
+      "source_crc32": "e64f98ee",
+      "crc32": "4d4a2306",
+      "bytes": 4494
+    },
+    {
+      "image": "textures/dgp-props-da44trn9.webp",
+      "source": "DA44TRN9",
+      "crop": [
+        1254,
+        1254,
+        0,
+        0
+      ],
+      "size": [
+        512,
+        512
+      ],
+      "alpha": "opaque",
+      "source_names": [
+        "DA44TRN9"
+      ],
+      "source_size": [
+        32,
+        32
+      ],
+      "source_crc32": "7ee51034",
+      "crc32": "182731e9",
+      "bytes": 2118
+    },
+    {
+      "image": "textures/dgp-props-da44trna.webp",
+      "source": "DA44TRNA",
+      "crop": [
+        1774,
+        887,
+        0,
+        0
+      ],
+      "size": [
+        512,
+        256
+      ],
+      "alpha": "opaque",
+      "source_names": [
+        "DA44TRNA"
+      ],
+      "source_size": [
+        32,
+        16
+      ],
+      "source_crc32": "26fcd210",
+      "crc32": "8b685980",
+      "bytes": 1104
+    },
+    {
+      "image": "textures/dgp-props-da44trn6.webp",
+      "source": "DA44TRN6",
+      "crop": [
+        1056,
+        254,
+        0,
+        254
+      ],
+      "size": [
+        512,
+        128
+      ],
+      "alpha": "opaque",
+      "source_names": [
+        "DA44TRN6"
+      ],
+      "source_size": [
+        128,
+        32
+      ],
+      "source_crc32": "df916c14",
+      "crc32": "8c0cd69d",
+      "bytes": 7990
+    },
+    {
+      "image": "textures/dgp-props-da44trn5.webp",
+      "source": "DA44TRN5",
+      "crop": [
+        992,
+        254,
+        1056,
+        254
+      ],
+      "size": [
+        512,
+        128
+      ],
+      "alpha": "opaque",
+      "source_names": [
+        "DA44TRN5"
+      ],
+      "source_size": [
+        128,
+        32
+      ],
+      "source_crc32": "496d2343",
+      "crc32": "b0fdd299",
+      "bytes": 8328
+    }
+  ],
+  "reused": [
+    {
+      "name": "TH19SB3",
+      "source_bmp_crc32": "afe4672e",
+      "image": "textures/fence-green.webp",
+      "crc32": "19947af5",
+      "review": "Source and authored image are opaque dark green vertical wooden boards; current material is crisp and retains same motif, source palette and boundary phase. Reuse with local clubhouse QA."
+    },
+    {
+      "name": "LPEOPLE2",
+      "source_bmp_crc32": "e315df05",
+      "image": "textures/donington-spectators-lpeople2.webp",
+      "crc32": "e60c6411",
+      "review": "Concurrent shared source-matched spectator package retained; camera equipment and paired silhouettes follow canonical source. See donington-spectators-generation.json for authorship and native checks.",
+      "accepted_package_commit": "e25d212"
+    },
+    {
+      "name": "LPEOPLE3",
+      "source_bmp_crc32": "18bcdf80",
+      "image": "textures/donington-spectators-lpeople3.webp",
+      "crc32": "45d5bdb2",
+      "review": "Concurrent shared source-matched spectator package retained; camera equipment and paired silhouettes follow canonical source. See donington-spectators-generation.json for authorship and native checks.",
+      "accepted_package_commit": "e25d212"
+    },
+    {
+      "name": "LPEOPLE5",
+      "source_bmp_crc32": "ea97fb62",
+      "image": "textures/donington-spectators-lpeople5.webp",
+      "crc32": "c54249dd",
+      "review": "Concurrent shared source-matched spectator package retained; camera equipment and paired silhouettes follow canonical source. See donington-spectators-generation.json for authorship and native checks.",
+      "accepted_package_commit": "e25d212"
+    }
+  ],
+  "reconstruction": {
+    "DA01MAR": "Tiny source red/yellow/black panel kept as a simple source-colored oil-can motif; small dark marshal silhouette remains behind original left window.",
+    "TH19SB2": "Related canonical Thruxton TH19SB2 checked, no sharper lettering. Tiny gold fascia caption reconstructed as CIRCUIT CAFE, preserving source position and colors.",
+    "DA14SPK4": "Pale source monogram reconstructed from related sharper DA14SPK8 ND mark; DENSO word and ND source positions retained.",
+    "DA44TRN5/6": "One continuous AI-authored WELCOME TO DONINGTON PARK banner split after DO, matching the source material seam; original two badges retained. The source UV samples exclude the final 3.224% of each half."
+  }
+}
